@@ -82,20 +82,54 @@
     .stat-label { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
     .container { max-width: 900px; margin: 0 auto; padding: 0 24px 80px; }
     .series {
-      margin-bottom: 40px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--surface);
+      transition: border-color 0.25s ease;
     }
+    .series[open] { border-color: rgba(255,255,255,0.15); }
     .series-header {
       display: flex;
       align-items: baseline;
       gap: 14px;
-      margin-bottom: 16px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--border);
+      padding: 16px 18px;
+      cursor: pointer;
+      list-style: none;
+      user-select: none;
+      transition: background 0.25s ease;
+      border-radius: 14px;
     }
+    .series-header::-webkit-details-marker { display: none; }
+    .series-header:hover { background: var(--card-hover); }
+    .series-header::after {
+      content: '▸';
+      margin-left: auto;
+      font-size: 16px;
+      color: var(--text-muted);
+      transform: rotate(0deg);
+      transition: transform 0.25s ease;
+      align-self: center;
+    }
+    .series[open] .series-header::after { transform: rotate(90deg); }
     .series-title { font-size: 24px; font-weight: 800; }
     .series-meta { font-size: 13px; color: var(--text-muted); }
     .series-sub { font-size: 14px; color: var(--text-secondary); line-height: 1.7; }
-    .episodes { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .episodes {
+      display: none;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+      padding: 4px 18px 18px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .series[open] .episodes {
+      display: grid;
+      opacity: 1;
+    }
+    @starting-style {
+      .series[open] .episodes { opacity: 0; }
+    }
     .card {
       display: block;
       background: var(--surface);
@@ -231,7 +265,7 @@
 
         dramas.forEach(drama => {
           const items = groups[drama].sort((a, b) => (a.episode || '').localeCompare(b.episode || '', 'zh'));
-          const series = document.createElement('div');
+          const series = document.createElement('details');
           series.className = 'series';
 
           const total = items.length;
@@ -239,11 +273,11 @@
           const metaBits = [total + ' 集已总结'];
           if (first.duration) metaBits.push(first.duration + '/集');
 
-          series.innerHTML =
-            '<div class="series-header">' +
+          const header = document.createElement('summary');
+          header.className = 'series-header';
+          header.innerHTML =
               '<div class="series-title">' + escapeHtml(drama) + '</div>' +
-              '<div class="series-meta">' + escapeHtml(metaBits.join(' · ')) + '</div>' +
-            '</div>';
+              '<div class="series-meta">' + escapeHtml(metaBits.join(' · ')) + '</div>';
 
           const episodes = document.createElement('div');
           episodes.className = 'episodes';
@@ -272,6 +306,7 @@
             episodes.appendChild(card);
           });
 
+          series.appendChild(header);
           series.appendChild(episodes);
           list.appendChild(series);
         });
