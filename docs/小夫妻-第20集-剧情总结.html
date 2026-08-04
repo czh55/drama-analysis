@@ -26,6 +26,13 @@ h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1
 .hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
 .hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
 .chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
 .page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
 .sidebar { position:sticky; top:20px; min-width:0; }
 .sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
@@ -47,7 +54,16 @@ h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1
 .quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
 .quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
 .quotes ul { margin:0; padding-left:18px; }
-.quotes li { margin:4px 0; color:#3d6d6b; font-size:.92rem; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
 .section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
 .section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
 .overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
@@ -110,6 +126,17 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
             <span class="chip">45 分钟</span>
             <span class="chip">8 个场景</span>
             <span class="chip">共 36 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
           </div>
         </div>
       </div>
@@ -275,11 +302,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>车莉赶紧澄清：「我没有质疑你！我看到她成绩往上涨了，怎么会质疑你呢？」周全这才舒展眉头：「我给你做个鸡蛋西红柿面，加油加油！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「是我们俩的亲子时间，不要打扰我们！」</li>
-<li>「艾文跟我说，妈妈我好累呀，能不能别太急。」</li>
-<li>「我没有质疑你，我看到她成绩往上涨了，怎么会质疑你呢？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「是我们俩的亲子时间，不要打扰我们！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's our parent-child time—don't disturb us!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「艾文跟我说，妈妈我好累呀，能不能别太急。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Aiwen told me, 'Mommy, I'm so tired—can we not rush so much?'"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我没有质疑你，我看到她成绩往上涨了，怎么会质疑你呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm not questioning you—I've seen her grades go up. How could I doubt you?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -297,11 +348,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>周全却认真地接住了话：「爸，您不用跟我妈说交友话，您大胆说，然后您可以回去说，让全世界的人都知道您生了一个傻儿子，行了吧？」父子俩一时剑拔弩张。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我想重新出去找工作。」「你在家待了多久了，你知道现在世界发展有多快吗？」</li>
-<li>「公众号经理人现在改成摇号了，所有的公众号都在转！」</li>
-<li>「您大胆说，让全世界都知道您生了一个傻儿子！」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我想重新出去找工作。」「你在家待了多久了，你知道现在世界发展有多快吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I want to go out and find a job again." "How long have you been home? Do you know how fast the world is changing?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「公众号经理人现在改成摇号了，所有的公众号都在转！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The public-account manager program now runs on a lottery system—every account is sharing the news!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「您大胆说，让全世界都知道您生了一个傻儿子！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Go ahead and say it loudly—let the whole world know you raised a foolish son!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -320,11 +395,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>第二天，车莉定了周一去看学校：「早看早好，心里踏实，免得你着急。」周全问：「那你不工作吗？」车莉答：「我加班，明天肯定有时间。」她转身去给他煮饺子——「见耐吗」成了两人心照不宣的暗号。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我照顾艾文就是我的 KPI，我达成目标才有成就感。」</li>
-<li>「咱家未来可期！公众号火了，你当全职爸爸顺手，艾文冰球也学得好。」</li>
-<li>「咱们确实还是得做两手准备，要不要再去看看别的学校？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我照顾艾文就是我的 KPI，我达成目标才有成就感。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Caring for Aiwen is my KPI—I only feel fulfilled when I hit my targets."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「咱家未来可期！公众号火了，你当全职爸爸顺手，艾文冰球也学得好。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Our family's future is bright! The public account is booming, you're thriving as a stay-at-home dad, and Aiwen's hockey is coming along."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「咱们确实还是得做两手准备，要不要再去看看别的学校？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We really should prepare a backup plan—should we go look at other schools?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -343,11 +442,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>好在一场虚惊——孩子被人送到保安室。周全抱着安然无恙的艾文，手还在发抖：「你妈一直找着你，孩子睡着了。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「是不是炸弹要被炸毁、跑人通通完蛋的那种意外？」</li>
-<li>「那咱们得去！你和妈妈一直告诉我要多帮助人。」</li>
-<li>「孩子丢了我就死了，我们全家都完了！」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「是不是炸弹要被炸毁、跑人通通完蛋的那种意外？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Is it the kind of accident where bombs blow up and all the bad guys perish?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「那咱们得去！你和妈妈一直告诉我要多帮助人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Then we have to go! You and Mommy always tell me to help people."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「孩子丢了我就死了，我们全家都完了！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If the child is lost, I'm dead—our whole family is finished!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -365,11 +488,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>另一边，师哥把酬劳硬塞给周全：「今天是你解决了我的大问题，这钱你必须得收。」他感慨，「对岸的风景永远更好看。但师弟，不管是在家里还是出去工作，你这么有能力，在哪儿都能找到你的成就感。」周全点点头，把这句话咽进了肚子里。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「现在这情况，你就是个笑话！」</li>
-<li>「你能保证以后她的态度不变吗？她要真看上了别人，你哭都来不及！」</li>
-<li>「不管是在家里还是出去工作，你这么有能力，在哪儿都能找到成就感。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「现在这情况，你就是个笑话！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"In this situation, you're nothing but a joke!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你能保证以后她的态度不变吗？她要真看上了别人，你哭都来不及！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Can you guarantee her attitude won't change? If she really falls for someone else, you'll be crying too late!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不管是在家里还是出去工作，你这么有能力，在哪儿都能找到成就感。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Whether at home or at work, with your ability you'll find fulfillment anywhere."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -387,11 +534,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「红是偶然，不红才是必然。」车莉若有所思。她决定顺势而为：「行，那就做起来吧！我这么多年的全职妈妈不是白当的！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「红是偶然，不红才是必然。」</li>
-<li>「这号就是得养，说不定这是黎明前最黑暗的时候。」</li>
-<li>「我就是在家里随手拍的，怎么就火了呢？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「红是偶然，不红才是必然。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Fame is an accident; obscurity is the rule."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这号就是得养，说不定这是黎明前最黑暗的时候。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This account needs nurturing—maybe this is the darkest hour before dawn."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我就是在家里随手拍的，怎么就火了呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I just casually filmed it at home—how did it go viral?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -409,11 +580,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>镜头那头的观众们隔着屏幕流口水，车莉却笑得眉眼弯弯——她终于找到了自己真正擅长、又真正热爱的事。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我现在可兴奋了，一点都不累！」</li>
-<li>「我这么多年的全职妈妈，不是白当的！」</li>
-<li>「不加一滴水，鲜味会非常好！」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我现在可兴奋了，一点都不累！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm so excited right now—I'm not tired at all!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我这么多年的全职妈妈，不是白当的！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"All my years as a stay-at-home mom weren't wasted!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不加一滴水，鲜味会非常好！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Not a drop of water added—the umami will be superb!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -431,11 +626,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>车莉听着，忽然觉得脚下的路亮了起来。她笑了：「师哥，这顿饭回头我单请！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「你们公众号可是情感头部，有什么不适合的？」</li>
-<li>「把任何一种人性探讨到极致都会引发共鸣，往深了发、往精了做。」</li>
-<li>「一千个观众眼里，有一千个哈姆雷特。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「你们公众号可是情感头部，有什么不适合的？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your public account is a top emotional-content brand—what could possibly be unsuitable?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「把任何一种人性探讨到极致都会引发共鸣，往深了发、往精了做。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Exploring any facet of human nature to the fullest resonates with people—go deeper, go finer."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「一千个观众眼里，有一千个哈姆雷特。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"There are a thousand Hamlets in a thousand viewers' eyes."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e20/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -536,8 +755,118 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
         </div>
       </section>
 
-      <footer>本页剧情描述基于第 20 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准</footer>
+      <footer>本页剧情描述基于第 20 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
     </div>
   </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
 </body>
 </html>

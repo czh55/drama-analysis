@@ -26,6 +26,13 @@ h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1
 .hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
 .hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
 .chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
 .page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
 .sidebar { position:sticky; top:20px; min-width:0; }
 .sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
@@ -47,7 +54,16 @@ h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1
 .quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
 .quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
 .quotes ul { margin:0; padding-left:18px; }
-.quotes li { margin:4px 0; color:#3d6d6b; font-size:.92rem; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
 .section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
 .section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
 .overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
@@ -110,6 +126,17 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
             <span class="chip">45 分钟</span>
             <span class="chip">8 个场景</span>
             <span class="chip">共 36 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
           </div>
         </div>
       </div>
@@ -275,11 +302,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>车莉怔在原地。这是周全第一次对她说这么重的话。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我每一分钟都在理解你，但你不能没完没了。」</li>
-<li>「你如果想做一个女强人，这个世界有你做不完的事。」</li>
-<li>「我受够了『对不起』这三个字。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我每一分钟都在理解你，但你不能没完没了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've been understanding you every single minute—but you can't keep pushing without end."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你如果想做一个女强人，这个世界有你做不完的事。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you want to be a powerhouse woman, this world has endless work for you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我受够了『对不起』这三个字。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm sick of those three words: 'I'm sorry.'"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -297,11 +348,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>门外，艾文怯生生地问：「妈妈，刚刚是爸爸出去了吗？」车莉张了张嘴，一个字都说不出来。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我是女人，我在赚钱养家！没有我这么努力地工作，你们能舒舒服服吃喝玩乐吗？」</li>
-<li>「行，老板，那我辞职，不干了。」</li>
-<li>「妈妈，刚刚是爸爸出去了吗？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我是女人，我在赚钱养家！没有我这么努力地工作，你们能舒舒服服吃喝玩乐吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm a woman, and I'm the breadwinner! Without me working this hard, could you all sit back and enjoy life?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「行，老板，那我辞职，不干了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Fine, boss—I quit. I'm done."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「妈妈，刚刚是爸爸出去了吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Mommy, did Daddy just go out?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -319,11 +394,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>车莉终于崩溃：「我带你去外婆家，让外婆给你做最爱的炒饭好不好？」艾文这才安静下来。她给周全打了七八个电话，全部无人接听。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「你要真想帮我，帮我买两双袜子还有新的内裤——离家出走什么也没带。」</li>
-<li>「我要爸爸！我要爸爸！爸爸做的饭都是妈妈教的！」</li>
-<li>「妈妈昨天忘了呢。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「你要真想帮我，帮我买两双袜子还有新的内裤——离家出走什么也没带。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you really want to help, buy me two pairs of socks and some new underwear—I left home with nothing."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我要爸爸！我要爸爸！爸爸做的饭都是妈妈教的！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I want Daddy! I want Daddy! Everything Daddy cooks, Mommy taught him!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「妈妈昨天忘了呢。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Mommy forgot yesterday."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -341,11 +440,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「周全现在做全职爸爸，如果你想让你们这个家庭的日子持续稳定地向前去，你不能让周全心烦。」外婆的这句话，车莉听进去了。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「人家周全本来就挺不容易的，一大老爷们儿在家当全职爸爸，你怎么就不能换位思考？」</li>
-<li>「你反过来想，他要放你鸽子，你会不会生气？」</li>
-<li>「你得随机应变，最起码把周全哄好了吧？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「人家周全本来就挺不容易的，一大老爷们儿在家当全职爸爸，你怎么就不能换位思考？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Zhou Quan already has it hard enough—a grown man being a stay-at-home dad. Why can't you put yourself in his shoes?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你反过来想，他要放你鸽子，你会不会生气？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Think of it the other way—if he stood you up, wouldn't you be angry?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你得随机应变，最起码把周全哄好了吧？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You've got to improvise—at the very least, win Zhou Quan back over, right?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -363,11 +486,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>夜深了，周全凑到车莉耳边小声坦白：「其实是艾文在暗中偷偷打电话告诉我，无论如何都要把妈妈带回来的。」车莉又好气又好笑：「你这个『高贵的人』，以后能直接给我打电话吗？你让爸爸很没有面子……」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「爸爸，你在哪儿？我想你了，特别想你。」</li>
-<li>「一个高贵的人是要有契约精神的，所以我选择回来了。」</li>
-<li>「其实是艾文在暗中偷偷打电话，让我无论如何都要把妈妈带回来的。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「爸爸，你在哪儿？我想你了，特别想你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Daddy, where are you? I miss you—I miss you so much."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「一个高贵的人是要有契约精神的，所以我选择回来了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A noble person honors their commitments—so I've chosen to come back."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「其实是艾文在暗中偷偷打电话，让我无论如何都要把妈妈带回来的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Actually, it was Aiwen secretly calling me, asking me to bring Mommy home no matter what."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -385,11 +532,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「我明天会跟孟非谈的。」车莉说，「她要不同意，你就打她。」周全笑：「我不敢，打她。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「以后不管怎么吵架，你不能摔门就走。」「肯定不会。」</li>
-<li>「以后我会尽量每周抽出一天，陪你跟儿子。这是我自己想做的。」</li>
-<li>「我明天会跟孟非谈的。」「她要不同意，你就打她。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「以后不管怎么吵架，你不能摔门就走。」「肯定不会。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"From now on, no matter how we fight, you can't slam the door and storm off." "I definitely won't."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「以后我会尽量每周抽出一天，陪你跟儿子。这是我自己想做的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"From now on, I'll try to set aside one day a week for you and our son. This is something I want to do myself."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我明天会跟孟非谈的。」「她要不同意，你就打她。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'll talk to Meng Fei tomorrow." "If she disagrees, you should hit her."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -407,11 +578,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>孟非沉默片刻：「行，那这个商务我自己去谈，我试试跟他们磨一磨。」挂电话前，他由衷地说：「我发现我这一辈子是肯定不会生孩子的，尤其看到像你这样在职场上到底有多难了以后。」车莉笑了：「无论我后悔什么，我都不会后悔生了我儿子。他带给我的那种快乐，不是三言两语能说清的。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「周六周日如果要加班，只能有一天，我必须留一天陪儿子、陪家里人。」</li>
-<li>「不接咱们日前就不挣了呗？我孩子重要，我得陪他。」</li>
-<li>「无论我后悔什么，我都不会后悔生了我儿子。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「周六周日如果要加班，只能有一天，我必须留一天陪儿子、陪家里人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If weekends require overtime, it can only be one day—I must keep one day for my son and my family."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不接咱们日前就不挣了呗？我孩子重要，我得陪他。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Skip a job or two and we just earn less—my child matters more. I need to be with him."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「无论我后悔什么，我都不会后悔生了我儿子。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"No matter what I regret, I'll never regret having my son."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -429,11 +624,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「关机了！」周全爸爸把手机往桌上一拍，「给我……你把手机给我，摔坏了！」说完一甩袖子出门：「找老公，喝酒去！」可没走两步又折回来，「怎么又回来了？没脸见人！那咱把自己家的饭吃了不行吗？把菜给我放下！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我儿子那是正经的 985 大学计算机毕业的！」「您儿子可上电视了！」</li>
-<li>「不争气的玩意儿！你干什么呀？」</li>
-<li>「没脸见人！那咱把自己家的饭吃了不行吗？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我儿子那是正经的 985 大学计算机毕业的！」「您儿子可上电视了！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My son graduated in computer science from a top-985 university!" "Your son's on TV!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不争气的玩意儿！你干什么呀？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You worthless thing! What do you think you're doing?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「没脸见人！那咱把自己家的饭吃了不行吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Too ashamed to show your face! Then why not just eat your own family's food at home?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/xiao-fuqi-e17/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -529,8 +748,118 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
         </div>
       </section>
 
-      <footer>本页剧情描述基于第 17 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准</footer>
+      <footer>本页剧情描述基于第 17 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
     </div>
   </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
 </body>
 </html>

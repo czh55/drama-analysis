@@ -26,6 +26,13 @@ h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1
 .hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
 .hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
 .chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
 .page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
 .sidebar { position:sticky; top:20px; min-width:0; }
 .sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
@@ -47,7 +54,16 @@ h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1
 .quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
 .quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
 .quotes ul { margin:0; padding-left:18px; }
-.quotes li { margin:4px 0; color:#3d6d6b; font-size:.92rem; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
 .section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
 .section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
 .overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
@@ -110,6 +126,17 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
             <span class="chip">46 分钟</span>
             <span class="chip">16 个场景</span>
             <span class="chip">共 40 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
           </div>
         </div>
       </div>
@@ -293,11 +320,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「以后他们要是再欺负你，你就大声喊我张晓鸥的名字。」张调笑了：「行，子哥以后遇到困难，我就喊张晓鸥。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「三个欺负一个，算什么好汉！」</li>
-<li>「他们就是纸老虎，一捅就破的。」</li>
-<li>「以后他们要是再欺负你，你就大声喊我张晓鸥的名字。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「三个欺负一个，算什么好汉！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Three against one—what kind of hero is that!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「他们就是纸老虎，一捅就破的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"They're paper tigers—one poke and they burst."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「以后他们要是再欺负你，你就大声喊我张晓鸥的名字。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If they ever bully you again, just shout my name—Zhang Xiao'ou."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -314,10 +365,26 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「晓鸥，谢谢你，咱们好好的，咱们谁都不欠。」两个姑娘相视而笑。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「送了多少年的龙娇娇，我还是觉得做龙娇更开心。」</li>
-<li>「咱们好好的，咱们谁都不欠。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「送了多少年的龙娇娇，我还是觉得做龙娇更开心。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"After all these years of being 'Jiaojiao,' I still find being 'Jiao' makes me happier."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「咱们好好的，咱们谁都不欠。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Let's live well—we owe no one anything."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -335,11 +402,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「以后我们一定要一起坐。」「好！我去北京，那我去上海，我要去澳洲，我还想去三亚！」两个姑娘的笑声漫出病房。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「去山的那边、海的那边，并不远，买张机票就能过去。」</li>
-<li>「我都没坐过飞机。」「我也没坐过。」</li>
-<li>「以后我们一定要一起坐！」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「去山的那边、海的那边，并不远，买张机票就能过去。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Beyond the mountains, beyond the sea—it's not far. Just buy a plane ticket."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我都没坐过飞机。」「我也没坐过。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've never flown before." "Me neither."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「以后我们一定要一起坐！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We'll definitely fly together someday!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -361,12 +452,44 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>老牛一家人连声道谢，周筱风却望着背影轻轻叹气：「就收几个病人而已，不至于什么垂头丧气。但我就是愁，科室绩效又要被拖下去了。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「这样的病人可能会长期压床，反而加大了科室压力。」</li>
-<li>「我从小是姐姐带大的，我要给姐姐养老送终。」</li>
-<li>「如果你也说这病没得治了，我就带着姐姐回家。」</li>
-<li>「周主任，你帮帮我们。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「这样的病人可能会长期压床，反而加大了科室压力。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Such patients may occupy beds long-term, adding pressure to the department."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我从小是姐姐带大的，我要给姐姐养老送终。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My sister raised me—I'll care for her until the end."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「如果你也说这病没得治了，我就带着姐姐回家。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you also say there's no cure, I'll just take my sister home."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「周主任，你帮帮我们。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Director Zhou, please help us."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s4-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -386,11 +509,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>林逸低声对杜文正：「举贤不避亲。晓菱，你要好好努力。」「好，我努力，向方医生学习。」「那你要首先想办法能过了民主测评这一关，太难了！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「把今年的优秀医生称号授予 GICU 的方晓然！」</li>
-<li>「看来我们中心还是后继有人的嘛。」</li>
-<li>「向方医生学习。」「那你要先过了民主测评这一关，太难了！」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「把今年的优秀医生称号授予 GICU 的方晓然！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This year's Outstanding Doctor award goes to Fang Xiaoran of the GICU!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「看来我们中心还是后继有人的嘛。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Seems our center still has worthy successors."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「向方医生学习。」「那你要先过了民主测评这一关，太难了！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Learn from Dr. Fang." "Well, you'd have to pass the democratic evaluation first—that's the hard part!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -410,11 +557,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>方晓然看着两个大男人笑着摇头：「行了，你们俩差不多可以了。管他怎么说呢，我是什么样的，我自己心里清楚，不用太担心我。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我到了釜山医院，人家都叫我什么？」「方医生的男朋友！」</li>
-<li>「你也有点危机意识，不然你就不是周主任了。」</li>
-<li>「我是什么样的，我自己心里清楚，不用太担心我。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我到了釜山医院，人家都叫我什么？」「方医生的男朋友！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"When I go to Busan Hospital, what do people call me?" "Fang's boyfriend!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你也有点危机意识，不然你就不是周主任了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You've always got that sense of urgency—otherwise you wouldn't be Director Zhou."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我是什么样的，我自己心里清楚，不用太担心我。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I know who I am—don't worry about me too much."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -434,11 +605,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「这几个月的薪水都在这儿了，今天肯定大赚一笔！」小蕊数着林逸掏出的钱包笑，「我帮你，那肯定倾仓了！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「外科结，免得你鞋带总开。」</li>
-<li>「男子汉大丈夫，喜欢什么蝴蝶结。」</li>
-<li>「景区里有轮椅的绿色通道，到时候我坐着，你推我行吗？」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「外科结，免得你鞋带总开。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A surgeon's knot, so your shoelaces stop coming undone."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「男子汉大丈夫，喜欢什么蝴蝶结。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A real man—what's with the bowtie?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「景区里有轮椅的绿色通道，到时候我坐着，你推我行吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The scenic area has a wheelchair accessible route. I'll ride, and you push me—okay?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -457,11 +652,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>小言跑过来：「叔叔，这下有个松鼠！」张教授蹲下来：「你给她介绍一下，这个叫寿草。那我推荐你这个赤腹松鼠，它叫赤腹松鼠，我之前在花园里见到过。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「这组滴胶作品叫做《凝固的时间》。」</li>
-<li>「这个寿草很少见的，很难养活，可你养得真不错。」</li>
-<li>「这是我爸培育的人工苗，你挑一个。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「这组滴胶作品叫做《凝固的时间》。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This set of resin art is called 'Frozen Time'."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这个寿草很少见的，很难养活，可你养得真不错。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This longevity grass is very rare and hard to keep alive—you've done wonderfully with it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这是我爸培育的人工苗，你挑一个。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This is the cultivated seedling my dad grew—pick one."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -479,10 +698,26 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「核武器一定要有开关，开关交给你了。」周筱风捏着那个小玩意儿，难得地笑了。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「你就是心外科的核武器！」</li>
-<li>「核武器一定要有开关，开关交给你了。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「你就是心外科的核武器！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You are the nuclear weapon of cardiac surgery!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「核武器一定要有开关，开关交给你了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A nuclear weapon must have a switch—and I'm handing it to you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -503,11 +738,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「也许未来有一天，心肌病可能只需要打一针，一针根治。」张教授感慨，「不过我已经退休了，要靠你们年轻人努力了。真希望这一天早点到来，这样他们就不用连一场感冒都害怕了。要有信心，未来在你们手里。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「如果我们能明确心肌病的致病基因，精准靶向心肌细胞，完成基因改写，治病救人。」</li>
-<li>「只是目前这个工具还受限于它所携带的基因片段的大小。」</li>
-<li>「也许未来有一天，心肌病可能只需要打一针，一针根治。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「如果我们能明确心肌病的致病基因，精准靶向心肌细胞，完成基因改写，治病救人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If we can pinpoint the genes behind cardiomyopathy and precisely target heart muscle cells for gene editing, we can cure disease."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「只是目前这个工具还受限于它所携带的基因片段的大小。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"But for now, this tool is limited by the size of the gene segments it can carry."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「也许未来有一天，心肌病可能只需要打一针，一针根治。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Maybe one day, cardiomyopathy can be cured with a single injection—one shot, fully cured."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -528,11 +787,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「但是呢，她天天用外科结给我系的鞋带，实在是太丑了，连蝴蝶结都不会系，我还怎么蝴蝶振翅呢？」林逸在台下喊：「行，下次给你系蝴蝶结！」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「我叫林希瑞，马上二十岁，确诊扩心病三年，现在是刚刚改造完成的第一版。」</li>
-<li>「自从我装了这个三腔起搏器，我现在见的好看的女孩，我都得绕道走，因为我一心动那是真的来呀！」</li>
-<li>「狐狸每煽动一次翅膀，都有机会引起爱的旋风。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「我叫林希瑞，马上二十岁，确诊扩心病三年，现在是刚刚改造完成的第一版。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm Lin Xirui, about to turn twenty, diagnosed with dilated cardiomyopathy for three years—and this is my newly upgraded first edition."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s11-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「自从我装了这个三腔起搏器，我现在见的好看的女孩，我都得绕道走，因为我一心动那是真的来呀！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Since getting this triple-chamber pacemaker, I have to detour around any pretty girl—because when my heart flutters, it really comes on!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s11-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「狐狸每煽动一次翅膀，都有机会引起爱的旋风。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Every time a fox flaps its wings, there's a chance it stirs up a whirlwind of love."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s11-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -551,11 +834,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「你不能只看眼前。大家一起努力，真心对待病人，认真做好口碑，长期来看，绩效一定会上去的。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「实在是拿不出来钱了，主动把医保卡押在这儿。」</li>
-<li>「临走的时候，还给我们医生办公室送了这么一堆花生。」</li>
-<li>「你不能只看眼前，长期来看，绩效一定会上去的。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「实在是拿不出来钱了，主动把医保卡押在这儿。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"They couldn't come up with the money, so they left their medical insurance card as collateral."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s12-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「临走的时候，还给我们医生办公室送了这么一堆花生。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Before leaving, they brought a whole pile of peanuts to our doctors' office."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s12-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你不能只看眼前，长期来看，绩效一定会上去的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't just look at the short term—in the long run, the performance will rise."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s12-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -581,12 +888,44 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>方晓然笑着点破他：「你这个人啊，就是嘴硬心软。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「今天是我跟他跟的第一百台手术，我一定要得到他的第一句表扬！」</li>
-<li>「我已经给过你一百次机会，你觉得我会蠢到给你一百零一次吗？」</li>
-<li>「你牛，你最牛，你天下第一牛！我蠢，我就是蠢驴！」</li>
-<li>「你这个人啊，就是嘴硬心软。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「今天是我跟他跟的第一百台手术，我一定要得到他的第一句表扬！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Today is my hundredth surgery with him—I'm determined to earn his first word of praise!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s13-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我已经给过你一百次机会，你觉得我会蠢到给你一百零一次吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've already given you a hundred chances—do you think I'm stupid enough to give a hundred and one?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s13-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你牛，你最牛，你天下第一牛！我蠢，我就是蠢驴！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're great, the greatest, number one in the world! I'm the fool—a complete jackass!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s13-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你这个人啊，就是嘴硬心软。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're all bark and no bite—tough words, soft heart."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s13-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -612,12 +951,44 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「医院的科研中心定期会有培训，你关注一下公众号，有空就多去，培训室的模型和教具也对院内医生开放，你只要提前约就好。多学、多看，一定会有帮助的。」</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「你现在做的工作，还没有到拼天赋的时候，努力成为一名合格的外科医生还是可以实现的。」</li>
-<li>「先学好走路，别着急跑。」</li>
-<li>「他现在天赋异禀，但他私下花的努力也比别人多得多。」</li>
-<li>「我就想成为像林医生那样的人，通过自己的手，可以救很多很多人的命。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「你现在做的工作，还没有到拼天赋的时候，努力成为一名合格的外科医生还是可以实现的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your current work isn't at the talent-deciding stage yet—becoming a qualified surgeon through hard work is still achievable."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s14-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「先学好走路，别着急跑。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Learn to walk first—don't rush to run."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s14-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「他现在天赋异禀，但他私下花的努力也比别人多得多。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"He's gifted, sure—but he also works far harder than everyone else behind the scenes."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s14-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我就想成为像林医生那样的人，通过自己的手，可以救很多很多人的命。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I want to become someone like Dr. Lin—saving many, many lives with my own hands."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s14-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -635,11 +1006,35 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「来，我们合个影！」「合个影合个影！」「大家的心里话林主任收到了！」闪光灯里，林逸难得笑得毫无防备。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「感谢你们的救命之恩！」</li>
-<li>「这真是我见过最接地气的锦旗了。」</li>
-<li>「都是心里话嘛，心里话！」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「感谢你们的救命之恩！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Thank you for saving our lives!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s15-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这真是我见过最接地气的锦旗了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That's the most down-to-earth banner of honor I've ever seen."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s15-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「都是心里话嘛，心里话！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"They're honest words, straight from the heart!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s15-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -661,12 +1056,44 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
 <p>「别碰我。」林逸把笔帽一扔，守在监护仪前，一颗心悬在抢救的每一步里。</p>
       </div>
       <div class="quotes">
-        <p class="quotes-title">关键台词</p>
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
         <ul>
-          <li>「小锐！小锐！小锐！」</li>
-<li>「反复室颤，现在必须要上 ECMO 了。你是她的委托人，你同意吗？」</li>
-<li>「我有钱的，我存了很多钱，多少钱都行的！我们就装人工心脏！」</li>
-<li>「救护车转运肯定不行，得联系转运专机。」</li>
+          <li class="quote-item">
+      <div class="quote-zh">「小锐！小锐！小锐！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Xiaorui! Xiaorui! Xiaorui!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s16-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「反复室颤，现在必须要上 ECMO 了。你是她的委托人，你同意吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"She's in recurrent ventricular fibrillation—ECMO is necessary now. You're her designated decision-maker. Do you consent?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s16-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我有钱的，我存了很多钱，多少钱都行的！我们就装人工心脏！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I have money—I've saved a lot! Whatever it costs! We'll install the artificial heart!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s16-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「救护车转运肯定不行，得联系转运专机。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"An ambulance transfer won't do—we need to arrange a medical jet."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wenxin2-e20/s16-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
         </ul>
       </div>
     </section>
@@ -787,8 +1214,118 @@ footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem
         </div>
       </section>
 
-      <footer>本页剧情描述基于第 20 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准</footer>
+      <footer>本页剧情描述基于第 20 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
     </div>
   </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
 </body>
 </html>
