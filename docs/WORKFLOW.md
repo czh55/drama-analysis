@@ -9,13 +9,14 @@ Task Progress:
 - [ ] 1. 解析入口，得到剧集信息（剧名 + 集数 + 本地视频路径）
 - [ ] 2. ffmpeg 提取音频
 - [ ] 3. Whisper 转录（带时间戳 json）
-- [ ] 4. 场景切分 + 撰写剧情内容
+- [ ] 4. 场景切分 + 撰写剧情内容（content JSON 入库）
 - [ ] 5. 抽帧配图
-- [ ] 6. 生成 HTML（图文总结）
-- [ ] 7. 质量自检
-- [ ] 8. 更新 index.json
-- [ ] 9. Git 提交并推送到 main（**必须**，Pages 才能展示）
-- [ ] 10. 清理临时文件
+- [ ] 6. 关键台词英文翻译 + 批量生成朗读 MP3
+- [ ] 7. 生成 HTML（图文总结，含朗读功能）
+- [ ] 8. 质量自检
+- [ ] 9. 更新 index.json
+- [ ] 10. Git 提交并推送到 main（**必须**，Pages 才能展示）
+- [ ] 11. 清理临时文件
 ```
 
 ---
@@ -48,15 +49,15 @@ Task Progress:
 
 ### 方式 A：人工触发（当前主路径）
 
-本地环境执行完整 10 步流程（本机已有 ffmpeg / whisper / node）。
+本地环境执行完整 11 步流程（本机已有 ffmpeg / whisper / node / edge-tts）。
 
 ### 方式 B：Cursor Automation（半自动，待配置）
 
 由于视频是本地文件，automation **只负责下游步骤**，输入源由人工在本地生成：
 
-1. 人工本地完成 Step 2–6（转录/切分/抽帧/生成 HTML）
+1. 人工本地完成 Step 2–7（转录/切分/抽帧/翻译/生成 HTML）
 2. 通过 automation 触发（Webhook / GitHub Issue / cron），payload 提供 `drama` + `episode` 等元信息
-3. automation 执行 Step 7–10（自检 / 更新 index.json / push / 清理）
+3. automation 执行 Step 8–11（自检 / 更新 index.json / push / 清理）
 
 > 若未来改为视频托管在可下载的远程位置，可扩展为全自动模式（从 URL 下载 → 转录 → 总结 → 部署）。
 
@@ -111,9 +112,28 @@ python3 -m whisper /tmp/{slug}.wav --model small --language Chinese --output_dir
 | `body` | 2–4 段情节叙述（忠于转录、可润色） |
 | `quotes` | 2–4 条关键台词引用 |
 
+### quotes 格式（必须）
+
+`quotes` 使用**中英对象数组**，`en` 为必填（供英文朗读）：
+
+```json
+"quotes": [
+  {
+    "zh": "「我们要知晓最差的情况，但抱有好的期待。」",
+    "en": "We should know the worst-case scenario, but hold good expectations."
+  }
+]
+```
+
+> 兼容旧格式：纯字符串（只有 `zh`）也能渲染，但没有朗读按钮。**新内容必须写成对象。**
+
 ### 转录纠错（必做）
 
 Whisper 中文同音字错误必须先行校正（专有名词按语境/剧集资料修正，角色名可参考演职员表）。
+
+### content JSON 入库（必须）
+
+撰写完成的 content JSON 存入 **`content/{drama-拼音}/content-e{NN}.json`**（如 `content/wenxin2/content-e01.json`），随 Git 提交入库。**禁止只放在 /tmp**——content 是唯一可重渲染的源（HTML 由它生成、MP3 由它生成），丢失后该集将无法再升级模板或补朗读功能。目录按当前已有剧集：`content/wenxin2/`、`content/xiao-fuqi/`。
 
 ---
 
@@ -131,38 +151,83 @@ ffmpeg -y -ss 00:06:30 -i "{video}" -frames:v 1 docs/images/{slug}/hero.jpg
 
 ---
 
-## Step 6：生成 HTML
+## Step 6：关键台词英文翻译 + 批量生成朗读 MP3
+
+### 6a. 导出未翻译台词
+
+```bash
+python3 scripts/export-untranslated.py --dir content/wenxin2 --out /tmp/untranslated.txt
+```
+
+输出格式为按文件分组的 `「中文原文」` 列表，供人工或 LLM 批量翻译。
+
+### 6b. 翻译并写回（维护 content JSON）
+
+翻译为 JSON 映射文件（key 为 content 文件路径，value 为「中文原文 → 英文译文」的字典），再写回：
+
+```bash
+python3 scripts/apply-quote-en.py /tmp/translate-batch.json
+```
+
+脚本会把匹配的 `quotes` 字符串升级为 `{zh, en}` 对象。**对照译文必须与 content 原文逐字一致**（含「」与空格），否则匹配不上；遗漏的会打印在输出里，需人工补。
+
+### 6c. 批量生成英文朗读 MP3
+
+```bash
+python3 scripts/generate-quote-audio.py --dir content/wenxin2
+python3 scripts/generate-quote-audio.py --dir content/xiao-fuqi
+```
+
+- 使用 `edge-tts`（`en-US-JennyNeural`），产出 `docs/audio/{slug}/{scene_id}-{idx:02d}.mp3`
+- 命名强制两位索引（如 `s1-01.mp3`），与 HTML 中 `data-audio` 一致
+- 已存在的文件自动跳过（可重复执行）
+- 结束后核对：日志显示 `完成: N/N 条`，且 HTML 中每个 `data-audio` 引用都能找到对应文件
+
+---
+
+## Step 7：生成 HTML
 
 产出 `docs/{drama}-第{NN}集-剧情总结.html`，单文件、CSS 内嵌。页面模块顺序固定如下（与现行第 1 集 HTML 一致）：
 
-1. **Hero 头部**：剧名 + 集号 + 封面 hero.jpg + chips（时长/场景数/总集数）
+1. **Hero 头部**：剧名 + 集号 + 封面 hero.jpg + chips（时长/场景数/总集数）+ 朗读工具栏（语速选择、停止朗读）
 2. **Sticky 剧情地图侧边栏**：S1–Sn 锚点导航 + 底部「人生启示」入口（琥珀色徽章，`#lessons`）
 3. **剧情梗概**：一句话导读 + 全集概述
 4. **人生启示**：6 张「剧情情境 → 处世方法」卡片（标注源自场景，如「源自 S5 · 校园风波」），置于关键情节之前
 5. **关键情节**：场景卡片（截图 + 编号 + 时间 + 情节叙述 + 关键台词引用）
+   - 台词区显示中文 `quote-zh` + 英文 `quote-en`，英文旁带 **▶ 朗读** 按钮（`data-audio` 指向 MP3）
+   - 英文长单词渲染为可点击发音的 `.pronounce-word`（Web Speech API 单词朗读）
 6. **登场人物**：grid 卡片（姓名 + 身份 + 本集表现）
 7. **关键看点**：grid 卡片
 8. **伏笔悬念**：grid 卡片
+
+生成命令：
+
+```bash
+node render-recap.mjs content/{drama}/content-e{NN}.json docs/{drama}-第{NN}集-剧情总结.html
+```
 
 参考样式：teal 配色、Hero 渐变、卡片式布局、响应式（桌面双列/移动单列）。页脚标注「ASR 专有名词已按语境校正」。
 
 ---
 
-## Step 7：质量自检
+## Step 8：质量自检
 
 - [ ] 产出为 HTML 单文件，浏览器可正常渲染
 - [ ] 场景数 8–12，每个有时间范围和截图
 - [ ] 每个场景有情节叙述 + 关键台词引用
 - [ ] 剧情描述忠于转录内容、无编造
 - [ ] hero.jpg + 每场景 s{N}.jpg 齐全，数量与场景一致
-- [ ] 页面含剧情梗概 / 人生启示 / 关键情节 / 登场人物 / 关键看点 / 伏笔悬念 6 大模块，顺序与 Step 6 一致
+- [ ] 页面含剧情梗概 / 人生启示 / 关键情节 / 登场人物 / 关键看点 / 伏笔悬念 6 大模块，顺序与 Step 7 一致
 - [ ] 人生启示 6 张卡片每张含「情境 + 方法」结构
 - [ ] 侧边栏含场景锚点导航 + 人生启示入口
+- [ ] 每条关键台词含中文 + 英文，英文旁有朗读按钮
+- [ ] content JSON 中每条台词为 `{zh, en}` 对象（无纯字符串残留）
+- [ ] `docs/audio/{slug}/` 下 MP3 与 HTML `data-audio` 引用一一对应、无缺失
 - [ ] 页脚标注「ASR 专有名词已按语境校正」
 
 ---
 
-## Step 8：更新 index.json
+## Step 9：更新 index.json
 
 将新条目追加到 `docs/index.json`：
 
@@ -187,36 +252,41 @@ ffmpeg -y -ss 00:06:30 -i "{video}" -frames:v 1 docs/images/{slug}/hero.jpg
 
 ---
 
-## Step 9：Git 提交并推送到 main（**必须**）
+## Step 10：Git 提交并推送到 main（**必须**）
 
 > GitHub Pages 从 `main` 的 `docs/` 部署。
 
 ```bash
-git add docs/
+git add docs/ content/
 git commit -m "drama: {剧名} 第{NN}集剧情总结"
 git pull origin main --rebase
 git push -u origin main
 ```
 
+> `docs/audio/`（MP3，~2MB/集）与 `content/`（content JSON）**必须随 docs/ 一起提交**，缺一不可：HTML 引用音频、未来重渲染依赖 content。
+
 最终变更必须在 `origin/main`。
 
 ---
 
-## Step 10：清理
+## Step 11：清理
 
 ```bash
 rm /tmp/{slug}.wav /tmp/{slug}.json /tmp/{slug}.srt  # 临时转录件
 ```
 
-生成脚本用完即删（不入库）。
+> **content JSON 已入库（`content/` 目录），不要删除**；临时转录件可删。生成脚本入库保留（`scripts/` 下）。
 
 ---
 
 ## 约束
 
 - 视频文件（`小夫妻/`、`*.mp4`、`*.pdf`）**永不入库**（.gitignore 排除）
+- **content JSON 必须入库**（`content/{剧名}/`），不入库视为未完成
 - 不修改 `.gitignore`
 - 同 `drama + episode` 不重复处理
 - 主产出是剧情图文总结 HTML，不是视频文件
+- 关键台词 `quotes` 一律为 `{zh, en}` 对象（纯字符串视为未完成）
+- 朗读 MP3（`docs/audio/`）随 HTML 一起提交，缺失会导致页面朗读功能失效
 - 页脚标注「ASR 专有名词已按语境校正」
 - 页面模块顺序固定（人生启示在关键情节之前），新增集数不得擅自调整
