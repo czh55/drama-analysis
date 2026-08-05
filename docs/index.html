@@ -263,8 +263,14 @@
         const list = document.getElementById('seriesList');
         list.innerHTML = '';
 
+        // 从「第 N 集」中提取集号，按数字自然排序（第 2 集 < 第 10 集）
+        const epNum = (s) => {
+          const m = String(s || '').match(/\d+/);
+          return m ? parseInt(m[0], 10) : 0;
+        };
+
         dramas.forEach(drama => {
-          const items = groups[drama].sort((a, b) => (a.episode || '').localeCompare(b.episode || '', 'zh'));
+          const items = groups[drama].slice().sort((a, b) => epNum(a.episode) - epNum(b.episode));
           const series = document.createElement('details');
           series.className = 'series';
 
