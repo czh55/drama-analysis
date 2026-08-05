@@ -1,0 +1,433 @@
+{
+  "slug": "dongqu-chunlai-e26",
+  "drama": "冬去春来",
+  "episode": "26",
+  "title": "把厂子重新立起来",
+  "subtitle": "庄庄妈妈卖掉铺子筹钱治病，青歌赛决赛的广播在街头响起；曹广太咳血仍不肯进医院，沈冉冉替他挡在楚总面前；徐胜利拉着陶亮亮去俄罗斯倒皮子，三十万的生意在旅馆桌上铺开；温州那头，老叶把工人一个个找了回来。",
+  "meta": [
+    "2026 · 都市励志",
+    "白宇 / 章若楠 / 林允 / 王彦霖",
+    "46 分钟",
+    "12 个场景",
+    "共 32 集"
+  ],
+  "overviewLead": "妈妈卖了铺子给庄庄凑钱治病，决赛的广播在街头报出她的名字，她却在后台哭成一团。曹广太咳了血仍说“小毛病不用上医院”，沈冉冉替他拦下楚总。徐胜利算出一本利润超百分之三百的皮子账，拉着陶亮亮直奔俄罗斯；温州的老叶则凭一张脸面把散掉的工人都请了回来。",
+  "overview": "庄庄想把妈妈的铺子保住，妈妈却反过来宽慰她：叔叔还有朋友能借到钱，实在不行，咱家那个铺子还能卖几个钱。母女俩都知道，这铺子是庄庄回北京的路费，也是妈妈半辈子的营生。",
+  "overview2": "街头的广播突然响起青歌赛决赛直播，主持人报出“决赛将现场直播”的字样。而旅馆里，曹广太一阵猛咳，竟咳出了血。沈冉冉要拉他上医院，曹广太摆手：大风大浪都走过来了，这点小毛病不用上医院。",
+  "overview3": "沈冉冉替曹广太出面，把楚总的人挡在门外：请你不要再打电话，不要再让人过来找我。楚总在电话那头冷笑：我要想见到他，有的是办法。曹广太看着她挡在前面的背影，红了眼眶。",
+  "overview4": "徐胜利去医院找国产干扰素，医生告诉他这药对癌症术后辅助治疗有效，价格便宜不少，但医院不多，得想办法去开。他顺手记下厂家名字，一条新的路隐隐浮出。",
+  "overview5": "徐胜利拉着陶亮亮算账：俄罗满大街的生牛皮是国内价格的三分之一，两美元一公斤，买回来做成皮鞋皮衣再倒卖回去，利润超百分之三百。陶亮亮听得心动，两人拍了板。叶叔叔请他们吃温州猪脏粉，一句“好运胜利，好胜利”把气氛推到了顶点。",
+  "overview6": "温州的老叶开始走动，把被王厂长遣散的工人一个个请回来。庄庄赶到温州见到徐胜利，说自己从今以后跟他一块儿扛。老叶拿出工人的名册说厂子又能接订单了，而第一批出口的货，徐胜利压了一句：每一个产品都代表中国在国际上的形象。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "02:30–05:17",
+      "title": "妈妈的药·卖铺子",
+      "quotes": [
+        {
+          "zh": "「我想再找找专家看看还有没有别的办法。」",
+          "en": "\"I want to see more specialists to check if there's another way.\""
+        },
+        {
+          "zh": "「叔叔还有朋友能借到钱，实在不行，咱家那个铺子还能卖几个钱。」",
+          "en": "\"Your uncle still has friends who can lend. If worst comes to worst, our shop can still fetch a bit of money.\""
+        },
+        {
+          "zh": "「等咱妈过了这个坎，我一定把它买回来。」",
+          "en": "\"Once Mama gets past this hurdle, I promise to buy it back.\""
+        }
+      ],
+      "body": [
+        "庄庄的积蓄见底了，妈妈的病等不起。母女俩坐在屋里，妈妈反过来劝她：叔叔还有朋友能借到钱，实在不行，咱家那个铺子还能卖几个钱。",
+        "庄庄说等妈妈过了这个坎，一定把铺子买回来。嘴上说着“一定”，眼眶却已经先红了。"
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "06:16–06:32",
+      "title": "广播里的决赛",
+      "quotes": [
+        {
+          "zh": "「本台一起来到第十四届青年歌唱大赛的决赛现场，本场决赛将通过节目直播与观众共享。」",
+          "en": "\"Welcome to the finals of the 14th Youth Singing Competition. This final will be shared live with our viewers.\""
+        }
+      ],
+      "body": [
+        "街头的大喇叭忽然播报：第十四届青年歌唱大赛决赛即将开始，将通过节目直播与观众共享。庄庄的名字混在主持人激昂的声线里，从北京传到温州，再从温州传回旅馆。",
+        "可舞台上的名字，如今却成了庄庄心里最疼的一个词。"
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "06:55–10:15",
+      "title": "曹广太咳血·冉冉退圈",
+      "quotes": [
+        {
+          "zh": "「叔，怎么还咳得越来越重了呢？你咳血了叔，我赶紧带你上医院去吧。」",
+          "en": "\"Uncle, why is the cough getting worse? You're coughing blood—let me take you to the hospital now.\""
+        },
+        {
+          "zh": "「叔啊，大风大浪都走过来了，这点小毛病不用上医院。」",
+          "en": "\"Niece, we've weathered big storms. A little ailment like this doesn't need a hospital.\""
+        },
+        {
+          "zh": "「叔，我以后应该就不演戏了。」",
+          "en": "\"Uncle, I think I won't be acting anymore.\""
+        }
+      ],
+      "body": [
+        "旅馆里，曹广太一阵猛咳，咳出了血。沈冉冉吓坏了，要拉他上医院，曹广太摆摆手：大风大浪都走过来了，这点小毛病不用上医院。",
+        "沈冉冉红着眼说，叔，我以后应该就不演戏了。曹广太张了张嘴，那句“为什么不演”终究没有问出口——他怕一开口，先掉眼泪的是自己。"
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "10:14–11:25",
+      "title": "代冉冉摊牌·楚总",
+      "quotes": [
+        {
+          "zh": "「我跟你说得很清楚了，请你不要再打电话过来，不要再让人过来找我，就算你来了我也不会见你的。」",
+          "en": "\"I've made this perfectly clear—stop calling, stop sending people. Even if you come yourself, I won't see you.\""
+        },
+        {
+          "zh": "「如果你真的是冉冉的叔，你就应该知道这是我们两个人的事。两个人的事既然决定了，那就是决定了。」",
+          "en": "\"If you really are Ranran's uncle, you know this is a matter between us two. Once decided, it's decided.\""
+        },
+        {
+          "zh": "「我要想见到他，有的是办法。」",
+          "en": "\"If I want to see her, I have plenty of ways.\""
+        }
+      ],
+      "body": [
+        "沈冉冉替曹广太挡住楚总派来的人，隔着门一字一句：请不要再打电话过来，不要再让人过来找我，就算你来了我也不会见你的。",
+        "电话那头楚总冷笑：我要想见到他，有的是办法。沈冉冉握着听筒的手微微发抖，却没有退让一步。"
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "11:25–12:05",
+      "title": "国产干扰素",
+      "quotes": [
+        {
+          "zh": "「这个药是国产的，如果能用它，能便宜不少。就是这个药我们医院也不多，你得想办法去开。」",
+          "en": "\"This one's domestically produced and much cheaper. But our hospital has little of it—you'll have to find a way to get it.\""
+        },
+        {
+          "zh": "「能借一下笔吗？我想记一下厂家名字。」",
+          "en": "\"May I borrow a pen? I want to note down the manufacturer's name.\""
+        }
+      ],
+      "body": [
+        "徐胜利找到医生打听药，得知一种国产干扰素对癌症术后辅助治疗有效，价格便宜不少，但医院里也不多，得想办法去开。",
+        "他借了支笔，认真记下厂家名字。这个不起眼的厂名，成了他脑子里的一个念头。"
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "12:09–18:00",
+      "title": "皮子生意·三十万",
+      "quotes": [
+        {
+          "zh": "「我不是找你借三十万，我是想跟你一块儿做生意去挣三十万。我现在欠了这么多债，再找朋友借，那不成了拆东墙补西墙了吗？」",
+          "en": "\"I'm not asking to borrow three hundred thousand—I want to do business with you to earn it. Deep in debt, borrowing from friends would just be robbing Peter to pay Paul.\""
+        },
+        {
+          "zh": "「俄罗斯满大街都是生牛皮，价格是国内的百分之三十，两美元一公斤。把皮子买回来做成皮鞋皮衣再倒卖回去，我算了，利润超百分之三百。」",
+          "en": "\"Raw hides are all over Russia at a third of the domestic price, two dollars a kilo. Buy them, make shoes and coats, sell them back—I've done the math: over three hundred percent profit.\""
+        },
+        {
+          "zh": "「找哥就找对了，找好运交好运。」",
+          "en": "\"You've come to the right brother—find Haoyun and you'll find good luck.\""
+        }
+      ],
+      "body": [
+        "徐胜利找到陶亮亮，开门见山：我不是找你借三十万，我是想跟你一块儿做生意去挣三十万。欠着债再找朋友借，那不成了拆东墙补西墙。",
+        "他把账摊开：俄罗斯满大街都是生牛皮，价格是国内的三分之一，两美元一公斤。买回来做成皮鞋皮衣再倒卖回去，利润超百分之三百。陶亮亮一拍大腿，好运哥也笑道：找哥就找对了，找好运交好运。"
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "18:00–19:57",
+      "title": "温州猪脏粉·潘总工",
+      "quotes": [
+        {
+          "zh": "「套一个地儿，就得吃一个地儿的美食，这叫入乡随俗。像这是温州鱼丸，还有这粉干都特别有名，咱现在吃这个就是猪脏粉。」",
+          "en": "\"In each place you eat that place's food—that's doing as the Romans do. These Wenzhou fish balls and rice noodles are famous. What we're eating now is pig-intestine noodles.\""
+        },
+        {
+          "zh": "「那至于工人，那是得花钱，我会北京想办法。」",
+          "en": "\"As for the workers, that costs money. I'll figure something out back in Beijing.\""
+        },
+        {
+          "zh": "「我叫好运哥他叫亮亮，你听这名，好运亮，凉透了。咱俩不一样，好运胜利，好胜利。」",
+          "en": "\"I'm Haoyun and he's Liangliang—Haoyun Liang, 'good luck cooled through.' We two are different: Haoyun Shengli, good luck and victory.\""
+        }
+      ],
+      "body": [
+        "到了温州，叶叔叔张罗着接风，端上鱼丸、粉干和猪脏粉，说套一个地儿就得吃一个地儿的美食，这叫入乡随俗。",
+        "桌上谈起厂里的事：工人是得花钱，叶叔叔说回北京想办法。好运哥自嘲道：我叫好运哥他叫亮亮，你听这名，好运亮，凉透了；咱俩不一样，好运胜利，好胜利。一桌子人笑作一团。"
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "19:57–22:58",
+      "title": "干扰素的秘密",
+      "quotes": [
+        {
+          "zh": "「干扰素就是癌症手术之后辅助治疗的药。我要跟你说了，你别上火了。」",
+          "en": "\"Interferon is the drug used for post-surgery cancer support. I'm telling you so you won't worry.\""
+        },
+        {
+          "zh": "「你跟庄庄还联系吗？没联系。为什么联系？你不想联系呗。」",
+          "en": "\"Still in touch with Zhuangzhuang? No. Why would we be? You just don't want to.\""
+        }
+      ],
+      "body": [
+        "徐胜利把自己记下的干扰素信息摊开，陶亮亮这才明白：干扰素就是癌症术后辅助治疗的药。徐胜利叮嘱他别上火，厂里的皮子生意还等着人去跑。",
+        "有人问起徐胜利和庄庄还联不联系，徐胜利沉默片刻，说没联系了，你不想联系呗。嘴里云淡风轻，眉头却拧成了疙瘩。"
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "23:44–30:30",
+      "title": "温州重逢·探病",
+      "quotes": [
+        {
+          "zh": "「阿姨之前帮过我，我想要去看看她。」",
+          "en": "\"Auntie helped me before. I want to go see her.\""
+        },
+        {
+          "zh": "「从今以后，我跟他一块儿扛。」",
+          "en": "\"From now on, I'll shoulder this together with him.\""
+        },
+        {
+          "zh": "「阿姨，您要努力吃努力睡，其他事您都不要想。」",
+          "en": "\"Auntie, eat well and sleep well. Don't think about anything else.\""
+        }
+      ],
+      "body": [
+        "徐胜利赶到温州，庄庄已经等在老叶那里。她看着他，说了一句：从今以后，我跟他一块儿扛。徐胜利愣住，心里那根弦被轻轻拨了一下。",
+        "两人一起去看阿姨，庄庄握着妈妈的手叮嘱：您要努力吃努力睡，其他事您都不要想。徐胜利跟在身后，郑重地接过“一块儿扛”这三个字的分量。"
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "30:47–34:15",
+      "title": "老街道歉·借钱",
+      "quotes": [
+        {
+          "zh": "「那现在想一想，我当时还逼着你去参加歌唱比赛，其实在无形之中给你的压力又更大了，对不起啊。」",
+          "en": "\"Thinking back, I pushed you into that singing competition—and it only added invisible pressure on you. I'm sorry.\""
+        },
+        {
+          "zh": "「我这次来就拿了这么多现金，也没带存折，我回了北京再给你汇。我就知道你肯定不收，咱俩太了解彼此了。」",
+          "en": "\"I brought only cash, no passbook—I'll wire you the rest from Beijing. I knew you wouldn't take it; we know each other too well.\""
+        },
+        {
+          "zh": "「以后不管你遇到任何事，你一定要告诉我，好吗？」",
+          "en": "\"No matter what happens to you from now on, you must tell me. Okay?\""
+        }
+      ],
+      "body": [
+        "徐胜利找到老曹（曹广太）当面道歉：那会儿还逼着你去参加唱歌比赛，其实在无形之中给你的压力更大了，对不起啊。曹广太摆手，这事翻篇了。",
+        "徐胜利想再帮衬他一把，这次拿了现金来，曹广太死活不收。徐胜利笑着拆穿：我就知道你肯定不收，咱俩太了解彼此了，以后不管你遇到任何事，你一定要告诉我。"
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "36:55–41:20",
+      "title": "楚总的钱·受伤",
+      "quotes": [
+        {
+          "zh": "「你是不是去找楚财业了？」",
+          "en": "\"Did you go looking for Chu Caiye?\""
+        },
+        {
+          "zh": "「那我去报警！别别别姑娘，这个事啊，人不能闹大了。」",
+          "en": "\"Then I'll call the police! No, no, girl—this matter can't be blown up.\""
+        },
+        {
+          "zh": "「咱做人，要坦坦荡荡，坦坦荡荡。」",
+          "en": "\"We have to live straight and upright—straight and upright.\""
+        }
+      ],
+      "body": [
+        "陶亮亮得知消息，急得声音都变了：你是不是去找楚财业了？沈冉冉说那我去报警，身边人赶紧拦下：别别别，这事人不能闹大了。",
+        "原来曹广太为替冉冉出头，独自去找楚总理论，回来时身上带着伤。沈冉冉看着他青紫的脸，眼泪终于绷不住。旅馆里气氛降到冰点，欠楚总的这一笔，已经压上了人。"
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "41:20–43:30",
+      "title": "老叶找回工人·开工",
+      "quotes": [
+        {
+          "zh": "「老叶昨天给我打电话，说是为了你们的事，我这一想，这世界挺小。」",
+          "en": "\"Old Ye called me yesterday about your matter. Thinking it over—small world.\""
+        },
+        {
+          "zh": "「老叶是真有两下子，把这帮工人都给找回来了，现在有了他们，咱厂又能接订单了。」",
+          "en": "\"Old Ye's got real skill—he brought all the workers back. With them, the factory can take orders again.\""
+        },
+        {
+          "zh": "「虽然咱这次量不大，但是一定要保时保量，咱是要出口的，咱每一个产品都代表着中国在国际上的形象。」",
+          "en": "\"Small order this time, but we must deliver on time and at full quality. It's for export—every product carries China's image abroad.\""
+        }
+      ],
+      "body": [
+        "老叶打来电话：为了你们的事，我昨天又走动了一圈。原来王厂长散掉的工人，老叶一个个都给找回来了。有了他们，厂子又能接订单了。",
+        "徐胜利站在车间门口看着久违的机器，郑重叮嘱：虽然这次量不大，但一定要保时保量。咱是要出口的，每一个产品都代表中国在国际上的形象，产品的质量就是生命线。机器轰鸣声重新响起。"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "困境",
+      "title": "欠钱的人不谈借钱",
+      "situation": "徐胜利说我不是找你借三十万，而是想跟你一块儿做生意去挣三十万。",
+      "advice": [
+        "越是缺钱，越别靠拆东墙补西墙续命。",
+        "把“借钱”换成“一起挣”，才是一条能走通的路。"
+      ]
+    },
+    {
+      "tag": "商机",
+      "title": "两美元一公斤的账",
+      "situation": "俄罗斯生牛皮是国内价格的三分之一，做成皮鞋皮衣倒卖回去利润超三百。",
+      "advice": [
+        "信息差就是生意，跨市场的价差往往藏着机会。",
+        "看到差价先算清成本与风险，别只盯着利润数字。"
+      ]
+    },
+    {
+      "tag": "尊严",
+      "title": "挡在楚总门前",
+      "situation": "曹广太替冉冉出头被打伤，冉冉却依旧不肯向楚总低头。",
+      "advice": [
+        "用威胁换来的人，迟早会失去；守住底线的人才睡得着觉。",
+        "亲人替你出头受了伤，别让这份情义白费在妥协里。"
+      ]
+    },
+    {
+      "tag": "亲情",
+      "title": "把铺子卖了也要救你",
+      "situation": "庄庄妈妈愿卖掉半辈子营生的铺子给她治病，庄庄发誓一定买回来。",
+      "advice": [
+        "父母把所有的都给了你，你也该学着替他们兜底。",
+        "一句“我一定买回来”，是比眼泪更有力的承诺。"
+      ]
+    },
+    {
+      "tag": "质量",
+      "title": "产品就是国家的脸",
+      "situation": "出口的第一批货，徐胜利叮嘱保时保量，说每个产品都代表中国形象。",
+      "advice": [
+        "第一次做出口，质量就是长期饭票。",
+        "把标准定在别人之上，路才会越走越宽。"
+      ]
+    },
+    {
+      "tag": "道歉",
+      "title": "把压力还给你的人",
+      "situation": "徐胜利当面为当年逼庄庄参加比赛道歉，说自己无形中给了她更大压力。",
+      "advice": [
+        "爱之深也容易成为枷锁，道歉是把压变回支持的第一步。",
+        "真心的扶持，是尊重对方的选择，而不是替他决定。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "徐胜利",
+      "role": "编剧·皮货生意合伙人",
+      "desc": "记下干扰素厂名，算清皮子账拉陶亮亮入伙，赶赴温州重启工厂，叮嘱出口产品代表国家形象。"
+    },
+    {
+      "name": "庄庄",
+      "role": "歌手·退赛者",
+      "desc": "妈妈卖铺子替她凑钱治病，她赶到温州与徐胜利重逢，说出“从今以后我跟他一块儿扛”。"
+    },
+    {
+      "name": "沈冉冉",
+      "role": "演员（退圈中）",
+      "desc": "替曹广太挡住楚总的人，报警被拦下，看着为他受伤的曹广太哭红了眼。"
+    },
+    {
+      "name": "陶亮亮",
+      "role": "萨克斯手·生意伙伴",
+      "desc": "被徐胜利的皮子账打动，加入俄罗斯倒货计划，也替曹广太受伤的事心急如焚。"
+    },
+    {
+      "name": "曹广太",
+      "role": "豫剧老演员",
+      "desc": "咳血仍不肯住院，为替冉冉出头独自去找楚总，带着一身伤回来。"
+    },
+    {
+      "name": "叶叔叔",
+      "role": "庄庄养父",
+      "desc": "在温州张罗接风、牵线工人，把被王厂长散掉的老工人一个个请回厂里。"
+    },
+    {
+      "name": "好运哥",
+      "role": "旅馆邻居",
+      "desc": "笑称“好运亮凉透了、好运胜利好胜利”，随徐胜利一同奔赴俄罗斯谈生意。"
+    },
+    {
+      "name": "楚总",
+      "role": "投资人（对头）",
+      "desc": "隔着电话冷笑“我要想见到他，有的是办法”，其势力让旅馆众人忌惮。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "卖铺子救命的母女",
+      "desc": "庄庄妈妈把半辈子营生的铺子押进药费里，庄庄哭着立誓要买回来。"
+    },
+    {
+      "title": "曹广太咳血不出声",
+      "desc": "大风大浪都走过来了——老演员把病痛咽回肚里，还要替冉冉挡在楚总面前。"
+    },
+    {
+      "title": "百分之三百的皮子账",
+      "desc": "两美元一公斤的生牛皮、超三百的利润，徐胜利用一本账把陶亮亮和好运哥拉上了去俄罗斯的火车。"
+    },
+    {
+      "title": "猪脏粉桌上的好彩头",
+      "desc": "好运亮凉透了，好运胜利好胜利——叶叔叔的一桌温州菜，吃出了重启的兆头。"
+    },
+    {
+      "title": "老叶把工人找回来",
+      "desc": "车间重新轰鸣，出口的第一批货被徐胜利钉上“国家形象”的钢印。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "国产干扰素的厂名",
+      "desc": "徐胜利记下的那个厂家名字，将成为他通往温州工厂与生意合伙的关键线索。"
+    },
+    {
+      "title": "三十万皮子生意",
+      "desc": "超三百利润的账背后是资金缺口和境外交易的凶险，俄罗斯之行注定不会风平浪静。"
+    },
+    {
+      "title": "曹广太的咳血与伤",
+      "desc": "拒医、咳血、带伤而归，曹广太的身体正一步步逼近临界点。"
+    },
+    {
+      "title": "楚总“有的是办法”",
+      "desc": "他这句冷笑不是放弃，而是换了一条更隐蔽的路，钱会借，手也不会松。"
+    }
+  ]
+}

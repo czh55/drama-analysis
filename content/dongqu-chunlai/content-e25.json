@@ -1,0 +1,397 @@
+{
+  "slug": "dongqu-chunlai-e25",
+  "drama": "冬去春来",
+  "episode": "25",
+  "title": "手术室的灯灭了",
+  "subtitle": "翁导把自己拆成了散落的零件替剧组还钱，徐胜利第一次体会到导演肩上的重量；姜红梅的手术在术中被紧急终止，曹广太守了一夜的希望落了空；沈冉冉宣布退出娱乐圈去当幼教，庄庄为了给妈妈治病决定放弃决赛，命运的钟摆在这一集狠狠摆了一回。",
+  "meta": [
+    "2026 · 都市励志",
+    "白宇 / 章若楠 / 林允 / 王彦霖",
+    "46 分钟",
+    "10 个场景",
+    "共 32 集"
+  ],
+  "overviewLead": "隋老板跑路留下的窟窿，把翁导逼成了拆零件还钱的人；一句“明知是火坑还愿意往里跳”，道出这群人对梦想最后的倔强。病房里姜红梅的手术在术中被紧急叫停，曹广太的希望塌了半边。沈冉冉决定退圈当幼教，陶亮亮对着林肯车独自咽下酸楚。庄庄也打来电话：她要退赛了。",
+  "overview": "翁导在旅馆里接二连三地接电话，全是剧组的人来要钱，呼机里的消息爆了，他却一个电话也不敢回。徐胜利心疼他，翁导却只说：人这一辈子，要有这么几件明知是火坑还愿意往里跳的事，也不见得是坏事。",
+  "overview2": "病房里，庄庄守在妈妈床边，妈妈拿出连夜做好的演出礼服，说想给她结婚的时候穿。庄庄说什么也不要，非要等妈妈好了再穿。曹广太带姜红梅走进手术室，手术灯亮起又骤然熄灭——肿瘤过大压住动脉，手术被终止了。",
+  "overview3": "沈冉冉对陶亮亮坦白：运气是留给有能耐的人，她觉得自己接不住这份运气。这个圈子人人要先找个靠山再工作，她要是靠这个出来，得到的角色又是哪个沈冉冉失去的。她决定离开，回老家当幼教。",
+  "overview4": "陶亮亮在萨克斯声里发了狠：我有真心也能拼命，可我没钱。我想帮她实现梦想，不想看她坐在那辆林肯车里。曹广太以长辈的口吻劝他，到了人家门前，得像个男人。而庄庄的电话让一切加速：她要退赛了。",
+  "overview5": "叶叔叔赶到北京把徐胜利和庄庄一起叫回温州。他劝庄庄别放弃比赛，庄庄却说出自己退赛是为了妈妈治病；叶叔叔叹她比赛和理想之间夹着亲情这道无解题，只能劝两人都给彼此一点时间。",
+  "overview6": "为了还债，老宅被拍卖，还清银行欠款后徐胜利把剩余的钱推给翁导，两人约定各担一半。镜头再转，翁导已躺在异乡的旅馆里，一夜白头。曹广太决定把姜红梅转到上海的医院，为这口气继续奔走。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:53–04:20",
+      "title": "火坑也要跳",
+      "quotes": [
+        {
+          "zh": "「人这一辈子，要有这么几件明知是火坑还愿意往里跳的事，也不见得是坏事，是吧。」",
+          "en": "\"A person should have a few things they'd jump into even knowing it's a fire pit. That isn't necessarily a bad thing.\""
+        },
+        {
+          "zh": "「组里人都找我要钱呢，我这呼机里消息都爆了，我是一个电话也不敢回啊。」",
+          "en": "\"Everyone in the crew is after my money. My pager's bursting with messages and I don't dare answer a single call.\""
+        },
+        {
+          "zh": "「给钱啊，这个钱必须得给啊。」",
+          "en": "\"Pay them. This money has to be paid.\""
+        }
+      ],
+      "body": [
+        "隋老板跑路后，剧组的人堵着翁导要钱，呼机里的消息爆了一串，翁导一个电话也不敢回。徐胜利看在眼里，心里像被针扎。",
+        "翁导笑着给自己打气：人这一辈子，要有这么几件明知是火坑还愿意往里跳的事，也不见得是坏事。随即把自己家房子、积蓄全拆出来，一点点补剧组的窟窿。"
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "04:35–10:25",
+      "title": "病房里的歌",
+      "quotes": [
+        {
+          "zh": "「你看你回来之后，你妈妈多高兴啊，这对她帮助很大的。」",
+          "en": "\"Look how happy your mother is now that you're home. It helps her a great deal.\""
+        },
+        {
+          "zh": "「这是给你做的演出的礼服……想给你结婚的时候穿，好看吗？」",
+          "en": "\"This is a performance dress I made for you... for when you get married. Is it pretty?\""
+        },
+        {
+          "zh": "「我不要，我要等你好的时候再穿，要是不合适，我要你帮我改。」",
+          "en": "\"No. I'll wear it when you're well. And if it doesn't fit, you'll have to adjust it for me.\""
+        },
+        {
+          "zh": "「我们在术中发现患者的肿瘤过大，压迫了肺部里的一根动脉，继续手术风险会很大，我们需要终止手术。」",
+          "en": "\"During surgery we found the tumor too large, pressing on a lung artery. Continuing would be very risky, so we must stop.\""
+        }
+      ],
+      "body": [
+        "庄庄守着妈妈，妈妈身体虚弱，脸上却挂着笑——她拿出连夜做的演出礼服，说是给庄庄结婚时穿的。庄庄摇头，非要等妈妈好了再穿，不合适还要妈妈改。",
+        "曹广太那边把姜红梅送进手术室，医生术前交代完风险，手术灯亮起。可没过多久，灯就灭了：肿瘤过大压迫动脉，继续手术风险太大，只能终止，先做放化疗缩小肿瘤。"
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "10:27–11:25",
+      "title": "旅馆的账·曹野的劝",
+      "quotes": [
+        {
+          "zh": "「你上大街上瞧瞧，每个人的脑袋他都生得不简单。你不行别人就欺负你，可是当你行了，大家都会笑着看你。」",
+          "en": "\"Look out on the street—every head is born complicated. When you're down, people step on you; when you're up, they smile at you.\""
+        }
+      ],
+      "body": [
+        "旅馆里，众人盘算着怎么填隋老板留下的窟窿。曹野劝大家：这年头人人都生着一颗不简单的脑袋，你不行别人就欺负你，可当你行了，大家都会笑着看你。",
+        "一番话说的是一碗热鸡汤，落在这群负债累累的年轻人头上，却更像一句咬牙的自我打气。"
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "11:32–15:00",
+      "title": "冉冉告别娱乐圈",
+      "quotes": [
+        {
+          "zh": "「你之前说过，运气是留给有能耐的人。我觉得我能耐不够，接不住这个运气。」",
+          "en": "\"You once said luck goes to the capable. I think I'm not capable enough to hold this luck.\""
+        },
+        {
+          "zh": "「要是这个行业的每个人都要先找个靠山再工作，你不觉得这不对吗？我要是靠这个出来，那我得到的角色，又是哪个沈冉冉失去的呢？」",
+          "en": "\"If everyone in this industry has to find a patron before they can work, don't you see something's wrong? If I got ahead that way, which other Ranran's role would I be taking?\""
+        },
+        {
+          "zh": "「你在这个名利场走了一圈，内心依旧那么干净。」",
+          "en": "\"You've walked the round of this fame game and stayed clean inside.\""
+        },
+        {
+          "zh": "「我不想回湖州了，我现在找了一个幼教的工作，我会好好生活的。」",
+          "en": "\"I'm not going back to Huzhou. I've found work as a preschool teacher. I'll live well.\""
+        }
+      ],
+      "body": [
+        "沈冉冉把心里话倒给陶亮亮：你说过运气是留给有能耐的人，我觉得我能耐不够，接不住这份运气。这行当人人要先找个靠山再工作，她要靠这个出来，得到的角色又是哪个沈冉冉失去的呢？",
+        "陶亮亮想拦，沈冉冉却已经下了决心：不回湖州了，去找个幼教的工作，好好生活。陶亮亮愣在原地，那句“不想看她坐林肯车里”的话堵在嗓子眼。"
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "15:03–17:57",
+      "title": "亮亮没钱的心事",
+      "quotes": [
+        {
+          "zh": "「我也有真心我也能拼命，但是我没钱呢。拼命有真心有什么用？我想帮她实现梦想，我不想看她坐那林肯车里。」",
+          "en": "\"I have sincerity and I can fight, but I have no money. What use are grit and sincerity? I want to help her reach her dream—I don't want to see her sitting in that Lincoln.\""
+        },
+        {
+          "zh": "「您在咱们这儿那是兄弟，但是您要是在人家冉冉门前啊，您得是个男人哪。」",
+          "en": "\"Here among us you're a brother, but at Ranran's door you have to be a man.\""
+        }
+      ],
+      "body": [
+        "夜里，陶亮亮一个人吹萨克斯，吹着吹着泄了气。他坦白：我也有真心我也能拼命，可我没钱。拼命有真心有什么用？我想帮她实现梦想，不想看她坐那林肯车里。",
+        "曹广太以长辈的口气点他：您在我们这儿是兄弟，可要是在冉冉门前，您得是个男人。陶亮亮听了，攥着萨克斯的手紧了又松。"
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "18:50–20:50",
+      "title": "手术终止·决赛名单",
+      "quotes": [
+        {
+          "zh": "「接下来我们会给患者安排放化疗，缩小肿瘤的大小，我们才能制定新的方案。」",
+          "en": "\"Next we'll arrange chemo and radiation to shrink the tumor before we can devise a new plan.\""
+        },
+        {
+          "zh": "「决赛名单出来了，你进入决赛了，你现在是离你的梦想越来越近了。」",
+          "en": "\"The finals list is out—you've made it. You're closer to your dream than ever.\""
+        }
+      ],
+      "body": [
+        "手术室的门打开，医生宣布：术中发现肿瘤过大，压迫肺部动脉，继续手术风险太大，只能终止，先放化疗缩小肿瘤再制定新方案。曹广太守了一整夜，等来这句话，人像被抽空。",
+        "同一时间，电话那头的导演却传来好消息：决赛名单出来了，庄庄进入决赛，离梦想越来越近。悲与喜在同一天的不同角落里同时发酵。"
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "20:20–24:45",
+      "title": "退赛的电话",
+      "quotes": [
+        {
+          "zh": "「我决定退赛。您确定吗？我决定，对不起。」",
+          "en": "\"I've decided to withdraw from the competition. Are you sure? I'm sure. I'm sorry.\""
+        },
+        {
+          "zh": "「我们两个每天起早贪黑去卖衣服，还有咱去俄罗斯倒货，不就是为了在北京坚持下去吗？现在梦想就在你眼前啊，你为什么要突然放弃呀？」",
+          "en": "\"We sell clothes dawn to dusk and peddle goods to Russia just to hold on in Beijing. Your dream is right in front of you—why give up now?\""
+        },
+        {
+          "zh": "「庄庄，你的梦想也是我的梦想啊。比赛的事情我已经决定了，你不用再劝我了。」",
+          "en": "\"Zhuangzhuang, your dream is my dream too. I've made up my mind about the competition. Don't try to talk me out of it.\""
+        }
+      ],
+      "body": [
+        "庄庄拨通电话，声音平静得反常：我决定退赛。对方惊得说不出话，反复确认，庄庄只回一句“我决定，对不起”。",
+        "徐胜利急得直跳：我们每天起早贪黑卖衣服、去俄罗斯倒货，不就是为了在北京坚持下去吗？现在梦想就在你眼前，你为什么突然放弃？庄庄说比赛的事她已经决定了。电话两端，两个人都红了眼眶。"
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "25:15–36:25",
+      "title": "温州·叶叔叔调停",
+      "quotes": [
+        {
+          "zh": "「你要是放弃了比赛，那我的理想也没有任何意义了。」",
+          "en": "\"If you give up the competition, my own ideal means nothing anymore.\""
+        },
+        {
+          "zh": "「虽然庄庄不是我的亲生女儿，但我就这么一个孩子，跟亲生的没有两样。到了这个岁数，我不希望她一直在外面飘着。」",
+          "en": "\"Zhuangzhuang isn't my birth daughter, but she's my only child—no different from my own. At my age, I don't want her drifting out there forever.\""
+        },
+        {
+          "zh": "「她放弃比赛也有这个原因，她自己需要想清楚未来该怎么做。你们俩都需要点时间。」",
+          "en": "\"That's part of why she withdrew—she needs to think through her own future. You both need time.\""
+        },
+        {
+          "zh": "「有些话呀，听到耳朵里是拔不出来的，这样对你们两个人都是一种伤害。」",
+          "en": "\"Some words, once heard, can't be unheard. It only hurts you both.\""
+        }
+      ],
+      "body": [
+        "叶叔叔把徐胜利和庄庄叫回温州，围坐一桌当面谈。他先劝庄庄别放弃比赛：你放弃比赛，我的理想也没意义了。可庄庄说出退赛是为了给妈妈治病，叶叔叔一下噎住了。",
+        "他语重心长：虽然庄庄不是亲生的，但他就这一个孩子，跟亲生的没两样，到了这个岁数，不希望她一直飘着。有些话听到耳朵里是拔不出来的，这样对两个人都是一种伤害——他只能让两人都给彼此一点时间。"
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "37:15–39:10",
+      "title": "拍卖还债·各担一半",
+      "quotes": [
+        {
+          "zh": "「我这老宅子拍卖了九十多万，欠银行的五十万算是平了，剩下的钱都在这张存折里了。」",
+          "en": "\"My old house sold at auction for over nine hundred thousand. The bank loan's cleared, and the rest is in this passbook.\""
+        },
+        {
+          "zh": "「警察把人已经抓到了，虽然钱已经被他挥霍了，但让他赔偿也不是不可能。」",
+          "en": "\"The police caught him. He's blown the money, but getting compensation from him isn't out of the question.\""
+        },
+        {
+          "zh": "「这个事是咱俩一块儿干的，责任我要担一半。」",
+          "en": "\"We did this together. I'll shoulder half the responsibility.\""
+        }
+      ],
+      "body": [
+        "为了还清银行的五十万，老宅被拍卖，拍了九十多万。徐胜利把剩下的钱都放进存折，交给翁导。",
+        "翁导不肯全收，两人争来争去，最后约定：这件事是两个人一块儿干的，责任各担一半。警察那边也传来消息——人抓到了，钱虽被挥霍，但要他赔偿也不是不可能。"
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "39:55–42:30",
+      "title": "俄罗斯旧梦·转院上海",
+      "quotes": [
+        {
+          "zh": "「你也是来俄罗斯倒货的吧？欢迎欢迎，热烈欢迎。」",
+          "en": "\"So you're here to peddle goods from Russia too? Welcome, warmly welcome.\""
+        },
+        {
+          "zh": "「你也有好几天没合眼了，赶紧睡觉，别让你妈担心。」",
+          "en": "\"You haven't slept properly in days. Go rest—don't make your mother worry.\""
+        },
+        {
+          "zh": "「我怕错过最佳治疗期，后面复发的风险会更大，得去更好的医院。」",
+          "en": "\"I'm afraid of missing the best treatment window. The risk of relapse grows later, so we need a better hospital.\""
+        }
+      ],
+      "body": [
+        "翁导独自躺在异乡的小旅馆里，一夜之间白了许多头发。他想起自己当年也是从俄罗斯倒货起家，如今却落得债台高筑，苦笑里带着咽不下的不甘。",
+        "曹广太也做了决定：姜红梅这次手术没能做成，他怕错过最佳治疗期，之后复发风险更大，得把她转到上海更好的医院。一个为梦想，一个为家人，两班人都没打算停下。"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "担当",
+      "title": "把责任拆一半下来",
+      "situation": "老宅拍卖九十多万，徐胜利把剩余的钱推给翁导，两人约定各担一半。",
+      "advice": [
+        "出了事别急着撇清，先把自己那份扛起来。",
+        "两个人一起担，再沉的债也轻一半。"
+      ]
+    },
+    {
+      "tag": "尊严",
+      "title": "不靠靠山的日子",
+      "situation": "沈冉冉拒绝靠楚总上位，宁可退圈去当幼教。",
+      "advice": [
+        "靠交易换来的位置，坐上去也睡不安稳。",
+        "活得干净，比活得风光更需要勇气。"
+      ]
+    },
+    {
+      "tag": "亲情",
+      "title": "退赛与妈妈的礼服",
+      "situation": "庄庄为了给妈妈治病放弃决赛，妈妈却连夜做了一件结婚礼服。",
+      "advice": [
+        "梦想可以重来，亲人不能等。",
+        "把“为了你”说出口之前，先想想对方真正想要什么。"
+      ]
+    },
+    {
+      "tag": "接受",
+      "title": "手术室的灯灭了",
+      "situation": "姜红梅的手术在术中被紧急终止，曹广太一夜之间从希望跌到失望。",
+      "advice": [
+        "拼尽全力之后仍要面对失控，是人生必修课。",
+        "一次失败的手术不是终点，换医院、换方案，路还在。"
+      ]
+    },
+    {
+      "tag": "激励",
+      "title": "每个人的脑袋都不简单",
+      "situation": "曹野劝大家：你不行别人就欺负你，你行了大家都会笑着看你。",
+      "advice": [
+        "与其抱怨世态炎凉，不如先让自己变强。",
+        "低谷时的冷脸，是往上走的动力燃料。"
+      ]
+    },
+    {
+      "tag": "沉淀",
+      "title": "有些话拔不出来",
+      "situation": "叶叔叔劝两人给彼此一点时间，有些话说出口就收不回了。",
+      "advice": [
+        "气头上的话留三分，先冷却再开口。",
+        "感情里的裂缝，往往是从一句冲动的话开始的。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "徐胜利",
+      "role": "编剧·负债者",
+      "desc": "陪着翁导拆家底还债，拍卖老宅凑钱，把剩余积蓄分一半给翁导，决定各担一半责任。"
+    },
+    {
+      "name": "庄庄",
+      "role": "歌手·退赛者",
+      "desc": "为了给妈妈治病决定放弃决赛，被叶叔叔和徐胜利轮流劝，仍咬定比赛的事已作决定。"
+    },
+    {
+      "name": "沈冉冉",
+      "role": "演员→幼教",
+      "desc": "决定退出娱乐圈，认定自己接不住这份运气，去找幼教工作好好生活。"
+    },
+    {
+      "name": "陶亮亮",
+      "role": "萨克斯手",
+      "desc": "因没钱而痛苦，想帮冉冉实现梦想却无能为力，被曹广太点醒“在冉冉门前得像个男人”。"
+    },
+    {
+      "name": "翁导",
+      "role": "制片主任",
+      "desc": "为了还剧组欠款拆光家底，一夜白头，躺在异乡旅馆里回忆自己从俄罗斯倒货起家的旧梦。"
+    },
+    {
+      "name": "曹广太",
+      "role": "豫剧老演员",
+      "desc": "手术终止后仍不放弃，决定带姜红梅转院上海，怕错过最佳治疗期。"
+    },
+    {
+      "name": "叶叔叔",
+      "role": "庄庄养父",
+      "desc": "亲自到北京把两人叫回温州调停，既心疼庄庄放弃比赛，又体谅她为妈妈治病的选择。"
+    },
+    {
+      "name": "曹野",
+      "role": "画家",
+      "desc": "用“每个人的脑袋都不简单”劝大家咬牙坚持，在旅馆里替众人打气。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "翁导拆零件还钱",
+      "desc": "房子、积蓄、身家，翁导把自己一点一点拆出去填剧组的窟窿，成了这一集最沉的一幕。"
+    },
+    {
+      "title": "病房里的结婚礼服",
+      "desc": "妈妈虚弱地拿出连夜做的礼服，庄庄哭着说等你好了再穿——母爱在这一针一线里具象化。"
+    },
+    {
+      "title": "手术室的灯骤然熄灭",
+      "desc": "肿瘤压迫动脉，手术终止，曹广太守了一整夜的希望被一纸诊断浇灭。"
+    },
+    {
+      "title": "林肯车前的执念",
+      "desc": "陶亮亮在萨克斯声里坦白“我有真心也有拼命，可我没钱”，字字扎心。"
+    },
+    {
+      "title": "老宅拍卖九十多万",
+      "desc": "徐胜利拿老宅填债，又把剩余的钱分给翁导各担一半，患难兄弟情在这一叠钞票里显形。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "翁导的俄罗斯旧梦",
+      "desc": "翁导坐在旅馆里回望俄罗斯倒货的往事，这段旧忆会把他和徐胜利一起推向俄罗斯的生意场。"
+    },
+    {
+      "title": "转院上海的决心",
+      "desc": "曹广太怕错过最佳治疗期决定转院，姜红梅的病情从此成为旅馆众人悬着的一颗心。"
+    },
+    {
+      "title": "庄庄的退赛决定",
+      "desc": "她咬定“比赛的事已经决定了”，但这个决定还没有被真正讲给徐胜利听，裂缝只是暂时被叶叔叔按住。"
+    },
+    {
+      "title": "警察追回赃款的余地",
+      "desc": "“让他赔偿也不是不可能”——这笔追偿，为后续债务风波留下了一丝松动的可能。"
+    }
+  ]
+}

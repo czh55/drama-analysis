@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《冬去春来》第 10 集剧情图文总结" />
+  <title>冬去春来｜第 10 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/dongqu-chunlai-e10/hero.jpg" alt="《冬去春来》第 10 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>冬去春来</h1>
+          <p class="hero-ep">第 10 集 · 塞翁失马</p>
+          <p class="hero-en">庄庄被康书寅一家纠缠，徐胜利送她一瓶辣椒水防身；陶亮亮二度考团落榜，回家跟父母借钱交学费；庄庄替冉冉试戏、在剧组收获掌声，而徐胜利却因「背着导演搞小动作」被逐出剧组——文导一席话，反而把他推向了真正的编剧之路</p>
+          <div class="hero-meta">
+            <span class="chip">2026 · 都市励志</span>
+            <span class="chip">白宇 / 章若楠 / 林允 / 王彦霖</span>
+            <span class="chip">46 分钟</span>
+            <span class="chip">11 个场景</span>
+            <span class="chip">共 32 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>追到北京的相亲对象</b><small>02:30–05:56</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>辣椒水防身</b><small>06:06–08:20</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>「老爷」的试戏现场</b><small>11:30–14:27</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>考团落榜的萨克斯手</b><small>14:40–16:50</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>「只有吃饱了才能谈艺术」</b><small>16:47–21:50</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>庄庄的「练胆」课</b><small>22:04–26:40</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>爬山虎墙下的试戏</b><small>26:48–29:36</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>「庙小装不下大佛」</b><small>29:40–33:55</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>文导的一课</b><small>34:00–37:00</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>菩提老祖的点化</b><small>37:28–39:30</small></span>
+        </a>
+        <a class="map-link" href="#s11">
+          <span class="map-id">S11</span>
+          <span><b>一箱汽水</b><small>39:50–42:20</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">第 10 集，庄庄被家里「相过亲」的康书寅纠缠不清：两家都拒绝退礼了，对方还散播订婚谣言、追到北京来。徐胜利塞给她一瓶辣椒水：「以后谁欺负你，你就滋他。」另一边，陶亮亮二度考歌舞团落榜，团长劝他「找个老师从头系统学」，他回家先做饭后借钱，被亲爹怼了一句「要学自己赚」。沈冉冉去剧组试戏，跪地抬头的细节设计让导演眼前一亮；庄庄替她试唱，赢得满场掌声。可徐胜利背着导演把庄庄、陶亮亮塞进剧组试戏的事终于败露，被制片主任当众请走。他去找文导辞行，文导却告诉他：这个剧组只是观察场，他真正该去学的是编剧。</p>
+        <p>第 10 集，庄庄向徐胜利倾诉心事。她来北京跟郑老师上课，是康书寅爸妈介绍的，可康书寅情绪偏激、生活上离不开他妈，两家早把话说清、把礼退回了。谁料小镇上开始传她与康书寅要订婚，对方还把「定亲首饰」之类送到她家，被拒绝后竟追到北京来。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1–S2 · 旅馆</span>
+          <h3>对纠缠的人，善意和警惕要一起给</h3>
+          <p class="lesson-situation"><b>情境：</b>康书寅一家被拒绝后仍散播订婚谣言、追到北京，庄庄一边发愁一边硬扛，徐胜利替她换锁、送辣椒水。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>对方「没脸没皮」时，讲道理讲不清，讲边界才有用。</li>
+              <li>「以后谁欺负你，你就滋他」——敢亮出底牌，就是最好的防身。</li>
+              <li>帮人防身是好事，但别替他扛起所有事，他自己的勇气才最管用。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S4–S5 · 歌舞团与家</span>
+          <h3>落榜不认命，先找差距再谈运气</h3>
+          <p class="lesson-situation"><b>情境：</b>陶亮亮二度考团落榜，团长点破他「自学」的短板，劝他从头系统学。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「再来几次」不如「再练对一次」——找到差距才有复考的意义。</li>
+              <li>热爱不能当系统的替代品，真想入行就补齐专业训练。</li>
+              <li>跟家里伸手之前，先想清楚这笔钱换来的是能力还是侥幸。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5 · 饭桌与画摊</span>
+          <h3>谈梦想之前，先把肚子管饱</h3>
+          <p class="lesson-situation"><b>情境：</b>曹野一边拒绝画假画，一边对练胆的庄庄说「饿着肚子没法谈艺术」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>理想主义和吃饭从不冲突，饿着肚子最容易动摇底线。</li>
+              <li>拒绝捷径时，也要给自己留一条体面活着的路。</li>
+              <li>「只有吃饱了才能谈艺术」——钱解决生存，艺术才谈得上追求。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S6–S7 · 剧组</span>
+          <h3>练胆的最好办法，是把舞台当真</h3>
+          <p class="lesson-situation"><b>情境：</b>庄庄怕人多不敢登台，徐胜利替她争取到百人舞台试戏的机会。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「你往那儿一站不用演，你就在那儿唱就行」——专业就是最好的胆。</li>
+              <li>机会不会自己敲门，得有人替你搭桥，也要你自己敢迈步。</li>
+              <li>在正式考场上怯场的人，往往输在没有提前见过真实的观众。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8–S9 · 剧组</span>
+          <h3>好心办坏事，认错比辩解有用</h3>
+          <p class="lesson-situation"><b>情境：</b>徐胜利「保个介绍」帮朋友试戏被拆穿，被制片主任请出剧组。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「虽然是好心，但不也被拆穿了吗」——流程面前，善意不是免罪牌。</li>
+              <li>别替别人做决定，先把「越界」的风险算清楚。</li>
+              <li>被赶出来不一定是终点，重点是你从这一课里带走了什么。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10 · 文导谈话</span>
+          <h3>真正的贵人，指路而不只是给活</h3>
+          <p class="lesson-situation"><b>情境：</b>文导没有因徐胜利越界而放弃他，反而指出他该学的是编剧，并介绍名师。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「看大家是怎么工作的」——被观察的每一分钟都在累积你的价值。</li>
+              <li>贵人点破的是方向，不是结果，剩下的路还得自己走。</li>
+              <li>被撵出剧组却换来名师引荐——坏事转好的钥匙，是你的态度。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">02:30–05:56</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s1.jpg" alt="追到北京的相亲对象" loading="lazy">
+      <h2>追到北京的相亲对象</h2>
+      <div class="scene-body">
+        <p>庄庄跟徐胜利倒苦水：她能来北京跟郑老师上课，是康书寅的爸妈介绍的。两人见了几次，她发现康书寅情绪偏激、生活上离不开他妈妈，「我们肯定是不合适的」。两家把话都说清、把礼全退了。</p>
+<p>可没过多久，小镇上开始传说她要跟康书寅订婚——是他们家散播出去的。对方还往她家送定亲首饰之类的东西，她家当场拒绝、全部退回，「但是他们说什么都不听，后来就开始无理取闹」。</p>
+<p>「他这叫没脸没皮。」徐胜利接话：「你们都说清楚了，也拒绝了，他还敢来北京找你，那有病。」庄庄叹气，说主要还是家里人为难，抬头不见低头见的，叔叔阿姨挺尴尬。</p>
+<p>徐胜利问：「你最近不会一直跟着我吧？」庄庄坦白，是担心康书寅再做出格的事。她谢他帮忙换锁，徐胜利只笑：「都是小事。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「他这叫没脸没皮，你们都说清楚了，也拒绝了，他还敢来北京找你，那有病。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The man has no shame. You made it clear, you refused him, and he still dares to come to Beijing to find you. He's out of his mind."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「主要是我们家很为难，心里很过意不去，这抬头不见低头见的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's mainly my family that's put in a tough spot. I feel so sorry about it—we run into each other all the time."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">06:06–08:20</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s2.jpg" alt="辣椒水防身" loading="lazy">
+      <h2>辣椒水防身</h2>
+      <div class="scene-body">
+        <p>徐胜利突然想起来：「你等我一下。」他翻出一瓶辣椒水：「这里边是辣椒水，我试了，能滋可远了。」他现场演示：「以后你要是遇到坏人，你就瞄准他，你就滋他，他肯定受不了。」</p>
+<p>庄庄眼睛一亮，又有点心虚：「我我又不是坏人……这么大杀伤力的武器啊？」徐胜利逗她：「我又没让你滋好人。」庄庄乐了：「那我以后什么都不怕了。」</p>
+<p>两人聊起今天的事，庄庄问他：「你今天去剧组吗？」徐胜利说去，庄庄说：「然然说要去您剧组试戏呢。」徐胜利一口答应：「去我们组试戏啊，保个介绍。」</p>
+<p>这个「保个介绍」，后来成了他丢掉剧组工作的导火索。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「以后你要是遇到坏人，你就瞄准他，你就滋他，他肯定受不了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"From now on, if you run into a bad guy, aim at him and spray him—he won't be able to take it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「那我以后什么都不怕了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Then I'm not afraid of anything anymore."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">11:30–14:27</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s3.jpg" alt="「老爷」的试戏现场" loading="lazy">
+      <h2>「老爷」的试戏现场</h2>
+      <div class="scene-body">
+        <p>剧组里，沈冉冉试的是古装戏的片段：「爹，您听我解释，事情不是这样的……女儿本在家中地位卑微，怎敢有半分不规矩。」她演一个私生女，跪下去抬头，两个表情完全不一样。</p>
+<p>导演当场叫好：「我注意到你啊，跪下去那一下脸上那个表情，和抬头那一下的表情是不一样的。这是你自己的设计吗？」冉冉说，她读这段戏时能感受到这个角色没有行为上那么直白，「这是她作为一个私生女在府上不得不自保的手段。可能都是一个人在外面吧，我特别能体会她这种感受。」</p>
+<p>导演赞她：「这段戏写得也特别有层次，编剧老师不仅揣摩人物，还把这么小的一个角色写得那么丰满。」有人笑着汇报：「这个段子写得还不错，谁的主意啊？这都是小徐的主意。」</p>
+<p>导演又补一句：「老爷演得也不错，就是这个口音啊，让老爷不太合适——又可以让他演个管家嘛。」冉冉连声道谢，导演让她「回去等消息」。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这是她作为一个私生女在府上不得不自保的手段，可能都是一个人在外面吧，我特别能体会她这种感受。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This is how she, as an illegitimate daughter, has to protect herself in the mansion. Maybe because we're both alone out here, I especially relate to her feelings."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「编剧老师不仅揣摩人物，还把这么小的一个角色写得那么丰满。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The screenwriter doesn't just get inside the character—he's made even such a small role so fully realized."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">14:40–16:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s4.jpg" alt="考团落榜的萨克斯手" loading="lazy">
+      <h2>考团落榜的萨克斯手</h2>
+      <div class="scene-body">
+        <p>陶亮亮在歌舞团看榜，榜上没有他。朋友劝他：「我就说这一会儿能考上吧。」他偏不：「走吧。」他径直敲开团长办公室的门：「团长，您好，我叫陶亮亮。我刚刚来看榜，榜上没有我名字，我想了解一下这什么情况。」</p>
+<p>团长劝他：「榜既然已经张贴了，上面没有你，那就明年你继续努力。」陶亮亮不甘心：「但是我考过两次了，甚至我来这儿都来好几趟了……团长，要不我借今天在您办公室这机会，单独给您吹一吹？」</p>
+<p>团长摆手拒绝：「不用不用。就是你都考过我们团了，你的演奏我们肯定听过了。今年我们团招收萨克斯的名额非常有限，我们需要的是极其专业的人才才行。」陶亮亮自荐：「我就很专业啊！我日思夜想就想考进咱们团，你让我爬山我肯定不怕，你让我干什么我就干什么。」</p>
+<p>团长问起他的老师，陶亮亮说小时候有过老师、后来自学。团长给他一个好建议：「找个老师，认真的，从头系统地学。」陶亮亮愣在当场。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「榜既然已经张贴了，上面没有你，那就明年你继续努力。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Since the list has been posted and your name isn't on it, keep working and try again next year."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「找个老师，认真的，从头系统地学。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Find a teacher and study properly, systematically, from the ground up."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">16:47–21:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s5.jpg" alt="「只有吃饱了才能谈艺术」" loading="lazy">
+      <h2>「只有吃饱了才能谈艺术」</h2>
+      <div class="scene-body">
+        <p>陶亮亮蹲在窗根底下发呆，每天一睁眼，看着那半截小窗人来人往，他只能看见别人的鞋。徐胜利找到他，请他喝酒：「你那仨萨克斯吹得真的特别好，不是你水平不行，是他们没眼光、不识货。」陶亮亮红着眼眶：「给你识货就行，喝一个。」</p>
+<p>陶亮亮回家给爸妈做了一桌子菜，还说要改过自新：「这萨克斯以后我不背着他出去卖艺了，洗心革面。」爸妈你看我我看你，直呼「这是太阳打西边出来了」。他给父亲敬酒：「这二十多年我让你们操了不少心……我发誓，以后我要有出息了，混出什么名堂了，保证把你们给供起来。」</p>
+<p>酒过三巡，他终于摊牌：要考歌舞团，得请位指导老师，「我想从您跟我妈这儿借点学费，我还你们，我还你们」。爸冷笑：「交学费？自己赚！你那个吹银大叶壶，到我店里吹去。」</p>
+<p>曹野的画摊前也热闹：一个自称同行的老头拿「天热顶个太阳」挤兑他，又劝他画假画。曹野把笔一撂：「我曹野如果有一天要混到上你这儿来画假画，我还不如回老家种地呢！」转脸又对练胆的庄庄讲道理：「饿着肚子是没法谈艺术的，只有吃饱了才能谈艺术。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「不是你水平不行，是他们没眼光，是他们不识货。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's not that your skill is lacking—it's that they have no eye, and no taste."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不是交学费吗？自己赚！你那个吹银大叶壶，到我店里吹去。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You want tuition? Earn it yourself! Take that silver-bellied sax of yours and go play it in my restaurant."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我曹野如果有一天要混到上你这儿来画假画，我还不如回老家种地呢！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If I, Cao Ye, ever sink to painting fakes for you, I'd rather go home and farm the land!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">22:04–26:40</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s6.jpg" alt="庄庄的「练胆」课" loading="lazy">
+      <h2>庄庄的「练胆」课</h2>
+      <div class="scene-body">
+        <p>庄庄向沈冉冉请教：「你们在剧组演戏的时候，这旁边人多吗？」冉冉说可多了，她以前也紧张，上课时老师找几个学生旁听她就特别紧张，「我那个时候自己练习表演，人少地方都不去，天天求着别人带我去参加活动，就是为了锻炼不怯场的能力」。</p>
+<p>庄庄发愁：「这就一个月了，去哪儿找这个机会啊？」徐胜利随口一提：「你不是要考团吗？老实说我一见人多就紧张……吹萨克斯的人越多越起劲。国际大舞台行吗？」</p>
+<p>他给庄庄和陶亮亮约了个地方：「这剧组的经费有限啊，可他们又想找专业的歌唱演员。导演本来说是找个人对口型就行，可导演坚决不同意，说是能看出来。去了之后千万不能说认识我，就说你们是来试戏的。要是能试上，那可是正经的百人舞台，有录像、上电视了。」</p>
+<p>庄庄犹豫：「唱歌我是没问题，但我没演过戏，而且我怕人多。」徐胜利拍胸脯：「没事，有我呢。就你这个专业水平，你往那儿一站，你不用演，你就在那儿唱就行。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「天天求着别人带我去参加活动，就是为了锻炼不怯场的能力。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I begged people every day to take me to events, just to train myself not to freeze in front of an audience."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「要是能试上，那可是正经的百人舞台，有录像、上电视了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you land this, it's a real stage with a hundred people watching—it gets recorded and shown on TV."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">26:48–29:36</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s7.jpg" alt="爬山虎墙下的试戏" loading="lazy">
+      <h2>爬山虎墙下的试戏</h2>
+      <div class="scene-body">
+        <p>庄庄和陶亮亮按约定找到地方，转了好几圈才确定：「不是说正门旁边的停车棚对面都是爬山虎吗？」两人整装进门，报上「试戏」的名号，被引上二楼演员部。庄庄化好妆，徐胜利他们凑过来打气：「不用紧张，就你这水平，你放松就行。」</p>
+<p>试戏间隙，徐胜利跟老板谈起了「生意」：「我这儿还住了好多一家子呢，就是现在还不太出名。来拍的时候让他们来当群众演员呢，一天三十五。」对方讨价：「我听说群演一天不就二十吗？」徐胜利笑：「你拍我五块，到他们手上可不就二十吗？」</p>
+<p>制片主任要来剧组拍电影的消息传开，徐胜利跑前跑后：送导演、安排电视台采访的午饭、刷盒子「最少刷一个小时，别把这尖给我磕了」。主任连声夸他：「小徐，我发现你真的是了不起了，连我这当主任都没你整得明白。」</p>
+<p>可转眼，主任翻了脸。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「就你这个专业水平，你往那儿一站，你不用演，你就在那儿唱就行。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"With your professional level, just stand there—you don't have to act, just sing."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我这儿还住了好多一家子呢，来拍的时候让他们来当群众演员。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've got a whole houseful of people here. When you shoot, let them come as extras."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">29:40–33:55</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s8.jpg" alt="「庙小装不下大佛」" loading="lazy">
+      <h2>「庙小装不下大佛」</h2>
+      <div class="scene-body">
+        <p>徐胜利正要跟主任解释试戏的事，主任已经翻脸：「小徐，我发现你真的是了不起了。你看，连我这当主任都没你整得明白。你是搞进来这么多的情况，是不是？」徐胜利想解释，主任不听：「你不要解释了，你不要解释了！我已经跟导演说了，我这庙小，它装不下你这么大能耐的佛。」</p>
+<p>「走吧。」「阿弥陀佛。」徐胜利被一路请出剧组。郭宗宝追上他：「许哥，见到导演了吗？」徐胜利说见了，导演还比较忙，「你给我打了个招呼，他就忙事去了」。</p>
+<p>郭宗宝替他分析：「按理说我们都是自己面试进去的，导演应该不会怪你吧。」徐胜利苦笑：「我这也是刚进剧组，就在背后搞小动作。虽然是好心，但不也被拆穿了吗？我们这边主任跟我说，他跟导演说了，说让我以后就别去了。」</p>
+<p>郭宗宝要去找导演解释，被徐胜利拦下：「这样更唐突了。我现在也说不好自己是啥感觉，就好像是我自己做错了、辜负了，可又不清楚到底是为什么。」郭宗宝替他难受：「你是为了帮我们，不能你一个人自己受罚。」徐胜利只说：「你别跟他们说，本来也是好事，就保护这份好吧。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我这庙小，它装不下你这么大能耐的佛。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My temple is too small to hold a Buddha with talents as great as yours."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「虽然是好心，但不也被拆穿了吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Even though it came from a good heart, didn't it still get exposed?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「本来也是好事，就保护这份好吧。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It was a good deed after all—let's just protect the good in it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">34:00–37:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s9.jpg" alt="文导的一课" loading="lazy">
+      <h2>文导的一课</h2>
+      <div class="scene-body">
+        <p>徐胜利硬着头皮再去见文导。文导看着他：「小徐，当初我让你到组里来干活，怎么说的，你还记得吗？」徐胜利答：「您说让我来好好看看。」文导点头：「对，看什么？看大家是怎么工作的。小徐，你是个聪明的孩子，在纷杂的环境当中，应该干出比别人更多的东西——新的人际关系、阶层分化、交换方式、人性碰撞。」</p>
+<p>徐胜利低下头：「导演，是我越界了。」文导却不计较：「然然、郭东宝他们演得不错，尤其是你那儿带来的那两个音乐家，这就出彩了。还说，如果你是制片或者选角导演，你立功了。」</p>
+<p>「可这个剧组太热闹了，你一头栽进这个热闹里面去了。」文导问他：「你还记不记得当初你来创作室找我说的什么？你跟创作室人发火，你又说的是什么？」徐胜利答：「我说我想好好干，写剧本，当编剧。」</p>
+<p>文导于是替他把路指正：「我是个导演，要学编剧，咱们得找编剧去。」他当着徐胜利的面告诉主任：「这段日子你按天接工资，你在剧组的工作到此为止。」徐胜利连声认错：「导演，您说的我都明白，我真错了，我以后还能再跟着您干吗？」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你是个聪明的孩子，在纷杂的环境当中，应该干出比别人更多的东西。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're a clever kid. In this chaotic environment, you should accomplish more than others."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我是个导演，要学编剧，咱们得找编剧去。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm a director. To learn screenwriting, we have to go find a screenwriter."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">37:28–39:30</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s10.jpg" alt="菩提老祖的点化" loading="lazy">
+      <h2>菩提老祖的点化</h2>
+      <div class="scene-body">
+        <p>徐胜利回到旅馆，庄庄和郭宗宝迎上来：「怎么样，见到了吗？解释了吗？你以后还能跟着他干吗？」徐胜利吊足胃口，才一字一句：「他不让我在剧组干了，把之前的工资一夜都给我结了。」</p>
+<p>庄庄急了：「对不起啊，都是因为我们害你没有工作。」徐胜利忽然笑了：「我逗你的，我逗你玩的！」他认真起来：「文导特别好。这件事上他确实是教育了我，但他也跟我说了一个关于坚守信念的道理。我一听啊，我就感觉我是孙悟空，一下子被菩提老祖给点化了。」</p>
+<p>「他让我上剧组干活，是想观察我。他看到了我的好，也发现了一些问题，但最终还是跟我说，我能干这行。最重要的是，他要给我介绍一个特别厉害的编剧，让我跟着这个编剧去学习——就跟你的郑老师一样。」</p>
+<p>庄庄长出一口气：「哥哥，真慌死了。昨天你说万一文导以后不带你了，我立马就联想到，如果郑老师不教我，那我什么理想都白搭了。像我们这样一股劲闯到北京来的，郑老师跟文导就像救命稻草一样，如果因为我们你这根稻草没了，我们会内疚一辈子的。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我感觉我是孙悟空，一下子被菩提老祖给点化了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I felt like Sun Wukong who'd just been enlightened by Patriarch Bodhi."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「郑老师跟文导就像救命稻草一样，如果因为我们你这根稻草没了，我们会内疚一辈子的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Teacher Zheng and Director Wen are like lifelines to us. If you lost your lifeline because of us, we'd feel guilty for the rest of our lives."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s11">
+      <div class="scene-topline">
+        <div><span class="scene-id">S11</span><span class="time">39:50–42:20</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e10/s11.jpg" alt="一箱汽水" loading="lazy">
+      <h2>一箱汽水</h2>
+      <div class="scene-body">
+        <p>徐胜利故意追问：「你真的没哄我？」庄庄认真摇头：「没有，真没有，真真没有。」他这才接话：「那你要是还内疚的话，就请我喝瓶汽水。」庄庄气笑：「为什么是我请？」「你没求啊。」「我请我请，喝几瓶？喝十瓶！」</p>
+<p>聊起文导要介绍的那位编剧，郭宗宝问：「你们那位是谁啊？写过什么？我看过吗？」徐胜利卖关子：「你肯定看过，他写的全都是大戏。他没让的话，我不让说。」</p>
+<p>庄庄忽然唱起歌来：「当我不再执着于爱，不再深陷于恨，不再为他人的行为而或喜或悲……来时的泪，去时无爱也无恨。」徐胜利和郭宗宝安静下来。</p>
+<p>问起庄庄什么时候进组，庄庄说就这一周了。徐胜利问她那还租不租这屋，庄庄答：「租。这里可是我北京的根，无论在哪里飘着，想着北京城里还有我一张床，我心里就踏实。」徐胜利打趣：「这屋里突然安静下来，我且得适应一阵。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这里可是我北京的根，无论在哪里飘着，想着北京城里还有我一张床，我心里就踏实。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This place is my anchor in Beijing. Wherever I drift, as long as I know there's still a bed for me in Beijing, my heart feels settled."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s11-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「那你要是还内疚的话，就请我喝瓶汽水。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Well, if you still feel guilty, then buy me a bottle of soda."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e10/s11-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>徐胜利</h3><span>怀揣编剧梦的北漂青年（白宇 饰）</span></div>
+          <p>替庄庄换锁、送辣椒水；为帮朋友试戏背着导演「搞小动作」，被制片主任请出剧组；文导一席话点醒他，并答应介绍一位厉害的编剧让他拜师。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>庄庄</h3><span>来北京考歌舞团的女孩（章若楠 饰）</span></div>
+          <p>被家里相过亲的康书寅纠缠，收了徐胜利一瓶辣椒水；听了冉冉「练胆」经验，去剧组试戏并登台演唱，即将进组。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>陶亮亮</h3><span>吹萨克斯的北京土著（王彦霖 饰）</span></div>
+          <p>二度考歌舞团落榜，被团长点破「自学」短板；回家向父母借钱交学费被拒，徐胜利一句「是他们不识货」接住了他的委屈。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>沈冉冉</h3><span>想演女主角的演员（林允 饰）</span></div>
+          <p>去徐胜利的剧组试戏，跪地抬头的细节设计被导演当众夸奖；把自己「求人带活动练胆」的经验传给庄庄。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>曹野</h3><span>自诩先锋艺术的画家</span></div>
+          <p>在画摊拒绝「同行」拉他画假画的邀约：「我曹野要是混到来画假画，还不如回老家种地。」又劝庄庄「只有吃饱了才能谈艺术」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>文导</h3><span>剧组导演</span></div>
+          <p>欣赏冉冉的表演、徐胜利写的段子；因徐胜利越界将其请出剧组，却又在辞行时点醒他该学编剧，并答应引荐名师。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>郭宗宝</h3><span>旅馆里的演员大哥</span></div>
+          <p>与徐胜利交好，听说他被赶出剧组急得要找导演解释，被徐胜利劝住。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>歌舞团团长</h3><span>歌舞团负责人</span></div>
+          <p>两次劝退陶亮亮，点明招收名额有限、需要专业人才，建议他「找个老师从头系统学」。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>辣椒水与「什么都不怕」</h3>
+          <p>徐胜利给庄庄演示辣椒水的威力，庄庄一句「那我以后什么都不怕了」，把被纠缠的委屈逗成了笑。</p>
+        </article>
+
+        <article>
+          <h3>跪下去与抬起头</h3>
+          <p>冉冉试戏，跪地与抬头的两个表情被导演点名夸赞——小角色也有演好它的方法。</p>
+        </article>
+
+        <article>
+          <h3>「吃饱了才能谈艺术」</h3>
+          <p>曹野怼画假画的同行，也把这句话送给练胆的庄庄，骨子里是对尊严的坚持。</p>
+        </article>
+
+        <article>
+          <h3>「庙小装不下大佛」</h3>
+          <p>徐胜利为朋友试戏的事败露，被制片主任当众请出剧组，好心办成坏事的一课。</p>
+        </article>
+
+        <article>
+          <h3>菩提老祖的点化</h3>
+          <p>文导把「越界」的徐胜利撵出剧组，却又亲手把他指向编剧的路——塞翁失马。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>康书寅还在暗处</h3>
+          <p>换锁和辣椒水只能防一时，康书寅的纠缠会就此收手吗？辣椒水早晚会派上用场。</p>
+        </article>
+
+        <article>
+          <h3>文导要介绍的编剧</h3>
+          <p>「我是个导演，要学编剧，咱们得找编剧去」——那位「写全是大戏」的神秘编剧是谁？</p>
+        </article>
+
+        <article>
+          <h3>庄庄进组与歌舞团的招人</h3>
+          <p>庄庄进组一周后就要开演，歌舞团同期也在招人——她的舞台之路刚刚开始。</p>
+        </article>
+
+        <article>
+          <h3>群演一天三十五</h3>
+          <p>徐胜利随口报出的群演价码和中介抽成，正是一张张北漂账单的一角。</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 10 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

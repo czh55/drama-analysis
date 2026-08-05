@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《冬去春来》第 1 集剧情图文总结" />
+  <title>冬去春来｜第 1 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/dongqu-chunlai-e01/hero.jpg" alt="《冬去春来》第 1 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>冬去春来</h1>
+          <p class="hero-ep">第 1 集 · 到北京去</p>
+          <p class="hero-en">在海鲜厂翻鱼翻腻了的徐胜利，因为写剧本挨了领导一顿羞辱，一怒之下要去北京闯荡；火车刚进京，庄庄的学费就被人偷走，冬去春来旅馆里，一张六块钱的床铺安顿下两个做艺术梦的人</p>
+          <div class="hero-meta">
+            <span class="chip">2026 · 都市励志</span>
+            <span class="chip">白宇 / 章若楠 / 林允 / 王彦霖</span>
+            <span class="chip">46 分钟</span>
+            <span class="chip">10 个场景</span>
+            <span class="chip">共 32 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>海鲜厂里的羞辱</b><small>02:18–05:46</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>「那都是我的心血」</b><small>05:50–08:22</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>「我要去北京」</b><small>08:22–10:02</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>娘送儿，千里之外</b><small>10:02–14:17</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>车站外的拉客大战</b><small>15:13–17:50</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>被偷走的学费</b><small>17:50–22:50</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>胡同深处的冬去春来</b><small>23:43–28:03</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>一屋子的追梦人</b><small>28:03–32:00</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>骗妈妈的「国银大饭店」</b><small>32:00–35:13</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>奔跑的蒙娜丽莎</b><small>35:34–38:59</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">90 年代的烟台，徐胜利在海鲜厂翻鱼，心里却揣着写剧本的梦。被领导羞辱、被父亲骂「不务正业」之后，他决定去北京。母亲偷偷支持他，塞给他连夜收拾的行囊。北京的第一天并不顺——庄庄的学费在火车站被偷，冬去春来旅馆的大通铺上，画家、萨克斯手、豫剧老演员各怀心事。徐胜利不小心弄坏了曹野的画，一场关于规矩与道歉的冲突在 108 房间爆发。</p>
+        <p>第 1 集，徐胜利决定到北京去。
+
+他在海鲜厂当普通工人，午休时间被领导王主任当众羞辱：「你跟你妈就是一个德行，好高骛远。当年考大学他考上了吗？这不照样回来。」徐胜利忍无可忍，动了手，保卫部的人追出来。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1–S2 · 海鲜厂</span>
+          <h3>被看轻，是出发前必交的学费</h3>
+          <p class="lesson-situation"><b>情境：</b>徐胜利在厂里被领导当众羞辱、被父亲骂「不务正业」，一气之下决定去北京。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>别人说你「好高骛远」，也许恰恰说明你目标比他们高。</li>
+              <li>「那都是我的心血」——热爱不需要所有人批准。</li>
+              <li>把羞辱咽下去，换成一张去北京的车票。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3–S4 · 母子</span>
+          <h3>真正支持你的人，话很少</h3>
+          <p class="lesson-situation"><b>情境：</b>父亲反对，母亲却连夜收拾行囊，把儿子送到车站，只说了一句「加油」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「既然决定了，就好好干」——支持不是讲道理，是让你放心去闯。</li>
+              <li>母亲的行李总是超重，里面装的全是不说出口的担心。</li>
+              <li>要离开的人，最怕的不是远，是身后没有一句「我相信你」。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S6 · 火车站</span>
+          <h3>五十块钱，救急也救心</h3>
+          <p class="lesson-situation"><b>情境：</b>庄庄的学费被偷，徐胜利把身上仅有的五十块塞给她。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「你一个女孩子出门在外，家里人一定很担心」——善意往往说在钱前面。</li>
+              <li>先安顿下来，再想怎么补窟窿——顺序别乱。</li>
+              <li>五十块不多，但「我会还你」四个字，把陌生人的缘分系住了。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S7–S8 · 小旅馆</span>
+          <h3>一张六块钱的床，也是梦的起点</h3>
+          <p class="lesson-situation"><b>情境：</b>徐胜利住进胡同深处的冬去春来旅馆，认识了一屋子做艺术梦的人。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「108，一路发」——日子再苦，先给自己一个好彩头。</li>
+              <li>住得越挤，越要分清谁是真朋友、谁是装蒜的。</li>
+              <li>环境再差，床是你的，梦也是你的。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9 · 电话亭</span>
+          <h3>报喜不报忧，是长大的第一课</h3>
+          <p class="lesson-situation"><b>情境：</b>徐胜利住着六块钱的大通铺，却跟妈妈说「住的是国银大饭店」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>骗妈妈住大饭店，不是虚荣，是不想让她睡不着。</li>
+              <li>「想吃什么吃什么，别省钱」——妈妈的爱永远超载。</li>
+              <li>成年人的勇敢，是隔着电话报平安的那句「我挺好的」。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10 · 108房间</span>
+          <h3>赔钱可以，低头不行</h3>
+          <p class="lesson-situation"><b>情境：</b>曹野为了一幅弄坏的画狮子大开口，徐胜利道了歉，也愿意赔，但绝不任人欺负。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>道歉是认错，不是认怂——两条线别混。</li>
+              <li>「还有啥规矩？」——把话说清楚，比窝着火打架强。</li>
+              <li>初来乍到可以吃亏，但不能让人看出你好欺负。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">02:18–05:46</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s1.jpg" alt="海鲜厂里的羞辱" loading="lazy">
+      <h2>海鲜厂里的羞辱</h2>
+      <div class="scene-body">
+        <p>午休时间，徐胜利去找王主任要自己的信。主任把信扣下：「这不是你的。」几句话把他顶回去。</p>
+<p>徐胜利非要拿回信，王主任恼了：「你偏要上来我更好奇。还电影制片厂？电影制片厂他也是厂。别以为写两个破小品、拿个破奖，你就是个人物了。你是海鲜厂的一个普通工人！」</p>
+<p>「你跟你妈就是一个德行，好高骛远。当年考大学他考上了吗？这不照样回来。这是他的命，也是你的命，你们全家的命。」</p>
+<p>徐胜利红着眼睛，把手里东西一摔：「看什么！能干就干，不能干滚蛋！」他压着火气走出门，同事徐圣赶紧追出来：「没事吧？有我呢，你怕什么。」</p>
+<p>镜头切到走廊：徐胜利一拳砸在墙上，保卫部的人追出来，同事拦住：「胜利，有话好好说，别冲动。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「别以为写两个破小品、拿个破奖，你就是个人物了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't think that just because you wrote a couple of sketches and won some lousy award, you're somebody now."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你跟你妈就是一个德行，好高骛远。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're just like your mother—aiming too high."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「能干就干，不能干滚蛋！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you can do the work, do it. If not, get lost!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">05:50–08:22</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s2.jpg" alt="「那都是我的心血」" loading="lazy">
+      <h2>「那都是我的心血」</h2>
+      <div class="scene-body">
+        <p>父亲赶来，先给儿子和同事递上冰块敷脸，张罗着去赔礼道歉：「哪天妈就带你跟王主任、还有厂领导，咱去赔个礼道个歉，这事就过去了。」</p>
+<p>徐胜利梗着脖子：「妈，我没错！我凭啥道歉？这破工作我早不想干了。」</p>
+<p>父亲火了：「这破工作是我和你妈求爷爷告奶奶才让你接你妈妈这个班的。国营厂啊，多少人想干进不来。你倒好，不但不珍惜，成天到晚搞你那个破剧本！」</p>
+<p>「你根本就不懂，那都是我的心血。」「心血？等你被开除了、吃不上饭了，也就只有心没有血了。」</p>
+<p>徐胜利把心里话吼出来：「我不想把那鱼翻来翻去，翻一辈子。」父亲拍桌子：「你不干鱼干什么？靠你写那个剧本，你能养活自己吗？」</p>
+<p>「我不仅能养活我自己，我还能让你们过得更好！」「呸，我们活得很好，不用你操心。你自己把自己整好，我们就烧高香了。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我不想像把鱼翻来翻去，翻一辈子。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I don't want to spend my whole life flipping fish."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「那都是我的心血！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That's all my heart's blood!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我不仅能养活我自己，我还能让你们过得更好。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I can not only support myself, but I can give you all a better life too."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">08:22–10:02</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s3.jpg" alt="「我要去北京」" loading="lazy">
+      <h2>「我要去北京」</h2>
+      <div class="scene-body">
+        <p>父子对峙到最激烈处，徐胜利一字一句：「我决定了，我要去北京。」父亲愣了一下：「你跑那儿干什么去？」</p>
+<p>「我干啥都行。」父亲气笑了：「你到那儿就喝西北风吧！」徐胜利咬着牙：「我要翻鱼，不用你管。」父亲怒极：「你再给我说一遍！」</p>
+<p>深夜，徐胜利坐在母亲床边，声音低下来：「妈，我觉得我能行。我真的特别热爱写作，我也真的想去北京试试。」</p>
+<p>「我明天就去看票，你别跟我爸说。」母亲抚着他的肩，沉默良久，轻声说：「儿子，既然决定了，就好好干。」</p>
+<p>第二天，徐胜利背着行李出门，母亲在门口喊住他，眼里有泪：「妈相信你，你肯定能行。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我决定了，我要去北京。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've made up my mind—I'm going to Beijing."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「妈，我真的特别热爱写作。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Mom, I really do love writing."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「既然决定了，就好好干。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Since you've decided, then do it well."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">10:02–14:17</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s4.jpg" alt="娘送儿，千里之外" loading="lazy">
+      <h2>娘送儿，千里之外</h2>
+      <div class="scene-body">
+        <p>火车站，母亲扛着大包小包，一边走一边絮叨：「昨天晚上他装了一晚上这些包。我今天让他来车站，他死活不来。」徐胜利心里一酸。</p>
+<p>「妈，其实我都知道。你回去跟我爸说，我一定会混出个人样给他看。」</p>
+<p>母亲红着眼睛点头：「妈都知道，妈知道你心里闷的。要是实在不行，你就当到北京去散散心。一会儿路上你照顾好自己，看好这些包。」</p>
+<p>「妈，我都快三十的人了。」「好了好了，去吧，人家都上去了。」</p>
+<p>徐胜利上车，隔着车窗挥手：「妈，你快回去吧！」母亲追着车跑了两步，又停下来，用力喊：「加油，儿子！」</p>
+<p>车开远了。母亲站在原地，望着远去的火车，久久没有离开。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你回去跟我爸说，我一定会混出个人样给他看。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Tell Dad when you get back—I'm going to make something of myself and show him."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「要是实在不行，你就当到北京去散散心。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If it really doesn't work out, just treat Beijing as a place to clear your head."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「加油，儿子！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Go for it, son!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">15:13–17:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s5.jpg" alt="车站外的拉客大战" loading="lazy">
+      <h2>车站外的拉客大战</h2>
+      <div class="scene-body">
+        <p>徐胜利刚出站，就被一群三轮车夫围住。一个大哥拽着他：「大哥你住店呢？我的房子大，空间大，床也大，被子全是新的。」</p>
+<p>另一个车夫不干了：「干啥呢？因为我们先来后到，我先看见的。」「你哪个眼睛看见的？」两个车夫吵起来，眼看要动手。</p>
+<p>一辆车上的小伙子下来打圆场：「干吗呢？这什么地儿啊，你们俩在这撒野，狗咬狗一嘴毛。」他把车夫轰走，扭头对徐胜利咧嘴笑：「小东北。我怎么看见你，我就不烦别人呢。」</p>
+<p>「刚来北京？」「对。」「我那儿离首都电影制片厂就两条街。」徐胜利眼睛一亮：「我要去首都电影制片厂！就你们这搞文艺的呀。」</p>
+<p>「去我那儿看看吧，一张床铺才几块钱，不满意你可以不住。」「那咱说好了，我就先去看，看完再决定。」</p>
+<p>徐胜利把行李放上车顶：「你在顶上等我一会儿，我再去拉一圈活，不能一趟就送你一个人啊。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我那儿离首都电影制片厂就两条街。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My place is just two streets from the Capital Film Studio."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你怎么看见我，我就不烦别人呢。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You know, seeing you, I don't find anyone else annoying."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不满意你可以不住。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you're not satisfied, you don't have to stay."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">17:50–22:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s6.jpg" alt="被偷走的学费" loading="lazy">
+      <h2>被偷走的学费</h2>
+      <div class="scene-body">
+        <p>小东北拉活去了，徐胜利在街边等人。忽然人群骚动——「抓住他！抓住他！」一个男人冲过来，徐胜利下意识去拦，那人挣脱跑了。</p>
+<p>一个女孩冲上来，抓住徐胜利的胳膊，急得发抖：「我爸呢？我爸呢！你把东西给我！」徐胜利被问懵了：「你干吗？」</p>
+<p>围观的人说：「他们是团伙作案。」警察赶到：「你包留多少现金？」女孩哭了：「两千。那是我的生活费跟学费，我要考歌舞团，我是来上课的。」</p>
+<p>警察留了她的住址电话，女孩摇头：「我还没有找到住的地方，也没有联系方式。」她咬着嘴唇，「不能跟我家的人说。」</p>
+<p>警察走后，徐胜利蹲在她面前：「行了，别哭了，别着急。这样，你先安顿下来，给家里报个平安。这五十你先拿着。」</p>
+<p>女孩推辞：「不用不用……你还有钱啊？你住哪儿，你睡广场呀？」徐胜利坚持：「你一个女孩子出门在外，家里人一定很担心。」</p>
+<p>女孩把一件随身物件塞到他手里：「这个虽然不值钱，但你先收着，当个抵押。我明天就还你。」徐胜利收下，说：「这你我都是来北京闯荡的，各自保重。」</p>
+<p>「那我先走了，车等我半天了。」「谢谢你啊，大哥！」「没事，明天见。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「那是我的生活费跟学费，我要考歌舞团。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That was my living expenses and tuition—I'm applying to the song and dance troupe."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不能跟我家的人说。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I can't tell my family about this."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你一个女孩子出门在外，家里人一定很担心。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A girl out on her own far from home—your family must be so worried."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">23:43–28:03</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s7.jpg" alt="胡同深处的冬去春来" loading="lazy">
+      <h2>胡同深处的冬去春来</h2>
+      <div class="scene-body">
+        <p>小东北拉着徐胜利穿过长安街，指着窗外：「要说北京是全国的心脏，那这就是心脏中的心脏。每次我就愿意走这长安街，我就高兴。」</p>
+<p>三轮车拐进胡同。小东北满嘴京腔介绍：「咱们住在胡同里，住的大杂院。你看这门头好几百年了，以前都是王爷什么才能住呢，现在老百姓也能住了。」</p>
+<p>院子里热闹极了：有做饭的，有养花的，有人喊他「小东北你回来了」。一个叫王云芳的大姐张罗：「小东北，自个儿做饭呢？昨儿是不是你说我这红烧肉炖咸了？今儿你再试试。」</p>
+<p>「这是我这儿的登记处。咱们这胡同天南海北哪儿的人都有，南来的北往的，看亲的访友的，旅游的出差发的财的做梦的。大家聚在一块儿就是缘分。」</p>
+<p>王云芳带他看房：「我这有二十八个房间，麻雀虽小五脏俱全。这小院不大吧，能跑千里马，这地下室也能长出万年松。」</p>
+<p>最后她指着门牌：「108，一路发！」徐胜利笑了——这就是他在北京的第一个家。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「要说北京是全国的心脏，那这就是心脏中的心脏。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If Beijing is the nation's heart, then this is the very center of that heart."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「大家聚在一块儿，就是缘分。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"When people all gather together here, that's fate."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「108，一路发！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"108—set sail for good fortune all the way!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">28:03–32:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s8.jpg" alt="一屋子的追梦人" loading="lazy">
+      <h2>一屋子的追梦人</h2>
+      <div class="scene-body">
+        <p>小东北领他进屋：「我就在这门房住，这儿有电话。大门每天晚上十一点就关，你要回来晚了，别怪我不给你开门。」</p>
+<p>屋里的人一个挨一个介绍：「这位，大画家，未来的，山西人，叫曹野。」曹野正趴在地上画画，头也不抬。</p>
+<p>「这位，老北京，陶亮亮，玩音乐的，吹萨克斯，准备考歌舞团的。」陶亮亮抱着萨克斯冲他点头。</p>
+<p>「这是河南老大哥，叫曹广太，以前是唱豫剧的，现在当演员了。」老大哥憨厚地笑：「曲终演员，偶尔也能说几句词，那也是演员呀。」</p>
+<p>「你跟他们住一个屋，肯定能擦出不一样的画。」曹野突然接话：「我这画你就慢慢品吧，等你琢磨出来，你慢慢琢磨吧。」</p>
+<p>小东北从兜里掏出几个东西塞给他：「这是我们家乡特产，你尝尝。」徐胜利不好意思：「这刚见面就收你东西。」「没事，我这刚见面要你东西，俩真没事。不客气了。」</p>
+<p>「得了，冬去春来，祝你梦想成真！」两个人相视一笑：「梦想成真。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这位，大画家，未来的，山西人，叫曹野。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This one—a great painter, in the making. From Shanxi. His name is Cao Ye."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这位，老北京，陶亮亮，玩音乐的，吹萨克斯。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This one—a born-and-bred Beijinger, Tao Liangliang. Musician, plays the saxophone."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「冬去春来，祝你梦想成真！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Winter goes, spring comes—may your dreams come true!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">32:00–35:13</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s9.jpg" alt="骗妈妈的「国银大饭店」" loading="lazy">
+      <h2>骗妈妈的「国银大饭店」</h2>
+      <div class="scene-body">
+        <p>安顿下来，徐胜利给家里打电话，一开口就笑：「你放心吧妈，我住的是国银大饭店，条件可好了。」</p>
+<p>母亲在电话那头絮叨：「你东西带太少了，自己去买几件衣服，想吃什么吃什么，别省钱。我给你做的新衣服，你怎么没拿走呢？回头我给你寄啊。」</p>
+<p>徐胜利鼻子发酸，嘴上还逗乐：「还有客人在店里等我呢，我不跟你说了。」挂断电话，他对着话筒愣了好一会儿。</p>
+<p>庄庄也来找旅馆老板娘：「姐，我想问一下，这附近有没有打零工的地方？什么活都可以。」</p>
+<p>「后边有条街，小书店、理发店、小吃店、小商品店什么都有，见天儿找零工。你上那儿看看去。」庄庄谢过，又犹豫：「那你这房还住吗？」「我今天先不住了，我去看看能不能找到活。」</p>
+<p>老板娘摆摆手：「等你找活之后再给我电话费吧，没事，去吧。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你放心吧妈，我住的是国银大饭店，条件可好了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't worry, Mom—I'm staying at the Guoyin Grand Hotel, it's really nice."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我给你做的新衣服，你怎么没拿走呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The new clothes I made for you—why didn't you take them?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我今天先不住了，我去看看能不能找到活。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I won't stay today after all. I'll go see if I can find some work."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">35:34–38:59</span></div>
+      </div>
+      <img class="scene-frame" src="images/dongqu-chunlai-e01/s10.jpg" alt="奔跑的蒙娜丽莎" loading="lazy">
+      <h2>奔跑的蒙娜丽莎</h2>
+      <div class="scene-body">
+        <p>晚上，徐胜利回屋收拾床位，不小心碰落了曹野的画。他赶紧弯腰捡起来，又出去买胶带想粘好。</p>
+<p>曹野回来，看着画，脸都青了：「你要拿胶带粘这画？你听说过微笑的蒙娜丽莎吗？这幅画，我曹野创作的，《奔跑的蒙娜丽莎》！」</p>
+<p>「现在你把腿弄成这样，你让蒙娜丽莎怎么奔跑？」徐胜利解释：「我是拿胶带从后面粘，前面看不出来。」</p>
+<p>「这不是前面后面的事！你知道我是谁吗？你知道画什么价值？你见过艺术馆里的画拿胶带粘的吗？你把我的画给毁了！」</p>
+<p>曹野越说越激动：「价值连城，你赔吧！」徐胜利问：「您这幅画多少钱，我给您赔钱。」曹野瞪眼：「你赔得起吗？你现在还要侮辱我？」</p>
+<p>屋里的气氛一下子僵了。曹野身后站出来几个兄弟：「这儿有什么规矩你打听打听，108是什么地方？」</p>
+<p>徐胜利站直了：「这就是个旅馆，我租了床位，这床位就是我的。上面有东西，我只能把东西拿下去，不小心把你的画弄坏了。我跟你道歉了，也说了我可以赔你钱。还有啥规矩？」</p>
+<p>「是虎你得盘着，是龙你得握着。」「您这虎柔人性挺好。」徐胜利不卑不亢，转身对曹野一抱拳：「大哥，我再次向您道歉。这幅画到底多少钱，您好好想想，说个数，我给您赔。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这幅画我曹野创作的，《奔跑的蒙娜丽莎》！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This painting—created by me, Cao Ye: The Running Mona Lisa!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我跟你道歉了，也说了我可以赔你钱。还有啥规矩？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've already apologized, and I said I'd pay you back. What other rules are there?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「是虎你得盘着，是龙你得握着。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you're a tiger, you coil up. If you're a dragon, you curl in."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/dongqu-chunlai-e01/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>徐胜利</h3><span>怀揣编剧梦的北漂青年（白宇 饰）</span></div>
+          <p>山东烟台人，海鲜厂普通工人，痴迷写剧本；被领导羞辱后决定去北京闯荡，住进冬去春来旅馆 108 房，第一晚就为曹野的画起了冲突。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>庄庄</h3><span>来北京考歌舞团的女孩（章若楠 饰）</span></div>
+          <p>带着两千块学费来北京上课，钱在车站被偷，坚持不告诉家里；欠下徐胜利五十块钱，把随身物件押给他当抵押。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>曹野</h3><span>满脑子先锋艺术的画家</span></div>
+          <p>山西人，自诩创作了《奔跑的蒙娜丽莎》；画被弄坏后狮子大开口，是 108 房间立规矩的人。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>陶亮亮</h3><span>吹萨克斯的北京土著</span></div>
+          <p>老北京，准备考歌舞团，梦想在天桥下吹萨克斯给路人听；与徐胜利同住 108 房。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>小东北</h3><span>三轮车夫 · 引路人</span></div>
+          <p>一口京腔，把徐胜利拉去冬去春来旅馆，塞给他家乡特产，祝他「梦想成真」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>徐父</h3><span>徐胜利的父亲</span></div>
+          <p>传统老派人，恨铁不成钢，骂儿子搞剧本「不务正业」，却又连夜给儿子包里装水杯。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>徐母</h3><span>徐胜利的母亲</span></div>
+          <p>悄悄支持儿子去北京，装了一晚上行李，送到车站只喊了一声「加油，儿子」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>王云芳</h3><span>冬去春来旅馆老板娘</span></div>
+          <p>热情的张罗人，管登记、管租床，劝架也护短，是旅馆里说话管事的人。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>海鲜厂里摔出的决心</h3>
+          <p>「我决定去北京」——被羞辱的徐胜利，把一辈子翻鱼的生活摔在身后。</p>
+        </article>
+
+        <article>
+          <h3>「加油，儿子！」</h3>
+          <p>火车站，母亲追着火车喊出的三个字，是全剧最朴素的托举。</p>
+        </article>
+
+        <article>
+          <h3>五十块钱与一个抵押</h3>
+          <p>素不相识的两个人，一个借出仅有的五十块，一个押下随身物件——北京的第一份人情。</p>
+        </article>
+
+        <article>
+          <h3>一屋子的追梦人</h3>
+          <p>画家、萨克斯手、豫剧老演员挤在一个大通铺，谁也没服输。</p>
+        </article>
+
+        <article>
+          <h3>奔跑的蒙娜丽莎</h3>
+          <p>弄坏一幅「价值连城」的画，徐胜利道了歉也愿赔钱，就是不低头——立住了人设。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>被偷的两千块</h3>
+          <p>庄庄的学费能不能找回来？她跟徐胜利的「明天见」还会兑现吗？</p>
+        </article>
+
+        <article>
+          <h3>价值连城的画</h3>
+          <p>曹野的画到底值多少？这场「赔画」风波，会不会成了徐胜利的北漂第一课？</p>
+        </article>
+
+        <article>
+          <h3>歌舞团的门</h3>
+          <p>庄庄要考歌舞团、陶亮亮要考歌舞团——艺术这条窄门，几个人能挤进去？</p>
+        </article>
+
+        <article>
+          <h3>家里的电话</h3>
+          <p>骗妈妈住「国银大饭店」的徐胜利，什么时候会被拆穿？</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 1 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>
