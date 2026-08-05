@@ -237,7 +237,7 @@
       async function loadData() {
         let all = [];
         try {
-          const resp = await fetch('index.json');
+          const resp = await fetch('index.json?_=' + Date.now());
           if (!resp.ok) throw new Error('Failed');
           all = await resp.json();
         } catch (e) { all = []; }

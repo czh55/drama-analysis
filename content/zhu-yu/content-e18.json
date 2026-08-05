@@ -1,0 +1,493 @@
+{
+  "slug": "zhu-yu-e18",
+  "drama": "逐玉",
+  "episode": "18",
+  "title": "屠城之夜",
+  "subtitle": "长信王世子随元青率清风寨山匪血洗林安镇，只为逼出武安侯谢征的妻子樊长玉；为护地窖里的乡亲，长玉孤身引匪、后院挟持世子、假意周旋，最终在悬崖上冷笑坠崖；谢征率一百血衣骑赶到，血洗清风寨，靠海东青指引才在悬崖藤蔓下寻回浑身冰冷的她",
+  "meta": [
+    "2026 · 古装爱情",
+    "张凌赫 / 田曦薇 / 任豪 / 孔雪儿",
+    "47 分钟",
+    "12 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "林安镇的血，从夜里流到天亮。长信王世子随元青被谢征一箭射落山崖，坠江后为清风寨十三娘所救；伤一好，他就带着收编的山匪扑回林安，屠城一夜，只为逼出武安侯的女人樊长玉。长玉为护住地窖里的乡亲与妹妹，孤身引匪、后院挟持世子、假意周旋，最终在悬崖上冷笑坠崖。谢征率一百血衣骑赶到，血洗清风寨，却靠一只海东青，才在悬崖藤蔓下寻回浑身冰冷的她。",
+  "overview": "第 18 集，屠城之夜。\n\n随元青在清风寨养伤醒来，与寨主十三娘拳脚切磋，不打不相识。长信王长子齐旻（实为前朝皇孙）赶来探望，兄弟二人密谋：收编清风寨山匪，趁卢城战事吃紧，把林安周边的百姓屠杀干净，让武安侯尽失民心。临别前，齐旻救下危难的十三娘母女，又用马车掳走了认出他的俞浅浅母子。",
+  "overview2": "山匪一夜之间扑向林安镇。随元青把认识长玉的人一个个抓到面前拷问，里长、李大厨、王捕头先后倒在刀下，崔千金宁死不屈也被割喉。宋砚之母为保命说出长玉家的位置，随元青却最恨背信弃义之人，转头一枪把她刺死，还搜走了谢征与长玉姐妹俩的画像。",
+  "overview3": "随元青发现樊家地窖里藏着人。长玉为护住赵大娘、长宁和乡亲们，只得现身，在樊家后院凭一身杀猪刀法制服世子当成人质；当着山匪的面，她与随元青假扮亲密周旋，齐旻赶来以自己做质助她脱身。长玉迷晕随元青，纵马引开追兵，在城门口反杀追来的二当家，一路退上悬崖。",
+  "overview4": "「退一步，死无葬身之地。」随元青步步逼近，长玉却在崖边冷笑一声，纵身坠崖。同一夜，康婆子把孙子小虎和长宁藏进床底，自己骂着山匪引开刀口，被割喉殉难。长宁从此下落不明。",
+  "overview5": "与此同时，魏胜奉魏严之命前来探望伤愈的谢征，试探他是否握有瑾州惨案的证据——谢征故意装作一无所知，好让魏严放松警惕。海东青带着血与伤从林安飞回，谢征知道林安出了事，点一百血衣骑疾驰而去，血洗清风寨，把山匪尸体挂上城楼示众三日。",
+  "overview6": "林安镇遍地尸首，唯独不见长玉。最终，谢征靠着海东青的指引，在悬崖下的藤蔓上寻回奄奄一息的长玉——她寒邪入体、遍体鳞伤。林中木屋里，谢征以夫婿名义，在隐居婆婆的指点下亲手为她刮痧祛寒，守了一夜，不肯合眼。"
+  ,
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:30–05:56",
+      "title": "清风寨·单手切磋",
+      "body": [
+        "长信王世子随元青被谢征一箭射落山崖、坠入江中，为清风寨十三娘所救，背回寨里养伤。他这一醒，山匪围着起哄要喝酒。十三娘是这寨子的老大，三拳两脚把一群臭男人收拾得服服帖帖：「还有谁想上来，给姑奶奶我挠挠痒？」",
+        "随元青看不下去，单手应战：「我从来不欺负女人，我让你一只手。」十三娘怕他手伤未愈，山匪也在旁劝：「我们十三娘可不好惹，别为了出个风头，连命都不要了。」拳来脚往间，两人反倒打出了几分相惜——这一寨子的刀口，从此认了他这个新主人。"
+      ],
+      "quotes": [
+        {
+          "zh": "「把我救回来的时候，你还晕着呢。手受了伤，就别逞强了，赶紧回去歇着去。」",
+          "en": "\"When I brought you back, you were still unconscious. Your hand is hurt—don't be stubborn. Go back and rest.\""
+        },
+        {
+          "zh": "「知道为什么我是清风寨的老大吗？一群臭男人，平日里就知道欺负女人！」",
+          "en": "\"Know why I'm the boss of Qingfeng Fort? A pack of good-for-nothing men—all you ever do is bully women!\""
+        },
+        {
+          "zh": "「我从来不欺负女人，我让你一只手。」",
+          "en": "\"I never bully women. I'll take you on with one hand behind my back.\""
+        },
+        {
+          "zh": "「我们十三娘可不好惹，别为了出个风头，连命都不要了。」",
+          "en": "\"Our Thirteenth Lady is no pushover. Don't try to show off and throw your life away.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "05:56–08:34",
+      "title": "齐旻车厢救美",
+      "body": [
+        "混战中，一辆马车冲进人堆，救下被困的十三娘母女。「我们主子要见你。」马车里出来的人，让十三娘愣住——「齐公子，是你！」齐旻一身锦绣，含笑应道：「是啊。这天下除了我，还有谁会对你这么好，敢在屠城前来救你？」",
+        "十三娘是个爽利人，当场就要以身相许：「恩人在上，小女谢过你的救命之恩。不必后报，当下以身相许就行！」齐旻却只是笑。众人才发现，他那张烧伤毁容的脸，竟已痊愈——「这张脸好看吗？不就靠着这张脸，我才能来见你。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「恩人在上，小女谢过你的救命之恩。不必后报，当下以身相许就行！」",
+          "en": "\"Benefactor before me—this humble girl thanks you for saving my life. No need to repay me later; let me give myself to you here and now!\""
+        },
+        {
+          "zh": "「齐公子，是你！」「是啊。这天下除了我，还有谁会对你这么好，敢在屠城前来救你？」",
+          "en": "\"Master Qi, it's you!\" \"Yes, it's me. In all the world, who else would treat you so well and dare to come save you before the slaughter?\""
+        },
+        {
+          "zh": "「你的脸……怎么变了？」「这张脸好看吗？不就靠着这张脸，我才能来见你。」",
+          "en": "\"Your face—it's changed.\" \"Is this face handsome? It's only because of this face that I could come see you.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "08:34–10:25",
+      "title": "兄弟密谋",
+      "body": [
+        "齐旻与随元青兄弟相见。随元青在清风寨蛰伏已久，齐旻本要去卢城，听闻亲弟落江失踪，心急如焚，先赶来寻他。兄弟俩席地而坐：「大哥，你先去霸下等我，到时候我们同去卢城。就算父王发火，弟弟也能跟你扛过去。」",
+        "随元青另有所谋：「我花重金收编了整个清风寨的山匪，先给武安侯送上一份大礼。既然他们都以卢城为重，我偏要把这周边的百姓屠杀干净，让他尽失民心。」「都说武安侯算无遗策，说不定这次，我就找到他的软肋了。」兄弟二人相视而笑——这天下，注定是哥俩的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「大哥，你不是去卢城了吗？怎么会在林安？」",
+          "en": "\"Brother, weren't you headed to Loucheng? Why are you here in Lin'an?\""
+        },
+        {
+          "zh": "「听闻亲弟落江失踪，我心急如焚，所以先来寻你。」",
+          "en": "\"When I heard you'd fallen into the river and vanished, I was beside myself—so I came to find you first.\""
+        },
+        {
+          "zh": "「我花重金收编了整个清风寨的山匪，先给武安侯送上一份大礼。既然他们都以卢城为重，我偏要把这周边的百姓屠杀干净，让他尽失民心。」",
+          "en": "\"I spent a fortune absorbing the Qingfeng bandits, to send the Marquis of Wu'an a grand gift. Since they all fix their eyes on Loucheng, I'll butcher these people clean and strip him of the people's heart.\""
+        },
+        {
+          "zh": "「都说武安侯算无遗策，说不定这次，我就找到他的软肋了。」",
+          "en": "\"They say the Marquis of Wu'an never miscalculates. But this time, maybe I've found his weakness.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "10:25–18:18",
+      "title": "屠城拷问",
+      "body": [
+        "随元青带着收编的山匪扑进林安镇，从夜里杀到天亮。他把认识长玉的人一个个抓到面前：「都说你们认识那杀猪娘子。告诉我她叫什么、人在何处，说了就能活命。」里长、李大厨、王捕头先后倒在刀下。崔千金宁死不屈：「你姑奶奶我不知道！你杀了我爹、杀了我娘，我自己活着有什么意思！」随元青成全了她。",
+        "屠城乱起时，俞浅浅带着儿子宝儿还困在城里。齐旻的马车冲进来把她母子救走——可认出齐旻的那一刻，俞浅浅浑身发冷：她从一个地狱，落进了另一个地狱。",
+        "轮到宋砚的母亲。她跪在地上指路：「大人，你说的那个杀猪的娘子，她叫樊长玉，我知道她家在哪儿，这就带你们过去。她还在后院养着猪呢。」可随元青平生最恨背信弃义之人——连自己人都出卖的，他转头就一枪刺死了她：「我平生最恨这种不义之人，连自己人都出卖。就这么死了，是便宜她了。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「都说你们认识那杀猪娘子。告诉我她叫什么、人在何处，说了就能活命。」",
+          "en": "\"They say you all know the butcher girl. Tell me her name and where she is, and you'll live.\""
+        },
+        {
+          "zh": "「你姑奶奶我不知道！你杀了我爹，杀了我娘，我自己活着有什么意思！你这个畜生，有本事你就杀了我！」",
+          "en": "\"I don't know—and that's final! You killed my father, you killed my mother—what's the point of me living? You beast! Go on and kill me if you dare!\""
+        },
+        {
+          "zh": "「大人，你说的那个杀猪的娘子，她叫樊长玉，我知道她家在哪儿，这就带你们过去。」",
+          "en": "\"My lord, that butcher girl you spoke of—her name is Fan Changyu. I know where she lives. Let me take you there.\""
+        },
+        {
+          "zh": "「我平生最恨这种不义之人，连自己人都出卖。就这么死了，是便宜她了。」",
+          "en": "\"In all my life, I've hated none more than the faithless who betray their own. A death like this is too good for her.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "18:18–23:22",
+      "title": "后院挟持",
+      "body": [
+        "随元青搜到樊家，收了那幅谢征与长玉姐妹俩的画像，又发现后院地窖里藏着人。为护住赵大娘、长宁和满窖乡亲，长玉不得不现身，在樊家后院与随元青搏命。凭着杀猪练出的一身刀法，她竟把世子制服，当成了人质。",
+        "山匪投鼠忌器，围而不攻。齐旻闻讯赶来，张口就是一句：「你这女人，怎么这么无情？我来寻你，你倒是要我的命。」长玉冷笑：「我要是死在这儿，你和寨下的人也无望逃得出去。你放了我，我就放过你和寨下的人。」",
+        "随元青在旁阴恻恻地开口：「怎么，还不敢承认你是他的女人？」长玉回敬：「我崇拜武安侯，想做他的女人，跟你又有什么关系？」齐旻顺势接戏：「你拿我做人质，我当然要装着像一点了。要不怎么救你出去，怎么帮你瞒着那寨下的人？」"
+      ],
+      "quotes": [
+        {
+          "zh": "「你这女人，怎么这么无情？我来寻你，你倒是要我的命。」",
+          "en": "\"You heartless woman. I came all this way to find you, and you'd take my life.\""
+        },
+        {
+          "zh": "「我要是死在这儿，你和寨下的人也无望逃得出去。你放了我，我就放过你和寨下的人。」",
+          "en": "\"If I die here, you and your men below won't get out alive either. Release me, and I'll let you and your men go.\""
+        },
+        {
+          "zh": "「怎么，还不敢承认你是他的女人？」「我崇拜武安侯，想做他的女人，跟你又有什么关系？」",
+          "en": "\"What—too ashamed to admit you're his woman?\" \"I admire the Marquis of Wu'an and would be his woman. What business is that of yours?\""
+        },
+        {
+          "zh": "「你拿我做人质，我当然要装着像一点了。要不怎么救你出去，怎么帮你瞒着那寨下的人？」",
+          "en": "\"Since you're using me as your hostage, of course I'll play the part. Otherwise how could I get you out, how could I hide you from the men below?\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "23:22–26:00",
+      "title": "二当家拦路",
+      "body": [
+        "二当家带着人追上拦路：「你想将这女人带回清风寨？你若想娶十三娘，就将这女人杀了！」齐旻反唇相讥：「二当家娶了四房压寨夫人，强占的民女更是不计其数。都是男人，为何单单要求于我？」二当家被噎住，撂下一句「等我回寨，自有分数」，拂袖而去。",
+        "长玉脱身之后，迷晕随元青，翻身上马把追兵往镇外引。城门口满目尸首，崔县令被吊在城楼之上。追来的二当家被她以命相搏反杀当场，几个山匪也一并了账。同一时刻，康婆子听见山匪砸门，把孙子小虎和长宁塞进床底，自己挡在门口——「别出声，再等等啊，一会儿奶奶给你热姜汤喝。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「你想将这女人带回清风寨？你若想娶十三娘，就将这女人杀了。」",
+          "en": "\"You want to bring this woman back to Qingfeng Fort? If you want to marry Thirteenth Lady, kill her first.\""
+        },
+        {
+          "zh": "「二当家娶了四房压寨夫人，强占的民女更是不计其数。都是男人，为何单单要求于我？」",
+          "en": "\"The second-in-command himself has four stolen wives and countless seized women. We're all men—why single me out?\""
+        },
+        {
+          "zh": "「占的民女跑了！带人给我一起追！」",
+          "en": "\"The woman we seized has escaped! Men, after her!\""
+        },
+        {
+          "zh": "「别出声，再等等啊。一会儿奶奶给你热姜汤喝。」",
+          "en": "\"Hush, not a sound. Wait a little longer—Granny will warm you some ginger soup soon.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "26:00–29:58",
+      "title": "长宁失散",
+      "body": [
+        "屠城之夜漫长得没有尽头。樊家地窖里，乡亲们屏着呼吸数更漏，谁也不敢出声。长宁身有旧疾，在地窖里待不住，被人偷偷藏到了更安全的地方——可这一藏，就把她和姐姐隔成了两路。",
+        "暗夜里，孩子细细的「阿姐」声与老人们压着嗓子的「别动」「站好」交织在一起。直到天边泛白，幸存者才敢从地窖和暗角里探出头，在废墟间寻找失散的亲人——长玉下落不明，长宁也不见了踪影。"
+      ],
+      "quotes": [
+        {
+          "zh": "「阿姐！阿姐！你在哪？阿姐！」",
+          "en": "\"Jie! Jie! Where are you? Jie!\""
+        },
+        {
+          "zh": "「怎么没看见长宁呢？长宁有旧疾，不能长时间待在这地窖里。她被人藏在安全的地方了，我上去看看。」",
+          "en": "\"Why is Changning nowhere to be seen? She has an old ailment—she can't stay in this cellar for long. Someone hid her somewhere safe. I'll go up and check.\""
+        },
+        {
+          "zh": "「天亮之前，千万别出去。」",
+          "en": "\"Before dawn, don't go out for anything.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "29:58–31:34",
+      "title": "魏胜探侯",
+      "body": [
+        "谢征伤愈复出，魏严的心腹魏胜寻了过来：「听说你阵前遇险，相爷虽不言语，却忧心忡忡。如今得知你伤愈脱险，特命我来看望师弟。不曾想，半道便遇上了。」谢征面色如常，寒暄应对。",
+        "魏胜试探卢城军务，又旁敲侧击地问起当年旧案。谢征滴水不漏——瑾州惨案的证据，他明明攥在手里，此刻却装作一无所知，好让魏严放松警惕。「我这伤势未愈，卢城那边自有贺敬元将军照应。现下，也只能先保住手下的将士安然无恙，才有余力去报仇雪耻。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「听说你阵前遇险，相爷虽不言语，却忧心忡忡。如今得知你伤愈脱险，特命我来看望师弟。不曾想，半道便遇上了。」",
+          "en": "\"They say you faced danger at the front. The Chancellor said nothing, but he worried. Now that you've healed and escaped, he sent me to look in on you, junior brother. Fancy running into you halfway.\""
+        },
+        {
+          "zh": "「如今卢城那边，你将做何打算？」",
+          "en": "\"So what are your plans for the front at Loucheng now?\""
+        },
+        {
+          "zh": "「我这伤势未愈，卢城那边自有贺敬元将军照应。现下，也只能先保住手下的将士安然无恙，才有余力去报仇雪耻。」",
+          "en": "\"My wounds haven't healed. General He Jingyuan looks after Loucheng. For now I can only keep my men safe—only then will I have the strength to avenge my shame.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "31:34–33:17",
+      "title": "海东青急报",
+      "body": [
+        "侯营中，海东青带着血与伤从林安飞回，一头栽在谢征面前。「侯爷，海东青是从林安飞回来的！」谢征脸色骤变——他当即点一百血衣骑：「随我去林安！」",
+        "与此同时，林安的暗屋里，幸存的大人把孩子们拢在身边。灶台上盖着一盆饺子，大人只许每个人尝几个：「吃多了，肚子会痛。」又指着院里的鸡：「鸡下的蛋，别都吃完了。只要有蛋，就能孵小鸡。」——在屠城的夜里，这点烟火气，是活人留给孩子们的念想。「天亮之前，千万别出去。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「侯爷，海东青是从林安飞回来的！」",
+          "en": "\"My lord, the gyrfalcon flew back from Lin'an!\""
+        },
+        {
+          "zh": "「随我去林安。」",
+          "en": "\"Follow me to Lin'an.\""
+        },
+        {
+          "zh": "「鸡下的蛋，别都吃完了。只要有蛋，就能孵小鸡。」",
+          "en": "\"Don't eat all the eggs. As long as we have eggs, we can hatch chicks.\""
+        },
+        {
+          "zh": "「天亮之前，千万别出去。」",
+          "en": "\"Before dawn, don't go out for anything.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "33:17–37:15",
+      "title": "悬崖坠玉",
+      "body": [
+        "山匪挨户搜查活口，搜到康婆子家。她早已把小虎和长宁藏好，自己迎出门去，指着鼻子骂：「我老婆子一个人，无儿无女，我不怕你们！你们这帮有娘生没娘养的！」骂声未落，一刀割喉——她倒下了，床底的两个孩子，活了下来。",
+        "同一夜，长玉被随元青一路追到悬崖边。「小娘子，无路可逃了吧？投降吧。我比武安侯强多了，跟着我，也给你留条小命。退一步，就是死无葬身之地。」长玉退到崖边，忽然冷笑——她没有退，反而纵身一跃，坠入深渊。山匪只来得及急报：「世子，我们的寨子被屠了！寨子里逃出来的人说，是武安侯的血衣骑，一百号人呢！」"
+      ],
+      "quotes": [
+        {
+          "zh": "「我老婆子一个人，无儿无女，我不怕你们！你们这帮有娘生没娘养的！」",
+          "en": "\"I'm an old woman, alone, with no sons or daughters—I'm not afraid of you! You brats born to mothers but raised by none!\""
+        },
+        {
+          "zh": "「小娘子，无路可逃了吧？投降吧。我比武安侯强多了，跟着我，也给你留条小命。」",
+          "en": "\"Little lady, no way out now, is there? Surrender. I'm far better than the Marquis of Wu'an—stay with me and I'll spare your life.\""
+        },
+        {
+          "zh": "「退一步，死无葬身之地。」",
+          "en": "\"Take one step back, and you'll die without a place to be buried.\""
+        },
+        {
+          "zh": "「报！世子，我们的寨子被屠了！寨子里逃出来的人说，是武安侯的血衣骑，一百号人呢！」",
+          "en": "\"Report! My lord, our fort has been slaughtered! Survivors say it was the Marquis of Wu'an's blood-clothed riders—a hundred of them!\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "37:15–40:54",
+      "title": "血洗清风寨",
+      "body": [
+        "「我当是谁呢。一百血衣骑，拿下一座城池都不在话下，何况小小的清风寨。」随元青冷笑，可寨子已经没了，他也知道来者是谁。谢征的血衣骑把清风寨屠了个干净，又把山匪的尸首挂上城楼，示众三日。",
+        "谢征在废墟与寨子之间翻了个遍。「侯爷，寨子都搜遍了，没有发现樊娘子。林安镇也被屠了，救了一些人，但没有樊娘子。到处都找遍了，也没有樊娘子和长宁的踪迹。」谢征攥紧缰绳——长玉不在镇上，那就是在那条坠落的路上。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我当是谁呢。一百血衣骑，拿下一座城池都不在话下，何况小小的清风寨。」",
+          "en": "\"And I wondered who it was. A hundred blood-clothed riders could take a whole city—let alone this little fort.\""
+        },
+        {
+          "zh": "「侯爷，寨子都搜遍了，没有发现樊娘子。林安镇也被屠了，救了一些人，但没有樊娘子。到处都找遍了，也没有樊娘子和长宁的踪迹。」",
+          "en": "\"My lord, we searched the whole fort—no sign of Lady Fan. Lin'an was slaughtered too; we saved some people, but not Lady Fan. We've looked everywhere—no trace of Lady Fan or Changning.\""
+        },
+        {
+          "zh": "「把清风寨山匪的尸体挂在城楼上，示众三日。」",
+          "en": "\"Hang the Qingfeng bandits' bodies from the city walls—display them for three days.\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "40:54–43:33",
+      "title": "刮痧祛寒",
+      "body": [
+        "谢征没有放弃。海东青在头顶盘旋，引着他往悬崖下去——藤蔓交错间，挂着一个人。谢征把人抱下来，声音都在发抖：「你怎么不是我认识的樊长玉，那个永远都红扑扑的人，怎么现在身子却是冷冰冰的。」",
+        "林中木屋，隐居的瞎老婆子替长玉把了脉：「这是寒邪入体了，脉象微弱。得给她刮痧活血、疏通经脉，把体内的寒邪散了。只可惜呀，我儿子儿媳去城里卖药了，我又是个瞎老婆子。你们中可有女眷，能帮着刮痧？」无人应声。谢征上前一步：「我可以。」——以夫婿之名，他亲手为长玉刮痧祛寒，守了一夜，不肯合眼。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你怎么不是我认识的樊长玉，那个永远都红扑扑的人，怎么现在身子却是冷冰冰的。」",
+          "en": "\"You're not the Fan Changyu I know—her face always rosy and warm. How has your body gone so cold?\""
+        },
+        {
+          "zh": "「这是寒邪入体了，脉象微弱。得给她刮痧活血、疏通经脉，把体内的寒邪散了。」",
+          "en": "\"Cold evil has entered her body; her pulse is faint. She needs scraping to revive the blood and unblock the meridians—drive the cold out.\""
+        },
+        {
+          "zh": "「只可惜呀，我儿子儿媳去城里卖药了，我又是个瞎老婆子。你们中可有女眷，能帮着刮痧？」",
+          "en": "\"A pity—my son and daughter-in-law went to town to sell medicine, and I'm a blind old woman. Is there a woman among you who could help with the scraping?\""
+        },
+        {
+          "zh": "「我可以。」",
+          "en": "\"I can.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1 · 随元青与十三娘",
+      "title": "不打不相识，是最好的入场券",
+      "situation": "随元青初到清风寨，与十三娘拳脚切磋，从对手打成盟友。",
+      "advice": [
+        "想被一个圈子接纳，先亮出让人服气的本事。",
+        "单手应战的自信，比十句好话更管用。",
+        "真正的尊重，常常是打出来的。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 崔千金",
+      "title": "骨头硬的人，连敌人都得成全她",
+      "situation": "崔千金父母惨死，宁死不吐长玉下落，随元青只能「成全」她。",
+      "advice": [
+        "有些底线，是拿命也要守住的。",
+        "越是绝境，越别让人看扁你的骨头。",
+        "赴死之前，先想清楚为谁而死。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 宋母",
+      "title": "出卖换来的活路，往往更短",
+      "situation": "宋母为保命出卖长玉住址，仍被随元青一枪刺死。",
+      "advice": [
+        "靠出卖别人换来的安全，随时会被出卖者的刀口反噬。",
+        "把活路押在豺狼的仁慈上，是最大的赌错。",
+        "守住做人的底线，有时才是真正的保命符。"
+      ]
+    },
+    {
+      "tag": "源自 S5–S6 · 樊长玉",
+      "title": "绝境里，把戏演足，把路走出来",
+      "situation": "长玉被围，制服世子作人质，与齐旻合演人质戏骗过山匪，纵马突围。",
+      "advice": [
+        "手里没有牌，就把眼前的人变成牌。",
+        "越是刀架脖子，越要把谎圆得滴水不漏。",
+        "对手的犹豫，就是你脱身的窗口。"
+      ]
+    },
+    {
+      "tag": "源自 S6–S10 · 康婆子",
+      "title": "护住小的，是老人最后的气节",
+      "situation": "康婆子把孙子小虎和长宁藏进床底，自己骂着山匪引开刀口，被割喉殉难。",
+      "advice": [
+        "真正护人的方式，有时是把刀引向自己。",
+        "骂得越响、藏得越严——声东击西也是保护。",
+        "平凡人的赴死，往往是故事里最重的一笔。"
+      ]
+    },
+    {
+      "tag": "源自 S8 · 谢征",
+      "title": "示弱，有时是最锋利的刀",
+      "situation": "魏胜代魏严试探，谢征故意装作不知瑾州惨案的证据，麻痹对方。",
+      "advice": [
+        "让对手以为你毫无防备，他才敢露出破绽。",
+        "藏拙不是无能，是谋略的一部分。",
+        "真正的杀招，从不会提前亮给对手看。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "樊长玉",
+      "role": "屠户女 · 谢征之妻（田曦薇 饰）",
+      "desc": "为护地窖里的赵大娘、长宁与乡亲孤身现身，凭杀猪刀法制服世子当人质，假意周旋后迷晕随元青纵马突围；城门口反杀二当家，最终在悬崖上冷笑坠崖。"
+    },
+    {
+      "name": "谢征 / 言正",
+      "role": "武安侯 · 长玉的夫君（张凌赫 饰）",
+      "desc": "伤愈复出，与魏胜虚与委蛇装作不知旧案；接海东青急报，点一百血衣骑血洗清风寨，靠海东青指引在悬崖藤蔓下寻回长玉，以夫婿之名亲手为她刮痧祛寒，守了一夜。"
+    },
+    {
+      "name": "随元青",
+      "role": "长信王世子（林沐然 饰）",
+      "desc": "被谢征射落山崖后为十三娘所救，收编清风寨山匪；率众血洗林安屠城，拷问百姓逼问长玉下落，最恨背信弃义之人，宋母告密仍被他一枪刺死；悬崖逼降长玉不成。"
+    },
+    {
+      "name": "齐旻",
+      "role": "长信王长子 · 实为前朝皇孙（邓凯 饰）",
+      "desc": "烧伤毁容的脸已然痊愈，救下十三娘母女、又强行掳走俞浅浅母子；与随元青兄弟相谋，欲借屠城打击武安侯民心；配合长玉演人质戏助她脱身。"
+    },
+    {
+      "name": "十三娘",
+      "role": "清风寨大当家（林思意 饰）",
+      "desc": "救下坠江的随元青，与之拳脚切磋、不打不相识；曾受齐旻搭救，当场欲以身相许；兄长二当家死于长玉之手，为日后寻仇埋下伏笔。"
+    },
+    {
+      "name": "樊长宁",
+      "role": "长玉的妹妹（曹晏宁 饰）",
+      "desc": "身有旧疾，屠城之夜被康婆子藏在床下护住；与姐姐失散后下落不明，成了长玉此后寻妹之路的起点。"
+    },
+    {
+      "name": "康婆子",
+      "role": "林安镇老妪 · 小虎的祖母",
+      "desc": "把孙子小虎和樊长宁藏进床底，自己骂着山匪引开刀口，被一刀割喉殉难——以最平凡的命，护住了两个孩子的命。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "清风寨单手切磋",
+      "desc": "随元青单手迎战十三娘，从刀口上打出来的另类相惜——两个桀骜的人，从此结下了一段说不清的情分。"
+    },
+    {
+      "title": "屠城拷问",
+      "desc": "随元青一夜之间把林安变成坟场，拷问「杀猪娘子」的下落；崔千金宁死不屈、宋母告密反被诛，「最恨背信弃义之人」的歪理在血里格外瘆人。"
+    },
+    {
+      "title": "后院挟持周旋",
+      "desc": "长玉制服世子当人质，与齐旻当着山匪的面合演亲密戏——「我崇拜武安侯，想做他的女人」，一句话把刀口上的惊险都藏进了戏里。"
+    },
+    {
+      "title": "康婆子护孙殉难",
+      "desc": "把孙子和长宁藏进床底，自己骂着山匪迎上刀口。「一会儿奶奶给你热姜汤喝」的热乎话，和那一刀割喉，是这集最戳心的一冷一热。"
+    },
+    {
+      "title": "悬崖冷笑坠崖",
+      "desc": "「退一步，死无葬身之地」——随元青步步逼近，长玉却冷笑一声纵身跃下，用最烈的姿态替自己挣一条生路。"
+    },
+    {
+      "title": "藤蔓下的重逢与刮痧",
+      "desc": "海东青引路，谢征在悬崖藤蔓下寻回浑身冰冷的长玉；以夫婿之名，他亲手为她刮痧祛寒，守了一夜不肯合眼——「你怎么不是我认识的樊长玉」。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "长宁下落不明",
+      "desc": "康婆子用命护住了她，可屠城之后长宁却不见了踪影——她会被谁掳走？下一集，十三娘将把她当成牵制谢征的重要筹码。"
+    },
+    {
+      "title": "齐旻掳走俞浅浅",
+      "desc": "俞浅浅认出齐旻后只剩恐惧，而齐旻早已摸清她的软肋俞宝儿——她从此被齐旻牢牢拿捏。"
+    },
+    {
+      "title": "谢征假装不知旧案",
+      "desc": "面对魏胜的试探，谢征故意示弱，好让魏严放松警惕——他手里究竟攥着多少瑾州惨案的证据？这局棋才刚刚开始。"
+    },
+    {
+      "title": "二当家之死结下血仇",
+      "desc": "二当家追杀长玉反被反杀，十三娘痛失兄长——这份血仇很快会找上门，也让十三娘与随元青结成危险的合作。"
+    },
+    {
+      "title": "随元青认准的软肋",
+      "desc": "他说他找到了武安侯的软肋，那便是樊长玉——长玉坠崖生死未卜，谢征从此多了软肋，也多了要为软肋讨的债。"
+    }
+  ]
+}

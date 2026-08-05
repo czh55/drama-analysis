@@ -1,0 +1,438 @@
+{
+  "slug": "zhu-yu-e26",
+  "drama": "逐玉",
+  "episode": "26",
+  "title": "替夫上阵",
+  "subtitle": "樊长玉在军中受审，军师太医求情判功过相抵，她一脚踹开营门的传说被传成天神下凡；大战在即，长玉迷晕伤重的丈夫言正代夫上阵，血战燕州立威，一句「侯夫人」的玩笑悄悄许下一生的约",
+  "meta": [
+    "2026 · 古装爱情",
+    "张凌赫 / 田曦薇 / 任豪 / 孔雪儿",
+    "41 分钟",
+    "10 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "军帐之中，樊长玉为擅自带走囚犯一事受审，一句「要罚连我一起罚」把责任揽上肩；军师与太医齐声求情，武安侯判下「功过相抵」。出了大帐，她一脚踹开寨门、提三颗人头回来的传说，已被传成天神下凡。大战在即，长玉迷晕伤重的丈夫言正，自己拎着屠刀代夫上阵——燕州城外的尸山血海里，屠户娘们的刀，照样劈得开敌阵。",
+  "overview": "受审与传说\n\n樊长玉与言正因擅自行动受审。长玉一句「要罚连我一起罚」，把责任揽到自己身上；军师公孙鄞与太医也来求情：她虽违了军令，却保全了人质。武安侯判功过相抵，训诫了事。风波过后，士兵们围着杀猪小队，把樊娘子吹成天神下凡——四袋盐上肩、一脚踹开营门、追敌十里提头而回。也有人叹她夫婿伤重，怕是快不行了，怪不得她这一趟只抢肉，原是给夫婿做最后一顿。",
+  "overview2": "羊汤与公主\n\n长玉在营中煮羊汤，杀猪小队的少年们围炉起哄，还有喝高了的小子闹着要娶她。高阳长公主齐姝闻着味儿来了，端碗便喝，拿「一脚踹开城门」「给夫婿做最后一顿饭」的传闻打趣她。长玉笑着否认，又托齐姝把羊汤、炖肉、炒菜带给武安侯，答谢他并没有为难他们两口子；她说这一行有一行的规矩，杀猪卖肉尚且不缺斤短两，何况行军打仗，下次一定听军令、指哪儿打哪儿。",
+  "overview3": "夜话与军情\n\n夜里，长玉把羊汤端进帐篷给言正补身子，问他武安侯罚他们气不气。言正说武安侯训得对，回头要请公孙军师讲讲军规；长玉放话：武安侯再要罚你，让他来找我，你身上有伤，我替你扛。只要魏严那个王八蛋伏诛，什么军规她都肯守。言正逗她：要是将来我能封侯拜爵，你不就是侯夫人了？她脆生生应下——这种好事，傻子才不愿意。军情却急转直下：卢城急报，长信王集结大军欲速战速决，人质已不值钱，大战在即。",
+  "overview4": "敌营与托付\n\n敌营里，长信王的部将们愁作一团：世子被擒，却撂下话让将士别管他死活、只管强攻；可那是世子，哪能眼睁睁看他送命？万一生死不明，日后王爷追究谁也担不起。为首者拍板：明日强攻，夺不回世子，就拿谢征的人头回去交代。开战前夜，小队少年阿琪把攒下的银两托给长玉：刀枪无眼，万一回不来，请阿姐带回家交给妹妹。长玉恼了：「谁叫你说这些晦气话！我能把你们平安带出来，就能把你们平安带回去，一个都不会少！」",
+  "overview5": "出征与替夫\n\n大军开拔，齐姝送别军师公孙鄞，叮嘱战场刀剑无言，又对出征儿郎们说「一定要平安归来」。武安侯部署诱敌入瓮之计，先锋队随军师先行。开拔在即，长玉要替伤重未愈的言正上阵，言正不许；她假意哄他喝了补药，转头将他迷晕，混进队伍代夫出征。到了阵前才知报错了营，她硬着头皮求小虎将军通融：看在同袍情分上，就当没这回事，等她立了战功，追究代夫之罪也无妨。小虎将军惊道：你可知他对今儿大战有多重要！",
+  "overview6": "血战燕州\n\n十月率叛军撕开先锋军缺口，公孙军师急调左翼支援；十月阵前叫阵斗将，公孙鄞一句「武安侯还等着请十月将军喝茶」把他堵了回去。后备营的兵卒互相打气：先活着吧。长玉冲在最前，厮杀中恍惚忆起幼年妹妹数石头等自己醒来的声音。敌将认出她就是羞辱世子的那个娘们，放话要把她砸成一坛肉泥。血战中武安侯不顾伤势赶赴阵前护她。长玉拎着屠刀杀穿敌阵，一战立威——战后众人望着她的背影，越看越像传说中的猛将。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "00:00–02:03",
+      "title": "要罚连我一起罚",
+      "body": [
+        "军中大帐，武安侯谢征就「擅自带走囚犯」一事问责樊长玉与言正。长玉抢步上前：「要罚连我一起罚，今日之事我也有份！」军师公孙鄞与随军太医也纷纷求情：她虽违了军令，却恰好保住了人质，没让敌将十月派来的高手把人救走。",
+        "武安侯听罢军师与太医之请，判「功过相抵」，由重责改为训诫几句便了事。长玉与言正全身而退，这场风波反倒让她的名字在军中彻底传开了。"
+      ],
+      "quotes": [
+        {
+          "zh": "「慢着！要罚连我一起罚，今日之事我也有份！」",
+          "en": "\"Wait! If he must be punished, punish me too — I had a share in what happened today!\""
+        },
+        {
+          "zh": "「凡娘子带走囚犯一事，我也知情。本太医知情不报，也是有罪。」",
+          "en": "\"I, too, knew that Lady Fan moved the prisoner. By failing to report it, this physician shares the guilt.\""
+        },
+        {
+          "zh": "「若不是凡娘子恰好接走了她，那世子怕是早已被人救走了。」",
+          "en": "\"Had Lady Fan not moved her in time, the prince would long since have been rescued.\""
+        },
+        {
+          "zh": "「虽擅自行动、违了军令，但也保全了人质，功过相抵。」",
+          "en": "\"She acted on her own and broke orders, yes — yet she kept the hostage safe. Merit and fault cancel out.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "02:03–04:50",
+      "title": "天神下凡的传说",
+      "body": [
+        "风波过后，谢侯爷身边的亲兵围着杀猪小队，把樊娘子吹成了天神下凡：五六十斤的盐袋子往肩上一扛就是四袋；在乌合大营搬砖时一人能拎两筐六百斤；曾一脚踹开营门，一人一马追出十里，杀了斥候，还提了三颗贼首回来。",
+        "也有人压低了声：她夫婿言正这次伤得重，一直咳嗽吐血，怕是快不行了，怪不得樊娘子这回只抢肉，原是给夫婿做最后一顿，真是有情有义。传闻越传越玄，长玉的威名却在军中悄悄立住了。"
+      ],
+      "quotes": [
+        {
+          "zh": "「那五六十斤的盐袋子，往肩膀上一扛就是四袋！那英姿，简直就是天神下凡！」",
+          "en": "\"Fifty- or sixty-jin salt sacks — four of them on her shoulders at once! A sight like a god descending to earth!\""
+        },
+        {
+          "zh": "「凡娘子以前是个屠户，整个临安没有不认识她的，一巴掌就能拍倒一头大肥猪。」",
+          "en": "\"Lady Fan used to be a butcher — half of Lin'an knew her. One slap and a fat hog goes down.\""
+        },
+        {
+          "zh": "「她夫婿这次伤得挺重，一直咳嗽吐血，估计……快不行了。」",
+          "en": "\"Her husband was hurt badly this time — coughing blood. Could be his last days.\""
+        },
+        {
+          "zh": "「怪不得凡娘子这一趟只抢肉了，感情是给夫婿做最后一顿了，真是有情有义。」",
+          "en": "\"No wonder she grabbed only meat this trip — she's making her husband's last meal. Now that's loyalty.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "04:50–08:17",
+      "title": "羊汤与高阳长公主",
+      "body": [
+        "长玉在营中架锅煮羊汤，杀猪小队的少年们围着锅起哄，还有个喝高了的小子闹着要娶她。她把人都支开，趁言正身边那群「猪队友」不在，想跟他说几句体己话——话没开头，高阳长公主齐姝就闻着味儿来了：「本宫来得真巧。」",
+        "齐姝端碗便喝，又拿传闻打趣她：听说你曾一脚踹开城门？听说你抢羊肉是给夫婿做最后一顿？长玉笑着否认。她托齐姝把羊汤、炖肉、炒菜带给武安侯，答谢他并未为难他们两口子，又说杀猪卖肉尚且不缺斤短两，何况行军打仗，下次一定听军令、指哪儿打哪儿。齐姝赞她夫郎娶到她是几辈子修来的福气。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我听说你曾一脚踹开城门？」「谁人能一脚踹开城门啊！」",
+          "en": "\"I hear you once kicked a city gate right off its hinges?\" \"Who on earth could kick down a city gate?!\""
+        },
+        {
+          "zh": "「这话要是传到武安侯耳中，只怕他会砍了那些人的脑袋。」",
+          "en": "\"If word of this reached the Marquis's ears, he might have those tongues cut out.\""
+        },
+        {
+          "zh": "「武安侯这个人，除了有点口吃，我瞧着脾性也算好，到底也没有为难我们两口子。我做了些羊汤炖肉炒菜，一会儿你帮我带给他。」",
+          "en": "\"The Marquis — stutter and all — seems decent enough to me. He hasn't made things hard for us two. I've made mutton soup, stew, and stir-fry. Take some to him for me.\""
+        },
+        {
+          "zh": "「这一行有一行的规矩。我们杀猪的，卖肉都有不缺斤短两的规矩，更何况行军打仗呢。」",
+          "en": "\"Every trade keeps its own rules. We butchers never short a pound of pork — let alone soldiers on campaign.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "08:35–12:25",
+      "title": "帐中夜话·侯夫人之约",
+      "body": [
+        "夜里，长玉把羊汤端进帐篷给言正补身子。她问武安侯罚了他们，言正气不气。言正说武安侯训得对——他和杀猪小队能全身而退，只是运气好，回头要请公孙军师讲讲军规。长玉心疼道：要是武安侯再想罚你，让他来找我，你身上有伤，我替你扛。",
+        "两人说起旧事，长玉放话：只要最后能让魏严那个王八蛋伏诛，什么军规她都肯守。言正顺着话头逗她：要是将来我能封侯拜爵，你杀猪娘子岂不就是侯夫人了？她脆生生应下：「当然愿意，这种好事，傻子才不愿意。」一句玩笑，悄悄许下一生的约。"
+      ],
+      "quotes": [
+        {
+          "zh": "「武安侯罚我们，你不生气吗？」「武安侯训得对。我和杀猪小队这次能全身而退，只是因为运气好。」",
+          "en": "\"Aren't you angry that the Marquis punished us?\" \"The Marquis was right. The pig-killing squad and I only got off because of luck.\""
+        },
+        {
+          "zh": "「要是那个武安侯再想罚你，让他找我。你身上有伤，不能再受罚了，我替你扛。」",
+          "en": "\"If that Marquis ever wants to punish you again, send him to me. You're wounded — you can't take another beating. I'll bear it for you.\""
+        },
+        {
+          "zh": "「只要最后能让魏严那个王八蛋伏诛，什么军规我都可以遵守。」",
+          "en": "\"As long as that bastard Wei Yan meets his end, I'll obey whatever rules they set.\""
+        },
+        {
+          "zh": "「要是将来我能封侯拜爵，你这个杀猪娘子，岂不就是侯夫人了？你愿意吗？」「当然愿意了，这种好事，傻子才不愿意！」",
+          "en": "\"If one day I rise to be a marquis, wouldn't my little butcher's wife become a marchioness? Would you have me?\" \"Of course I would — only a fool would refuse such luck!\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "12:31–14:40",
+      "title": "军情密议与敌营阴谋",
+      "body": [
+        "帐中密议军情：卢城急报，长信王怕是要集结大军、速战速决，叛军在十月带领下正逼向我军大营。公孙军师判断：先前投鼠忌器，人质还能牵制敌军，如今这人质已不值钱——看来大战在即。",
+        "另一边，长信王的部将们愁作一团：世子被擒，却撂下话让将士别管他死活、只管强攻；可那是世子，哪能眼睁睁看着他送命？万一有个好歹，日后王爷追究，谁也担不起。为首之人终于拍板：明日强攻，若能夺回世子最好，若不能，就拿着谢征的人头回去向王爷交代。"
+      ],
+      "quotes": [
+        {
+          "zh": "「收到卢城急报，长信王怕是要集结大军了，估计打算速战速决。」",
+          "en": "\"Word from Lucheng — Prince Changxin is mustering his host. He means to end this in one swift battle.\""
+        },
+        {
+          "zh": "「之前投鼠忌器，咱们才得以千人牵制三万。但以近日所见，这人质不值钱了。看来，大战在即。」",
+          "en": "\"Fear for the hostage once let a thousand of us hold off thirty thousand. But lately that hostage has lost his worth. War is at hand.\""
+        },
+        {
+          "zh": "「世子都把话撂下了，让咱们别管他死活，只管按计画向前冲。可那是世子，哪能眼睁睁看着他不管呢？」",
+          "en": "\"The young prince himself said not to worry about his life — just charge on. But he is the prince. How can we watch him die?\""
+        },
+        {
+          "zh": "「也罢，明日强攻。若能夺回世子最好；如若不能，你我就拿着谢征的人头，回去向王爷交代。」",
+          "en": "\"Enough. We strike at dawn. If we can win back the prince, good. If not, we take Xie Zheng's head back to the king.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "14:44–16:11",
+      "title": "战场前的托付",
+      "body": [
+        "开战前夜，小队少年阿琪把长玉拉到僻静处，从怀里掏出一包银两：这是他从军以来攒下的全部积蓄，加上赌坊里大哥分他的份子。他说自己也要上战场，刀枪无眼，万一回不来，请阿姐把银子带回家，交给他妹妹。",
+        "长玉一听就恼了：「谁叫你说这些晦气话！什么死不死的不许再说了！你阿姐我是谁，能把你们平安地带出来，就能把你们平安地带回去，一个都不会少！」她把银子塞回阿琪怀里：要放我这儿，待我回了临安，把你们全拿去卖猪。阿琪咧嘴一笑：「那我愿意给阿姐卖猪。」长玉赶他去睡觉，不许再想这些有的没的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「刀枪没长眼，万一我死在战场上，请阿姐将这些银子带回家，交给我妹妹。」",
+          "en": "\"Blades have no eyes. If I fall in battle, please take this silver home to my little sister.\""
+        },
+        {
+          "zh": "「你阿姐我是谁！能把你们平安地带出来，就能把你们平安地带回去，一个都不会少！」",
+          "en": "\"Do you know who your big sister is?! I led you all out safely, and I'll lead you all back — not one of you will be lost!\""
+        },
+        {
+          "zh": "「要是放在我这儿，待我回了临安，把你们全拿去卖猪，一个也不给你留！」「那我愿意给阿姐卖猪。」",
+          "en": "\"Leave it with me, and once we're back in Lin'an I'll sell every one of you as a pig!\" \"Then I'll gladly be sold by you, sister.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "16:40–20:15",
+      "title": "出征·送别与部署",
+      "body": [
+        "大军开拔。齐姝送别率先锋先行的公孙军师，叮嘱战场刀剑无言、多加小心；公孙鄞笑说满营谢家将士护他周全，打不过他就直接跑。他又提起幼年见过一册奇书残卷《气韵玄机》，家中藏有祖父真笔的完册，从不外示。齐姝望向整装待发的儿郎们：「你们也一定要平安归来。」",
+        "武安侯部署：贼军昨夜已暗中埋伏兵马，先锋随军师先行，诱敌入瓮，再乘胜追击。他让部将先行，自己压后。长玉带伤赶到，小虎、小九两位将军见她伤口还在渗血，忙劝她休整，长玉只道都是小伤，不打紧。"
+      ],
+      "quotes": [
+        {
+          "zh": "「战场刀剑无言，你定要多加小心。」「有这么多谢家的将士能护我周全，肯定没什么大碍。况且我要是打不过，我就直接跑。」",
+          "en": "\"The battlefield is deaf to words. Take care.\" \"With all these soldiers of the Xie family around me, I'll be fine. And if I can't win, I'll simply run.\""
+        },
+        {
+          "zh": "「好儿郎们，你们也一定要平安归来。」",
+          "en": "\"Brave lads — all of you must come home safe.\""
+        },
+        {
+          "zh": "「贼军在昨日夜里便已暗中埋伏了兵马。即刻出发，诱敌入瓮，便可乘胜追击。」",
+          "en": "\"The rebels quietly laid an ambush last night. We move at once — lure them into the trap, then press the victory.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "20:15–26:45",
+      "title": "迷晕丈夫，代夫上阵",
+      "body": [
+        "开拔在即，长玉拽住言正：你伤还没好，上战场连刀都拿不起来，要不我替你去？言正坚决不许。长玉不再争，只哄他把补药趁热喝了，转身便混进队伍——她把言正迷晕了。伤重之人若临阵不上，就是逃兵，这罪她替丈夫扛。",
+        "到了阵前才知闹了乌龙：她报称左卫军三营的刀兵，可军中根本没有这个编制。长玉硬着头皮求小虎将军通融：夫婿伤重，看在同袍情分上，就当不知道这回事，等立了战功再论。小虎将军惊道：你怎可如此莽撞，你知不知道他对今儿大战有多重要！长玉只当他客气，转身便去。迷药劲儿大，言正还昏睡未醒。"
+      ],
+      "quotes": [
+        {
+          "zh": "「言正，要不我替你去战场？」「说什么胡话呢！你伤还没好，在战场上刀都拿不起来，那怎么办？」",
+          "en": "\"Yan Zheng — let me go to the battlefield in your place.\" \"Don't talk nonsense! You're not healed. On the field you couldn't even lift a blade. What then?\""
+        },
+        {
+          "zh": "「小虎将军，我夫婿伤重，您就看在同袍的情分上，就当不知道这回事。等此战归来我有了战功，就算有人追究这代夫之罪，也无妨。」",
+          "en": "\"General Xiaohu, my husband is gravely wounded. For comradeship's sake, pretend you never saw me. Once I've won merit in this battle, even if someone charges me with fighting in his place, so be it.\""
+        },
+        {
+          "zh": "「你怎可如此莽撞！你知不知道，他对今儿这场大战有多重要！」「他连个伍长都不是，能有多重要？无非是多杀几个敌人。他现在这身板，连我还不如呢！」",
+          "en": "\"How could you be so reckless! Do you have any idea how vital he is to today's battle?!\" \"He isn't even a squad leader — how important can he be? At most a few more enemy kills. In his state right now he's weaker than I am!\""
+        },
+        {
+          "zh": "「他被我迷晕了……来不及了，这迷药劲儿大，他会昏迷好长一段时间。」",
+          "en": "\"I drugged him... It's too late. The draught is strong — he'll be out for a long while.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "26:47–33:15",
+      "title": "阵前交锋·樊娘子还在阵前",
+      "body": [
+        "十月率叛军撕开先锋军一道口子，公孙军师急传军令，调左翼军上前支援。十月在阵前叫阵斗将，公孙鄞只笑应：「小生乃一介文人，自然斗不过你，武安侯还等着请十月将军喝茶呢。」长玉留下的那套气人的话术，倒让将士们用上了。",
+        "后备营仓促集合上阵，年轻的兵卒互相打气：这场打完能回家吃顿饱饭就好了——先活着吧。长玉冲在最前，厮杀中恍惚忆起幼年妹妹长宁的声音：数到一千个数就醒，数到五十放一块石头，攒够二十块……战报传来：十月放弃人质，让石虎一路狂杀开路，先锋军快撑不住了，可樊娘子还在阵前！"
+      ],
+      "quotes": [
+        {
+          "zh": "「十月带人把先锋军撕开了一道口子！传军师之令，左翼军即刻上前支援！」",
+          "en": "\"Shiyue has torn a gap in the vanguard! By the strategist's order — left wing, advance now!\""
+        },
+        {
+          "zh": "「公孙爷，何不下来斗将，一决胜负啊？」「小生乃一介文人，自然是斗不过你。武安侯还等着请十月将军喝茶呢。」",
+          "en": "\"Lord Gongsun, won't you come down and settle this in single combat?\" \"I'm but a scholar — hardly your match. The Marquis still owes General Shiyue a cup of tea.\""
+        },
+        {
+          "zh": "「这场打完，能回家吃顿饱饭就好了。」「先活着吧，别废话。」",
+          "en": "\"After this battle, I just want to go home and eat my fill.\" \"Stay alive first. Save the talk.\""
+        },
+        {
+          "zh": "「阿姐，让我数到一千个数，你就要醒来……可是我不知道怎么数到一千。阿姐说，数到五十就放一块石头，要攒够二十个石头。」",
+          "en": "\"Sister, I'll count to a thousand and then you'll wake... but I don't know how to count that far. Sister said, place a stone every fifty, until twenty stones are gathered.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "33:30–39:32",
+      "title": "血战燕州·一坛肉泥",
+      "body": [
+        "决战。敌将石虎一路冲杀，骂燕州军没一个能打的，叫小虎将军请侯爷出来受死，再不出来，世子以后就没有了。他认出长玉：「你是那天羞辱世子的那个娘们！一个小娘子也敢上阵？我今天非把你砸成一坛肉泥！」",
+        "长玉血战不退，杀猪小队的兄弟嘶吼着跟上，乱阵里「老樊，你没事吧」的喊声起起落落。混战中，武安侯不顾伤势策马赶到阵前护她。长玉拎着屠刀劈开敌阵，敌军肝胆俱裂。战后，众人望着她浴血的背影，越看越像那位传说里的猛将——有人低声议论，话里藏着说不破的心事。"
+      ],
+      "quotes": [
+        {
+          "zh": "「燕州军真是废物，一个能打的都没有！小虎将军，叫你们侯爷出来受死！再不出来，你们家世子以后就没有世子了！」",
+          "en": "\"The Yanzhou army is worthless — not a one of you can fight! General Xiaohu, send your marquis out to die! Come out now, or your young prince will cease to be a prince!\""
+        },
+        {
+          "zh": "「你是那天羞辱世子的那个娘们！你个小娘子也敢上阵？我今天非把你砸成一坛肉泥！」",
+          "en": "\"You're the wench who humiliated our prince! A slip of a girl on the battlefield? I'll smash you into a jar of meat paste!\""
+        },
+        {
+          "zh": "「老樊，你没事吧！」",
+          "en": "\"Lao Fan, are you all right?!\""
+        },
+        {
+          "zh": "「像不像那个……真是越看越像。」",
+          "en": "\"Doesn't she look like...? The more you look, the more it fits.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1–S2 · 樊长玉",
+      "title": "敢把责任揽过来，也是一种战力",
+      "situation": "长玉因擅自行动受审，一句「要罚连我一起罚」把责任扛上肩，军师太医求情后功过相抵。",
+      "advice": [
+        "「今日之事我也有份」——该认的错，先站出来认。",
+        "担当不是认罚，是让同路人知道你不会丢下他们。",
+        "功劳别独吞，责任别外推，队伍才肯跟你走。"
+      ]
+    },
+    {
+      "tag": "源自 S1–S2 · 公孙鄞、太医",
+      "title": "在规矩里替人说话，是成年人的仗义",
+      "situation": "长玉违了军令，公孙军师与太医不求免责，先认知情不报，再摆出功过，把人从罚里救下来。",
+      "advice": [
+        "求情要站在事实和规矩上，别空口喊冤。",
+        "先认自己的份（知情不报），才有资格替别人说话。",
+        "把「保全了什么」讲清楚，功过才有得相抵。"
+      ]
+    },
+    {
+      "tag": "源自 S3–S4 · 樊长玉",
+      "title": "不怨罚你的人，规矩才能为你所用",
+      "situation": "长玉被武安侯责罚，却明白行有行规，杀猪卖肉尚且不缺斤短两，何况行军打仗。",
+      "advice": [
+        "把「为什么被罚」想透，比记恨罚你的人有用。",
+        "守规矩不等于服软，是让自己活到能翻身那天。",
+        "目标定清楚（让魏严伏诛），其余规则都可让步。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 言正与长玉",
+      "title": "一句玩笑话，也要当承诺来许",
+      "situation": "言正用「封侯拜爵」打趣，长玉应下「傻子才不愿意当侯夫人」，玩笑里埋着一生的约。",
+      "advice": [
+        "轻描淡写的话，往往是心里最重的字。",
+        "答应之前想清楚，答应了就要当真。",
+        "美好的期待敢说出口，它会成为撑过苦日子的那口气。"
+      ]
+    },
+    {
+      "tag": "源自 S6 · 阿琪与长玉",
+      "title": "托付信任，也要托付信心",
+      "situation": "阿琪把积蓄托给长玉留遗言，长玉不许他说晦气话，立誓一个都不会少地带回来。",
+      "advice": [
+        "值得托付的人，收到的是命，还回去的是平安。",
+        "别人把后事托给你，你要把「能活着回来」的底气还给他。",
+        "一句「一个都不会少」，比一包银子更能定人心。"
+      ]
+    },
+    {
+      "tag": "源自 S8–S10 · 樊长玉",
+      "title": "替爱的人挡刀之前，先守住自己",
+      "situation": "长玉迷晕伤重的丈夫代夫上阵，战场上以屠刀劈开敌阵，把「屠户娘们」的骂名杀成威名。",
+      "advice": [
+        "想护住别人，先让自己有站在阵前的本事。",
+        "出身和骂名，都可以变成你的武器。",
+        "牺牲要可控——你若倒下，谁来护你护的人？"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "樊长玉",
+      "role": "燕州军·杀猪小队老大（田曦薇 饰）",
+      "desc": "受审时一句「要罚连我一起罚」担下责任；煮羊汤答谢武安侯，立誓一个不少地带回小队；大战前夜迷晕丈夫代夫上阵，血战中拎屠刀杀穿敌阵，一战立威。"
+    },
+    {
+      "name": "言正 / 谢征",
+      "role": "武安侯·长玉的契约夫婿（张凌赫 饰）",
+      "desc": "重伤未愈仍操持军务，与公孙军师密议大战；被长玉迷晕错过出征，血战之际不顾伤势赶到阵前护她。观众已知他就是军中武安侯，长玉却蒙在鼓里。"
+    },
+    {
+      "name": "公孙鄞",
+      "role": "军中军师·书院山长",
+      "desc": "受审时为长玉求情促成功过相抵；出征前与齐姝话别，提起祖父真笔的奇书《气韵玄机》；阵前一句「武安侯还等着请十月将军喝茶」堵回敌将叫阵。"
+    },
+    {
+      "name": "齐姝",
+      "role": "高阳长公主",
+      "desc": "闻着羊汤味儿来访，拿「一脚踹开城门」的传闻打趣长玉；出征时送别公孙军师，又叮嘱全军儿郎一定要平安归来。"
+    },
+    {
+      "name": "十月",
+      "role": "长信王麾下叛军主将",
+      "desc": "曾派高手夜袭营救世子未果；决战率军撕开先锋军缺口，令石虎一路狂杀开路，是此战敌军最大威胁。"
+    },
+    {
+      "name": "小虎将军",
+      "role": "燕州军将领",
+      "desc": "识破长玉代夫从军后震惊不已，一句「你知不知道他对今儿大战有多重要」，意味深长地指向言正的真实身份。"
+    },
+    {
+      "name": "阿琪",
+      "role": "杀猪小队少年兵",
+      "desc": "开战前夜把攒下的银两托给阿姐长玉，说要带回家给妹妹，换来长玉「一个都不会少」的承诺。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "「要罚连我一起罚」",
+      "desc": "军帐受审，长玉挺身把责任揽上肩，军师太医齐声求情，武安侯判功过相抵——担当与仗义在第一幕就立住了。"
+    },
+    {
+      "title": "天神下凡的传说",
+      "desc": "四袋盐上肩、一脚踹开营门、提三颗贼首而归——士兵们把樊娘子传成神人，笑点与威风齐飞。"
+    },
+    {
+      "title": "羊汤里敬武安侯",
+      "desc": "齐姝闻味蹭汤，长玉托她带饭谢武安侯；一句「除了口吃脾性也算好」，把烟火气藏进军帐。"
+    },
+    {
+      "title": "「一个都不会少」",
+      "desc": "阿琪托付积蓄留遗言，长玉一句「把你全拿去卖猪」的玩笑，是乱世里最硬的承诺。"
+    },
+    {
+      "title": "迷晕丈夫，替夫上阵",
+      "desc": "哄言正喝药、把他迷晕、混进队伍、报错营号、向将军求情——长玉用最笨的办法，护住最爱的人。"
+    },
+    {
+      "title": "「砸成一坛肉泥」",
+      "desc": "敌将羞辱她屠户出身，长玉以屠刀劈开敌阵，把「娘们上阵」的讥讽杀成敌军的噩梦。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "「侯夫人」的玩笑",
+      "desc": "言正说将来封侯拜爵，长玉应下当侯夫人——观众已知言正即武安侯谢征，这局玩笑终将在身份揭晓时落地成真。"
+    },
+    {
+      "title": "「拿谢征的人头回去交代」",
+      "desc": "敌将已把矛头对准武安侯谢征，其身份与性命面临直接威胁，伏线直指后续更大规模的大战。"
+    },
+    {
+      "title": "小虎将军的「重要」",
+      "desc": "他惊道言正对今儿大战有多重要，军中似有人知悉言正真身；长玉的隐瞒还能撑多久？"
+    },
+    {
+      "title": "代夫从军的欺军之罪",
+      "desc": "长玉假借言正之名上阵，一旦身份败露便是欺军重罪，这份「罪名」何时引爆？"
+    }
+  ]
+}

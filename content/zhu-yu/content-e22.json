@@ -1,0 +1,518 @@
+{
+  "slug": "zhu-yu-e22",
+  "drama": "逐玉",
+  "episode": "22",
+  "title": "坝下之战",
+  "subtitle": "隋元卿挟人质布下坝下死局，武安侯谢征以千人诱敌、坝水灭十万军；樊长玉在采石场拜太傅为师，一支走签换来生路，也踏上女将之路的起点",
+  "meta": [
+    "2026 · 古装爱情",
+    "张凌赫 / 田曦薇 / 任豪 / 孔雪儿",
+    "48 分钟",
+    "12 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "第 22 集，坝下之战。樊长玉在采石场做苦役，阴差阳错拜了前工部尚书、当朝太傅为师，又靠一支签躲过溃坝的杀劫；另一头，武安侯谢征亲率一千济州军踏进隋元卿布下的死局。隋元卿以为胜券在握，却不知坝下之水，早已等着他的数十万大军。",
+  "overview": "开场即回放上一集尾声：樊长玉终于得知，她从雪地里背回的「言正」，正是武安侯谢征——堂堂侯爷，竟入赘了杀猪女。与此同时，隋元卿以「武安侯之女」为质，扬言要谢征以燕州相换。谢征不为所动，传令先锋营随他赶赴坝下，务必把人毫发无伤地带回。",
+  "overview2": "隋元卿与兄长定下杀局：斥候来报谢征夜袭灭了守寨士兵，他反而叫好，下令全军备战，誓要以武安侯之死成就自己的「坝下传说」。他自恃身后藏着千军万马、又有人质在手，志在必得；只有兄长看出反常——武安侯此来不见燕州军，只带了一千济州军。",
+  "overview3": "采石场上，长玉凭爹爹教的「腰马合一」拖起两三百斤的箩筐，换来鸡腿，也换来了众人的刮目相看；老头拿《论语》换吃食，成了大伙的夫子。太傅从她鞋上黄泥变黑泥识破她偷偷上山探过路——她发现采石不是铺路，而是修坝。太傅请她明日黄昏再登顶替他看上一看。",
+  "overview4": "赵家母子趁夜按约定路线脱身，一人留下断后，被大公子囚进柴房。被囚的赵家女眷磨尖了一把刀，对送饭的丫鬟说出「靠谁都不如靠自己」。太傅求见将军，亮明前工部尚书、当朝太傅的身份，与他共议溃坝灭敌的凿眼之法，力主以「仁义之策」保全半数官兵与劳役。长玉替他治腿伤，磕头拜师，得赠一只锦囊——「等我不在的时候再打开」。",
+  "overview5": "官兵抽签调人上前线，众人不识「留」字闹出乌龙。太傅用走签换走长玉的留签，被众人骂作自私；长玉却爽快答应——出去既能找妹妹，一身功夫也不怕上战场。队伍撤离途中，她才知道留下才是等死，太傅是以命换命。她连夜折返，带着众人去救遭袭的唐将军，又认出当年骗她入营、害她被抓进采石场的敌军斥候。",
+  "overview6": "隋元卿数十万大军压境，人质长宁阵前情急唤出「姐夫」，身份败露险被扔下马；谢征亲至，以千人入阵，被刺不倒，反嘲「隋世子的枪是用蜡做的吗」。隋元卿誓要追杀到天涯海角，谢征只答「时辰差不多了」——坝水轰然决堤，数十万大军尽葬洪流。片尾曲中，长玉从采石场一路走到阵前，女将之路才刚刚开始。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:30–04:16",
+      "title": "坝下杀局",
+      "body": [
+        "前情提要：上一集尾声，樊长玉终于得知，她从雪地里背回来的「言正」，正是武安侯谢征——堂堂侯爷，竟入赘了杀猪女。此话一出，众人皆惊。",
+        "谢征接斥候急报：隋元卿挟持人质，扬言要他以燕州相换，气焰愈发嚣张。谢征不为所动，传令先锋营随他赶赴坝下，务必把「本侯的女儿」毫发无伤地带回。",
+        "隋元卿与兄长定计：斥候来报谢征夜袭，灭了守寨士兵，他反倒叫好，下令全军备战，誓要以武安侯之死成就自己的「坝下传说」。他自恃身后千军万马、又有人质在手，志在必得。只有兄长看出反常——武安侯此来不见燕州军，只带了一千济州军，心中总有些惴惴不安。"
+      ],
+      "quotes": [
+        {
+          "zh": "「堂堂武安侯，竟能入赘杀猪女？还有什么事比这个更荒谬？」",
+          "en": "\"The great Marquis of Wu'an, actually marrying into a butcher girl's family? What could be more absurd than this?\""
+        },
+        {
+          "zh": "「传我军令，让先锋营随我去坝下，把本侯的女儿毫发无伤地带回。」",
+          "en": "\"Pass my order: the vanguard comes with me to the dam. My daughter must be brought back without a scratch.\""
+        },
+        {
+          "zh": "「武安侯此来，不见燕州军，却只带了一千济州军，我心中总有些惴惴不安。」",
+          "en": "\"The Marquis brought no Yanzhou troops—just a thousand from Jizhou. Something about this sits uneasy in my heart.\""
+        },
+        {
+          "zh": "「世人皆说他是天赐将军在世，可这次，我身后藏着千军万马！小丫头，你爹就要来救你了。」",
+          "en": "\"They all call him a heaven-sent general, but this time thousands upon thousands stand behind me! Little girl, your father is coming to save you.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "05:44–11:24",
+      "title": "采石场里的鸡腿",
+      "body": [
+        "采石场的晚饭，劳役们争抢鸡腿。有人不服：凭什么一个黄毛丫头有鸡腿吃？有人答：人家一个人拖着两三百斤重的箩筐上山，想有肉吃，就得肯干活。",
+        "长玉道出诀窍：这是爹爹教的「腰马合一」——发力于地，从腰到腿一起用力，又省力又稳当。太傅赞她令尊是个智慧之人，她凭真本事在苦役里立住了脚。",
+        "太傅却从她鞋上黄泥变黑泥，识破她偷偷上山探过路。长玉坦言：挖出的山石太粗糙，定不是铺路用的；河水水位又偏低，恐怕是在修水坝。她只想弄明白坝修到哪一步、何时能走。太傅不多拦她，只请她明日黄昏再登顶，替他看上一看。"
+      ],
+      "quotes": [
+        {
+          "zh": "「那一箩筐两三百斤重呢，你学得来？命都没了！」",
+          "en": "\"That basket weighs two or three hundred jin—think you can manage it? You'd lose your life trying!\""
+        },
+        {
+          "zh": "「我爹爹教我的：腰马合一，发力于地，从腰到腿一起发力，又省力又稳当。」",
+          "en": "\"My father taught me: waist and stance as one, push from the ground, drive through waist and legs together—easy and steady.\""
+        },
+        {
+          "zh": "「令尊真是个智慧之人。」",
+          "en": "\"Your father was truly a man of wisdom.\""
+        },
+        {
+          "zh": "「你上山时鞋上沾的是黄泥，回来时沾的却是黑泥——怕是你寻了一段捷径吧？」",
+          "en": "\"Your shoes were caked in yellow mud going up, but black mud coming back—you must have found yourself a shortcut.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "11:34–15:59",
+      "title": "赵家脱身",
+      "body": [
+        "宝儿问大人，什么时候才能把娘亲们救出来。大人哄她：你爹不会伤害你娘亲，这也是你娘亲的计策，等时机成熟了，你们就能见着面了。",
+        "趁夜，赵家母子按约定路线脱身。有人留下断后：我得拖住大公子，让你们脱身。此处还是坝下地界，不宜久留。母亲与萱儿、小主子互相叮嘱，务必照约定的路线先行出发，等时机成熟再会合。",
+        "大公子发现人质被放走，拷问内应：从你踏入山庄第一天起，就想骗我脱身？他偏不杀此人，命关进柴房、不许任何人靠近，又传赵勋来问。赵勋自称整日军务在身、将士可作证，坚称母亲与小主子是被贼王掳了去，定是贼王的计谋。大公子念他母子多年忠孝之义，暂且饶过，派人出去搜寻。"
+      ],
+      "quotes": [
+        {
+          "zh": "「宝儿放心，你爹不会伤害你娘亲的。这也是你娘亲的计策，等到时机成熟了，你们就能见着面了。」",
+          "en": "\"Don't worry, Baor. Your father won't hurt your mother. This is all her plan—when the time is right, you'll see each other again.\""
+        },
+        {
+          "zh": "「我得拖住大公子，让你们脱身。您按约定的路线先行出发，此处还是坝下地界，不宜久留。」",
+          "en": "\"I'll hold off the eldest young master to buy you time. Take the agreed route and go now—we're still in Bashang territory, you can't linger.\""
+        },
+        {
+          "zh": "「从你踏入山庄第一天起，就想着如何骗我，好让自己脱身，对吗？你这个骗子！」",
+          "en": "\"From the day you stepped into this manor, you've been plotting to deceive me and slip away, haven't you? You liar!\""
+        },
+        {
+          "zh": "「我偏不杀你，但你也休想离开我身边。来人，把他关进柴房！从今日起，不许任何人靠近那间屋子！」",
+          "en": "\"I won't kill you, but you'll never leave my side. Guards—lock him in the wood shed! From today, no one is to go near that room!\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "16:09–17:58",
+      "title": "柴房送饭",
+      "body": [
+        "柴房里，一位被囚的夫人已经两天没吃东西，形容憔悴却不曾哭闹。丫鬟偷偷送来吃食：大公子派你来的？是我偷的，书房里只能偷到这些，您将就着吃。",
+        "丫鬟说起从前伺候过的一位老夫人，被老爷关在柴房，她眼睁睁看着人活活饿死，如今说什么也不愿再看着夫人走这条路，恳求夫人千万别死。夫人让她放心：我不会死的。",
+        "夫人却叫她以后别再送了——这些吃食若是被发现，连你也要危险了。她虽然身陷柴房，惦记的却是别人的性命，反复叮嘱丫鬟只管保全自己，往后莫再冒险。"
+      ],
+      "quotes": [
+        {
+          "zh": "「是大公子派你来的？」「是我偷的，书房里只能偷到这些，您将就着吃。」",
+          "en": "\"Did the eldest young master send you?\" \"No—I stole them. It's all I could take from the study. Please make do with this.\""
+        },
+        {
+          "zh": "「我从前伺候过一个老夫人，她被关在柴房，我眼睁睁看着她被饿死了。夫人，您千万别死啊！」",
+          "en": "\"I once served an old madam who was locked in the wood shed—I watched her starve to death with my own eyes. Madam, please don't die!\""
+        },
+        {
+          "zh": "「你放心好了，我不会死的。」",
+          "en": "\"Rest easy—I'm not going to die.\""
+        },
+        {
+          "zh": "「你以后别送这些东西过来了……要是被发现，你就危险了。」",
+          "en": "\"Stop bringing me things from now on… if you're found out, you'll be in danger.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "18:19–21:08",
+      "title": "太傅见将军",
+      "body": [
+        "太傅求见将军，开门见山：敢问是您命人在坝上凿眼作业，难道是要溃坝放水吗？这一问，把暗中布置的杀招挑到了明面上，将军一时语塞，不敢再小看这位老者。",
+        "他自报家门——前工部尚书、当朝太傅，又指出春汛未至、水力不足，在此处作业难以奏效，应在前汛四处凿眼方可成事，并追问：溃坝放水，坝上的官兵与劳役，何去何从？",
+        "将军听他点破凿眼之法，神色骤变。太傅深知此坝一旦凿开必死伤无数，但也明白这是灭敌之计——只为往后的太平，让更多百姓免受战火之苦。"
+      ],
+      "quotes": [
+        {
+          "zh": "「敢问是您命人在坝上凿眼作业，难道是要溃坝放水吗？」",
+          "en": "\"May I ask—was it your order to bore those holes in the dam? Are you planning to break it and unleash the flood?\""
+        },
+        {
+          "zh": "「春汛未至，水力不足，在此处作业恐难达将军之效。以老夫所见，应在前汛四处作业，方可达到将军之目的。」",
+          "en": "\"The spring thaw hasn't come and the water's too weak—working here won't achieve your aim. As I see it, bore at four spots ahead of the flood season, and you'll get what you want.\""
+        },
+        {
+          "zh": "「老夫，前工部尚书、当朝太傅。」",
+          "en": "\"I am the former Minister of Works—His Majesty's Grand Tutor.\""
+        },
+        {
+          "zh": "「将军不必多问，你只告诉我，溃坝放水，坝上的官兵和劳役，何去何从？」",
+          "en": "\"Ask me no questions, General. Just tell me—when the dam bursts, what becomes of the officers and laborers upon it?\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "21:12–22:40",
+      "title": "靠谁都不如靠自己",
+      "body": [
+        "丫鬟捧着一碗花好水来送，笑道：您跟奴婢从前伺候过的那些夫人不一样。同样是被关被罚，这位夫人却偏偏不肯做那副哀哀切切的样子。",
+        "从前那些夫人受了责罚便茶饭不思，指望着饿瘦了让老爷心疼——靠人心疼才能活。夫人却听不入耳：靠谁都不如靠自己，我得吃饱了，才有力气逃跑。",
+        "丫鬟惊见她不知何时摸来一把柴房里的刀，还磨尖了些，劝她千万别想不开。夫人笑她多虑：放心，我不会寻死的。日后不管发生什么，你只管自己逃命，不用管我。"
+      ],
+      "quotes": [
+        {
+          "zh": "「您跟奴婢从前伺候过的那些夫人不一样。」",
+          "en": "\"You're nothing like the other madams I've served.\""
+        },
+        {
+          "zh": "「从前那些夫人受了责罚，就茶饭不思，想着饿瘦了老爷就能心疼……可靠人心疼，才能活。」",
+          "en": "\"The madams before you went without food when punished, hoping to starve themselves into their lord's pity… but living on someone's pity is no way to live.\""
+        },
+        {
+          "zh": "「靠谁都不如靠自己。我得吃饱了，才有力气逃跑。」",
+          "en": "\"No one's worth depending on but yourself. I need to eat well to have the strength to escape.\""
+        },
+        {
+          "zh": "「日后不管发生什么，你只管自己逃命，不用管我。」",
+          "en": "\"Whatever happens from here, just save yourself—don't worry about me.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "22:47–27:39",
+      "title": "束脩与锦囊",
+      "body": [
+        "长玉问太傅：水坝为何赶在暴雨前修好，暴雨之后咱们是不是就能走了。太傅摆架子：何为拜师？一没束脩，二没磕头，老夫凭什么教你？",
+        "长玉本要作罢，一听「一掷千金求他收徒」，眼睛一亮：老爷子，我爱学习，我拜你为师！太傅却不买账：你爱学习？老夫我还不爱教呢！",
+        "长玉替他揉伤腿，太傅反手替她扎治，又送她一只锦囊：等我不在的时候再打开，这就是那个锦囊妙计。他转身与将军再议溃坝：按老夫之计在四处作业，官兵和劳役死一半，另一半即可获救——此乃仁义之策。劳役们笑他今日怎么不之乎者也了，他骂骂咧咧，转头又教起他们来。"
+      ],
+      "quotes": [
+        {
+          "zh": "「何为拜师？一，你没有给我束脩；二，你没有给我磕头。老夫凭什么要教你？」",
+          "en": "\"What makes a disciple? One: you've brought no tuition. Two: you haven't kowtowed. Why should I teach you?\""
+        },
+        {
+          "zh": "「老爷子，我爱学习，我拜你为师！」「你爱学习？老夫我还不爱教呢！」",
+          "en": "\"Old master, I love learning—I'll be your disciple!\" \"You love learning? Well, I don't love teaching!\""
+        },
+        {
+          "zh": "「等你以后我不在的时候，你再打开。这就是那个锦囊妙计。」",
+          "en": "\"When I'm gone one day, open it. That is my strategy in a pouch.\""
+        },
+        {
+          "zh": "「此坝一旦凿开，就会死伤无数。就算会有牺牲，也是为了往后的太平，让更多的百姓免受战火之苦。」",
+          "en": "\"Once this dam is breached, countless lives will be lost. But even with sacrifice, it's for the peace to come—so more people are spared the fires of war.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "27:45–32:28",
+      "title": "抽签去留",
+      "body": [
+        "官兵突然宣布：前线战事吃紧，需抽调部分人手增援。是走是留，抽签决定——抽到走的今日随军撤离，抽到留的继续留下。一时间，人人自危。",
+        "劳役们一听就炸了锅：上战场是要送死的，留下还能有口饭吃。可谁都不识字，有人把「留」认成了「走」，一群人虚惊一场，个个庆幸留了下来。",
+        "太傅却开口：老夫能用我这走签，换你的留签吗？众人怒骂他拿小姑娘往刀口上送。长玉气过之后却答应下来：出去能找妹妹，一身功夫也不怕上战场。她认下这个师父，众人瞠目结舌。"
+      ],
+      "quotes": [
+        {
+          "zh": "「听好了！前线战事吃紧，需抽调部分人手增援。是走是留，抽签决定。抽到走的，今日随军撤离；抽到留的，继续留下。」",
+          "en": "\"Listen up! The front is stretched thin and needs reinforcements. Go or stay—let the lots decide. Draw 'go,' and you march with the army today. Draw 'stay,' and you remain.\""
+        },
+        {
+          "zh": "「我不认识这个字，但我认识走字。这不是走，这是留！哥，这是留，咱们留下来！」",
+          "en": "\"I can't read that character, but I know the one for 'go.' This isn't 'go'—it's 'stay'! Brother, it says 'stay'—we're staying!\""
+        },
+        {
+          "zh": "「老夫能用我这走签，换你的留签吗？」",
+          "en": "\"Old man—could I trade my 'go' lot for your 'stay' lot?\""
+        },
+        {
+          "zh": "「亏你说得出口！你不想死，就把人小姑娘往刀口上送啊？」",
+          "en": "\"How dare you say that! You're afraid to die, so you shove the girl onto the spear's point instead?\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "32:28–35:00",
+      "title": "师徒诀别",
+      "body": [
+        "走签的队伍随军开拔。长玉想着出去能找妹妹，脚下生风，可一路越走越不是滋味——那个总骂她的老头，真的只是贪生怕死吗？这念头一冒出来，就再也压不下去。",
+        "夜里扎营，同伴的话让她如遭雷击：那个太傅老头也留下了，也跟那丫头换了签——老吴，这都是命啊。原来抽签一事，处处透着蹊跷。",
+        "有人压低声音：大师姐，我们挖渠的时候偷听了官兵说话——留下来那才是送命呢！就是说，老人家留下来，是等死呢。此话一出，四下死寂。",
+        "长玉这才明白：师父把生路让给了自己，怕她不识字，还特意留了话。她望着来路，喃喃道：没想到那老头脾气坏，却是个好人。眼眶一热，几乎落下泪来。"
+      ],
+      "quotes": [
+        {
+          "zh": "「那个太傅老头，他也留下了，他也跟那丫头换签了。老吴，这都是命啊。」",
+          "en": "\"That old Grand Tutor stayed behind too—he traded lots with the girl. Old Wu, this is fate.\""
+        },
+        {
+          "zh": "「大师姐！我们俩挖渠的时候偷听了官兵说话——留下来那才是送命呢！」",
+          "en": "\"Big senior sister! When we were digging the channel, we overheard the soldiers—staying here is what gets you killed!\""
+        },
+        {
+          "zh": "「就是说，老人家留下来，是等死呢。」",
+          "en": "\"In other words, the old man staying behind is waiting for death.\""
+        },
+        {
+          "zh": "「师父给我换了签，让我逃……没想到那老头脾气坏，却是个好人。」",
+          "en": "\"My master traded lots so I could escape… funny—the old man had a foul temper, but he was a good man.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "35:12–39:55",
+      "title": "折返救人",
+      "body": [
+        "长玉连夜折返。太傅见她真的回来了，又惊又痛，声音都颤了：你回来是想救我……你回来是想救我！她明明已经拿着走签走远了，却偏偏不肯丢下这个师父。",
+        "长玉红了眼：我已经失去太多亲人了，我受不了了。从今日起，你们都得跟我活下去！她逼着众人速速离开——天一亮，这里就要横尸遍野。",
+        "真相揭开：溃坝放水是为灭敌——坝下两军即将开战，水淹其军才有一线生机。可前锋军提前察觉，唐将军被打了个措手不及，消息一旦传出，武安侯的诱敌之策必然失败，庐城破城、济州不保、天下大乱。",
+        "太傅「聊发少年狂」，带着众人追向后山——有三只斥候脱逃，绝不能让消息传出去。长玉认出当年骗她入营、害她被误抓进采石场的斥候，众人分头堵截。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你回来是想救我……你回来是想救我！」",
+          "en": "\"You came back to save me… you came back to save me!\""
+        },
+        {
+          "zh": "「我已经失去太多亲人了，我受不了了。从今日起，你们都得跟我活下去！」",
+          "en": "\"I've lost too many loved ones already—I can't bear it. From today, every one of you lives, with me!\""
+        },
+        {
+          "zh": "「速速离开！天一亮，这里就要横尸遍野了！」",
+          "en": "\"Leave now! Come dawn, this place will be strewn with corpses!\""
+        },
+        {
+          "zh": "「老夫聊发少年狂，不破敌寇，死溃坝！」",
+          "en": "\"An old man strikes a youthful rage—if I can't break the enemy, I die breaking this dam!\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "39:55–42:30",
+      "title": "姐夫救我",
+      "body": [
+        "隋元卿大军压境，扬言唐将军、武安侯出来受死。被劫为人质的长宁被押在阵前，敌将调笑：要是你老子没来救你，干脆留在我们长信王府，给我儿子当个小丫鬟。",
+        "战鼓一响，谢征亲至。有敌兵啧啧称奇：还道侯爷千金之躯，不会亲临战场呢。他偏偏只带千人，就敢闯这万军之阵，己方军心为之一振，阵前杀声震天。",
+        "乱阵中，长宁情急喊出「姐夫！姐夫救我！」——一句姐夫，让隋元卿恍然大悟：她不是武安侯的女儿。他翻脸就要把她扔下马，让马蹄把她踏死。",
+        "谢征纵马杀入重围，直取隋元卿。刀光与马蹄之间，人质就在咫尺——千军万马之中，他要护的是那条人命，整盘坝下之局，成败都系于这一冲一救。"
+      ],
+      "quotes": [
+        {
+          "zh": "「小丫头，要是你老子没来救你，你干脆留在我们长信王府得了。我那小子还挺喜欢你的，你给他当个小丫鬟也不错啊！」",
+          "en": "\"Little girl, if your old man never comes to save you, you might as well stay at Changxin Manor. My boy rather likes you—you could make him a fine little maid!\""
+        },
+        {
+          "zh": "「姐夫！姐夫救我！」",
+          "en": "\"Brother-in-law! Brother-in-law, save me!\""
+        },
+        {
+          "zh": "「你刚才叫了啥？……所以，你不是他的女儿？」",
+          "en": "\"What did you just call him?… So you're not his daughter after all?\""
+        },
+        {
+          "zh": "「我还以为侯爷千金之躯，不会亲临战场呢。」",
+          "en": "\"I thought a lord of his eminence would never set foot on the battlefield in person.\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "42:30–46:30",
+      "title": "蜡枪与坝水",
+      "body": [
+        "乱军中，长玉也下了场，擒下一个求饶的小兵：娘子饶命！我就是个小兵，之前是奉命行事，我什么事都不知道！她头一回以战士的身份站在阵前，下手却稳得很。",
+        "隋元卿一枪刺向谢征，谢征不躲不闪，竟没有倒下——隋世子的枪，是用蜡做的吗？下次记得用铁的！满场哗然，隋元卿的脸色登时铁青，握枪的手都在发抖。",
+        "隋元卿恼羞成怒：你不过千余人嘛，我的兵会追你到天涯海角，不死不休！谢征却只回一句：时辰差不多了。这话没头没尾，却让隋元卿心里一沉。",
+        "轰——坝下之水决堤而下，数十万大军尽葬洪流。谢征回头问隋元卿：世子，懂水吗？片尾曲起，硝烟散尽。长玉从采石场一路走到阵前，女将的路，才刚刚开始。"
+      ],
+      "quotes": [
+        {
+          "zh": "「娘子饶命！我就是个小兵，之前是奉命行事，我什么事都不知道！」",
+          "en": "\"Spare me, milady! I'm just a common soldier—I only followed orders, I know nothing!\""
+        },
+        {
+          "zh": "「隋世子的枪，是用蜡做的吗？下次记得用铁的！」",
+          "en": "\"Is the Young Master Sui's spear made of wax? Next time, remember to use iron!\""
+        },
+        {
+          "zh": "「你不过千余人嘛……我的兵会追你到天涯海角，不死不休！」",
+          "en": "\"You've barely a thousand men… My soldiers will chase you to the ends of the earth, to death and beyond!\""
+        },
+        {
+          "zh": "「时辰差不多了……世子，懂水吗？」",
+          "en": "\"The hour is nearly upon us… Young Master, do you know water?\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1 · 隋元卿",
+      "title": "轻敌者，死于自己的自信",
+      "situation": "隋元卿手握数十万大军与人质，认定武安侯必死无疑，对谢征「只带一千人」的异常毫不在意。",
+      "advice": [
+        "优势越大，越要留意反常的细节。",
+        "对手的「示弱」，可能正是钓你上钩的饵。",
+        "真正的杀局，往往藏在看似稳赢的一局里。"
+      ]
+    },
+    {
+      "tag": "源自 S2 · 采石场",
+      "title": "有一技傍身，落难也能立足",
+      "situation": "长玉靠爹爹教的「腰马合一」提起两三百斤的箩筐，换来了鸡腿，也换来了劳役们的另眼相看。",
+      "advice": [
+        "把吃饭的本事练到极致，它就是你的护身符。",
+        "落难时不靠眼泪，靠手上那点真功夫。",
+        "真本事不用吆喝，做出来自然有人看见。"
+      ]
+    },
+    {
+      "tag": "源自 S6 · 柴房",
+      "title": "靠谁都不如靠自己",
+      "situation": "被囚的夫人不吃绝食博同情那一套，反而吃饱养足力气，磨刀准备自保逃命。",
+      "advice": [
+        "把希望押在自己身上，而不是别人的心软上。",
+        "自怜换不来救赎，行动才可以。",
+        "先让自己吃饱站直，才有力气讲别的。"
+      ]
+    },
+    {
+      "tag": "源自 S7 · 拜师",
+      "title": "想学真本事，先放下身段",
+      "situation": "太傅要束脩、要磕头，长玉一句「我爱学习」便认下师父，从此多了一条保命的路。",
+      "advice": [
+        "面子，是学东西路上最大的障碍。",
+        "越是较真的老师，教的东西越值钱。",
+        "拜师是双向的：你敬师，师才为你倾囊。"
+      ]
+    },
+    {
+      "tag": "源自 S8–S9 · 换签",
+      "title": "被误解的善意，往往是最大的善意",
+      "situation": "太傅换签被众人骂作自私，直到长玉走远才明白——留下才是等死，他把生路让给了徒弟。",
+      "advice": [
+        "急着下结论前，先想想对方为什么这么做。",
+        "真正的善意，往往不声不响。",
+        "有人把命让给你，别辜负他，也别忘了他。"
+      ]
+    },
+    {
+      "tag": "源自 S10 · 折返",
+      "title": "失去过的人，更懂护住眼前人",
+      "situation": "长玉已经失去太多亲人，宁可折返，也要让身边每一个人活下去。",
+      "advice": [
+        "创伤不是冷血的借口。",
+        "能救一个是一个，活着才有以后。",
+        "把「我受不了了」，喊成「你们都得跟我活下去」。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "樊长玉",
+      "role": "屠户女 · 太傅的弟子（田曦薇 饰）",
+      "desc": "采石场苦役中凭爹爹教的腰马合一立足，拜太傅为师得锦囊；抽签赴前线寻妹，得知真相后折返救人，认出逃走的敌军斥候并率众追捕，阵前擒下敌兵，踏上战场。"
+    },
+    {
+      "name": "谢征（言正）",
+      "role": "武安侯 · 济州军主帅（张凌赫 饰）",
+      "desc": "布下坝下诱敌之策，亲率一千济州军赴险；阵前救下长宁，被刺不倒，反嘲隋元卿「蜡做的枪」；算准时辰，坝水决堤一举灭敌。"
+    },
+    {
+      "name": "隋元卿",
+      "role": "长信王世子 · 反派",
+      "desc": "挟持长宁为人质，扬言以武安侯之死成就自己的「坝下传说」；轻敌冒进，最终数十万大军尽葬坝水。"
+    },
+    {
+      "name": "长宁",
+      "role": "长玉的妹妹",
+      "desc": "被隋元卿劫为人质，对方误以为她是武安侯之女；阵前情急唤出「姐夫」身份败露，险被扔下马，终被谢征救回。"
+    },
+    {
+      "name": "太傅",
+      "role": "前工部尚书 · 当朝太傅",
+      "desc": "为坝下灭敌主持溃坝凿眼，力主保全半数劳役的「仁义之策」；与长玉结为师徒，抽签时以命换命，最后「聊发少年狂」赴险堵截斥候。"
+    },
+    {
+      "name": "唐将军",
+      "role": "坝下守将",
+      "desc": "奉命主持坝下凿眼，被敌军前锋军察觉遭袭，得长玉与众人救援，力保溃坝之计不失。"
+    },
+    {
+      "name": "赵勋",
+      "role": "山庄赵家人 · 世代忠仆",
+      "desc": "暗中策应家人脱身，遭大公子拷问仍以军务自证清白；其母与小主子被贼王掳走一事，成为山庄疑云。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "以命换命的签",
+      "desc": "太傅用走签换走长玉的留签，被众人骂作自私；直到队伍走远，长玉才知留下的人都在等死——这支签换的，是一条命。"
+    },
+    {
+      "title": "「你们都得跟我活下去」",
+      "desc": "长玉折返救太傅，红着眼喊出这句话。屠户女的狠劲之下，是滚烫的人情。"
+    },
+    {
+      "title": "「隋世子的枪，是用蜡做的吗」",
+      "desc": "谢征被刺不倒，一句嘲讽立住天赐将军的威风，也把隋元卿的必胜之局踩进了泥里。"
+    },
+    {
+      "title": "「姐夫！姐夫救我！」",
+      "desc": "长宁阵前一声「姐夫」，揭穿了人质并非武安侯之女，也让谢征与樊家的羁绊在万军阵前摊开。"
+    },
+    {
+      "title": "「世子，懂水吗？」",
+      "desc": "时辰一到，坝水决堤，数十万大军葬身洪流。以千人对十万的诱敌之策，收官于一句问水。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "太傅的锦囊",
+      "desc": "太傅留给长玉一只锦囊，嘱她「等我不在的时候再打开」——里面藏着怎样的后手，又将在何时派上用场？"
+    },
+    {
+      "title": "太傅的生死",
+      "desc": "太傅一句「不破敌寇，死溃坝」，把自己留在了最凶险的坝下。他能否生还，师徒能否重逢？"
+    },
+    {
+      "title": "长玉的战场之路",
+      "desc": "从采石场到阵前，长玉第一次以战士的身份擒下敌兵。女将之路，自此开启。"
+    },
+    {
+      "title": "「他骗我」的谜团",
+      "desc": "长玉被误抓进采石场，是因为有人骗了她——设局之人是谁？背后是否连着魏严与长信王的棋局？"
+    },
+    {
+      "title": "隋元卿败后",
+      "desc": "数十万大军尽葬坝水，长信王世子惨败。长信王与朝中魏严的报复，将把战火烧向更远的地方。"
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《逐玉》第 1 集剧情图文总结" />
+  <title>逐玉｜第 1 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/zhu-yu-e01/hero.jpg" alt="《逐玉》第 1 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>逐玉</h1>
+          <p class="hero-ep">第 1 集 · 风雪背夫</p>
+          <p class="hero-en">屠户女樊长玉在回家路上从雪地里背回一个奄奄一息的男人——武安侯谢征化名言正，隐姓埋名流落清平；宋家刚退了她的婚，官兵又来搜捕重州流民，这个救了她的书生随时可能被当成流民抓去送死</p>
+          <div class="hero-meta">
+            <span class="chip">2026 · 古装爱情</span>
+            <span class="chip">张凌赫 / 田曦薇 / 任豪 / 孔雪儿</span>
+            <span class="chip">47 分钟</span>
+            <span class="chip">10 个场景</span>
+            <span class="chip">共 40 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>杀猪归来</b><small>01:30–03:13</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>猪血水与杀星</b><small>03:13–05:55</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>恩情与退婚</b><small>06:04–07:51</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>雪地里的救命恩人</b><small>07:58–10:51</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>赵大叔的猛药</b><small>11:09–16:55</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>「你们就是两只白眼狼」</b><small>17:09–21:01</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>「在下言正」</b><small>21:40–26:00</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>当掉的银簪</b><small>26:00–31:12</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>重开屠宰铺</b><small>31:12–37:26</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>一场「躲猫猫」</b><small>37:26–43:16</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">清平县的屠户女樊长玉，爹娘死于山匪，剩她和妹妹相依为命。她一边操持着凡家的屠宰铺，一边应付着宋家退婚的羞辱。回家的雪路上，她背回一个还剩一口气的男人，赵大叔一帖药把人从鬼门关拉了回来。他自称言正，从重州逃难至此，家人尽亡。而重州战乱，官兵正挨家搜捕流民——没路引的言正，随时会被抓去先锋营送死。</p>
+        <p>第 1 集，风雪里捡回来一个人。
+
+樊长玉替陈娘子家杀了猪，提着猪血水往家走。街坊们在她背后嚼舌根：凡家夫妇死于山匪，留下两个丫头片子，还好长玉有出息，走了爹的路子，杀猪养家，硬是把凡家撑起来了。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1–S2 · 街坊</span>
+          <h3>别人嚼舌根，拦不住你走自己的路</h3>
+          <p class="lesson-situation"><b>情境：</b>街坊们说长玉命硬、是杀星，说她家闲话，她不吵不闹，照旧杀猪养家。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「死者为大，咱不说了」——闲话止于有分寸的人。</li>
+              <li>被人说「命硬」，就把日子过得比谁都有骨气。</li>
+              <li>用一双能扛事的手，堵住所有的嘴。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3–S6 · 退婚</span>
+          <h3>谈钱不伤感情，不明算账才伤</h3>
+          <p class="lesson-situation"><b>情境：</b>宋家想白拿回聘书，长玉寸步不让，要求先结清旧账。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「一手交钱，一手交聘书」——利益面前，把规矩摆在台面上。</li>
+              <li>恩情记得清，账也算得明，两者不冲突。</li>
+              <li>「别拿情义恶心我」——道德绑架要用话怼回去。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S4 · 雪地</span>
+          <h3>救人的犹豫，不丢人</h3>
+          <p class="lesson-situation"><b>情境：</b>长玉捡到将死的言正，先想到自己穷、怕他是坏人，最后还是背他回家。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>善良不是没脑子的善良——先想风险，再决定。</li>
+              <li>「我娘让我救你」——心里的底线，关键时刻会推你一把。</li>
+              <li>救人救到底，比半途而废强一百倍。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5 · 猛药</span>
+          <h3>好心办坏事，是用力过猛</h3>
+          <p class="lesson-situation"><b>情境：</b>长玉想让言正快点好，把一整包药全灌下去，差点把人药死。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「饭吃多了还能撑死呢」——剂量比热情重要。</li>
+              <li>做决定前，先听一句懂行的人怎么说。</li>
+              <li>道歉要快，改更要快。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 当铺</span>
+          <h3>为值得的人，押上最珍贵的东西</h3>
+          <p class="lesson-situation"><b>情境：</b>长玉把娘留下的银簪当掉，只换了一两五钱给言正买药。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「我一定会赎回来的」——付出时想好归路。</li>
+              <li>有些东西，用了才算活过，藏着只是死物。</li>
+              <li>他对我很重要——值得，就别算值不值。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9–S10 · 官兵</span>
+          <h3>慌的时候，就演好眼前这场戏</h3>
+          <p class="lesson-situation"><b>情境：</b>官兵上门搜流民，长玉先是应对，最后靠妹妹一句「躲猫猫」化解危机。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>「乡里乡亲谁都认识谁」——把气场稳住，谎就圆了一半。</li>
+              <li>关键时候，身边人的一句配合能救命。</li>
+              <li>越是刀架脖子，越要把手里的事做足。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">01:30–03:13</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s1.jpg" alt="杀猪归来" loading="lazy">
+      <h2>杀猪归来</h2>
+      <div class="scene-body">
+        <p>樊长玉给陈娘子家杀了猪，提着猪血水走在回家的路上。街坊们看她走远，低声议论：「凡家夫妇死于山贼，也没留什么财产，就留这么两个丫头片子。还好长玉有出息，走了爹的路子，杀猪养家糊口，愣是把凡家给撑起来了。」</p>
+<p>也有人往她伤口上撒盐：「你看那凡家二娘子，长得那么好看，说不定是哪个窑子出来的。要不怎么能嫁给凡家那丫头她爹呢。」另一个压低声：「死者为大，咱不说了。」</p>
+<p>「你别看她随了她娘，娇滴滴的美，可一身子的劲。莫说是个姑娘，就是个大小伙子也比不过。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「还好长玉有出息，走了爹的路子，杀猪养家糊口，愣是把凡家给撑起来了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Luckily Changyu has made something of herself—she followed in her father's footsteps, butchering pigs to feed the family, and propped up the Fan household."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你看那凡家二娘子，长得那么好看，说不定是哪个窑子出来的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Look at that girl from the Fan family, so pretty—she might well be from some brothel."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「死者为大，咱不说了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The dead come first. Let's not talk about it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">03:13–05:55</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s2.jpg" alt="猪血水与杀星" loading="lazy">
+      <h2>猪血水与杀星</h2>
+      <div class="scene-body">
+        <p>长玉回到屠宰铺，一个街坊凑上来阴阳怪气：「这丫头啊，就是命硬，可不是我说的。」她原与宋砚定了亲，宋家去合八字，算出个天煞孤星，慌忙退了婚。</p>
+<p>「你娘哪点说错了？你就是个杀星！刻死爹娘，刻走了未婚夫，你妹子生下来就是个病秧子，也是被你刻的！」</p>
+<p>长玉手里提着猪血水，一语不发。等那妇人走了，她回头跟妹妹低声说了句什么，眸子里全是冷。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这丫头啊，就是命硬，可不是我说的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That girl, she's born unlucky—though that's not for me to say."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你就是个杀星！刻死爹娘，刻走了未婚夫！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're a cursed star! You brought death to your parents and drove away your fiancé!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这丫头啊，就是命硬。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That girl is simply born under an unlucky star."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">06:04–07:51</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s3.jpg" alt="恩情与退婚" loading="lazy">
+      <h2>恩情与退婚</h2>
+      <div class="scene-body">
+        <p>陈娘子留长玉吃席，她婉拒：「我家里刚办完丧事，你不介意，还请我来杀猪，已经是情分了。」陈娘子把猪血水塞给她：「回去给你娘吃，你爹从前做的一手好卤水，这玩意儿给你才不算糟蹋东西。」</p>
+<p>长玉谢过要走，陈娘子叮嘱：「重州打仗，咱这儿跟着也不太平，你回去的路上可千万仔细些。」长玉笑笑：「放心吧，我出门看过黄历，大吉。」</p>
+<p>回去的路上，她撞见宋母和宋砚。宋母说要收回聘书，长玉一步不让：「先把账算一算！这些年给宋家殿府的书修，还有对你母子二人的接济，把账结了，聘书自然还你。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你爹从前做的一手好卤水，这玩意儿给你才不算糟蹋东西。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your father used to make a fine brine. Giving this to you isn't a waste."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「重州打仗，咱这儿跟着也不太平，你回去的路上可千万仔细些。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"There's fighting in Zhongzhou, and trouble is spreading here too. Be careful on your way home."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「把账结了，聘书自然还你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Settle the accounts first, and the betrothal letter naturally goes back to you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">07:58–10:51</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s4.jpg" alt="雪地里的救命恩人" loading="lazy">
+      <h2>雪地里的救命恩人</h2>
+      <div class="scene-body">
+        <p>回家的雪路上，长玉看见雪坑里埋着一个人，气息奄奄。「没气了……就快没气了。」她蹲下来，心里天人交战：「我家里穷，没钱救你，还关着妹妹，万一你不是什么好人呢？」</p>
+<p>可娘的声音在耳边响起：「来世做个好人。」她咬牙把人从雪里拖出来：「你别死，我娘让我救你！」</p>
+<p>长玉一路把人背回家，街坊看见了都吓一跳：「你不知是什么时候，就敢往家里背，还是个大男人！你个姑娘家的，还没嫁人，不得被人戳脊梁骨淹死！」</p>
+<p>长玉不听：「我瞧他的伤势，跟我爹娘差不多，定也是遇上山匪了。管不了这么多了。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我家里穷，没钱救你，还关着妹妹，万一你不是什么好人呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My family is poor, I have no money to save you, and my little sister is at home. What if you're not a good man?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你别死，我娘让我救你！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't die—my mother told me to save you!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我瞧他的伤势，跟我爹娘差不多，定也是遇上山匪了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"His wounds look just like my parents' did—he must have run into bandits too."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">11:09–16:55</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s5.jpg" alt="赵大叔的猛药" loading="lazy">
+      <h2>赵大叔的猛药</h2>
+      <div class="scene-body">
+        <p>长玉把男人背回赵家，赵大叔一看直摇头。妹妹长宁凑过来：「阿姊，他长得可好看了。」长玉瞪她：「胡说，这是救命，跟脸有什么关系。」</p>
+<p>赵大叔去配药，长玉一心想救人，把一整包药全倒进碗里灌下去。赵大叔回来气得跳脚：「我这一包药你全给我弄进去了！你是救人的还是害人的？她这一碗药灌进去，甭说是人，就是青花大叫驴也得倒了！」</p>
+<p>「我想着上次出血没这次多，就多放了点药……」「上次是驴！她能跟人一个样啊？饭吃多了还能撑死呢，你怎么不多吃啊！」</p>
+<p>好在男人身子底子硬，一晚上过去，命算是保住了。赵大叔叹气：「这往后药钱，可比那棺材板还贵。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你是救人的还是害人的？这一碗药灌进去，甭说是人，就是青花大叫驴也得倒了！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Are you trying to save her or kill her? With a whole bowl of medicine like that, even a big mule would collapse!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我就想着救她，不想让她死在您家里了，就多放了点药。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I just wanted to save her—I didn't want her dying in your home—so I added more medicine."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这往后药钱，可比那棺材板还贵。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"From here on, the medicine will cost more than a coffin would."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">17:09–21:01</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s6.jpg" alt="「你们就是两只白眼狼」" loading="lazy">
+      <h2>「你们就是两只白眼狼」</h2>
+      <div class="scene-body">
+        <p>长玉在街上遇见宋母，宋母拦住她：「你说咱俩家婚事已经做罢了，你还留着那个聘书也没什么用，不如把聘书要回去。」</p>
+<p>长玉冷笑：「这些年给宋家殿府的书修，还有对你母子二人的接济，把账截了，聘书自然还你。」宋母急了：「这可不能怪我们宋家退婚，是那个算命的……」</p>
+<p>「那聘书也是我爹和你欠的，你下去找他老人家要吧！」宋砚拉住她：「阿玉，我宋砚并非忘恩负义之辈，凡家的恩情我一直记在心里。可百善孝为先，我若违抗母命硬娶你过门，便成了不孝不义之人。」</p>
+<p>长玉一字一句：「这话你必须往心里放，与我论兄妹也大可不必，亲兄弟还明算账呢。我最烦的是那些在背后嚼舌根的——早说我是杀星，还说我家图恩报。一手交钱，一手交聘书，别拿什么情不情义的恶心我。我家那两头猪都比你们强，你们就是两只白眼狼！」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「一手交钱，一手交聘书。我家那两头猪都比你们强，你们就是两只白眼狼！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Money in hand, betrothal letter in hand. Even my two pigs are worth more than you two—you're a pair of ungrateful wolves!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我宋砚并非忘恩负义之辈，凡家的恩情我一直记在心里。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I, Song Yan, am not an ungrateful man. I have always remembered the Fan family's kindness."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我最烦的是那些在背后嚼舌根的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"What I hate most are those who gossip behind people's backs."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">21:40–26:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s7.jpg" alt="「在下言正」" loading="lazy">
+      <h2>「在下言正」</h2>
+      <div class="scene-body">
+        <p>男人醒了。长玉端水进来：「我抢你在雪地里，才把你背回来的。但真正把你从鬼门关拉回来的，是赵大叔。你的衣服也是他换的。」</p>
+<p>男人沉默了一会儿：「那你回来的时候，雪坑里还埋着其他人呢？」长玉一愣：「就你一个呀，那雪坑里还埋着其他人呢？」</p>
+<p>「这里是清平县李安镇西故巷。我瞧着你不像是本地人，是不是遇上山匪了？」男人微微颔首：「在下言正，言语的言，正义的证，从重州逃难至此。」</p>
+<p>长玉问：「那你还有其他亲人吗？」他顿了顿：「家里就我一个人。」长玉「啊」了一声，想起他昏迷时一直喊娘，便没再多问。</p>
+<p>夜里，长玉蹲在他床边，犹豫很久：「娘，若真是你让我救的她，我该不该救人救到底呢？我该怎么办啊……」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「在下言正，言语的言，正义的证，从重州逃难至此。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I am Yan Zheng—yan of speech, zheng of righteousness. I fled here as a refugee from Zhongzhou."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「但真正把你从鬼门关拉回来的，是赵大叔。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"But the one who truly pulled you back from the gates of death was Uncle Zhao."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「若真是你让我救的她，我该不该救人救到底呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If it was really you who told me to save him, should I see this rescue through to the end?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">26:00–31:12</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s8.jpg" alt="当掉的银簪" loading="lazy">
+      <h2>当掉的银簪</h2>
+      <div class="scene-body">
+        <p>赵大叔说要救人得先有钱：「妮娘身体一直都不好，还吃着药呢，你哪有钱治她呀？这后生家里可还有什么亲人呢？」长玉说家里人都死了，只剩他一个，从重州逃难来的，眼下怕是无处可去了。</p>
+<p>「那他身上可有些钱财银两、通关文牒吗？」赵大叔叹气，「帮她换衣服的时候我都摸光了，一个字都没有。」</p>
+<p>「要不把她抬到下崖门口，让那些官老爷看看咋办？」长玉摇头：「不成。那街门口躺了多少乞丐，你见他们几时管过？这人死了怎么处置都行，竟然还活着，就不能不管。」</p>
+<p>「先让她养伤，钱的事，我来想办法。」长玉把娘的银簪拿去当铺：「这簪子可是足银的，我爹买她花了三四两呢。」当铺老板只肯给一两五钱。长玉咬牙：「少一分都不当！看在你我都是西顾巷街坊的份儿上，就当是救济了。我一定会赎回来的，他对我很重要！」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这人死了怎么处置都行，竟然还活着，就不能不管。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A dead man can be dealt with any which way. But since he's still alive, we can't just ignore him."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「先让她养伤，钱的事，我来想办法。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Let him heal first. As for the money, I'll find a way."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我一定会赎回来的，他对我很重要！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I will redeem it, I swear—he means a lot to me!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">31:12–37:26</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s9.jpg" alt="重开屠宰铺" loading="lazy">
+      <h2>重开屠宰铺</h2>
+      <div class="scene-body">
+        <p>长玉重开凡家屠宰铺，在街上吆喝：「凡家竹六铺明日重新开张，大伙儿过来照顾生意啊！」李叔帮她说话：「你这是女人护业啊，总要吃饭吧？甭听别人怎么说，杀猪怎么了，吃饭不分男女，干活也一样！」</p>
+<p>长玉用爹教的挑猪大法挑了头好猪：「这腿圆骨短，这样的猪皮厚膘肥，杀出来可是上等的好肉。」李叔当场定下半扇：「我们一翔楼先定半扇。」</p>
+<p>可重州战事吃紧，官兵正在挨家挨户搜查流民——「要把这流民抓起来，全部送往冲州战场，那边战事紧急，去了就得进先锋营了。」长玉问：「先锋营是干嘛的，很厉害吗？」赵大叔摇头：「送死。」</p>
+<p>长玉猛地想起家里的言正。他自称从重州逃难而来，却拿不出路引文书——一旦被当成流民，就要被抓去送死。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「杀猪怎么了，吃饭不分男女，干活也一样！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"So what if she butchers pigs? Eating doesn't care about gender, and neither does work!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「先锋营是干嘛的，很厉害吗？」「送死。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"What's the vanguard camp? Is it impressive?" "It's where you go to die."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这腿圆骨短，这样的猪皮厚膘肥，杀出来可是上等的好肉。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Round legs, short bones—a pig like this has thick skin and fat meat. Butchered well, it's top-grade pork."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">37:26–43:16</span></div>
+      </div>
+      <img class="scene-frame" src="images/zhu-yu-e01/s10.jpg" alt="一场「躲猫猫」" loading="lazy">
+      <h2>一场「躲猫猫」</h2>
+      <div class="scene-body">
+        <p>官兵搜到凡家。长玉应付：「就你一个姑娘在家？」她强作镇定：「我们这地方小，乡里乡亲谁都认识谁，就多只小猫小狗都知道。没有人。」</p>
+<p>可官兵在院里发现血迹：「这带血的布是怎么回事？你家中何人受伤？」长玉不慌不忙：「无人受伤，我是杀猪的，这是擦刀布，我前几日刚杀了一只猪。」</p>
+<p>领头的君爷盯着她：「你一个小娘子，一个人杀得了猪？你可知隐藏流民乃是重罪，如同通敌，可是要全家流放充军的！」「我爹娘都已经死了，全家就只剩我和妹妹了。」</p>
+<p>君爷步步紧逼：「你是真藏了流民是吗？若有包庇者，实户连坐。你也不想街坊邻里跟着你一起遭难吧。你若是现在能把人交出来，我还能帮你周旋一番。」</p>
+<p>长玉正要撑不住，妹妹从屋里蹦出来：「君爷找到你了！不好意思啊君爷，我和妹妹在玩躲猫猫，你们一下就来了，我都没来得及让她出来。」</p>
+<p>君爷半信半疑，扫了一圈：「行了，去下一户看看。」官兵走后，长玉关上门，言正从藏身处走出来，两人相顾无言——这乱世里的第一关，算是过去了。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我们这地方小，乡里乡亲谁都认识谁，就多只小猫小狗都知道。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This is a small place. Everyone knows everyone, even the cats and dogs."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你可知隐藏流民乃是重罪，如同通敌，可是要全家流放充军的！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Do you know that sheltering refugees is a grave crime, akin to treason? Your whole family would be exiled to serve in the army!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我和妹妹在玩躲猫猫，你们一下就来了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My sister and I were playing hide-and-seek—you came so suddenly."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/zhu-yu-e01/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>樊长玉</h3><span>清平县屠户女 · 凡家当家人（田曦薇 饰）</span></div>
+          <p>爹娘死于山匪，与妹妹相依为命；凭一手杀猪手艺撑起凡家；雪地里救回言正，为给他买药当掉娘的银簪；官兵搜捕时冷静周旋。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>言正</h3><span>化名逃难的落难书生（张凌赫 饰）</span></div>
+          <p>从重州逃难至清平，重伤被长玉救回；自称家中只剩他一人，实则是背负灭门血仇的武安侯谢征，隐姓埋名藏身市井。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>宋砚</h3><span>长玉的前未婚夫（宋燕）</span></div>
+          <p>与长玉订过亲，宋家合八字算出天煞孤星后退婚；被长玉当街骂作「白眼狼」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>赵大叔</h3><span>镇上的兽医兼大夫</span></div>
+          <p>一帖猛药把言正从鬼门关拉回来；嘴上骂长玉「害人」，手上却肯出力；提醒长玉官兵正在搜捕流民。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>长宁</h3><span>长玉的妹妹</span></div>
+          <p>天真烂漫，管言正叫「漂亮哥哥」；官兵搜家时一句「玩躲猫猫」帮姐姐圆场。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>宋母</h3><span>宋砚的母亲</span></div>
+          <p>主张退婚收聘书，被长玉要求先结旧账，闹得不欢而散。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>雪地里背回一个人</h3>
+          <p>「我娘让我救你！」——屠户女把只剩一口气的陌生男人拖回家，北漂式的善意在乱世里格外滚烫。</p>
+        </article>
+
+        <article>
+          <h3>「你们就是两只白眼狼」</h3>
+          <p>当街怼退婚的宋家母子，一句「一手交钱一手交聘书」立住了长玉泼辣不认命的人设。</p>
+        </article>
+
+        <article>
+          <h3>一碗猛药差点要人命</h3>
+          <p>「你是救人的还是害人的！」赵大叔的吐槽，让紧张的开篇多了点烟火气的笑点。</p>
+        </article>
+
+        <article>
+          <h3>当掉的银簪</h3>
+          <p>「他对我很重要」——素不相识的两个人，从一支当掉的簪子开始有了羁绊。</p>
+        </article>
+
+        <article>
+          <h3>一场躲猫猫</h3>
+          <p>官兵搜捕流民，妹妹一句「我们在玩躲猫猫」骗过君爷，乱世第一关惊险过关。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>言正的真实身份</h3>
+          <p>自称从重州逃难的言正，实则是背负灭门血仇的武安侯谢征——他为何隐姓埋名流落至此？</p>
+        </article>
+
+        <article>
+          <h3>雪坑里的「其他人」</h3>
+          <p>言正醒来第一句话问「雪坑里还埋着其他人呢」——那场灭门血案，还藏着多少秘密？</p>
+        </article>
+
+        <article>
+          <h3>搜捕流民的官兵</h3>
+          <p>重州战乱愈演愈烈，官兵搜捕越来越紧——言正的身份能藏多久？长玉会不会被牵连？</p>
+        </article>
+
+        <article>
+          <h3>当掉的银簪</h3>
+          <p>「我一定会赎回来的」——这支簪子背后，还连着长玉爹娘的什么旧事？</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 1 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

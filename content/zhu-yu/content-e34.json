@@ -1,0 +1,498 @@
+{
+  "slug": "zhu-yu-e34",
+  "drama": "逐玉",
+  "episode": "34",
+  "title": "簪花入京",
+  "subtitle": "樊长玉以「簪花将军」之尊入京受封，金殿上以杀猪论舌战满朝、当众点破魏严与谢家旧怨；朝局背后，魏严悬赏追杀皇曾孙，李府则密布离间局，要将武安侯与魏严推向鹬蚌相争",
+  "meta": [
+    "2026 · 古装爱情",
+    "张凌赫 / 田曦薇 / 任豪 / 孔雪儿",
+    "50 分钟",
+    "12 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "樊长玉带着「簪花将军」的金印进了京城。这座比临安气派十倍的皇城，人人嘴上称她巾帼英雄，眼底却全是算计。金殿之上，她一句「朝堂和杀猪一样都得讲规矩」堵住了满朝文武的嘴，又当众请魏相去拜一拜「您家妹子和谢大将军」，把十七年前的旧伤疤掀开给所有人看。而在她看不见的地方，皇帝疑心她被人利用，魏严悬赏追杀皇曾孙，李太傅正往武安侯心里埋下一把离间的刀。",
+  "overview": "朝堂对撕。李太傅参奏魏严强征冬粮、逼反百姓、临阵脱逃、草菅人命；魏严反手揭李怀安骂他夫妻不和、儿乃野种、心怀青梅意在大内。两人闹到要敲登闻鼓，皇帝气急竟脱了龙袍：「朕这皇帝不当了！」最后各打五十大板：李怀安养好腿送国子监读书，魏宣免去都指挥使之职，谁再妄议皇室清誉，休怪朕无情。",
+  "overview2": "退朝后的暗流。皇帝向近侍抱怨：谢征一回来，魏严腰杆就挺直了，今天分明是来削朕的脸。李太傅回府，幕僚报来两件事——齐旻那边恐有大动静；崇州查的旧案有了下落：十七年前魏严调兵的虎符是真的，卷宗里却成了假的，最关键的是那「书虎符之人」。卫府里，魏宣回府领罪被父亲杖责，他红着眼问：到底谢征是儿子，还是我是儿子？母亲卧病在床，您连看都不看一眼。",
+  "overview3": "长公主闯宫。皇帝要把她赐婚武安侯，她直接掀桌子：「你一会儿把我卖给李家，一会儿把我卖给谢家！」还点破一句——长信王十七年前也不曾想过造反，谢征你担保得了吗？与此同时，皇帝在城头崩溃，喊着「朕以后会乖乖听话」。魏严赶来安抚，顺势进言：樊长玉手握济州半数兵权、李家也在拉拢，不如召回京中封赏，安民心、显龙威。皇帝依奏，传旨西北功臣即刻上京，亲自册封。",
+  "overview4": "金殿大典。皇帝赞樊长玉巾帼奇葩，问她可有婚配，她说夫婿年初征兵、卢城一役后生死不明。李太傅拿「杀猪娘」出身羞辱她，她回敬：朝堂和杀猪一样都得讲规矩，杀猪讲究一刀毙命，说话也得直中要害。太傅说麻雀变不成凤凰，她一句「关你什么事」噎得满殿静默。最后她当众道：武安侯托我替他父母陵园上香报平安——魏相要不要也一起拜拜您家妹子和谢大将军？满殿死寂，皇帝匆匆退朝。",
+  "overview5": "退朝后，李太傅拦下樊长玉警告她识时务，被她一句「关你什么事」顶了回去；长公主远远瞧见，对长玉好感倍增，还差点说漏她与武安侯的关系。李府夜议，孙儿劝祖父：齐旻残暴、魏严草菅人命，李家万不能助纣为虐；祖父却道齐旻是成德太子血脉、皇室正统。祖孙不欢而散，下人却来密报：齐旻已经安顿好了，就在府中。",
+  "overview6": "京城夜宴上，樊长玉被官员们拉着应酬，酒席散后赵大娘寻来，说那些官员早已没人在乎十七年前的真相，戏里的青天昭雪都是假的；长玉握住她的手：我跟您一起去找真相，一定给您爹一个清白。另一边，魏严在朝上请功并请旨悬赏皇曾孙；李太傅识破杀局，密令散布「魏严受先帝密信害死谢林山」的传言，要挑动武安侯与魏严鹬蚌相争。深夜，皇帝抱着内侍孙容级，一遍遍说：只有朕，才是真龙天子。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:30–05:35",
+      "title": "御前参奏·龙袍之争",
+      "body": [
+        "金殿之上，李太傅参奏魏严：未奉诏强征冬粮、逼反百姓、临阵脱逃、擅自回京、草菅人命，天理难容。魏严反唇相讥，称自己为陛下颜面忍下种种羞辱，反被李家污蔑夫妻不和、儿乃野种、心怀青梅意在大内。两家互不相让，竟闹到要敲登闻鼓、让天下人评判。",
+        "皇帝情急之下当众脱龙袍：「朕这皇帝不当了！」被魏严一句「你身为大印天子，竟能轻易将龙袍脱下」劝住。最终各打五十大板：派御医为李怀安治腿、好转后送国子监读书，免去魏宣都指挥使之职，并撂下狠话——再有人妄议皇室清誉，休怪朕无情。"
+      ],
+      "quotes": [
+        {
+          "zh": "「老臣要参魏相——未奉诏强征冬粮，逼反百姓，临阵脱逃，擅自回京，还草菅人命，天理难容！」",
+          "en": "\"I must impeach Prime Minister Wei—levying winter grain without imperial decree, driving the people to revolt, deserting the front, returning to the capital without leave, and taking lives with impunity! Heaven itself would find this unforgivable!\""
+        },
+        {
+          "zh": "「本相为了陛下的颜面忍下了种种羞辱，李家却说本相夫妻不和、儿乃野种，还说什么心怀青梅、意在大内！」",
+          "en": "\"I swallowed every insult for Your Majesty's sake, yet the Li family claims my marriage is troubled and my son a bastard, and even says my heart longs for a childhood sweetheart inside the palace!\""
+        },
+        {
+          "zh": "「既然不听，那朕这皇帝不当了，朕退位行不行！」",
+          "en": "\"Since no one listens, then I won't be emperor anymore! I'll abdicate—is that good enough?!\""
+        },
+        {
+          "zh": "「要是再让朕听到什么乌烟瘴气的话、涉及皇室清誉，休怪朕无情！」",
+          "en": "\"If I hear any more foul talk touching the royal family's honor, don't blame me for being merciless!\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "05:35–07:15",
+      "title": "圣心怨愤·李家密议",
+      "body": [
+        "退朝后，皇帝向近侍诉苦：谢征一回来，魏严的腰杆就挺直了；今天魏相过来，分明是要削朕的脸、破李太傅联手的局。两个老东西不是东风压倒西风，就是西风压倒东风，朕夹在中间，左右不是人。",
+        "李太傅回府，幕僚来报两件事：齐旻那边最近恐有大动静；崇州那边查的旧案有了下落——十七年前魏严调兵的虎符是真的，卷宗里却成了假的，真假虎符之间，最关键的正是那「书虎符之人」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这谢征回来了，魏严的腰杆都挺直了。今天魏相过来，分明是要削朕的脸、破李太傅的局！」",
+          "en": "\"Now that Xie Zheng is back, Wei Yan walks tall. Today the Prime Minister came to humiliate me and break up Grand Tutor Li's alliance!\""
+        },
+        {
+          "zh": "「这两个老东西，不是东风压倒西风，就是西风压倒东风。」",
+          "en": "\"Those two old foxes—if the east wind doesn't topple the west, the west wind topples the east.\""
+        },
+        {
+          "zh": "「十七年前魏严调兵的虎符是真的，可卷宗里却成了假的——真假虎符之间，最关键的，就是那书虎符之人。」",
+          "en": "\"Seventeen years ago the tiger tally Wei Yan used to deploy troops was real, yet the records turn it into a forgery. The crux between the true and the false tally is the man who wrote it.\""
+        },
+        {
+          "zh": "「齐旻那边，最近恐怕会有大动静。」",
+          "en": "\"Qi Min is likely to make a big move soon.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "07:19–11:11",
+      "title": "卫府杖责·父子离心",
+      "body": [
+        "魏宣回府领罪——李怀安的腿是他打断的，一人做事一人当。魏严却只冷冷一句「卫家的脸面，你配当吗？」，便命人当庭杖责。魏宣在杖下质问父亲：母亲病倒在床，您连看都不看一眼，却对谢征关怀备至。",
+        "「到底谢征是你儿子，还是我是你儿子？我是你的野种吗？」魏严依旧漠然：「你已经不是三岁小儿了。」一句「你有正眼求过我吗，哪怕就一次」，道尽魏宣从小到大的心寒——父子间的裂痕，在这一夜彻底撕开。"
+      ],
+      "quotes": [
+        {
+          "zh": "「李怀安的腿，我一人做事一人当！」",
+          "en": "\"I broke Li Huai'an's leg, and I'll answer for it alone!\""
+        },
+        {
+          "zh": "「卫家的脸面，你配当吗？你当得了吗？」",
+          "en": "\"The Wei family's honor—are you fit to bear it? Could you even if you tried?\""
+        },
+        {
+          "zh": "「你心里从来都只有谢征一个人。到底谢征是你儿子，还是我是你儿子？我是你的野种吗？」",
+          "en": "\"Xie Zheng has always been the only one in your heart. Is Xie Zheng your son, or am I? Am I nothing but a bastard to you?\""
+        },
+        {
+          "zh": "「你已经不是三岁小儿了。」",
+          "en": "\"You are no longer a three-year-old child.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "11:58–14:14",
+      "title": "长公主闯宫拒赐婚",
+      "body": [
+        "高阳长公主齐姝闯进御书房，质问皇帝为何要把她赐婚给武安侯。皇帝说给她寻了一个盖世英雄，她不买账：「你一会儿把我卖给李家，一会儿把我卖给谢家，我还是一朝长公主，我还要不要脸面？」",
+        "她反过来敲打皇帝：谢征就算不是魏严，也未必能被担保一辈子——长信王十七年前也不曾想过会造反。末了撂下一句：「别再乱点鸳鸯谱了，不然我会再来的。」又自嘲此次军中历练，别的没学会，打仗倒学了十有七八。"
+      ],
+      "quotes": [
+        {
+          "zh": "「听说皇帝想把我赐婚给武安侯？」",
+          "en": "\"I hear Your Majesty wants to betroth me to the Marquis of Wu'an?\""
+        },
+        {
+          "zh": "「你一会儿把我卖给李家，一会儿把我卖给谢家，我还是不是一朝长公主？我还要不要脸面？」",
+          "en": "\"One moment you sell me to the Li family, the next to the Xie family—am I still a princess of this dynasty, or do I have no dignity left at all?\""
+        },
+        {
+          "zh": "「长信王十七年前，也不曾想过他会造反。」",
+          "en": "\"Seventeen years ago, even Prince Changxin never imagined he would rebel.\""
+        },
+        {
+          "zh": "「皇帝，别再乱点鸳鸯谱了，不然我会再来的。」",
+          "en": "\"Stop playing matchmaker with my life, Your Majesty—or I'll be back.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "14:27–18:41",
+      "title": "城头失态·魏相进言",
+      "body": [
+        "皇帝在城头崩溃，喊着「朕以后会乖乖听话，从前的种种都是朕受了李家的蒙蔽」。魏严赶到，厉声提醒他身为天子当秉承天子之仪，怎能如此失态；又安抚道：前东宫流言十年出过几回，本相自会处理，先帝谥位正统、无须担忧。",
+        "魏严顺势进言：西北有位功勋卓著的女将深得民心，此女手握济州半数兵权、李家也在急于拉拢；若趁她立下战功之际召回京中封赏，既能拉拢人心，又能彰显龙恩、安定民心。皇帝依奏，传旨樊长玉及平乱功臣即刻上京，亲自为她们举行册封大典。"
+      ],
+      "quotes": [
+        {
+          "zh": "「朕以后会乖乖听话，从前的种种，都是朕受了李家的蒙蔽！」",
+          "en": "\"I'll be good from now on—everything in the past, I was deceived by the Li family!\""
+        },
+        {
+          "zh": "「陛下归为天子，当秉承天子之仪，怎能如此失态？是叛军兵临城下了，还是有人要逼宫谋反呢？都没有。皇宫尚在、宫墙坚固，陛下何必惊恐？」",
+          "en": "\"As the Son of Heaven, Your Majesty must uphold the dignity of the throne. How can you lose composure like this? Is the rebel army at the gates? Is someone plotting to seize the palace? None of that is happening. The palace stands and its walls are strong—why should Your Majesty be afraid?\""
+        },
+        {
+          "zh": "「你可别忘了，此女手握济州半数兵权，也是李家急于拉拢之人。若陛下趁她立下战功之际将她召回京中封赏，便能彰显龙恩、安定民心。」",
+          "en": "\"Don't forget—this woman holds half the troops in Jizhou, and the Li family is desperate to win her over. If Your Majesty summons her to the capital for reward while her deeds are fresh, it will display imperial grace and settle the people's hearts.\""
+        },
+        {
+          "zh": "「我大印出了第一位巾帼女将，朕定亲自为他们举行册封大典！」",
+          "en": "\"Our Great Yin has produced its first heroine general—I shall personally preside over her enfeoffment ceremony!\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "19:18–21:02",
+      "title": "册封圣旨·大军进京",
+      "body": [
+        "圣旨颁下：逆藩长信王已授首，巾帼女将樊长玉周勇克敌，册封为簪花将军，正四品，赐紫金鱼袋，即刻入京觐见。樊长玉率亲兵进京，众人看花了眼——这才是京城，楼高人杂，处处新鲜。",
+        "士兵们围着女将军打趣：咱将军的位子，就是用宰猪刀从乡下砍出来的，谁会瞧不上？看咱将军骑在马背上，比小伙子还俊；要是咱将军是个儿郎，我都想嫁。听说圣上还要亲自为将军举行册封仪式。"
+      ],
+      "quotes": [
+        {
+          "zh": "「逆藩长信王已授首，巾帼女将樊长玉周勇克敌，册封为簪花将军，正四品，赐紫金鱼袋，即刻入京觐见！」",
+          "en": "\"The rebel Prince Changxin has been beheaded. The heroine general Fan Changyu, brave and victorious in battle, is hereby enfeoffed as the Zanhua General, fourth rank, with the purple-gold fish pouch, and is to enter the capital at once for audience!\""
+        },
+        {
+          "zh": "「咱将军的将军之位，就是用宰猪刀从乡下砍出来的，谁会瞧不上？」",
+          "en": "\"Our general won her rank with a butcher's cleaver out in the countryside—who dares look down on that?\""
+        },
+        {
+          "zh": "「要是咱将军是个儿郎，我想嫁！」",
+          "en": "\"If our general were a man, I'd marry him!\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "21:43–30:01",
+      "title": "金殿大典·杀猪论战",
+      "body": [
+        "金殿册封大典，皇帝赞樊长玉巾帼奇葩，问她可有婚配；她说夫婿年初征兵去了前线，卢城一役后生死不明。李太傅阻拦封赏，拿「杀猪娘」出身羞辱她，她以杀猪论回敬——朝堂和杀猪一样都得讲规矩，杀猪讲究一刀毙命，说话也得直中要害，气得李太傅当朝失态。",
+        "魏严打圆场说英雄不问出处，兵权之事日后再议。长玉谢过，却当众抛出最后一击：「武安侯托末将替他父母陵园上香报平安——魏相，您要不要也一起拜拜您家妹子和谢大将军？」一句话戳破魏严与谢家的旧怨，满殿死寂，皇帝匆匆退朝。"
+      ],
+      "quotes": [
+        {
+          "zh": "「好一朵巾帼奇葩！爱卿可有婚配？」",
+          "en": "\"What a remarkable woman of valor! Tell me, general, are you wed?\""
+        },
+        {
+          "zh": "「卢城之战太过惨烈，末将夫婿至今生死不明。」",
+          "en": "\"The Battle of Lucheng was brutal beyond words—my husband has been missing, alive or dead, ever since.\""
+        },
+        {
+          "zh": "「朝堂和杀猪一样，都得有个规矩。杀猪讲究一刀毙命，朝堂上说话也得直中要害。」",
+          "en": "\"The court is like the butcher's stall—it has its rules. Butchering demands a single clean cut; speaking at court demands getting straight to the point.\""
+        },
+        {
+          "zh": "「对了，武安侯托末将替他父母陵园上香报平安。魏相，您要不要也一起拜拜您家妹子和谢大将军？」",
+          "en": "\"Oh, and the Marquis of Wu'an asked me to pay respects at his parents' tomb and report that all is well. Prime Minister Wei—would you care to pay your respects too, to your own sister and General Xie?\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "30:01–33:31",
+      "title": "殿外警告·公主识人",
+      "body": [
+        "退朝后，樊长玉感慨京城这地方好，却没有几个好人，比临安差远了。李太傅拦下她警告：女子功劳再高也就顶天了，麻雀终究飞不上枝头、变不成凤凰，劝她识时务。长玉一句「关你什么事」噎回去，扬长而去，李太傅气得差点在台阶上栽跟头。",
+        "长公主齐姝远远瞧见，对长玉好感大增。皇帝问她樊长玉是个什么样的人，她盛赞其耿直憨厚、武力超群、对袍泽舍生忘死，说到「对武安侯更是」急忙收口——谢征叮嘱过回京切勿泄露两人的关系。皇帝却已起了心思：这个樊长玉不但能打，还能影响朝局，正愁朝中无人可用。"
+      ],
+      "quotes": [
+        {
+          "zh": "「女子功劳再高，至此也就顶天了。麻雀终究飞不上枝头，它也变不成凤凰。」",
+          "en": "\"No matter how great a woman's deeds, this is as far as she can fly. A sparrow can never perch among the branches—it can never become a phoenix.\""
+        },
+        {
+          "zh": "「女子嫁人生子，一样可以再立功劳。再说了，关你什么事。」",
+          "en": "\"A woman can still win merit after marriage and children. And besides—what business is it of yours?\""
+        },
+        {
+          "zh": "「挺好的地方，却没有几个好人，比临安差远了。」",
+          "en": "\"A fine place, this capital—but hardly any good people in it. Far worse than Lin'an.\""
+        },
+        {
+          "zh": "「长玉性情耿直、憨厚可爱，武力超群，对友人至诚，对袍泽舍生忘死。」",
+          "en": "\"Changyu is straightforward and warm-hearted, formidable in arms, loyal to her friends, and willing to lay down her life for her comrades in arms.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "33:36–36:11",
+      "title": "李家夜议·爷孙之争",
+      "body": [
+        "李府，孙儿劝祖父：齐旻虽贵为皇孙，但性格乖戾、手段毒辣；魏严更是强征暴敛、草菅人命。李家世代忠良，万不能助纣为虐，让如此人品不堪之人登上皇位。祖父却道：齐旻是成德太子之后、身负皇室正统血脉，这些年颠沛流离、饱受磨难，难免心性大变，你当理解，不可妄断。",
+        "孙儿反问祖父可想过鸟尽弓藏、兔死狗烹——贺敬元那样的天字号功臣，还不是战死沙场，讲道义又能如何？祖孙不欢而散。李太傅吩咐看住孙儿，不得妄动；下人又传来密报：齐旻已经安顿好了，就在府中。"
+      ],
+      "quotes": [
+        {
+          "zh": "「齐旻虽贵为皇孙，但并非良主。他性格乖戾、手段毒辣，我们李家世代忠良，万不能助纣为虐！」",
+          "en": "\"Qi Min may be a royal grandson, but he is no worthy sovereign. He is cruel by nature and ruthless in his methods. Our Li family has been loyal for generations—we must never abet tyranny!\""
+        },
+        {
+          "zh": "「可他是成德太子之后，身负皇室正统血脉。这些年一路颠沛流离、饱受磨难，难免心性大乱，你当理解，不可妄断。」",
+          "en": "\"But he is descended from Crown Prince Chengde, carrying the true blood of the royal line. After all these years of wandering and suffering, it's no wonder his temperament has turned. You must understand, and not judge rashly.\""
+        },
+        {
+          "zh": "「祖父就没想过鸟尽弓藏、兔死狗烹吗？」",
+          "en": "\"Grandfather, have you never thought of 'the hounds are boiled once the hare is dead'—of being discarded once you've served your purpose?\""
+        },
+        {
+          "zh": "「你老是讲原则、讲道义，可贺敬元那样的天字号功臣，还不是战死沙场？你便是再讲国家道义，又能如何？」",
+          "en": "\"You keep preaching principles and righteousness, yet even a first-rate meritorious minister like He Jingyuan died on the battlefield. However much you champion the realm's cause, what does it get you?\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "36:20–40:31",
+      "title": "京城夜宴·故人夜谈",
+      "body": [
+        "京中酒肆，樊长玉被官员们拉着应酬。她不理解「应酬」何意，亲兵解释：就是跟不认识的人吃吃喝喝，吃喝完了就变熟人了。席间遇见旧识宋爷，彼此寒暄「后会有期」，转身没入京城夜色。",
+        "夜深人散，赵大娘寻来，怕她第一次进京被人看破。两人说起十七年前旧案：那些官员早已没人在乎真相，戏里演的青天昭雪、善恶有报都是假的。长玉握住她的手：「放心，我跟您一起去找真相，一定给您爹一个清白。」长宁跑来打趣：皇帝在殿上问阿姐有没有夫婿，指定想让阿姐进宫；亲兵们笑说，有武安侯在，没人伤得了将军。"
+      ],
+      "quotes": [
+        {
+          "zh": "「应酬是啥意思？就是跟不认识的人吃吃喝喝，吃喝完了就变熟人了。」",
+          "en": "\"What does 'socializing' mean? It means eating and drinking with strangers—and once you've eaten and drunk together, you're acquaintances.\""
+        },
+        {
+          "zh": "「那些官员已经没有人在乎十七年前的真相了。戏里演的那些青天昭雪冤情、善恶有报，都是假的。皇帝，也不靠谱。」",
+          "en": "\"None of those officials care about the truth of seventeen years ago anymore. The upright judges righting wrongs, the good rewarded and evil punished you see in plays—all of it is a lie. Even the emperor can't be relied on.\""
+        },
+        {
+          "zh": "「放心，我跟您一起去找真相。我去找真相，一定给您爹一个清白。」",
+          "en": "\"Don't worry—I'll search for the truth with you. I'll find it, and I'll clear your father's name.\""
+        },
+        {
+          "zh": "「今天在金銮殿上，皇帝问阿姐有没有夫婿——这个狗皇帝，指定想让阿姐进宫！」",
+          "en": "\"Today in the Golden Throne Hall, the emperor asked our sister if she had a husband! That dog emperor must be scheming to take her into the palace!\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "40:52–45:00",
+      "title": "悬赏皇孙·李府嫁祸",
+      "body": [
+        "朝上，李太傅参奏樊长玉殿上失仪，魏严却当众为樊长玉请功：她不仅阵前诛杀长信王，还救下了成德太子的血脉皇曾孙。李太傅质疑东宫失火、太子妃与嫡皇孙俱亡，这皇曾孙怎会凭空出现；魏严顺势请旨，举国悬赏寻找皇曾孙，以解圣上传承之忧。皇帝准奏：「务必，务必要找到朕那可怜的侄儿。」",
+        "李府密室，李太傅识破魏严布局——悬赏令一出，藏身暗处的皇曾孙便成了刀俎上的鱼肉。他决意抢先一步：派人向谢征散布传言，说十七年前魏严平叛途中受了先帝密信，才害死了谢林山与成德太子。信物早已被销毁，只需一个传言，让武安侯与魏严鹬蚌相争、彻底撕破脸皮。"
+      ],
+      "quotes": [
+        {
+          "zh": "「樊将军不仅阵前诛杀长信王、立下大功，还救下了成德太子的血脉——皇曾孙。臣请旨颁布悬赏之令，举国寻找皇曾孙。」",
+          "en": "\"General Fan not only slew Prince Changxin before the formation—she also saved the bloodline of Crown Prince Chengde, the great-grandson of the crown prince. I beg leave to issue a nationwide reward for the search of this royal descendant.\""
+        },
+        {
+          "zh": "「这皇嗣血脉关乎社稷正统，不容混淆。东宫失火，太子妃与嫡皇孙俱亡，这皇曾孙怎么会凭空出现？」",
+          "en": "\"Royal blood concerns the legitimacy of the dynasty—it cannot be muddied. When the Eastern Palace burned, the crown prince's consort and grandson both perished. How could a great-grandson simply appear from nowhere?\""
+        },
+        {
+          "zh": "「只需一个传言就够了。让谢征以为是魏严受了先帝密信、害死了谢林山和成德太子——我们只需让他们二人鹬蚌相争。」",
+          "en": "\"A single rumor will do. Let Xie Zheng believe it was Wei Yan, acting on a secret letter from the late emperor, who destroyed Xie Linshan and Crown Prince Chengde—then we simply let the two of them tear each other apart.\""
+        },
+        {
+          "zh": "「务必，务必要找到朕那可怜的侄儿。」",
+          "en": "\"Be sure—be absolutely sure—to find my poor nephew.\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "45:03–47:26",
+      "title": "帝王失控·孤家寡人",
+      "body": [
+        "深夜寝宫，皇帝向唯一忠心的内侍孙容级发泄：没有一个人把朕当成真正的天子，魏严把朕当傀儡；那谢征会不会也学魏严，找个前朝的血脉来架空朕？他越说越气，骂内侍无能——连前朝血脉流传人间的消息，都敢瞒着朕。",
+        "孙容级跪地认罪，说自己为护陛下，甚至冒死拼掉过清北侯一只耳朵，心中真切切只有陛下一人。皇帝情绪稍缓，要他答应一辈子伺候自己：「不管是他魏严还是谁，都不能做这个主。只有朕，才是真龙天子。」声声「孙容级」，是这个傀儡皇帝仅有的依靠。"
+      ],
+      "quotes": [
+        {
+          "zh": "「没有一个人把朕当成真正的天子！魏严把朕当傀儡，那谢征是不是也想学他，找一个前朝的血脉来架空朕？」",
+          "en": "\"No one treats me as the true Son of Heaven! Wei Yan treats me as a puppet—and won't Xie Zheng follow his lead, digging up some bloodline of the former dynasty to use against me?\""
+        },
+        {
+          "zh": "「你就是个废物！连前朝血脉流传人间的消息，你都敢瞒着朕！」",
+          "en": "\"You're useless! You even dared to keep from me the news that the old bloodline still walks this earth!\""
+        },
+        {
+          "zh": "「奴才知道自己没用，可是奴才心中可真真切切，都只有陛下您一人。」",
+          "en": "\"Your servant knows he is useless, but in this servant's heart there is truly no one but Your Majesty.\""
+        },
+        {
+          "zh": "「不管是他魏严还是谁，都不能做这个主，这是真的，谁都不行。你答应朕，你一辈子伺候着朕——朕就是皇帝！」",
+          "en": "\"No one—not Wei Yan, not anyone—gets to decide that. It's true, no one. Promise me you'll serve me for life—for I am the emperor!\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1 · 皇帝",
+      "title": "和稀泥的和事佬，两头都不讨好",
+      "situation": "李太傅与魏严御前对撕，皇帝各打五十大板，结果是李太傅离心、魏严得势，他自己最窝火。",
+      "advice": [
+        "各打五十大板看似公平，实则让双方都不再信任你。",
+        "摆不平的矛盾，至少要让两边看见你在面对问题，而不是敷衍。",
+        "只会当裁判和稀泥，终有一天会被场上的人当成棋子。"
+      ]
+    },
+    {
+      "tag": "源自 S3 · 魏宣",
+      "title": "得不到的偏爱，比打骂更让人心寒",
+      "situation": "魏宣打断李怀安的腿，真正让他崩溃的是父亲对谢征的偏爱、对病中母亲的冷漠。",
+      "advice": [
+        "亲密关系里最伤人的往往不是责骂，而是「你做什么我都无所谓」的漠然。",
+        "委屈要当面说出来，憋在心里的怨会一点点变成恨。",
+        "爱一个人，就让他真切地看到你的在意，别把付出都藏进心里。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 长公主",
+      "title": "边界要自己守，拒绝要当面说",
+      "situation": "皇帝要把长公主赐婚武安侯，她直接闯宫掀桌子，把话说死。",
+      "advice": [
+        "对于越界的安排，当场说「不」的成本，永远低于事后反悔。",
+        "把底线亮明白，别人反而不敢再轻易安排你。",
+        "敢掀桌子的人，往往比一味忍让的人少受很多委屈。"
+      ]
+    },
+    {
+      "tag": "源自 S7 · 樊长玉",
+      "title": "讲大白话，是最高级的反击",
+      "situation": "满朝文武用官腔讽刺她出身低微，她一句「朝堂和杀猪一样都得讲规矩」，让所有人接不住招。",
+      "advice": [
+        "在装腔作势的场合，说真话、说人话，反而最有杀伤力。",
+        "把自己最擅长的领域当方法论，走到哪里都有底气。",
+        "与其学别人的弯弯绕绕，不如练好自己的「一刀毙命」。"
+      ]
+    },
+    {
+      "tag": "源自 S8 · 李太傅与樊长玉",
+      "title": "别人给你设的天花板，别急着认",
+      "situation": "李太傅说女子功劳再高也就顶天了、麻雀变不成凤凰，长玉一句「关你什么事」顶回去。",
+      "advice": [
+        "别人嘴里的「到此为止」，往往只是他们自己的胆量上限。",
+        "用结果回击质疑，比用情绪回击有效一百倍。",
+        "什么「应该」，都不如「我想试试」来得理直气壮。"
+      ]
+    },
+    {
+      "tag": "源自 S9 · 李家爷孙",
+      "title": "站队之前，先看清你要帮的人",
+      "situation": "孙子反对扶齐旻上位，因为齐旻残暴、魏严草菅人命，助纣为虐会殃及天下百姓。",
+      "advice": [
+        "帮人之前先问：这个人值不值得你押上全部身家。",
+        "立场一致不等于人品可靠，看清做事的方式再决定站队。",
+        "有些忙一旦帮了就没有回头路，风险要提前想清楚。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "樊长玉",
+      "role": "簪花将军 · 女主（田曦薇 饰）",
+      "desc": "凭战功受封簪花将军、加封四品诰命夫人入京受封；金殿上以「杀猪论」舌战李太傅，当众点破魏严与谢家旧怨；退朝后与赵大娘夜谈，决意为爹娘寻一个清白。"
+    },
+    {
+      "name": "谢征",
+      "role": "武安侯 · 男主（张凌赫 饰）",
+      "desc": "本集只在退朝后现身，低声提醒长玉不该在朝堂树敌；托她替自己父母陵园上香报平安——长玉借这句话在朝堂上狠狠敲打了魏严。他回京归来，让魏严声势大涨，也让皇帝心生忌惮。"
+    },
+    {
+      "name": "魏严",
+      "role": "卫相 · 权臣（反派）",
+      "desc": "御前与李太傅对撕、借樊长玉请功布局悬赏皇曾孙；对亲子魏宣冷漠无情；成为李府离间计的靶子。"
+    },
+    {
+      "name": "李太傅",
+      "role": "三朝老臣",
+      "desc": "当朝参奏魏严却落得各打五十大板；警告长玉「麻雀变不成凤凰」被硬怼；回府与孙儿争论后，密谋散布传言挑动武安侯与魏严反目。"
+    },
+    {
+      "name": "高阳长公主 齐姝",
+      "role": "皇帝之姐",
+      "desc": "闯宫拒赐婚、扬言「别再乱点鸳鸯谱」；对樊长玉赞不绝口，差点说漏她与武安侯的关系。"
+    },
+    {
+      "name": "魏宣",
+      "role": "魏严之子",
+      "desc": "打断李怀安之腿回府领罪，被父亲当庭杖责；杖下控诉父亲偏爱谢征、冷落病中的母亲，父子彻底离心。"
+    },
+    {
+      "name": "皇帝",
+      "role": "大印天子",
+      "desc": "在两党夹缝中生存的傀儡帝王，时而掀桌要退位，时而城头崩溃喊「乖乖听话」；对前东宫血脉风声鹤唳，深夜只靠忠心的内侍孙容级取暖。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "金殿「杀猪论」",
+      "desc": "满朝官腔讽她杀猪出身，她一句「朝堂和杀猪一样都得讲规矩，杀猪讲究一刀毙命，说话也得直中要害」，怼得李太傅当朝失态。"
+    },
+    {
+      "title": "「您家妹子和谢大将军」",
+      "desc": "长玉当朝请魏相同拜武安侯父母陵园，一句话撕开十七年前的旧伤，满殿死寂——这是本集最锋利的一把刀。"
+    },
+    {
+      "title": "长公主闯宫拒赐婚",
+      "desc": "「你一会儿把我卖给李家，一会儿把我卖给谢家！」高阳长公主掀桌教皇帝做人，霸气外露。"
+    },
+    {
+      "title": "卫府杖下父子反目",
+      "desc": "魏宣杖下哭喊「到底谢征是你儿子还是我是你儿子」，魏严一句「你已经不是三岁小儿了」，冷得让人脊背发凉。"
+    },
+    {
+      "title": "傀儡帝王的崩溃",
+      "desc": "皇帝当众脱龙袍喊「朕退位行不行」，又在深夜抱着内侍说「只有朕才是真龙天子」——荒诞里全是身不由己的悲凉。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "悬赏皇曾孙",
+      "desc": "魏严请旨举国悬赏成德太子的血脉皇曾孙——名为解除传承之忧，实为把皇位隐患摆上刀俎。齐旻藏在暗处，这场大搜捕将把谁逼到绝路？"
+    },
+    {
+      "title": "李府离间计",
+      "desc": "李太傅密令散布「魏严受先帝密信害死谢林山」的传言，要挑动武安侯与魏严鹬蚌相争。传言真假掺半，一旦谢征深信，朝局将天翻地覆。"
+    },
+    {
+      "title": "真假虎符之谜",
+      "desc": "崇州传来的消息——十七年前魏严调兵的虎符是真的，卷宗里却成了假的，关键在于「书虎符之人」。这个人是谁？他握着旧案最关键的证据。"
+    },
+    {
+      "title": "皇帝的猜忌",
+      "desc": "皇帝疑心谢征会学魏严扶前朝血脉上位，君心已变。谢征越是立功归来，处境越是凶险。"
+    },
+    {
+      "title": "长玉爹娘的冤情",
+      "desc": "赵大娘与长玉约定「去给爹娘一个清白」——樊长玉父母之死，正连着十七年前那桩无人敢提的旧案。"
+    }
+  ]
+}
