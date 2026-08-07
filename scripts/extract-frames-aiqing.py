@@ -29,9 +29,17 @@ def scene_midpoint(t):
     a, b = t.split('–')
     return (parse_time(a) + parse_time(b)) // 2
 
+import sys
+if len(sys.argv) > 1:
+    only = set(sys.argv[1:])
+else:
+    only = None
+
 files = sorted(glob.glob(f'{CONTENT_DIR}/content-e*.json'))
 for f in files:
     ep = f.split('content-e')[1].split('.')[0]
+    if only and ep not in only:
+        continue
     video = f'{VIDEO_DIR}/{ep}.mp4'
     if not os.path.exists(video):
         print(f'E{ep}: 视频不存在 {video}')
