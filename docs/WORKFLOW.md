@@ -127,6 +127,21 @@ python3 -m whisper /tmp/{slug}.wav --model small --language Chinese --output_dir
 
 > 兼容旧格式：纯字符串（只有 `zh`）也能渲染，但没有朗读按钮。**新内容必须写成对象。**
 
+### highlights / foreshadows 格式（必须）
+
+顶层 `highlights`（关键看点）与 `foreshadows`（伏笔悬念）必须是**对象数组**，每个对象含 `title`（3–12 字短标题）与 `desc`（40–100 字展开描述）：
+
+```json
+"highlights": [
+  { "title": "一只会说话的鸡", "desc": "小桃道别后，一人一鸡隔着门对上了话；行云一句「我就是在玩你」，揭穿「他早能听懂沈璃」的真相。" }
+],
+"foreshadows": [
+  { "title": "行云绝非普通人", "desc": "自称凡人病秧子的行云，能听懂凤凰说话、一眼买下凤凰——这位「凡人大夫」的真实身份疑云重重。" }
+]
+```
+
+> **禁止写成纯字符串数组**（如 `"highlights": ["整句话..."]`）——渲染脚本取 `h.title` / `h.desc`，字符串会导致页面显示 undefined。
+
 ### 转录纠错（必做）
 
 Whisper 中文同音字错误必须先行校正（专有名词按语境/剧集资料修正，角色名可参考演职员表）。
@@ -212,6 +227,19 @@ node render-recap.mjs content/{drama}/content-e{NN}.json docs/{drama}-第{NN}集
 
 ## Step 8：质量自检
 
+**先跑校验脚本（必做）**：
+
+```bash
+python3 scripts/validate-content.py --dir content/{剧名}
+# 校验通过（退出码 0）才继续；失败项按提示修正后重跑
+```
+
+脚本检查：顶层字段齐全、scenes 8–12 且 quotes 2–4 条为 `{zh, en}` 对象、**highlights/foreshadows 必须为 `{title, desc}` 对象数组（纯字符串数组会导致页面渲染 undefined）**、lessons 含 advice≥3、cast 字段齐全、slug 集号与文件名一致。
+
+> 若脚本报出「highlights/foreshadows 是纯字符串」错误，必须把字符串改写为 `{title, desc}` 对象：title 用 3–12 字短标题，desc 用 40–100 字展开描述。
+
+再逐项人工核对：
+
 - [ ] 产出为 HTML 单文件，浏览器可正常渲染
 - [ ] 场景数 8–12，每个有时间范围和截图
 - [ ] 每个场景有情节叙述 + 关键台词引用
@@ -222,6 +250,7 @@ node render-recap.mjs content/{drama}/content-e{NN}.json docs/{drama}-第{NN}集
 - [ ] 侧边栏含场景锚点导航 + 人生启示入口
 - [ ] 每条关键台词含中文 + 英文，英文旁有朗读按钮
 - [ ] content JSON 中每条台词为 `{zh, en}` 对象（无纯字符串残留）
+- [ ] content JSON 中 `highlights`/`foreshadows` 均为 `{title, desc}` 对象（页面关键看点/伏笔悬念处无 undefined）
 - [ ] `docs/audio/{slug}/` 下 MP3 与 HTML `data-audio` 引用一一对应、无缺失
 - [ ] 页脚标注「ASR 专有名词已按语境校正」
 
