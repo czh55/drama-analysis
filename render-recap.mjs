@@ -96,23 +96,21 @@ const castCards = C.cast
   )
   .join('\n\n');
 
-const highlightCards = C.highlights
-  .map(
-    (h) => `        <article>
-          <h3>${esc(h.title)}</h3>
-          <p>${esc(h.desc)}</p>
-        </article>`
-  )
-  .join('\n\n');
+const itemCard = (x) => {
+  // 兼容纯字符串格式：整体作为标题，正文留空
+  if (typeof x === 'string') return `        <article>
+          <h3>${esc(x)}</h3>
+          <p></p>
+        </article>`;
+  return `        <article>
+          <h3>${esc(x.title)}</h3>
+          <p>${esc(x.desc)}</p>
+        </article>`;
+};
 
-const foreshadowCards = C.foreshadows
-  .map(
-    (f) => `        <article>
-          <h3>${esc(f.title)}</h3>
-          <p>${esc(f.desc)}</p>
-        </article>`
-  )
-  .join('\n\n');
+const highlightCards = C.highlights.map(itemCard).join('\n\n');
+
+const foreshadowCards = C.foreshadows.map(itemCard).join('\n\n');
 
 const css = `:root {
   --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
