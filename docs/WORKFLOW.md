@@ -154,15 +154,20 @@ Whisper 中文同音字错误必须先行校正（专有名词按语境/剧集�
 
 ## Step 5：抽帧配图
 
+**hero.jpg 取该集第 2 个场景的中点**（只有 1 个场景时用第 1 个场景中点）——每集场景切分天然不同，封面为差异化剧情画面。**禁止固定取早期片头帧（如 40s）**，否则各集封面视觉雷同。
+
 ```bash
-# 每场景取代表时间点，抽 1920 宽关键帧
-ffmpeg -y -ss {time} -i "{video}" -frames:v 1 docs/images/{slug}/s{N}.jpg
-ffmpeg -y -ss 00:06:30 -i "{video}" -frames:v 1 docs/images/{slug}/hero.jpg
+# 每场景取代表时间点（场景时间中点），抽 1920 宽关键帧
+ffmpeg -y -ss {场景中点} -i "{video}" -frames:v 1 docs/images/{slug}/s{N}.jpg
+# hero：第 2 个场景中点（示例用 python 计算，或直接用脚本）
+python3 -c "a,b='06:10–09:50'.split('–'); m=(int(a.split(':')[0])*60+int(a.split(':')[1])+int(b.split(':')[0])*60+int(b.split(':')[1]))//2; print(m)"
+ffmpeg -y -ss {第2场景中点} -i "{video}" -frames:v 1 docs/images/{slug}/hero.jpg
 ```
 
-- hero.jpg 取片头画面
+- hero.jpg 取第 2 个场景中点，避开片头 Logo
 - 每场景一帧 `s1.jpg`~`sN.jpg`，数量与场景数一致
 - 若抽帧为黑帧/广告帧，换时间点重抽
+- 批量处理优先复用 `scripts/extract-frames-*.py`（已内置 hero 第 2 场景中点逻辑）
 
 ---
 
@@ -245,6 +250,7 @@ python3 scripts/validate-content.py --dir content/{剧名}
 - [ ] 每个场景有情节叙述 + 关键台词引用
 - [ ] 剧情描述忠于转录内容、无编造
 - [ ] hero.jpg + 每场景 s{N}.jpg 齐全，数量与场景一致
+- [ ] hero.jpg 为剧情画面（第 2 场景中点），各集封面视觉上不重复
 - [ ] 页面含剧情梗概 / 人生启示 / 关键情节 / 登场人物 / 关键看点 / 伏笔悬念 6 大模块，顺序与 Step 7 一致
 - [ ] 人生启示 6 张卡片每张含「情境 + 方法」结构
 - [ ] 侧边栏含场景锚点导航 + 人生启示入口
