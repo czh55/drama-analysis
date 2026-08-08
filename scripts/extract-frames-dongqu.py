@@ -48,11 +48,13 @@ for f in files:
     slug = d['slug']
     outdir = f'{IMG_DIR}/{slug}'
     print(f'E{ep} ({slug}):')
-    # hero: 取片头，避开片头水印（用第一个场景的中点前 30s 或 40s 固定值）
-    hero_ts = 40
+    # hero: 取第 2 个场景中点（避免片头 Logo 雷同；只有 1 个场景时用第 1 个场景中点）
+    scenes = d['scenes']
+    hero_scene = scenes[1] if len(scenes) > 1 else scenes[0]
+    hero_ts = scene_midpoint(hero_scene['time'])
     extract(video, hero_ts, f'{outdir}/hero.jpg')
     # 场景帧
-    for s in d['scenes']:
+    for s in scenes:
         ts = scene_midpoint(s['time'])
         extract(video, ts, f'{outdir}/{s["id"]}.jpg')
     print(f'  完成: {len(d["scenes"])} 场景帧 + hero')
