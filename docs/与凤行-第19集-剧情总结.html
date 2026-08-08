@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《与凤行》第 19 集剧情图文总结" />
+  <title>与凤行｜第 19 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/yufengxing-e19/hero.jpg" alt="《与凤行》第 19 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>与凤行</h1>
+          <p class="hero-ep">第 19 集 · 初临仙界</p>
+          <p class="hero-en">沈璃以碧苍王之尊代灵尊赴仙界百花宴，住进未婚夫拂容君的府邸。拂容君拟好「婚前协议书」要拜把子，幽兰却因夜半曲声疑她与神君有染——一桌有毒的饭菜，一万五千三百三十四个俯卧撑，百花宴还没开席，风波先到。</p>
+          <div class="hero-meta">
+            <span class="chip">2024 · 古装神话</span>
+            <span class="chip">赵丽颖 / 林更新 / 辛云来 / 何与</span>
+            <span class="chip">43 分钟</span>
+            <span class="chip">9 个场景</span>
+            <span class="chip">共 39 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>求而不得</b><small>02:09–05:40</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>仙子嚼舌</b><small>05:41–10:00</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>曲声与逼问</b><small>10:10–14:20</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>碧苍王驾到</b><small>14:51–18:50</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>婚前协议书</b><small>19:02–25:00</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>夜半曲声</b><small>25:03–28:40</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>兴师问罪</b><small>28:40–34:20</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>铁血真英雄</b><small>34:26–38:00</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>救场与算账</b><small>38:00–42:40</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">仙界百花宴在即，灵界碧苍王沈璃奉灵尊之命代赴仙宴，住进了未婚夫拂容君的府邸。拂容君想得挺好：强扭的瓜不甜，不如婚后拜把子当兄弟，连婚前协议书都拟好了。可沈璃一口回绝，还把丑话撂在桌面上。偏偏这时候，幽兰神女因为一段夜半曲声，疑心她与神君行止有染，带着一群仙子兴师问罪。下毒、破纪录、当众讨公道——仙界这趟百花宴，还没开席就先热了起来。</p>
+        <p>第 19 集，仙界线全面铺开。天君与神君行止闲谈，说起自己看上一枚求而不得的玉碑，感慨人一旦碰到喜欢的便无法自拔；行止一句「不该得的，自然就该放下」，点到神君不可动情的宿命。百花宴在即，神君留在九重天小住，西院的仙子们却比院里的花先闹腾起来。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1 · 天君</span>
+          <h3>求而不得时，要懂得收手</h3>
+          <p class="lesson-situation"><b>情境：</b>天君看上天元仙君的一枚玉碑，拿杯子去换也不肯，求而不得，满心苦恼。行止一句话点破：不该得的，自然就该放下。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>喜欢一样东西没有错，但执念会把人拖进进退失据的泥潭。</li>
+              <li>得不到时，先分清是「想要」还是「需要」，别让占有欲绑架判断。</li>
+              <li>放下的那一刻，主动权才回到你自己手里。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3 · 幽兰</span>
+          <h3>别用臆测定义一个人，也别把偏见当正义</h3>
+          <p class="lesson-situation"><b>情境：</b>幽兰凭一段曲声、几句传闻，就认定沈璃与神君有染，带着仙子兴师问罪，甚至要下毒教训对方。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>听到传闻先求证，臆测再合理也不是事实。</li>
+              <li>打着「维护体面」旗号的惩戒，往往是偏见穿了件正气的衣裳。</li>
+              <li>给别人留三分余地，就是给自己留一条退路。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5 · 沈璃</span>
+          <h3>不爱的婚约，敢把底线摆到台面上</h3>
+          <p class="lesson-situation"><b>情境：</b>拂容君想用「拜把子当兄弟」的方式糊弄婚事，沈璃既不签协议，也不含糊其辞，直接把话挑明：我不会对你有想法，你也别想欺瞒我。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>遇到不想接受的安排，明确拒绝比拖延周旋更体面。</li>
+              <li>说清楚「我能接受什么、不能接受什么」，比拐弯抹角更省心。</li>
+              <li>底线一旦亮明，对方就知道该在哪里收手。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S7 · 拂容君</span>
+          <h3>替人圆场是真本事，但要守住自己的分寸</h3>
+          <p class="lesson-situation"><b>情境：</b>幽兰带人兴师问罪，拂容君一通插科打诨把沈璃摘出来，回头却嘀咕「我是为了天下太平，守住我的宅子」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>在不伤人的前提下替人打圆场，是情商，也是善意的表达。</li>
+              <li>圆场的前提是自己心里有数，别把自己也绕进去。</li>
+              <li>帮人遮掩要有边界，原则性的问题不能和稀泥。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 沈璃</span>
+          <h3>实力，是被人算计时的最后底气</h3>
+          <p class="lesson-situation"><b>情境：</b>仙子们以为一桌毒饭就能放倒沈璃，谁知她硬扛毒药，还当场做了一万五千多个俯卧撑，把下毒的人吓得腿软。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>身外之物都可能被夺走，唯独自己练出来的硬本事不会。</li>
+              <li>越是身陷险境，越要靠一副扛得住的体魄和心性。</li>
+              <li>把功课做在平时，关键时刻才震得住场子。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9 · 沈璃</span>
+          <h3>受了欺负，要敢于当面讨回公道</h3>
+          <p class="lesson-situation"><b>情境：</b>下毒闹剧收场，沈璃没有忍气吞声，而是把毒饭、毒银针一并摊到天君面前，当面要一个说法。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>受委屈不一定要当场爆发，但一定要让对方知道你不接受。</li>
+              <li>把证据和事实摆出来，比情绪化的控诉更有力量。</li>
+              <li>公道不会自己走来，敢开口要的人才能拿到。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">02:09–05:40</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s1.jpg" alt="求而不得" loading="lazy">
+      <h2>求而不得</h2>
+      <div class="scene-body">
+        <p>天君把神君行止请回九重天小住，两人闲谈。天君说他近日看上天元仙君的一枚玉碑，欢喜不已，寻了个杯子想换，对方却爱不释手，怎么都不肯给，求而不得，实在苦恼。</p>
+<p>行止淡淡道：「不该得的，自然就该放下。」天君却自嘲：活了这么久，时刻警戒自己要心静，可不碰上喜欢的也就罢了，这一碰上自己喜欢的，那真是无法自拔，拿捏不住分寸，进退失据。</p>
+<p>百花宴在即，天君挽留神君留在九重天，也好见见那些久未谋面的老友。两人谁都没说破的是——神君是最后一位上古神，他若动了这念头，那可是三界的大灾。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「活了这么久，时刻警戒自己一定要心静。可是没碰到自己喜欢的吧，也就罢了，这一碰到自己喜欢的，那真是无法自拔呀，拿捏不住分寸，进退失据。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've lived so long, always reminding myself to keep a still heart. If I never met one I truly liked, so be it—but the moment I did, I'd be utterly lost, unable to hold my measure, unable to advance or retreat."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不该得的，自然就该放下。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"What is not yours to have, you must simply let go."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「神君是最后一位上古神，神君要动了这念头，那可是三界的大灾呀。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Lord Xingzhi is the last of the ancient gods. Should he ever harbor such a desire, it would be a calamity upon all three realms."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「天君多虑了，是开玩笑。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your worries are unfounded, Sovereign. I was only jesting."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s1-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">05:41–10:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s2.jpg" alt="仙子嚼舌" loading="lazy">
+      <h2>仙子嚼舌</h2>
+      <div class="scene-body">
+        <p>神女幽兰与一帮仙子在百花宴前操持，有人问起神女前些日子去灵界送请帖的事，话题便绕到了碧苍王沈璃身上。仙子们一个个义愤填膺：「她没爹没娘，战场上捡回来，又在战场上长大，定是个没礼数的。」</p>
+<p>又有仙子提起传闻：沈璃为了逃婚去了人间，在人间爱上一个和神君极为相似的凡人，在灵界还纠缠过神君。众人嗤之以鼻，认定是沈璃对神君痴心妄想，故意针对神女。</p>
+<p>不知谁说神君如今就在仙界西院住着，仙子们顿时来了精神，嚷嚷着「去西院修炼」，其实是成群结队挤到墙根底下，想离神君近一些——连空气都觉着清新了几分。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「碧苍王沈璃啊，听闻她没爹没娘，战场上捡回来，又在战场上长大，定是个没礼数的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Bicang King Shenli—they say she had no father or mother, was picked up on a battlefield and raised there. She must be utterly lacking in manners."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我听说这沈璃啊，为了逃婚去了人间，在人间爱上了一个和神君极为相似的凡人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I heard this Shenli ran away from her wedding to the mortal realm, and there she fell for a mortal who looks exactly like Lord Xingzhi."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「神君来仙界了，如今就住在西院呢！难怪最近仙界的空气如此清新，我要多吸几口修炼修炼！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Lord Xingzhi has come to the heavenly realm and is staying in the West Courtyard! No wonder the air feels so fresh lately—I must breathe deeply to cultivate!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">10:10–14:20</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s3.jpg" alt="曲声与逼问" loading="lazy">
+      <h2>曲声与逼问</h2>
+      <div class="scene-body">
+        <p>西院传来一阵悠扬的曲声，仙子们驻足细听：神君竟在吹曲子。幽兰修的是音律仙法，断言曲中暗含哀伤遗憾，「宛如错失所爱的情郎」，生生切切，令人闻之心伤。旁人却笑她多心：神君吹曲，怎么会卑劣哀伤？</p>
+<p>幽兰心里存了疑影，转头闯进拂容君府，把正泡在浴池里的弟弟拽出来审问：在灵界的时候，行止神君和那个碧苍王的关系怎么样？拂容君一个头两个大，只会「就那样」「哪样？就那样」地打太极。</p>
+<p>幽兰不依不饶，连他平日怎么相处、有没有单独待在一起都要问个明白。拂容君被逼得直喊「你问这个干什么！洗你的澡」，幽兰却若有所思：到底是我想多了，还是拂容太蠢了？</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「神君曲中这婉转遗憾之意，宛如错失所爱的情郎，生生切切，令人闻之心伤。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The lingering regret woven through the Lord's melody—it sounds like a lover who has lost the one he loves, so tender and aching it grieves the heart of anyone who hears it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「在灵界的时候，行止神君和那个碧苍王的关系怎么样？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Back in the Spirit Realm, what exactly was the relationship between Lord Xingzhi and that Bicang King?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「就那样。」「哪样？」「就那样。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It was nothing special." "What kind of nothing special?" "Just... nothing special."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不是，你问这个干什么！洗你的澡！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"What do you want to know that for?! Go take your bath!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s3-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">14:51–18:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s4.jpg" alt="碧苍王驾到" loading="lazy">
+      <h2>碧苍王驾到</h2>
+      <div class="scene-body">
+        <p>仙界入口，轿子缓缓停下。守卫喝问「来者何人」，轿中人自报家门：灵界碧苍王，代灵尊来赴百花宴。仙界众人面面相觑——传闻里那个逃婚的碧苍王，怎么还替灵尊跑起腿来了？</p>
+<p>拂容君亲自迎出来，一路引着沈璃逛仙界，指给她看仙家园林的流光溢彩，还拉着她画像留念。沈璃冷冷扫了一眼：「你们仙界在这些没用的事情上，倒是不少花心思。」</p>
+<p>拂容君安排了侍女照料，又叮嘱她「仙界这儿就是你的家」。沈璃望着这一片陌生繁华，心里明白：自打上了仙界，那些针对灵族不太友好的目光就没停过——这趟百花宴，怕不是一场鸿门宴。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「灵界碧苍王，代灵尊来赴百花宴，有什么问题吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Bicang King of the Spirit Realm, sent by the Spirit Sovereign to the Hundred Flowers Banquet. Is there a problem?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「欢迎我们的碧苍王沈璃！怎么样，还不错吧？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Welcome, welcome to our Bicang King Shenli! Well, what do you think—not bad, is it?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你们仙界在这些没用的事情上，倒是不少花心思。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your heavenly realm certainly pours plenty of effort into useless trifles."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">19:02–25:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s5.jpg" alt="婚前协议书" loading="lazy">
+      <h2>婚前协议书</h2>
+      <div class="scene-body">
+        <p>拂容君把沈璃请进府里，一番推心置腹：咱俩都认这门亲，但你对我没有男女之情，我对你也没有，强扭的瓜不甜，你我心知肚明。不如好商量把事办了——以后拜堂就当拜把子，你叫我哥我叫你弟，咱们当兄弟处，不谈男女之情。</p>
+<p>他说着掏出一份「婚前协议书」要沈璃签字，还畅想起婚后「你硬我软」的混天魔王组合，连「不如你叫我爹吧，咱们顺便认个干亲」都说出了口。沈璃却不为所动，只说这东西对她没用。</p>
+<p>拂容君还要纠缠，沈璃索性把丑话挑明：「成亲之后，你若是想找人真心相处，我自是不管。但若你胆敢欺瞒于我，我一样会打死你。」一句话把拂容君噎在原地，签字的事再没人敢提。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「成亲谁都要成的，你我身份在这儿，不管跟谁，咱俩都要走这一遭。不如我们好商量把这事给办了，这以后我们要是拜堂，就是拜把子，你叫我哥我叫你弟。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Marriage is inevitable for the likes of us—our stations demand it. So let's do this sensibly: when we tie the knot, we'll be sworn brothers. You call me brother, I'll call you brother."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我就是赌定自己永远都不会对你有想法，所以这东西对我来说没有用。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I bet on the certainty that I will never feel anything for you—so this little contract means nothing to me."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「成亲之后，你若是想找人真心相处，我自是不管。但若你胆敢欺瞒于我，我一样会打死你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"After we marry, if you wish to find someone for your heart, that is your own affair. But if you ever dare deceive me—I will beat you to death myself."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">25:03–28:40</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s6.jpg" alt="夜半曲声" loading="lazy">
+      <h2>夜半曲声</h2>
+      <div class="scene-body">
+        <p>夜里，拂容君府上忽然传来一段熟悉的曲子——分明是神君在西院吹过的那首。幽兰一激灵：这曲声离得很近，不是从西院，竟是从拂容君府上传出来的！</p>
+<p>幽兰认定有蹊跷，带着一群仙子气势汹汹杀到府外，扬言要找碧苍王算账。拂容君正听得入神，被仙侍硬拽起来：「幽兰神女带着一群仙子怒气冲冲地来了，好像要找碧苍王呢。」</p>
+<p>拂容君心知不妙：多半是那位神女姐姐听了曲声误会了。他一面往外迎，一面在心里盘算——这些仰慕神君的仙子，听风就是雨，还得他出面把这座宅子给守住。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「幽兰神女带着一群仙子怒气冲冲地来了，好像要找碧苍王呢。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Lady Youlan has come storming in with a host of immortal maidens—she seems to be looking for the Bicang King."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「那是行止神君作的曲子，他为什么会吹？沈璃在哪儿？他是不是跟神君在灵界……」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That is Lord Xingzhi's own melody—why would it be played here? Where is Shenli? Did she and the Lord spend time together in the Spirit Realm..."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「糟了，一定是我皇姐想多了，带着她的姐妹们找上门来了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Oh no—my dear sister must have read too much into it, and now she's come knocking with her pack of sisters."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">28:40–34:20</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s7.jpg" alt="兴师问罪" loading="lazy">
+      <h2>兴师问罪</h2>
+      <div class="scene-body">
+        <p>幽兰带着仙子们围住沈璃，一口咬定她与行止神君有染。拂容君赶紧打圆场：那曲子神君也吹给我听过，只是我音律不好没记全；沈璃如今是我仙界的客人，你们这般毫无缘由的兴师问罪，传到天君耳朵里可不好。</p>
+<p>幽兰冷笑不信，把拂容君拉到一旁连番盘问：神君什么时候、在什么地方、为什么给你吹这首曲子？拂容君编得漏洞百出，全靠一句「我是为了天下太平，守住我的宅子」给自己打气。</p>
+<p>仙子们被劝了回去，心里却都起了疑：拂容君遮遮掩掩，他是不是在帮沈璃打掩护？这个沈璃一定有问题。可碍着神君和自己的名誉，她们不好明着动手，只能另寻他法。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「那曲子神君也吹给我听了，只是我音律不好没记全。而且这沈璃现在是我仙界的客，又住在我府上，你们这般毫无缘由的兴师问罪，皇爷知道了可不好啊。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The Lord played that tune for me as well—I simply have no ear for music, so I never learned it fully. Besides, Shenli is now a guest of our realm and a guest in my house. This baseless accusation would not sit well with the Sovereign."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我是为了天下太平，守住我的宅子。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I did it for the peace of the world—and to protect my own household."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「他是不是在帮那个沈璃打掩护啊？这个沈璃一定有问题。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Is he covering for Shenli? That Shenli is definitely hiding something."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">34:26–38:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s8.jpg" alt="铁血真英雄" loading="lazy">
+      <h2>铁血真英雄</h2>
+      <div class="scene-body">
+        <p>明的不行来暗的。仙子们买通沈璃身边的侍女，端来一桌「有毒的饭菜」。沈璃一眼看穿，把毒药混着丹药一起灌下去硬扛：「管毒害本王的人，居然只有这点胆量？仙界果然养蠢物！」</p>
+<p>毒药与体内丹药相冲，沈璃发作得厉害，她却面不改色，当场做起了俯卧撑，一个、两个、越做越快：「本王今日便让你们看看，什么叫铁血真英雄！」</p>
+<p>一万五千三百三十四，一个不少。下毒的仙子们看得瞠目结舌，腿都软了：这哪是中毒的人，分明是个阎王——毒药非但没放倒她，反倒让她把气势做足了。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「管毒害本王的人，居然只有这点胆量？仙界果然养蠢物！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The one who dared to poison me has no more nerve than this? Truly, the heavenly realm raises nothing but fools!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「本来这种毒对我来说也没什么伤害，但与方才吃进去的药在体内一合，倒是有点厉害。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This poison alone would barely harm me—but combined with the medicine I swallowed earlier, it stings a little."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「本王今日便让你们看看，什么叫铁血真英雄！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Today, I shall show you all what it means to be a hero of iron blood!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">38:00–42:40</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e19/s9.jpg" alt="救场与算账" loading="lazy">
+      <h2>救场与算账</h2>
+      <div class="scene-body">
+        <p>拂容君闻讯赶到，只见三个仙子瘫在地上，沈璃一脸淡定地宣布战果。他灵机一动，装出凶相：「有三个不知死活的仙子来送死？认识这个吧，我把她们给杀了！」</p>
+<p>沈璃在旁边气定神闲地补刀：「你把她们给杀了……然后尝尝吗？」拂容君一句「好」接得又快又利落，把下毒的仙子们彻底吓破了胆。</p>
+<p>闹剧收场，沈璃却没打算罢休。她当面把仙界这「一日三次的阵势」和桌上留有异香的毒饭、毒银针都摊到天君面前，要个说法——仙界欠她的公道，她寸步不让。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「有三个不知死活的仙子来送死？认识这个吧，我把她们给杀了！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Three reckless immortal maidens came to seek death? Do you recognize this? I have killed them!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你把她们给杀了……然后尝尝吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You killed them... and then, did you have a taste?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「仙剑也有卖假药的吗？得找店家赔钱啊。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Even immortal blades sell counterfeit medicine these days? I should find the seller and demand compensation."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e19/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>沈璃</h3><span>灵界碧苍王（赵丽颖 饰）</span></div>
+          <p>本集以碧苍王之尊代灵尊赴仙界百花宴，住进拂容君府。拒签婚前协议书、怼回幽兰的兴师问罪、毒发后当众做俯卧撑破纪录——初入仙界，她一步没让。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>行止</h3><span>最后一位上古神君（林更新 饰）</span></div>
+          <p>应天君之邀回九重天赴百花宴，住在西院。与天君论「求而不得」，被幽兰听出曲中遗憾，成为本集风波的中心，却始终没有正面登场。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>拂容君</h3><span>仙界神君 · 沈璃的未婚夫（辛云来 饰）</span></div>
+          <p>拟好婚前协议书想与沈璃拜把子当兄弟，被一句「胆敢欺瞒我，我一样会打死你」噎住；夜半曲声引风波，他又插科打诨替沈璃打圆场，「为了天下太平守住宅子」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>幽兰</h3><span>仙界神女（黄羿 饰）</span></div>
+          <p>修音律仙法，从神君曲中听出遗憾；疑心沈璃与神君有染，带仙子兴师问罪，落败后又撺掇姐妹们下毒，是全集风波的推动者。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>天君</h3><span>仙界之主（刘冠麟 饰）</span></div>
+          <p>与神君闲谈求而不得的小玩物，感慨动心之险；百花宴在即挽留神君，是本集仙界格局的定调人。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>仙子们</h3><span>仰慕神君的仙界众仙子</span></div>
+          <p>成群结队去西院「修炼」听曲，嚼沈璃的闲话，又在幽兰带领下下毒使绊，最终被沈璃的铁血做派和拂容君的救场吓得魂飞魄散。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>「婚前协议书」</h3>
+          <p>拂容君和盘托出拜把子方案，连「你叫我哥我叫你弟，不如你叫我爹吧」都说出口，被沈璃一句「我赌定自己永远都不会对你有想法」当场驳回——仙界的婚事谈出了地摊还价的喜感。</p>
+        </article>
+
+        <article>
+          <h3>「若你胆敢欺瞒于我，我一样会打死你」</h3>
+          <p>拂容君纠缠签字，沈璃直接把丑话挑明，一句话噎住对方。碧苍王的烈性在仙界照样好使，柔和的谈判瞬间变铁板。</p>
+        </article>
+
+        <article>
+          <h3>「我是为了天下太平，守住我的宅子」</h3>
+          <p>幽兰带人兴师问罪，拂容君插科打诨把沈璃摘出来，回头这句自我安慰，把「仙界第一情郎」演成了喜剧人，是全集的搞笑担当。</p>
+        </article>
+
+        <article>
+          <h3>「铁血真英雄」</h3>
+          <p>仙子下毒，沈璃毒发却面不改色，当众做了一万五千三百三十四个俯卧撑，把下毒的人吓到腿软——用实力回击阴谋的名场面。</p>
+        </article>
+
+        <article>
+          <h3>「你把她们给杀了……然后尝尝吗？」</h3>
+          <p>拂容君装凶救场「我把她们给杀了」，沈璃气定神闲补刀一句「然后尝尝吗」，两人一唱一和，把下毒仙子吓破了胆，也是两人难得的默契时刻。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>神君不可动情</h3>
+          <p>天君一句「神君要动了这念头，那可是三界的大灾」，点破行止身为最后一位上古神不可动情的宿命——他与沈璃的每一分靠近，都踩在这条红线之上。</p>
+        </article>
+
+        <article>
+          <h3>曲中的遗憾</h3>
+          <p>幽兰从神君曲中听出「宛如错失所爱的情郎」的哀伤，她不懂，观众却懂——行止早已对沈璃动心，只是隔着神格与三界的枷锁。</p>
+        </article>
+
+        <article>
+          <h3>未签的婚约</h3>
+          <p>婚前协议书没有签成，拂容君与沈璃的婚事却不会因此取消——「成亲谁都要成的」，这场婚宴与日后的纠葛，才刚刚开始。</p>
+        </article>
+
+        <article>
+          <h3>仙界对灵界的敌意</h3>
+          <p>幽兰与仙子们对沈璃的刁难，背后是仙界对灵界根深蒂固的戒备——两界的裂痕正在加深，百花宴上必有更大的风暴。</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 19 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

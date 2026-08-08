@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《与凤行》第 39 集剧情图文总结" />
+  <title>与凤行｜第 39 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/yufengxing-e39/hero.jpg" alt="《与凤行》第 39 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>与凤行</h1>
+          <p class="hero-ep">第 39 集 · 有凤来仪</p>
+          <p class="hero-en">金娘子遣侍女送来喜帖，邀沈璃行止赴极北雪山观礼。神力尽失的行止畏寒，沈璃一路照料。金娘子追了十一年的人始终木头一块，行止沈璃设下赌局，以「收回自己」逼他现形。一场假意负心、假杀新娘的连环计后，金娘子终于等到真心。而沈璃与行止的姻缘，也在这一集迎来圆满。</p>
+          <div class="hero-meta">
+            <span class="chip">2024 · 古装神话</span>
+            <span class="chip">赵丽颖 / 林更新 / 辛云来 / 何与</span>
+            <span class="chip">49 分钟</span>
+            <span class="chip">12 个场景</span>
+            <span class="chip">共 39 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>阴阳相和</b><small>02:29–03:10</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>喜帖与星辰</b><small>03:15–05:19</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>雪途</b><small>05:21–08:47</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>金娘子的藏娇</b><small>08:49–13:48</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>执念十一年</b><small>14:48–18:00</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>逼婚与对策</b><small>18:19–20:49</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>收回自己</b><small>20:58–24:28</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>试探慕子淳</b><small>24:31–27:26</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>打赌</b><small>27:37–28:35</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>假意负心</b><small>28:36–35:26</small></span>
+        </a>
+        <a class="map-link" href="#s11">
+          <span class="map-id">S11</span>
+          <span><b>假杀新娘</b><small>36:16–42:36</small></span>
+        </a>
+        <a class="map-link" href="#s12">
+          <span class="map-id">S12</span>
+          <span><b>婚礼与求婚</b><small>43:45–46:39</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">大结局，一切得偿所愿。金娘子的喜帖把沈璃和行止请到极北雪山，一场「收回自己」的赌局，让追了十一年的金娘子看清自己的心，也让木头似的慕子淳说出那句「我爱的女人，我容不得她受半点伤害」。金娘子大婚，把上骨玉佩作回礼。而沈璃与行止，也终于等来了那一句「嫁给我」。</p>
+        <p>行云小院里，沈璃与行止拌嘴，一句「你阴我阳，阴阳相和」，默契如昨。金娘子的侍女送来喜帖，请王爷与神君赴极北雪山参加婚礼，点名要天外天的星辰作贺礼。行止想拿块石头糊弄，被沈璃骂没良心。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5–S7 · 沈璃 / 金娘子</span>
+          <h3>执念与喜欢，别混为一谈</h3>
+          <p class="lesson-situation"><b>情境：</b>金娘子追了慕子淳十一年，分不清是爱还是不甘，直到收回自己、疏远对方，才看清心里真正放不下的是什么。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>看不清自己的心时，先拉开距离看看。</li>
+              <li>付出太多的人，往往把执念误当成深情。</li>
+              <li>放下执念，才能看清真正的答案。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S7 · 金娘子</span>
+          <h3>冷落别人，先疼的是自己</h3>
+          <p class="lesson-situation"><b>情境：</b>金娘子依计疏远慕子淳，才第一天就茶饭不思——原来放不下的，是她自己。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>考验对方之前，先确认自己受不受得了。</li>
+              <li>真心藏不住，冷落也骗不了自己。</li>
+              <li>把话说开，比互相试探省心。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 慕子淳</span>
+          <h3>爱要说得出口，憋在心里没人知道</h3>
+          <p class="lesson-situation"><b>情境：</b>慕子淳木头了十一年，直到沈璃要「抢走」金娘子，才憋出那句「我爱的女人，我容不得她受半点伤害」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>爱藏在心里，对方永远不会知道。</li>
+              <li>关键时刻的挺身而出，胜过一万句沉默。</li>
+              <li>想说的话，趁早说，别等到差点失去。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10–S11 · 行止 / 沈璃</span>
+          <h3>高明的成全，是设局让对方看清真心</h3>
+          <p class="lesson-situation"><b>情境：</b>行止用「收回自己」激将，沈璃用「假杀新娘」逼真，一场连环计让两个别扭的人终于坦诚相见。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>帮助朋友看清自己，有时需要一点「狠心」。</li>
+              <li>巧妙的推一把，好过苦口婆心的劝说。</li>
+              <li>但设局要有分寸，别真的伤了人。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S12 · 行止</span>
+          <h3>真心要趁早定下来，别等到来不及</h3>
+          <p class="lesson-situation"><b>情境：</b>行止一句「我与你办一场十万天神同庆的婚礼」，把拖了整部剧的姻缘，定格在了最圆满的一刻。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>遇到对的人，别让「改天再说」变成「再也没有」。</li>
+              <li>承诺要说出口，更要放在心上。</li>
+              <li>把余生，过成当初许下的样子。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S2 · 沈璃</span>
+          <h3>被认真对待的承诺，才值得托付</h3>
+          <p class="lesson-situation"><b>情境：</b>金娘子点名要天外天的星辰作贺礼，行止却想拿石头糊弄，被沈璃当场骂「没良心」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>答应别人的事，要么不轻易应，应了就要认真办。</li>
+              <li>敷衍的承诺，比不承诺更伤人心。</li>
+              <li>对待在意之人的愿望，更要用心。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">02:29–03:10</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s1.jpg" alt="阴阳相和" loading="lazy">
+      <h2>阴阳相和</h2>
+      <div class="scene-body">
+        <p>行云小院里，行止与沈璃拌嘴，沈璃一句「你阴我阳，阴阳相和」，两人相视而笑，默契如昨。</p>
+<p>没有了神明的枷锁，也没有了战乱的阴霾，他们的日子又回到了最初的模样。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你阴我阳，阴阳相和。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You are yin, I am yang—together, we are in harmony."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">03:15–05:19</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s2.jpg" alt="喜帖与星辰" loading="lazy">
+      <h2>喜帖与星辰</h2>
+      <div class="scene-body">
+        <p>金娘子的侍女送来喜帖，请王爷与神君赴极北雪山参加婚礼，点名要天外天的星辰作贺礼。</p>
+<p>行止一听就要打退堂鼓，说给她捡块石头送去不就得了。沈璃瞪他：你这个没良心的！</p>
+<p>侍女走后，行止还在盘算怎么糊弄，沈璃已经收拾好了行囊。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「金娘子要成亲了，特来请王爷和神君赴极北雪山观礼。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Madam Jin is to be wed, and sends word inviting the King and the Divine Lord to her wedding at the far northern snow mountain."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「她点名要天外天的星辰。」「那我们给她捡块石头送去不就得了？」「你这个没良心的！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"She specifically asked for a star from the Celestial Beyond." "Then we'll just pick her up a nice rock instead." "You heartless wretch!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">05:21–08:47</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s3.jpg" alt="雪途" loading="lazy">
+      <h2>雪途</h2>
+      <div class="scene-body">
+        <p>去往极北雪山的路上，行止神力尽失、畏寒怕冷，缩着脖子直喊冷。沈璃嘴上嫌弃，却把披风解下来给他。</p>
+<p>行止得寸进尺，讨要「殷勤」，沈璃作势要打，两人一路斗嘴，一路相依。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这大雪山的寒冷，可比不得天外天。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The cold of this great snow mountain is nothing like the Celestial Beyond."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「冷就别逞强，靠近我些。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't be so stubborn about the cold—come a little closer."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">08:49–13:48</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s4.jpg" alt="金娘子的藏娇" loading="lazy">
+      <h2>金娘子的藏娇</h2>
+      <div class="scene-body">
+        <p>金娘子在府门前迎接沈璃与行止，一见面就要和行止做买卖，还把自己的「相公」慕子淳藏得严严实实。</p>
+<p>沈璃看破不说破，只问行止：你怎么知道那个男人喜欢金娘子？行止笑道：我不知道他喜欢谁，跟我有什么关系？让他去纠缠那个男的，总好过让他来烦着你。</p>
+<p>金娘子给慕子淳上药，一口一个「相公」，慕子淳却木头似的，答也不是，不答也不是。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你怎么知道那个男人喜欢金娘子？」「我不知道他喜欢谁，跟我有什么关系？让他去纠缠那个男的，总好过让他来烦着你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"How do you know that man loves Madam Jin?" "I don't know who he loves, and it's none of my business. Better he pester that man than come bothering you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「相公，这可是心头弄伤了，让奴家给你上药。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Husband, you've hurt yourself—let your wife apply the salve."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">14:48–18:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s5.jpg" alt="执念十一年" loading="lazy">
+      <h2>执念十一年</h2>
+      <div class="scene-body">
+        <p>夜里，金娘子忆起往事：当年她救下重伤的慕子淳，从此动了凡心，追了他整整十一年，他却始终像块木头。</p>
+<p>沈璃点破：或许那根本不是喜欢，只是一份执念——人最放不下的，往往是自己付出太多的那一个。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「那人被金娘子追了十一年。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Madam Jin has been chasing that man for eleven years."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「她可有喜欢的人？或者，是有不能和你在一起的苦衷？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Does she love someone else? Or is there some reason she cannot be with you?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">18:19–20:49</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s6.jpg" alt="逼婚与对策" loading="lazy">
+      <h2>逼婚与对策</h2>
+      <div class="scene-body">
+        <p>慕子淳是从凡人一路修上来的仙人，性子又木又犟，从不解风情。当年金娘子以救他满门为由逼他成亲，他答应了，却从不回应她的心意。</p>
+<p>行止给金娘子出了个主意：他当年给了你什么，你现在就把他给你的，全部都拿回来。</p>
+<p>金娘子半信半疑，行止笑得意味深长：我保证，他迟早会想明白自己到底要什么。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「他是从凡人一路修上来的，性子又木又犟，从不解风情。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"He's a mortal who cultivated his way up from nothing—stubborn as a plank of wood and utterly blind to romance."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「他给了你什么，你就把他给你的，全部都拿回来。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Whatever he gave you—take it all back."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">20:58–24:28</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s7.jpg" alt="收回自己" loading="lazy">
+      <h2>收回自己</h2>
+      <div class="scene-body">
+        <p>金娘子依计行事，疏远慕子淳，把他赶到偏院，不再嘘寒问暖。</p>
+<p>可才第一天，她就自己茶饭不思，翻来覆去睡不着。她这才明白，有些习惯，早就戒不掉了。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「奴家追了他这么久，也该让他尝尝被冷落的滋味了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've chased after him for so long—it's time he tasted what being ignored feels like."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「怎么才一天，自己倒先坐不住了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's only been a day, and I'm the one who can't sit still."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">24:31–27:26</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s8.jpg" alt="试探慕子淳" loading="lazy">
+      <h2>试探慕子淳</h2>
+      <div class="scene-body">
+        <p>沈璃故意当着慕子淳的面放话：我要把金娘子抢走。</p>
+<p>木头一样的慕子淳终于忍不住，一字一句道：「我爱的女人，我容不得她受半点伤害。」</p>
+<p>沈璃满意而归——这根木头，果然不是无动于衷。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我爱的女人，我容不得她受半点伤害。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The woman I love—I will not allow her to suffer the slightest harm."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这不就试出来了？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"And there we have it—now it's all out in the open."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">27:37–28:35</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s9.jpg" alt="打赌" loading="lazy">
+      <h2>打赌</h2>
+      <div class="scene-body">
+        <p>金娘子与行止打赌：婚礼之前，让慕子淳亲口投降，承认在意她。</p>
+<p>赌注，是金娘子身上那块视若珍宝的上骨玉佩。金娘子自信满满：他要是先开口，这块玉佩就是你们的。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「婚礼之前，我定叫那慕子淳亲口投降。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Before the wedding, I will make that Mu Zichun surrender and speak his heart."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「赌注便是我这块上骨玉佩。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The wager shall be my jade pendant."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">28:36–35:26</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s10.jpg" alt="假意负心" loading="lazy">
+      <h2>假意负心</h2>
+      <div class="scene-body">
+        <p>行止依计行事，假意贪恋金娘子的家产，又四处拈花惹草，把金娘子刺激得彻底心凉。</p>
+<p>「选择一个不可能的人吗？这不是奴家对你做过的事吗？」金娘子对着慕子淳苦笑，终于说出口——我放你走，你回你的仙门，不必再被我这个妖女纠缠了。</p>
+<p>赌局胜负难料，行止却胸有成竹：娘子对那木头的情根，恐怕比她以为的还要深。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我放你走。你早些回去收拾收拾东西，不必再被我这个妖女纠缠了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'll set you free. Pack your things and go back—no longer must you be entangled by this enchantress."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「看来娘子，还是对那木头情根深种。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It seems our lady is still hopelessly devoted to that block of wood."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s11">
+      <div class="scene-topline">
+        <div><span class="scene-id">S11</span><span class="time">36:16–42:36</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s11.jpg" alt="假杀新娘" loading="lazy">
+      <h2>假杀新娘</h2>
+      <div class="scene-body">
+        <p>眼看金娘子真要放走慕子淳，沈璃急得直跺脚。行止却老神在在：王爷觉得，我会让事情发展成那样吗？</p>
+<p>沈璃依计，假意「杀了」金娘子。慕子淳闻讯赶来，疯了一般冲进喜堂，拼死相救，把金娘子护在身后。</p>
+<p>金娘子这才明白，一切都是沈璃设的局。可当她看着慕子淳惊惶的脸，心里那点气，早被十一年来第一次看见的真心冲得干干净净。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「王爷觉得，我会让事情发展成那样吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Do you really think, my King, that I would let it come to that?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s11-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「谁要是敢动她一根头发，我与他拼命！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Whoever dares touch a single hair of hers—I will fight to the death!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s11-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s12">
+      <div class="scene-topline">
+        <div><span class="scene-id">S12</span><span class="time">43:45–46:39</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e39/s12.jpg" alt="婚礼与求婚" loading="lazy">
+      <h2>婚礼与求婚</h2>
+      <div class="scene-body">
+        <p>金娘子大婚，把上骨玉佩作回礼赠予沈璃。礼成之日，她终于嫁给了那个让她追了十一年的木头。</p>
+<p>回去的路上，沈璃提起：我们好像还没有办过婚礼。行止停下脚步，郑重道：那我与你办一场，十万天神同庆的婚礼，你可愿意？</p>
+<p>沈璃低头不语，行止仔细一看，又惊又喜——她已有孕。行止连声道：那得赶紧办，等肚子大起来，穿礼服就不好看了！</p>
+<p>葡萄架下，他轻轻唤她「碧苍王」，她笑着应他。这一生，终于再无遗憾。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我与你办一场，十万天神同庆的婚礼，你可愿意？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Let me hold you a wedding that all the gods of the Ten Thousand Heavens would celebrate. Will you marry me?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s12-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「等肚子大起来，穿礼服就不好看了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We'd better hurry—once your belly grows, the wedding gown won't fit as well."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e39/s12-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>沈璃</h3><span>灵界碧苍王（赵丽颖 饰）</span></div>
+          <p>与行止赴极北雪山观礼，设「假杀新娘」之计逼出慕子淳真心；结局答应行止的求婚，已有身孕，终与所爱相守。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>行止</h3><span>上古神君 · 隐居天外天止水阁（林更新 饰）</span></div>
+          <p>神力尽失仍不改从容，设「收回自己」之局助金娘子看清真心；结局郑重求婚，要办一场十万天神同庆的婚礼。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>金娘子</h3><span>上古大妖 · 金蛇夫人（王伊瑶 饰）</span></div>
+          <p>追了慕子淳十一年的妖界女子，表面风风火火，实则痴心一片；结局大婚，把上骨玉佩作回礼赠予沈璃。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>慕子淳</h3><span>凡修仙人 · 金娘子的相公（魏子昕 饰）</span></div>
+          <p>木头一块的修仙者，被金娘子追了十一年，终于在沈璃的激将下喊出「我爱的女人，我容不得她受半点伤害」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>金娘子的侍女</h3><span>金娘子的贴身丫鬟</span></div>
+          <p>奉金娘子之命送喜帖、传话，是这场雪山婚礼的见证者之一。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>上骨玉佩之赌</h3>
+          <p>行止与金娘子打赌，赌注是金娘子视若珍宝的上骨玉佩——一场赌局，赌出了两个人的真心。</p>
+        </article>
+
+        <article>
+          <h3>慕子淳的告白</h3>
+          <p>木头了十一年的慕子淳，终于在沈璃的激将下喊出「我爱的女人，我容不得她受半点伤害」。</p>
+        </article>
+
+        <article>
+          <h3>假杀新娘</h3>
+          <p>沈璃将计就计「杀了」金娘子，逼得慕子淳拼死来救，一场闹剧成就一段姻缘。</p>
+        </article>
+
+        <article>
+          <h3>金娘子大婚</h3>
+          <p>追了十一年的妖界女子，终于嫁给了那根木头，把上骨玉佩作回礼赠予沈璃。</p>
+        </article>
+
+        <article>
+          <h3>求婚与有孕</h3>
+          <p>「我与你办一场十万天神同庆的婚礼，你可愿意？」行止求婚，沈璃低头不语——她已有孕，全剧在此圆满收束。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>第二个愿望</h3>
+          <p>沈璃曾说第二个愿望要花很久很久的时间去完成——大结局的婚礼与余生，便是它的答案。</p>
+        </article>
+
+        <article>
+          <h3>上骨玉佩回礼</h3>
+          <p>金娘子把上骨玉佩作回礼赠予沈璃，这份「姻缘信物」见证了妖与人的姻缘，也映照沈璃与行止的结局。</p>
+        </article>
+
+        <article>
+          <h3>有孕</h3>
+          <p>沈璃已怀有身孕，碧苍王的血脉将延续，那个「每个夏天摘葡萄」的人，会带着孩子在葡萄架下长大。</p>
+        </article>
+
+        <article>
+          <h3>十万天神同庆</h3>
+          <p>行止神格虽失，誓言不减——哪怕再无神明之威，也要给她一场天大的婚礼。</p>
+        </article>
+
+        <article>
+          <h3>归隐人间</h3>
+          <p>从此不问三界事，只守行云小院一方天地——沈璃与行止的故事，以最平凡也最幸福的方式落幕。</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 39 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

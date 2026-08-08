@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《与凤行》第 30 集剧情图文总结" />
+  <title>与凤行｜第 30 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/yufengxing-e30/hero.jpg" alt="《与凤行》第 30 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>与凤行</h1>
+          <p class="hero-ep">第 30 集 · 碧海苍珠</p>
+          <p class="hero-en">金娘子点破沈璃体内那股灼热之力的来历——碧海苍珠更像是「妖的内丹」，她的身世第一次裂开一道缝。蛇妖寻仇夺丹，三人坠落封印之地；行止背起她，运功助她融合碧海苍珠。幻境深处，那句「我受到那天罚，并不是因为遇见了你，而是因为失去了你」，让一切心事都无处可藏。</p>
+          <div class="hero-meta">
+            <span class="chip">2024 · 古装神话</span>
+            <span class="chip">赵丽颖 / 林更新 / 何与 / 辛云来</span>
+            <span class="chip">40 分钟</span>
+            <span class="chip">9 个场景</span>
+            <span class="chip">共 39 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>碧海苍珠的疑问</b><small>03:50–05:52</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>断枪重铸</b><small>05:52–09:42</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>内丹的秘密</b><small>09:42–11:41</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>风雪疗伤日</b><small>11:41–13:10</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>万年蛇妖</b><small>13:10–17:30</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>封印之地</b><small>17:30–23:32</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>背我走</b><small>23:32–27:50</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>融合碧海苍珠</b><small>27:50–30:50</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>幻境与坦白</b><small>30:50–38:20</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">金娘子的疗伤之处，沈璃问出心底的疑团：碧海苍珠原是她的东西，为何其灼热之力与自己体内的灵力相冲？金娘子点破玄机——那不是灵气仙气，更像是妖的内丹。沈璃第一次意识到，灵尊可能瞒着她天大的事。最后一次治疗之夜，万年蛇妖寻仇夺丹，三人坠落天地大道间自成的封印之地，一进难出。行止背起灵力未复的她，以周身寒气助她融合碧海苍珠。幻境深处，两句话让所有掩饰都失了效。</p>
+        <p>第 30 集，从一桩身世疑云开始。沈璃伤势渐愈，却始终想不通一件事：碧海苍珠是她的东西，她是衔着它出生的，为何它的灼热之力会与她体内灵力相冲？金娘子一句「你那碧海苍珠，更像是妖的内丹」，像一道惊雷劈开她千年来从未怀疑过的身份。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1 · 沈璃</span>
+          <h3>对影响一生的事，要有追根究底的勇气</h3>
+          <p class="lesson-situation"><b>情境：</b>碧海苍珠与体内灵力相冲，沈璃没有置之不理，而是追着金娘子问到底：这股力量从哪来，灵尊为何如此教她。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>有些疑问看似无关紧要，其实牵着你人生的根。</li>
+              <li>追问不是多疑，是对自己负责。</li>
+              <li>真相往往藏在你不敢问的那个问题里。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3 · 沈璃</span>
+          <h3>突如其来的真相，可能颠覆你的过去</h3>
+          <p class="lesson-situation"><b>情境：</b>金娘子一句「碧海苍珠更像是妖的内丹」，撕开沈璃千年未疑的身世。她只能一点一点消化：父母是灵界军中人、被灵尊养大——这些「常识」忽然都不再可靠。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>当旧认知被推翻，先别急着崩溃，给自己消化的时间。</li>
+              <li>过去的身份定义不了你，活出自己才作数。</li>
+              <li>愿意重建认知，是成长里最珍贵的能力。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5 · 行止</span>
+          <h3>真正守护一个人，是把危险挡在门外</h3>
+          <p class="lesson-situation"><b>情境：</b>蛇妖寻仇上门，沈璃想一同迎战，行止一句「你没有武器，灵力也尚未完全恢复，你不能去」，独自把危险挡在门外。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>爱你的人，舍不得让你拿命去赌。</li>
+              <li>该挡在前面的时候挺身而出，是担当不是逞能。</li>
+              <li>被保护不丢人，养好伤才是对他最好的回报。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S7 · 沈璃</span>
+          <h3>有人愿意背你走，就别把所有逞强都留给自己</h3>
+          <p class="lesson-situation"><b>情境：</b>灵力未复的沈璃走得摇摇晃晃，行止蹲身要背她，她嘴上说着「我自己能走」，身体却诚实。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>逞强是铠甲，偶尔卸下来，天塌不下来。</li>
+              <li>接受别人的好意，不是示弱，是信任。</li>
+              <li>路长着呢，省点力气才能走得更远。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 行止</span>
+          <h3>把最后的力气，留给最重要的人</h3>
+          <p class="lesson-situation"><b>情境：</b>行止重伤未愈，却为助沈璃融合碧海苍珠运功不止，脸色发白也半分不肯停。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>付出之前先掂量自己的本钱，但认定了的人，值得全力一搏。</li>
+              <li>量力而行和奋不顾身之间，藏着一个人真正的心意。</li>
+              <li>也别让对方为你透支到一无所有——相爱是双向的奔赴。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9 · 沈璃</span>
+          <h3>爱一个人，要敢说出「如果选错，那也是我的错」</h3>
+          <p class="lesson-situation"><b>情境：</b>幻境中，沈璃看清行止的挣扎与自己的心意，没有退缩，只轻轻一句「不许了。如果选错，那也是我的错」，把选择和后果一起扛了下来。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>真正的爱不是等对方给答案，而是自己先做出选择。</li>
+              <li>敢承担后果的感情，才经得起风浪。</li>
+              <li>说不出口的心意，永远只是心事；说出口的，才叫奔赴。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">03:50–05:52</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s1.jpg" alt="碧海苍珠的疑问" loading="lazy">
+      <h2>碧海苍珠的疑问</h2>
+      <div class="scene-body">
+        <p>金娘子的疗伤之处，沈璃伤势渐愈，却有个疑问一直萦绕心头：这碧海苍珠原本就是属于她的东西，她是衔着它出生的，为何它的灼热之力会与她体内的灵力相冲？</p>
+<p>金娘子惊讶地反应过来：原来姑娘便是大名鼎鼎的碧苍王。她点破其中关窍：这股力量既是王爷先天便有的，那就是你后天习得的灵力术法与这股力量相冲，才导致两股力量无法融合。</p>
+<p>沈璃心头一沉：她的灵力术法是从灵尊那里学来的，碧海苍珠也是灵尊给她的。灵尊既然知道两者相冲，为何这么多年来一直要如此教她？这念头一起，便再也按不下去。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这碧海苍珠原本就是属于我的东西，我是衔着它出生的，为何它的灼热之力会与我身体里的那股灵力相冲？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The Azure Sea Pearl was always mine—I was born holding it. Why does its scorching power clash with the spiritual force within me?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「原来姑娘便是大名鼎鼎的碧苍王啊。这股力量既是王爷先天便有的，依奴家浅见，定是你后天习得的灵力术法与这股力量相冲，所以才导致两股力量无法融合。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"So you are the famed Bicang King! Since this power is innate to you, my humble opinion is that the cultivation methods you later acquired fight against it—and that is why the two forces cannot merge."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我的一切是从灵尊那里学来的，碧海苍珠也是他给我的。灵尊既然知道碧海苍珠，便必定知道我身体里的灵力与碧海苍珠的力量相冲，既然如此，为何这么多年来他一直要如此教我？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Everything I learned came from the Spirit Sovereign, and the Azure Sea Pearl was his gift. If he knew the pearl, he must have known its power would clash with mine—so why did he spend all these years teaching me this way?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">05:52–09:42</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s2.jpg" alt="断枪重铸" loading="lazy">
+      <h2>断枪重铸</h2>
+      <div class="scene-body">
+        <p>行止带着一杆断成两截的长枪来到金娘子的助剑台，求她重铸。金娘子只看一眼便摇头：这分明是神君你自己身上有伤，重铸不成，可怪不上奴家的助剑台。</p>
+<p>她又端详那断枪，啧啧称奇：这该是杆宝贝，怎么断成这般模样？「只是这枪呀，依奴家看，只有你那灵气充盈的天外天方可重铸了。」行止若有所思，没有接话。</p>
+<p>金娘子眼波一转，打趣起这对男女：「认识这么久，没看出神君是情种一个呀。」又转向沈璃：「姑娘身上这么多伤疤，都象征着荣誉，真帅气。不行不行，奴家不要那天外天的行程了，奴家还是要给你找个郎君！」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你重铸不成，可怪不上奴家的助剑台，分明是神君你自己身上有伤。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You cannot forge it anew, yet that is no fault of my sword-rest—plainly, it is the Lord himself who carries an injury."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「只是这枪呀，依奴家看，只有你那灵气充盈的天外天方可重铸了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"As for this spear—if I may say so, only your spirit-rich Outer Heavens could reforge it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「认识这么久，没看出神君是情种一个呀。你们夫妇俩可真配，都是一样的没趣。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"All this time I never saw the Lord for the hopeless romantic he is. You two make a perfect pair—equally dull and loveless."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">09:42–11:41</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s3.jpg" alt="内丹的秘密" loading="lazy">
+      <h2>内丹的秘密</h2>
+      <div class="scene-body">
+        <p>疗伤间隙，金娘子斟酌许久，告诉沈璃一件想了多天的事：你身体里那股灼热之力，似乎并非单纯的灵气或仙气。若它的来源是碧海苍珠，那容姐姐大胆一猜——你那碧海苍珠，更像是妖的内丹。</p>
+<p>说着，金娘子祭出自己体内的内丹给沈璃看：「你看，这边是我的内丹，你的那丹就这么随便放着。」又提醒她：据我所知，妖怪若是没了这内丹，会死的吧。沈璃一时说不出话来。</p>
+<p>金娘子顺着话头问起她的身世：妹妹，你就没觉得自己的身世有点离奇吗？沈璃只说自己是战场上生下来的，父母皆是灵界军中人，被灵尊养大，千年来从未有人质疑过她的身份。金娘子意味深长地接话：或许你那灵尊有许多事情瞒着你呢，但你伤好，我就帮你问问他。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我觉得你那碧海苍珠，更像是妖的内丹。你看，这边是我的内丹，你的那丹就这么随便放着。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I think your Azure Sea Pearl is more like a demon's inner core. See—here is mine, while yours is just left about so carelessly."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「据我所知，妖怪若是没了这内丹，会死的吧。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"As far as I know, a demon without its inner core would die."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「妹妹，你就没觉得自己的身世有点离奇吗？或许你那灵尊有许多事情瞒着你呢。但你伤好，我就问问他。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Sister, have you never found your own origins strange? Perhaps your Spirit Sovereign has been keeping many things from you. Once you are well, I shall ask him for you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">11:41–13:10</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s4.jpg" alt="风雪疗伤日" loading="lazy">
+      <h2>风雪疗伤日</h2>
+      <div class="scene-body">
+        <p>这是金娘子为沈璃做的最后一次治疗。屋外风雪大作，往常来求医的山民一连几天上不了山，在门口空等一天，悻悻而归。金娘子送走病人，回头叮嘱沈璃把内丹收好。</p>
+<p>沈璃却怔怔地想着金娘子的话：她的身世、灵尊的隐瞒、碧海苍珠里的妖力……这些念头像雪一样，一片片落进她心里，越积越厚，压得她几乎喘不过气来。</p>
+<p>治疗刚进行到一半，屋外忽然传来动静。金娘子脸色微变：「稀奇了，竟有些不要命的家伙到奴家这里来撒野。」她叮嘱沈璃凝神静心，莫受其扰，自己提裙出去应付。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「风雪太大了，上不了山。都回去吧，明天再来吧。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The snowstorm is too fierce to climb the mountain. All of you, go home—come again tomorrow."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「治疗不可中断。不过，外面发生什么，都有神君在。凝神，静心，莫受其扰。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The treatment must not be interrupted. Whatever happens out there, the Lord is present. Steady your mind, still your heart, and let nothing disturb you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「稀奇了，竟有些不要命的家伙到奴家这里来撒野。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"How peculiar—some reckless fools have come to raise havoc at my doorstep."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">13:10–17:30</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s5.jpg" alt="万年蛇妖" loading="lazy">
+      <h2>万年蛇妖</h2>
+      <div class="scene-body">
+        <p>屋外杀气腾腾，来者竟是寻仇的蛇妖一党，扬言要把「金娘子大妖怪」找出来。沈璃想跟着出去帮忙，行止拦住她：你没有武器，灵力也尚未完全恢复，不能去。</p>
+<p>金娘子孤身迎敌，冷笑：「老娘活了这么多年，还没有见过哪个活腻歪了的敢来我这儿放肆！万年蛇妖，果然名不虚传。」来者却死死盯住她：原来金丹在这儿！</p>
+<p>原来蛇妖一党此行的目标，是金娘子的内丹。一场恶战，金娘子被缠住，行止护着沈璃要退，却一脚踏空——三人一起坠入一个深不见底的封印之地。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「老娘活了这么多年，还没有见过哪个活腻歪了的敢来我这儿放肆！万年蛇妖，果然名不虚传。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"In all my years, I've never met a fool who'd had enough of living daring to make trouble in my home! Ten-thousand-year serpent demon—your reputation is well earned."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「原来金丹在这儿！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"So the golden core is here after all!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你没有武器，灵力也尚未完全恢复，你不能去。在没有被完全治好之前，你便安心在此疗伤，我来。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You have no weapon, and your spiritual power has not fully recovered—you cannot go. Stay here and heal until you are whole again. I will handle it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">17:30–23:32</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s6.jpg" alt="封印之地" loading="lazy">
+      <h2>封印之地</h2>
+      <div class="scene-body">
+        <p>坠落醒来，三人落进一片阴冷的荒原。金娘子告诉大家：这里是她当年丢失先天之物的地方，本是天地大道间自成的封印之地，又叠了她的法术，一进难出，是封印妖物的好地方。</p>
+<p>行止追问出去的办法，金娘子摇头：奴家在这地方设了几千年的封印，哪是那么好解的？这个口只能进不能出，你们若想出去，得找到后山的阵眼，那里才能离开。</p>
+<p>金娘子要去接应众人，先行一步。沈璃想跟着走，行止却示意她别动。她望着行止，忽然问出憋了很久的话：金娘子说，跟我体内这股灵力相抗衡的或许是妖力。她都能看得出来，你与我相处这么久，难道没有看出来？你为何不曾跟我提过？</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「此处本就是天地大道间自成的封印之地，再加上她的法术，一进难出，这儿确实是一个封印妖物的好地方。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This place is a natural seal formed by the great Dao itself, layered with her enchantments—once in, you cannot easily leave. Truly a fine spot for sealing away demons."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「奴家在这地方设了几千年的封印，哪是那么好解的？这个口呀只能进不能出。你们若是想出去，得找到后山的阵眼，那里才能出得去。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I laid these seals here thousands of years ago—they will not give way so easily. This opening lets one in but never out. If you wish to leave, you must find the formation eye on the mountain behind—only there can you escape."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「金娘子跟我说，跟我体内这股灵力所抗衡的或许是妖力。她都能看得出来，你与我相处了这么久，难道没有看出来？你为何不曾跟我提过？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Jin Niangzi told me what opposes the power inside me may be demonic force. If even she could see it, then you—who have been with me all this while—surely you noticed too. Why did you never tell me?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">23:32–27:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s7.jpg" alt="背我走" loading="lazy">
+      <h2>背我走</h2>
+      <div class="scene-body">
+        <p>沈璃没有得到想要的回答。行止沉默半晌，只轻声说：罢了，每个人都有自己的打算，没提就没提吧——这句话本该是她的台词，却由他先开了口。</p>
+<p>荒原上阴风四起，沈璃旧伤未愈、灵力未复，脚步发虚。行止蹲下身：「好了，我背你。」她下意识拒绝：「别背我了，放我下来，我自己能走。」「别逞强。」行止不由分说，把她背了起来。</p>
+<p>沈璃伏在他背上，问他是不是在东海受的伤。行止没有答话，只一步步朝阵眼走去。沈璃没再追问，把脸埋在他肩头，忽然觉得这段路再长些也无妨。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「好了，我背你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Come, let me carry you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「别背我了，放我下来，我自己能走。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't carry me—put me down. I can walk on my own."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「别逞强。没事，我们尽快找到阵眼。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Don't be so stubborn. It's alright—let's just find the formation eye as quickly as we can."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">27:50–30:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s8.jpg" alt="融合碧海苍珠" loading="lazy">
+      <h2>融合碧海苍珠</h2>
+      <div class="scene-body">
+        <p>背上的沈璃忽然身体发烫，气息越来越乱——碧海苍珠的妖力与她体内灵力剧烈相冲，再不融合，怕是要有性命之忧。她急切地抓住行止：「必须立刻融合碧海苍珠，不能再拖了。」</p>
+<p>行止背着她走到一处背风的地方坐下，请她告诉自己金娘子是如何给她治疗的，然后依样为她运功：「让寒气运行我周身血脉，助我融合碧海苍珠。」</p>
+<p>行止脸色渐白，却不敢停下半分。沈璃见他额上渗汗，心头一紧：他本就是重伤未愈之身，这一路为自己运功输气，不知要折损多少。可眼下，除了他，她再无人可依。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我的身体有些不对劲，必须立刻融合碧海苍珠，不能再拖了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Something is going wrong with my body—I must fuse with the Azure Sea Pearl at once. We cannot wait any longer."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你告诉我，金娘子是如何给你治疗的。让寒气运行我周身血脉，助我融合碧海苍珠。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Tell me how Jin Niangzi treated you. Let the cold energy course through my veins and meridians—it will help you fuse with the Azure Sea Pearl."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你凝神静心，莫受其扰。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Steady your mind and still your heart—let nothing disturb you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">30:50–38:20</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e30/s9.jpg" alt="幻境与坦白" loading="lazy">
+      <h2>幻境与坦白</h2>
+      <div class="scene-body">
+        <p>运功至紧要关头，一阵诡异的妖气裹挟着幻境袭来。恍惚间，沈璃窥见行止的内心：那个高高在上的古神，正被「不可动私情」的天规死死压着。幻境里有声音低语：他是神，他不能动私情，那是他的事；可你——你是神，没人规定你不可以动私情。</p>
+<p>沈璃在幻境里顺着声音走下去，听见那人一字一句：我受到那天罚，并不是因为遇见了你，而是因为失去了你。还有那句轻轻的自问：我活了这么久，数万年的光阴，可最让我清醒的，就是遇到了你。</p>
+<p>幻境散去，行止面色苍白如纸。沈璃想说什么，最终只化作一句「不许了」。她望着他，仿佛要把这句话刻进心里——如果选错，那也是我的错。这一趟九死一生，她终于看清了自己心底最真实的心意。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「他不能动私情，是他的事，你不可动。你是神，没人规定你不可以动私情。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That he may not give way to private love is his own burden. But you—you are a god, and no one has decreed that you may not love."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我受到那天罚，并不是因为遇见了你，而是因为失去了你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The punishment I endured was not because I met you—but because I lost you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不许了。如果选错，那也是我的错。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Enough. And if it proves a mistake, the fault is mine."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e30/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>沈璃</h3><span>灵界碧苍王（赵丽颖 饰）</span></div>
+          <p>本集在金娘子处疗伤，追查碧海苍珠与体内灵力相冲之谜，第一次听说自己身世离奇；坠入封印之地后，质问行止为何隐瞒妖力之事，最终在幻境里看清彼此心意。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>行止</h3><span>最后一位上古神君（林更新 饰）</span></div>
+          <p>带断枪来助剑台求重铸，被点破身上有伤；蛇妖寻仇时护沈璃疗伤，坠入封印之地后背起她，运功助其融合碧海苍珠，幻境里那句「我受到那天罚，是因为失去了你」暴露了他压在心底的深情。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>金娘子</h3><span>疗伤点破天机的神秘妖仙（王伊瑶 饰）</span></div>
+          <p>点破碧海苍珠实为「妖的内丹」，暗示灵尊瞒着沈璃许多事；孤身迎战万年蛇妖，又为困于封印之地的两人指明阵眼出路，是全集的「点灯人」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>万年蛇妖</h3><span>寻仇夺丹的来犯者</span></div>
+          <p>率一党趁风雪夜寻仇金娘子，实则是冲内丹而来——一句「原来金丹在这儿」暴露了目标，一场恶战让三人坠入封印之地，成为本集转折的推手。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>灵尊</h3><span>灵界之主（曾黎 饰）</span></div>
+          <p>本集未正式出场，却在沈璃的追问中被反复提及：她的一切灵力术法、碧海苍珠都来自灵尊——他明知两力相冲却多年如此教导，瞒着沈璃的秘密成为身世疑云的核心。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>「你那碧海苍珠，更像是妖的内丹」</h3>
+          <p>金娘子一句话撕开沈璃千年来从未怀疑过的身世——她的灵力与碧海苍珠相冲，因为那根本不是仙家之物。灵尊的隐瞒、她的来历，全部开始松动。</p>
+        </article>
+
+        <article>
+          <h3>「你们夫妇俩可真配，都是一样的没趣」</h3>
+          <p>金娘子一边点破沈璃身世，一边打趣行止是「情种一个」，一句「你们夫妇俩可真配」，把两人心照不宣的情意摆上了台面，是全集的甜点时刻。</p>
+        </article>
+
+        <article>
+          <h3>万年蛇妖夜袭</h3>
+          <p>风雪夜，蛇妖一党寻仇上门，金娘子孤身迎战：「老娘活了这么多年，还没见过哪个活腻歪了的敢来我这儿放肆！」飒气与杀气齐飞。</p>
+        </article>
+
+        <article>
+          <h3>坠落封印之地</h3>
+          <p>一场恶战，三人坠入天地大道间自成的封印之地——一进难出，唯有后山阵眼可以脱身。剧情从这里从「疗伤日常」急转为「逃生副本」。</p>
+        </article>
+
+        <article>
+          <h3>「好了，我背你」</h3>
+          <p>灵力未复的沈璃在荒原上步履蹒跚，行止蹲下身背起她，一句「别逞强」把所有的隔阂都化开了——重伤的他背着她找阵眼，是本集最戳心的一幕。</p>
+        </article>
+
+        <article>
+          <h3>幻境坦白</h3>
+          <p>「我受到那天罚，并不是因为遇见了你，而是因为失去了你。」幻境里这句低语，连同那句「你是神，没人规定你不可以动私情」，让行止压抑千年的情意彻底无处可藏。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>碧海苍珠的妖力</h3>
+          <p>金娘子断言碧海苍珠更像「妖的内丹」，而它是灵尊给沈璃的、灵尊明知相冲却多年照教——灵尊的图谋与沈璃的身世之谜，正是后半程的暗线。</p>
+        </article>
+
+        <article>
+          <h3>只有天外天能重铸断枪</h3>
+          <p>金娘子点破：唯有灵气充盈的天外天方可重铸此枪，而行止身上带着东海旧伤——他的旧伤与神格，迟早要在天外天有一个了断。</p>
+        </article>
+
+        <article>
+          <h3>封印之地与夺丹者</h3>
+          <p>蛇妖为夺内丹而来，与金娘子、沈璃背后的力量纠缠成网——三界即将大乱，墟天渊的劫难正在一步步逼近。</p>
+        </article>
+
+        <article>
+          <h3>「你是神，没人规定你不可以动私情」</h3>
+          <p>幻境里这句反叛天规的宣言，正是沈璃与行止打破身份桎梏的开端——古神不可动情的天规，终将被这一句击穿。</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 30 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

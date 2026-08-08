@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《与凤行》第 24 集剧情图文总结" />
+  <title>与凤行｜第 24 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/yufengxing-e24/hero.jpg" alt="《与凤行》第 24 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>与凤行</h1>
+          <p class="hero-ep">第 24 集 · 生要见人</p>
+          <p class="hero-en">行止为沈璃的「死」冰封东海、呕血觅寻，一句「生要见人」让拂容君与幽兰在回影镜里看清了这段藏了许久的深情——而灵界军民正堵在边境，拒收那批「抵命」的灵石。</p>
+          <div class="hero-meta">
+            <span class="chip">2024 · 古装神话</span>
+            <span class="chip">赵丽颖 / 林更新 / 辛云来 / 何与</span>
+            <span class="chip">45 分钟</span>
+            <span class="chip">10 个场景</span>
+            <span class="chip">共 39 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>东海冰封</b><small>12:06–13:05</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>生要见人</b><small>13:31–15:19</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>被天道反噬</b><small>15:27–17:24</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>回影里的灵界</b><small>22:22–27:16</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>早就护上她了</b><small>27:16–32:54</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>可惜知道得太晚</b><small>32:54–35:00</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>半数灵石</b><small>35:00–36:03</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>我们只要王爷</b><small>36:03–37:42</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>千年守护</b><small>37:42–39:50</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>暗处的主上</b><small>40:27–43:00</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">行止冰封东海，天道反噬，呕血寻人，一句「生要见人，死要见尸，哪怕化为灰烬，我也要一粒一粒把她找回来」，让仙界众仙彻底看清——上古神动了情。而他的深情，被拂容君与幽兰借着一件能照见过往的法宝，一幕一幕看了个正着。</p>
+        <p>第 24 集，从东海讲起。龙王哭哭啼啼闯上天庭：神君把东海数万里冻成了冰，海族生灵苦不堪言，求天君做主。行止却是不顾周身染血、天道反噬，日夜以觅寻之术翻找三界，只为了那个「灰飞烟灭」的碧苍王。众人劝他节哀，他反诘：「神明本无感情，本就是无哀之人，既然无哀，又何谈其爱？」——他连自己已经爱上沈璃这件事，都是后知后觉。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S2–S3 · 行止</span>
+          <h3>失去之后，才敢承认心动</h3>
+          <p class="lesson-situation"><b>情境：</b>行止自诩神明无哀无爱，直到沈璃「死」了，才说出「原来被天道反噬竟是如此滋味」，才肯承认自己动了情。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>别等失去才确认心意，爱要趁还能说出口时说出口。</li>
+              <li>再骄傲的人，也抵不过一场来不及。</li>
+              <li>承认自己动了情，从来不是软弱，是勇敢。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1 · 龙王</span>
+          <h3>一个人崩溃的时候，身边的人最遭殃</h3>
+          <p class="lesson-situation"><b>情境：</b>行止为情所困冰封东海，殃及数万里海族生灵，龙王只好哭上天庭求助。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>情绪上头时，先别做影响别人的重大决定。</li>
+              <li>你的痛苦，不该由无辜者替你买单。</li>
+              <li>再难过，也要在崩溃里给自己留一丝清醒。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S4–S5 · 幽兰</span>
+          <h3>当局者迷，旁观者清</h3>
+          <p class="lesson-situation"><b>情境：</b>拂容君与沈璃相处那么久都没看出端倪，幽兰却在回影前一眼点破「神君早就开始帮沈璃做主了」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>关系里的端倪往往一直存在，只是你从没在意。</li>
+              <li>多听听旁观者的提醒，别急着辩解。</li>
+              <li>迟钝的代价，是错过最好的时机。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 灵界军民</span>
+          <h3>真诚的歉意，抵不过一笔算不清的账</h3>
+          <p class="lesson-situation"><b>情境：</b>天君送来半数灵石想安抚灵界，军民却拒收：「我们不要灵石，我们只要王爷。」</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>补偿要打在对方真正在意的地方，而不是你觉得划算的地方。</li>
+              <li>金钱买不回人心，亏欠要当面认。</li>
+              <li>先问一句「对方要什么」，比自作主张更重要。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9 · 沈木月</span>
+          <h3>拼尽全力保护的，未必躲得掉宿命</h3>
+          <p class="lesson-situation"><b>情境：</b>灵尊处处护着沈璃、不让她沾墟天渊，终究没能躲过沈璃以身赴渊的宿命。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>保护也要教会对方直面风险，而非一味隔绝。</li>
+              <li>命运不会因为回避就不来。</li>
+              <li>真正长久的守护，是让对方长出属于自己的盔甲。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10 · 苻生</span>
+          <h3>别人替你选的路，终究要你亲手走</h3>
+          <p class="lesson-situation"><b>情境：</b>苻生以养恩、血脉和宿命层层捆绑墨方，逼他接受「刀刃早已注定指向何方」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>恩情不该成为控制一个人的枷锁。</li>
+              <li>出身不是全部的答案，别让任何人替你定义。</li>
+              <li>选择权始终在你手里，只看你敢不敢拿回来。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">12:06–13:05</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s1.jpg" alt="东海冰封" loading="lazy">
+      <h2>东海冰封</h2>
+      <div class="scene-body">
+        <p>「天君救命哪！」东海龙王哭哭啼啼闯入天庭——神君行止把东海数万里冻成了冰，海族生灵苦不堪言，求天君做主。</p>
+<p>原来行止为护住从墟天渊逸出的凶兽，以神力冰封东海十天十夜，自己也因此受了天道反噬。</p>
+<p>天君闻讯，又惊又叹：为情所困的上古神，如今把整个东海都赔了进去。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「天君，神君他冰封东海数万里，海族生灵苦不堪言，还望天君救救龙王！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your Majesty, the Divine Lord has frozen the Eastern Sea for ten thousand li—every sea creature suffers beyond words. Please, save the Dragon King!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「天君救命哪！天君要给龙王做主啊！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Help, Your Majesty! Your Majesty, the Dragon King begs for justice!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">13:31–15:19</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s2.jpg" alt="生要见人" loading="lazy">
+      <h2>生要见人</h2>
+      <div class="scene-body">
+        <p>行止回到住处，口中不断咳出血来，却仍执意要以觅寻之术翻遍三界。</p>
+<p>众仙劝他节哀：「都说沈璃灰飞烟灭，觅寻之术也寻不到她，神君，你别找她了。」</p>
+<p>行止一字一句：「生要见人，死要见尸。哪怕化为灰烬，我也要一粒一粒把她找回来。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「都说沈璃灰飞烟灭，觅寻之术也寻不到她，神君，你别找她了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"They say Shen Li has turned to ashes—even the seeking arts cannot find her. My Lord, stop searching."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「生要见人，死要见尸。哪怕化为灰烬，我也要一粒一粒把她找回来。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Live, and I will find her breathing; dead, I will find her bones. Even if she is ash, I will gather her back one grain at a time."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「神君节哀。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My Lord, please grieve with restraint."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">15:27–17:24</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s3.jpg" alt="被天道反噬" loading="lazy">
+      <h2>被天道反噬</h2>
+      <div class="scene-body">
+        <p>行止独处，望着自己染血的双手出神：神明本无感情，本就是无哀之人，既然无哀，又何谈其爱？</p>
+<p>「原来被天道反噬，竟是如此滋味。」他此生从未想过，自己也会有这般狼狈的一日。</p>
+<p>从前以神明之身行遍三界皆是顺心之事，如今却连一个角落都寻不完、寻不通——这难道是天道在罚他动情么？</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这话不该对神明说。神明本无感情，本就是无哀之人，既然无哀，又何谈其爱？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Such words are not for a god. The divine have no feelings—we are beings without grief. Without grief, what love is there to speak of?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「原来被天道反噬，竟是如此滋味。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"So this is what it feels like to be punished by Heaven's Way."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「从前从未觉得三界有多大，以神明之身，不管去何处皆是顺心之事。而今时今日，我竟然连一个地方都寻不完、寻不通。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I never felt the Three Realms were vast; as a god, everywhere I went was smooth sailing. But now—I cannot even search every corner of them."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">22:22–27:16</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s4.jpg" alt="回影里的灵界" loading="lazy">
+      <h2>回影里的灵界</h2>
+      <div class="scene-body">
+        <p>拂容君借着一件能照见过往的法宝，翻出当年行止去灵界的回影：神君第一回见自己就没好脸色，嫌他「天君没教过你穿好衣服才能出门吗」。</p>
+<p>回影里，神君替沈璃做主，把拂容君偷来的法器一件件收缴回去；拂容君在碧苍王府被满院兵器吓得心惊胆战。</p>
+<p>幽兰在一旁连连摇头：「这个时候，神君就已经开始帮沈璃做主了呀！你当时怎么就没看出来？」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「拂容君，天君没有教过你，穿好衣服才能出门吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Lord Furong, did the Heavenly Emperor never teach you to dress properly before leaving the house?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这个时候，神君就已经开始帮沈璃做主了呀！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"See—even back then, the Divine Lord was already taking Shen Li's side!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这沈璃府上，怎么会有这么多兵器？这不得让我有一百种死法？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"How does Shen Li's manor have so many weapons? A hundred ways to die, at least!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">27:16–32:54</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s5.jpg" alt="早就护上她了" loading="lazy">
+      <h2>早就护上她了</h2>
+      <div class="scene-body">
+        <p>回影一幕幕翻过去：行止见拂容君轻薄无状便出言敲打，沈璃当面收缴拂容君的赃物，行止只在一旁看着，眼底却是藏不住的笑意。</p>
+<p>幽兰笑道：「神君这是酸了呀！平时让你好好修炼你不修炼，才看了几段回影就这样了。」</p>
+<p>拂容君越看越不是滋味，揉着发胀的脑袋后悔：早知道神君和沈璃是这样，他就该早些出手阻止——可这些话，如今也只能烂在心里。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「平时让你好好修炼你不修炼，才看了几段回影就这样了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I always told you to train properly, but no—a few glimpses of the past and you collapse."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「神君这是酸了呀！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The Divine Lord is jealous!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「现在说了还有什么用？这些事，我要烂在心里——就当是我能为神君和沈璃做的最后一件事。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"What use is telling it now? I'll bury it all in my heart—let it be the last thing I can do for the Divine Lord and Shen Li."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">32:54–35:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s6.jpg" alt="可惜知道得太晚" loading="lazy">
+      <h2>可惜知道得太晚</h2>
+      <div class="scene-body">
+        <p>拂容君一边看一边念叨「可惜了，要是早点知道就好了」，看回影看到在榻上昏睡过去。</p>
+<p>醒来头疼欲裂，幽兰说他不过是睡着了，又施定神术替他缓解：「你呀，就是太重感情了。」</p>
+<p>幽兰叮嘱他：明日好了，去看看神君——别等他醒来，身边连一个人都没有。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「可惜了，要是早点知道就好了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"What a pity... if only I'd realized sooner."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你呀，就是太重感情了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're far too sentimental—that's your trouble."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你明天好了，再去看看神君吧。别等神君醒过来之后，身边一个人都没有。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"When you're better tomorrow, go see the Divine Lord. Don't let him wake up with no one by his side."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">35:00–36:03</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s7.jpg" alt="半数灵石" loading="lazy">
+      <h2>半数灵石</h2>
+      <div class="scene-body">
+        <p>天君降旨：念灵界此次损失惨重，已命人清点仙界所属半数灵石，命神女即刻起程，赠予灵界，祝他们早日重建秩序。</p>
+<p>神女领命动身。灵界眼下确实需要这些灵石，她只求能多少抚平灵界的悲恸。</p>
+<p>灵界众将却冷笑：拿灵石来安抚我们？分明是想用灵石打发我们。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「天君念灵界此次损失惨重，特命神女即刻起程，将仙界所属半数灵石赠予灵界，祝他们早日重建秩序。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Mindful of the Spirit Realm's heavy losses, the Heavenly Emperor orders the Divine Maiden to set out at once with half of the Celestial Realm's spirit stones, so the Spirit Realm may rebuild in peace."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「仙界的半数灵石，灵界现在确实需要这些。天君还是关心灵界的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Half our spirit stones... the Spirit Realm truly needs them now. The Heavenly Emperor still cares for them."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">36:03–37:42</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s8.jpg" alt="我们只要王爷" loading="lazy">
+      <h2>我们只要王爷</h2>
+      <div class="scene-body">
+        <p>灵石车队刚到灵界边境，便被将士和百姓拦下：「你们仙界的人，来我们灵界做什么？」</p>
+<p>「我们不要你们的灵石！我们守着墟天渊守了一千年，王爷为此甚至献出了自己的生命，你们就想用灵石来安抚我们？」</p>
+<p>人群越聚越多，悲愤的呼喊汇成一句：「我们只要王爷！你们把王爷还给我们！」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你们仙界的人来我们灵界做什么？」「我是奉天君之命，将仙界的灵石赠予灵界。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Why have the Celestial Realm come to our Spirit Realm?" "By the Heavenly Emperor's decree, I bring spirit stones as a gift to the Spirit Realm."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们守着墟天渊守了一千年，王爷为此甚至献出了自己的生命，你们就想用灵石来安抚我们？我们不要你们的灵石！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We have guarded the Void Abyss for a thousand years, and the King gave her life for it. You mean to soothe us with stones? We don't want them!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们只要王爷！你们把王爷还给我们！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We only want our King back! Give us back our King!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">37:42–39:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s9.jpg" alt="千年守护" loading="lazy">
+      <h2>千年守护</h2>
+      <div class="scene-body">
+        <p>沈木月望着被拒收的灵石出神：尊上此前不让王爷接触墟天渊，便是怕她与那凶险、与宿命扯上关系；想尽了办法保护，终究还是没躲过。</p>
+<p>这也许就是她的命。既然她必须以命相抵换了灵界安稳，那便只求千年的仇怨能就此了结。</p>
+<p>「这一次，我一定会做保护灵界安稳的那一个。」她暗暗立誓，替王爷扛起这份担子。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「尊上此前不让王爷接触墟天渊，便是不想让王爷与那凶险扯上什么关系。尊上想尽了办法保护王爷，没想到还是……」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The Sovereign never let the King near the Void Abyss, lest she become entangled with that peril. The Sovereign shielded her by every means—and still, this came to pass."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「如今她以命相抵，换了灵界安稳，只希望千年的仇怨能就此了结。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Now she has traded her life for the Spirit Realm's peace. May the thousand-year feud end here."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这一次，我一定会做保护灵界安稳的那一个。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This time, I will be the one who guards the Spirit Realm's peace."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">40:27–43:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/yufengxing-e24/s10.jpg" alt="暗处的主上" loading="lazy">
+      <h2>暗处的主上</h2>
+      <div class="scene-body">
+        <p>画面一转，暗室里，苻生正质问墨方：我送你去灵界参军，是为了救出主上，你却为了沈璃一次次误我大计。</p>
+<p>「让沈璃嫁去仙界，便无人看守墟天渊，这更有利于我们行事。可你为何故意被她所伤、帮她逃婚？」</p>
+<p>墨方沉默着，苻生步步逼近：你身上留着谁的血，你改变不了；你的刀刃，早就注定了指向何方。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我送你去灵界参军，是为了救出主上。而你却为了沈璃，多次误我大计！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I sent you to join the Spirit Realm's army to free my master. Yet for Shen Li's sake, you have thwarted my plan again and again!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「可少主，你为何要故意被她所伤，帮她逃婚呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"But my young master—why did you let her wound you on purpose, just to help her flee the marriage?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你身上留着谁的血，你改变不了。你的刀刃，早就注定了指向何方。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Whose blood runs in your veins, you cannot change. Where your blade points has long been decided."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/yufengxing-e24/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>行止</h3><span>最后一位上古神君 · 天外天之主（林更新 饰）</span></div>
+          <p>为寻「死」去的沈璃，冰封东海、呕血觅寻，一句「生要见人」道尽深情；他这集所有的失态，都印证了那句「神明本无哀，却偏偏动了情」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>拂容君</h3><span>仙界神君 · 天君之孙（辛云来 饰）</span></div>
+          <p>借法宝窥见行止与沈璃的过往，后知后觉自己早该看出端倪，又悔又叹；一改往日的浑，决定把往事烂在心里，替神君保守秘密。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>幽兰</h3><span>仙界神女 · 拂容君的皇姐（黄羿 饰）</span></div>
+          <p>拉着拂容君看回影、点破神君的心意，又施定神术照看他；嘴上毒辣，心里却软。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>天君</h3><span>仙界之主（刘冠麟 饰）</span></div>
+          <p>为安抚灵界，命神女送去半数灵石；对行止的失态又惊又叹。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>沈木月</h3><span>灵界长老（宣璐 饰）</span></div>
+          <p>望着被拒收的灵石，想起灵尊护着沈璃的苦心，立誓替王爷守护灵界安稳。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>苻生</h3><span>墨方之师 · 幕后布局之人（宋宁峰 饰）</span></div>
+          <p>在暗室里向墨方摊牌千年大计，揭穿他细作身世与放走沈璃之过，步步紧逼。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>墨方</h3><span>灵界将军 · 苻生座下少主（何与 饰）</span></div>
+          <p>被苻生步步紧逼，沉默以对；那句「沈璃是我的底线」尚未说出口，暗雷已在积蓄。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>「哪怕化为灰烬，我也要一粒一粒把她找回来」</h3>
+          <p>行止咳着血说出这句话，是全集最痛的一颗心——上古神第一次在人前失态，为的只是一个人。</p>
+        </article>
+
+        <article>
+          <h3>「这个时候，神君就已经开始帮沈璃做主了呀！」</h3>
+          <p>回影镜前，幽兰一语点破行止藏了许久的深情，拂容君这才后知后觉，又悔又叹。</p>
+        </article>
+
+        <article>
+          <h3>「我们只要王爷！你们把王爷还给我们！」</h3>
+          <p>灵界军民拒收半数灵石，悲愤的呼声响彻边境，一场补偿被怼成了讨还旧账。</p>
+        </article>
+
+        <article>
+          <h3>「原来被天道反噬，竟是如此滋味」</h3>
+          <p>行止独处时的自白，神明第一次承认自己也会狼狈、也会动情，揭开了他此后为情所困的序章。</p>
+        </article>
+
+        <article>
+          <h3>「你的刀刃，早就注定了指向何方」</h3>
+          <p>苻生与墨方暗室摊牌，一句宿命论暗藏惊雷，墨方的细作身世与身不由己自此浮出水面。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>墨方的细作身世</h3>
+          <p>苻生那句「你的刀刃早就注定了指向何方」，预告墨方终将被迫与沈璃、与灵界兵戎相见。</p>
+        </article>
+
+        <article>
+          <h3>天外天的神君不能动情</h3>
+          <p>行止那句「神明本无哀」的自我说服，恰恰是他日后为情付出神格、被天道所罚的伏笔。</p>
+        </article>
+
+        <article>
+          <h3>千年的仇怨</h3>
+          <p>沈木月祈祷「千年的仇怨能就此了结」，而墟天渊里的凶兽与苻生的主上，注定要卷土重来。</p>
+        </article>
+
+        <article>
+          <h3>拂容君的转变</h3>
+          <p>拂容君决定把往事烂在心里、替神君保密——这个昔日花心草包，正一步步成为行止与沈璃最可靠的后盾。</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 24 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

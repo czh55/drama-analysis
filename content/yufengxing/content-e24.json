@@ -1,0 +1,404 @@
+{
+  "slug": "yufengxing-e24",
+  "drama": "与凤行",
+  "episode": "24",
+  "title": "生要见人",
+  "subtitle": "行止为沈璃的「死」冰封东海、呕血觅寻，一句「生要见人」让拂容君与幽兰在回影镜里看清了这段藏了许久的深情——而灵界军民正堵在边境，拒收那批「抵命」的灵石。",
+  "meta": [
+    "2024 · 古装神话",
+    "赵丽颖 / 林更新 / 辛云来 / 何与",
+    "45 分钟",
+    "10 个场景",
+    "共 39 集"
+  ],
+  "overviewLead": "行止冰封东海，天道反噬，呕血寻人，一句「生要见人，死要见尸，哪怕化为灰烬，我也要一粒一粒把她找回来」，让仙界众仙彻底看清——上古神动了情。而他的深情，被拂容君与幽兰借着一件能照见过往的法宝，一幕一幕看了个正着。",
+  "overview": "第 24 集，从东海讲起。龙王哭哭啼啼闯上天庭：神君把东海数万里冻成了冰，海族生灵苦不堪言，求天君做主。行止却是不顾周身染血、天道反噬，日夜以觅寻之术翻找三界，只为了那个「灰飞烟灭」的碧苍王。众人劝他节哀，他反诘：「神明本无感情，本就是无哀之人，既然无哀，又何谈其爱？」——他连自己已经爱上沈璃这件事，都是后知后觉。",
+  "overview2": "仙界这头，拂容君无意间借法宝照见了行止与沈璃在灵界的过往：神君第一次见他就没好脸色；神君曾替沈璃做主，把拂容君偷来的法器一件件收缴回去；神君陪沈璃练功，被回影里的醋意熏得「酸了」。拂容君后知后觉：「这个时候神君就已经开始帮沈璃做主了呀！」幽兰骂他迟钝，他却只懊悔自己「早点知道就好了」。",
+  "overview3": "拂容君看回影看到昏睡，醒来头疼欲裂，幽兰说他不过是睡着了，又施定神术替他缓解：「你呀，就是太重感情了。」她叮嘱他：明日好了，去看看神君——别等他醒过来，身边连一个人都没有。此时天君降旨：念灵界损失惨重，命神女把仙界半数灵石送去灵界，祝他们早日重建秩序。",
+  "overview4": "灵界边境，众将士拦住送灵石的神女，悲愤交加：「我们守着墟天渊守了一千年，王爷为此连命都搭上了，你们就想用灵石来安抚我们？」人群越聚越多，悲愤的呼喊汇成一句：「我们不要你们的灵石，我们只要王爷！你们把王爷还给我们！」",
+  "overview5": "沈木月望着被拒收的灵石出神：尊上此前不让王爷接触墟天渊，便是怕她与那凶险扯上关系；想尽了办法保护，终究还是没躲过宿命。既然她以命相抵换了灵界安稳，那便只求千年的仇怨能就此了结——「这一次，我一定会做保护灵界安稳的那一个。」",
+  "overview6": "而这一切的始作俑者，正在暗处露出獠牙。苻生与墨方的隐秘对话浮出水面：原来墨方是他一手养大的「少主」，一身寒疾全靠苻生的心头血续命，连进灵界参军、接近墟天渊都是苻生的布局。苻生质问他为何帮沈璃逃婚、误他大计，墨方却步步后退——「你身上留着谁的血，你改变不了；你的刀刃，早就注定了指向何方。」",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "12:06–13:05",
+      "title": "东海冰封",
+      "body": [
+        "「天君救命哪！」东海龙王哭哭啼啼闯入天庭——神君行止把东海数万里冻成了冰，海族生灵苦不堪言，求天君做主。",
+        "原来行止为护住从墟天渊逸出的凶兽，以神力冰封东海十天十夜，自己也因此受了天道反噬。",
+        "天君闻讯，又惊又叹：为情所困的上古神，如今把整个东海都赔了进去。"
+      ],
+      "quotes": [
+        {
+          "zh": "「天君，神君他冰封东海数万里，海族生灵苦不堪言，还望天君救救龙王！」",
+          "en": "\"Your Majesty, the Divine Lord has frozen the Eastern Sea for ten thousand li—every sea creature suffers beyond words. Please, save the Dragon King!\""
+        },
+        {
+          "zh": "「天君救命哪！天君要给龙王做主啊！」",
+          "en": "\"Help, Your Majesty! Your Majesty, the Dragon King begs for justice!\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "13:31–15:19",
+      "title": "生要见人",
+      "body": [
+        "行止回到住处，口中不断咳出血来，却仍执意要以觅寻之术翻遍三界。",
+        "众仙劝他节哀：「都说沈璃灰飞烟灭，觅寻之术也寻不到她，神君，你别找她了。」",
+        "行止一字一句：「生要见人，死要见尸。哪怕化为灰烬，我也要一粒一粒把她找回来。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「都说沈璃灰飞烟灭，觅寻之术也寻不到她，神君，你别找她了。」",
+          "en": "\"They say Shen Li has turned to ashes—even the seeking arts cannot find her. My Lord, stop searching.\""
+        },
+        {
+          "zh": "「生要见人，死要见尸。哪怕化为灰烬，我也要一粒一粒把她找回来。」",
+          "en": "\"Live, and I will find her breathing; dead, I will find her bones. Even if she is ash, I will gather her back one grain at a time.\""
+        },
+        {
+          "zh": "「神君节哀。」",
+          "en": "\"My Lord, please grieve with restraint.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "15:27–17:24",
+      "title": "被天道反噬",
+      "body": [
+        "行止独处，望着自己染血的双手出神：神明本无感情，本就是无哀之人，既然无哀，又何谈其爱？",
+        "「原来被天道反噬，竟是如此滋味。」他此生从未想过，自己也会有这般狼狈的一日。",
+        "从前以神明之身行遍三界皆是顺心之事，如今却连一个角落都寻不完、寻不通——这难道是天道在罚他动情么？"
+      ],
+      "quotes": [
+        {
+          "zh": "「这话不该对神明说。神明本无感情，本就是无哀之人，既然无哀，又何谈其爱？」",
+          "en": "\"Such words are not for a god. The divine have no feelings—we are beings without grief. Without grief, what love is there to speak of?\""
+        },
+        {
+          "zh": "「原来被天道反噬，竟是如此滋味。」",
+          "en": "\"So this is what it feels like to be punished by Heaven's Way.\""
+        },
+        {
+          "zh": "「从前从未觉得三界有多大，以神明之身，不管去何处皆是顺心之事。而今时今日，我竟然连一个地方都寻不完、寻不通。」",
+          "en": "\"I never felt the Three Realms were vast; as a god, everywhere I went was smooth sailing. But now—I cannot even search every corner of them.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "22:22–27:16",
+      "title": "回影里的灵界",
+      "body": [
+        "拂容君借着一件能照见过往的法宝，翻出当年行止去灵界的回影：神君第一回见自己就没好脸色，嫌他「天君没教过你穿好衣服才能出门吗」。",
+        "回影里，神君替沈璃做主，把拂容君偷来的法器一件件收缴回去；拂容君在碧苍王府被满院兵器吓得心惊胆战。",
+        "幽兰在一旁连连摇头：「这个时候，神君就已经开始帮沈璃做主了呀！你当时怎么就没看出来？」"
+      ],
+      "quotes": [
+        {
+          "zh": "「拂容君，天君没有教过你，穿好衣服才能出门吗？」",
+          "en": "\"Lord Furong, did the Heavenly Emperor never teach you to dress properly before leaving the house?\""
+        },
+        {
+          "zh": "「这个时候，神君就已经开始帮沈璃做主了呀！」",
+          "en": "\"See—even back then, the Divine Lord was already taking Shen Li's side!\""
+        },
+        {
+          "zh": "「这沈璃府上，怎么会有这么多兵器？这不得让我有一百种死法？」",
+          "en": "\"How does Shen Li's manor have so many weapons? A hundred ways to die, at least!\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "27:16–32:54",
+      "title": "早就护上她了",
+      "body": [
+        "回影一幕幕翻过去：行止见拂容君轻薄无状便出言敲打，沈璃当面收缴拂容君的赃物，行止只在一旁看着，眼底却是藏不住的笑意。",
+        "幽兰笑道：「神君这是酸了呀！平时让你好好修炼你不修炼，才看了几段回影就这样了。」",
+        "拂容君越看越不是滋味，揉着发胀的脑袋后悔：早知道神君和沈璃是这样，他就该早些出手阻止——可这些话，如今也只能烂在心里。"
+      ],
+      "quotes": [
+        {
+          "zh": "「平时让你好好修炼你不修炼，才看了几段回影就这样了。」",
+          "en": "\"I always told you to train properly, but no—a few glimpses of the past and you collapse.\""
+        },
+        {
+          "zh": "「神君这是酸了呀！」",
+          "en": "\"The Divine Lord is jealous!\""
+        },
+        {
+          "zh": "「现在说了还有什么用？这些事，我要烂在心里——就当是我能为神君和沈璃做的最后一件事。」",
+          "en": "\"What use is telling it now? I'll bury it all in my heart—let it be the last thing I can do for the Divine Lord and Shen Li.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "32:54–35:00",
+      "title": "可惜知道得太晚",
+      "body": [
+        "拂容君一边看一边念叨「可惜了，要是早点知道就好了」，看回影看到在榻上昏睡过去。",
+        "醒来头疼欲裂，幽兰说他不过是睡着了，又施定神术替他缓解：「你呀，就是太重感情了。」",
+        "幽兰叮嘱他：明日好了，去看看神君——别等他醒来，身边连一个人都没有。"
+      ],
+      "quotes": [
+        {
+          "zh": "「可惜了，要是早点知道就好了。」",
+          "en": "\"What a pity... if only I'd realized sooner.\""
+        },
+        {
+          "zh": "「你呀，就是太重感情了。」",
+          "en": "\"You're far too sentimental—that's your trouble.\""
+        },
+        {
+          "zh": "「你明天好了，再去看看神君吧。别等神君醒过来之后，身边一个人都没有。」",
+          "en": "\"When you're better tomorrow, go see the Divine Lord. Don't let him wake up with no one by his side.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "35:00–36:03",
+      "title": "半数灵石",
+      "body": [
+        "天君降旨：念灵界此次损失惨重，已命人清点仙界所属半数灵石，命神女即刻起程，赠予灵界，祝他们早日重建秩序。",
+        "神女领命动身。灵界眼下确实需要这些灵石，她只求能多少抚平灵界的悲恸。",
+        "灵界众将却冷笑：拿灵石来安抚我们？分明是想用灵石打发我们。"
+      ],
+      "quotes": [
+        {
+          "zh": "「天君念灵界此次损失惨重，特命神女即刻起程，将仙界所属半数灵石赠予灵界，祝他们早日重建秩序。」",
+          "en": "\"Mindful of the Spirit Realm's heavy losses, the Heavenly Emperor orders the Divine Maiden to set out at once with half of the Celestial Realm's spirit stones, so the Spirit Realm may rebuild in peace.\""
+        },
+        {
+          "zh": "「仙界的半数灵石，灵界现在确实需要这些。天君还是关心灵界的。」",
+          "en": "\"Half our spirit stones... the Spirit Realm truly needs them now. The Heavenly Emperor still cares for them.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "36:03–37:42",
+      "title": "我们只要王爷",
+      "body": [
+        "灵石车队刚到灵界边境，便被将士和百姓拦下：「你们仙界的人，来我们灵界做什么？」",
+        "「我们不要你们的灵石！我们守着墟天渊守了一千年，王爷为此甚至献出了自己的生命，你们就想用灵石来安抚我们？」",
+        "人群越聚越多，悲愤的呼喊汇成一句：「我们只要王爷！你们把王爷还给我们！」"
+      ],
+      "quotes": [
+        {
+          "zh": "「你们仙界的人来我们灵界做什么？」「我是奉天君之命，将仙界的灵石赠予灵界。」",
+          "en": "\"Why have the Celestial Realm come to our Spirit Realm?\" \"By the Heavenly Emperor's decree, I bring spirit stones as a gift to the Spirit Realm.\""
+        },
+        {
+          "zh": "「我们守着墟天渊守了一千年，王爷为此甚至献出了自己的生命，你们就想用灵石来安抚我们？我们不要你们的灵石！」",
+          "en": "\"We have guarded the Void Abyss for a thousand years, and the King gave her life for it. You mean to soothe us with stones? We don't want them!\""
+        },
+        {
+          "zh": "「我们只要王爷！你们把王爷还给我们！」",
+          "en": "\"We only want our King back! Give us back our King!\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "37:42–39:50",
+      "title": "千年守护",
+      "body": [
+        "沈木月望着被拒收的灵石出神：尊上此前不让王爷接触墟天渊，便是怕她与那凶险、与宿命扯上关系；想尽了办法保护，终究还是没躲过。",
+        "这也许就是她的命。既然她必须以命相抵换了灵界安稳，那便只求千年的仇怨能就此了结。",
+        "「这一次，我一定会做保护灵界安稳的那一个。」她暗暗立誓，替王爷扛起这份担子。"
+      ],
+      "quotes": [
+        {
+          "zh": "「尊上此前不让王爷接触墟天渊，便是不想让王爷与那凶险扯上什么关系。尊上想尽了办法保护王爷，没想到还是……」",
+          "en": "\"The Sovereign never let the King near the Void Abyss, lest she become entangled with that peril. The Sovereign shielded her by every means—and still, this came to pass.\""
+        },
+        {
+          "zh": "「如今她以命相抵，换了灵界安稳，只希望千年的仇怨能就此了结。」",
+          "en": "\"Now she has traded her life for the Spirit Realm's peace. May the thousand-year feud end here.\""
+        },
+        {
+          "zh": "「这一次，我一定会做保护灵界安稳的那一个。」",
+          "en": "\"This time, I will be the one who guards the Spirit Realm's peace.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "40:27–43:00",
+      "title": "暗处的主上",
+      "body": [
+        "画面一转，暗室里，苻生正质问墨方：我送你去灵界参军，是为了救出主上，你却为了沈璃一次次误我大计。",
+        "「让沈璃嫁去仙界，便无人看守墟天渊，这更有利于我们行事。可你为何故意被她所伤、帮她逃婚？」",
+        "墨方沉默着，苻生步步逼近：你身上留着谁的血，你改变不了；你的刀刃，早就注定了指向何方。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我送你去灵界参军，是为了救出主上。而你却为了沈璃，多次误我大计！」",
+          "en": "\"I sent you to join the Spirit Realm's army to free my master. Yet for Shen Li's sake, you have thwarted my plan again and again!\""
+        },
+        {
+          "zh": "「可少主，你为何要故意被她所伤，帮她逃婚呢？」",
+          "en": "\"But my young master—why did you let her wound you on purpose, just to help her flee the marriage?\""
+        },
+        {
+          "zh": "「你身上留着谁的血，你改变不了。你的刀刃，早就注定了指向何方。」",
+          "en": "\"Whose blood runs in your veins, you cannot change. Where your blade points has long been decided.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S2–S3 · 行止",
+      "title": "失去之后，才敢承认心动",
+      "situation": "行止自诩神明无哀无爱，直到沈璃「死」了，才说出「原来被天道反噬竟是如此滋味」，才肯承认自己动了情。",
+      "advice": [
+        "别等失去才确认心意，爱要趁还能说出口时说出口。",
+        "再骄傲的人，也抵不过一场来不及。",
+        "承认自己动了情，从来不是软弱，是勇敢。"
+      ]
+    },
+    {
+      "tag": "源自 S1 · 龙王",
+      "title": "一个人崩溃的时候，身边的人最遭殃",
+      "situation": "行止为情所困冰封东海，殃及数万里海族生灵，龙王只好哭上天庭求助。",
+      "advice": [
+        "情绪上头时，先别做影响别人的重大决定。",
+        "你的痛苦，不该由无辜者替你买单。",
+        "再难过，也要在崩溃里给自己留一丝清醒。"
+      ]
+    },
+    {
+      "tag": "源自 S4–S5 · 幽兰",
+      "title": "当局者迷，旁观者清",
+      "situation": "拂容君与沈璃相处那么久都没看出端倪，幽兰却在回影前一眼点破「神君早就开始帮沈璃做主了」。",
+      "advice": [
+        "关系里的端倪往往一直存在，只是你从没在意。",
+        "多听听旁观者的提醒，别急着辩解。",
+        "迟钝的代价，是错过最好的时机。"
+      ]
+    },
+    {
+      "tag": "源自 S8 · 灵界军民",
+      "title": "真诚的歉意，抵不过一笔算不清的账",
+      "situation": "天君送来半数灵石想安抚灵界，军民却拒收：「我们不要灵石，我们只要王爷。」",
+      "advice": [
+        "补偿要打在对方真正在意的地方，而不是你觉得划算的地方。",
+        "金钱买不回人心，亏欠要当面认。",
+        "先问一句「对方要什么」，比自作主张更重要。"
+      ]
+    },
+    {
+      "tag": "源自 S9 · 沈木月",
+      "title": "拼尽全力保护的，未必躲得掉宿命",
+      "situation": "灵尊处处护着沈璃、不让她沾墟天渊，终究没能躲过沈璃以身赴渊的宿命。",
+      "advice": [
+        "保护也要教会对方直面风险，而非一味隔绝。",
+        "命运不会因为回避就不来。",
+        "真正长久的守护，是让对方长出属于自己的盔甲。"
+      ]
+    },
+    {
+      "tag": "源自 S10 · 苻生",
+      "title": "别人替你选的路，终究要你亲手走",
+      "situation": "苻生以养恩、血脉和宿命层层捆绑墨方，逼他接受「刀刃早已注定指向何方」。",
+      "advice": [
+        "恩情不该成为控制一个人的枷锁。",
+        "出身不是全部的答案，别让任何人替你定义。",
+        "选择权始终在你手里，只看你敢不敢拿回来。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "行止",
+      "role": "最后一位上古神君 · 天外天之主（林更新 饰）",
+      "desc": "为寻「死」去的沈璃，冰封东海、呕血觅寻，一句「生要见人」道尽深情；他这集所有的失态，都印证了那句「神明本无哀，却偏偏动了情」。"
+    },
+    {
+      "name": "拂容君",
+      "role": "仙界神君 · 天君之孙（辛云来 饰）",
+      "desc": "借法宝窥见行止与沈璃的过往，后知后觉自己早该看出端倪，又悔又叹；一改往日的浑，决定把往事烂在心里，替神君保守秘密。"
+    },
+    {
+      "name": "幽兰",
+      "role": "仙界神女 · 拂容君的皇姐（黄羿 饰）",
+      "desc": "拉着拂容君看回影、点破神君的心意，又施定神术照看他；嘴上毒辣，心里却软。"
+    },
+    {
+      "name": "天君",
+      "role": "仙界之主（刘冠麟 饰）",
+      "desc": "为安抚灵界，命神女送去半数灵石；对行止的失态又惊又叹。"
+    },
+    {
+      "name": "沈木月",
+      "role": "灵界长老（宣璐 饰）",
+      "desc": "望着被拒收的灵石，想起灵尊护着沈璃的苦心，立誓替王爷守护灵界安稳。"
+    },
+    {
+      "name": "苻生",
+      "role": "墨方之师 · 幕后布局之人（宋宁峰 饰）",
+      "desc": "在暗室里向墨方摊牌千年大计，揭穿他细作身世与放走沈璃之过，步步紧逼。"
+    },
+    {
+      "name": "墨方",
+      "role": "灵界将军 · 苻生座下少主（何与 饰）",
+      "desc": "被苻生步步紧逼，沉默以对；那句「沈璃是我的底线」尚未说出口，暗雷已在积蓄。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "「哪怕化为灰烬，我也要一粒一粒把她找回来」",
+      "desc": "行止咳着血说出这句话，是全集最痛的一颗心——上古神第一次在人前失态，为的只是一个人。"
+    },
+    {
+      "title": "「这个时候，神君就已经开始帮沈璃做主了呀！」",
+      "desc": "回影镜前，幽兰一语点破行止藏了许久的深情，拂容君这才后知后觉，又悔又叹。"
+    },
+    {
+      "title": "「我们只要王爷！你们把王爷还给我们！」",
+      "desc": "灵界军民拒收半数灵石，悲愤的呼声响彻边境，一场补偿被怼成了讨还旧账。"
+    },
+    {
+      "title": "「原来被天道反噬，竟是如此滋味」",
+      "desc": "行止独处时的自白，神明第一次承认自己也会狼狈、也会动情，揭开了他此后为情所困的序章。"
+    },
+    {
+      "title": "「你的刀刃，早就注定了指向何方」",
+      "desc": "苻生与墨方暗室摊牌，一句宿命论暗藏惊雷，墨方的细作身世与身不由己自此浮出水面。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "墨方的细作身世",
+      "desc": "苻生那句「你的刀刃早就注定了指向何方」，预告墨方终将被迫与沈璃、与灵界兵戎相见。"
+    },
+    {
+      "title": "天外天的神君不能动情",
+      "desc": "行止那句「神明本无哀」的自我说服，恰恰是他日后为情付出神格、被天道所罚的伏笔。"
+    },
+    {
+      "title": "千年的仇怨",
+      "desc": "沈木月祈祷「千年的仇怨能就此了结」，而墟天渊里的凶兽与苻生的主上，注定要卷土重来。"
+    },
+    {
+      "title": "拂容君的转变",
+      "desc": "拂容君决定把往事烂在心里、替神君保密——这个昔日花心草包，正一步步成为行止与沈璃最可靠的后盾。"
+    }
+  ]
+}
