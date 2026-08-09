@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《玫瑰的故事》第 1 集剧情图文总结" />
+  <title>玫瑰的故事｜第 1 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/meigui-de-gushi-e01/hero.jpg" alt="《玫瑰的故事》第 1 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>玫瑰的故事</h1>
+          <p class="hero-ep">第 1 集 · 悔婚风波</p>
+          <p class="hero-en">2001年的北京，书香门第的少女黄亦玫到哥哥所在的建筑设计院实习。同部门的周士辉在领证当天当着未婚妻关芝芝的面悔婚——因为他爱上了玫瑰。一场七年感情当场碎裂，玫瑰一夜之间成了「勾引别人未婚夫的姑娘」，被家人禁足、被关芝芝上门质问。而这个故事，才刚开头。</p>
+          <div class="hero-meta">
+            <span class="chip">2001 · 都市情感</span>
+            <span class="chip">刘亦菲 / 佟大为 / 林更新 / 万茜</span>
+            <span class="chip">47 分钟</span>
+            <span class="chip">10 个场景</span>
+            <span class="chip">共 38 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>民政局门口悔婚</b><small>04:25–08:10</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>车上坦白·哥哥动手</b><small>08:36–11:51</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>青莛报到·师傅动心</b><small>12:38–16:28</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>约会·我喜欢你</b><small>17:13–20:39</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>家里·送花与规训</b><small>22:17–25:34</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>关芝芝的恨·楼下男生</b><small>26:04–28:27</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>哥哥上门·芝芝质问</b><small>28:27–32:11</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>赌气认罪·被关禁闭</b><small>32:20–37:59</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>威胁举报·单位议论</b><small>38:12–41:03</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>撬锁逃跑·寻哥对峙</b><small>41:15–44:26</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">领证当天悔婚、哥哥暴打同事、被当小三上门质问——玫瑰的第一份实习，从一场毁婚风波开始。</p>
+        <p>第1集，从一桩民政局悔婚说起。
+
+周士辉是黄振华在建筑设计院的同事兼好友，与未婚妻关芝芝相恋七年，本该当天领证结婚。可就在民政局门口，周士辉突然反悔：他爱上了新来的实习生——黄振华的妹妹黄亦玫。一句「今天这婚我真的没法给你结」，让七年的感情当场崩塌。关芝芝崩溃大哭，黄振华更是直接动了手。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1–S2 · 民政局</span>
+          <h3>不爱了，越早说越好</h3>
+          <p class="lesson-situation"><b>情境：</b>周士辉与关芝芝相恋七年，却拖到领证当天才当众悔婚，让七年的感情变成一场公开的难堪。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>感情里不爱了，越早坦白伤害越小；拖到最后一天，等于把多年的情分变成当众的难堪。</li>
+              <li>「我的终点不是你」这样的话，说出来需要勇气，但藏着不说更残忍。</li>
+              <li>决定人生伴侣前，先想清楚自己要什么，别拿婚姻当儿戏。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3–S4 · 青莛</span>
+          <h3>好感与喜欢，要分清场合</h3>
+          <p class="lesson-situation"><b>情境：</b>周士辉是玫瑰的带教师傅、又是有未婚妻的人，却对实习生动心，又是请咖啡又是约晚饭。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>职场上，师傅与实习生之间保持分寸，是对彼此最大的保护。</li>
+              <li>对他人心生好感没错，但先处理好自己已有的感情再谈别的。</li>
+              <li>被喜欢不是罪，怎么回应才是关键——玫瑰那句「恭喜你」，及时且清醒。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5 · 家里</span>
+          <h3>说教之前，先听听孩子怎么说</h3>
+          <p class="lesson-situation"><b>情境：</b>妈妈一上来就给玫瑰贴上「跟男生不清不楚」的标签，玫瑰反驳「凭什么要求女孩自爱」，母女谁也说服不了谁。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>批评孩子之前，先问清楚事实；先入为主的罪名最容易伤透人心。</li>
+              <li>「为你好」的规训如果带着不信任，就会变成反效果。</li>
+              <li>给女儿讲分寸，也给儿子讲尊重，规矩应该是对所有人的。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 禁闭</span>
+          <h3>赌气说反话，伤人又伤己</h3>
+          <p class="lesson-situation"><b>情境：</b>玫瑰被逼急了，赌气承认「我就是勾引他了」，一句反话让全家人信以为真，反而更难收场。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>委屈的时候说反话，只会让误解越描越黑；冷静下来讲清楚事实。</li>
+              <li>「您怎么定我就怎么犯」式的破罐破摔，解决不了任何问题。</li>
+              <li>给家人一点时间，也让家人给你一点信任，沟通才有出口。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9 · 单位</span>
+          <h3>别让别人的嘴，定义你的清白</h3>
+          <p class="lesson-situation"><b>情境：</b>单位里李姐带头议论玫瑰是「小狐狸精」，谣言越传越真；关芝芝更是扬言要去学校举报她当小三。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>流言止于智者；被误解时，事实和行动比争辩更有力量。</li>
+              <li>看清那些传播谣言的人，他们往往只想要一个茶余饭后的谈资。</li>
+              <li>保护自己：重要场合留存证据，别让一句污蔑毁掉前程。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10 · 寻哥</span>
+          <h3>家人，是最后的港湾</h3>
+          <p class="lesson-situation"><b>情境：</b>玫瑰撬锁逃出来找哥哥讨说法，哥哥却躲着「开会」。她一句「你眼珠老往右跑」拆穿了哥哥的谎话。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>在外受了委屈，家人是最好的倾诉对象；把话挑明，比憋着强。</li>
+              <li>亲人之间最怕「为你好」的躲闪——坦诚相待才是真正的护着。</li>
+              <li>每个人都会做错判断，关键是有没有勇气面对，像玫瑰那样打破沉默。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">04:25–08:10</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s1.jpg" alt="民政局门口悔婚" loading="lazy">
+      <h2>民政局门口悔婚</h2>
+      <div class="scene-body">
+        <p>民政局外，周士辉的同事们等着这对新人领证出来。有人盘算着婚礼花销：五星酒店二十桌五万、婚庆两万、摄像化妆小一万，说「婚礼一辈子只有一次」。黄振华在旁边起哄，说要替芝芝「再宰一顿」，从和牛到龙虾照着地图吃。</p>
+<p>可周士辉出来时，脸色全变了。他当众对关芝芝说出「今天这婚我真的没法给你结」：「我感谢你这七年对我的宽容和迁就，但我的终点不是你。」七年的感情，在民政局门口当场碎裂。关芝芝的家人一边骂「你要是外面有人了，那女的谁啊」，一边催他「大不了明天再离，亲戚朋友都来了」——周士辉却只重复着同一句话，坚持不结。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我感谢你这七年对我的宽容，对我的迁就……我的终点不是你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I thank you for seven years of your tolerance and your forbearance... but you are not my final destination."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「今天这婚我真的没法给你结。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I really can't marry you today."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「婚礼一辈子只有一次。」「那可不一定。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A wedding happens only once in a lifetime." "That's not necessarily true."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">08:36–11:51</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s2.jpg" alt="车上坦白·哥哥动手" loading="lazy">
+      <h2>车上坦白·哥哥动手</h2>
+      <div class="scene-body">
+        <p>回家的车上，周士辉坦白：他爱上的是「咱们单位的」人。黄振华一听，火冒三丈：「咱们单位的？你还爱上谁了？你跟我说！」周士辉支支吾吾，从「没有爱情的回忆是不道德」讲到自己「遇到那个人才知道之前的选择全是错的」。</p>
+<p>当他说出那个人是黄亦玫时，黄振华彻底炸了——那是他从小捧在手心里的妹妹。「你敢惦记我妹？你敢骚扰我妹？」他直接下车动了手，周士辉被他按在地上打，一遍遍喊着「我是真心实意喜欢你，我爱她」。围观的人议论纷纷：周士辉一个有未婚妻的人，凭什么惦记人家妹妹。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我爱上别人了，不跟他结婚，还是对他负责。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've fallen for someone else. Not marrying her is the more responsible thing."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「没有爱情的回忆，是不道德。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A relationship without love is, in itself, immoral."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你敢惦记我妹？你敢骚扰我妹？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You dare to set your sights on my sister? You dare to pester my sister?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">12:38–16:28</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s3.jpg" alt="青莛报到·师傅动心" loading="lazy">
+      <h2>青莛报到·师傅动心</h2>
+      <div class="scene-body">
+        <p>黄振华把妹妹带到自己单位报到：「这是我妹妹黄亦玫，从今天开始来我们这儿实习。公事公办啊，该怎么吩咐怎么吩咐，千万别跟她客气。」他又特意叮嘱周士辉：「我妹就由你来带了，她是学美术史的，不懂就多教教，脑子不笨。」</p>
+<p>周士辉望着玫瑰，内心独白翻涌：「在我面前，是一整个新世界。没认识黄亦玫之前，我竟不知道这个世界上有彩虹和蝴蝶。如果说爱情是在平静的水面上丢下一颗石子让人心起波澜，那她，就是深水炸弹。」同事小云姐热心地帮玫瑰翻译材料，玫瑰道谢，漂亮、大方、明亮。</p>
+<p>黄振华还专门敲打过周士辉：我妹打小身边就围着一群男孩，有送礼物的、写情书的，「你不一样啊周士辉，你有唐宫认家的未婚妻，咱们单位最坐怀不乱的就是你」。他一厢情愿地以为，把妹妹托付给最稳重的兄弟，就万无一失。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这是我妹妹黄亦玫，从今天开始来我们这儿实习。公事公办啊。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This is my sister Huang Yimei. From today she's interning with us. Keep it strictly professional."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「如果说爱情是在平静的水面上丢下一颗石子，让人心起波澜，那她就是深水炸弹。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If love is a pebble dropped into calm water that stirs the heart, then she is a depth charge."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我妹就由你来带了。她是学美术史的，不懂就多教教，脑子不笨。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My sister is in your charge. She studied art history. Teach her what she doesn't know—she's sharp."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">17:13–20:39</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s4.jpg" alt="约会·我喜欢你" loading="lazy">
+      <h2>约会·我喜欢你</h2>
+      <div class="scene-body">
+        <p>周士辉开始有意无意地接近玫瑰。下班路上他追出去：「原来我并不喜欢工作，原来我是一个闲散的人。原来走在雨里，是这么的有趣。」他请她喝咖啡、带她去有情调的小店吃饭，聊起她没看过的《英国病人》：「英国病人是我最喜欢的电影，特别好看，你想去看电影吗？」</p>
+<p>饭桌上，周士辉终于忍不住表白：「玫瑰，今天，我喜欢你。」玫瑰先是一愣，随即冷静地拒绝：「周老师，这个不行。而且今天这顿饭应该我请你的。我听说你要结婚了，恭喜你。」她起身离开，留下周士辉一个人愣在原地。</p>
+<p>哥哥劝周士辉回头：「选择越多陷阱越多。你知道考试最担心什么吗？不是选错了答案，而是临交卷之前，你把正确答案换成错的了。」可周士辉认死理：「我的真爱就是黄亦玫，如果错过她，将抱憾终生。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「玫瑰，今天，我喜欢你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Rose... today... I like you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「周老师，这个不行。而且今天这顿饭应该我请你的。我听说你要结婚了，恭喜你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Teacher Zhou, this won't do. And this meal should have been my treat. I heard you're getting married—congratulations."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你知道考试最担心什么吗？不是选错了答案，而是临交卷之前，你把正确答案换成错的了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Do you know what you fear most in an exam? Not choosing the wrong answer—but swapping the right answer for a wrong one just before you hand it in."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">22:17–25:34</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s5.jpg" alt="家里·送花与规训" loading="lazy">
+      <h2>家里·送花与规训</h2>
+      <div class="scene-body">
+        <p>有人追着玫瑰把一大束花送到家里。妈妈迎出去：「这花就是你送的？黄亦玫她花粉过敏，我们全家都花粉过敏，遗传。蛋糕也别送啊，她减肥。」三言两语把追求者打发走，爸爸回家看到这一幕，感慨女儿「长这么大了」。</p>
+<p>妈妈开始数落玫瑰：「你除了正经功课，样样都不落下。二十二了，要交朋友就正经交，你不能一天到晚往外跑，跟男生不清不楚的。你看这院里哪家闺女像你似的，家里电话一天到晚响个不停，大半夜楼底下点蜡烛唱歌的。」</p>
+<p>玫瑰不服气：「凭什么要求女孩自爱呀？怎么没人让男的自爱呀？成天跟苍蝇似的围着人转。」妈妈说不过她，退一步：「普通朋友得讲分寸。比如这熊，平白无故收人这么贵重的礼物，合适吗？给人还回去。」玫瑰灵机一动：「爸，你不觉得这熊长得像我哥吗？」一句话把全家逗笑，规训在笑闹中不了了之。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「黄亦玫她花粉过敏，我们全家都花粉过敏，遗传。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Yimei is allergic to pollen—all of us are, it runs in the family."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「凭什么要求女孩自爱呀？怎么没人让男的自爱呀？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Why should girls be told to guard their virtue? Why isn't anyone telling the boys to?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「爸，你不觉得这熊长得像我哥吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Dad, don't you think this teddy bear looks like my brother?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">26:04–28:27</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s6.jpg" alt="关芝芝的恨·楼下男生" loading="lazy">
+      <h2>关芝芝的恨·楼下男生</h2>
+      <div class="scene-body">
+        <p>被悔婚的关芝芝坐在家里，一字一句给小姨打电话：「我跟周士辉没领成证，他死了，被车撞死了，我刚从太平间出来。」她让姨夫把婚宴取消，反复叮嘱「他领证前死的」。气话说得轻巧，眼泪却不争气。</p>
+<p>楼下，追求玫瑰的小男生又来送花。玫瑰探出头：「怎么又是你啊？你们怎么这么讨厌啊，又送花，你有没有点新意的？」男生理直气壮：「上次那花没送成，这次就能送成了。」玫瑰让他拿走，两人一个在楼上、一个在楼下拉扯，一个锲而不舍，一个哭笑不得。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「周士辉死了，被车撞死了，我刚从太平间出来。放心吧，我会结哀的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Zhou Shihui is dead—hit by a car, right out of the morgue. Don't worry, I'll pull myself together."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「上次那花没送成，这次就能送成了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I couldn't deliver the flowers last time—this time I will."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">28:27–32:11</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s7.jpg" alt="哥哥上门·芝芝质问" loading="lazy">
+      <h2>哥哥上门·芝芝质问</h2>
+      <div class="scene-body">
+        <p>黄振华闯了祸——周士辉悔婚的锅，他全归到妹妹头上：「她糊涂，你不能助纣为虐啊。这两天你不准去单位上班，你不在她面前晃，我劝劝她没准还能回心转意。七年的感情，怎么就不能给一个改过自新的机会？」玫瑰气得跳脚：「我是去上班的，又不是去见她的。」</p>
+<p>关芝芝找上了黄家。她先是客客气气求黄振华：「她是你妹，所以你包庇她袒护她，我可以理解。但周士辉梦里喊的都是她的名字。」转头她盯住玫瑰：「你就是周士辉的实习生，对吧？是你勾引我的老公！我求求你了，你告诉我那个女的是谁。」</p>
+<p>玫瑰被问得一头雾水：「我什么都没做，我们就是吃吃饭喝喝咖啡。」关芝芝不听，越说越激动：「你们两个人单独吃饭喝咖啡，这不是约会是什么？周老师阿姨你们看到了吧，不是我无理取闹吧？我们都要领证了，她跑去跟他约会！」黄父黄母劝她坐下慢慢说，场面一度失控。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这两天你不准去单位上班。你不在她面前晃，我劝劝她没准还能回心转意。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"For the next couple of days you're not going to the office. Stay out of her sight so I can talk her into coming around."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「周士辉梦里喊的都是她的名字……是你勾引我的老公！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"He calls her name in his sleep... You're the one who stole my man!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们就是吃吃饭喝喝咖啡，普通朋友不能一起吃饭喝咖啡啊？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We just had a meal and a coffee. Can't ordinary friends grab a meal together?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">32:20–37:59</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s8.jpg" alt="赌气认罪·被关禁闭" loading="lazy">
+      <h2>赌气认罪·被关禁闭</h2>
+      <div class="scene-body">
+        <p>一家人坐下来，非要把这事问个清楚。玫瑰承认和周士辉吃过一次晚饭：「就吃了一次，他请我喝了杯咖啡，说是师傅请徒弟。」可家人越问越细，玫瑰被逼急了，索性赌气：「我就是勾引她了，我勾引她，您定罪呗，您怎么定我就怎么犯。」</p>
+<p>妈妈气得发抖：「从今天起，别说去单位了，你连这个大门都不许出去，老老实实给我在家待着。」爸爸还想打圆场，被妈妈一句「这事不能全怪女儿？你糊涂！」堵了回去。玫瑰被锁在房间里，拍着门喊「我还没上厕所呢」，妈妈回敬一句「你给我憋着」。</p>
+<p>隔着门，玫瑰的声音低了下来：「我说什么你们都不信，别人说什么你们都信。」一片热闹的争吵声里，她头一回尝到被最亲近的人误解的滋味——她什么都没做，却成了所有人眼里的罪人。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我就是勾引她了，我勾引她。您定罪呗，您怎么定我就怎么犯。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Fine, I seduced him, I did. Go ahead, pass your sentence—whatever you call it, I'll confess to it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「从今天起，别说去单位了，你连这个大门都不许出去。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"From today, forget the office—you're not even allowed out the front gate."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我说什么你们都不信，别人说什么你们都信。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You never believe a word I say, but you believe everything everyone else says."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">38:12–41:03</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s9.jpg" alt="威胁举报·单位议论" loading="lazy">
+      <h2>威胁举报·单位议论</h2>
+      <div class="scene-body">
+        <p>关芝芝转身又去了黄振华的单位。她堵住黄振华：「你妹叫黄亦玫，是吧？还在念书没毕业。你说，如果学校的领导和老师知道她在外面当小三、去勾引别人的未婚夫，学校会怎么处理她呢？」黄振华急了：「你这样会毁了她前程的！」关芝芝冷笑：「那你有没有想过，会毁了我？」</p>
+<p>单位里议论纷纷。李姐阴阳怪气：「那个小狐狸精，来第一天我就看出来了，那大眼睛喀叭喀叭的，冲着谁都能放电。你说人家周士辉都是有未婚妻的人了，也不知道离人家远点。」有人替玫瑰说话：「凭什么长得好看就要跟谁都报备了啊？」李姐不服：「要是长长谈那样，不管别人说什么……」</p>
+<p>同事替玫瑰抱不平的话传到黄振华耳朵里，他心里不是滋味——妹妹被人在背后指点，他这个当哥的却什么都做不了。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「如果学校的领导和老师知道她在外面当小三，去勾引别人的未婚夫，学校会怎么处理她呢？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If the school leadership and teachers found out she's playing homewrecker, seducing another woman's fiancé, how do you think they'd handle her?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你这样会毁了她前程的！」「那你有没有想过，会毁了我？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This will ruin her future!" "And have you ever thought about what it's doing to mine?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「那个小狐狸精，来第一天我就看出来了，那大眼睛冲着谁都能放电。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That little vixen—I could tell from day one. Those big eyes of hers could send sparks at anyone."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">41:15–44:26</span></div>
+      </div>
+      <img class="scene-frame" src="images/meigui-de-gushi-e01/s10.jpg" alt="撬锁逃跑·寻哥对峙" loading="lazy">
+      <h2>撬锁逃跑·寻哥对峙</h2>
+      <div class="scene-body">
+        <p>深夜，妈妈心软打开锁，喊玫瑰出来吃饭，却发现她已经撬开后门的锁跑了。玫瑰一路跑到单位，同事说哥哥「忙呢，来了一个客户，跟开会呢」。她扯着嗓子喊：「哥，你知不知道你说谎的时候，你眼珠老往右跑！」</p>
+<p>哥哥躲在办公室不肯见她。同事劝玫瑰：「你真不能上去，你上去就……」，玫瑰偏不：「我偏要上去。」兄妹隔着门拉扯，黄振华终于绷不住——他被妹妹的执拗和委屈击中，却又不知如何是好。</p>
+<p>一场闹剧在深夜的走廊里落幕。玫瑰终究没有等到哥哥的解释，只留下一句：「周士辉的问题，盖上是我的问题，是你没弄明白。」画外音响起片尾曲《远方的花》：「愿我这一生，成与我自己扮摇，爱过谁都是最好的……我只要往前走，在一方开手，路可以奔跑，也可以跳舞啊。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我哥呢？」「忙呢，来了一个客户，跟开会呢。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Where's my brother?" "Busy. A client came by—he's in a meeting."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「哥，你知不知道你说谎的时候，你眼珠老往右跑！」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Brother, don't you know your eyes dart to the right every time you lie!"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「愿我这一生，成与我自己扮摇，爱过谁都是最好的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"May this life of mine be shaped by my own hand—whoever I've loved was the best for me."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/meigui-de-gushi-e01/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>黄亦玫（玫瑰）</h3><span>女主角 · 书香门第的漂亮少女（刘亦菲 饰）</span></div>
+          <p>央美美术史专业学生，到哥哥单位实习。漂亮大方、敢说敢做，被周士辉一见钟情，却也因此被误认为是「勾引别人未婚夫」的小三。本集她从头到尾都在拒绝、澄清、挣扎，最后撬锁逃出家门找哥哥讨说法。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>黄振华</h3><span>黄亦玫的哥哥 · 建筑设计院员工（佟大为 饰）</span></div>
+          <p>把妹妹招进自己单位，亲手托付给「最稳重」的周士辉，结果引狼入室。悔婚风波后他一边怪妹妹「不清不楚」，一边替她挡关芝芝的刀，最后躲在办公室不敢面对妹妹的质问。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>周士辉</h3><span>黄振华的同事 · 带教玫瑰的师傅（吴彼 饰）</span></div>
+          <p>本集导火索。与关芝芝相恋七年，领证当天悔婚，只因对实习生玫瑰一见钟情。表白被拒仍不回头，认定玫瑰是他的「真爱」。剧集的混乱，一半源于他的执念。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>关芝芝</h3><span>周士辉的未婚妻（蓝盈莹 饰）</span></div>
+          <p>与周士辉相恋七年，结婚当天被悔婚。她先是崩溃大哭，再是上门质问玫瑰，最后扬言去玫瑰学校举报。被辜负的人，愤怒里也藏着一丝清醒。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>黄母 · 吴月江</h3><span>玫瑰的母亲 · 清华教授（吴玉芳 饰）</span></div>
+          <p>传统的书香门第母亲，嘴上念着「女孩子要自爱」，实际是担心女儿吃亏。风波一起，她把玫瑰关进房间禁足，是家里最严厉也最疼玫瑰的人。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>黄父 · 黄剑知</h3><span>玫瑰的父亲 · 清华教授（侯长荣 饰）</span></div>
+          <p>温和开明，心疼女儿。他劝妻子「不能全怪女儿」，被妻子一句「你糊涂」堵了回去。面对关芝芝的质问，他一家人「一致对外」，事后又悄悄心疼女儿。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>小云姐</h3><span>建筑设计院同事（韩鹦 饰）</span></div>
+          <p>玫瑰报到第一天的同事，热心帮她翻译材料，还替她跟李姐争辩「长得好看不是错」。是办公室里为数不多向着玫瑰的人。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>民政局门口悔婚</h3>
+          <p>周士辉当着相恋七年的未婚妻关芝芝的面说出「今天这婚我真的没法给你结」，一句「我的终点不是你」让七年的感情当场碎裂。开场即冲突，全剧风暴的起点。</p>
+        </article>
+
+        <article>
+          <h3>哥哥暴打师傅</h3>
+          <p>黄振华发现周士辉爱上的是自己妹妹，当场动手：「你敢惦记我妹？」兄妹情深与兄弟反目在这一刻撞了个满怀。</p>
+        </article>
+
+        <article>
+          <h3>深水炸弹式独白</h3>
+          <p>「如果说爱情是在平静的水面上丢下一颗石子让人心起波澜，那她就是深水炸弹。」周士辉的内心独白，把一见钟情的眩晕写得淋漓尽致。</p>
+        </article>
+
+        <article>
+          <h3>「恭喜你」的拒绝</h3>
+          <p>周士辉在咖啡馆表白，玫瑰一句「周老师，这个不行。我听说你要结婚了，恭喜你」，清醒体面地划清了界限。</p>
+        </article>
+
+        <article>
+          <h3>「你就是勾引我老公的人」</h3>
+          <p>关芝芝上门，认出玫瑰就是周士辉梦里喊名字的人，当着黄家父母的面哭诉质问，一场家庭风暴一触即发。</p>
+        </article>
+
+        <article>
+          <h3>「愿我这一生，成与我自己」</h3>
+          <p>片尾曲《远方的花》唱出玫瑰的宣言：「愿我这一生，成与我自己，爱过谁都是最好的。」为这个明媚女孩的一生定调。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>玫瑰的「勾引」污名</h3>
+          <p>关芝芝威胁「如果学校知道她在外面当小三」，单位和街坊也在议论玫瑰是「小狐狸精」。这道污名会不会真正落地、又会在未来怎样反击，才刚刚埋下种子。</p>
+        </article>
+
+        <article>
+          <h3>周士辉的执念</h3>
+          <p>被拒之后的周士辉依然认定「我的真爱就是黄亦玫，错过她将抱憾终生」。这份执念，不会随着第 1 集落幕而消散。</p>
+        </article>
+
+        <article>
+          <h3>哥哥的愧疚</h3>
+          <p>黄振华把妹妹托付给「最稳重的兄弟」却害她背锅，一句「是周士辉的问题还是你的问题」点出他的自责。这份愧疚会如何影响兄妹关系，值得关注。</p>
+        </article>
+
+        <article>
+          <h3>母亲的规训</h3>
+          <p>「女孩子要自爱」的规训与玫瑰「凭什么只要求女孩自爱」的质问，已经为母女间的观念冲突拉开序幕。</p>
+        </article>
+
+        <article>
+          <h3>那个总来送花的人</h3>
+          <p>被爸爸用「花粉过敏」劝退的追求者、楼下锲而不舍的小男生——玫瑰身边从不缺追求者，而这些人里，会不会藏着真正与她并肩的人？</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 1 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

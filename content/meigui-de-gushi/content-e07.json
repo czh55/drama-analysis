@@ -1,0 +1,508 @@
+{
+  "slug": "meigui-de-gushi-e07",
+  "drama": "玫瑰的故事",
+  "episode": "7",
+  "title": "假戏真做",
+  "subtitle": "黄振华第一次登白家门，一句「要么大师手笔，要么小孩涂鸦」让白叔乐开了花，还顺势把他请进了自家的广西之旅；庄国栋被哥哥逮个正着，一场篮球打出交情，又把家里的钥匙交到玫瑰手里。可白晓荷一句「你是不是还喜欢我」，把黄振华刚燃起的希望连根拔掉。职场这边，Tina 逼她用恋爱换资源，被玫瑰一句「我只知道我喜欢的人恰好也喜欢我」顶了回去。",
+  "meta": [
+    "2001 · 都市情感",
+    "刘亦菲 / 佟大为 / 林更新 / 万茜",
+    "47 分钟",
+    "12 个场景",
+    "共 38 集"
+  ],
+  "overviewLead": "哥哥第一次登门白家就被看中，白叔当场定下广西之约；庄国栋把钥匙交到玫瑰手里，又跟哥哥打出一场篮球的交情；白晓荷一句「你是不是还喜欢我」，把黄振华的希望连根拔掉；Tina 要用她的恋爱换资源，却被一句「最好的回报」顶了回去——这一集，爱情的甜与涩同时摆上台面。",
+  "overview": "第7集，黄振华与白晓荷的「假情侣」戏码，演到了见家长这一步。\n\n黄振华第一次登白晓荷家门，白家父母一个比一个热情。白叔捧出刚拍下的吴冠中，又翻出女儿四岁时的涂鸦当宝贝——黄振华一句「要么出自大师之手，要么就是小孩画的」，让满堂人都乐了。临走，白叔拉着他的手：「小黄，以后常来玩。」白晓荷却在门外把话挑明：咱们只是演戏，下次你就不用再陪了。",
+  "overview2": "另一边，庄国栋送玫瑰回家，被哥哥黄振华逮个正着。没车、刚回国的海归，在哥哥眼里全是硬伤；可一场篮球打下来，两人倒打出了交情——校队后卫与前锋互相抬杠，从新墨西哥的拉瑞多教堂，聊到中国宫殿的榫卯结构。\n\n庄国栋把家里的钥匙塞给玫瑰：「从现在开始，你就是这个房间的女主人了。」转头玫瑰就在饭桌上宣布：「我有男朋友了。」",
+  "overview3": "白叔亲自到黄振华的单位「考察」，陪他吃八块钱的盒饭，听他说「宁愿在这个位置干到退休」，竟越听越喜欢，当场定下广西之约：「你去的话，小荷就不能拒绝。」\n\n黄振华兴冲冲收拾行囊，望远镜、对讲机、急救包备了一地，白晓荷却找上门来：「你别去了。」她坦承自己也放不下，更看得出他还喜欢自己——「要是我假装什么都不知道，继续让你陪我演戏，那不就是在利用你了吗？」一句「你是不是还喜欢我」，把黄振华刚燃起的希望，连根拔了。",
+  "overview4": "职场这边同样不平静。Tina 点名要玫瑰利用与 Eric 的恋爱关系，请唐先生给名家展捧场，被玫瑰当场拒绝：「我不想利用恋爱关系，让Eric做职责范围之外的事情。」\n\nTina 警告她「牌再好，打不好也会砸在手里」，玫瑰回敬：「牌再好，也不是在职场上作弊用的。」苏苏在一边看着，想起自己为工作放弃过的种种，只叹了一句：还是太年轻了。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "03:49–07:07",
+      "title": "黄振华初登白家门",
+      "body": [
+        "黄振华第一次登门白家，特意备了酒和礼物。白家父母一个比一个热情，白叔端出西瓜泡上茶，还把自己的家底一件件往外搬——刚拍下的吴冠中、满墙的画作，摆明了要看看这位「准女婿」懂不懂行。",
+        "黄振华一眼认出画展上看过的吴冠中，白叔眉开眼笑：「听说你是搞建筑设计的，果然懂行。」跟着话锋一转，说女儿「就是个书呆子」，黄振华却接一句「她这是书卷气」。最妙的是白叔捧出一幅画，黄振华脱口而出「要么是出自大师之手，要么就是小孩画的」——那正是小荷四岁时的涂鸦，被这位骄傲的老父亲当宝贝一样挂在墙上，也不怕人笑话。",
+        "一顿茶、一屋子画，白叔对这个年轻人越看越顺眼，临了拉着他的手：「小黄，以后常来玩。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「听说你是搞建筑设计的，果然懂行。」",
+          "en": "\"I hear you work in architectural design—you clearly know your stuff.\""
+        },
+        {
+          "zh": "「跟你比起来呀，我们小荷就是个书呆子。」「她这是书卷气。」",
+          "en": "\"Compared to you, our Xiaohe is just a bookworm.\" \"That's what you call scholarly grace.\""
+        },
+        {
+          "zh": "「这幅画，要么是出自大师之手，要么就是小孩画的。」「你说对了，这是我们家小荷四岁画的画。」",
+          "en": "\"This painting is either the work of a master—or of a child.\" \"Exactly right. It's Xiaohe's drawing from when she was four.\""
+        },
+        {
+          "zh": "「小黄，以后常来玩。」",
+          "en": "\"Little Huang, come around more often.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "07:07–08:12",
+      "title": "「专业演出服务」",
+      "body": [
+        "出了门，白晓荷把话挑明：今天你陪我演了这么久的戏，已经很麻烦你了；以后我爸妈再找你，就说你在忙、在出差。黄振华倒是不往心里去：「咱们提供的是专业演出服务，弹性灵活、服务到位、价格优惠，比剧场门口的群演还便宜。」",
+        "白晓荷被他逗得没了脾气，又惦记着他自己掏钱买了礼物，把钱塞过去：「群演买道具，也需要花钱吗？」两个人站在路边，一个要还钱，一个不肯收，把这笔「假情侣」的账算得又好笑又心酸。"
+      ],
+      "quotes": [
+        {
+          "zh": "「其实今天你陪我演了这么久的戏，已经很麻烦你了。」",
+          "en": "\"You've already played this part for me for so long today—I'm sorry to put you through it.\""
+        },
+        {
+          "zh": "「要是我爸妈后面再找你的话，你就说你在忙，或者是出差就行。」",
+          "en": "\"If my parents come looking for you again, just tell them you're busy, or away on a business trip.\""
+        },
+        {
+          "zh": "「咱们提供的是专业演出服务，弹性灵活，服务到位，价格优惠，比剧场门口的群演还便宜。」",
+          "en": "\"We offer professional acting services—flexible, attentive, affordable, and cheaper than the extras waiting outside the theater.\""
+        },
+        {
+          "zh": "「群演买道具，也需要花钱吗？」",
+          "en": "\"Even extras have to pay for their own props?\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "08:28–11:28",
+      "title": "电话猜谜·哥哥逮个正着",
+      "body": [
+        "玫瑰窝在沙发里，和庄国栋煲着电话粥。两个人玩起猜谜游戏，你问我答、答完又笑，明明是没营养的废话，被他们说成了情话。末了，庄国栋压低声音：「那你猜，接下来我想干什么？」甜得玫瑰眉眼都弯了。",
+        "挂断电话，哥哥黄振华不知道从哪儿冒了出来，一通连珠炮：「这这这……庄国栋？上周还说失恋了，手机都砸了。合着光换手机，人没换心呢！」玫瑰嘴硬「你管我」，哥哥却较了真：「那也不行，我得去认门。万一你失踪了，我得知道上哪儿去找你。」说完拽上玫瑰，非要当面见见这个男人。"
+      ],
+      "quotes": [
+        {
+          "zh": "「那你猜，接下来我想干什么？」",
+          "en": "\"Then guess what I'm going to do next.\""
+        },
+        {
+          "zh": "「上周还说失恋了，手机都砸了。合着光换手机，人没换心呢。」",
+          "en": "\"Last week you swore you were heartbroken and smashed your phone. Turns out you only changed the phone—not your heart.\""
+        },
+        {
+          "zh": "「那也不行，我得去认门。万一你失踪了，我得知道上哪儿去找你。」",
+          "en": "\"Not a chance. I have to see his place for myself. If you ever go missing, I need to know where to look for you.\""
+        },
+        {
+          "zh": "「大哥，Eric……」「他叫什么名？」「庄国栋。」",
+          "en": "\"Bro, it's Eric...\" \"What's his full name?\" \"Zhuang Guodong.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "11:34–18:58",
+      "title": "车里盘问·球场单挑",
+      "body": [
+        "黄振华开车，玫瑰和庄国栋都挤在后座。哥哥一边开车一边开腔：「你也不比我小几岁，怎么连车都没有啊？驾照呢？不会也没有吧？」庄国栋老实回答：「驾照有。我是去年刚从国外回来，买车的事还没考虑。」「乖乖呀——」一个词，拖出满车的调侃。",
+        "车停球场，两个男人单挑起来。黄振华自称「当年校队我打主力的」，庄国栋一句「我也打过校队」，两人就「后卫」「前锋」的位置吵开了。黄振华搬出马格西·博格斯、厄尔·博伊金斯、斯伯特·韦伯的身高传奇，嘴硬「我一米八，怎么就不能打前锋了」；无奈穿着皮鞋没有弹跳力，只能把「鞋不行」挂在嘴上。",
+        "一球打下来，两个人越聊越投机，约好下次打球，还约着去球鞋店挑复刻款。黄振华一听「款多号全还能打折」，恨不得现在就走。玫瑰被晾在一边，气鼓鼓地吼：「你忘了还有个大活人啊！」黄振华连连认错：「我错了，我错了。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「你也不比我小几岁，怎么连车都没有啊？驾照呢？不会也没有吧？」「驾照有。我是去年刚从国外回来，买车的事还没考虑。」",
+          "en": "\"You're not much younger than me—how do you not even have a car? Your license? Don't tell me you don't have one either.\" \"I do have a license. I only came back from abroad last year, and buying a car hasn't crossed my mind.\""
+        },
+        {
+          "zh": "「当年校队我打主力的我！」「我也打过校队。」「打什么位置？」「后卫。」「你呢？」「前锋。」",
+          "en": "\"I was a starter on the varsity team!\" \"So was I.\" \"What position?\" \"Guard.\" \"You?\" \"Forward.\""
+        },
+        {
+          "zh": "「马格西·博格斯一米六、厄尔·博伊金斯一米六五，照样打NBA；斯伯特·韦伯一米六九，还是八六年NBA扣篮大赛的冠军。我一米八，怎么就不能打前锋了？」",
+          "en": "\"Muggsy Bogues is five-three, Earl Boykins five-five, and both play in the NBA; Spud Webb is five-seven and won the '86 dunk contest. I'm six feet—why can't I be a forward?\""
+        },
+        {
+          "zh": "「你忘了还有个大活人啊！」",
+          "en": "\"You forgot there's a real, live person standing right here!\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "19:12–21:24",
+      "title": "从拉瑞多教堂到榫卯",
+      "body": [
+        "趁玫瑰去买东西，黄振华和庄国栋聊起了行当。庄国栋说自己看过新墨西哥州拉瑞多教堂的悬空楼梯，凭空螺旋向上，据说现在都没弄明白是怎么建成的；黄振华却从专业角度拆解：那是空间应力比较复杂，好比弹簧，总有一个拉力和压力保持平衡的状态——先立支撑，建好再撤，没有传得那么神。",
+        "话锋一转，黄振华讲起中国宫殿的榫卯结构：「那么多宏伟的宫殿，用的就是榫卯，就跟搭积木似的，一层一层搭起来。」他撂下话要送庄国栋两本书，让他「多宣传宣传咱们自己的建筑实力」。庄国栋顺水推舟，请他有空来戈蓝指导那个「用像素积木搭建城市」的策展——黄振华一口应下：「难道不就跟拼乐高似的吗？小意思。」",
+        "两人约好下次打球，玫瑰在一旁看得直发笑：「你俩还打算约会啊？」"
+      ],
+      "quotes": [
+        {
+          "zh": "「我之前去过新墨西哥州的拉瑞多教堂，那个悬空楼梯就凭空螺旋向上转，据说现在都没弄明白是怎么建成的。」",
+          "en": "\"I once visited the Loretto Chapel in New Mexico—that unsupported staircase spirals upward out of nowhere. They say even today nobody understands how it was built.\""
+        },
+        {
+          "zh": "「那个是空间应力比较复杂，就好比弹簧，总有一个状态，是拉力和压力能保持相对平衡的。」",
+          "en": "\"It's a matter of complex spatial stress—like a spring, there's always a state where tension and compression hold each other in balance.\""
+        },
+        {
+          "zh": "「要说建筑奇迹，还得说咱们中国。那么多宏伟的宫殿，用的就是榫卯结构，就跟搭积木似的，一层一层就搭起来了。」",
+          "en": "\"If we're talking architectural wonders, look to China. Those grand palaces rely on mortise-and-tenon joinery—like stacking blocks, layer by layer.\""
+        },
+        {
+          "zh": "「正好我们最近有个策展创意，是用像素积木搭建城市。大哥你有空的话，过来给我们指导指导。」「难道不就跟拼乐高似的吗？小意思。」",
+          "en": "\"We've got a curation concept coming up—building a city out of pixel blocks. If you have time, come give us some pointers.\" \"Isn't that just building with LEGO? Easy.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "21:46–27:03",
+      "title": "白叔的盒饭与广西之约",
+      "body": [
+        "白晓荷的爸爸白叔突然造访黄振华的单位。黄振华手忙脚乱地张罗，白叔摆摆手——不占会议室，就去办公室坐坐，顺便尝尝工作餐。八块钱一份的盒饭，白叔吃得津津有味，连「上个月还是两荤一素，这个月就变成一荤两素，估计是肉涨价了」都门儿清。",
+        "饭桌上，白叔循循善诱：你现在还有时间亲自做设计，说明你的位置还不够高，还有发展的空间。黄振华却道：我宁愿带着不到十个人的团队做设计、跑工地，也不想去开会应酬——「如果真给我一个更高的位置，那我就宁愿在这个位置上一直干到退休。是不是听起来有点不求上进？」",
+        "白叔没有半分失望，反倒点头：「人各有志。要是能做到自己喜欢且擅长的工作，那才是最幸福的——我之所以成功，也是因为我做了自己喜欢且擅长的事。」随即抛出真正的来意：老两口打算去广西度假，可小荷死活不肯请假，「我想请你一起去——你去的话，小荷就不能拒绝」。黄振华愣了几秒，答应下来：「我……我去。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「你现在还有时间亲自做设计，说明你的位置还不够高，还有发展的空间。」",
+          "en": "\"If you still find time to design with your own hands, it only means your position isn't high enough yet—there's still room to grow.\""
+        },
+        {
+          "zh": "「如果真给我一个更高的位置，那就意味着我得把精力放在开会、应酬上。那我宁愿在这个位置上，一直干到退休。」",
+          "en": "\"If I were handed a higher position, I'd have to pour my energy into meetings and entertaining. I'd rather stay right where I am until retirement.\""
+        },
+        {
+          "zh": "「要是能做到自己喜欢且擅长的工作，那才是最幸福的。」",
+          "en": "\"Doing work you love and excel at—that's the greatest happiness.\""
+        },
+        {
+          "zh": "「我跟你阿姨打算去广西度个假，可小荷不愿请假。我想请你一起去，你去的话，小荷就不能拒绝。」「我……我去。」",
+          "en": "\"Your aunt and I plan to vacation in Guangxi, but Xiaohe refuses to take leave. I'd like you to come along—if you do, she won't be able to refuse.\" \"I... I'll go.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "27:08–29:00",
+      "title": "一把钥匙",
+      "body": [
+        "下了班，玫瑰一出公司门就看见庄国栋，又惊又喜：「Eric，你怎么来了？」男人笑得坦然，专程来陪她下班。两人一路腻到他的住处。",
+        "庄国栋站在门口，把一把钥匙交到她手里：「以后你自己开门。」见玫瑰怔住，他又补了一句：「从现在开始，你就是这个房间的女主人了。」玫瑰捏着钥匙，嘴上说着「你不怕我趁你不在把家搬空」，心里却甜得发烫。"
+      ],
+      "quotes": [
+        {
+          "zh": "「Eric，你怎么来了？」",
+          "en": "\"Eric, what are you doing here?\""
+        },
+        {
+          "zh": "「我又没钥匙。」「谁说的？请。」",
+          "en": "\"I don't have a key.\" \"Who says? After you.\""
+        },
+        {
+          "zh": "「以后你自己开门。从现在开始，你就是这个房间的女主人了。」",
+          "en": "\"Open the door yourself from now on. Starting today, you're the mistress of this place.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "29:11–30:16",
+      "title": "登山包与「富家小姐」",
+      "body": [
+        "黄振华回家收拾行囊，母亲吴月江看不下去：「都要跟人家全家跑了，我们还没见过白晓荷这个人呢！」黄振华纠正：「瞧您这话说的，我是去跟人旅游，不是入赘。」母亲不依不饶：「我们也想见一见，能看上你的富家小姐长什么样。」",
+        "黄振华一脸冤枉：「这人不是您给我介绍的吗？我哪知道他们家这么有钱啊？梁教授也没跟我提这个呀。」黄母一句「一入侯门深似海呀」，把儿子噎得直跳脚。黄振华撂下狠话：「你们这么说，我还非把人娶回来不可！」"
+      ],
+      "quotes": [
+        {
+          "zh": "「都要跟人家全家跑了，我们还没见过白晓荷这个人呢！」",
+          "en": "\"You're about to run off with her entire family, and we haven't even laid eyes on this Bai Xiaohe!\""
+        },
+        {
+          "zh": "「瞧您这话说的，我是去跟人旅游，不是入赘。」",
+          "en": "\"Now, now—I'm going on a trip with them, not marrying into their clan.\""
+        },
+        {
+          "zh": "「我们也想见一见，能看上你的富家小姐长什么样。」「这人不是您给我介绍的吗？我哪知道他们家这么有钱啊？」",
+          "en": "\"We'd like to see what this rich young lady who fancied you looks like.\" \"You're the one who set me up with her! How was I supposed to know her family was loaded?\""
+        },
+        {
+          "zh": "「一入侯门深似海呀。」「你们这么说，我还非把人娶回来不可。」",
+          "en": "\"Once you enter a noble house, it's as deep as the sea.\" \"Keep talking like that and I'll make marrying her my life's mission.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "31:53–33:56",
+      "title": "白晓荷上门",
+      "body": [
+        "白晓荷找上门，一开口就道歉：「对不起啊，我才知道我爸他去找过你。」黄振华满不在乎：「没事，你爸说想让我陪你们一块去广西玩两天。」白晓荷劝他不用理，随便找个加班的理由推掉，黄振华却说得认真：「刚好我也想放松放松，广西我还没去过，我还挺期待的。」",
+        "送走白晓荷，黄振华整个人泡进期待里——对讲机、望远镜、急救包备了一地，恨不得把半个家搬去广西：「谁走丢了，可以随时汇报位置；你跟叔叔阿姨谁走累了，随时可以坐，走哪儿休息到哪儿。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「对不起啊，我才知道我爸他去找过你。」",
+          "en": "\"I'm sorry—I only just found out my dad went to see you.\""
+        },
+        {
+          "zh": "「你就说你要加班，或者是要出差，随便找个什么理由，把他推掉就行。」",
+          "en": "\"Just say you're working late, or away on business—make up any excuse to turn him down.\""
+        },
+        {
+          "zh": "「不用不用，刚好我也想放松放松。广西我还没去过，我还挺期待的。」",
+          "en": "\"No need, really—I could use a break. I've never been to Guangxi, and I'm actually looking forward to it.\""
+        },
+        {
+          "zh": "「我准备了望远镜、对讲机、急救包。谁走丢了，可以随时汇报位置；你跟叔叔阿姨谁走累了，随时可以坐，走哪儿休息到哪儿。」",
+          "en": "\"I've packed binoculars, walkie-talkies, and a first-aid kit. Anyone who gets lost can report their location; and if you, Uncle, or Aunt get tired, there's always somewhere to sit—rest wherever you stop.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "33:56–36:11",
+      "title": "「你是不是还喜欢我」",
+      "body": [
+        "黄振华忙前忙后，烧水、泡茶、张罗饭菜，白晓荷却拦住了他：「你别去了。」沉默片刻，她问出那句藏在心里的话：「你是不是还喜欢我？」黄振华愣在原地。",
+        "白晓荷把话说开：她以为把话说清楚，两人还能做朋友、在父母面前打打掩护；可她分明感觉到，他还喜欢自己。「我要是假装什么都不知道，还继续让你陪我演戏的话，那不就是在利用你了吗？」她说爸妈是真的喜欢他，不然爸爸不会跑去单位「考察」；如果这趟广西去了，爸妈更喜欢他，最后却只是一场空欢喜，「这对他们也不公平」。",
+        "两个人在门口站了很久。一句「对不起，是我想得不周到」，把这段还没开始的感情，轻轻放了下来。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你是不是还喜欢我？」",
+          "en": "\"Do you... still like me?\""
+        },
+        {
+          "zh": "「我要是假装什么都不知道，还继续让你陪我演戏的话，那不就是在利用你了吗？」",
+          "en": "\"If I pretended not to notice and kept letting you play this part for me, wouldn't I just be using you?\""
+        },
+        {
+          "zh": "「我爸妈也是真的很喜欢你，不然我爸也不会到单位上去考察你。如果这次你去了，相处下来我爸更喜欢你，然后再发现，这只是场空欢喜。」",
+          "en": "\"My parents genuinely like you too—otherwise Dad would never have gone to your office to check you out. If you come, and Dad ends up liking you even more, only to find it was all a false alarm...\""
+        },
+        {
+          "zh": "「对不起，是我想得不周到。」",
+          "en": "\"I'm sorry—I didn't think this through.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "37:14–41:52",
+      "title": "「他既是男朋友，也是资源」",
+      "body": [
+        "早上，苏苏交代完场地的合同，顺口定下规矩：「公事和私事，以公司大门为界。」话音刚落，Tina 就把玫瑰叫进办公室——过两天唐先生要来北京参加风采国际的拍卖，正好赶上青莛的名家展，她要玫瑰让 Eric 出面，请唐先生分一点档期给青莛。",
+        "玫瑰一口回绝：「我不想利用恋爱关系，让Eric做职责范围之外的事情。」又说 Eric 不过是唐先生留学时的助理，在大藏家面前根本没有话语权，更何况风采还是对头公司。Tina 的脸色沉下来：「他既是你的男朋友，也是你的资源。这么聪明的姑娘，怎么一谈恋爱就变傻了呢？」",
+        "Tina 讲起自己的恋爱经：恋爱她谈多了，大多数男人带来的都是麻烦，「所以趁这个Eric还有点用，把他抓住」。玫瑰不肯退让：工作是工作，感情是感情，请老板别让她利用感情去完成工作。Tina 冷笑：「这点事他都不能为你做到，算什么爱你？你谈的这个恋爱，有什么价值？」",
+        "「我为什么要得到回报呢？」玫瑰抬起头，「感情和工作，本来用的就不是一个筹码；任何人之间的交往，也不是等价交换。我只知道，我喜欢的人恰好也喜欢我——这对我来讲，就是最好的回报了。」这番话把 Tina 说得怔住。下班后苏苏宽慰她，聊起各自为工作放弃过什么，玫瑰还是那句话：我选爱情。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我不想利用恋爱关系，让Eric做职责范围之外的事情。」",
+          "en": "\"I don't want to use our relationship to make Eric do things outside his job.\""
+        },
+        {
+          "zh": "「他既是你的男朋友，也是你的资源。这么聪明的姑娘，怎么一谈恋爱就变傻了呢？」",
+          "en": "\"He's your boyfriend, but he's also your resource. A girl this clever—why does she go soft the moment she falls in love?\""
+        },
+        {
+          "zh": "「感情和工作，本来用的就不是一个筹码；任何人之间的交往，也不是等价交换。我只知道我喜欢的人恰好也喜欢我，这对我来讲，就是最好的回报了。」",
+          "en": "\"Love and work don't run on the same currency, and no relationship is an even trade. All I know is that the person I love happens to love me back—for me, that's the best return there is.\""
+        },
+        {
+          "zh": "「是你告诉Tina我跟Eric在谈恋爱的？」「你俩的事，自己都恨不得昭告天下了，还用我告诉他？」",
+          "en": "\"Did you tell Tina about me and Eric?\" \"The two of you can hardly wait to shout it from the rooftops—why would I need to tell her?\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "41:53–44:19",
+      "title": "失恋的哥哥与「我有男朋友了」",
+      "body": [
+        "广西之约黄了，黄振华垂头丧气地跟玫瑰回家，千叮咛万嘱咐「别跟爸妈说漏了」，转头又自我开解：「我没事，我又不是第一次谈恋爱。」玫瑰一针见血：「哥，你是第一次失恋。」",
+        "黄振华还要嘴硬，说自己以前也被人甩过；玫瑰补了一句，说他以前都轻描淡写，「只有跟白晓荷，是心意」。失恋的人最能被这句话击中，他沉默下来，把那点没着落的喜欢咽了回去。",
+        "家里的一顿饭吃到一半，玫瑰忽然正色：「我有件事要宣布——我有男朋友了。」一句话，把哥哥失恋的低气压，轻轻扫开了半边。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这没戏了，这回是一点念想都没有了，希望的小种子，被连根拔了。」",
+          "en": "\"It's over. Not a shred of hope left—the little seed of hope has been torn out, roots and all.\""
+        },
+        {
+          "zh": "「哥，你是第一次失恋。」「谁说的？我之前也被人甩过啊。」",
+          "en": "\"Bro, this is your first heartbreak.\" \"Who says? I've been dumped before.\""
+        },
+        {
+          "zh": "「你之前都轻描淡写的，就只有这一次。有没有可能，你之前遇到的那些，就是合适、匹配；只有跟白晓荷，是心意。」",
+          "en": "\"You always took the others lightly—only this time it's different. What if everyone before was just a good match, and only with Bai Xiaohe is it your heart speaking?\""
+        },
+        {
+          "zh": "「我有件事要宣布——我有男朋友了。」",
+          "en": "\"I have an announcement to make—I have a boyfriend now.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1–S2 · 见家长",
+      "title": "假戏演久了，最怕真动心",
+      "situation": "黄振华陪白晓荷在父母面前演「准女婿」，白家上下全当了真，他自己也把这场戏越演越上心。",
+      "advice": [
+        "假扮的关系投入久了，对方会当真，自己也会当真。",
+        "把感情当演出，就要承受「入戏」与「收场」之间的反复拉扯。",
+        "真想认真的人，不会用「演戏」来试探彼此。"
+      ]
+    },
+    {
+      "tag": "源自 S4–S5 · 球场",
+      "title": "投不投缘，打一场球就知道",
+      "situation": "黄振华本来看庄国栋处处不顺眼，一场篮球、一通建筑经，两人倒约好了下次打球。",
+      "advice": [
+        "对一个人的成见，往往在一次真诚的相处里被推翻。",
+        "投缘不靠客套，靠的是愿意一起玩、一起聊。",
+        "家人接纳你的爱人，有时就从一句「他球打得不错」开始。"
+      ]
+    },
+    {
+      "tag": "源自 S6 · 盒饭",
+      "title": "喜欢且擅长，就是最好的位置",
+      "situation": "白叔用「位置还不够高」敲打黄振华，黄振华却说宁愿做设计做到退休，白叔竟点头称是。",
+      "advice": [
+        "职场的成功不是只有晋升，做自己喜欢且擅长的事，本身就是回报。",
+        "不必用别人的标尺，丈量自己的位置。",
+        "真正有底气的人，敢在被劝说时坚持「不求上进」。"
+      ]
+    },
+    {
+      "tag": "源自 S10 · 白晓荷",
+      "title": "看清了心意，就别假装看不见",
+      "situation": "白晓荷察觉到黄振华还喜欢自己，宁可取消广西之约、把话说透，也不愿继续利用他。",
+      "advice": [
+        "明明感觉到了对方的心意却装看不见，才是最大的不公平。",
+        "拒绝要趁早、要直接，拖得越久越伤人。",
+        "坦然的告别，好过一场注定穿帮的演出。"
+      ]
+    },
+    {
+      "tag": "源自 S11 · Tina",
+      "title": "别拿感情换资源",
+      "situation": "Tina 要求玫瑰利用与 Eric 的恋爱关系去请唐先生捧场，被玫瑰以「最好的回报」顶了回去。",
+      "advice": [
+        "把恋人当资源，消耗的是两个人之间最珍贵的东西。",
+        "不想做的事，第一次就要拒绝，别让底线一点点让出去。",
+        "感情不是筹码，任何关系都不是等价交换。"
+      ]
+    },
+    {
+      "tag": "源自 S12 · 兄妹",
+      "title": "合适是匹配，喜欢才是心意",
+      "situation": "黄振华为白晓荷唉声叹气，玫瑰点破：以前的都是合适，只有她是心意。",
+      "advice": [
+        "合适与心动是两回事，别把前者误当成后者。",
+        "失去一段认真的感情会疼，恰恰说明它值得。",
+        "失恋的疼里，藏着下一次更珍惜的底气。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "黄亦玫（玫瑰）",
+      "role": "女主角 · 青莛公司职员（刘亦菲 饰）",
+      "desc": "本集她顶着 Tina 的压力拒绝用感情换资源，一句「我只知道我喜欢的人恰好也喜欢我」尽显锋芒；又在饭桌上正式向家里宣布「我有男朋友了」，把哥哥失恋的低气压轻轻扫开半边。"
+    },
+    {
+      "name": "黄振华",
+      "role": "黄亦玫的哥哥 · 建筑设计师（佟大为 饰）",
+      "desc": "第一次登白家门就被白家父母看中，与庄国栋一场篮球打出交情；满心期待准备广西之行，却被白晓荷一句「你是不是还喜欢我」浇灭——原来他比她以为的，认真得多。"
+    },
+    {
+      "name": "庄国栋（Eric）",
+      "role": "男主角 · 戈蓝公司设计师（彭冠英 饰）",
+      "desc": "送玫瑰回家被哥哥逮个正着，一场篮球加一通建筑经收服了大舅哥；把家里的钥匙交到玫瑰手里：「从现在开始，你就是这个房间的女主人了。」"
+    },
+    {
+      "name": "苏更生（苏苏）",
+      "role": "青莛公司职员 · 玫瑰的上司与贵人（万茜 饰）",
+      "desc": "立下「公事和私事，以公司大门为界」的规矩；在 Tina 与玫瑰的交锋里，她是唯一看得透的人，一句「还是太年轻了」，藏着过来人的叹息。"
+    },
+    {
+      "name": "姜雪琼（Tina）",
+      "role": "青莛公司总经理（朱珠 饰）",
+      "desc": "要玫瑰利用与 Eric 的恋爱关系为名家展请来唐先生，被当面顶回；她笃信「他既是你的男朋友，也是你的资源」，给这段热恋投下一道阴影。"
+    },
+    {
+      "name": "白晓荷",
+      "role": "化学女博士 · 黄振华的相亲对象（陈瑶 饰）",
+      "desc": "带黄振华见了家长，又在门外划清界限；发现对方动了真心后，宁可取消广西之约，也要把「你是不是还喜欢我」问出口——她的坦诚，比任何礼物都贵重。"
+    },
+    {
+      "name": "吴月江",
+      "role": "玫瑰的母亲 · 清华教授（吴玉芳 饰）",
+      "desc": "对儿子即将「入赘」白家这件事又笑又损，一句「一入侯门深似海呀」把黄振华噎得直跳脚，是全家的快乐源泉。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "四岁涂鸦当宝贝",
+      "desc": "白叔把女儿四岁乱画的涂鸦挂在墙上当宝，黄振华一句「要么出自大师之手，要么就是小孩画的」，既夸了画，更夸了这位骄傲的老父亲，逗得满堂大笑。"
+    },
+    {
+      "title": "「专业演出服务」",
+      "desc": "白晓荷叮嘱黄振华以后不必再来，黄振华自嘲「我们提供的是专业演出服务，弹性灵活、服务到位、价格优惠」，还接过买礼物的钱——假情侣的账，算得又好笑又心酸。"
+    },
+    {
+      "title": "校队前锋的倔强",
+      "desc": "黄振华和庄国栋为身高能不能打前锋抬杠，搬出博格斯、韦伯的NBA传奇，穿着皮鞋上场的哥哥嘴上不肯输——一场篮球，把两个男人的交情打了出来。"
+    },
+    {
+      "title": "一把钥匙",
+      "desc": "庄国栋把家里的钥匙交到玫瑰手里：「以后你自己开门。从现在开始，你就是这个房间的女主人了。」一句定情，甜到拉满。"
+    },
+    {
+      "title": "「你是不是还喜欢我」",
+      "desc": "白晓荷一句问话，把黄振华藏在「演出」里的真心摊开。宁可取消广西之约，她也不愿继续利用他——这场「假戏」，两个人都已入戏。"
+    },
+    {
+      "title": "「我只知道我喜欢的人恰好也喜欢我」",
+      "desc": "Tina 逼她用恋爱换资源，玫瑰回敬：感情和工作不是一个筹码，任何交往都不是等价交换。「我喜欢的人恰好也喜欢我，就是最好的回报。」全剧最漂亮的职场交锋。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "白叔的广西之约",
+      "desc": "白家父母已经把黄振华当准女婿考察过了，广西之行虽被白晓荷拦下，但「他喜欢她、她婉拒他」的错位，显然还不到收场的时候。"
+    },
+    {
+      "title": "「男友也是资源」",
+      "desc": "Tina 的「资源论」没被玫瑰说服，那句「你谈这个恋爱有什么价值」像根刺。等玫瑰与庄国栋的感情真正撞上工作，这位老板大概还会出手。"
+    },
+    {
+      "title": "唐先生与名家展",
+      "desc": "玫瑰替公司要来了唐先生的电话。这位大藏家与青莛的名家展、与对头公司风采国际的拍卖，显然还有后文——不肯走关系的玫瑰，早晚要面对关系找上门。"
+    },
+    {
+      "title": "苏苏的取舍",
+      "desc": "「我们为了工作，都放弃过什么。」一向冷静的苏苏第一次漏出苦涩。她与 Tina 之间的渊源、她自己的故事，都只掀开了一角。"
+    },
+    {
+      "title": "「我有男朋友了」",
+      "desc": "玫瑰把恋爱正式公开给家人。从此这段感情被摆上桌面，被更多人注视、评判——包括那位盯紧「资源」的老板，和毫不知情的白家。"
+    }
+  ]
+}
