@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《繁花》第 3 集剧情图文总结" />
+  <title>繁花｜第 3 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/fanhua-e03/hero.jpg" alt="《繁花》第 3 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>繁花</h1>
+          <p class="hero-ep">第 3 集 · 至真园开张</p>
+          <p class="hero-en">深圳来的李李一掷三千万盘下至真园，黄河路开张第一天就风头无两：范总想借宝总的排场给自己撑门面，魏总盯上了他手里的三羊生意，宝总却按兵不动，冷落范总干等一个礼拜，末了只留下一句——黄河路第一课。</p>
+          <div class="hero-meta">
+            <span class="chip">1993 · 年代商战</span>
+            <span class="chip">胡歌 / 马伊琍 / 唐嫣 / 辛芷蕾</span>
+            <span class="chip">47 分钟</span>
+            <span class="chip">12 个场景</span>
+            <span class="chip">共 30 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>还钱，解散</b><small>02:22–05:32</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>玲子就是你的克星</b><small>05:32–07:20</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>范总的包间</b><small>07:20–11:50</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>三千万的来头</b><small>11:50–14:30</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>只认两条腿的宝总</b><small>14:30–17:07</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>我等到七点钟</b><small>17:43–21:30</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>他可以完全代表我</b><small>21:35–26:40</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>甲方的面子</b><small>27:00–30:00</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>第九个还是唯一一个</b><small>30:15–32:00</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>黄河路上消息最贵</b><small>32:00–36:50</small></span>
+        </a>
+        <a class="map-link" href="#s11">
+          <span class="map-id">S11</span>
+          <span><b>先做生意，再交朋友</b><small>36:52–41:30</small></span>
+        </a>
+        <a class="map-link" href="#s12">
+          <span class="map-id">S12</span>
+          <span><b>黄河路第一课</b><small>41:30–44:10</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">至真园开张第一天，黄河路的老板娘们都在等一个人——宝总。李李这个深圳来的女人，出手就是一本三千万流水的汇丰存折；范总想把宝总请进包间给自己撑场面，魏总却想把宝总手里的三羊生意撬走。所有人都盯着红鹭和至真园之间那几步路，而宝总慢悠悠地说：黄河路第一课。</p>
+        <p>第 3 集，爷叔一大早就敲打阿宝。老朋友法根也是第一批吃螃蟹的人，带人炒股害得人家倾家荡产，自己也跳了楼。爷叔拿他当反面教材：你如果不想成为第二个法根，就快点把钱还给人家，该解散的解散。可阿宝被人情绑住了手脚——胖阿姨要养女儿，小宁波屁股后头跟着一大串亲戚，这两年跟着他买认购证，连三房一厅都买好了。爷叔叹道：你是被人情彻底套牢了，人总归要被一样东西套牢的，不是股票，就是房子，还有女人。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1 · 爷叔</span>
+          <h3>人总归要被一样东西套牢</h3>
+          <p class="lesson-situation"><b>情境：</b>阿宝带着亲戚朋友炒股发财，赚了放不下，亏了要背锅；爷叔用跳楼的老友法根点醒他：趁行情好，把钱还给人家。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>带别人赚钱，赚了是人情，亏了就要搭上名声，甚至性命</li>
+              <li>得意时更要有收手的清醒，别让「大家都靠你」变成枷锁</li>
+              <li>比股票和房子更套牢人的，是甩不掉的人情</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3–S4 · 范总与李李</span>
+          <h3>面子是最贵的筹码</h3>
+          <p class="lesson-situation"><b>情境：</b>范总借至真园开张请宝总撑场面，包间、金猪、人脉全押在「宝总来不来」上；至真园也把宝总当成现成的招牌。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>请动一个关键人物，胜过撒十桌的钱</li>
+              <li>别人的名气是可以借用的信用背书，但要记得日后要还</li>
+              <li>面子要给人留足，更要算清楚这份面子值多少钱</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S7 · 宝总</span>
+          <h3>兄弟替你出头，你要替他撑腰</h3>
+          <p class="lesson-situation"><b>情境：</b>陶陶以宝总兄弟的身份在至真园被魏总一伙刁难，宝总一句「他可以完全代表我」把场子找了回来。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>朋友替你把话放出去，你就不能让他下不来台</li>
+              <li>立场要立得干脆，含糊其辞最伤自己人</li>
+              <li>对外的一致，是给兄弟最好的交代</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 爷叔</span>
+          <h3>看穿对手的盈利模式，才算真正看懂对手</h3>
+          <p class="lesson-situation"><b>情境：</b>爷叔算清至真园一年要赚一千万，看穿李李卖酒是幌子、撮合生意收中介费才是大头。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>热闹的场面背后，往往藏着真正的生意</li>
+              <li>多问一句「他到底图什么」，就能少踩一个坑</li>
+              <li>看不懂别人怎么赚钱，就别急着下场对赌</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9、S11 · 李李</span>
+          <h3>先做生意，再交朋友</h3>
+          <p class="lesson-situation"><b>情境：</b>李李放话「包间谁都想进，谁该进谁不该进，他们说了不算」，劝范总先把生意谈成，交情才有根基。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>把姿态放低，不等于把筹码交出</li>
+              <li>先让自己成为稀缺的一方，才有资格挑客人</li>
+              <li>饭桌上交的情，最后都要靠生意兑现</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10–S12 · 宝总</span>
+          <h3>以退为进，沉得住气才是赢家</h3>
+          <p class="lesson-situation"><b>情境：</b>范总拿乔，宝总偏偏不理，让范总干等一个礼拜；汪小姐急得跳脚，宝总只劝她：心急吃不了热豆腐。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>对方越吊你胃口，你越要沉得住气</li>
+              <li>急出来的生意，多半要吃亏</li>
+              <li>表现得不急，着急的就变成对方</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">02:22–05:32</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s1.jpg" alt="还钱，解散" loading="lazy">
+      <h2>还钱，解散</h2>
+      <div class="scene-body">
+        <p>爷叔一大早就把阿宝堵住，拿老朋友法根的例子敲打他。法根也是第一批吃螃蟹的人，带人炒股却害得人家倾家荡产，自己跳了楼。爷叔警告阿宝：你如果不想成为第二个法根，就快点把钱还给人家，该解散的解散。</p>
+<p>阿宝舍不得：胖阿姨有女儿要养，小宁波屁股后头跟了一大串亲戚，这两年跟着他买认购证，连三房一厅都买好了。爷叔一句话戳破他：你是被人情彻底套牢了。人总归要被一样东西套牢的，不是股票，就是房子，还有女人。</p>
+<p>话虽如此，行情却好得吓人——A股全线开红盘，今天有望冲上一千一百点。听着满街的报喜声，阿宝的耐心也和行情一样往上蹿，爷叔的劝诫在耳边渐渐淡了。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你和法根都是第一批吃螃蟹的人，第一桶金也都是从股票里来的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You and Fagen were the first to eat the crab. Both your first fortunes came from the stock market."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你如果不想成为第二个法根，就快点把钱还给人家。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you don't want to end up like Fagen, give everyone back their money while you still can."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「人总归要被一样东西套牢的，不是股票，就是房子，还有女人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A man always ends up trapped by something—if not stocks, then a house, or a woman."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">05:32–07:20</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s2.jpg" alt="玲子就是你的克星" loading="lazy">
+      <h2>玲子就是你的克星</h2>
+      <div class="scene-body">
+        <p>夜东京一大早递来一张六千多块的账单，说是阿宝朋友昨晚在店里的消费，指名要阿宝结。爷叔语带深意：玲子就是你的克星，这账，迟早要还的。</p>
+<p>另一边，玲子盯着早盘行情笑得合不拢嘴——她昨天进的高级化妆品，今天股票一涨，立刻打电话给各位太太，恭喜她们老公股票赚钱，先生开心，太太也开心。</p>
+<p>玲子听说宝总这次是全仓买进，张口就是「千万富豪」。她一面替他高兴，一面也没忘记盘算——夜东京的账、化妆品、麻将搭子，人人都惦记着从宝总身上分一杯羹。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「玲子就是你的克星。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Lingzi is your Achilles' heel."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我听说宝总这次是全仓买进哦，至少是千万富豪了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I heard Boss Bao went all in this time—he must be worth at least ten million by now."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「恭喜他们老公股票涨了，这下先生也开心，太太也开心。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Congratulations, your husbands' stocks are up. Now the men are happy, and the wives are happy too."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">07:20–11:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s3.jpg" alt="范总的包间" loading="lazy">
+      <h2>范总的包间</h2>
+      <div class="scene-body">
+        <p>夜东京今晚只有两桌客人，连陶陶也打电话来说要去至真园凑开张的热闹。玲子酸得不行：至真园开业，早晚关门——可嘴上再硬，客人还是被新店拉走了。</p>
+<p>至真园剪彩现场人山人海。范总张罗着要订包间请宝总吃饭：今天晚上我是跟宝总一桌，包间是留给宝总的。宝总不来，就像在我脸上抠了个疤。他缠着汪小姐帮忙打电话，汪小姐嘴上调侃「我们是有底线的虚荣」，还是答应去问一声。</p>
+<p>至真园老板娘李李亲自出面圆场：包间是留给范总的，只要范总你说今天就在至真园，我马上推掉其他客人。但她话锋一转——现在求人的可是你，就像至真园的包间，谁该进谁不该进，他们说了不算。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「今天晚上我是跟宝总一桌吃饭，这个包间是留给宝总的。可宝总要是不来，就好像在我脸上抠了个疤。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Tonight I'm dining at the same table as Boss Bao, and this room was kept for him. If he doesn't show, it's like someone carved a scar across my face."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们是有底线的虚荣。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Our vanity, at least, has limits."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「包间是留给范总的。只要范总你说今天就在至真园，我马上推掉其他客人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The room stays reserved for you, Boss Fan. The moment you say you're dining here tonight, I'll turn away every other guest."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">11:50–14:30</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s4.jpg" alt="三千万的来头" loading="lazy">
+      <h2>三千万的来头</h2>
+      <div class="scene-body">
+        <p>卢美琳带人堵在至真园门口叫板：送走一个金凤凰还不过瘾，还敢回来？这次是不是要把至真园也送走你才死心？她指的对象，是从金凤凰跳槽过来的潘经理。</p>
+<p>老板娘们凑在一起八卦：听说这个女人是深圳来的，到上海没几天，出手就是一本汇丰银行的存折，上面流水三千万。爷叔则替阿宝算了一笔账：至真园一年净利润至少要做到一千万，这个数字在上海只有三家饭店做得到，其中一家就是宝总常去的红鹭。</p>
+<p>爷叔点破关键：你就是她最大的噱头。你宝总不去，至真园凭什么当上黄河路的头牌？李李这盘棋，正等着你往里跳，好借你的名头把她自己的招牌立起来。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「送走一个金凤凰还不过瘾，还敢回来？这次是不是要把至真园也送走你才死心啊？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Driving one Golden Phoenix under wasn't enough? Now you've come back to drag Zhizhen Garden down too?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「听说这个女人是深圳来的，到上海没几天，出手就是一本汇丰银行的存折，上面流水三千万。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"They say this woman came from Shenzhen. She's been in Shanghai only a few days, yet she flashes an HSBC passbook with thirty million flowing through it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我把她算过了，一年净利润至少要做到一千万。这个数字在上海，只有三家饭店可以做到。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've done the math on her. She needs at least ten million in annual profit—a number only three restaurants in all of Shanghai can reach."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">14:30–17:07</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s5.jpg" alt="只认两条腿的宝总" loading="lazy">
+      <h2>只认两条腿的宝总</h2>
+      <div class="scene-body">
+        <p>夜幕降临，黄河路上人人都在等一个人。看热闹的说：黄河路只认两条腿走路的宝总，今天最大的明星，总要最后出场。宝总果然压轴现身，一路被人簇拥。</p>
+<p>汪小姐赶到至真园接范总：范总和宝总约在红鹭吃饭，他倒好，一到至真园非要上去和两个朋友打招呼，这招呼一打，人就不下来了。陶陶也晃出来递名片刷脸：我是宝总最最最好的兄弟，以后你有什么事情，包在我身上。</p>
+<p>好说歹说，范总终于被请下至真园，拎着金猪招财、大展宏图的礼物，一路和人寒暄着进了红鹭的门，可眼角的余光还黏在对面的至真园上。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「黄河路上，只认两条腿走路的宝总。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"On Huanghe Road, there's only one man worth a second glance—Boss Bao, who walks in on his own two legs."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我是宝总最最最好的兄弟，以后你有什么事情，包在我身上。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm Boss Bao's very, very best brother. Anything comes up, leave it to me."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「范总和宝总今天约在红鹭吃饭。他倒好，一到至真园，非要上去和两个朋友打个招呼，这招呼一打，人也不下来了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Boss Fan and Boss Bao agreed to dine at Honglu tonight. But once he reached Zhizhen Garden, he just had to say hello to a couple of friends—and after those hellos, he never came down."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">17:43–21:30</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s6.jpg" alt="我等到七点钟" loading="lazy">
+      <h2>我等到七点钟</h2>
+      <div class="scene-body">
+        <p>红鹭饭桌上，宝总亲自点菜：清蒸河鲜，葱姜少放，再来个清鸡汤，酒上茅台——客人不吃海鲜，那就不上。他等的，正是对面至真园里的范总。</p>
+<p>高总临时不来，包间空了出来。魏总想捡这个漏，李李嘴上说他在黄河路上跟高总没法比，资格差得可不是一点点，最后却还是笑盈盈把包间给了他。</p>
+<p>范总在至真园陪着魏总，迟迟不下楼。汪小姐等得不耐烦，翻出旧账：你忘记了？我在外面公司等了你八个钟头。现在是六点半，我等到他七点钟。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「来几样清蒸河鲜，葱姜少放，海鲜不要，客人不吃。再来个清鸡汤。酒，上茅台。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"A few steamed river delicacies, light on ginger and scallion. No seafood—my guest doesn't eat it. Add a clear chicken soup. And Maotai to drink."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这个魏总在黄河路上，跟高总比起来，资格差得可不是一点点。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This Boss Wei—next to Boss Gao, he's not even close in standing on Huanghe Road."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你忘记了？我在外面公司等了你八个钟头。现在是六点半，我等到他七点钟。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Have you forgotten? I once waited eight hours for you outside the office. It's half past six now—I'll wait for him till seven."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">21:35–26:40</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s7.jpg" alt="他可以完全代表我" loading="lazy">
+      <h2>他可以完全代表我</h2>
+      <div class="scene-body">
+        <p>陶陶跑进至真园请范总：我叫陶陶，我是宝总最好的兄弟。范总顺水推舟：你把宝总也请到这边来。魏总一伙人起哄——就跟宝总讲，他不过来的话，生意我们就不跟他说了。</p>
+<p>两拨人吵成一团，李李出面和稀泥：你既然能来至真园，就是给我面子，不如再给我个面子。话不投机，魏总干脆让杨浦的小六子跑到红鹭传话：宝总不过去，范总的货我们就给别人了。</p>
+<p>宝总当场给陶陶站台：陶陶是我铁杆兄弟，他可以完全代表我。他说今天我不过去，货不要了，那我肯定不过去了。说完只留一句：让他脑子拎拎清楚。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我叫陶陶，我是宝总最好的兄弟。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm Taotao—Boss Bao's closest brother."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们就跟宝总讲，如果他不过来的话，我们生意就不跟他说了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Then tell Boss Bao this: if he won't come, we'll take our business elsewhere."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你既然能来至真园，就是给我面子。不如，再给我个面子。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"By walking into Zhizhen Garden you've already done me a favor. Why not do me one more?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「陶陶是我铁杆兄弟，他可以完全代表我。他说今天我不过去，货不要了，那我肯定不过去了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Taotao is my sworn brother—he speaks for me, full stop. If he says I'm not coming and the goods are off, then they're off."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s7-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">27:00–30:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s8.jpg" alt="甲方的面子" loading="lazy">
+      <h2>甲方的面子</h2>
+      <div class="scene-body">
+        <p>夜路上，爷叔和宝总闲话范总。爷叔看穿其中门道：范总是甲方，甲方的面子，宝总总是要给足的。可范总那边也对宝总看不顺眼：我们是搞实业起来的，他算什么？搞了几张认购证起来的空架子。</p>
+<p>更值得玩味的是李李。爷叔替阿宝算得清清楚楚：卖龙虾卖老酒赚一笔，吃龙虾的时候收到了信息，撮合的生意再赚一笔，而且是大头。宝总感叹：这个老板娘不得了，可惜她碰到我了。我要让她知道，这里是黄河路，不是别的地方。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「范总是甲方，甲方的面子，宝总总是要给足的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Boss Fan is the client, and a client's pride is something Boss Bao always respects."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们是搞实业起来的，他算什么？他就是个空架子，搞了几张认购证起来的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We built our businesses from the ground. What's he? A hollow shell who got rich off a few stock-purchase warrants."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「卖龙虾卖老酒赚一笔，吃龙虾的时候收到了信息，撮合的生意再赚一笔，还是大头。这个老板娘，不得了啊。可惜她碰到我了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Selling lobster and wine makes her a cut; while her guests eat the lobster, she pockets the intel and takes a commission on the deals she brokers—and that's the real jackpot. That woman's something. Too bad she ran into me."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">30:15–32:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s9.jpg" alt="第九个还是唯一一个" loading="lazy">
+      <h2>第九个还是唯一一个</h2>
+      <div class="scene-body">
+        <p>第二天一早，汪小姐到红鹭找宝总：这生意要是被魏总抢掉，不要说我王小姐面子，你宝总的面子也一起没了。宝总却稳得很：你不做就别去，我们自己排骨年糕吃吃，也蛮开心的。</p>
+<p>他早看穿李李两边讨好的算盘——宝总去了，她当中做调解人，宝总要欠她一个人情；宝总不去，魏总和范总合作，她照样收一笔中介费，怎么都不亏。</p>
+<p>至真园这边，李李已经开始排兵布阵：打电话给魏总，今晚六点范总会来吃饭，你问魏总，他是想做第九个，还是唯一一个。手下问她要不要找记者来宣传，李李答得干脆：我要的就是张扬。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「这生意要是被魏总抢掉，不要说我王小姐面子，你宝总的面子也一起没了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If Boss Wei snatches this deal, forget my pride as Miss Wang—your pride as Boss Bao goes down with it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你不做就别去，我们自己排骨年糕吃吃，也蛮开心的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you won't do it, then don't go. We can just have our pork-chop rice cakes here and be perfectly happy."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你问魏总，他是想做第九个，还是唯一一个。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Ask Boss Wei whether he'd rather be the ninth one—or the only one."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这会不会太张扬了？」「我要的就是张扬。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Isn't this a bit too flashy?" "Flashy is exactly what I want."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s9-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">32:00–36:50</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s10.jpg" alt="黄河路上消息最贵" loading="lazy">
+      <h2>黄河路上消息最贵</h2>
+      <div class="scene-body">
+        <p>李李叫来店里人，处理服务员私收小费的事，当众敲打管不住手下的领班，随后升敏敏做领班。她教给店里的规矩很直白：黄河路上消息最贵，想赚大钱，靠的是脑子。</p>
+<p>汪小姐对魏总一百个看不上：他也不是第一个了，就知道跟宝总比来比去。宝总劝她：做生意要沉得住气，心急吃不了热豆腐，好戏全在后头。</p>
+<p>傍晚，范总再次踏进至真园。汪小姐急得跳脚：魏总和范总两个人快要抱在一起了，三羊肯定要让他们撬走了。宝总却一点也不慌——范总到外贸公司去，为的就是一张出口指标，而那张指标，攥在汪小姐手里。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「黄河路上消息最贵。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"On Huanghe Road, information is the most precious currency."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「想赚大钱，靠的是脑子。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"To make real money, you use your brains."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「做生意要沉得住气，心急吃不了热豆腐，好戏全在后头。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"In business, you've got to keep your nerve. Haste makes waste—the best is yet to come."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「魏总和范总两个人快要抱在一起了，三羊肯定要让他们撬走了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Boss Wei and Boss Fan are practically joined at the hip by now—Sanyang is bound to be poached out from under us."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s10-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s11">
+      <div class="scene-topline">
+        <div><span class="scene-id">S11</span><span class="time">36:52–41:30</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s11.jpg" alt="先做生意，再交朋友" loading="lazy">
+      <h2>先做生意，再交朋友</h2>
+      <div class="scene-body">
+        <p>至真园开张晚宴，李李亲自致辞：我李李一定尽我所能服务好大家，吃好饭、喝好酒、交好朋友、谈好生意。一道道招牌菜端上来，黄河路的老板娘们头一回见识这个深圳女人的排场。</p>
+<p>酒过三巡，李李单独劝范总：以前你们都是先交朋友再谈生意，今天在我至真园，我建议试一下，先做生意，再交朋友。她还放出话——宝总要的货，我全都要了；我不管什么宝总魏总，客人进了我的店，做成生意就是最大。范总被这碗迷魂汤灌得飘飘然，迟迟不肯下楼。</p>
+<p>另一边，宝总压根没去至真园，转身进了夜东京。玲子又惊又喜，宝总嘴甜：黄河路再热闹也只是应酬的地方，只认钞票不认人。转头他对汪小姐交底：范总现在轻飘飘，我要是去问他，他更觉得我占他便宜——就是不理他，让他想着我。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我李李一定尽我所能服务好大家。吃好饭，喝好酒，交好朋友，谈好生意。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I, Li Li, will do everything in my power to serve you all well—eat well, drink well, make good friends, and close good deals."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s11-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「以前你们都是先交朋友再谈生意，但今天在我至真园，我建议试一下，先做生意，再交朋友。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"In the past you've always made friends first and done business later. But tonight, here at Zhizhen Garden, I suggest we try it the other way—business first, friendship after."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s11-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这个男人啊，只要嘴巴会讲，骗死女人不偿命啊。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"That man—with a silver tongue like his, he could sweet-talk any woman to death."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s11-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「范总现在轻飘飘，我要是去问他，他更觉得我占他便宜。就是不理他，让他想着我。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Boss Fan is floating on air right now. If I go asking after him, he'll only think he's got leverage over me. I just won't give him the time of day—let him keep thinking about me."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s11-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s12">
+      <div class="scene-topline">
+        <div><span class="scene-id">S12</span><span class="time">41:30–44:10</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e03/s12.jpg" alt="黄河路第一课" loading="lazy">
+      <h2>黄河路第一课</h2>
+      <div class="scene-body">
+        <p>夜东京，玲子揪着阿宝算账：有人吃了四千块的酒菜不给钱，人都跑了，得让他打电话联系；末了还不忘提醒——明天早上早点来，夜东京股东大会。</p>
+<p>汪小姐杀到至真园，当着魏总的面给范总提个醒：你三羊牌出口指标，是我去单位里帮你申请下来的，现在这个上海名牌的申报，也在我手里面。魏总酸她「宝总的红颜知己」，汪小姐当场回敬：你说谁是怪东西？谁抢宝总的生意，我就讲谁。</p>
+<p>电话那头，范总想给批发价加一块。宝总听完只丢一句：范总要加一块？我还要降他一块。这种人就是要教一教，还有新来的老板娘，一起教——黄河路第一课。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「明天早上早点来，夜东京股东大会。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Come early tomorrow morning—Yedongjing's shareholder meeting."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s12-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你三羊牌出口指标，是我去单位里帮你申请下来的。现在这个上海名牌的申报，也在我手里面。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Your Sanyang export quota—I got it approved for you at my bureau. And the Shanghai famous-brand application is in my hands, too."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s12-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你说谁是怪东西？谁抢宝总的生意，我就讲谁。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Who are you calling a strange bird? Whoever tries to steal Boss Bao's business—I'm talking about them."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s12-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「范总要加一块？我还要降他一块。黄河路第一课。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Boss Fan wants to add a yuan? I'd rather knock a yuan off. Huanghe Road, lesson one."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e03/s12-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>阿宝（宝总）</h3><span>黄河路商界大佬（胡歌 饰）</span></div>
+          <p>本集按兵不动：被爷叔敲打后继续周旋于范总、魏总、李李之间，一句「陶陶可以完全代表我」力挺兄弟，冷落范总干等一礼拜，扬言要教新来的老板娘「黄河路第一课」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>爷叔</h3><span>阿宝的师傅（游本昌 饰）</span></div>
+          <p>以法根之死劝阿宝还钱解散，「人总归要被一样东西套牢」；替阿宝算清至真园一年一千万净利润，看穿李李卖酒是幌子、收中介费才是大头。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>李李</h3><span>至真园老板娘（辛芷蕾 饰）</span></div>
+          <p>深圳来的神秘女人，出手就是三千万流水的汇丰存折；开张第一天就把宝总、范总、魏总拉进自己的棋局，一句「先做生意，再交朋友」显出手段。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>汪小姐（汪明珠）</h3><span>外贸公司外销员（唐嫣 饰）</span></div>
+          <p>为三羊的生意跑前跑后，被宝总冷落也不恼；夜里杀到至真园，亮出出口指标和上海名牌申报都在自己手里，把魏总怼得哑口无言。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>玲子</h3><span>夜东京老板娘（马伊琍 饰）</span></div>
+          <p>开张日生意冷清，酸宝总去至真园凑热闹；一面替他盘算千万身家，一面催他结账打电话，还约他开「夜东京股东大会」，是爷叔眼里的「克星」。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>范总</h3><span>外贸商人（郑恺 饰）</span></div>
+          <p>想借至真园的排场和宝总的名头做三羊生意，被李李灌了迷魂汤迟迟不赴红鹭之约；临了想给批发价加一块，被宝总反将一军要降一块。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>陶陶</h3><span>海鲜摊老板 · 宝总的兄弟（陈龙 饰）</span></div>
+          <p>拎着名片在黄河路刷脸，替宝总出头被魏总一伙刁难；宝总一句「他可以完全代表我」让他扳回一局，是本集最出彩的兄弟情场面。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>至真园开张，三千万的来头</h3>
+          <p>剪彩当天卢美琳堵门叫板，老板娘们凑在一起八卦李李的深圳来历和汇丰存折——黄河路的名利场，多了一个让人摸不透的女人。</p>
+        </article>
+
+        <article>
+          <h3>陶陶的名片与宝总的站台</h3>
+          <p>陶陶满嘴「我是宝总最最最好的兄弟」四处刷脸；至真园对峙时宝总一句「他可以完全代表我」，把兄弟的脸面撑到最足。</p>
+        </article>
+
+        <article>
+          <h3>李李的生意经</h3>
+          <p>「吃好饭、喝好酒、交好朋友、谈好生意」，一席话劝范总「先做生意再交朋友」，扬言宝总要的货她全都要了——这个女人手段了得。</p>
+        </article>
+
+        <article>
+          <h3>汪小姐怒怼魏总</h3>
+          <p>「你说谁是怪东西？谁抢宝总的生意，我就讲谁。」三羊出口指标和上海名牌申报都捏在手里，汪小姐一句话把魏总的嘴堵死。</p>
+        </article>
+
+        <article>
+          <h3>黄河路第一课</h3>
+          <p>范总想给批发价加一块，宝总说还要降他一块——「这种人就是要教一教，还有新来的老板娘，一起教」。宝总的立威宣言，为下一场商战埋线。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>李李的神秘来头</h3>
+          <p>深圳来的女人，汇丰存折三千万流水，爷叔算她要做到一年一千万净利润——她到底是谁？至真园和宝总的账，才刚开了个头。</p>
+        </article>
+
+        <article>
+          <h3>夜东京股东大会</h3>
+          <p>玲子约阿宝「明天早上开股东大会」，两人在钱上越缠越深——这段暧昧关系，迟早要有一笔总账。</p>
+        </article>
+
+        <article>
+          <h3>三羊与汪小姐</h3>
+          <p>出口指标、上海名牌申报都在汪小姐手里，范总却还在宝总、魏总之间摇摆——汪小姐这枚棋子，会在下一局棋里怎么走？</p>
+        </article>
+
+        <article>
+          <h3>宝总的「黄河路第一课」</h3>
+          <p>宝总放话要教范总、教新来的老板娘——他这套按兵不动的打法，遇上李李张扬的棋路，黄河路真正的商战即将开打。</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 3 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

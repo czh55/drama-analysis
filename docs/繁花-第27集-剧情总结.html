@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《繁花》第 27 集剧情图文总结" />
+  <title>繁花｜第 27 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/fanhua-e27/hero.jpg" alt="《繁花》第 27 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>繁花</h1>
+          <p class="hero-ep">第 27 集 · 江湖再见</p>
+          <p class="hero-en">一九九四年元旦，外汇并轨让汪小姐的沃尔玛订单一夜由亏转盈、成为业内传奇；新年火锅桌上，李李向阿宝坦白陈珍的身世，用至真园立下赌约；黄河路上金美玲易主、三姐妹散场——这一年，人人都在学着自己下台。</p>
+          <div class="hero-meta">
+            <span class="chip">1994 · 年代商战</span>
+            <span class="chip">胡歌 / 马伊琍 / 唐嫣 / 辛芷蕾</span>
+            <span class="chip">47 分钟</span>
+            <span class="chip">9 个场景</span>
+            <span class="chip">共 30 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>沃尔玛订单·一夜传奇</b><small>03:26–05:35</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>新年火锅·雪芝旧事</b><small>05:44–13:25</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>陈珍的坦白·至真园的赌约</b><small>14:11–17:26</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>深圳谢礼·江湖再见</b><small>19:01–24:10</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>账本与存折</b><small>24:22–25:21</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>小小顾·一块钱学一门语言</b><small>25:21–28:17</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>老板娘们的至真园之夜</b><small>28:18–32:16</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>卢美玲求贷·金美玲易主</b><small>32:34–36:31</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>卖店·三姐妹散场</b><small>36:49–44:00</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">一九九四年一月一日，国家宣布外汇并轨，人民币对美元汇率一夜之间从五块八跳到八块七。所有人都看不懂的单子，让汪小姐成了业内传奇。而同一场新年里，有人立约、有人算账、有人散场——李李借着酒劲对阿宝说：如果你赢了，你就还是宝总；如果输了，下次见面，你就是阿宝。这一个「宝总」二字的分量，重过黄河路任何一桌酒席。</p>
+        <p>第27集，新年的第一夜，有人登顶，有人散场。
+
+汪小姐坚持用美元结算沃尔玛订单，范总责备她太较真，她只求保本也有底气：「合同上白纸黑字写得清清楚楚。」一九九四年一月一日，国家宣布外汇并轨，人民币对美元汇价由五块八调整到八块七，外汇差价从此成为历史。一夜之间，汪小姐的单子由负转正，她一举成为业内传奇。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S1 · 汪小姐</span>
+          <h3>看得懂规则的人，先赢在起跑线</h3>
+          <p class="lesson-situation"><b>情境：</b>汪小姐坚持用美元结算沃尔玛订单，所有人看不懂，外汇并轨后单子一夜由负转正，她成为业内传奇。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>信息差和对规则的理解，就是先机。</li>
+              <li>别人都看不懂的时候，可能正是布局的时候。</li>
+              <li>守住保本的底线再谈进取，才走得远。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S2 · 雪芝</span>
+          <h3>有些约定，等不到兑现的那天</h3>
+          <p class="lesson-situation"><b>情境：</b>雪芝没能等到与阿宝的十年之约，一九九三年十一月死在香港，离最后一次见面只有半年。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>重要的话别总留到「以后」。</li>
+              <li>能见的人、能说的话，趁早去做。</li>
+              <li>回忆再深，也回不到过去。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S3 · 李李</span>
+          <h3>退路是留给自己的，但别靠逃避</h3>
+          <p class="lesson-situation"><b>情境：</b>李李把至真园押上赌桌，阿宝说「阿宝就是我的退路」；而李李欣赏的，正是阿宝没有像A先生一样退缩。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>给自己留退路是聪明，不是懦弱。</li>
+              <li>但留了退路，不等于可以一直躲。</li>
+              <li>关键节点上敢不敢不退，才是人和人的分野。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S4 · 范总</span>
+          <h3>体面的告别，是江湖再见</h3>
+          <p class="lesson-situation"><b>情境：</b>范总带着汪小姐的礼物离开生意场，听到「江湖再见」眼眶泛泪，回老家陪老太婆安享晚年。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>离场也可以有风度。</li>
+              <li>算清账、道完谢、转身走，不纠缠。</li>
+              <li>能体面地下台，比风光地上台更见本事。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S6 · 小小顾</span>
+          <h3>小承诺也要兑现，小善意也有分量</h3>
+          <p class="lesson-situation"><b>情境：</b>阿宝对小小顾许下「每学会一门语言加一块小费」的诺言，还送他学外语的机器，一一兑现。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>对小人物的承诺，最见一个人的品格。</li>
+              <li>帮人往上走一步，是最大的情分。</li>
+              <li>一杯水、一句话，都可能改变一个人的路。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S7–S8 · 卢美玲</span>
+          <h3>这条路的浪头，不会一直有人接住你</h3>
+          <p class="lesson-situation"><b>情境：</b>卢美玲硬骨头不低头，金美玲仍生意惨淡；放下面子求李李被拒，饭店终究易主。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>得意时别把路走绝，失意时更要会低头。</li>
+              <li>三十年河东三十年河西，风水轮流转。</li>
+              <li>硬气是性格，但生存靠的是智慧和柔韧。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">03:26–05:35</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s1.jpg" alt="沃尔玛订单·一夜传奇" loading="lazy">
+      <h2>沃尔玛订单·一夜传奇</h2>
+      <div class="scene-body">
+        <p>汪小姐坚持用美元结算沃尔玛订单，旁人不解，她只求保本也有底气：「合同上白纸黑字写得清清楚楚，一块钱能变成两块钱。」范总责备她过于较真，汪小姐却笑着说：九四年了，时代在变，什么都有可能。</p>
+<p>画外音道出这场豪赌的结局：一九九三年十二月三十一日夜里，连宝总都想不通汪小姐这么做的意义；一九九四年一月一日，国家宣布外汇并轨，人民币对美元汇价从五块八调整到八块七，外汇差价从此成为历史。一夜之间，汪小姐的单子由负转正，她的一系列操作让她一举成为业内传奇。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我就有信心，至少可以做到保本。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm confident that, at the very least, I can break even."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「合同上白纸黑字写得清清楚楚的，一块钱能变成两块钱。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's all there in black and white in the contract—one yuan can turn into two."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「九四年了，时代再变，什么都有可能。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's 1994 now. Times are changing—anything is possible."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「一夜之间，汪小姐的单子由负转正，她一举成为业内传奇。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Overnight, Miss Wang's order turned from a loss into a gain, and she became a legend in the trade."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s1-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">05:44–13:25</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s2.jpg" alt="新年火锅·雪芝旧事" loading="lazy">
+      <h2>新年火锅·雪芝旧事</h2>
+      <div class="scene-body">
+        <p>新年的黄河路处处是祝福。阿宝坐上13路公交，看着昔日的街景物是人非，漫无目的地走进一家火锅店，与李李不期而遇。李李今天不想谈生意，两人破例不劝酒、不盘算，轻轻松松吃顿开年饭。</p>
+<p>阿宝忆起当年在曹家渡红顺兴挤着吃涮羊肉的旧事——十几个人拼大圆桌，铁栅栏隔座，隔壁的筷子会伸过来偷夹羊肉，坐在旁边的人只看得见半个身体、看不见脸。李李打量他：「宝总是个念旧的人。」阿宝淡淡回：「我无旧可念。」</p>
+<p>画外音却掀开这段回忆的重量：那个人没有等到他们的十年之约。一九九三年十一月，她死在香港，距离阿宝最后一次见她只有半年——从此，红顺兴的蒸汽里再没有那张脸。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「今天我们破个例，不谈生意，轻轻松松地吃顿开年饭。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Today, let's make an exception—no business talk, just an easy New Year meal."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「坐在旁边的人，你只能看到他半个身体，就是看不见他的脸。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The person squeezed in beside you—you could only see half of them, never their face."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「宝总是个念旧的人。」「我无旧可念。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Boss Bao is a man who clings to the past." "I have no past to cling to."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「一九九三年十一月，她死在香港，距离我最后一次见她，只有半年。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"In November 1993, she died in Hong Kong—only half a year after I last saw her."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s2-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">14:11–17:26</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s3.jpg" alt="陈珍的坦白·至真园的赌约" loading="lazy">
+      <h2>陈珍的坦白·至真园的赌约</h2>
+      <div class="scene-body">
+        <p>借着酒劲，李李说出了自己不告而别的原因：她亲眼目睹金老板惨死，心里深受触动，连夜去找强总（强慕杰）。金老板的死让她明白，躲，就只会有一个结果。她原名陈珍，深圳是她躲不掉的过去；她的一切都是A先生给的，如今他不在了，她还也还不回去了。</p>
+<p>李李说，李李可以为了宝总拿至真园当赌注，但陈珍不可以。两人立下约定：如果宝总赢了，就还是宝总，各自安好；如果输了，下次见面，他就是阿宝。阿宝说阿宝就是自己的退路，李李却摇头——有些过去是回不去的，A先生留下的，不是退路，是纪念和信仰。</p>
+<p>李李最后给宝总第二条建议：永远不要相信来自陌生人的善意。宝总伸出手——你我不是陌生人。李李情动，转身深情望着他，几乎要凑上去，最后还是停住，急匆匆跑开，留阿宝一个人站在原地。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「陈珍，深圳，是我躲不掉的过去。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Chen Zhen, Shenzhen—that's a past I can't run from."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「李李的一切，都是他给的。他不在了，我还不回去了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Everything Li Li has, he gave her. Now that he's gone, I can't give it back."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「如果你赢了，你就还是宝总，我们各自安好；如果输了，下次见面，你就是阿宝。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you win, you'll still be Boss Bao and we'll part on good terms. If you lose, the next time we meet, you'll just be Abao."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「永远不要相信来自陌生人的善意。」「你我不是陌生人。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Never trust the kindness of strangers." "You and I are not strangers."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s3-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">19:01–24:10</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s4.jpg" alt="深圳谢礼·江湖再见" loading="lazy">
+      <h2>深圳谢礼·江湖再见</h2>
+      <div class="scene-body">
+        <p>汪小姐留在深圳过年，特意买了玫瑰和水果来送范总——玫瑰带给家里的老太婆，水果已在他车上放好。她算了一笔账：去掉运费、车路费，这单到最后还能赚八万块，比当年第一单的六万五千还多。范总连连说，你那个时候已经很厉害了。</p>
+<p>范总说，其实一路上不是他一个人在帮她，汪小姐点点头：「我晓得。」临别，范总说「后会有期」，汪小姐纠正他：「不是的，范总，是江湖再见。」范总眼眶泛泪，拿着礼物离开生意场，回老家陪老太婆。</p>
+<p>《再回首》的旋律响起，蒙太奇里范总踏上归程，回望一路走来的上海滩，想起初见汪小姐时被她的那股精神所打动——这一次，他是真的要退了。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我都算过了，去掉运费、车路费，加起来到最后，我还可以赚八万块。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've already done the math. Take out freight and travel, and I can still clear eighty thousand at the end."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「其实不是我一个人在帮你。」「我晓得。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Actually, I'm not the only one who's been helping you." "I know."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「后会有期。」「不是的，范总，是江湖再见。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Until we meet again." "No, Uncle Fan—not that. We'll meet again out in the jianghu."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">24:22–25:21</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s5.jpg" alt="账本与存折" loading="lazy">
+      <h2>账本与存折</h2>
+      <div class="scene-body">
+        <p>画外音响起：也许走了之后，我的生活一切如常。我以为这又是一个新的开始，但原来过去，从来没有离开过。爷叔怄气走后，阿宝独自整理账单，翻出玲子送还的夜东京账本——里面还夹着一张他当初给玲子的存折，说好要用来交保险的钱。</p>
+<p>一张存折，把两个人之间那本说不清道不明的账重新摊开。玲子的那句「你不是说要交保费吗」仿佛还在耳边，阿宝这才惊觉，有些东西他以为放下了，其实一直压在抽屉底。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「也许走了之后，我的生活一切如常。我以为这又是一个新的开始，但是原来过去，从来没有离开过。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Maybe after I left, my life went on as usual. I thought this was another new beginning—but the past, it turns out, never really left."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这存折，你放在我抽屉里的。你不是说要交保费吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This bankbook—you left it in my drawer. Didn't you say it was for the insurance premium?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">25:21–28:17</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s6.jpg" alt="小小顾·一块钱学一门语言" loading="lazy">
+      <h2>小小顾·一块钱学一门语言</h2>
+      <div class="scene-body">
+        <p>和平饭店的老门童老顾光荣退休，让孙子小小顾接班，还叮嘱他好好跟阿宝学做生意。阿宝问他叫什么名字，他答：「我叫小小顾，我爷爷叫我跟你学东西。」</p>
+<p>小小顾一本正经地说：爷爷讲你会变戏法，一块变十块，十块变一万块——可先要赚到第一块。阿宝笑了，把今天的第一块小费递给他：从现在开始，你每学会一门语言，我就加你一块。小小顾接过钱，立刻卯足了劲，一门心思琢磨起下一种说法。</p>
+<p>阿宝还送了他一个学外语的小机器，说它能教会他全世界的语言。看着孩子勤学外语的背影，阿宝恍惚觉得，这条路上总有人接续着往前走——就像当年爷叔教他一样。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我叫小小顾，我爷爷叫我跟你学东西。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"My name is Little Gu. My grandpa told me to come and learn from you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「爷爷跟我说了，你会变戏法，一块变十块，十块变一万块。先要赚到第一块。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Grandpa told me you can do magic—one yuan becomes ten, ten becomes ten thousand. But first you've got to earn the first yuan."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这个是你今天赚到的第一块钱。从现在开始，你多学会一种语言，我就加你一块。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This is the first yuan you've earned today. From now on, every language you learn, I'll add one yuan."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">28:18–32:16</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s7.jpg" alt="老板娘们的至真园之夜" loading="lazy">
+      <h2>老板娘们的至真园之夜</h2>
+      <div class="scene-body">
+        <p>阿宝在和平饭店的走廊里想：住饭店的好处，就是在这里每个人都像过客——今天碰到的人，明天不一定再见，点头之交，不辞而别，无牵无挂。</p>
+<p>至真园楼上三间包间被做证券的人一口气订了三个月，定金今晚就来交。黄河路的老板娘们相约来至真园聚餐订包间，唯独卢美玲死活不去：「我卢美玲生下来就是硬骨头，从来不知道什么叫退步。」其他老板娘不顾她，径直走进至真园。</p>
+<p>李李对前来试探的老板娘们把话说透：至真园不打算搞什么联盟，来上海只有一个目的——做生意赚钱；挡着我赚钱，我不会客气，也不会手软。看着窗外街头拉客的卢美玲，李李还是补了一句：生意各做各的，和气生财。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「在这里，每个人都像过客。今天碰到的人，明天不一定会再见；每个人都是点头之交，无牵无挂。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Here, everyone is a passerby. The people you meet today may not be here tomorrow—everyone is a nodding acquaintance, with nothing to hold onto."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我卢美玲生下来就是硬骨头，从来不知道什么叫退步。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I, Lu Meiling, was born with a stiff backbone. I've never known what it means to back down."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我至真园不打算搞什么联盟。我来上海的目的，就只有一个：做生意赚钱。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Zhen Zhen Garden isn't joining any alliance. I came to Shanghai for one reason only: to do business and make money."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「三十年河东，三十年河西，将来发生什么事情，谁也不知道。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Thirty years on the east bank, thirty on the west—no one knows what the future holds."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s7-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">32:34–36:31</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s8.jpg" alt="卢美玲求贷·金美玲易主" loading="lazy">
+      <h2>卢美玲求贷·金美玲易主</h2>
+      <div class="scene-body">
+        <p>日日鲜的老板娘相中了金美玲的铺面——黄河路上最好的位置，隔壁就是如日中天的至真园，钱不是问题，关键是看怎么做邻居。黄河路上，老人总比不过新人；门面可以装修，人却没法装修。</p>
+<p>金老板死后，金美玲生意惨淡。走投无路的卢美玲放下面子来求李李：「我知道你不喜欢我，但你应该帮我的。你现在正走上坡路，帮我这一把，钞票我一定还你，你就当存钱、买个保险。」她解释自己的处境不是因为赌博，是这条路上熬出来的命。</p>
+<p>李李以「手头也紧」婉拒。卢美玲撂下狠话：黄河路的客人喜欢换口味，新店开张的那天，就是你至真园走下坡路的那天——有一天你会突然发现，自己店里冷冷清清，隔壁人山人海。当天金美玲就易了主：日日鲜出价，林太拿着抵押条来收店。卢美玲望着打拼多年的饭店，五味杂陈，收拾东西离开。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你以为我卢美玲落到今天这个地步，就是因为赌博啊？不是的，是因为我们在这条路上的命。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You think I, Lu Meiling, ended up this low because of gambling? No—it's the fate we were dealt on this street."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你现在正在走上坡路。你帮我这一把，让我把难关过掉，钞票我一定会还给你的。你就当存钱，买个保险。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You're on the way up right now. Help me get through this tight spot, and I'll pay you back every cent. Just think of it as saving money—buying yourself insurance."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「新店开张的那天，就是你至真园走下坡路的那天。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The day a new place opens, that's the day Zhen Zhen Garden starts going downhill."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这算是威胁吗？」「我提醒你们。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Is that a threat?" "I'm just reminding you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s8-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">36:49–44:00</span></div>
+      </div>
+      <img class="scene-frame" src="images/fanhua-e27/s9.jpg" alt="卖店·三姐妹散场" loading="lazy">
+      <h2>卖店·三姐妹散场</h2>
+      <div class="scene-body">
+        <p>外面的人都说李李心很硬，李李倒是也不否认。金美玲最终还是卖了。歌声里，卢美玲被老相好接走，回头看着一手打拼的饭店就这么没了，心里万分不舍——当年她也是这条路上风光过的老板娘。</p>
+<p>小江西出院了，来找敏敏。她还留着一口气：「来的时候就知道是来做陪衬、做配角的，可凭什么？那些主角未必比我们有本事。」敏敏劝她，人往高处走，可该认命的时候还是要认命。小江西不肯：我们才二十几岁，不能认命。</p>
+<p>三个从乡下来上海打工的姐妹，今天要天各一方。敏敏和露丝把身上所有的积蓄都塞给小江西，小江西把金老板给她的钻戒抵给敏敏还债，敏敏不要：「你留着。」画外音响起：演好了，下台卸妆；角色不一样，流程都一样。真所谓，唱戏不如听戏，上台容易下台难。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「外面的人都说你李李心很硬。」「倒是也没说错。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"They say you, Li Li, are hard-hearted." "They're not wrong."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「来的时候就知道是来做陪衬、做配角的。我们为什么不能当主角？那些主角，未必比我们有本事。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I knew from the start I'd just be the supporting act, the side character. Why can't we be the lead? Those leads aren't necessarily more talented than us."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「人往高处走，但该认命的时候，还是要认命的。」「凭什么认命？我们才二十几岁，不能认命。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Water runs to the low ground but people climb high—still, when it's time to accept your fate, you accept it." "Why should I? We're only in our twenties. We don't have to accept it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「演好了，下台卸妆；角色不一样，流程都一样。真所谓，唱戏不如听戏，上台容易下台难。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Play your part well, then take off the makeup and leave the stage. The roles differ, but the exit is the same. As they say: watching a play beats performing in one—easy to go on stage, hard to come off."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/fanhua-e27/s9-04.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>宝总 / 阿宝</h3><span>主角 · 从工人到黄河路商界大佬（胡歌 饰）</span></div>
+          <p>本集处处是告别：13路公交上追忆雪芝，火锅店与李李立下至真园的赌约，承诺「阿宝就是我的退路」；爷叔走后独自整理账单，又对小小顾许下「一块钱一门语言」的诺言，人味十足。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>李李 / 陈珍</h3><span>至真园老板 · 原名陈珍（辛芷蕾 饰）</span></div>
+          <p>借着酒劲向阿宝坦白陈珍的身世与A先生的一切，立下「拿至真园当赌注」的约定；拒绝老板娘联盟，一句「永远不要相信来自陌生人的善意」，转身欲吻又止，是本集最浓烈的一笔。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>汪小姐 / 汪明珠</h3><span>外贸公司外销员 · 深圳创业者（唐嫣 饰）</span></div>
+          <p>坚持用美元结算沃尔玛订单，外汇并轨后一夜由负转正成为业内传奇；留在深圳过年，算清赚八万块的账，与范总以一句「江湖再见」话别。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>范总</h3><span>杭州小老板（郑恺 饰）</span></div>
+          <p>责备汪小姐太较真，又一路送行；点破宝总一直默默关心汪小姐，听闻「江湖再见」眼眶泛泪，带着礼物离开生意场，回老家陪老太婆，体面退场。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>玲子</h3><span>夜东京老板娘（马伊琍 饰）</span></div>
+          <p>把夜东京的账本和那张存折送还给阿宝，一句「你不是说要交保费吗」把两人之间那本账重新摊开，为日后的清算埋线。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>卢美玲</h3><span>金美玲饭店老板娘（范湉湉 饰）</span></div>
+          <p>硬骨头不低头：拒不赴至真园之宴、街头拉客，放下面子求李李被拒，撂下「新店开张之日就是至真园下坡之时」的狠话，最终看着饭店易主、被老相好接走。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>小小顾</h3><span>和平饭店老门童老顾之孙（配角）</span></div>
+          <p>接班做门童，勤学外语，一门心思想学阿宝「一块变十块」的本事，与阿宝定下「一块钱一门语言」的约定，是这集人情温度的注脚。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>一夜封神的汪小姐</h3>
+          <p>一九九四年一月一日外汇并轨，汇率从五块八跳到八块七，汪小姐的单子一夜由负转正，成为业内传奇——「所有人都看不懂」的豪赌，赢了满盘。</p>
+        </article>
+
+        <article>
+          <h3>「江湖再见」</h3>
+          <p>范总道「后会有期」，汪小姐纠正：「不是的，范总，是江湖再见。」一句话让老江湖眼眶泛泪，带着礼物体面退场。</p>
+        </article>
+
+        <article>
+          <h3>陈珍的坦白</h3>
+          <p>火锅桌前，李李借着酒劲说出深圳的过去：金老板惨死、连夜找强总、A先生给的一切还不回去——「如果你赢了，你就还是宝总；如果输了，下次见面，你就是阿宝。」</p>
+        </article>
+
+        <article>
+          <h3>「你我不是陌生人」</h3>
+          <p>「永远不要相信来自陌生人的善意。」阿宝伸出手，李李几乎要凑上去吻他，最后仍停住跑开——新年的火锅店里，两个不肯认命的人隔着一口气相望。</p>
+        </article>
+
+        <article>
+          <h3>硬骨头的落幕</h3>
+          <p>从「生下来就是硬骨头」到街头拉客，从放下身段求贷到饭店易主，卢美玲的金美玲一路走完下坡路，是黄河路最扎心的群像。</p>
+        </article>
+
+        <article>
+          <h3>「唱戏不如听戏，上台容易下台难」</h3>
+          <p>三姐妹散场、老板娘离席之后，画外音这句点题之语，替一整集的下台戏画上句号。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>至真园的赌注</h3>
+          <p>李李拿至真园为宝总当赌注，楼上包间又被「做证券的」一口气订走三个月——强总的资本正一步步靠近至真园，这座饭店的风光还能撑多久？</p>
+        </article>
+
+        <article>
+          <h3>送还的账本与存折</h3>
+          <p>玲子把夜东京的账本和存折送还给阿宝，一句「你不是说要交保费吗」两清之意已现——夜东京和宝总那笔账，早晚要结。</p>
+        </article>
+
+        <article>
+          <h3>雪芝与十年之约</h3>
+          <p>阿宝心里那个没等到的约定、没见上的最后一面，会在之后的日子里如何反刍？他对李李的那份心软，是否也藏着对雪芝的亏欠。</p>
+        </article>
+
+        <article>
+          <h3>汪小姐的「我晓得」</h3>
+          <p>宝总暗中替汪小姐联系服装厂的事被范总点破，汪小姐心知肚明却不说破——两人之间这段未了的情分，还会在后来的股市风浪里浮上来。</p>
+        </article>
+
+        <article>
+          <h3>卢美玲的狠话</h3>
+          <p>「新店开张的那天，就是你至真园走下坡路的那天。」李李今日风光，这句气话会不会一语成谶？</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 27 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>

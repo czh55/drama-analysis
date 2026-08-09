@@ -1,0 +1,502 @@
+{
+  "slug": "fanhua-e02",
+  "drama": "繁花",
+  "episode": "2",
+  "title": "二十五块八",
+  "subtitle": "1993年春节，宝总被撞的消息传遍黄河路；他预言的414开盘价二十五块八毛八分毫不差，却因金凤凰走漏内幕、发根爆仓身亡而背上一口黑锅——麒麟会下了逐客令，宝总替蔡司令还人情，同时被至真园每天一张的请帖盯上；年初四，他没有去迎财神，走向了从天而降的至真园。",
+  "meta": [
+    "2023 · 年代商战",
+    "胡歌 / 马伊琍 / 唐嫣 / 辛芷蕾",
+    "47 分钟",
+    "12 个场景",
+    "共 30 集"
+  ],
+  "overviewLead": "1993年农历新年，黄河路的炮仗还没点着，宝总被车撞的消息已经传遍大街小巷。可股民们更关心另一件事——他随口报出的「二十五块八毛八」，竟是414的开盘价，分毫不差。一夜之间，有人赚得盆满钵满，有人输得倾家荡产：发根把两千多万的杠杆仓全部押上414，爆仓身亡；金凤凰带着内幕消息跑路，把一口黑锅扣在了宝总头上。",
+  "overview": "1993年元旦刚过，上海股市的认购证行情仍在发酵。旁白里，阿宝讲起自己当年靠三十元一份的认购证翻身——两年后，上海滩最大的股票舰队麒麟会向他抛来橄榄枝，13个席位里空出一个，爷叔的老友让座：「这些位置早晚都是你们年轻人的，但前提是要守规矩。」",
+  "overview2": "第一次列席，爷叔就当众考他：一批外地股票上市，哪只不能碰？阿宝答「除了414都可以」；又问开盘价，阿宝报出「二十五块八毛八」。爷叔说这有两重考验，一是看他沉得住气，二是看他嘴巴牢不牢——内幕要是从嘴里漏出去，赚到的也会全赔进去。",
+  "overview3": "414真的以25.88开盘，集合竞价成交150万股，三千八百万进账。满城都传「金凤凰说宝总和麒麟会合作，目标价40块」。爷叔却下令：不管真的假的，一律不动。金凤凰是黄河路的花魁，号称黄河路邓丽君，背后是蔡司令；她带着全仓冲进414，股价冲到36块就硬生生回落，发根把两千多万的杠杆仓全部套在里面，倾家荡产、命也送了。",
+  "overview4": "麒麟会算准了一切——他们知道金凤凰背后的男人另有其人，却一口咬定那是宝总的「老鼠仓」，把走漏内幕的黑锅扣在宝总头上，还派蔡司令传话：「以后专心做他的外贸好了。」吴医生唱的是瞒天过海，宝总跑了个龙套，没吃到羊肉还惹一身骚。南市小旅馆里，金凤凰与蔡司令两清；当夜蔡司令离开上海，414的真相死无对证。",
+  "overview5": "宝总没死，撞他的是发根的儿子阿四——一个哑巴，喝了酒开他爸的车，还拼了命把发根的尸体从太平间领出来回乡安葬。爷叔替他算账、分钱给胖阿姨她们，劝他「该收的时候收了」；宝总却决定替蔡司令兜底，还他介绍自己进麒麟会的人情。玲子在夜东京念叨：泡饭没白收，宝总别忘了回来。",
+  "overview6": "外贸的另一头，汪小姐把范总稳在黄河路。范总守着外滩27号的大单子不肯回家过年，就怕一回去生意黄汤。宝总托人带话：明天晚上七点，红鹭见。年初四，至真园每天一张的请帖终于递到宝总手上——黄河路都在看这家新店能请动多少大佬。这天晚上，宝总没有去迎财神，却没想到，从天而降的至真园，会是他此后的劫数。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "05:40–07:38",
+      "title": "新年，满城寻宝总",
+      "body": [
+        "新年清晨，上海人互相拜年：「新年快乐，身体健康！」有人上门找爷叔，却被告知他一早就出去了——更急的是，撞宝总的人已经被找到了，人人都在问：到底是谁撞的？",
+        "夜东京里，玲子一边张罗生意一边盘算：「宝总晚上要来啊？他不来，客人就不来。」有人打趣她今天特意去买手链，「财神也回来了」。还有人不依不饶地开玩笑：撞宝总的，该不会是金凤凰的冤魂在催命吧？"
+      ],
+      "quotes": [
+        {
+          "zh": "「新年快乐，身体健康！」",
+          "en": "\"Happy New Year! And good health!\""
+        },
+        {
+          "zh": "「宝总晚上要来啊？他不来，客人就不来。」",
+          "en": "\"Baozong is coming tonight? If he doesn't show, neither will the customers.\""
+        },
+        {
+          "zh": "「撞宝总的人，已经找到了。」",
+          "en": "\"They've found who ran into Baozong.\""
+        },
+        {
+          "zh": "「怪不得今天来买手链了，财神也回来了。」",
+          "en": "\"No wonder she went out and bought a bracelet today — the money god is back.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "07:38–11:51",
+      "title": "认购证与麒麟会",
+      "body": [
+        "旁白回溯：1990年12月，深圳、上海两家证券交易所先后营业。两年后上海率先发行新股认购证，三十元一份，吓退了不少人，销售冷落到最后一天——大户们算清账后连夜抢购，阿宝听到消息连夜赶回上海，赶到西康路时差点关门。",
+        "正是靠着这批认购证，上海滩最大的股票舰队麒麟会向阿宝抛来橄榄枝。13个席位空出一席，爷叔的老友让位：「这些位置早晚都是你们年轻人的，但前提是要守规矩。」第一次列席，爷叔就出题考他：一批外地股票上市，哪些能碰？阿宝答「除了414都可以」；再问开盘价，他报出「二十五块八毛八」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「三十元一份的认购证，吓退了不少人，销售冷落，直到最后一天……」",
+          "en": "\"Thirty yuan for one subscription warrant scared most people off. Sales stayed cold — until the very last day.\""
+        },
+        {
+          "zh": "「这些位置早晚都是你们年轻人的，但是前提是要守规矩。」",
+          "en": "\"These seats will belong to you young people sooner or later — but only if you learn the rules first.\""
+        },
+        {
+          "zh": "「除了414，都可以。所以你觉得414是垃圾股？当然。」",
+          "en": "\"Everything except 414 is fine. — So you think 414 is a junk stock? — Of course.\""
+        },
+        {
+          "zh": "「最少有十块。要我猜……二十五块八毛八。」",
+          "en": "\"At least ten yuan. If I had to guess... twenty-five eighty-eight.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "11:51–14:11",
+      "title": "开盘：二十五块八毛八",
+      "body": [
+        "爷叔点破：这两道题，一是看阿宝沉不沉得住气，二是看他嘴巴牢不牢——内幕一旦漏出去，别人跟风抢筹，股价被拉高，大单反而好出货，那才是真正的偷鸡不成蚀把米。阿宝通过了考验，但「有人没有接受住」。",
+        "414以25.88开盘，远超所有人预期，集合竞价即成交150万股、三千八百万进账，满城「发财喽，赚钞票喽」。与此同时，金凤凰放出风声：宝总和麒麟会合作了，目标价四十块，是吴医生告诉宝总的。爷叔一句话压住所有人：「不管真的假的，我们都不要动。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「二十五块八毛八的开盘价，远超所有人的预期。」",
+          "en": "\"The opening price of twenty-five eighty-eight blew past everyone's expectations.\""
+        },
+        {
+          "zh": "「发财喽，赚钞票喽！」",
+          "en": "\"We're rich! Time to rake in the cash!\""
+        },
+        {
+          "zh": "「集合竞价的时候就已经成交了一百五十万股，光这点，就已经是三千八百万了。」",
+          "en": "\"By the call auction, a million and a half shares had already traded — that alone is thirty-eight million yuan.\""
+        },
+        {
+          "zh": "「不管真的假的，我们都不要动。不管什么价格，一律不要动手。」",
+          "en": "\"True or not, we stay put. Whatever the price, we don't make a move.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "14:11–18:57",
+      "title": "金凤凰与蔡司令的两清",
+      "body": [
+        "旁白介绍金凤凰：黄河路的花魁，号称黄河路邓丽君，追求者无数，有人说阿宝跟她情投意合，她也不否认——但她的英雄究竟是谁，没人知道。事实上，414的股价从来没有到过四十块，一到三十六块就硬生生跌下来，有人说是主力跳船，有人说是走漏了风声。",
+        "发根看到金凤凰全仓杀入，也把一家一当全部冲了进去，不光是他，他身后一帮亲戚朋友全被关在里面。金凤凰知道闯了祸，滑脚跑路。爷叔给阿宝复盘：真正的赢家是麒麟会，他们知道金凤凰背后的男人另有其人，却一口咬定那是宝总的「老鼠仓」——吴医生唱的是瞒天过海，宝总跑了个龙套，没吃到羊肉还惹一身骚。南市的小旅馆里，金凤凰与蔡司令摊牌、两清，当夜蔡司令离开上海，414的真相从此死无对证。"
+      ],
+      "quotes": [
+        {
+          "zh": "「金凤凰是黄河路的花魁，歌唱得好，号称黄河路邓丽君。」",
+          "en": "\"Golden Phoenix was the queen of Huanghe Road — a fine singer, known as the Deng Lijun of Huanghe Road.\""
+        },
+        {
+          "zh": "「414的股价从来没到过四十块，一到三十六块，就硬生生跌了下来。」",
+          "en": "\"414 never reached forty. At thirty-six, it crashed straight down.\""
+        },
+        {
+          "zh": "「真正的赢家是麒麟会。他们知道金凤凰背后的男人另有其人，却一口咬定她是我的老鼠仓。」",
+          "en": "\"The real winners were the Qilin Association. They knew there was another man behind Golden Phoenix, yet they insisted she was my insider position.\""
+        },
+        {
+          "zh": "「吴医生他们唱的是瞒天过海，你呢，跑个龙套，没吃到羊肉，还惹一身骚。」",
+          "en": "\"Dr. Wu and his crowd pulled off the great deception. You were just a bit part — no lamb to eat, and nothing but a stink to show for it.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "19:08–21:30",
+      "title": "阿四撞人与养老钱",
+      "body": [
+        "撞宝总的，是发根的儿子阿四——一个哑巴，开着父亲的车吃醉了酒。律师摇头：神仙难救，除非能证明他不是醉酒驾驶。陶陶后怕：「还好宝总没有死掉，要是他有个三长两短，这小鬼马上就要被枪毙了！」",
+        "宝总一出事，胖阿姨她们就慌了，要结账拿钱回家。爷叔把账算好：年底大盘上来，总算赚了一点，让阿宝把钱拿回去分给大家。阿宝不肯：「胖阿姨她们是胆子小，但这是她们的养老钱。你突然说不合作了，她们会没方向的。」爷叔急了：「你是在害宝总！」"
+      ],
+      "quotes": [
+        {
+          "zh": "「律师说了，神仙难救啊，除非能证明他不是醉酒驾车。」",
+          "en": "\"The lawyer says it's hopeless — unless we can prove he wasn't driving drunk.\""
+        },
+        {
+          "zh": "「还好宝总没有死掉，要是宝总有个三长两短，这小鬼马上就要被枪毙了！」",
+          "en": "\"Thank heaven Baozong survived. If anything had happened to him, that kid would have been executed on the spot.\""
+        },
+        {
+          "zh": "「胖阿姨她们是胆子小，但这是她们的养老钱。你突然说不合作了，她们会没方向的。」",
+          "en": "\"Auntie Pang and the others are just timid — but this is their retirement money. If you suddenly quit, they'll have no direction left.\""
+        },
+        {
+          "zh": "「你是在害宝总！」",
+          "en": "\"You'd be ruining Baozong!\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "21:30–23:28",
+      "title": "宝总的泡饭",
+      "body": [
+        "夜东京里，宝总照例吃他的「宝总泡饭」。玲子说：「过年吃泡饭，但要一年吃到头，有得吃就是福气。」陶陶打趣：「人家吃泡饭，白开水泡泡、萝卜干过过就差不多了，你看他的排场——资产阶级作风！」爷叔讲起爷爷的老规矩：出门前必定吃完泡饭，就几样小菜，叫「满堂红」。",
+        "玩笑过后，爷叔收敛神色：麒麟会是从414出问题到现在一个电话都没来，今天宝总一出来，马上就来找麻烦，「这叫得了便宜还卖乖」。陶陶劝：那就去把话讲清楚。爷叔反问：他去了，另外一个人怎么办？——那个替宝总传话的蔡司令。"
+      ],
+      "quotes": [
+        {
+          "zh": "「过年吃泡饭，但要一年吃到头，有得吃就是福气。」",
+          "en": "\"Congee for the New Year — as long as you can eat it all year long, that's good fortune.\""
+        },
+        {
+          "zh": "「人家吃泡饭，白开水泡泡、萝卜干过过就差不多了，你看他的排场——资产阶级作风！」",
+          "en": "\"For other people, congee means hot water and pickled radish. Look at his spread — pure bourgeois luxury!\""
+        },
+        {
+          "zh": "「从414出问题到现在，一个电话都没来过。今天宝总一出来，马上就过来找麻烦了。这叫得了便宜还卖乖。」",
+          "en": "\"They never made a single call since 414 blew up. The moment Baozong is back, they come to make trouble — biting the hand that fed them.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "23:28–26:10",
+      "title": "黄河路的账",
+      "body": [
+        "黄河路饭店里，玲子张罗着「头香」和「八八八」的规矩，宝总成了今天的第一个客人。说起发根，阿宝替他算账：两千多万现金，还要拉一比三的杠杆，讲好不动手的，他偏要硬撑，一直扛到证券公司强制平仓，彻底完蛋。",
+        "这两千万里，他自己的资金只有几百万，其他都是亲戚朋友、同乡邻居投进来的，大多是最普通的工薪家庭，一晚上输个精光。陶陶替阿宝不值：「可这个阿四也太狠了。他爸炒股输掉了，怎么可以怪你？」众人又说，发根就这么一个儿子，又是哑巴，还拼了命把尸体从太平间领出来连夜回乡安葬——「你帮帮他」。陶陶点破局势：麒麟会要找一个垫背的，不是蔡司令就是宝总，「宝总是不会出卖朋友的」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这个发根胆子也太大了，两千多万现金，还要拉一比三的杠杆。」",
+          "en": "\"Fagen had some nerve — twenty million in cash, plus three-to-one leverage on top.\""
+        },
+        {
+          "zh": "「两千万里面，他自己的资金只有几百万，其他都是亲戚朋友、同乡邻居投进来的。一晚上输个精光，怎么吃得消。」",
+          "en": "\"Of those twenty million, only a few million were his own — the rest came from relatives, friends and neighbors. Losing it all in one night, who could bear that?\""
+        },
+        {
+          "zh": "「可这个阿四也太狠了。他爸炒股输掉了，怎么可以怪你？开着他爸的车，吃醉酒，把你撞了，这算什么道理。」",
+          "en": "\"But that Asii is something else. His father lost the money trading — how can he blame you? He got drunk in his old man's car and ran you down. Where's the logic in that?\""
+        },
+        {
+          "zh": "「我们就是要找一个垫背的，不是蔡司令，就是宝总。宝总是不会出卖朋友的。」",
+          "en": "\"They need a scapegoat — either Commander Cai or Baozong. But Baozong will never sell out a friend.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "26:10–28:18",
+      "title": "三十万现金",
+      "body": [
+        "爷叔拿出自己和小宁波凑的一笔钱，托阿宝带去发根家里——出门没几步，就被车子撞了，如今还得麻烦他跑一趟。爷叔叹道：将来有人讲起和平饭店的故事，肯定要讲到1993年1月1号西藏路上那场车祸，和洒满马路的三十万现金。",
+        "爷叔念着市场的残酷：股市无情，每年要淘汰一批人，85年一起玩股票的，混得好的一只手数得出来，剩下的不是爆仓就是离场。阿宝说：「市场永远是对的，错得只有自己。冲得太快还逃得太慢，肯定是要吃亏的。」爷叔只留下一句：「你听我一句，该收的时候，收了。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「将来有一天，人家要是讲起和平饭店的故事，那是肯定要讲到1993年1月1号，西藏路上的一场车祸，和洒满马路的三十万现金。」",
+          "en": "\"One day, when people tell the story of the Peace Hotel, they'll have to mention the accident on Xizang Road on January 1, 1993 — and the three hundred thousand yuan scattered across the street.\""
+        },
+        {
+          "zh": "「股市无情啊，每年要淘汰一批人。85年跟我们玩股票到现在，混得好的，一只手也数得出来。」",
+          "en": "\"The market has no mercy — it culls people every year. Of all the ones who traded with us since '85, you can count the survivors on one hand.\""
+        },
+        {
+          "zh": "「我倒是相信那句话，市场永远是对的，错得只有自己。」",
+          "en": "\"I believe that saying: the market is always right. It's only ever you who's wrong.\""
+        },
+        {
+          "zh": "「你听我一句，该收的时候，收了。」",
+          "en": "\"Take my advice — when it's time to cash out, cash out.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "28:18–30:32",
+      "title": "麒麟会的逐客令",
+      "body": [
+        "蔡司令替宝总去麒麟会说话：「我倒不是往宝总求情，我就想说句公道话。十三个人，又没有证据，凭什么一口咬定走漏风声的就是宝总呢？」麒麟会不买账：「十三个人里面，只有你跟宝总是新来的。你们来之前，我们从来没出过什么问题。」",
+        "麒麟会下了最后通牒：告诉他，我们不会再跟他合作——宝总不是做外贸的吗？以后就专心做他的外贸好了。陶陶感慨蔡司令千算万算，最后还是被麒麟会算进去了。爷叔却点破另一层：认购证、翻身、靠的都是情面，「错。是人情。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「我倒不是往宝总求情，我就想说句公道话。十三个人，又没有证据，凭什么一口咬定走漏风声的就是宝总呢？」",
+          "en": "\"I'm not begging for Baozong — I just want to say what's fair. Thirteen of you, and no evidence. Why insist it was Baozong who leaked?\""
+        },
+        {
+          "zh": "「十三个人里面，只有你跟宝总是新来的。你们来之前，我们从来没出过什么问题。」",
+          "en": "\"Of the thirteen, only you and Baozong are newcomers. Before you two arrived, we never had a problem.\""
+        },
+        {
+          "zh": "「你跟他说，我们不会再跟他合作。宝总不是做外贸生意的吗？以后他就算专心做他的外贸好了。」",
+          "en": "\"Tell him we won't work with him anymore. Isn't Baozong in the foreign trade business? Let him focus on that from now on.\""
+        },
+        {
+          "zh": "「认购证我肯定认得的，我们翻身不就是靠它的吗？——错。是人情。」",
+          "en": "\"Of course I know the subscription warrants — they're how we turned things around, right? — Wrong. It was favors.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "30:32–33:45",
+      "title": "夜东京的老板娘",
+      "body": [
+        "夜东京忙翻了天，玲子只有两个灶头、十几个位子，嘴上抱怨，手上不停：「人家说做生意，先要准备好三年亏。像你宝总现在赚得盆满钵满，那我们夜东京帮你降降火，这样我们生意常做常有。」",
+        "她戴上新买的手链炫耀：「让投资人在厨房间隔壁吃泡饭，自己买钻石手链，做不出来的。想吃燕鲍翅，黄河路去，我是不拦你的。」末了还不忘敲打宝总：「你老早对付日本人那套，在我身上没用的。」隔壁的至真园已经开张在即，送请帖的人一趟趟找上爷叔：「这是给宝总的。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「我这里一共两个灶头、十几个位子，忙到我要飞起来了。」",
+          "en": "\"I've got two burners and a dozen tables, and I'm busy enough to fly.\""
+        },
+        {
+          "zh": "「人家说做生意，先要准备好三年亏。像你宝总现在赚得盆满钵满，那我们夜东京帮你降降火，这样我们生意常做常有。」",
+          "en": "\"They say in business you'd better be ready to lose money for three years. You, Baozong, are raking it in — so let Yedongjing cool you down a bit. Then we can keep doing business forever.\""
+        },
+        {
+          "zh": "「让投资人在厨房间隔壁吃泡饭，自己买钻石手链，做不出来的。想吃燕鲍翅，黄河路去，我是不拦你的。」",
+          "en": "\"Making investors eat congee next to the kitchen while I buy myself a diamond bracelet — I couldn't live with myself. Craving shark's fin? Take yourself to Huanghe Road, I won't stop you.\""
+        },
+        {
+          "zh": "「我跟你讲，你老早对付日本人那套，在我身上没用的。」",
+          "en": "\"Let me tell you — the tricks you used on the Japanese won't work on me.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "33:45–38:17",
+      "title": "黄河路的人气与汪小姐",
+      "body": [
+        "至真园的请帖一天一张，非要请到宝总不可。黄河路的老江湖们看着眼热：宝总左手做外贸、右手炒股票，走到哪儿，想跟他做生意的人都能从十六铺排到曹家渡——这对新开张的饭店来讲就是人气、火气、生意。至真园的老板娘，看来来头不小。",
+        "人群里冒出新话头：有人传言「宝总眼睛瞎掉了」。范总被汪小姐拉到一旁训话：「你怎么可以跟别人说宝总眼睛瞎掉的？」范总叫屈，说自己过了年就没回家，一直守在黄河路：「我怕我一回去，我的事情就黄汤了。」汪小姐替宝总挡下闲话，旁人猜这单生意肯定是外滩27号的大单子。末了，宝总托人带话：明天晚上七点，红鹭见。"
+      ],
+      "quotes": [
+        {
+          "zh": "「咱们宝总走到什么地方，跟着他屁股后面想要和他做生意的人，可以从十六铺排到曹家渡。」",
+          "en": "\"Wherever Baozong goes, the people queuing to do business with him stretch from Shiliupu all the way to Caojiadu.\""
+        },
+        {
+          "zh": "「这对新开张的饭店来讲代表什么？这就是人气、火气、生意。」",
+          "en": "\"What does that mean for a restaurant just opening? That's traffic. That's heat. That's business.\""
+        },
+        {
+          "zh": "「人生讲的就是一个机会，对吧？你要是抓牢了，青云之上；你要是没抓牢，就回老家当一辈子的小老板。现在我是在人生的十字路口，向前就是黄河路。」",
+          "en": "\"Life is all about a single opportunity. Grab it, and you rise above the clouds; miss it, and you're a small-time boss back home forever. I'm standing at a crossroads now — and straight ahead is Huanghe Road.\""
+        },
+        {
+          "zh": "「我问你，你答应过宝总什么事情？过了年就回来。今天已经是年初四，我已经站在这里了。」",
+          "en": "\"I'm asking you — what did you promise Baozong? That you'd be back after the New Year. Today is already the fourth, and here I am.\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "38:17–44:11",
+      "title": "范总与至真园之夜",
+      "body": [
+        "范总在夜东京跟玲子认了亲：「从今往后，你就是我的亲阿哥，我呢，就是你的亲阿妹。」正热闹着，至真园的人递上请帖：「范总，明天我们至真园开业，请你来吃饭。」玲子眼疾手快，把请帖的事一一记下。",
+        "夜里，玲子等到晚归的宝总，心疼他「从离开厂子做到今天的宝总，真是不容易」。宝总却说，蔡司令是带他进麒麟会的人，眼下有难处，他要帮他兜一兜，「就当还他个人情」。玲子一针见血：「口气不要比力气大。」旁白落定：一九九三年一月二十六日，农历大年初四，宝总没有去迎财神——却没想到，从天而降的至真园，会是他此后的劫数。"
+      ],
+      "quotes": [
+        {
+          "zh": "「范总，明天我们至真园开业，请你来吃饭。」",
+          "en": "\"Boss Fan, Zhizhenyuan opens tomorrow. Please come dine with us.\""
+        },
+        {
+          "zh": "「蔡司令是带我进麒麟会的人。今天有这个情况，他肯定是有难处的，我帮他兜兜算了，就当还他个人情。」",
+          "en": "\"Commander Cai is the one who got me into the Qilin Association. Given what's happened, he must be in a tight spot — I'll take the fall for him. Call it repaying a favor.\""
+        },
+        {
+          "zh": "「口气不要比力气大。」",
+          "en": "\"Don't let your talk get bigger than your strength.\""
+        },
+        {
+          "zh": "「一九九三年一月二十六日，农历大年初四。这个晚上我没有去迎财神……却没想到，从天而降的至真园，会是我的劫数。」",
+          "en": "\"January 26, 1993 — the fourth day of the new year. That night I didn't welcome the god of wealth... never imagining that Zhizhenyuan, falling from the sky, would become my fate.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S2 · 麒麟会 · 爷叔",
+      "title": "位置早晚是你的，前提是先守规矩",
+      "situation": "麒麟会13个席位空出一席，老前辈把位置让给年轻人，但强调「前提是要守规矩」。",
+      "advice": [
+        "机会从来不是凭空掉下来的，先学会遵守规则的人才有资格上桌。",
+        "新人最贵的资本不是胆识，是让人放心你守得住规矩。",
+        "让位是情分，接位是本事，两者缺一不可。"
+      ]
+    },
+    {
+      "tag": "源自 S2–S3 · 爷叔",
+      "title": "内幕消息，过嘴就是祸",
+      "situation": "爷叔当众考阿宝「沉得住气」和「嘴巴牢不牢」，金凤凰正是把消息漏出去，害了自己也害了发根。",
+      "advice": [
+        "靠内幕赚快钱的人，最后都成了内幕的代价。",
+        "管不住嘴的人，赚到的也会连本带利吐回去。",
+        "真话要看场合，真消息要看对象。"
+      ]
+    },
+    {
+      "tag": "源自 S3–S4 · 发根 · 金凤凰",
+      "title": "加杠杆冲全仓，是把自己钉在市场上",
+      "situation": "发根两千多万现金再加一比三杠杆，全仓冲进414，股价回落时爆仓身亡，亲戚朋友的钱也全被套牢。",
+      "advice": [
+        "永远不要用输不起的钱去赌一把大的。",
+        "杠杆放大的是收益，也放大的是归零的速度。",
+        "投资之前先问自己：输光了我还活得下去吗？"
+      ]
+    },
+    {
+      "tag": "源自 S8–S9 · 爷叔 · 宝总",
+      "title": "市场永远是对的，错得只有自己",
+      "situation": "爷叔说股市每年淘汰一批人，阿宝认同「冲得太快还逃得太慢，肯定吃亏」，爷叔劝他「该收的时候收了」。",
+      "advice": [
+        "别跟市场赌气，市场不认情面。",
+        "会买的是徒弟，会卖的是师傅，懂得收手才算赢。",
+        "保住本金，机会永远比风险多。"
+      ]
+    },
+    {
+      "tag": "源自 S9–S12 · 爷叔 · 蔡司令",
+      "title": "翻身靠的从来不是认购证，是人情",
+      "situation": "阿宝靠认购证进麒麟会，靠蔡司令引荐才有今日；如今蔡司令有难，他决定替他兜底还人情。",
+      "advice": [
+        "贵人带你进门，这份情日后要还。",
+        "人情是资产，也是债，账要算清楚。",
+        "替人背锅要掂量：帮一次是人情，帮成习惯就是软肋。"
+      ]
+    },
+    {
+      "tag": "源自 S12 · 玲子 · 宝总",
+      "title": "口气不要比力气大",
+      "situation": "宝总夸口「十三个人加起来也不如我一个人」，玲子一句话戳破：「口气不要比力气大。」",
+      "advice": [
+        "豪言壮语放得出去，也要兑现得了。",
+        "先低头把事情做成了，再抬头说话。",
+        "真正稳的人，不需要先把话说满。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "阿宝 / 宝总",
+      "role": "黄河路商界新贵 · 本集主角（胡歌 饰）",
+      "desc": "刚在车祸里捡回一条命；414开盘价预言分毫不差，却因金凤凰走漏内幕背了黑锅；替蔡司令兜底还人情，把三十万现金托付给发根家，外贸和黄河路的生意都在重新起势。"
+    },
+    {
+      "name": "爷叔",
+      "role": "阿宝的师傅 · 老上海炒股前辈（游本昌 饰）",
+      "desc": "带阿宝进麒麟会并当众出题考验；洞察麒麟会的算计，点破「翻身靠的是人情」；劝阿宝该收就收，并替胖阿姨们算账分钱。"
+    },
+    {
+      "name": "玲子",
+      "role": "夜东京老板娘（马伊琍 饰）",
+      "desc": "为宝总备好泡饭和「八八八」，买钻石手链，嘴上泼辣「口气不要比力气大」，心里却处处向着宝总；还替至真园与范总周旋请帖人情。"
+    },
+    {
+      "name": "蔡司令",
+      "role": "金凤凰的男人 · 引荐宝总进麒麟会的人",
+      "desc": "走漏414内幕、害死发根的黑锅源头；替宝总去麒麟会讨公道反遭逐客令，与金凤凰在旅馆两清后连夜离开上海，从此死无对证。"
+    },
+    {
+      "name": "金凤凰",
+      "role": "黄河路花魁 · 号称「黄河路邓丽君」",
+      "desc": "带着全仓冲进414，走漏风声后又把目标价传得满城风雨；闯祸后躲进南市小旅馆，与蔡司令摊牌两清，从此销声匿迹。"
+    },
+    {
+      "name": "汪小姐",
+      "role": "外贸公司外销员（唐嫣 饰）",
+      "desc": "为宝总辟谣「眼睛瞎了」的传言，替他压住范总；外滩27号的大单子已到关键时刻，帮宝总约下红鹭之会。"
+    },
+    {
+      "name": "范总",
+      "role": "外滩27号大单的杭州老板（郑恺 饰）",
+      "desc": "守着单子不肯回家过年，就怕一回去事情黄汤；在夜东京跟玲子拜成亲兄妹，收到至真园开业请帖，等着明天红鹭见宝总。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "「二十五块八毛八」分毫不差",
+      "desc": "414上市前，阿宝当众报出开盘价二十五块八毛八，结果一字不差——新人第一次列席麒麟会，一开口就震住全场。"
+    },
+    {
+      "title": "爷叔的两道考验",
+      "desc": "「一是看你是不是沉得住气，二是看你嘴巴牢不牢。」爷叔把股市的生死之道拆成两句大白话，也为414的内幕风波埋下伏笔。"
+    },
+    {
+      "title": "金凤凰与蔡司令的旅馆两清",
+      "desc": "南市小旅馆里，债主与旧情人最后一夜：「我对不起发根，对不起阿宝，对不起我们家里，但我绝对没有对不起你。」天亮后，蔡司令离开上海，真相死无对证。"
+    },
+    {
+      "title": "麒麟会的逐客令",
+      "desc": "「以后专心做他的外贸好了。」麒麟会一句话，把宝总从股市推到外贸的战场上——也把黄河路推到了新的风口。"
+    },
+    {
+      "title": "至真园每天一张请帖",
+      "desc": "至真园的老板娘一天一张请帖，非要请到宝总不可；大年初四开业之夜，宝总没去迎财神，却走进这家从天而降的饭店。"
+    },
+    {
+      "title": "汪小姐为宝总撑场面",
+      "desc": "「你怎么可以跟别人说宝总眼睛瞎掉的？」黄河路流言四起，汪小姐一声呵斥替他挡下所有闲话——外滩27号的大单，就攥在她手里。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "从天而降的至真园",
+      "desc": "至真园请帖一天一张，老板娘的来头与心机都在黄河路传开；年初四之夜，宝总走进至真园——李李这个人，才刚刚登场。"
+    },
+    {
+      "title": "蔡司令的人情债",
+      "desc": "宝总替蔡司令兜底：「就当还他个人情。」蔡司令已远走高飞，这桩人情会不会在某天以另一种方式找上门来？"
+    },
+    {
+      "title": "外滩27号的大单子",
+      "desc": "汪小姐为范总的单子守到年初四，宝总约下红鹭七点之约——外贸生意就此起步，汪小姐与宝总的缘分也由此展开。"
+    },
+    {
+      "title": "玲子的账",
+      "desc": "玲子花一万块买钻石手链、把宝总的账记在夜东京——她嘴上说「对付日本人那套对我没用」，心里那本账，却越算越糊涂。"
+    },
+    {
+      "title": "哑巴阿四",
+      "desc": "撞宝总的阿四既是凶手，也是把父亲尸体领回家乡的孝子；宝总答应帮他，律师却说「神仙难救」——这个哑巴的命运，还没完。"
+    }
+  ]
+}

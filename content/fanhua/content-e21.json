@@ -1,0 +1,455 @@
+{
+  "slug": "fanhua-e21",
+  "drama": "繁花",
+  "episode": "21",
+  "title": "宝瀛大战",
+  "subtitle": "一九九三年中秋，中国证券史上第一宗公开收购案「宝瀛大战」打响：宝总高位清仓、强总留十万股做纪念，而李李被公安局请去协助调查。",
+  "meta": [
+    "2023 · 年代商战",
+    "胡歌 / 马伊琍 / 唐嫣 / 辛芷蕾",
+    "45 分钟",
+    "11 个场景",
+    "共 30 集"
+  ],
+  "overviewLead": "一九九三年中秋节前一天，中国证券市场的第一宗收购兼并案——宝瀛大战，骤然打响。宝总与蔡司令分仓建仓，在和平饭店遥控着交易厅里的每一声喊价；深圳宝龙集团突然举牌收购瀛洲实业，601 从十几块一路冲到四十二块。有人一夜暴富，有人追高接盘。就在宝总高位清仓、强总留下十万股「做纪念」的时候，调查的阴影已经悄悄落到了至真园——和它的老板娘李李身上。",
+  "overview": "第 21 集，一九九三年中秋前夜的「宝瀛大战」。\n\n宝总与蔡司令等定下战策：抛掉其他三支股票，集中所有资金打 601。为避免引起注意，两人分仓操作，宝总在和平饭店远程给主指令，蔡司令、庞阿姨守在营业部，用「拖拉机」账户把子账号挂在一个主账号下面，重仓做得无声无息。而 601 却突然被上交所宣布停牌。",
+  "overview2": "停牌当天，深圳宝龙科技发布公告：已持有瀛洲实业流通在外的百分之五股份，用真金白银买的股票，「目的是优化公司的资产质量，做大做强」。宝龙代表放出豪言：这是中国股市第一个收购兼并案例，将来一定会载入史册。宝总心里一沉——他刚刚追高买进的 601，正撞在枪口上。复牌后他一路追打，最高以十九块八毛九打进八十万股，股价却掉头下滑，收盘只有十五块六毛八。",
+  "overview3": "宝总却在饭局上立下誓言：「这个股票我会握在手里，因为它绝对不止这一波涨势。」有人问捂到什么时候，他说二十五块，「吃完饭就知道了」。至真园里，李李端上一盘干炒牛河——一份卖四十块钱。旁白点破：李李用最巧妙的方式，告诉了他自己的价位。宝总心领神会，次日果断补仓。",
+  "overview4": "瀛洲实业随即公告反收购：宝龙关联公司已持股百分之十六，行为违法，「本公司宣布予以反击，决定反收购」。上海上市公司联合声明支持，601 应声越上二十五块。强总在电话里下达指令：「今天以派发为主，你们护盘，我们出货。」上海股市的人气被彻底点燃，瀛洲日成交量占了大盘的六成，散户透支追进，连警察都管不住——「什么合不合法，股市上的钱，谁有本事谁挣。」",
+  "overview5": "601 一路冲到四十二块，宝总见好就收、清仓离场；强总也走掉了八成的仓位，只留十万股「做纪念，永远不要抛了」，还叮嘱「股价要给市场留空间，不要马上塌下来」。瀛洲实业向法院诉请宣告宝龙收购无效，股价随即回落。夜里，黄河路依然推杯换盏，至真园的服务员们议论着那个「没有老板，自己也能当老板娘」的李李。",
+  "overview6": "风波未平，调查已至。上海市公安局来到至真园，依法传唤李李协助调查宝瀛收购案中涉嫌股价操纵一事。领班稳住人心：「老板娘在不在，要一个样子。」审讯室里，李李从容应答：「你应该去问举牌的人，股价走高是市场决定的。」二十四小时，至真园灯火未熄——这场大战的余波，才刚刚开始。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "03:20–05:20",
+      "title": "中秋前夜·宝瀛开战",
+      "body": [
+        "旁白响起：一九九三年中秋节前一天，中国证券市场的第一宗兼并案——宝瀛大战正式展开。和平饭店里，宝总与蔡司令定下战策：「接下来，我们抛掉其他三支股票，集中所有资金，打 601。」",
+        "为避免引起注意，两人决定分仓：宝总在和平饭店远程给主指令，蔡司令、庞阿姨等守在营业部操作。根据当年的规则，一个主账号下面可以挂很多子账号，也就是所谓的「拖拉机」——这套玩法，让重仓做得更加隐蔽。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我们施展身手的时候到了。」",
+          "en": "\"The time has come for us to make our move.\""
+        },
+        {
+          "zh": "「接下来，我们抛掉其他三支股票，集中所有资金，打 601。」",
+          "en": "\"Next, we dump the other three stocks and pour every yuan into 601.\""
+        },
+        {
+          "zh": "「根据当年的规则，一个主账号下面可以挂很多子账号，也就是所谓的『拖拉机』。」",
+          "en": "\"Under the rules back then, one main account could carry many sub-accounts underneath — the so-called 'tractors'.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "05:20–07:30",
+      "title": "停牌·举牌·复牌",
+      "body": [
+        "从九月二十七日起，601 股价涨幅纹丝不动；到九月三十中秋节中午收盘，601 突然停牌。上交所公告：因出现异常波动，为维护市场的公平公正，根据交易规则暂停 601 交易。",
+        "紧接着，深圳宝龙科技发布公告：已持有瀛洲实业流通在外的百分之五股份，称用真金白银收购是为了优化资产质量、做大做强这家公司。宝龙代表宣称，这是中国股市第一个收购兼并案例，将来一定会载入史册。宝总隔着屏幕，心里一沉。",
+        "下午复牌后，宝总从三个营业部抛掉其他筹码，从十六块一路追打 601，以当天最高价十九块八毛九打进八十万股；谁知买进之后股价一路下滑，收盘只有十五块六毛八。"
+      ],
+      "quotes": [
+        {
+          "zh": "「由于出现异常波动，为了市场的公平公正，上交所根据交易规则，暂停 601 的交易。」",
+          "en": "\"Due to abnormal fluctuations, and for the sake of a fair and orderly market, the Shanghai Stock Exchange suspended trading in 601 under its trading rules.\""
+        },
+        {
+          "zh": "「这次收购行动，是中国股市第一个收购兼并案例。我相信，将来一定会载入史册。」",
+          "en": "\"This acquisition is the first takeover case in China's stock market. I believe it will go down in history.\""
+        },
+        {
+          "zh": "「中国股市已经进入一个全新的时代。我们每个人，都要有更大的胸怀，去迎接新的挑战。」",
+          "en": "\"China's stock market has entered a brand-new era. Every one of us must open our hearts wider to embrace new challenges.\""
+        },
+        {
+          "zh": "「谁知道我们买进之后，股价一直下滑，收盘十五块六毛八。」",
+          "en": "\"But after we bought in, the price kept sliding and closed at 15.68.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "07:30–10:30",
+      "title": "利益捆绑与一碗牛河",
+      "body": [
+        "宝总与搭档定下攻守同盟：「我提供资金，你提供消息，我们的利益捆绑在一起。万一亏了呢？亏了算我的。」谈起人情往来，他笑道：「人情就是钱来钱去的，就跟刷墙一样，越刷越厚。」",
+        "至真园饭局上，有人问他 601 要捂到什么时候，宝总答「二十五块」，又说「吃完饭就知道了」。李李端上一盘干炒牛河——一份卖四十块钱。旁白点破：李李用最巧妙的方式，告诉了他自己的价位。宝总心领神会，次日果断补仓。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我提供资金，你提供消息，我们的利益捆绑在一起。万一亏了呢？亏了算我的。」",
+          "en": "\"I put up the capital and you provide the intel — our interests are bound together. What if we lose? If we lose, it's on me.\""
+        },
+        {
+          "zh": "「人情呢，就是钱来钱去的，就跟刷墙一样，越刷越厚。」",
+          "en": "\"Favors are money flowing back and forth — like painting a wall, the more layers you add, the deeper it gets.\""
+        },
+        {
+          "zh": "「这个股票我会握在手里，因为我绝对相信，它不止这一波涨势。」",
+          "en": "\"I'm holding this stock, because I'm absolutely convinced it's worth more than this one rally.\""
+        },
+        {
+          "zh": "「至真园的干炒牛河，一份卖四十块钱。」",
+          "en": "\"At Zhizhen Garden, a plate of dry-fried beef noodles sells for forty yuan.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "10:30–14:10",
+      "title": "反收购·冲破二十五",
+      "body": [
+        "瀛洲实业发布公告：深圳宝龙在二级市场大量买入本公司股票，关联公司已持股百分之十六，其行为违法；「对于这种恶意收购行为，本公司宣布予以反击，决定反收购。」上海上市公司随后联合声明支持，刹那间，601 越上二十五块。",
+        "强总在电话里下达指令：「今天以派发为主，你们护盘，我们出货。」他给操盘手们划下铁律：「资金，只有在涨势中才能撤出来。」上海股市的人气被彻底点燃，瀛洲日成交量占了大盘的百分之六十——这种行情，是股市历史上从未有过的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「对于这种恶意收购行为，本公司宣布予以反击，决定反收购。」",
+          "en": "\"In response to this hostile takeover, the company announces it will fight back and launch a counter-acquisition.\""
+        },
+        {
+          "zh": "「强总有指示，今天以派发为主。你们护盘，我们出货。」",
+          "en": "\"Director Qiang's order for today: distribute. You defend the price, we dump the shares.\""
+        },
+        {
+          "zh": "「资金，只有在涨势中才能撤出来。」",
+          "en": "\"Capital can only be withdrawn while the trend is still rising.\""
+        },
+        {
+          "zh": "「瀛洲的日成交量，占了大盘的百分之六十。这种行情，是股市历史上从未有过的。」",
+          "en": "\"Yingzhou's daily volume was sixty percent of the whole market's — a rally never seen before in stock-market history.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "14:30–18:00",
+      "title": "谁有本事谁挣钱",
+      "body": [
+        "营业部里人头攒动，散户们追涨瀛洲，喊着一句句「就是为了瀛洲」；黄河路的饭桌上，人人都在谈股票。「警察不是来过了吗？拿他们一点办法都没有。」",
+        "有人求大户「带带我们」，大户摆手：「带你们做可以，但这事情真的不能乱来——涨的时候风光无限，跌的时候，跳楼的都有。」另一头，至真园门口停着一辆崭新的轿车，众人围着车合影留念，一片喜气洋洋。"
+      ],
+      "quotes": [
+        {
+          "zh": "「什么合不合法，股市上的钱，谁有本事谁挣。」",
+          "en": "\"Legal or not — on this market, whoever's got the guts takes the money.\""
+        },
+        {
+          "zh": "「这种事情真的不能乱来，涨的时候风光无限，跌的时候，跳楼的都有。」",
+          "en": "\"This is not something to mess with. When it rises, it's all glory; when it crashes, people jump off buildings.\""
+        },
+        {
+          "zh": "「警察不是来过了吗？拿他们一点办法都没有。」",
+          "en": "\"The police already came. There's nothing they can do about it.\""
+        },
+        {
+          "zh": "「老板娘，我们合张影吧！」",
+          "en": "\"Boss lady, let's take a photo together!\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "18:00–19:40",
+      "title": "二十万的诱惑",
+      "body": [
+        "至真园的店里，有人拽着领班小声问：「这里面多少钱？」「二十万。」「哪来这么多钱？」「别人给我的，叫我拿来炒股。」那人还补了一句：「他说了，赔了算他的。」",
+        "领班连连摆手：「这钱来路不明，而且这么多钱，我帮你不是害你吗？」对方不以为然：「我也是跟着老板娘做的，老板娘的朋友，都是大户里的大户。」她转身走了，留下众人面面相觑——有人嘀咕：这钱，怕不是跟金美林的老板有关系吧？"
+      ],
+      "quotes": [
+        {
+          "zh": "「这里面多少钱啊？」「二十万。」「哪来这么多钱啊？」「别人给我的，叫我拿来炒股。」",
+          "en": "\"How much is in here?\" \"Two hundred thousand.\" \"Where did you get so much money?\" \"Someone gave it to me and told me to play the market with it.\""
+        },
+        {
+          "zh": "「这钱来路不明，而且这么多钱，我帮你不是害你吗？」",
+          "en": "\"This money has no clear source, and it's that much. Helping you would be hurting you.\""
+        },
+        {
+          "zh": "「我也是跟着老板娘做的，老板娘的朋友，都是大户里的大户。」",
+          "en": "\"I just follow the boss lady around — her friends are the biggest fish among the big players.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "20:17–26:00",
+      "title": "42 块的天花板",
+      "body": [
+        "第二天，601 跳空高开，一路冲到四十二块，成交量急剧放大。瀛洲实业同时宣布：宝龙行为系恶意收购，已向法院诉请宣告收购无效。交易厅里，「四十二块」的喊价声此起彼伏。",
+        "宝总见好就收，把仓位全部卖出，起身离场；强总这边同样收到指令：仓位已走掉百分之八十，「继续抛。记住，最后账户留十万股做纪念，永远不要抛了。」他还叮嘱：「剩下的筹码抛掉之后，股价要给市场留空间，不要马上塌下来，水下面太难看。」收盘前，瀛洲跌了百分之五，停在三十七块七毛八。"
+      ],
+      "quotes": [
+        {
+          "zh": "「当日股价跳空高开，一路冲到四十二块，成交量也急剧放大。」",
+          "en": "\"The stock gapped up that day and surged all the way to forty-two yuan on sharply expanding volume.\""
+        },
+        {
+          "zh": "「咱们的仓位已经走掉百分之八十了。继续抛。记住，最后账户留十万股做纪念，永远不要抛了。」",
+          "en": "\"We've already unloaded eighty percent of the position. Keep selling. And remember — leave a hundred thousand shares in the final account as a keepsake. Never sell them.\""
+        },
+        {
+          "zh": "「剩下的筹码抛掉之后，股价要给市场留空间，不要马上塌下来，水下面太难看。」",
+          "en": "\"Once we dump the rest, leave room in the price. Don't let it collapse right away — it looks ugly under the water.\""
+        },
+        {
+          "zh": "「买进卖出的比例，配置在九比一。卖出要坚决。」",
+          "en": "\"Set the buy-to-sell ratio at nine to one. When you sell, be resolute.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "26:00–29:30",
+      "title": "老板娘梦与调查",
+      "body": [
+        "入夜，黄河路的酒席还在继续，众人谈股论金。金美林的角落里，有人提醒：「金老板是赌徒，不是什么好人。」而至真园的服务员们则围着李李的话题叽叽喳喳：不是找了老板就可以做老板娘的，「我们老板娘李李，没有老板，有本事自己也可以做老板娘。」",
+        "旁白响起：宝瀛事件是中国证券市场第一宗公开收购案例。虽然收购与兼并，在全世界证券市场内是正常商业行为，但对只有两岁多的 A 股，还是第一次。其中反映出的信息披露不规范和超比例持仓问题，引起了管理部门的高度重视。调查行动，迅速展开。"
+      ],
+      "quotes": [
+        {
+          "zh": "「金老板是赌徒，不是什么好人。」",
+          "en": "\"Boss Jin is a gambler — not a good man.\""
+        },
+        {
+          "zh": "「不是找了老板就可以做老板娘的。我们老板娘李李，没有老板，有本事自己也可以做老板娘。」",
+          "en": "\"Finding a man doesn't make you a boss lady. Our boss Li Li has no husband — if you've got the guts, you can be your own boss.\""
+        },
+        {
+          "zh": "「对只有两岁多的 A 股，还是第一次。其中反映出的信息披露不规范和超比例持仓问题，引起了管理部门的高度重视。调查行动迅速展开。」",
+          "en": "\"For an A-share market barely two years old, it was a first. The improper disclosures and over-limit holdings it exposed drew serious regulatory attention. An investigation was launched at once.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "29:30–33:00",
+      "title": "夜东京之约·警察上门",
+      "body": [
+        "宝总打电话给玲子：「今天要开业了，夜东京准备得怎么样了？有信心接受我的检验吗？」玲子寸步不让：「就怕你挑不出毛病。」两人约好晚上六点半，楼上私人的位置给他留着。",
+        "宝总来到至真园，还没坐稳，服务员便脸色发白地跑来：「老板娘，有警察找你！」上海市公安局的民警出示证件：「你是李李吧？我们正在依法执行公务，请你配合我们到局里协助调查。」李李从容应道：「麻烦几位，咱们借一步说话。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「今天要开业了，夜东京准备得怎么样了？有信心接受我的检验吗？」",
+          "en": "\"It opens today — how's Night Tokyo coming along? Confident enough to pass my inspection?\""
+        },
+        {
+          "zh": "「就怕你挑不出毛病。」",
+          "en": "\"I'm afraid you won't find a single flaw.\""
+        },
+        {
+          "zh": "「我们是上海市公安局的。你是李李吧？我们正在依法执行公务，请你配合我们到局里协助调查。」",
+          "en": "\"We're from the Shanghai Public Security Bureau. You're Li Li? We're carrying out official duties — please come with us to the station to assist the investigation.\""
+        },
+        {
+          "zh": "「只要你配合调查，如实陈述相关事实，你就可以在二十四小时之内离开。」",
+          "en": "\"Cooperate with the investigation and tell the truth, and you can leave within twenty-four hours.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "33:00–35:30",
+      "title": "老板娘不在，要一个样子",
+      "body": [
+        "李李被带走，至真园里人心惶惶。领班稳住阵脚，安排人手：「从现在开始，你来负责前台结账，以及安抚客人的情绪。」有人担心明天的工资会不会泡汤，领班只回了一句：「明天的事情明天再说，先把今天的事情做好。老板娘在不在，要一个样子。」",
+        "黄河路的消息也传到了宝总耳朵里。他一边托人打探，一边照常应酬——宝瀛大战的赢家，此刻心里却隐隐不安：这场胜利，究竟是谁的？"
+      ],
+      "quotes": [
+        {
+          "zh": "「从现在开始，你来负责前台结账，以及安抚客人的情绪。」",
+          "en": "\"From now on, you handle the front counter and keep the guests calm.\""
+        },
+        {
+          "zh": "「明天的事情明天再说，先把今天的事情做好。老板娘在不在，要一个样子。」",
+          "en": "\"We'll deal with tomorrow when it comes. First, do today's job right. Whether the boss lady is here or not, the place has to look the same.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "35:30–44:00",
+      "title": "审讯室里的李李",
+      "body": [
+        "上海市公安局里，民警按程序为李李做笔录。「你们炒瀛洲股票的资金，从何而来？」李李答：「据我所知，是深圳宝龙科技买的瀛洲股票吧。你应该去问他们。」",
+        "民警追问：「法律规定，持股百分之五就要举牌公告。你们一举牌，已经到了百分之十六，难道不是操纵股价吗？」李李不卑不亢：「我说过了，你问错对象了。你应该去问举牌的人。股价走高，是市场决定的。」",
+        "当民警提到深圳操盘手们的据点就在至真园时，李李反问：「如果是我们饭店经营有违规的事情，那么工商局会找我；如果是价格有问题，那物价局也会处罚我。开饭店，跟你们调查的本案有关吗？」夜色里，至真园二楼的灯还亮着——「七点了，二楼看来还来不及了」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「据我所知，是深圳宝龙科技买的瀛洲股票吧。你应该去问他们。」",
+          "en": "\"As far as I know, it was Shenzhen Baolong Technology that bought the Yingzhou stock. You should ask them.\""
+        },
+        {
+          "zh": "「法律规定，持股百分之五就要举牌公告。你们一举牌，已经到了百分之十六，难道不是操纵股价吗？」",
+          "en": "\"The law requires disclosure at five percent. By the time you disclosed, you were already at sixteen — isn't that market manipulation?\""
+        },
+        {
+          "zh": "「我说过了，你问错对象了。你应该去问举牌的人。股价走高，是市场决定的。」",
+          "en": "\"I've told you — you're asking the wrong person. Ask the ones who made the disclosure. The price rose because the market decided it.\""
+        },
+        {
+          "zh": "「如果是我们饭店经营有违规的事情，那么工商局会找我；如果是价格有问题，那物价局也会处罚我。开饭店，跟你们调查的本案有关吗？」",
+          "en": "\"If our restaurant broke any business rules, the industry bureau would come for me; if our prices were wrong, the pricing authority would fine me. What does running a restaurant have to do with your case?\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1–S2 · 宝总/蔡司令",
+      "title": "第一次吃到甜头，也要先弄清规则",
+      "situation": "宝瀛大战是中国股市第一宗收购案，连「收购」是什么，大部分上海人都没听过，众人就跟着冲了进去。",
+      "advice": [
+        "进入全新领域前，先把规则吃透，别把别人的「第一次」当成自己的机会。",
+        "「就当交学费了」——学费可以交，但别把身家性命都押上去。",
+        "越是大行情，越要留一分清醒：你看到的利好，往往正是别人的出货。"
+      ]
+    },
+    {
+      "tag": "源自 S3 · 宝总",
+      "title": "利益要捆绑，丑话说在前",
+      "situation": "宝总跟搭档约定：他出资金、对方出消息，利润提成，亏了算他的。",
+      "advice": [
+        "合作先讲清分成与兜底，敢把「亏了算我的」说出口，才能换来人家的掏心掏肺。",
+        "把利益关系摆上台面，比藏在人情背后更长久。",
+        "义气不是不谈钱，而是把钱算得明明白白，还愿意共担风险。"
+      ]
+    },
+    {
+      "tag": "源自 S3 · 李李",
+      "title": "一碗牛河的价值，在于听懂暗语的人",
+      "situation": "李李不直接报目标价，用「干炒牛河一份卖四十块钱」暗示 601 要涨到四十，宝总一听就懂。",
+      "advice": [
+        "真正重要的信息，往往不会写在明面上，要靠默契去接。",
+        "饭桌上的闲话，也许就是台面下的行情——看你怎么听。",
+        "点到为止是情分，能接住的人是知己。"
+      ]
+    },
+    {
+      "tag": "源自 S4–S7 · 强总",
+      "title": "会买的是徒弟，会卖的才是师傅",
+      "situation": "601 冲到四十二块，宝总和强总都在高位清仓，强总还留十万股「做纪念」，叮嘱给市场留余地。",
+      "advice": [
+        "目标价到了就要执行卖出纪律，别贪最后一块铜板。",
+        "全身而退，比赢光最后一分钱更重要。",
+        "给市场留余地，也是给自己留后路。"
+      ]
+    },
+    {
+      "tag": "源自 S5–S6 · 散户",
+      "title": "「谁有本事谁挣」的赌场，钱最烫手",
+      "situation": "人人都在追涨瀛洲，二十万来路不明的钱也想进场，有经验的领班却连连摆手。",
+      "advice": [
+        "听到「稳赚」两个字，第一反应应该是警惕。",
+        "来路不明的钱不要碰，帮人赌钱等于害人。",
+        "涨得越疯，跌下来越疼——「跳楼的都有」不是段子。"
+      ]
+    },
+    {
+      "tag": "源自 S9–S11 · 李李",
+      "title": "底气，来自没把柄可抓的本分",
+      "situation": "被警方传唤调查股价操纵，李李一句「开饭店跟本案有什么关系」，把问题轻轻拨了回去。",
+      "advice": [
+        "安分守己，是遇到风浪时最硬的后台。",
+        "越是被追问，越要讲事实、问依据，把球踢回给对方。",
+        "稳住自己，比急着解释更有力量。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "宝总（阿宝）",
+      "role": "黄河路商界大佬 · 宝瀛大战操盘者（胡歌 饰）",
+      "desc": "集中资金重仓 601，以「资金换消息」拉拢搭档，听懂了李李的牛河暗语，在 42 块高位清仓全身而退；李李被传唤后，他表面照常，心里不安。"
+    },
+    {
+      "name": "李李",
+      "role": "至真园老板娘 · 与深圳操盘圈渊源极深（辛芷蕾 饰）",
+      "desc": "用一盘四十块的干炒牛河向宝总透露目标价位；因操盘手们常以至真园为据点，被公安局依法传唤，审讯中不卑不亢、四两拨千斤。"
+    },
+    {
+      "name": "强总（强穆杰）",
+      "role": "深圳宝龙集团操盘手 · 收购战的操盘者（黄觉 饰）",
+      "desc": "电话遥控「你们护盘，我们出货」；拉高到 42 块后走掉八成仓位，留十万股「做纪念，永远不要抛了」，给市场留足了余地。"
+    },
+    {
+      "name": "玲子",
+      "role": "夜东京老板娘 · 宝总的旧相识（马伊琍 饰）",
+      "desc": "夜东京开业在即，在电话里跟宝总约好六点半让他来「检验」——「就怕你挑不出毛病」，股市的风暴之外，两人的约定还在继续。"
+    },
+    {
+      "name": "蔡司令",
+      "role": "宝总在股市的搭档 · 坐镇营业部（配角）",
+      "desc": "与宝总分仓操作 601，负责营业部下单与联络庞阿姨等跟单大户，是宝瀛大战里冲锋在前的执行者。"
+    },
+    {
+      "name": "庞阿姨",
+      "role": "营业部的跟单大户 · 蔡司令的帮手（配角）",
+      "desc": "与蔡司令分工守在营业部，用「拖拉机」账户化整为零，把重仓做得无声无息。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "宝瀛大战：中国股市第一宗收购案",
+      "desc": "1993 年中秋前，收购与兼并第一次出现在只有两岁多的 A 股市场。旁白与交易厅的画面交织，时代感扑面而来。"
+    },
+    {
+      "title": "一碗干炒牛河的价值",
+      "desc": "李李用「一份卖四十块钱」的干炒牛河，不动声色地告诉宝总 601 的目标价。饭桌上的暗语，比任何内幕都动人。"
+    },
+    {
+      "title": "交易厅里的「四十二块」",
+      "desc": "601 一路冲到四十二块，喊价声此起彼伏；宝总见好就收、清仓离场，强总留十万股「做纪念」——两个赢家的撤退，一样利落。"
+    },
+    {
+      "title": "警察传唤李李",
+      "desc": "正当至真园灯红酒绿，上海市公安局的民警出现在门口。老板娘被请去协助调查，黄河路的空气一瞬间凝固。"
+    },
+    {
+      "title": "「老板娘在不在，要一个样子」",
+      "desc": "李李被带走，领班安排代班，一句「明天的事情明天再说，先把今天的事情做好」稳住了至真园所有人的心。"
+    },
+    {
+      "title": "审讯室里的李李",
+      "desc": "面对「资金从何而来」「是否操纵股价」的连环追问，李李以「你应该去问举牌的人」四两拨千斤，气场全开。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "强总留下十万股",
+      "desc": "强总清仓前特意留十万股「做纪念，永远不要抛了」——这十万股，会在日后成为翻动行情的暗棋吗？"
+    },
+    {
+      "title": "李李的深圳旧事",
+      "desc": "李李与深圳操盘圈的关系，让警方盯上了至真园。她的过去（A 先生、深圳股市），正随着这场调查一点点浮出水面。"
+    },
+    {
+      "title": "宝总的赢家之位",
+      "desc": "宝总在 42 块清仓、全身而退，但李李被传唤、监管调查展开——这局棋的赢家是谁，还远未落定。"
+    },
+    {
+      "title": "夜东京六点半之约",
+      "desc": "宝总答应晚上六点半去检验新开张的夜东京，玲子备好了楼上私人的位置——这份约定，会不会被股市的风暴打断？"
+    },
+    {
+      "title": "金美林的赌局",
+      "desc": "有人拿着来路不明的二十万想进场，有人提醒「金老板是赌徒」——黄河路的另一间饭店，正在滑向另一场赌局。"
+    }
+  ]
+}

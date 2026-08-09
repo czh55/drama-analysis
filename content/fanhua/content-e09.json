@@ -1,0 +1,466 @@
+{
+  "slug": "fanhua-e09",
+  "drama": "繁花",
+  "episode": "9",
+  "title": "树大招风",
+  "subtitle": "闪回里，小宁波走投无路跳河轻生，宝总与汪小姐接下没人敢接的试单，定下革命友情；黄河路上，李李的至真园被老板娘们断供围剿，宝总借爷叔的人情请来香港名厨，一场黄河路保卫战就此展开",
+  "meta": [
+    "2023 · 年代商战",
+    "胡歌 / 马伊琍 / 唐嫣 / 辛芷蕾",
+    "46 分钟",
+    "11 个场景",
+    "共 30 集"
+  ],
+  "overviewLead": "第 9 集，两条线在黄河路拧成一股。闪回里，走投无路的小宁波跳河轻生，被宝总救起——三百个工人的年关，逼出一张没人敢接的试单，也定下了宝总与汪小姐的「革命友情」。镜头切回 1993 年，李李的至真园开张三个月，就被卢美琳领头的老板娘们断了澳龙、封了大王蛇、挖空了后厨。宝总一边喝着玲子的泡饭，一边替李李摆下棋局：爷叔翻出泛黄的记事本借来香港名厨，大王蛇准时进门——1993 年的黄河路，玩的就是心跳。",
+  "overview": "弄堂口，小宁波支着摊子甩卖「出口转内销」的库存，一见到宝总就求救——厂里的绣花机过了报废期，针头断在服装里，再没订单，三百多工人就得饿着过年。宝总接下这张没人敢接的试单：进口日本绣花机的钱他出，全厂一年的工资抵头一年的租金，再用「机器归厂、循环信用证一年」的双保险压住风险，自贴三万美金差价只求先拿下返单。厂长服了，问这手笔谁教的，宝总说：我师父。",
+  "overview2": "试单成功，小宁波千恩万谢回乡过年。宝总约汪小姐元旦去和平饭店，汪小姐却先立规矩：「谈生意归谈生意，谈朋友归谈朋友，要清清楚楚。」她立下四年后当科长的志气，宝总说目标从来都不遥远，剩下的交给时间。那张试单，敲开了他外贸生意的大门，也奠定了和汪小姐的革命友情。新年钟声里，汪小姐那辆开去诸暨救宝总撞废的车再也动不了了，宝总要送她一辆凯迪拉克，她一口回绝：「这辆车陪我去救过宝总，它就是我心里的凯迪拉克。」",
+  "overview3": "黄河路上，至真园开张三个月，风头正劲。李李却找上门来：鱼缸里的鱼死了大半，胖主厨闹着头晕要罢工，唐老板的两百只澳龙到不了货，东星斑、象拔蚌、大王蛇全线断供——只要说是至真园要的，全部没有。宝总端着一碗泡饭点破她：「树大招风，你生意做得越好，别人越没有生意可做。你的后厨是挖来的，自然也留不住。」他给李李出了个狠招：当场解散后厨，赌日日鲜根本不敢接——换后厨只是小菜，大菜还在后面。",
+  "overview4": "李李依计辞退胖主厨，把宝总那句「今晚至真园能不能开张，就看你了」当成救命稻草。另一边，爷叔翻出压箱底的记事本，拨通发小贾会长的电话——香港贸易商会的老板们正带着私人厨师回沪探亲，人手当场到位。至真园这边，订座电话被打爆，李李让敏敏逢人便讲：今晚推出特色菜，是宝总请的香港名厨。卢美琳们提前订好包间，就等着看这出戏怎么收场。",
+  "overview5": "香港丁厨的三道拿手菜让宝总吃出「没得顶」三个字，厨师有了，最后就差大王蛇。卢美琳却领着一帮老板娘杀到夜东京，逼玲子交出宝总——「黄河路的事情我们自己会解决，叫他不要插手。」玲子一面打太极，一面收了两千块「找人费」，还当众表态打赢「黄河路保卫战」。转过头来，她却跟宝总翻了脸：「你宝总在黄河路上处处留情，到我这里来给我气受！」嘴上说着「宁愿被蛇咬死，也好过被你气死」，手里却已经让人去取大衣挎包。",
+  "overview6": "胖厨带着整队人马灰溜溜地回来求收留，说只加两成工钱就行——日日鲜根本没打算要他们，全被宝总说中。李李一口回绝：「我要是再用她，才是黄河路最大的笑话。」傍晚六点，大王蛇准时送进至真园，堵门的、订位的挤满了黄河路。1993 年的黄河路，玩的就是心跳——一场黄河路保卫战，终于展开。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "04:30–06:23",
+      "title": "「你有三百个人」",
+      "body": [
+        "黄河边，有人拼了命地喊「醒醒」——落水的小宁波被救上岸，缓过气却呛出一句「怪你们什么事啊」，他想死却死不掉。宝总蹲下身，一句句把他骂醒：「你有三百个人！有三百个人！他们着急不急？」",
+        "小宁波抱着脑袋把底交了出来：厂里的绣花机过了报废期，三百多工人等着过年，他欠下的窟窿有五百万。他缠着宝总：「你帮我吧，绝对不给你添麻烦，我保证，功德无量。」宝总没松口，他就守在楼下不肯走——只要宝总答应，喊一声就行。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你不会游泳，跳下来干什么？」",
+          "en": "\"You can't even swim—why did you jump in?\""
+        },
+        {
+          "zh": "「怪你们什么事啊？我想死也死不掉。」",
+          "en": "\"What's it to you? Now I can't even die if I want to.\""
+        },
+        {
+          "zh": "「你有三百个人！有三百个人！他们着急不急？」",
+          "en": "\"You have three hundred workers! Three hundred! Don't you think they're anxiously waiting?\""
+        },
+        {
+          "zh": "「三百多人等着过年，可怜啊。你帮我吧，绝对不给你添麻烦，我保证。」",
+          "en": "\"Over three hundred people are waiting just to get through the New Year. Please help me—I swear I won't cause you any trouble.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "06:30–09:10",
+      "title": "拿一年的工资换一张试单",
+      "body": [
+        "弄堂口，小宁波支着摊子喊「出口转内销，十块钱两件」，一抬头看见宝总，腿一软就要跪。宝总拉着他直奔厂里：绣花机早过了报废期，针头断在服装里，客商退单、索赔不断，这张单子没人敢接。",
+        "宝总当场拍板：买日本新绣花机的钱他出，工厂全体签字，用明年的工资抵头一年的租金；合同里再压两道双保险——没有下一单，机器归厂；循环信用证，有效期一年。他自己贴进三万美金差价，只求先打出这张试单。厂长问这手笔谁教的，他说：我师父。"
+      ],
+      "quotes": [
+        {
+          "zh": "「厂里的绣花机已经过了报废期，针头断在服装里，会引起贸易纠纷。这张单子我怎么可以给你做呢？」",
+          "en": "\"Our embroidery machines are past their prime. Broken needles in the garments would spark trade disputes. How can I possibly take this order for you?\""
+        },
+        {
+          "zh": "「你用全厂一年的工资来换一张试单，这笔生意我做不了主的。」",
+          "en": "\"You're trading a whole year of the factory's wages for one trial order. This deal is beyond my authority.\""
+        },
+        {
+          "zh": "「合同里加份双保险——没有下一单生意，机器归厂；再开一年有效的循环信用证给你。」",
+          "en": "\"Let's add double safeguards to the contract: if there's no repeat order, the machines go to the factory—and I'll open a revolving letter of credit valid for a year.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "09:34–13:03",
+      "title": "二十七号的一朵金花",
+      "body": [
+        "试单成了，小宁波千恩万谢回乡过年。宝总转身约汪小姐：「元旦请你去和平饭店。」汪小姐收了礼物，却先把丑话说在前头：「谈生意归谈生意，谈朋友归谈朋友，要清清楚楚。」",
+        "和平饭店的灯影里，宝总说「只有看到未来，才会有未来」。汪小姐托着腮，说出自己的志向：「我希望有一天，能像我师傅一样，成为二十七号的一朵金花。」宝总掐指一算：「四年，四年以后他退休，科长的位置一定是你的。」那张试单敲开了宝总外贸生意的大门，也定下了两人一辈子的革命友情。"
+      ],
+      "quotes": [
+        {
+          "zh": "「谈生意归谈生意，谈朋友归谈朋友，要清清楚楚。」",
+          "en": "\"Business is business, and friendship is friendship—let's keep them clearly apart.\""
+        },
+        {
+          "zh": "「只有看到未来，才会有未来。」",
+          "en": "\"Only when you can see a future can you actually have one.\""
+        },
+        {
+          "zh": "「我希望我的未来有一天，可以像我师傅一样，成为二十七号的一朵金花。」",
+          "en": "\"I hope that one day my future will be like my mentor's—to become the top flower of Building 27.\""
+        },
+        {
+          "zh": "「四年以后他就退休了，科长的位置一定是你的。」",
+          "en": "\"He retires in four years, and the section chief position will be yours.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "13:24–15:00",
+      "title": "心里的凯迪拉克",
+      "body": [
+        "元旦的和平饭店，九十年代的亮灯场。汪小姐开去诸暨救宝总撞废的那辆车，如今再也开不动了。宝总心疼她：「万一你这辆凯迪拉克修不好，我再送你一辆新的。」",
+        "汪小姐一口回绝：「这辆车，是陪我去救过宝总的。它就是我心里的凯迪拉克。」她是外贸公司的外销员，规矩不能破：「我是不可以收贵重物品的。」可话锋一转又补了一句：「不过你既然这么讲了，我心里面就当收了。」——不管有没有凯迪拉克，革命友情都是真的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「万一你这辆凯迪拉克修不好，我再送你一辆新的。」",
+          "en": "\"And if this Cadillac of yours can't be fixed, I'll buy you a brand-new one.\""
+        },
+        {
+          "zh": "「这辆车，是陪我去救过宝总的。它就是我心里的凯迪拉克。」",
+          "en": "\"This car once took me to rescue Boss Bao. It's my Cadillac—in my heart.\""
+        },
+        {
+          "zh": "「我是不可以收贵重物品的。不过你既然这么讲了嘛，我心里面就当收了。」",
+          "en": "\"I'm not allowed to accept expensive gifts. But since you've said it, I'll count it as received—in my heart.\""
+        },
+        {
+          "zh": "「不管有没有凯迪拉克，我们革命友情全是真的啊。」",
+          "en": "\"Cadillac or no Cadillac, our revolutionary friendship is the real thing.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "15:01–18:25",
+      "title": "泡饭与求助",
+      "body": [
+        "夜东京的午后，李李推门进来。玲子嘴上客气，招呼却带着刺：「夜东京开了这么久，今天终于见识到黄河路的排场了。小本经营，不好跟你们比。」",
+        "李李不接话，只等宝总：「我不是来吃泡饭的，我是来请宝总帮我一个忙。」宝总端上泡饭：「先吃碗泡饭，饿着肚子怎么谈问题。」玲子冷眼看着这两人——黄河路的事，跟她夜东京有什么关系？"
+      ],
+      "quotes": [
+        {
+          "zh": "「我不是来吃泡饭的。我是来请宝总帮我一个忙。」",
+          "en": "\"I'm not here for the rice porridge. I came to ask Boss Bao for a favor.\""
+        },
+        {
+          "zh": "「先吃碗泡饭，饿着肚子怎么谈问题。」",
+          "en": "\"Have a bowl of porridge first. You can't settle anything on an empty stomach.\""
+        },
+        {
+          "zh": "「夜东京开了这么久，今天终于见识到黄河路的排场了。小本经营，不好跟你们比。」",
+          "en": "\"Night Tokyo has been open a long time, and today I finally see the scale of things on Huanghe Road. A small business like mine can't compare.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "18:26–21:19",
+      "title": "树大招风",
+      "body": [
+        "泡饭还没吃完，李李就把底亮了出来：「宝总说我们三个月要关门，现在我确实碰到问题了。」至真园后厨的鱼死了大半，胖主厨闹着头晕罢工；再一问，唐老板的两百只澳龙到不了货，东星斑、象拔蚌、大王蛇全线断供——只要说是至真园要的，全部都断。",
+        "宝总放下筷子，把话讲透：「树大招风。你生意做得越好，别人就越没有生意可做，当然要找你麻烦。你的后厨是挖来的，当然也可能被挖走。」李李咬着牙认了：「我既然敢来黄河路上开饭店，就不会没有准备，只是没想到会这么快。」她当场许诺：宝总帮这一回，算一份人情，下次她还。"
+      ],
+      "quotes": [
+        {
+          "zh": "「宝总说我们三个月要关门，现在我确实碰到问题了。」",
+          "en": "\"You said we'd be closed within three months—and now I really do have a problem.\""
+        },
+        {
+          "zh": "「树大招风。你生意做得越好，别人就越没有生意可做，当然要找你麻烦。」",
+          "en": "\"Tall trees catch the wind. The better your business does, the less business everyone else has—so of course they'll come after you.\""
+        },
+        {
+          "zh": "「你的后厨也是从别人那里挖来的，当然有可能被别人挖走。这个谁都能想到。」",
+          "en": "\"Your kitchen crew was poached from someone else, so of course they can be poached right back. Anyone could have seen that coming.\""
+        },
+        {
+          "zh": "「我既然敢来黄河路上开饭店，就不会没有准备。只是我没想到会这么快。」",
+          "en": "\"I wouldn't have dared to open a restaurant on Huanghe Road without preparation. I just didn't expect it to come this fast.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "21:24–24:53",
+      "title": "大菜还在后面",
+      "body": [
+        "宝总出的招很绝：让后厨今天就离开，逼胖主厨去投奔日日鲜——「你看看日日鲜会不会兑现他们的承诺。」他提醒李李：「换后厨只是小菜，大菜还在后面。」李李挂了电话就动手，把整支后厨解散了。",
+        "至真园的订座电话却被打爆——其他饭店把客人全往这里引，就等着看它「开天窗」。李李反而定了心，把宝总约在今晚六点：「至真园还能不能开张，就看你了。」转头玲子却对宝总狮子大开口——一把茶叶、两块糕点，收了人家五百块。陶陶直咂嘴：「一个敢收，一个敢给，都是人物啊。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「让你的后厨今天就离开。你现在就去日日鲜，看看日日鲜会不会兑现他们的承诺。」",
+          "en": "\"Let your kitchen crew go today. Go to Ri Ri Xian right now and see whether they'll actually keep their promises.\""
+        },
+        {
+          "zh": "「做事要有耐心，才能做得好、做得长。换后厨只是小菜，大菜还在后面呢。」",
+          "en": "\"Patience is how you do things well and make them last. Replacing your kitchen is just the appetizer—the main course is still coming.\""
+        },
+        {
+          "zh": "「宝总，我听了你的建议，解散了我的后厨。今晚至真园还能不能开张，就看你了。」",
+          "en": "\"Boss Bao, I took your advice and dissolved my kitchen crew. Whether Zhenzhi Garden can open tonight is up to you.\""
+        },
+        {
+          "zh": "「一个敢收，一个敢给，都是人物啊。」",
+          "en": "\"One dares to charge, one dares to pay—they're both something else.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "24:56–27:13",
+      "title": "爷叔的记事本",
+      "body": [
+        "宝总把宝押在爷叔身上。和平饭店的套房里，爷叔翻出一本泛黄的记事本，拨通一个多年没打的电话——香港贸易商会的贾会长，他的老发小。",
+        "贾会长的女儿贾淑敏亲自把爷叔迎进门：「爸，人已经到位，您尽管分派。」爷叔谢绝了午饭：「替我谢谢你爸爸，吃饭以后有机会再说，来日方长。」这一趟，借的是香港商会老板们随行的一等一名厨——人也不问，价钱也不问，爷叔应了宝总一句话。"
+      ],
+      "quotes": [
+        {
+          "zh": "「爷叔，好久不见。我是贾淑敏，你记得我吗？长那么大了。」",
+          "en": "\"Uncle Ye, long time no see. I'm Jia Shumin. Do you remember me? I've grown up.\""
+        },
+        {
+          "zh": "「替我谢谢你爸爸。吃饭以后有机会再说，来日方长。」",
+          "en": "\"Thank your father for me. As for lunch—some other time. There's always another day.\""
+        },
+        {
+          "zh": "「人也不问，价钱也不问，除了在哪里都不晓得。」",
+          "en": "\"He didn't ask who, he didn't ask the price—he didn't even know where it was.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "27:18–32:32",
+      "title": "越贵越有人买单",
+      "body": [
+        "至真园里，敏敏急得团团转：订座电话一个接一个，厨房里却一个师傅都没有。李李教她：「你每接一个电话，都跟客人讲，今晚至真园会推出特色菜，是宝总请的香港名厨。」",
+        "酒店里，宝总替李李参谋：「明天开始至真园只卖馄饨，我敢保证没人来找你麻烦。」李李不吃这套：「要是肯卖馄饨，我李李也不需要来黄河路了。」宝总点头：「那就往前进，拉高一个档次——黄河路上只要你能说出个所以然，越贵越有人买单。」香港丁厨的三道拿手菜，从时令川乌到上汤蒸的香米炒饭，让宝总连声「没得顶」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你每接一个电话，都跟客人讲：今晚至真园会推出特色菜，是宝总请的香港名厨。」",
+          "en": "\"Every time you answer a call, tell the customer: tonight Zhenzhi Garden debuts a specialty dish—by a Hong Kong master chef invited by Boss Bao.\""
+        },
+        {
+          "zh": "「明天开始，至真园只卖馄饨。我敢保证，没有人会来找你麻烦。」",
+          "en": "\"From tomorrow, Zhenzhi Garden only sells wontons. I guarantee no one will cause you any trouble.\""
+        },
+        {
+          "zh": "「你太小看我了，宝总。要是肯卖馄饨，我李李也不需要来黄河路了。」",
+          "en": "\"You underestimate me, Boss Bao. If I were willing to sell wontons, I wouldn't have needed to come to Huanghe Road at all.\""
+        },
+        {
+          "zh": "「黄河路上，只要你能说出个所以然，越贵越有人买单。」",
+          "en": "\"On Huanghe Road, as long as you can offer something genuinely distinctive, the pricier it is, the more people will pay.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "32:40–39:16",
+      "title": "黄河路保卫战",
+      "body": [
+        "卢美琳带着黄腾酒家的黄阿杰、越来香和新新的老板娘，浩浩荡荡杀进夜东京。黄阿杰提醒同伴别惹玲子——当年有人当着宝总的面编排玲子在日本陪酒，被她当众扇了两个耳光。可卢美琳浑不在意：「黄河路上，谁要跟我卢美琳硬碰硬，我还没有碰到过对手。」",
+        "四人话里带刺：「宝总一个男人，挤在当中算什么道理？黄河路的事情我们自己会解决，叫他不要插手。」玲子不慌不忙，端茶倒水打太极，当众应下「打赢这场黄河路保卫战」。等这群人扬长而去，她才慢悠悠收账——两千块茶水费，一个子儿不少：「要找宝总，都是这个价钱。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「黄河路上，谁要跟我卢美琳硬碰硬，我还没有碰到过对手。」",
+          "en": "\"On Huanghe Road, no one who has gone head-to-head with me, Lu Meilin, has ever come out ahead.\""
+        },
+        {
+          "zh": "「宝总一个男人，挤在当中算什么道理？黄河路的事情我们自己会解决，叫他不要插手。」",
+          "en": "\"Boss Bao is a man—what's he doing wedged in the middle of this? The affairs of Huanghe Road are ours to settle. Tell him to stay out of it.\""
+        },
+        {
+          "zh": "「我要是像各位姐姐一样有魄力，饭店开在黄河路上，我无论如何跟着姐姐们一起，打赢这场黄河路保卫战。」",
+          "en": "\"If I had the nerve you sisters have—opening restaurants on Huanghe Road—I'd follow you no matter what and win this defense of Huanghe Road.\""
+        },
+        {
+          "zh": "「要找宝总，都是这个价钱。」",
+          "en": "\"Anyone coming to find Boss Bao pays this rate.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "39:16–44:59",
+      "title": "玩的就是心跳",
+      "body": [
+        "大王蛇是最后一关。宝总把陶陶和葛老师叫去取蛇，葛老师吓得直问「有毒吧？会咬人吗」——宝总自己属蛇，亲自上手。玲子得知宝总替至真园操办这些，醋意翻涌：「你宝总在黄河路上处处留情，到我这里来给我气受！我宁愿被蛇咬死，也好过被你气死。」嘴上说着狠话，却已让人取来大衣挎包。",
+        "傍晚，胖厨带着整队人马灰溜溜地回来求收留，说只加两成工钱就行——日日鲜根本没打算要他们，全被宝总说中。李李一口回绝：「我要是再用她，才是黄河路最大的笑话。」六点刚过，大王蛇送进至真园，订位的、堵门的挤满了黄河路。1993 年的黄河路，玩的就是心跳——一场黄河路保卫战，终于展开。"
+      ],
+      "quotes": [
+        {
+          "zh": "「到底是爷叔。现在厨师到位了，最后就看大王蛇了。」",
+          "en": "\"It's got to be Uncle Ye. Now the chefs are in place—the last piece is the big snake.\""
+        },
+        {
+          "zh": "「你宝总在黄河路上处处留情，搞得几个黄河路老板娘气势汹汹，到我这里来给我气受。」",
+          "en": "\"You spread your kindness all over Huanghe Road, Boss Bao, riling up the restaurant madams until they march into my place to make my life miserable.\""
+        },
+        {
+          "zh": "「我宁愿被蛇咬死，也好过被你气死。」",
+          "en": "\"I'd rather be bitten to death by a snake than die of anger at you.\""
+        },
+        {
+          "zh": "「你跟胖厨讲，至真园不会再用她了，让她走吧。我要是再用她，才是黄河路最大的笑话。」",
+          "en": "\"Tell Fat Chef that Zhenzhi Garden won't take her back. Let her go. If I ever took her back, that would be the biggest joke on Huanghe Road.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1 · 小宁波",
+      "title": "你有三百个人，就死不起",
+      "situation": "小宁波跳河轻生被救，宝总用「三百个工人等着过年」把他骂醒。",
+      "advice": [
+        "走投无路时，先数数你身后有多少人靠你活着。",
+        "把「我活不下去」翻译成「还有多少人等我撑住」，办法就来了。",
+        "绝望要靠具体的责任去化解，先做一件眼前的事。"
+      ]
+    },
+    {
+      "tag": "源自 S2 · 宝总谈试单",
+      "title": "第一单，往往是最贵的一张门票",
+      "situation": "宝总自贴三万美金差价接下没人敢接的试单，用双保险合同压住风险，只为争取返单和长期关系。",
+      "advice": [
+        "关键的第一步，别只算眼前的盈亏，要算未来的门票。",
+        "敢下注之前，把风险写进合同，加上双保险。",
+        "短期让利换长期关系，生意的复利就是这么滚起来的。"
+      ]
+    },
+    {
+      "tag": "源自 S3 · 汪小姐",
+      "title": "只有看到未来，才会有未来",
+      "situation": "汪小姐立志当二十七号的科长，宝总替她算好「四年之后」，两人都把目标当日子过。",
+      "advice": [
+        "先给自己立一个够得着的远期目标。",
+        "把大目标拆成一步步、一天天，剩下的交给时间。",
+        "别人嘴上说「不可能」时，你先相信并行动。"
+      ]
+    },
+    {
+      "tag": "源自 S6 · 宝总对李李",
+      "title": "树大招风，是生意做大的必修课",
+      "situation": "至真园被黄河路老板娘们联手断供围剿，宝总点破这是做大生意的必然代价。",
+      "advice": [
+        "被针对，常常不是因为你做错了，而是因为你抢了别人的生意。",
+        "核心资源不能是「挖来的」，要养自己的班底。",
+        "提前想清楚对手会从哪三处下手，防患于未然。"
+      ]
+    },
+    {
+      "tag": "源自 S7 · 宝总献计",
+      "title": "眼前这步棋，要放在整盘局里看",
+      "situation": "宝总劝李李当场辞退后厨、赌日日鲜不敢接——换后厨只是小菜，大菜还在后面。",
+      "advice": [
+        "解决问题的第一步，往往不是解决眼前那个人。",
+        "把「眼前的麻烦」和「背后的棋局」分开想清楚。",
+        "有耐心，才能做得好、做得长。"
+      ]
+    },
+    {
+      "tag": "源自 S10 · 玲子",
+      "title": "一个敢收，一个敢给，都是人物",
+      "situation": "玲子对宝总收天价茶钱，对老板娘们收两千块「找人费」，人情账算得门儿清。",
+      "advice": [
+        "敢开价的前提，是对方认你手里的「资源价值」。",
+        "把账算清楚，反而能守住关系的边界。",
+        "人情是欠出来的，也是要还的——这笔账心里要有数。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "宝总（阿宝）",
+      "role": "黄河路商界风云人物 · 外贸起家（胡歌 饰）",
+      "desc": "闪回里接下没人敢接的小宁波试单，奠定外贸第一单；面对至真园被围剿，吃着泡饭替李李布局，借爷叔的人情请来香港名厨，又把大王蛇亲自押上黄河路。"
+    },
+    {
+      "name": "汪小姐（汪明珠）",
+      "role": "外贸公司外销员（唐嫣 饰）",
+      "desc": "与宝总在试单里结下革命友情；拒绝宝总送的新车，说旧车才是「心里的凯迪拉克」；立志四年后当上二十七号的科长。"
+    },
+    {
+      "name": "李李",
+      "role": "至真园老板（辛芷蕾 饰）",
+      "desc": "开张三个月遭老板娘们联手断供，听宝总之计解散后厨、放出「香港名厨」风声，宁可向前冲也不肯卖馄饨保命；一口回绝回头的胖厨。"
+    },
+    {
+      "name": "玲子",
+      "role": "夜东京老板娘（马伊琍 饰）",
+      "desc": "端着泡饭看戏，被四家老板娘堵门仍收两千块茶水费；得知宝总为李李大动干戈，醋意翻涌，嘴上说着狠话，手里却去取大衣挎包。"
+    },
+    {
+      "name": "爷叔",
+      "role": "宝总的师父 · 老上海（游本昌 饰）",
+      "desc": "翻出泛黄的记事本，请动香港发小贾会长，借来商会老板们的随行名厨；「人也不问，价钱也不问」，应了宝总一句话。"
+    },
+    {
+      "name": "卢美琳",
+      "role": "金美琳老板娘 · 黄河路头牌之争（范湉湉 饰）",
+      "desc": "黄河路上憋着一口气想坐头把交椅，领着黄阿杰等四家老板娘断至真园的货、堵夜东京的门，扬言「此番出手必定赶尽杀绝」。"
+    },
+    {
+      "name": "陶陶",
+      "role": "海鲜摊老板 · 宝总的兄弟（陈龙 饰）",
+      "desc": "被拉去替至真园张罗大王蛇，看着玲子收五百块茶钱直呼「一个敢收一个敢给」；黄河路保卫战里，他也在局中。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "「它就是我心里的凯迪拉克」",
+      "desc": "汪小姐拒收宝总送的新车——那辆陪她救过宝总、撞得报废的旧车，被她一句话抬进了心里。革命友情，千金不换。"
+    },
+    {
+      "title": "「你有三百个人！」",
+      "desc": "小宁波跳河轻生被救，宝总一句「你有三百个人」把他骂醒——三百人的年关、五百万的窟窿，逼出一张没人敢接的试单。"
+    },
+    {
+      "title": "「大菜还在后面」",
+      "desc": "辞退后厨、赌日日鲜不敢接、借香港名厨、押大王蛇——宝总几步棋替至真园翻盘，也替李李看清了真正的对手。"
+    },
+    {
+      "title": "爷叔的泛黄记事本",
+      "desc": "为李李的事，爷叔翻出压箱底的电话本，请动发小贾会长，借来香港商会随行的一等一名厨——「人也不问，价钱也不问」。"
+    },
+    {
+      "title": "玲子的两千块茶水费",
+      "desc": "四家老板娘逼宫夜东京，被玲子端茶送客、当面表态，临走还得掏两千块「找人费」——一个敢收，一个敢给。"
+    },
+    {
+      "title": "「1993 年的黄河路，玩的就是心跳」",
+      "desc": "大王蛇准时进门，胖厨回头被拒，堵门的、订位的挤满黄河路——一场黄河路保卫战，在片尾旁白里正式拉开。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "「四年以后，科长的位置一定是你的」",
+      "desc": "宝总替汪小姐算准了师傅退休的日子，把「当科长」钉成她四年的目标——这条仕途线，日后将一次次牵动两人关系的天平。"
+    },
+    {
+      "title": "「哪天落个花盆砸在你脑袋上」",
+      "desc": "玲子气急之下诅咒宝总走在马路上被花盆砸死——这句气话，像极了后来宝总在黄河路遭人算计的厄运，一语成谶。"
+    },
+    {
+      "title": "「我要是再用她，才是黄河路最大的笑话」",
+      "desc": "李李一口回绝回头的胖厨，等于告诉所有人至真园不再受制于人；她敢孤身来黄河路开店的来历，也仍是没揭开的悬念。"
+    },
+    {
+      "title": "香港名厨只帮一个月",
+      "desc": "金厨只能帮忙一个月，之后由他的香港徒弟接手，至真园须抓紧办手续——香港厨师这条线，将牵出至真园后续的命运。"
+    },
+    {
+      "title": "老板娘们的「赶尽杀绝」",
+      "desc": "卢美琳对黄河路头把交椅的执念与「此番出手必定赶尽杀绝」的狠话，预告这场黄河路保卫战将愈演愈烈。"
+    }
+  ]
+}

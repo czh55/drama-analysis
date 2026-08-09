@@ -1,0 +1,506 @@
+{
+  "slug": "fanhua-e19",
+  "drama": "繁花",
+  "episode": "19",
+  "title": "凯迪拉克",
+  "subtitle": "玲子与阿宝定下夜东京五五分成；汪明珠和魏宏庆的明珠公司开业，李李在至真园全包八十八桌；阿宝身在宁波，却托小宁波把一辆崭新的凯迪拉克送到开业宴门口——这辆车是承诺，也是一场无声的道别。",
+  "meta": [
+    "2023 · 年代商战",
+    "胡歌 / 马伊琍 / 唐嫣 / 辛芷蕾",
+    "47 分钟",
+    "12 个场景",
+    "共 30 集"
+  ],
+  "overviewLead": "1993年，黄河路最热闹的一场开业宴，摆在至真园的八十八桌上。魏宏庆穿着红西装迎客，横幅写着「大展宏图」，蛋糕上站着两个小人——宾客们起哄：这不是公司开张，是结婚摆喜酒。而所有人都在等的那个阿宝，始终没有露面。等潘经理喊出「宝总好像到了」，汪明珠冲下楼，门口只停着一辆崭新的凯迪拉克。",
+  "overview": "第19集，两条线在黄河路交汇。\n\n玲子请来装修队，把夜东京拆了个底朝天，旧物一件件往外扔——「旧的不去，新的不来」。房东葛老师心疼，陶陶却拉着他拍照留念。这间进贤路248号的小店，当初是阿宝偷偷谈下、合同签在宝总名下，最后送给了玲子。阿宝拎着上海冷面来看她，一句「螺蛳壳里做道场」劝她别嫌地方小；玲子不肯白拿这家店，两人定下协议：店名还是你的，我帮你经营，年底五五分成，亏了由玲子补足。阿宝撂下一句「我之所以答应你，是因为我知道我肯定不会亏的」。",
+  "overview2": "汪明珠和魏宏庆把公司定名「明珠」。魏总执意要摆八十八桌开业宴，先去红鹭、再去金美林，赊账的请求被一家家挡回来——「汪小姐离开外贸公司等于零，魏总离开老魏总也等于零，零加零等于几？还是零」。只有李李当众把魏总请进至真园：八十八桌全包，先把事情办好，饭钱等公司办起来再谈，还放话「全款预定」替他撑腰，送上四个字「大展宏图」。金美林那边这才回过味来——原来人家是有钞票的。",
+  "overview3": "开业前一天，陶陶挑最好的海鲜送进至真园，专给汪小姐留了两只最大的；他想约阿宝同去，才知道阿宝去了宁波，电话也打不通。汪明珠亲自给黄河路烟纸店的景秀送请帖，景秀却以朋友的身份点破：明珠公司是你的，你是法人，本钱是你家里凑的，风险也是你一个人担——「这为什么要跟他合作呢？我不想你在别人面前看笑话」。",
+  "overview4": "开业当天，魏总把至真园布置得像婚礼：红底合照、双层蛋糕、大横幅，自己穿得像个新郎官，宾客起哄「百年好合、早生贵子」。汪小姐却迟迟不露面——她躲起来见师父金科长。金科长劝她：在你身边的人，有可能不是你最喜欢的，但你要好好珍惜；又把一本珍藏的集邮册塞给她，让她卖了应急。汪小姐知道这是师父的心爱之物，哭着收下，暗暗发誓不能辜负她。",
+  "overview5": "汪小姐姗姗来迟，先把账结清：八十八桌，一千八一桌，连酒水二十万。她把集邮册押上抵十万，余下的十万说会再想办法。李李却只收她这一半：「你和魏总合作，你一半他一半。你的这一半已经给我了，他的那一半，让他自己还给我。」李李补了一句：讲人情和不讲人情只能选一种，她只讲生意不讲人情。",
+  "overview6": "席间范总拿魏总开涮，又说自己一直以为，汪小姐开公司一定叫「宝总公司」。众人等宝总等到散席，宝总始终没来。潘经理一句「宝总好像到了」，汪小姐冲出去，门口停着一辆崭新的凯迪拉克。小宁波传话：救过宝总的那辆车修不好了，还她一辆新的。汪小姐不肯收——「他就是我心里面的凯迪拉克」。魏总却劝她「做就做最大的生意」。一句旁白道破天机：「这辆车是用来纪念我和汪小姐曾经的风雨同路，却没想到在当时当刻，对她来说是一种冒犯。」而同一夜，南国投的强总定下「做到二十五块」的目标，宝总这边也盯上了营业部的资金进出。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "04:00–08:27",
+      "title": "夜东京改头换面",
+      "body": [
+        "玲子请来装修队，把夜东京拆了个底朝天——这面墙敲掉，那个厨房全部换新，旧家具一件件往外扔。陶陶、菱红和葛老师赶在动工前拍照留念，玲子却急着赶人。葛老师看着心疼想上前阻拦，被陶陶一把拉走。",
+        "房东葛老师气不过，翻出老账：当初阿宝偷偷来谈下这间进贤路248号的门面，合同是宝总签的，老板却不是他——「我更加没想到，这个店是宝总送给人家的」。玲子站在满屋灰尘里，新包间的格局已经在她心里画好了。"
+      ],
+      "quotes": [
+        {
+          "zh": "「旧的不去，新的不来。」",
+          "en": "\"Out with the old, in with the new.\""
+        },
+        {
+          "zh": "「这个厨房我通通要新的，就得全部都敲掉。」",
+          "en": "\"I want this kitchen completely new—every last bit of it knocked down.\""
+        },
+        {
+          "zh": "「我这么便宜的房租，这么好的地段租给你，我真的后悔呀。」",
+          "en": "\"I rented you this prime location for a pittance of rent. I really do regret it.\""
+        },
+        {
+          "zh": "「我更加没想到，这个店是宝总送给人家的。」",
+          "en": "\"What I never expected was that the shop turned out to be Boss Bao's gift to someone else.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "08:27–12:10",
+      "title": "螺蛳壳里做道场",
+      "body": [
+        "阿宝拎着上海冷面来看玲子，中午将就一顿，晚上要给她接风。看着这间小得转不开身的店，阿宝说这叫「螺蛳壳里做道场」——进贤路黄金地段、上只角，后面挨着锦江饭店和花园饭店，来往的多是外国客人，他阿宝有信心。",
+        "玲子不领情：两个人萍水相逢，平白无故拿这家店，她做不到。她提出方案：店还是你的，我帮你经营，年底五五分成，亏了由我补足。阿宝一口答应，末了补一句：我之所以答应你，是因为我知道我肯定不会亏的。夜里，陶陶抢了别人的位子坐，玲子当场立规矩——每个人都有自己的位置，你陶陶随便坐在什么地方，都还是陶陶。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这个叫螺蛳壳里做道场，你千万不要嫌弃这个地方小。」",
+          "en": "\"This is what they call 'holding a grand ceremony inside a snail shell.' Don't you dare look down on this little place.\""
+        },
+        {
+          "zh": "「我们两个人萍水相逢，我从来没为你做过什么，平白无故拿你这家店，我肯定做不到的。」",
+          "en": "\"We met by chance. I've never done anything for you, so I can't just take this shop from you for nothing.\""
+        },
+        {
+          "zh": "「年底赚了钱，我们两个人五五分成，我算入股。如果亏了，我来补足。」",
+          "en": "\"At year's end we split the profits fifty-fifty—that's my stake. If we lose money, I'll make up the difference.\""
+        },
+        {
+          "zh": "「我之所以答应你，是因为我知道，我肯定不会亏的。」",
+          "en": "\"I'm agreeing to this only because I know for certain I won't lose.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "13:34–16:58",
+      "title": "「明珠公司」与黄河路碰壁",
+      "body": [
+        "汪明珠和魏宏庆为公司的名字较劲：定名「明珠有限公司」，魏总非要把自己的名号也塞进去，被一句「难听死了」顶了回来。魏总铁了心要大操大办——开业请八十八桌，「做生意，先要把声势做起来，否则谁给你生意做」。",
+        "可钱是硬伤。魏总先到红鹭，老板娘推说接待能力有限；再到金美林，卢美琳当面奚落他「魏总的面子也不是很大嘛」。一圈跑下来，黄河路没有一家饭店肯接这笔赊账。金美林的人算得清楚：汪小姐离开外贸公司等于零，魏总离开老魏总也等于零，零加零，还是零。"
+      ],
+      "quotes": [
+        {
+          "zh": "「做生意，先要把声势做起来，否则谁给你生意做？」",
+          "en": "\"In business, you first have to make noise—otherwise who's going to bring you deals?\""
+        },
+        {
+          "zh": "「黄河路上有很多势力眼，我看他们是看不起我们两个人做公司的。所以我们才要一炮打响。」",
+          "en": "\"There are plenty of snobs on Huanghe Road who look down on the two of us running a company. That's why we have to make a bang with our very first move.\""
+        },
+        {
+          "zh": "「假使一桌两桌也就算了，哪怕十桌……但是这七八十桌，不好意思了。」",
+          "en": "\"A table or two, even ten, would be fine... but seventy or eighty tables? Sorry, that's out of the question.\""
+        },
+        {
+          "zh": "「汪小姐离开外贸公司等于零，魏总离开老魏总也等于零，零加零等于几了？还是零。」",
+          "en": "\"Miss Wang without the trading company is zero; Boss Wei without old Master Wei is zero. Zero plus zero—what does that make? Still zero.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "17:00–19:29",
+      "title": "至真园八十八桌",
+      "body": [
+        "李李当众拦住正要离开的魏总：走过黄河路，也不肯来我至真园，是我有什么不周到的地方，还是有其他问题？她念及魏总往日的帮衬，把八十八桌全包了下来——先把事情办好，饭钱等公司办起来再说。",
+        "魏总感动得当场拍板：就凭李李这句话，这公司一定开起来。李李让潘经理放话出去：魏总周六八十八桌宴席，全款预定，给他撑腰，又送上四个字「大展宏图」。金美林那边这才回过味来——人家原来是有钞票的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「魏总走过黄河路，也不肯来我至真园，是我有什么不周到的地方，还是有其他问题？」",
+          "en": "\"You walked right past Zhizhen Garden without stopping in—have I been remiss in some way, or is there another problem?\""
+        },
+        {
+          "zh": "「我至真园能有今天，离不开魏总的支持。今天魏总和汪小姐要开公司是大事，我至真园一定全力以赴。」",
+          "en": "\"Zhizhen Garden owes its standing to your support. Today you and Miss Wang are opening a company—that's a big deal, and Zhizhen Garden will throw its full weight behind it.\""
+        },
+        {
+          "zh": "「李李，你这个人情太大了。就凭你这句话，我跟汪小姐要把公司开起来。」",
+          "en": "\"Li Li, this favor of yours is too great. On the strength of your words alone, I'll build this company with Miss Wang.\""
+        },
+        {
+          "zh": "「潘经理，先把消息散出去——魏总周六八十八桌宴席，全款预定。我们给魏总撑撑腰。」",
+          "en": "\"Manager Pan, spread the word first—Boss Wei's eighty-eight tables this Saturday, fully paid in advance. We're giving Boss Wei our backing.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "20:44–21:24",
+      "title": "最好的海鲜·缺席的阿宝",
+      "body": [
+        "陶陶挑着最新鲜的海鲜送进至真园，叮嘱伙计转告潘经理：这一大堆全是给至真园的，箱子里有两只最大的，是给汪小姐开业用的。他打电话想约阿宝同去捧场，接电话的玲子却找不到人——阿宝去宁波了，电话也打不通。",
+        "玲子挂下电话发愁：汪小姐开业，阿宝不去，这算怎么回事？电话那头也答不上来：不知道他是怎么安排的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我跟你说啊，这里一大堆全是给至真园的……这只箱子里有两只最大的，是给汪小姐开业用的。」",
+          "en": "\"Listen, this whole lot here is for Zhizhen Garden... and in this box are the two biggest ones, saved for Miss Wang's opening.\""
+        },
+        {
+          "zh": "「阿宝呢？我打他电话都打不通。」",
+          "en": "\"Where's A Bao? I've been trying to reach him and his phone won't pick up.\""
+        },
+        {
+          "zh": "「啊？到宁波去了？那汪小姐开业，他不去啊？」",
+          "en": "\"What? He's gone to Ningbo? Then he's skipping Miss Wang's opening?\""
+        },
+        {
+          "zh": "「我不知道他是怎么安排的。」",
+          "en": "\"I don't know how he's planned things out.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "21:33–22:23",
+      "title": "景秀的忠告",
+      "body": [
+        "汪明珠亲自给黄河路烟纸店的景秀送请帖，景秀却说魏总早就把请帖发得满条街都是，「香烟都发到定西路了」。他执意让汪明珠明天务必到场，又把她当朋友，说了几句掏心窝子的话。",
+        "明珠公司是你的吧？你是法人。可本钱是你家里凑的，风险也是你一个人担——「这假如人家出钱，你出风头，这事情还可以；现在风险是你的，钱也是你出，这为什么要跟他合作呢？」景秀撂下话：黄河路上的事情，我不想你在别人面前看笑话。"
+      ],
+      "quotes": [
+        {
+          "zh": "「请帖我有了，魏总给过我了，黄河路上人手一份。」",
+          "en": "\"I already have an invitation—Boss Wei sent them out to every shop on Huanghe Road.\""
+        },
+        {
+          "zh": "「你当我是朋友吗？你要是把我当朋友呢，我们说点朋友之间的话。」",
+          "en": "\"Do you count me as a friend? If you do, then let's talk like friends.\""
+        },
+        {
+          "zh": "「这假如人家出钱，你出风头，这事情还可以；现在风险是你的，钱也是你出，这为什么要跟他合作呢？」",
+          "en": "\"If he put up the money and you got the glory, that'd be one thing. But as it stands, you carry the risk and you pay the bills—so why partner with him at all?\""
+        },
+        {
+          "zh": "「黄河路上的事情，在我景秀面前来来去去，我不想你在别人面前看笑话。」",
+          "en": "\"Things on Huanghe Road pass before my eyes all the time. I don't want to see you made a laughingstock in front of everyone.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "23:01–25:50",
+      "title": "开业典礼变婚礼",
+      "body": [
+        "至真园二楼，魏总把开业典礼办成了婚礼现场：红底合照、双层蛋糕、大横幅一应俱全，他一身红西装站在门口迎客，活像个新郎官。宾客们边起哄边打趣：「这哪里是公司开张啊，这是结婚摆喜酒。」有人带头喊「百年好合、早生贵子」，魏总喜滋滋地照单全收。",
+        "汪小姐却迟迟不露面。李李看破不说破，只让潘经理先带人去敬魏总几杯——如果汪小姐不来，对魏总来说最好的收场方式，就是把自己灌醉了。魏总嘴上还硬：不来我这横幅白做的，还有这么大个蛋糕，等她来切的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这哪里是公司开张啊，这是结婚摆喜酒。」",
+          "en": "\"This isn't a company launch—it's a wedding banquet!\""
+        },
+        {
+          "zh": "「今天是我和汪小姐牵手的日子，我们要一起共同开创，新的未来。」",
+          "en": "\"Today is the day Miss Wang and I join hands, to open a new future together.\""
+        },
+        {
+          "zh": "「如果汪小姐不来，那今天对魏总来说，最好的收场方式，就是把自己灌醉了。」",
+          "en": "\"If Miss Wang doesn't show, the best way for Boss Wei to end this night is to drink himself unconscious.\""
+        },
+        {
+          "zh": "「什么叫不来？不来我这横幅白做的，还有这么大个蛋糕，等她来切的。」",
+          "en": "\"What do you mean she's not coming? Then this banner I had made is for nothing—and there's this huge cake waiting for her to cut.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "25:50–28:16",
+      "title": "师父的邮票",
+      "body": [
+        "汪小姐没有去至真园，她躲起来见师父金科长。魏总把请帖也发到了师父那里，师父倒是看得很开：你既然决定和他一起开公司，就要支持他，不要让别人看不起。她又劝小汪想开些：一个人所有想要的东西，不一定都会来的。",
+        "金科长把一本珍藏的集邮册拿出来送给汪小姐，让她去黄河路上的邮票社找朱老板变现应急。汪小姐坚决不收：我现在确实是很缺钞票，但这本邮票我绝对不能收。师父只说一句「这些邮票，全在我心里」，把书册塞进她怀里。汪小姐泣不成声，暗暗发誓不能辜负师父。"
+      ],
+      "quotes": [
+        {
+          "zh": "「一个人所有想要的东西，不一定都会来的。在你身边的人，有可能不是你最喜欢的，但是你要好好珍惜。」",
+          "en": "\"Not everything you want will ever come to you. The person beside you may not be your first choice—but you should cherish them all the same.\""
+        },
+        {
+          "zh": "「你到外滩27号第一天，就帮我淘邮票，帮我淘了几年了。今天你公司新开张，我要送你一样东西。」",
+          "en": "\"From your very first day at Number 27 on the Bund, you've been hunting stamps for me—years of it now. Your company opens today, so I want to give you something.\""
+        },
+        {
+          "zh": "「这些邮票，全在我心里。」",
+          "en": "\"These stamps—they're all here, in my heart.\""
+        },
+        {
+          "zh": "「师父，我现在确实是很缺钞票的，但是这本邮票我绝对不能收。」",
+          "en": "\"Master, it's true I'm short of money right now, but I absolutely cannot take this album.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "29:43–33:30",
+      "title": "带刺的玫瑰与二十万账单",
+      "body": [
+        "汪小姐终于赶到至真园。李李没急着放她下去，先把账结清：八十八桌，一千八一桌，连酒水算二十万。范总在一旁看热闹，拿魏总开涮——汪小姐不管在27号还是在这条黄河路上，都是一朵带刺的玫瑰花，想抱得美人归，要几辈子修来的福气。",
+        "汪小姐把师父送的集邮册押上：这些邮票价值十万，你可以下楼去找朱老板，他已经鉴定过了。剩余的十万，我还会想办法给你。李李却只收她这一半：「你和魏总合作，你一半他一半。你的这一半已经给我了，他的那一半，让他自己还给我。」临了她补一句：我只讲生意，不讲人情。如果不是看好你们明珠公司，这笔生意我是不会做的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「汪小姐，不管在27号，还是在这条黄河路上，那都是一朵带刺的玫瑰花。你要是想抱得美人归，那要几辈子修来的福气。」",
+          "en": "\"Miss Wang is a rose with thorns, whether at Number 27 or here on Huanghe Road. To win her hand you'd need a fortune earned over several lifetimes.\""
+        },
+        {
+          "zh": "「一共八十八桌，一千八一桌，连酒水算二十万。」",
+          "en": "\"Eighty-eight tables in all, eighteen hundred a table—that comes to two hundred thousand with the drinks.\""
+        },
+        {
+          "zh": "「这些邮票价值十万，你可以下楼去找朱老板，他已经鉴定过了。剩余的十万，我还会想办法给你。」",
+          "en": "\"These stamps are worth one hundred thousand. Go downstairs to Boss Zhu—he's already appraised them. As for the rest, I'll find a way to get it to you.\""
+        },
+        {
+          "zh": "「做生意，讲人情是一种做法，不讲人情也是一种做法，但只能选择一种。既然决定不讲人情，那最好跟谁都算清楚。」",
+          "en": "\"In business you can play by favors or you can play by rules—but you must pick one. If you've chosen rules, then settle your accounts clearly with everyone.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "33:30–37:00",
+      "title": "明珠公司开张",
+      "body": [
+        "汪小姐站上主位致辞：「从今天开始，我跟魏总就一道搭档了。以后各位有什么小项目、小生意，还要麻烦大家多多照应我们明珠公司。」满堂宾客举杯，明珠公司正式开张。",
+        "范总凑过来打趣，说自己脑子里一直以为，汪小姐开公司，名字一定叫「宝总公司」。汪小姐纠正：是明珠公司。酒过三巡，范总要告辞，魏总拦住：「各位再等一下，我们等宝总来了，一起走。」可等到散席，那个位置始终空着。"
+      ],
+      "quotes": [
+        {
+          "zh": "「从今天开始，我跟魏总就一道搭档了。以后各位有什么小项目、小生意，还要麻烦大家多多照应我们明珠公司。」",
+          "en": "\"From today, Boss Wei and I are partners. If any of you have small projects or small deals down the road, please do look after our Mingzhu Company.\""
+        },
+        {
+          "zh": "「我一直以为，只要是你开公司，名字一定叫宝总公司。」",
+          "en": "\"I'd always assumed that if you ever started a company, it would surely be named after Boss Bao.\""
+        },
+        {
+          "zh": "「是明珠公司。」",
+          "en": "\"It's called Mingzhu Company.\""
+        },
+        {
+          "zh": "「范总，等一下。各位再等一下，我们等宝总来了，一起走。」",
+          "en": "\"Uncle Fan, hold on. Everyone, please wait—we'll leave together once Boss Bao arrives.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "37:08–42:38",
+      "title": "心里的凯迪拉克",
+      "body": [
+        "潘经理突然喊了一句「宝总好像到了」。汪小姐冲下楼，等在门口的却是一辆崭新的凯迪拉克。小宁波传话：宝总让他开过来的——当初那辆陪汪小姐去诸暨救过宝总的车修不好了，赔她一辆新的。",
+        "汪小姐不肯收：这辆车子是陪我去救过宝总的，他就是我心里面的凯迪拉克。魏总却在一旁帮腔：我们要做就做最大的生意，这部车子配我们的生意绰绰有余。她终于收下钥匙，心里却清楚——宝总这是在用一辆车，跟她的风雨同路做了断。陶陶私下替宝总辩白：这叫默默守护，不打扰人家生活，苦水自己往肚子里咽。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这部车子，是宝总让我开过来，送给你的。」",
+          "en": "\"This car—Boss Bao had me drive it over as a gift for you.\""
+        },
+        {
+          "zh": "「我不要的。这辆车子，是陪我去救过宝总的。他就是我心里面的凯迪拉克。」",
+          "en": "\"I won't take it. This car once took me to rescue Boss Bao. To me, it will always be my Cadillac.\""
+        },
+        {
+          "zh": "「我们要做，就做最大的生意。这部车子，配我们的生意绰绰有余。」",
+          "en": "\"If we're going to do business, we do the biggest kind. This car is more than worthy of our ambitions.\""
+        },
+        {
+          "zh": "「在我看来，这辆车是用来纪念我和汪小姐曾经的风雨同路。却没想到在当时当刻，对她来说是一种冒犯。」",
+          "en": "\"To me, this car was meant to honor the storms Miss Wang and I once weathered together. I never imagined that at that moment, it came across as an insult.\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "42:38–44:14",
+      "title": "盯上南国投",
+      "body": [
+        "汪小姐打定主意，明天就把集邮册拿去变现，绝不能低于十万。她要用这笔钱，把明珠公司的第一单生意做起来。",
+        "另一边，南国投请来的香港律师频繁进出至真园，像是在办什么推荐会。宝总这边让人盯住南国投营业部的资金进出，等深圳帮的大资金进场，立刻通报。而营业部里，强总正用「滚动操作法」把浮盈做上去——用了四成资金，已经浮盈两成，他定下目标：做到二十五块。一场上海股市的暗战，正在酝酿。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你觉得这本邮票值十万吗？明天把它拿去变现，不能低于十万。」",
+          "en": "\"Do you think this stamp album is worth a hundred thousand? Take it and cash it in tomorrow—not a cent under.\""
+        },
+        {
+          "zh": "「南国投请来的香港律师，频繁进出至真园，好像在做什么推荐会。」",
+          "en": "\"The Hong Kong lawyers Nanguo Investment brought in keep shuttling in and out of Zhizhen Garden—sounds like some kind of stock promotion meeting.\""
+        },
+        {
+          "zh": "「盯住营业部资金的进出，等深圳帮的大资金进来，马上通知我们。」",
+          "en": "\"Keep an eye on the money moving in and out of their trading floor. The moment the Shenzhen crowd's big money comes in, notify us at once.\""
+        },
+        {
+          "zh": "「滚动操作法，用得得法，花不了那么多钱。那就提个目标值——做到二十五块。」",
+          "en": "\"Rolling operations, done right, won't cost that much money. So let's set a target—take it up to twenty-five.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S2 · 阿宝 & 玲子",
+      "title": "「亏了算我的」的承诺，来自算得清的账",
+      "situation": "玲子提出店还是阿宝的、自己经营、五五分成、亏了补足；阿宝一口答应，因为笃定自己不会亏。",
+      "advice": [
+        "合伙先把责任、分红、亏损怎么担写清楚，情分才不会在算账时崩掉。",
+        "敢给承诺前，先确认自己「肯定不亏」的底气从哪来。",
+        "人情是面子，账目是里子；光讲面子不讲里子，迟早翻脸。"
+      ]
+    },
+    {
+      "tag": "源自 S6 · 景秀",
+      "title": "「人家出钱、你出风头」的合作，要警惕",
+      "situation": "景秀点破：明珠公司的钱是汪家凑的、风险是汪小姐一个人担的，魏总只出了个名字。",
+      "advice": [
+        "合作之前先问清楚：谁出钱、谁出资源、谁担风险。",
+        "名分不能当股权，法人签字就要认账。",
+        "肯在你耳边说实话的朋友，比满桌的恭喜值钱。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 李李",
+      "title": "雪中送炭的人情，比锦上添花值钱",
+      "situation": "黄河路没有一家饭店肯接魏总的赊账，李李一句「先把事情办好」全包了八十八桌。",
+      "advice": [
+        "在最难的时候拉你一把的人，值得记一辈子。",
+        "帮人不急着算钱，情分会在生意里自己找回来。",
+        "但帮归帮，账要记清——李李后来一分不少地算了饭钱。"
+      ]
+    },
+    {
+      "tag": "源自 S8 · 金科长",
+      "title": "在你身边的人，未必是你最喜欢的，但要珍惜",
+      "situation": "汪小姐心里装着宝总，金科长劝她：一个人想要的东西不一定都会来，身边的人要好好珍惜。",
+      "advice": [
+        "执念里的人，未必是你的缘分；眼前的人，未必不是。",
+        "「珍惜眼前人」不是将就，是清醒。",
+        "别等错过之后，才去补一句早知道。"
+      ]
+    },
+    {
+      "tag": "源自 S9 · 李李 & 汪小姐",
+      "title": "讲人情和不讲人情，只能选一种",
+      "situation": "李李收下汪小姐的邮票抵十万，却让魏总那半自己来还——账算清楚，人情才立得住。",
+      "advice": [
+        "半吊子的交情最伤人：又想占便宜，又不想担责任。",
+        "规则定在前面，事后少扯皮。",
+        "选择「只讲生意」，就要坦坦荡荡地跟谁都算清楚。"
+      ]
+    },
+    {
+      "tag": "源自 S11 · 宝总 & 汪小姐",
+      "title": "有些告别，是不打扰的守护",
+      "situation": "宝总用一辆新车兑现当年的承诺，也划清了两人的界限；汪小姐却认定旧车就是「心里面的凯迪拉克」。",
+      "advice": [
+        "深情未必是占有，有时是体面的放手。",
+        "兑现承诺也要懂分寸——好意办成冒犯，就失去了意义。",
+        "心里那个位置，不是任何人、任何车能替代的。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "宝总（阿宝）",
+      "role": "黄河路商界大佬（胡歌 饰）",
+      "desc": "本集远在宁波缺席开业宴：给玲子定下夜东京五五分成，让人盯上南国投的动静，又托小宁波把一辆全新凯迪拉克送到至真园门口——「用来纪念我和汪小姐曾经的风雨同路」。"
+    },
+    {
+      "name": "玲子",
+      "role": "夜东京老板娘（马伊琍 饰）",
+      "desc": "请来装修队把夜东京拆了个底朝天，「旧的不去新的不来」；坚持不白拿阿宝送的店，与他定下五五分成、亏了补足的协议；开业当天为汪小姐的缺席着急，打电话也找不到阿宝。"
+    },
+    {
+      "name": "汪明珠（汪小姐）",
+      "role": "明珠公司法人 · 前外贸公司外销员（唐嫣 饰）",
+      "desc": "与魏宏庆开公司、被景秀点破「人家出钱你担风险」；开业宴被魏总办成婚礼，她姗姗来迟，用师父所赠邮票抵十万饭钱，拒收宝总的凯迪拉克——「他就是我心里面的凯迪拉克」。"
+    },
+    {
+      "name": "魏总（魏宏庆）",
+      "role": "明珠公司合伙人 · 皮革商二代（黄觉 饰）",
+      "desc": "赊账订桌四处碰壁，靠李李全包八十八桌才撑起场面；把开业办成婚礼、穿得像新郎官，为宝总留了位置一直等到散席；劝汪小姐「做就做最大的生意」。"
+    },
+    {
+      "name": "李李",
+      "role": "至真园老板（辛芷蕾 饰）",
+      "desc": "雪中送炭全包八十八桌并放话全款预定替魏总撑腰；结账时只收汪小姐这一半，「魏总那半让他自己还」；「我只讲生意不讲人情」。"
+    },
+    {
+      "name": "金花（金科长）",
+      "role": "外贸公司科长 · 汪明珠的师父（吴越 饰）",
+      "desc": "劝小汪「身边的人要好好珍惜」，把珍藏的集邮册送给她变现应急；一句「这些邮票全在我心里」，让汪小姐泣不成声。"
+    },
+    {
+      "name": "陶陶",
+      "role": "海鲜摊老板 · 阿宝最好的兄弟（陈龙 饰）",
+      "desc": "赶在动工前拉葛老师拍照留念，把最好的海鲜送进至真园给汪小姐开业用；替宝总辩白——「这叫默默守护，不打扰人家生活」。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "螺蛳壳里做道场",
+      "desc": "阿宝拎着上海冷面来看玲子，一句「螺蛳壳里做道场」定下五五分成——店是你的，我帮你经营，亏了由我补足，末了补一句「我肯定不会亏的」。"
+    },
+    {
+      "title": "开业典礼变婚礼",
+      "desc": "魏总红西装、红底合照、双层蛋糕，把明珠公司的开业办成喜酒，宾客起哄「百年好合、早生贵子」——李李看破不说破，只让人把魏总灌醉收场。"
+    },
+    {
+      "title": "师父的集邮册",
+      "desc": "金科长把自己珍藏的集邮册塞给汪小姐：「你到外滩27号第一天就帮我淘邮票，淘了几年了。」汪小姐哭着收下，暗暗发誓不能辜负师父。"
+    },
+    {
+      "title": "带刺的玫瑰与二十万账单",
+      "desc": "范总调侃魏总想抱得美人归「要几辈子修来的福气」；李李把账算得清爽——邮票抵十万，魏总那半让他自己还，「只讲生意不讲人情」。"
+    },
+    {
+      "title": "门口的凯迪拉克",
+      "desc": "潘经理一句「宝总好像到了」，汪小姐冲下楼，门口只有一辆崭新的凯迪拉克。她不收：「他就是我心里面的凯迪拉克。」"
+    },
+    {
+      "title": "「对她来说是一种冒犯」",
+      "desc": "宝总的旁白道破这辆车的真相——「用来纪念我和汪小姐曾经的风雨同路，却没想到在当时当刻，对她来说是一种冒犯」。一场无声的道别，就此完成。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "凯迪拉克的道别",
+      "desc": "宝总用一辆新车兑现承诺、也划清界限，汪小姐却认定心里那辆旧车不可替代——两人从搭档走向对手，「大路朝天，各走一边」的伏笔已经埋下。"
+    },
+    {
+      "title": "邮票册与十万块",
+      "desc": "师父的集邮册只是抵了一半饭钱，汪小姐还要凑出剩下的十万做第一单生意；这本邮票册的来历，以及它对金科长的意义，日后还会有交代。"
+    },
+    {
+      "title": "南国投的二十五块",
+      "desc": "强总用「滚动操作法」把目标定在二十五块，宝总的人盯上了营业部的资金进出——等深圳帮的大资金进场，就是上海股市开战之时。"
+    },
+    {
+      "title": "「名字一定叫宝总公司」",
+      "desc": "范总无心的一句玩笑，道出整条黄河路还把她看成宝总的人；汪明珠要用明珠公司，亲手把「汪小姐」三个字做起来。"
+    },
+    {
+      "title": "玲子的五五分成",
+      "desc": "阿宝「我肯定不会亏」的底气，源于对玲子和这间店的信任；这份交情日后是暖还是债，要看生意场上的风浪往哪边吹。"
+    }
+  ]
+}
