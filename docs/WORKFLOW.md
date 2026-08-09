@@ -8,8 +8,8 @@
 Task Progress:
 - [ ] 1. 解析入口，得到剧集信息（剧名 + 集数 + 本地视频路径）
 - [ ] 2. ffmpeg 提取音频
-- [ ] 3. Whisper 转录（带时间戳 json）
-- [ ] 4. 场景切分 + 撰写剧情内容（content JSON 入库）
+- [ ] 3. faster-whisper 转录（带时间戳 json）
+- [ ] 4. 建立角色对照表 cast.md + 场景切分 + 撰写剧情内容（content JSON 入库）
 - [ ] 5. 抽帧配图
 - [ ] 6. 关键台词英文翻译 + 批量生成朗读 MP3
 - [ ] 7. 生成 HTML（图文总结，含朗读功能）
@@ -81,16 +81,30 @@ slug 规则：`{drama-拼音}-e{episode:02d}`，如 `xiao-fuqi-e01`。
 ffmpeg -y -i "{video}" -ar 16000 -ac 1 /tmp/{slug}.wav
 ```
 
+> 批量时由 `scripts/transcribe/transcribe-parallel.sh` 自动完成本步（缺 wav 时自动提取），可跳过手动执行。
+
 ---
 
-## Step 3：Whisper 转录
+## Step 3：faster-whisper 转录
+
+**推荐使用 `faster-whisper` 替代原版 `whisper`**：CPU int8 计算，速度约为原版 3–5 倍，且规避原版 `whisper --device mps` 在 Apple Silicon 上 FP16 的 NaN 崩溃。工具已入库：
+
+- `scripts/transcribe/fw_transcribe.py`：单集转录（small 模型 / CPU / int8 / 可指定线程数）
+- `scripts/transcribe/transcribe-parallel.sh`：批量并行（自动 ffmpeg 提音频 + 转录，2 并发 × 4 线程为 Intel Mac 实测平衡点；**已存在的 json 自动跳过，可断点续跑**）
+- `scripts/transcribe/json2txt.py`：转录 JSON → 带时间戳 txt（撰写 content 时对照阅读）
 
 ```bash
-export PATH="$PATH:/Users/chenzhiheng/Library/Python/3.9/bin:/opt/homebrew/bin"
-python3 -m whisper /tmp/{slug}.wav --model small --language Chinese --output_dir /tmp/
+# 批量（推荐）：视频目录名可能是中文，与 content 拼音目录名不同
+bash scripts/transcribe/transcribe-parallel.sh "{视频目录}" /tmp/{slug前缀} 1 {集数}
+
+# 单集
+python3 scripts/transcribe/fw_transcribe.py /tmp/{slug}.wav /tmp/{slug}.json 4
+
+# 转可读文本（可选）
+python3 scripts/transcribe/json2txt.py --dir /tmp
 ```
 
-必须保留带时间戳产物（`{slug}.json` / `{slug}.srt`），场景切分依赖时间轴。
+必须保留带时间戳产物（`{slug}.json`），场景切分依赖时间轴。
 
 ---
 
@@ -142,9 +156,19 @@ python3 -m whisper /tmp/{slug}.wav --model small --language Chinese --output_dir
 
 > **禁止写成纯字符串数组**（如 `"highlights": ["整句话..."]`）——渲染脚本取 `h.title` / `h.desc`，字符串会导致页面显示 undefined。
 
+### 前置：建立角色对照表 cast.md（必做）
+
+撰写任何一集之前，先为整部剧建立 `content/{drama-拼音}/cast.md`（随 Git 入库），包含三部分：
+
+1. **角色名单 + 演员**：**必须联网核实演员表**——子代理凭记忆写演员极易出错（如《玫瑰的故事》庄国栋曾被误标为「林更新」，实为彭冠英）。每集 `cast` 字段只收录该集出场/提及角色（5–8 人）。
+2. **常见同音字 → 正确名对照**：Whisper 转录稿专有名词错误极多（如「黄一北」→黄亦玫、「艾瑞康」→庄国栋、「冯志文」→方协文），把高频错误整理成对照表供每集校正。
+3. **剧情脉络概览**：整剧时间线简述，帮助判断每集在故事中的位置，避免写错人物关系。
+
+范例见 `content/meigui-de-gushi/cast.md`（玫瑰的故事）。
+
 ### 转录纠错（必做）
 
-Whisper 中文同音字错误必须先行校正（专有名词按语境/剧集资料修正，角色名可参考演职员表）。
+Whisper 中文同音字错误必须先行校正（**繁简混杂 + 同音字**是本流程转录稿最大质量问题），专有名词严格按上一步建立的 cast.md 对照表校正，角色名按语境修正。
 
 ### content JSON 入库（必须）
 
@@ -167,7 +191,17 @@ ffmpeg -y -ss {第2场景中点} -i "{video}" -frames:v 1 docs/images/{slug}/her
 - hero.jpg 取第 2 个场景中点，避开片头 Logo
 - 每场景一帧 `s1.jpg`~`sN.jpg`，数量与场景数一致
 - 若抽帧为黑帧/广告帧，换时间点重抽
-- 批量处理优先复用 `scripts/extract-frames-*.py`（已内置 hero 第 2 场景中点逻辑）
+
+**推荐使用通用脚本 `scripts/extract-frames.py`**（已内置 hero 第 2 场景中点逻辑，替代早期每部剧一份的 `extract-frames-*.py`）：
+
+```bash
+python3 scripts/extract-frames.py --drama {剧名拼音}                          # 自动扫描视频目录
+python3 scripts/extract-frames.py --drama {剧名拼音} --video "{视频目录}"     # 显式指定
+python3 scripts/extract-frames.py --drama {剧名拼音} --ep 01                  # 只处理单集
+```
+
+- `--video` 缺省时自动扫描项目根下含 `NN.mp4/.mkv` 的目录（视频目录名常为中文，与 content 拼音名不同）
+- 支持 mp4 / mkv 混存，重复执行幂等（覆盖重抽）
 
 ---
 
@@ -201,6 +235,7 @@ python3 scripts/generate-quote-audio.py --dir content/xiao-fuqi
 - 使用 `edge-tts`（`en-US-JennyNeural`），产出 `docs/audio/{slug}/{scene_id}-{idx:02d}.mp3`
 - 命名强制两位索引（如 `s1-01.mp3`），与 HTML 中 `data-audio` 一致
 - 已存在的文件自动跳过（可重复执行）
+- **内置 3 次退避重试 + 并发限制（Semaphore 4）**：edge-tts 偶发 503 限流（`WSServerHandshakeError`）时自动重试，无需人工干预
 - 结束后核对：日志显示 `完成: N/N 条`，且 HTML 中每个 `data-audio` 引用都能找到对应文件
 
 ---
@@ -236,6 +271,7 @@ node render-recap.mjs content/{drama}/content-e{NN}.json docs/{drama}-第{NN}集
 
 ```bash
 python3 scripts/validate-content.py --dir content/{剧名}
+python3 scripts/check-audio-refs.py --drama {剧名}   # 校验 data-audio 引用 ↔ MP3 文件一致
 # 校验通过（退出码 0）才继续；失败项按提示修正后重跑
 ```
 
@@ -264,7 +300,14 @@ python3 scripts/validate-content.py --dir content/{剧名}
 
 ## Step 9：更新 index.json
 
-将新条目追加到 `docs/index.json`：
+将新条目追加到 `docs/index.json`。**推荐用通用脚本生成条目**（按 content JSON 自动汇总，时长优先取 meta 的「N 分钟」，`--video` 时用 ffprobe 读真实时长）：
+
+```bash
+python3 scripts/gen-index.py --drama {剧名拼音} --drama-name "{剧名}" --date YYYY-MM-DD
+python3 scripts/gen-index.py --drama {剧名拼音} --drama-name "{剧名}" --date YYYY-MM-DD --video "{视频目录}" --out /tmp/entries.json
+```
+
+生成后**人工核对再合并**进 `docs/index.json`（每部剧一个 `date` 批次）。条目格式：
 
 ```json
 {
@@ -307,17 +350,17 @@ git push -u origin main
 ## Step 11：清理
 
 ```bash
-rm /tmp/{slug}.wav /tmp/{slug}.json /tmp/{slug}.srt  # 临时转录件
+rm /tmp/{slug}.wav /tmp/{slug}.json  # 临时转录件
 ```
 
-> **content JSON 已入库（`content/` 目录），不要删除**；临时转录件可删。生成脚本入库保留（`scripts/` 下）。
+> **content JSON 与 cast.md 已入库（`content/` 目录），不要删除**；临时转录件可删。生成脚本入库保留（`scripts/` 下，含 `scripts/transcribe/` 转录工具）。
 
 ---
 
 ## 约束
 
 - 视频文件（`小夫妻/`、`*.mp4`、`*.pdf`）**永不入库**（.gitignore 排除）
-- **content JSON 必须入库**（`content/{剧名}/`），不入库视为未完成
+- **content JSON 与 cast.md 必须入库**（`content/{剧名}/`），不入库视为未完成
 - 不修改 `.gitignore`
 - 同 `drama + episode` 不重复处理
 - 主产出是剧情图文总结 HTML，不是视频文件

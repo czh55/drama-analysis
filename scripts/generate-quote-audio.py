@@ -113,10 +113,18 @@ async def generate_one(slug: str, scene_id: str, idx: int, text: str) -> bool:
     out = AUDIO_DIR / slug / f"{scene_id}-{idx:02d}.mp3"
     if out.exists():
         return True
-    ok = await synthesize_speech(text, out, EN_VOICE)
-    if not ok:
-        print(f"  ✗ FAIL {out}")
-    return ok
+    # edge-tts 偶发 503 WSServerHandshakeError，退避重试 3 次
+    for attempt in range(1, 4):
+        try:
+            ok = await synthesize_speech(text, out, EN_VOICE)
+        except Exception as e:
+            ok = False
+            print(f"  ⚠ {out.name} 第{attempt}次异常: {type(e).__name__} {e}")
+        if ok:
+            return True
+        await asyncio.sleep(2 * attempt)
+    print(f"  ✗ FAIL {out}")
+    return False
 
 
 async def process_content(content_path: Path, verbose: bool = True) -> tuple[int, int]:
@@ -129,8 +137,16 @@ async def process_content(content_path: Path, verbose: bool = True) -> tuple[int
         return 0, 0
     if verbose:
         print(f"\n{content_path.name} → audio/{slug}/ ({len(quotes)} 条)")
+
+    # 限制并发，避免高并发触发 edge-tts 限流
+    sem = asyncio.Semaphore(4)
+
+    async def limited(sid, idx, text):
+        async with sem:
+            return await generate_one(slug, sid, idx, text)
+
     results = await asyncio.gather(
-        *(generate_one(slug, sid, idx, text) for sid, idx, text in quotes)
+        *(limited(sid, idx, text) for sid, idx, text in quotes)
     )
     ok = sum(1 for r in results if r)
     if verbose:
