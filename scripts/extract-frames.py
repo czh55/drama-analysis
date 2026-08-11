@@ -53,10 +53,13 @@ def scene_midpoint(t):
     return (parse_time(a) + parse_time(b)) // 2
 
 def find_video(video_dir, ep):
-    for ext in ('mp4', 'mkv'):
-        p = os.path.join(video_dir, f'{ep}.{ext}')
-        if os.path.exists(p):
-            return p
+    """按 NN* 通配匹配（支持 "01 4K.mp4" / "01..mp4" / "01.mp4"）"""
+    import glob as _glob
+    for pat in (f'{ep}*.mp4', f'{ep}*.mkv', f'{ep}*.MP4', f'{ep}*.MKV'):
+        hits = _glob.glob(os.path.join(video_dir, pat))
+        for h in hits:
+            if os.path.isfile(h):
+                return h
     return None
 
 def auto_find_video_dir(ep):

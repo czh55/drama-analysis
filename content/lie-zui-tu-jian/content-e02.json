@@ -1,0 +1,508 @@
+{
+  "slug": "lie-zui-tu-jian-e02",
+  "drama": "猎罪图鉴",
+  "episode": "2",
+  "title": "万恶的密室",
+  "subtitle": "梁毅案转入深水区：毒物坐实、光盘落单，五张失踪的录像牵出五个女人。被毁容的范若萱深夜到警局，却握着铁打的不在场证明——监控是假的，值班保安刘联铭随后横死，酒杯里的增塑剂把嫌疑引向一双做美甲的手。设计师蒋歌家的监控同样被人替换，她说：那间万恶的密室，就是我设计的。直到有人问出那句——你为什么要杀了他？",
+  "meta": [
+    "2022 · 罪案推理",
+    "檀健次 / 金世佳 / 张柏嘉",
+    "45 分钟",
+    "12 个场景",
+    "共 20 集"
+  ],
+  "overviewLead": "五张失踪的光盘牵出五个女人，一双涂着指甲油的手，在酒杯里留下了真凶的痕迹。",
+  "overview": "第2集紧接梁毅案。何溶月的尸检报告坐实毒物致死：毒物成分浓度集中在喉部，推测为直接吞服；面对「现场为什么闻不到苦杏仁味」的疑问，她解释苦杏仁味来自毒物在潮湿空气中水解出的氢氰酸，剂量少便几乎无味。案情汇总显示，现场43枚指纹分属9人，隐藏房间里的82份性爱视频与87份病历疑似一一对应，还有5张光盘下落不明——按这个角度想，凶手很可能就在那五个人里。",
+  "overview2": "沈翊熬了一夜，画出了监控里蒙面女人的脸——一张被毁容的脸。他提出更快的方法：把视频中的脸还原成整容前的样子再比对，准确率不低于百分之九十。张局点头，让杜城与他搭档。沈翊没有画全82张脸，只画那些惊恐与无助的表情，用「人类眼白最大、最早用它表达情绪」的眼白理论为自己辩白。排查随之展开，视频里的女人们一一到场：行程满档的企业家、有医生作证的女人、天天直播的网红、在家画设计图的蒋歌，还有愿意出钱买回录像的人——最后一个叫范若萱的，只肯在晚上来。",
+  "overview3": "范若萱深夜戴着口罩到警局，摘下口罩，与画像严丝合缝。她因整容失败被毁容，痛斥梁毅拿她的脸当实验品，扬言要告他；可监控显示25号晚上她在梁毅的住处待了近两个小时。她坚持自己那晚一直在派出所。闫谈声反复问讯三次，口供毫无破绽；派出所也确认范若萱当晚因酒驾被扣。结论只有一个：监控是伪造的。25号值班的保安刘联铭昨天刚办了离职，那一整段24小时的录像，都被人替换了。",
+  "overview4": "刘联铭横死家中，死因与梁毅完全相同，毒物直接下在酒里；唯一的区别是他的酒杯里留下了残留——邻苯二甲酸酯，增塑剂，指甲油里也有。杜城由此推断：梁毅最爱看女人的手，而凶手恰恰是那个涂着指甲油、趁端酒时藏毒的人。他们登门拜访设计师蒋歌，借出她家24小时监控，却发现同样的光线骗局。传唤、搜查、审讯，沈翊用「视线会追逐熟悉的事物」点破蒋歌与刘联铭的关联，邮件与指甲碎片的证据链合拢，蒋歌终于松口：那间万恶的密室，就是我设计的。片尾，一句「那你后来为什么要杀了他」，把答案留到了下一集。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "00:00–02:17",
+      "title": "苦杏仁味的答案",
+      "body": [
+        "法医何溶月的报告敲定梁毅的死因：检测出毒物成分，喉咙部位浓度明显高于其他部位，推测为直接吞下毒物。报告念完，办公室里有人不解：毒物中毒，不是应该有苦杏仁味吗？现场为什么没人提。",
+        "何溶月反问一句「毒理学课没好好听」，随即解释：苦杏仁味是毒物在潮湿空气中水解出氢氰酸的味道，大多数人身体里本就没有这种气味，根本闻不出什么；而一旦下毒剂量少，同样不会有味道。她合上报告，示意把结果交给杜队。"
+      ],
+      "quotes": [
+        {
+          "zh": "「检测出毒物成分，喉咙部位浓度明显大于其他部位，推测为直接吞下毒物。」",
+          "en": "\"The poison has been detected, with the concentration in the throat far higher than anywhere else—consistent with the poison being swallowed directly.\""
+        },
+        {
+          "zh": "「毒物中毒，不应该是有苦杏仁味吗？可是现场为什么没人提啊？」",
+          "en": "\"Shouldn't a poisoning reek of bitter almonds? So why did no one at the scene mention it?\""
+        },
+        {
+          "zh": "「苦杏仁味，是毒物在潮湿空气中水解出的氢氰酸的味道。如果下毒剂量少，那也是没有味道的。」",
+          "en": "\"That bitter-almond smell is the smell of hydrocyanic acid, produced when the poison hydrolyzes in moist air. If the dose is small, there's no smell at all.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "02:24–04:30",
+      "title": "五张失踪的光盘",
+      "body": [
+        "案情汇总：现场共提取到43枚有效指纹，属于不同的9个人，其中一枚属于死者梁毅，其余8人正在排查。案发房屋经过特殊改造，隐藏房间里发现了82份梁毅与不同女性的性爱视频和87份病历，两者疑似一一对应——若对应关系成立，就意味着还有5张光盘下落不明。",
+        "顺着这个角度想下去，凶手很有可能就藏在那5张光盘里。另一边，李晗在整形医院请工作人员把整容后的照片与病历一一对应，确认这些病例都是梁院长单独保存的直接客户。",
+        "医院的人忽然想起一件事：梁院长以前得罪过一个人——因为一次整容手术失败，那个女病人被毁容了。这条线索让沈翊的眉头皱了起来：监控里凭空消失的蒙面女人，脸上同样带着毁容的痕迹。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我们一共在现场提取到43枚有效指纹，属于不同的9个人，其中有一枚属于死者梁毅。」",
+          "en": "\"We lifted 43 usable fingerprints at the scene, belonging to nine different people—one of them the victim, Liang Yi.\""
+        },
+        {
+          "zh": "「82份性爱视频和87份病例，我推测两者之间应该有对应关系。如果对应关系成立，就说明还有五张光盘下落不明。」",
+          "en": "\"Eighty-two sex tapes and eighty-seven medical records—I suspect they correspond to one another. If the correspondence holds, it means five discs are still unaccounted for.\""
+        },
+        {
+          "zh": "「按这个角度去想的话，凶手很有可能就在这五张光盘里。」",
+          "en": "\"Reasoning from that angle, the killer very likely lies among those five discs.\""
+        },
+        {
+          "zh": "「梁院长以前得罪过一个人。因为一次整容手术失败，她被毁容了。」",
+          "en": "\"Director Liang once made an enemy. Because of a failed cosmetic surgery, she was disfigured.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "04:37–08:07",
+      "title": "艾文的幻象",
+      "body": [
+        "沈翊一夜没睡，画出了那张蒙面女人的脸。他把画像交给李晗，李晗展开一看，倒吸一口凉气——「天哪，这张脸。」杜城不在局里，蒋峰循着线索先一步出去了。",
+        "蒋峰按线索找到一名女性的住址，那是一栋层层铁门上锁的楼：每层两个铁门，钥匙只有管理员有，除了固定的打扫时间，里面的人根本出不去。被问到的女人叫艾文，她平静地说：认识梁毅，他死了，我知道。",
+        "可接下来的话让审讯室的空气变了味：他早就该死了。他逼她去做不愿意做的事，在她酒里下药，在那间小黑屋里糟蹋她。她说自己一刀一刀把他的肉割下来，把他的血装进瓶子里做成了口红——语无伦次里满是恨意。",
+        "何溶月判断：从艾文的精神状态来看，基本可以排除嫌疑。但对她的调查反而证实了推论——梁毅一直在用光盘要挟视频中的女性。只要把视频中的人与病例中的人一一对应，范围就能锁定。"
+      ],
+      "quotes": [
+        {
+          "zh": "「天哪，这张脸。」",
+          "en": "\"My god... that face.\""
+        },
+        {
+          "zh": "「他早就该死了。他逼我，去做我不愿意做的事情，在那间小黑屋里，在我的酒里面下了药。」",
+          "en": "\"He deserved to die. He forced me to do things I never wanted to do—in that little dark room, drugging my wine.\""
+        },
+        {
+          "zh": "「我就把他的血，装进了我的瓶子里，做成了口红。」",
+          "en": "\"I collected his blood in my bottles and turned it into lipstick.\""
+        },
+        {
+          "zh": "「从艾文的精神状态来看，基本可以排除嫌疑。但是通过对她的调查，证实了我们的推论——梁毅一直在用这些光盘要挟视频中的女性。」",
+          "en": "\"Judging by Aiwen's mental state, we can basically rule her out. But looking into her confirmed our theory—Liang Yi was blackmailing the women in those videos.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "08:08–09:36",
+      "title": "还原整容前",
+      "body": [
+        "张局推门进来，先夸沈翊一句「门开着都知道敲门」，又心疼他熬了一晚上才画出那张脸。沈翊实话实说：主要是毁容后的脸，难度会很大，画得对不对还不知道。",
+        "杜城接着汇报难点：手头照片都是整容前病例上的，而视频里的女孩都经历过完整的整容手术，确定身份很困难。沈翊却开口：「其实有更快的办法。」把视频中的脸还原成整容前的样子，再与病历照片比对即可。",
+        "「可以全部还原吗？」「如果让我再仔细看一遍那些视频，应该是能全部还原出来。」准确率他敢打包票：不低于百分之九十。张局当场拍板——「杜城，你跟沈翊一起吧。」宿敌与搭档，在这一刻被绑进了同一个案子。"
+      ],
+      "quotes": [
+        {
+          "zh": "「听说昨天晚上熬了一晚上，才把那张脸画出来啊。」「没事，主要是毁容后的脸，难度还是会很大。」",
+          "en": "\"I heard you stayed up all night to finish that face.\" \"It's fine. A disfigured face is just much harder.\""
+        },
+        {
+          "zh": "「只要把视频中的脸，还原成整容前的样子，就可以比对了。」「准确率大概多少？」「我有把握，准确率不低于百分之九十。」",
+          "en": "\"If we restore the faces in the videos to how they looked before surgery, we can match them.\" \"What's the accuracy?\" \"I'm confident—no lower than ninety percent.\""
+        },
+        {
+          "zh": "「杜城，你跟沈翊一起吧。」",
+          "en": "\"Du Cheng—you'll work with Shen Yi on this.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "09:36–11:30",
+      "title": "眼白里的情绪",
+      "body": [
+        "沈翊画完了，问杜城办公室能不能用，杜城只回一句「集中注意力，少扯闲篇」，扫一眼画作便皱起眉头：画得都是些什么，随便几笔，投机取巧。",
+        "沈翊不恼：「我是取巧了。八十二张人脸，我没必要全部画出来，我只要画出那些惊恐和无助的，就够了。」他讲起眼白理论：在所有灵长类动物里，人类的眼白是最大的；人类最早用眼白表达情绪，眼白的大小能读出惊恐、愤怒、悲伤。他要抓的，是那些相似的脸下不同的情绪。",
+        "队员围观满墙的画，惊叹「他这是在办画展吗」「沈老师太厉害了，一晚上画出这么多」。杜城泼冷水：「画得对不对，还不知道呢。」沈翊把大海捞针的比对任务交给杜队，拍拍手去吃早餐，留一句「等着你们的好消息」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这画的都是什么呀？随便画着两笔，投机取巧。」「我是取巧了。八十二张人脸，我没必要全画出来，我只要画出那些惊恐和无助的就够了。」",
+          "en": "\"What is all this? A couple of careless strokes—a shortcut.\" \"I did take a shortcut. I don't need all eighty-two faces—only the ones full of terror and helplessness.\""
+        },
+        {
+          "zh": "「你知道所有灵长类动物中，人类的眼白是最大的吗？人类是最早使用眼白来表达情绪的。眼白的大小，可以表达出惊恐、愤怒、悲伤。」",
+          "en": "\"Did you know that of all primates, humans have the largest whites of the eyes? We were the first to use them to express emotion—the size of the white can show terror, rage, and sorrow.\""
+        },
+        {
+          "zh": "「沈老师太厉害了，一晚上画出这么多。」「画得对不对，还不知道呢。」",
+          "en": "\"Teacher Shen is incredible—all these in a single night.\" \"Whether they're right, we don't know yet.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "11:36–13:33",
+      "title": "排查五个女人",
+      "body": [
+        "视频里的女人们被一个个约到警局问话。忙成陀螺的企业家摊开行程：上午去郊区看地皮，中午搭飞机赶新能源电池的投资招标会，行程全在助理那里，「你们随便查」。有人拿出医生作证：25号那天她在医院。",
+        "最淡定的是个网红主播：「你们怀疑我杀了他？我每天直播十几个小时，要和粉丝互动，怎么抽得出身？不信可以去查我的直播记录呀，顺便帮我点个关注。」轮到设计师蒋歌，她说那晚在家画设计图，快天亮才睡，一个人住无从证明——「监控算吗？」",
+        "还有一位女人红着眼问：我的那份录像呢？我可以出钱买，多少钱都行。大家都是成年人了，你情我愿的，能不能不要再提这件事了。",
+        "人陆续对上了号，只剩最后一个叫范若萱的——她不肯在白天来。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你可以去查我的直播记录呀，顺便帮我点个关注。」",
+          "en": "\"You can check my livestream history if you don't believe me—and while you're at it, give me a follow.\""
+        },
+        {
+          "zh": "「我那晚在家画设计图，快天亮才睡。我一个人住的，怎么证明呢？监控算吗？」",
+          "en": "\"That night I stayed home drawing designs and didn't sleep till near dawn. I live alone—how can I prove it? Does my surveillance footage count?\""
+        },
+        {
+          "zh": "「我的那份录像呢？我可以出钱买，多少钱都行。大家都是成年人了，你情我愿的，咱们能不能不要提这件事情了？」",
+          "en": "\"What about my tape? I'll buy it back—whatever the price. We're all adults here; it was consensual. Can we please just stop talking about this?\""
+        },
+        {
+          "zh": "「最后一个叫范若萱的，不肯在白天来。」",
+          "en": "\"The last one, Fan Ruoxuan—she refuses to come during the day.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "13:33–16:26",
+      "title": "迟到的范若萱",
+      "body": [
+        "范若萱在夜里到了警局，脸上严严实实捂着口罩。沈翊请她把口罩取下，她攥着口罩不肯松手：「可以不取吗？」摘下的一刻，所有人都看清了——画上的脸，口罩下的脸，严丝合缝。围观的人啧啧称奇：戴着口罩都画得这么像，沈翊也太神了吧。",
+        "审讯室里，范若萱毫不回避：前几天她确实去找过梁毅。她声音发颤——我们医院的周院长告诉她，梁毅用的那些填充材料都没有到临床阶段，「你拿我的脸当实验品」。梁毅说周院长能做修复手术，但这钱得她自己出。",
+        "她越说越激动：「这张脸已经完了，谁也救不了。我要去告你。」可监控记录摆在那里：25号晚上，她在梁毅的住处待了将近两个小时。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你好，麻烦你把这个口罩取一下吧。」「可以不取吗？」",
+          "en": "\"Hello—could you please take off that mask?\" \"Do I have to?\""
+        },
+        {
+          "zh": "「戴着口罩都画得这么像，沈翊也太神了吧。」",
+          "en": "\"He can draw her that accurately even with a mask on—Shen Yi is a miracle worker.\""
+        },
+        {
+          "zh": "「我们医院的周院长跟我说，你的那些填充材料都没有到临床阶段。你拿我的脸当实验品。」",
+          "en": "\"Director Zhou at my hospital told me your filler materials never even reached clinical trials. You used my face as an experiment.\""
+        },
+        {
+          "zh": "「这张脸已经完了，谁也救不了。我要去告你。」",
+          "en": "\"This face is ruined—no one can save it. I'm going to sue you.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "16:30–20:11",
+      "title": "那杯红酒",
+      "body": [
+        "范若萱回忆起初次见梁毅：第一次做鼻子整形之前，面诊后，他把她带到了整形医院顶楼的家里。出于情面，她陪他喝了一杯红酒。事后他道歉，说只是因为太喜欢她了，作为补偿，会免费为她做手术——无论什么项目，无论多少次。",
+        "她清楚自己被录像是什么时候，更清楚这条路的代价：开始时做手术是为了变美，是梁毅把她彻底毁了。后来她不停地学习、不停地修复，修复，直到再也修复不了。",
+        "审讯结束，沈翊替她叹了口气：「他应该没有说谎。镜子就像是人的第二重生——她用尽了最大的勇气，也只是杀了镜子里面的自己。」可监控时间明明显示，25号晚上她在梁毅的住处待了近两个小时。范若萱一口咬定：「25号晚上，我一直在派出所。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「面诊后，他把我带到了他整形医院顶楼的家里。出于情面，陪他喝了杯红酒。」",
+          "en": "\"After the consultation, he took me up to his penthouse at the hospital. Out of politeness, I had a glass of red wine with him.\""
+        },
+        {
+          "zh": "「他跟我道歉，说只是因为太喜欢我了。作为补偿，他会免费为我做手术，无论什么项目，无论多少次。」",
+          "en": "\"He apologized, said it was only because he liked me too much. As compensation, he'd do my surgery for free—any procedure, any number of times.\""
+        },
+        {
+          "zh": "「开始时我做手术是为了变美，是梁毅把我彻底毁了。后来就不停地学习，就不停地修复，修复，直到修复都修复不了了。」",
+          "en": "\"At first I went under the knife to become beautiful. It was Liang Yi who destroyed me. After that I kept learning, kept getting repairs—until nothing could be repaired anymore.\""
+        },
+        {
+          "zh": "「镜子就像是人的第二重生。她用尽了最大的勇气，也只是杀了镜子里面的自己。」",
+          "en": "\"A mirror is like a person's second rebirth. She summoned all her courage—and in the end, she only killed the person in the mirror.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "20:19–21:28",
+      "title": "伪造的监控",
+      "body": [
+        "闫谈声在预审里听出了端倪：一个问题他反复问了三遍，范若萱的回答始终吻合。他说经验之谈，犯罪之后嫌疑人会反复修正口供，在定罪的关键问题上意志坚定，可很多小细节会前后矛盾、难以自洽——范若萱没有这种情况，说谎的可能性很小。",
+        "派出所那边传来确认：25号晚上，范若萱确实因为酒驾，被扣了一晚。她根本没有作案时间。",
+        "「所以只有一个可能——监控是被造的。」杜城顺着查下去：25号值班的保安叫刘联铭，昨天刚办了离职。那24小时的录像，整个内容都被替换了，难怪技术那边什么也查不出来。「我终于明白，为什么附近的监控什么都查不到。」他让人把外面的监控再重新查一遍。"
+      ],
+      "quotes": [
+        {
+          "zh": "「犯罪以后，嫌疑人会反复修正自己的口供，在定罪的关键问题上意志坚定，可有很多小细节，就会前后矛盾、难以自洽。这个范若萱，没有这种情况。」",
+          "en": "\"After a crime, suspects revise their statements. On key points they hold firm, yet many small details end up contradicting themselves. Fan Ruoxuan showed none of that.\""
+        },
+        {
+          "zh": "「跟派出所确认过了，25号晚上，范若萱确实因为酒驾，被扣了一晚。」",
+          "en": "\"We've confirmed with the police station—on the night of the 25th, Fan Ruoxuan was actually held overnight for drunk driving.\""
+        },
+        {
+          "zh": "「所以只有一个可能——监控是被造的。」",
+          "en": "\"So there's only one possibility left—the surveillance footage was fabricated.\""
+        },
+        {
+          "zh": "「25号值班的是刘联铭，昨天刚办了离职。二十四小时，整个内容都被替换了。难怪技术那边什么也查不出来。」",
+          "en": "\"On the 25th the guard on duty was Liu Lianming—he filed for resignation just yesterday. The entire twenty-four hours was swapped out. No wonder forensics couldn't find anything.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "21:40–25:34",
+      "title": "灭口·爱手的男人",
+      "body": [
+        "刘联铭的住处大门紧锁。敲不开门，杜城的一句调侃被沈翊顶了回来：杜城说人只有活着才有让人着迷的表情，死了脸就索然无味；沈翊不赞同——死去的人也是有表达的，很多时候这种表达比活人更可信。",
+        "法医很快给出结果：刘联铭的死因与梁毅一模一样，毒物中毒，毒物直接下在了酒里。唯一的区别，是梁毅的酒杯干干净净，刘联铭的酒杯里留有残留。先杀梁毅，串通刘联铭修改监控，再灭刘联铭的口——这个凶手不仅心狠，而且聪明。沈翊提醒杜城：你听上去很赞赏。杜城只是说：陈述事实而已。",
+        "何溶月指着酒杯里的沉淀物：邻苯二甲酸酯，增塑剂，在香水、洗发水、沐浴露、指甲油里也都有。杜城脑海里那根线忽然通了——梁毅爱看女人的手，有这种嗜好的人，在指甲里藏毒是最好的下毒方式。而刘联铭不好这口，只爱酒：只要把药粉夹在指甲上，趁端酒的时候就可以下毒。",
+        "「所以刘联铭的酒杯里，才会出现增塑剂。」他眯起眼：「太嚣张了。」凶手是个涂着指甲油、亲手端酒给刘联铭的人——而刘联铭的家，绝不是一般人进得去的。"
+      ],
+      "quotes": [
+        {
+          "zh": "「人只有活着的时候，才会有各种让人着迷的表情。死了，人脸就变得索然无味了。」「这个我不赞同。死去的人也是有表达的，很多时候这种表达比活人更可信。」",
+          "en": "\"Only the living have those fascinating expressions. Once you're dead, a face goes bland.\" \"I disagree. The dead have their own expressions—and often they're more trustworthy than the living.\""
+        },
+        {
+          "zh": "「先杀梁毅，串通刘联铭修改监控，再灭刘联铭的口。这个凶手，不仅心狠，而且聪明。」",
+          "en": "\"Kill Liang Yi, collude with Liu Lianming to doctor the footage, then silence Liu Lianming. This killer is not just ruthless—they're clever.\""
+        },
+        {
+          "zh": "「像梁毅这样，依靠为女人制造面具而谋生的人，最迷恋的竟然是女人的手。脸可以改，性别也可以修正，但唯有手，后天无法矫正。」",
+          "en": "\"A man like Liang Yi, who made his living crafting masks for women, was obsessed with women's hands. Faces can be changed, even gender can be corrected—but hands alone can never be altered after birth.\""
+        },
+        {
+          "zh": "「只要把药粉夹在指甲上，趁端酒的时候就可以下毒。所以刘联铭的酒杯里，才会出现增塑剂。太嚣张了。」",
+          "en": "\"Hide the powder under a fingernail, and you can drug the wine as you hand it over. That's why plasticizers showed up in Liu Lianming's glass. The audacity.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "26:14–29:26",
+      "title": "蒋歌的美甲·说谎的光线",
+      "body": [
+        "杜城与沈翊登门拜访设计师蒋歌。沈翊随口问起她平时是不是喜欢做美甲，蒋歌答得滴水不漏：没办法，她有很多女性客户，想跟她们迅速拉近距离，美甲就是最好的话题。「今天没涂？」「没心情。」",
+        "两人切入正题，借她家的监控数据做技术检查——蒋歌曾说过，一个人住，家里是有监控的。她爽快地把24小时监控数据传了过去。",
+        "回到局里，李晗再调来蒋歌住宅附近公共空间的室内监控。沈翊对比光线：同一段无遮挡的白天录像，蒋歌家的画面确实比其他几份更加明亮。光线不会说谎——蒋歌家的监控，也被替换过。"
+      ],
+      "quotes": [
+        {
+          "zh": "「没办法，我有很多女性客户，想要跟她们迅速拉近距离，美甲就是话题。」",
+          "en": "\"What can I say—I have a lot of female clients. Nail art is the fastest way to close the distance between us, so it's my topic.\""
+        },
+        {
+          "zh": "「上次您说，您一个人在家的时候是有监控的。能不能麻烦把那个监控数据借给我们，让我们回去做一个技术检查？」",
+          "en": "\"Last time you mentioned that you have surveillance at home since you live alone. Could you lend us that footage for a technical examination?\""
+        },
+        {
+          "zh": "「光线是不会说谎的。同一段无遮挡的白天录像，蒋歌家的监控，确实比其他几份更加明亮。所以蒋歌家的监控，也是被替换的。」",
+          "en": "\"Light never lies. Comparing unobstructed daytime footage, Jiang Ge's feed is clearly brighter than the others. Her surveillance was swapped out too.\""
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "num": "S12",
+      "time": "29:39–40:45",
+      "title": "万恶的密室",
+      "body": [
+        "蒋歌被依法传唤，住处同时被搜查。梳妆台成了重点——那正是藏指甲碎片的地方。审讯室里，她先否认一切，沈翊却递过一张照片：你认识这个叫刘联铭的人吗？蒋歌只瞥了一眼：「他是谁？」沈翊看得清清楚楚：「一个人的视线，会不受控制地被自己所熟悉的事物所吸引。」",
+        "证据链一层层合拢：26号本该休息的刘联铭故意调班，把蒋歌25号进出医院门口的监控，换成了范若萱23号的录像；他不过是蒋歌的一枚棋子，却不知什么原因成了定时炸弹，逼得她不得不灭口。刘联铭死前给邮箱发过一封信，邮件被删除，但服务器恢复只是时间问题；而蒋歌家里搜出的一小片指甲碎片，正是化验的关键。",
+        "蒋歌终于崩溃：「我以为，他们死了，我就自由了。」她剖开自己：这个行业里男性占据绝对优势，甲方第一眼看到的永远是男设计师。她这个长相普通的女人，永远沉默在人堆里，像有一层厚厚的天花板挡在头顶。性别突破不了的天花板，她要用美来突破——然后梁毅就像对其他姑娘一样，趁机给她下了药。",
+        "「那万恶的密室，就是我设计的。」她原是梁毅第一个受害者，却帮他介绍客户、从受害者变成了帮凶：「我承认，在某种程度上，我是他的帮凶……我有的时候竟然会感激他，就是因为他给了我这张脸。靠着这张脸我名利双收，可我得到的越多，就越没有反抗他的念头。」片尾，杜城的声音落下最后一句：「那你后来为什么要杀了他？」"
+      ],
+      "quotes": [
+        {
+          "zh": "「一个人的视线，会不受控制地被自己所熟悉的事物所吸引。」",
+          "en": "\"A person's gaze is involuntarily drawn to the things they recognize.\""
+        },
+        {
+          "zh": "「刘联铭应该只是你的一枚棋子。但不知道什么原因，却成了定时炸弹，所以你不得不灭他的口。」",
+          "en": "\"Liu Lianming was just a pawn of yours. But for some reason he became a ticking time bomb—so you had no choice but to silence him.\""
+        },
+        {
+          "zh": "「我以为，他们死了，我就自由了。」",
+          "en": "\"I thought—once they were dead, I'd be free.\""
+        },
+        {
+          "zh": "「性别突破不了的天花板，我要用美来突破。那万恶的密室，就是我设计的。」",
+          "en": "\"The ceiling my gender can't break, I'll break with beauty. That abominable secret room—I designed it.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1 · 法医细节",
+      "title": "剂量小，就没味道",
+      "situation": "现场没人闻出苦杏仁味，何溶月解释：苦杏仁味是毒物在潮湿空气中水解出氢氰酸的味道，剂量少便几乎察觉不到。",
+      "advice": [
+        "反常识的现象背后，往往藏着严谨的科学解释，别急着下结论。",
+        "察觉不到的味道，不代表毒没有下——剂量决定痕迹。",
+        "现场每一处「异常安静」，都是值得追问的线索。"
+      ]
+    },
+    {
+      "tag": "源自 S2 · 数据对应",
+      "title": "对不上的缺口，就是突破口",
+      "situation": "82份视频与87份病历疑似一一对应，5张光盘下落不明——凶手很可能就藏在那五个人里。",
+      "advice": [
+        "当数据出现对不上的「缺口」，缺口本身往往就是突破口。",
+        "把零散线索放进对应关系里，排查范围才会真正缩小。",
+        "破案不只靠找到线索，更靠把线索串成一条逻辑链。"
+      ]
+    },
+    {
+      "tag": "源自 S3 · 排除法",
+      "title": "排除嫌疑，也能推进案情",
+      "situation": "精神异常的艾文幻想杀死梁毅，何溶月判断排除嫌疑，但对她的调查反而证实了梁毅用光盘要挟女性的推论。",
+      "advice": [
+        "排除一个人不等于白做——每条信息都在验证或推翻某个假设。",
+        "别让一个人的「怪」，盖住背后真正有用的线索。",
+        "大胆排除可以，但一定要有依据，不能想当然。"
+      ]
+    },
+    {
+      "tag": "源自 S5 · 眼白理论",
+      "title": "抓住情绪，胜过穷举",
+      "situation": "面对82张脸，沈翊只画惊恐与无助的表情，用「人类眼白最大、最早用它表达情绪」的科学原理回应杜城的质疑。",
+      "advice": [
+        "面对海量任务，抓住共同特征，比逐一处理更高效。",
+        "直觉背后要有原理支撑，才配叫专业。",
+        "把复杂问题简化到本质，是高手与普通人的分水岭。"
+      ]
+    },
+    {
+      "tag": "源自 S8–S9 · 不在场证明",
+      "title": "监控可以被伪造，事实不会",
+      "situation": "监控「实锤」范若萱25号晚上在梁毅家，可她那晚因酒驾被扣在派出所；闫谈声三次问讯口供一致，结论是整段监控被替换。",
+      "advice": [
+        "越「完美」的证据，越值得追问它的来源是否干净。",
+        "多一个独立来源的交叉验证，就多一分逼近真相的可能。",
+        "当证据与事实冲突时，先检查证据本身有没有被动过手脚。"
+      ]
+    },
+    {
+      "tag": "源自 S10–S12 · 蒋歌",
+      "title": "完美计划，败在残留",
+      "situation": "蒋歌设计密室、替换监控、灭口刘联铭，却败在酒杯里验出的增塑剂；而她也因渴望突破职场天花板落入梁毅的陷阱，从受害者变成帮凶。",
+      "advice": [
+        "再完美的计划也绕不开物质交换定律，总会留下痕迹。",
+        "对「变美」「被看见」的渴望，可能成为被人拿捏的软肋。",
+        "沉默与妥协不会保护你，只会让你越陷越深。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "沈翊",
+      "role": "北江分局模拟画像师（檀健次 饰）",
+      "desc": "熬夜画出蒙面女人毁容后的脸，提出把视频中的脸还原成整容前比对的方案（准确率不低于90%）；用「眼白理论」只画惊恐无助的表情，用「视线会追逐熟悉的事物」当场戳穿蒋歌认识刘联铭。他说：死去的人也是有表达的，很多时候比活人更可信。"
+    },
+    {
+      "name": "杜城",
+      "role": "北江分局刑警队长（金世佳 饰）",
+      "desc": "与沈翊搭档调查梁毅案。他逐个排查视频中的女性，断言「监控是被造的」，又从刘联铭酒杯里的增塑剂反推出「凶手涂着指甲油」。片尾，他问出那句把答案留到下一集的问题：「那你后来为什么要杀了他？」"
+    },
+    {
+      "name": "蒋歌",
+      "role": "义非建筑设计工作室首席设计师 · 真凶（金丰 饰）",
+      "desc": "34岁，长相普通的行业精英，为突破职场性别天花板而整容，成为梁毅的第一个受害者。那间「天衣无缝」的密室正是她亲手设计；她调包监控、灭口刘联铭，直到证据链合拢才崩溃松口。"
+    },
+    {
+      "name": "何溶月",
+      "role": "北江分局法医（张柏嘉 饰）",
+      "desc": "开场给出毒物尸检结论，解释「剂量少就闻不出苦杏仁味」；从刘联铭酒杯里的邻苯二甲酸酯锁定指甲油线索；并判断精神异常的艾文基本可以排除嫌疑。"
+    },
+    {
+      "name": "范若萱",
+      "role": "整容失败的受害者 · 本集关键证人",
+      "desc": "被梁毅用未进入临床阶段的填充材料毁容，深夜戴着口罩到警局。她回忆那杯面诊后的红酒与反复修复直至无法修复的经历；25号晚因酒驾被扣在派出所，成了推翻伪造监控的铁证。"
+    },
+    {
+      "name": "刘联铭",
+      "role": "梁毅医院园区保安 · 被灭口者",
+      "desc": "25号值班时故意调班，把范若萱进出医院的录像替换成蒋歌的，为凶手制造不在场证据；事成后「成了定时炸弹」，横死在自己住处，酒杯里验出与梁毅同款的毒物与增塑剂。"
+    },
+    {
+      "name": "蒋峰",
+      "role": "刑警队队员（朱嘉琦 饰）",
+      "desc": "循线索找到艾文住的铁门楼房，一路排查视频中的女性；也是围观沈翊满墙画像时连声惊叹「沈老师太厉害了」的人。"
+    },
+    {
+      "name": "李晗",
+      "role": "刑警队队员（陆妍淇 饰）",
+      "desc": "在整形医院请工作人员把整容后的照片与病历一一对应，引出「整容失败被毁容」的线索；帮沈翊传话、调取蒋歌住宅周边监控做光线对比。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "八十二张脸，只画惊恐",
+      "desc": "沈翊一夜画出82张人脸，却只挑惊恐与无助的表情——「人类眼白最大，最早用它表达情绪」。把批量比对的苦差，变成了一门讲究情绪的科学。"
+    },
+    {
+      "title": "深夜戴口罩的范若萱",
+      "desc": "最后一位视频中的女人只肯在晚上来，摘下口罩的瞬间，与画上的脸严丝合缝。她因整容失败被毁容，痛斥梁毅拿她的脸当实验品，扬言要告他。"
+    },
+    {
+      "title": "被整个替换的监控",
+      "desc": "范若萱因酒驾被扣在派出所，却有监控显示她25号晚在梁毅家。闫谈声三次问讯口供一致，结论是值班保安刘联铭把24小时监控整段调了包——「监控是被造的」。"
+    },
+    {
+      "title": "第二具尸体，同一种毒",
+      "desc": "刘联铭横死家中，酒杯里躺着与梁毅同款的毒物。先杀梁毅、串通改监控、再灭口，凶手心狠手辣，环环相扣，「不仅心狠，而且聪明」。"
+    },
+    {
+      "title": "爱手的男人",
+      "desc": "梁毅最迷恋的是女人的手，指甲藏毒成了最隐蔽的下毒方式；刘联铭酒杯里验出的增塑剂，暴露了下毒者涂着指甲油。一双做美甲的手，出卖了凶手。"
+    },
+    {
+      "title": "那万恶的密室",
+      "desc": "蒋歌为突破职场性别天花板而整容，成了梁毅的第一个受害者——而她亲手设计的那间密室，「天衣无缝」。片尾一句「那你后来为什么要杀了他」，把真相留到了下一集。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "「为什么要杀了他」",
+      "desc": "审讯尾声，蒋歌被问「那你后来为什么要杀了他」，画面戛然而止。她承认设计密室、自称第一个受害者，但杀梁毅的真正动机与手法，还悬而未决。"
+    },
+    {
+      "title": "刘联铭的邮件",
+      "desc": "刘联铭死前给自己邮箱发过一封信，被人删除，服务器恢复只是时间问题。这封信里，可能攥着蒋歌案的最后一块拼图。"
+    },
+    {
+      "title": "蒋歌的「帮凶」",
+      "desc": "蒋歌承认帮梁毅介绍客户、让更多女孩「步她的后尘」。那些被介绍进密室的受害者，会不会成为下一段故事的起点？"
+    },
+    {
+      "title": "被调包的监控",
+      "desc": "范若萱、蒋歌的监控都被同一种手法替换，梁毅案周边监控同样被动过手脚。幕后操控监控的人，或许不止蒋歌一个。"
+    },
+    {
+      "title": "美作为突破口",
+      "desc": "蒋歌用「美」突破职场天花板，最终却因此坠入深渊。「我得到的越多，就越没有反抗他的念头」——美给她的一切，都会变成拿捏她的绳索。"
+    }
+  ]
+}

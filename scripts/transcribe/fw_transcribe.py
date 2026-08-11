@@ -10,8 +10,12 @@
 推荐并行策略：2 进程 × 4 线程（Intel Mac），参考 transcribe-parallel.sh。
 """
 import json
+import os
 import sys
 import time
+
+# 优先使用本地模型缓存，避免 huggingface_hub 联网检查触发代理 403
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 from faster_whisper import WhisperModel
 

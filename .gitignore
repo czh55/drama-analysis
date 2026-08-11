@@ -13,5 +13,9 @@ A 爱情-没有-神话/
 # 临时生成脚本
 generate-*.mjs
 
-# 预览截图
+# 转录中间产物（faster-whisper 输出，不入库；/tmp 会被系统清理，故放项目内）
+.transcripts/
+
+# HF 缓存 / 其他
+.accelerate/
 .preview*.png
