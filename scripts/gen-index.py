@@ -46,11 +46,15 @@ def duration_from_ffprobe(video_path):
 
 def find_video(video_dir, ep):
     import glob as _glob
+    hits = []
     for pat in (f'{ep}*.mp4', f'{ep}*.mkv', f'{ep}*.MP4', f'{ep}*.MKV'):
-        hits = _glob.glob(os.path.join(video_dir, pat))
-        for h in hits:
-            if os.path.isfile(h):
-                return h
+        hits.extend(_glob.glob(os.path.join(video_dir, pat)))
+    for h in hits:
+        if os.path.isfile(h) and '(1)' not in os.path.basename(h):
+            return h
+    for h in hits:
+        if os.path.isfile(h):
+            return h
     return None
 
 

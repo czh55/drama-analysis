@@ -16,10 +16,16 @@ END="${4:-38}"
 CONC="${5:-2}"
 
 find_video() {
-  local ep="$1"
+  local ep="$1" f picked=""
   for f in "$VIDEO_DIR/$ep"*.mp4 "$VIDEO_DIR/$ep"*.mkv "$VIDEO_DIR/$ep"*.MP4 "$VIDEO_DIR/$ep"*.MKV; do
-    [ -f "$f" ] && echo "$f" && return 0
+    [ -f "$f" ] || continue
+    # 优先选不带 "(1)" 的重复副本
+    case "$f" in
+      *"(1)"*) [ -n "$picked" ] || picked="$f" ;;
+      *) echo "$f" && return 0 ;;
+    esac
   done
+  [ -n "$picked" ] && echo "$picked" && return 0
   return 1
 }
 
@@ -44,7 +50,7 @@ for n in $(seq "$START" "$END"); do
   if [ -f "$out" ]; then echo "E$ep: 已存在跳过"; continue; fi
   if [ ! -f "$wav" ]; then
     video=$(find_video "$ep") || { echo "E$ep: 无视频"; continue; }
-    ffmpeg -y -i "$video" -ar 16000 -ac 1 "$wav" -loglevel error
+    ffmpeg -y -i "$video" -map 0:a:0 -ar 16000 -ac 1 "$wav" -loglevel error
   fi
   # 等并发槽位空出（CONC=0 表示不限制）
   if [ "$CONC" -gt 0 ]; then

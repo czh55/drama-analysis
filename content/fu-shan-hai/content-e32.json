@@ -1,0 +1,464 @@
+{
+  "slug": "fu-shan-hai-e32",
+  "drama": "赴山海",
+  "episode": "32",
+  "title": "灭门真凶",
+  "subtitle": "废于乔验出一具千人面是假货，道破铁衣神补即朱大天王的秘密，临终托萧秋水毁面。宫闱之中，李沉舟深染剧毒入宫认罪，陛下扶持水道朱侠武制衡权力帮。萧家得圣赐牌匾风光一时，萧秋水却循着浣花千机锁的线索层层逼近，最终揭开灭门真凶——竟是二哥萧开雁。爹娘无恙现身，兄弟情义在嫉妒与野心前碎裂。",
+  "meta": [
+    "2025 · 古装武侠",
+    "成毅 / 古力娜扎 / 李凯馨",
+    "45 分钟",
+    "10 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "千机锁破、真凶现形——害萧家满门的，竟是最受宠的二哥萧开雁。",
+  "overview": "第32集，从废家一场验面说起。\n\n废于乔验出眼前这具千人面是假货：真正的千人面须以活人心脉相连、内力供养，离了供养早该化作血水。他道出五年前误杀亲子废丹丰的旧事，揭开朱大天王就是铁衣神补的惊天真相，临终把毁面的遗愿托付给萧秋水。",
+  "overview2": "宫闱之中暗流涌动。李沉舟深染剧毒，不得不入宫面圣认罪，被皇帝讥讽「倒要看看他的骨头有多硬」。陛下遍寻玉玺不得，转而扶持水道朱侠武统管大西武林，用以制衡权力帮；朱侠武携圣上御笔亲书的牌匾说降萧家，萧家风光获赐「锦绣忠义」。",
+  "overview3": "萧秋水却无心受用这份荣宠。旧识阿棍等人带来铁衣神补被人推下山崖的消息，他验尸发现死者会乱随指、尸体干扁如遭吸功，随即追查浣花千机锁被开启的真相——开锁之法只有爹娘与两位兄长知晓，而大哥、二哥都是在他之后才赶回剑路的。",
+  "overview4": "疑点最终锁定二哥萧开雁。萧秋水当众揭穿他提前赶回浣花、偷学邪功、开锁害家的行径，爹娘却在此时安然现身——原来假死是萧秋水设下的局。萧开雁不再辩解，道出心底的怨：萧家最宠的是萧秋水，他只是想靠自己的努力改变命运。兄弟情义，碎于一地。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:58–05:24",
+      "title": "废家验面·千人面是假",
+      "body": [
+        "废家祖堂，萧秋水陪废老爷子查验一具「千人面」。废老爷子断言：真正的千人面须以活人心脉相连、内力供养，否则早该化作血水；可眼前面皮仍在，分明就是假的。他欲言又止——此事与武林兴亡有关，不止是废家的家事。",
+        "废老爷子道出五年前的旧事：儿子废丹丰奉皇城司密令调查朱大天王身份，归来途中遭追杀。他以为儿子被朱大天王的手下劫杀，拼尽全力使出乱随指，可揭下面具才发现，死在自己手上的正是亲子丹丰。此后他自废内力，发誓永不再用乱随指。丹丰之子当场哭喊：「爷爷，你还我爹！」",
+        "废老爷子揭开真相：朱大天王就是铁衣神补，当年正是他设局让废老爷子错杀亲子；白草谷被灭、帮主被假冒，皆出自此人之手。他拜托萧秋水日后给江湖一个交代，无论千人面再掀起什么风波，都证明与废家无关。"
+      ],
+      "quotes": [
+        {
+          "zh": "这若是真的千人面，长期没有连上活人心脉，没有内力供养，早就应该化作血水不见了。可你看，这上面的面皮仍在，分明就是假的。",
+          "en": "If this were a true Thousand-Face Mask, long separated from a living heart and never nourished by inner energy, it would have dissolved into blood long ago. Yet look—the skin here remains. It is clearly a fake."
+        },
+        {
+          "zh": "我以为是他在劫杀丹丰，就拼尽全力使乱随指。可当我揭下面具，才发现，是我的儿子丹丰。",
+          "en": "I thought he was ambushing Danfeng, so I gave everything I had to the Random Follow Finger. But when I tore off the mask, I found my own son, Danfeng."
+        },
+        {
+          "zh": "朱大天王，就是铁衣神补。",
+          "en": "The Great Sky King Zhu is none other than Tie Yi Shen Bu."
+        },
+        {
+          "zh": "爷爷，你还我爹！",
+          "en": "Grandfather, give me back my father!"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "06:12–09:40",
+      "title": "宫宴·李沉舟认罪",
+      "body": [
+        "宫中设宴，皇帝召见权力帮帮主李沉舟。龙案上摆着御史弹劾的奏折：权力帮煽动国库财产分发给武林各派，九成归权力帮、一成归各派。皇帝把话挑明：「有这事吗？」",
+        "李沉舟直言不讳：金北军入东、将士一时短缺，故将财报九成送往军前，因战事紧急未曾禀报。他低头请罪，愿求责罚。",
+        "皇帝听出弦外之音——依李沉舟的意思，是寡人考虑不周、亏待了将士们。他既不便多说，也不留客：「陈州，喝了这杯酒，便回去吧。」一顿宫宴，君臣各怀心思。"
+      ],
+      "quotes": [
+        {
+          "zh": "御史状告你们权力帮，说你们煽动国库财产分发给武林各派，九成归权力帮，一成归武林各派。有这事吗？",
+          "en": "The censors accuse the Power Gang of distributing the national treasury among the martial sects—nine parts to the Power Gang, one part to the rest. Is this true?"
+        },
+        {
+          "zh": "将士一时短缺，故将财报九成送往军前。因战事紧急，此事未曾禀报。愿求责罚。",
+          "en": "The soldiers were short of supplies, so I sent nine parts of the treasury to the front line. Given the urgency of war, I failed to report it. I accept any punishment."
+        },
+        {
+          "zh": "我听出来了，依你的意思是，这事是寡人考虑不周，亏待了将士们。",
+          "en": "I see. By your account, it is I who failed to consider things properly and shortchanged the soldiers."
+        },
+        {
+          "zh": "陈州，喝了这杯酒，便回去吧。",
+          "en": "Chenzhou, drink this cup of wine, and then take your leave."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "11:43–15:00",
+      "title": "陛下布局·玉玺与丹药",
+      "body": [
+        "宫门外，留朝为臣的亲王对李沉舟剖白心迹：原以为你是因不满朝政、诸多决策才愤而出走江湖，我身为亲王，不得不为江山社稷所累。如今见你身陷险境，才明白你所做为何——以往全是偏见，实在对不住你。",
+        "陛下这边，属下来报：南天道的财宝被权力帮取走后，确实换成了粮草物资运往前线，想收买人心；陛下派去的人遭李沉舟算计，在南天道没有发现玉玺的下落。",
+        "陛下冷笑：李沉舟深染剧毒，还不是得乖乖来拜见寡人、求取丹药续命？我倒是要看看，他的骨头有多硬。他转而扶起深伯朱侠武，叮嘱他大西北兵祸不断、百姓苦不堪言，李沉舟劳苦多年也该歇歇了——从今往后，大西武林就交付给他。朱侠武叩首：「臣必定鞠躬尽瘁。」"
+      ],
+      "quotes": [
+        {
+          "zh": "我派去的人遭了李沉舟算计，在南天道没有发现玉玺的下落。",
+          "en": "The men I sent were outwitted by Li Chenzhou. No trace of the imperial seal was found at Nantian Passage."
+        },
+        {
+          "zh": "如今他深染剧毒，还不是得乖乖来拜见寡人，求取丹药才能得以续命？我倒是要看看，他的骨头有多硬。",
+          "en": "Now that he is steeped in poison, he still must come to me and beg for the antidote to survive. I want to see just how hard his bones really are."
+        },
+        {
+          "zh": "从今往后，这大西武林，就交付给你了。你可莫要再让寡人失望了。",
+          "en": "From this day on, the Western martial world is in your hands. Do not disappoint me again."
+        },
+        {
+          "zh": "我身为亲王，不得不为江山社稷所累。如今见你如此，我才知道你所做为何。",
+          "en": "As a prince, I am bound by the weight of the realm. Now that I see you like this, I finally understand why you did what you did."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "15:26–19:11",
+      "title": "废于乔托付·毁面遗愿",
+      "body": [
+        "废老爷子单独约见萧秋水。他说最见不得欺负弱小之人，有事相托：替他查萧家灭门案的真相。他指着自己那张脸——这就是配用千人面的下场。每用一次千人面便内力大损，少有不慎就有性命之忧。废家靠千人面立足江湖，却也毁于此物，江湖人人觊觎，家中为此争得你死我活。",
+        "废老爷子坦言：当年卸下千人面、虚弱闭关，却遭人设计，从此成了见不得人的「孤魂野鬼」。他对千人面早已没有贪念——「做鬼做久了，反而更能看清人了」。他只想找到千人面，彻底毁掉它。",
+        "临了，他给出关键线索：当年追杀丹丰的人，也使出过乱随指——正是朱大天王；而他当年将乱随指写成图谱，曾借给铁衣神补一阅，也是那时被对方记下。他求萧秋水找到铁衣神补、毁掉他手中的千人面：「废家的东西，不能再给江湖造出更多的败类了。」话尽，废老爷子气绝而亡，萧秋水含泪应下。"
+      ],
+      "quotes": [
+        {
+          "zh": "看看我的脸，这就是配用千人面的下场。",
+          "en": "Look at my face. This is the price of using the Thousand-Face Mask."
+        },
+        {
+          "zh": "何止。每用一次千人面，便会内力大损。少有不慎，就有性命之忧。",
+          "en": "And worse. Every use of the mask drains your inner energy; the slightest misstep can cost you your life."
+        },
+        {
+          "zh": "当年追杀丹丰的人，也使出过乱随指——正是朱大天王。",
+          "en": "The one who hunted Danfeng back then also used the Random Follow Finger—none other than the Great Sky King Zhu."
+        },
+        {
+          "zh": "找到铁衣神补，毁掉他手中的千人面。废家的东西，不能再给江湖造出更多的败类了。",
+          "en": "Find Tie Yi Shen Bu and destroy the mask in his hands. The Fei family's craft must not breed more scum for the jianghu."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "20:10–23:28",
+      "title": "龙江水道·御书牌匾",
+      "body": [
+        "龙江水道，朱侠武拦住萧秋水，冷言质问：龙江水道还不够你盘踞敛财吗？你竟与北荒人勾结，到底想做什么？萧秋水针锋相对：在南天荡，我可曾要你替我抢过一分一厘？真正敛财的是李沉舟——他把南天荡半数财宝换成粮草送到前线去，可这不是圣上想要看到的。大西与北荒继续打下去，劳民伤财，再多的财宝也只是填了窟窿。",
+        "朱侠武话锋一转，亮出圣上御笔亲书的四个字：圣上听闻萧家有心报效朝廷，特赐牌匾。有了这道圣谕，萧家的名望恐怕要盖过少林武当。他劝萧秋水这是圣上用人之计，好好干，从此萧家光宗耀祖指日可待。",
+        "临走，朱侠武撂下一句意味深长的话：「圣上要除掉一个人，你只管等待，需要时我自会找你。」萧秋水捧着御书，神色晦暗。"
+      ],
+      "quotes": [
+        {
+          "zh": "真正敛财的是李沉舟。他把南天荡半数财宝换成粮草送到前线去，可这不是圣上想要看到的。",
+          "en": "The real profiteer is Li Chenzhou. He traded half the treasure of Nantian Marsh for grain and sent it to the front—yet that is not what His Majesty wants to see."
+        },
+        {
+          "zh": "圣上听闻您有心报效朝廷，就御笔亲书四个字，赐予了萧家。",
+          "en": "His Majesty heard that the Xiao family wishes to serve the court, so he wrote four characters in his own hand and bestowed them upon your house."
+        },
+        {
+          "zh": "有了这道圣谕，萧家的名望，恐怕要盖过少林武当。",
+          "en": "With this imperial decree, the fame of the Xiao family may well surpass even Shaolin and Wudang."
+        },
+        {
+          "zh": "圣上要除掉一个人，你只管等待，需要时我自会找你。",
+          "en": "His Majesty intends to remove someone. Just wait, and when the time comes, I will find you."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "23:50–26:20",
+      "title": "圣赐牌匾·易人之疑",
+      "body": [
+        "萧家接旨谢恩，齐呼吾皇万岁。朱侠武上前道贺：「恭喜萧大侠，不负皇恩。」圣上亲赐的牌匾「锦绣忠义」送到萧家，满门上下喜不自胜。",
+        "大哥萧易人却心存疑虑：北荒人尚未寻得、萧秋水的名誉也未恢复，圣上怎会无缘无故亲赐牌匾？这牌匾来得奇巧。萧秋水反问他：你是说我们萧家不值得圣上亲赐牌匾，还是不配「锦绣忠义」这个名号？",
+        "萧易人解释自己不是那个意思，只是觉得萧家如今看似热闹，却是虚有其表，完全没有浣花剑派鼎盛时期那般气魄——人心并不在这里。萧秋水笃定道：有了圣心圣意，不怕人心不归附。他会让大哥看着浣花壮大的。话音落下，远处却传来一句阴恻恻的独白：「小秋水，为什么你在哪里都要坏我的事。事情已经到了如今这一步，不会再有任何人能阻碍我。」"
+      ],
+      "quotes": [
+        {
+          "zh": "恭喜萧大侠，不负皇恩。",
+          "en": "Congratulations, Hero Xiao. You have lived up to the emperor's grace."
+        },
+        {
+          "zh": "北荒人未寻得，你的名誉也未恢复，那圣上怎会亲赐牌匾呢？",
+          "en": "The northern raiders are still unfound and your reputation not yet restored—so why would His Majesty bestow a tablet in person?"
+        },
+        {
+          "zh": "如今看似热闹，却是虚有其表，完全没有浣花剑派鼎盛时期那般气魄。人心并非在这里。",
+          "en": "It looks lively now, but it is hollow—nowhere near the grandeur of the Huanhua Sword Sect at its peak. The hearts of men are not here."
+        },
+        {
+          "zh": "有了圣心圣意，不怕人心不归附。我会让你看着浣花壮大的。",
+          "en": "With the favor of the court behind us, loyalty will come. I will let you watch the Huanhua Sect flourish."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "26:50–30:18",
+      "title": "旧识求医·铁衣之死",
+      "body": [
+        "阿棍、武冠等一群旧识找上门来，他们手脚筋被唐门唐柔挑断，行走江湖多有不便，此番专程来求萧雪鱼医治——「雪鱼姐心地善良、医术高明，能把我们治好」。萧秋水得知雪鱼姐正在药炉，便修书一封，让他们去别淳寺找大英法师，只说是小秋水的朋友即可。",
+        "闲谈间，阿棍说起路上的见闻：咱们分开之后，看到一个黑衣人，把六扇门的铁衣神补推下了山崖。萧秋水心头一紧，反复确认：那可是八只眼睛都看清了？他当即带众人赶赴山崖。",
+        "崖下果然横着尸身，使出乱随指的痕迹一目了然——铁衣神补当真已死。萧秋水却越看越疑：就算停尸数月，尸体也不该如此干扁。听闻那凶手的武功似乎能吸人功力，被吸的人会变成干尸。他随即吩咐阿棍等人速去查朱大天王的老巢。"
+      ],
+      "quotes": [
+        {
+          "zh": "雪鱼姐心地善良，医术高明，能把我们给治好。",
+          "en": "Elder Sister Xueyu has a kind heart and superb medical skill—she can heal us."
+        },
+        {
+          "zh": "你们去找别淳寺的大英法师，就说是小秋水的朋友。",
+          "en": "Go to Master Daying at Biechun Temple and tell him you are Xiao Qiushui's friends."
+        },
+        {
+          "zh": "咱们分开之后，看到个黑衣人，把那铁衣神补推下山崖了。",
+          "en": "After we parted, we saw a man in black push Tie Yi Shen Bu off the cliff."
+        },
+        {
+          "zh": "就算停尸数月，也不该如此干扁。那凶手的武功好像能吸人功力，被吸的人会变成干尸。",
+          "en": "Even lying dead for months, a body shouldn't be this withered. The killer's art seems to drain people's power—turning them into desiccated husks."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "31:55–33:53",
+      "title": "浣花千机锁之谜",
+      "body": [
+        "萧秋水与萧雪鱼、郁涵等人查验剑路：原本刻在剑路的剑诀，听说被人偷学后毁掉——莫非，是和朱侠武一样，早早就潜伏在剑路里的？李沉舟曾言，那日柳随风感到剑气时，剑路就已从内部被攻破；剑路坚不可摧，从外部闯入，根本不可能。",
+        "萧雪鱼道出关键发现：他们收敛行迹时早就察觉，剑路后面的浣花千机锁被人打开了。这千机锁精密无比、极难破解，上面藏着两道机关，开锁需要一里一外同时施为。",
+        "能打开千机锁的，必是握有开锁之法的人。那人杀了所有人、夺走千人面、假扮朱大天王。可开锁方法只有爹娘和两位兄长知道——萧秋水急道：「大哥二哥都是在我之后赶回剑路的，不可能！」话音未落，他心中已浮起一个可怕的名字。"
+      ],
+      "quotes": [
+        {
+          "zh": "原本刻在剑路的剑诀，听说被人偷学后毁掉。莫非，是和朱侠武一样，早早就潜伏在剑路里的吗？",
+          "en": "The sword manual carved in the Sword Path was said to be stolen and destroyed. Could its thief have been lurking there as early as Zhu Xiawu did?"
+        },
+        {
+          "zh": "这浣花千机锁精密无比，极难破解。",
+          "en": "This Huanhua Thousand-Machine Lock is exquisitely made and nearly impossible to open."
+        },
+        {
+          "zh": "这上面藏着两道机关，打开的办法，需要一里一外同时进行。",
+          "en": "It conceals two mechanisms. To open it, one must work from inside and outside at the same moment."
+        },
+        {
+          "zh": "开锁方法只有爹娘和两位兄长知道……大哥二哥都是在我之后赶回剑路的，不可能！",
+          "en": "Only Mother, Father, and my two elder brothers know how to open it... But both brothers returned to the Sword Path after me. It's impossible!"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "34:11–39:28",
+      "title": "大哥自责·二哥独归",
+      "body": [
+        "大哥萧易人承认自己打开了千机锁，深陷自责。萧雪鱼温言宽慰：「大哥，你已经做了一切你能做的，别再责怪自己了。」当日二哥前去探路，回来说前面路被毒雾封住，大哥只好选择绕路，因此耽误了不少时间。",
+        "萧秋水抓住破绽追问：那我二哥，又是怎么回来的？萧雪鱼答：他与我们分散后，一路抄近道赶回剑路。萧秋水心中警铃大作——「是你！」",
+        "萧雪鱼买来桂花糕，说听到三弟回来了，特意给他带了一些。萧秋水问起两位兄长下落，得知大哥约了人在府中议事、二哥则去了琵琶阁吃酒，都不在府内。他望着雪鱼姐欲言又止的神色，明白一场对质正在等着自己。"
+      ],
+      "quotes": [
+        {
+          "zh": "大哥，你已经做了一切你能做的，别再责怪自己了。",
+          "en": "Big Brother, you have done everything you could. Stop blaming yourself."
+        },
+        {
+          "zh": "那日你二哥前去探路，回来说前面路被毒雾封住，大哥只好选择绕路，耽误了不少时间。",
+          "en": "That day your second brother scouted ahead and said the road was sealed by poison mist, so our brother was forced to take a detour—it cost them much time."
+        },
+        {
+          "zh": "我去买桂花糕，听到有人说你回来了，我特意给你带了一些。",
+          "en": "I went to buy osmanthus cakes, and heard someone say you were back, so I brought you some."
+        },
+        {
+          "zh": "他与我们分散后，一路抄近道，赶回剑路。",
+          "en": "After he was separated from us, he cut through shortcuts all the way back to the Sword Path."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "40:25–43:31",
+      "title": "质问二哥·爹娘现身",
+      "body": [
+        "萧秋水当面质问二哥萧开雁：你的功法，何时长进了这么多？难道只许你有奇遇，不许二哥用功吗？他步步紧逼：你又是何时在别人身上，学的这些旁门功法？萧开雁装傻：「不知老三弟在胡说什么。」",
+        "萧秋水不再留情：「别再装了。浣花千机锁的解法，爹只告诉了我们三兄弟。」他当场点破：是你提前赶回浣花、偷偷习得邪功——是你杀死爹娘，害了萧家满门！为什么？！",
+        "反转陡生：萧西楼与孙慧珊竟安然现身！萧秋水又惊又喜：「爹、娘，你们没事？」萧西楼笑道：你大哥和三弟带着兄弟们稍后就到——没想到，秋水他真的做到了。",
+        "萧开雁不再辩解，道出积压多年的怨：萧家最宠的是你，总是遇到好事和机遇的你，自然不知道为了什么。我只是想靠自己的努力，改变自己的命运。一席话出口，满盘棋局落幕，兄弟情义在这一刻碎了一地。"
+      ],
+      "quotes": [
+        {
+          "zh": "你的功法，何时长进了这么多？难道只许你有奇遇，不许二哥用功吗？",
+          "en": "When did your skill improve so much? Are you the only one allowed to meet with fortune—must your second brother never train?"
+        },
+        {
+          "zh": "别再装了。浣花千机锁的解法，爹只告诉了我们三兄弟。",
+          "en": "Stop pretending. Father only taught the way to open the Thousand-Machine Lock to us three brothers."
+        },
+        {
+          "zh": "是你提前赶回浣花，偷偷习得邪功，是你杀死爹娘，害了萧家满门！为什么？！",
+          "en": "You raced back to Huanhua ahead of everyone and secretly learned that evil art. It was you who killed our parents and destroyed the Xiao family! Why?"
+        },
+        {
+          "zh": "萧家最宠的是你。总是遇到好事和机遇的你，自然不知道为了什么。我只是想靠自己的努力，改变自己的命运。",
+          "en": "You were the family's favorite. You, who were always blessed with fortune and opportunity, naturally don't understand. I only wanted to change my fate by my own effort."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1 · 废家验面",
+      "title": "真物离了根基，一眼便假",
+      "situation": "废于乔仅凭「千人面没有连上活人心脉、没有内力供养」一条，就断定眼前的面具是假货。",
+      "advice": [
+        "判断真假，先看它赖以存续的根基——离了供给，再像也是赝品。",
+        "验证一个说法，多用排除法：真相不能解释的疑点，就是谎言的破绽。",
+        "传得再真的秘宝，若来路不明、供养断绝，多半有诈。"
+      ]
+    },
+    {
+      "tag": "源自 S2–S3 · 宫闱",
+      "title": "受制于人，只能低头",
+      "situation": "李沉舟深染剧毒，不得不入宫面圣认罪，被皇帝以丹药拿捏，连派去南天道的人也被算计。",
+      "advice": [
+        "把身家性命系于他人手中，早晚要低头；属于自己的底牌才靠得住。",
+        "在强势者面前，认罪服软有时不是认输，而是争取喘息之机。",
+        "「骨头硬」的前提，是先保住命——硬撑和硬扛要分清。"
+      ]
+    },
+    {
+      "tag": "源自 S5–S6 · 牌匾",
+      "title": "天降的荣宠，要留个心眼",
+      "situation": "萧秋水名节未复、北荒人未寻得，圣上却突然赐下「锦绣忠义」牌匾，萧易人直指其来得奇巧。",
+      "advice": [
+        "突如其来的恩赐，往往带着交换条件；先看清来意，再决定接不接。",
+        "别人捧你的时候，别急着飘——捧得越高，日后摔得越狠。",
+        "对「白来的好处」保持警惕，是行走世事最基本的清醒。"
+      ]
+    },
+    {
+      "tag": "源自 S7 · 铁衣之死",
+      "title": "细节里藏着的真相",
+      "situation": "铁衣神补已死，萧秋水却从尸体「不该如此干扁」的细节，推断出凶手吸人功力的邪功。",
+      "advice": [
+        "重大疑点往往藏在最不起眼的细节里——多问一句「为什么」。",
+        "人人都看见的事，未必是真相；反常之处，就是线索。",
+        "案发现场最沉默的东西，常常说出最多的真相。"
+      ]
+    },
+    {
+      "tag": "源自 S8–S9 · 千机锁",
+      "title": "知道秘密的人，就是钥匙",
+      "situation": "千机锁的开锁方法只有爹娘与两位兄长知晓，锁却被人打开——萧秋水顺藤摸瓜锁定真凶。",
+      "advice": [
+        "泄密的源头，多半在掌握秘密的少数人手里。",
+        "盘点「谁知道这件事」，往往比大海捞针更接近答案。",
+        "最亲近的人最了解你的软肋——信任要留一层自保的底。"
+      ]
+    },
+    {
+      "tag": "源自 S10 · 二哥自白",
+      "title": "嫉妒是毁人的毒",
+      "situation": "萧开雁因萧家最宠萧秋水、自己却总被忽略，偷偷习得邪功、开锁害家，最终兄弟反目、身败名裂。",
+      "advice": [
+        "羡慕别人的机遇之前，先看清自己手里的牌，并把它打好。",
+        "「靠自己的努力改变命运」本身没错，走邪路才把初心变成了罪名。",
+        "不平可以成为向上的动力，也可以成为堕落的借口——关键在自己怎么选。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "萧秋水",
+      "role": "浣花剑派三少爷 · 成毅 饰",
+      "desc": "本集化身查案人：从废家验出假千人面，到追查铁衣神补之死与千机锁之谜，层层逼近真凶。最终当众揭穿二哥萧开雁的罪行，原来爹娘的假死正是他设下的局，只为引蛇出洞。"
+    },
+    {
+      "name": "萧开雁",
+      "role": "萧秋水二哥 · 张晓晨 饰",
+      "desc": "本集真凶。提前赶回浣花、偷学邪功、打开千机锁、谋害爹娘，都被萧秋水当众拆穿。自白时道出多年积怨：萧家最宠的是三弟，他只是想靠自己的努力改变命运。"
+    },
+    {
+      "name": "萧易人",
+      "role": "萧秋水大哥 · 张峻宁 饰",
+      "desc": "在剑路打开千机锁后陷入深深自责，被雪鱼姐宽慰。对圣赐牌匾的来历心生疑虑，直言萧家「虚有其表、人心不在此处」，最后与三弟一同设局引二哥现形。"
+    },
+    {
+      "name": "萧雪鱼",
+      "role": "萧家养女 · 萧秋水之姐 · 古力娜扎 饰",
+      "desc": "与萧秋水并肩查验剑路，道破千机锁的开锁之法只有爹娘与两位兄长知晓；替大哥开脱、给三弟买桂花糕，在兄弟阋墙的当口，是萧家最后一点温情。"
+    },
+    {
+      "name": "李沉舟",
+      "role": "权力帮帮主 · 成毅 饰",
+      "desc": "深染剧毒，不得不入宫面圣认罪。他将南天道财宝换成粮草送往军前、收买人心，被皇帝以丹药牵制，走时只换来一句「喝了这杯酒，便回去吧」。"
+    },
+    {
+      "name": "朱侠武",
+      "role": "水道之主 · 吕颂贤 饰",
+      "desc": "受陛下扶持统管大西武林。携圣上御笔亲书的牌匾说降萧家，劝萧秋水好好为圣上效力，临走撂下「圣上要除掉一个人」的暗示，立场耐人寻味。"
+    },
+    {
+      "name": "废于乔",
+      "role": "废家家主 · 废丹丰之父",
+      "desc": "验出假千人面，揭开朱大天王就是铁衣神补的真相。自述当年被朱大天王设局、错杀亲子丹丰，此后自废内力。临终将毁掉千人面的遗愿托付给萧秋水。"
+    },
+    {
+      "name": "萧西楼",
+      "role": "萧秋水之父 · 浣花剑派掌门 · 丁勇岱 饰",
+      "desc": "与妻子孙慧珊假死藏身，配合萧秋水设局引真凶现身。待二哥罪行败露，他安然现身，一句「没想到秋水他真的做到了」，道尽为人父的欣慰。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "千人面是假的",
+      "desc": "废于乔凭「没有连上活人心脉、没有内力供养」一条，断言眼前的千人面是假货。一段验面，牵出五年前错杀亲子的惨案。"
+    },
+    {
+      "title": "朱大天王就是铁衣神补",
+      "desc": "废于乔临终道破惊天真相：设局让他错杀亲子、屠灭白草谷、假冒帮主的，都是铁衣神补。一张面具，串联起整条江湖暗线。"
+    },
+    {
+      "title": "李沉舟宫宴认罪",
+      "desc": "深染剧毒的李沉舟入宫面圣，直言把财报九成送往军前，换来皇帝一句「依你的意思是寡人亏待了将士」。君臣博弈，杯酒之间。"
+    },
+    {
+      "title": "圣赐牌匾·锦绣忠义",
+      "desc": "圣上御笔亲书四字赐予萧家，萧家风光一时。可牌匾来得奇巧，萧易人一句「人心并非在这里」，给这份荣宠浇了一盆冷水。"
+    },
+    {
+      "title": "浣花千机锁之谜",
+      "desc": "剑路剑诀被偷毁、千机锁被开启，开锁之法却只有爹娘与两位兄长知晓。萧秋水一句「大哥二哥都是在我之后赶回剑路的」，让凶手呼之欲出。"
+    },
+    {
+      "title": "爹娘现身·二哥自白",
+      "desc": "萧秋水揭穿二哥萧开雁害家的罪行，爹娘却在此时安然现身——原来一切是局。萧开雁那句「萧家最宠的是你」，把嫉妒的根源摊开在众人面前。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "「圣上要除掉一个人」",
+      "desc": "朱侠武临别暗示圣上要除掉某人，让萧秋水只管等待。这个「人」是谁——是被视为眼中钉的李沉舟，还是别的棋子？一场借刀杀人的布局已经展开。"
+    },
+    {
+      "title": "李沉舟的剧毒与丹药",
+      "desc": "皇帝以丹药拿捏中毒的李沉舟，却还要「看看他的骨头有多硬」。权力帮帮主的命脉握在陛下手中，他的反扑只是时间问题。"
+    },
+    {
+      "title": "真正的千人面去向",
+      "desc": "废家验出的是假货，铁衣神补手中的千人面却已随他「坠崖」不知所踪。夺面杀人、假扮朱大天王的黑手，是否还藏在暗处？"
+    },
+    {
+      "title": "玉玺的下落",
+      "desc": "陛下派去南天道的人遭李沉舟算计，玉玺遍寻不得。这枚牵动皇权的玉玺，仍是压在朝野之下的暗雷。"
+    },
+    {
+      "title": "萧开雁背后的人",
+      "desc": "二哥提前赶回浣花、开锁夺面，凭一己之力未必能成——他背后是否还有授意之人？「假扮朱大天王」的谜团，恐非一人能扛。"
+    }
+  ]
+}

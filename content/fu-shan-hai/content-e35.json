@@ -1,0 +1,471 @@
+{
+  "slug": "fu-shan-hai-e35",
+  "drama": "赴山海",
+  "episode": "35",
+  "title": "武当合流",
+  "subtitle": "燕狂徒强行掳走伤愈的萧秋水直奔武当山，以一身融合武学逼少林、武当公开交换功法。秋水以少林武当合创武功接下三大高手三招，令两派心服口服，燕狂徒更以内力助他刚柔合一、约定日后归还英雄令。与此同时，唐门内乱骤起，唐方之父中毒垂危，叛徒趁乱逼夺唐门令——江湖与家族的风暴，同时逼近。",
+  "meta": [
+    "2025 · 古装武侠",
+    "成毅 / 古力娜扎 / 李凯馨",
+    "45 分钟",
+    "11 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "燕狂徒掳秋水上武当，以武立威逼两派换功；秋水三招合一服群雄，唐门内乱芳儿丧父。",
+  "overview": "第35集，从一场劝和说起。\n\n燕狂徒带着伤愈的萧秋水一路北上。秋水被他不由分说制住、一路拖到武当山下，才明白此行的分量：北荒虎视眈眈、大西武林各怀鬼胎，燕狂徒要在十年之内劝和少林、武当，将两派功法合而为一，重振武林共抗北荒。",
+  "overview2": "武当山上，少林新任方丈恰好来访。燕狂徒开门见山，要求两派互相公开武功，少林方丈断然拒绝：「少林是少林，武当是武当，可携手御敌，但绝不交换武功。」燕狂徒不再多言，一套「武当加少林」的融合武学先败少林大师、再点醒武当高手，令两派哑口无言。",
+  "overview3": "武当三大高手与少林五残僧现身，要与燕狂徒重续当年一战。秋水一句「武林若不团结一心，大西何来未来」止住干戈。两派顺势立下三招之约：秋水若能用少林武当的功法接下三招，便认可他的盟主提议。秋水以柔克刚，最后一招融两派武学于一体，令三老齐呼「其实你赢了」。",
+  "overview4": "燕狂徒带秋水登上当年天正、太禅立碑铸令之地，许诺办完最后一件事便归还英雄令，又以内力助秋水将体内少林武当两股真气刚柔合一。而另一边，唐门祸起萧墙：唐方之父中毒垂危，叛徒趁火打劫逼夺唐门令，老祖宗骤然现身喝止。江湖与家族的两场风暴，同时逼近秋水与唐方。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:58–04:52",
+      "title": "朝堂密谋·构陷无结",
+      "body": [
+        "开场，十二连环坞水盗齐聚，有人高喝「抬起头来看清楚，谁才是你们真正的天王」，水盗众人叩首高呼愿誓死追随。这支盘踞水道、本是亲如一家的势力，就此归附新的天王。",
+        "大熙朝堂之上，皇帝感慨：无结将军对抗北荒之心坚决，朝中主战一派皆以他为表率。皇帝说自己多次召他回京，要的不过是一时安稳，相信百姓能明白寡人的苦心。",
+        "萧易人上前献策：陛下只需继续下诏命无结立即返京，他愿以人马埋伏在返京途中将其擒获。一旦无结落入手中，将士既不敢声张，他便成了「百召不回、公然抗旨」的罪人——既能压下主战派与百姓的抗北荒决心，又能让北荒满意，换来一时之安。",
+        "皇帝抚掌而笑：「好一个一时之安！果然这时候，真想尊称你一声国师。」萧易人连称「属下不敢」。皇帝又叮嘱：无结也算有功之人，有朝一日真落在你手里，不必责罚，让他衣锦还乡便是。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这无结，对抗北荒之心坚决，朝中的主战一派，皆以他作为表率。」",
+          "en": "\"This Wu Jie is resolute in resisting the Northern Desolation. All the war advocates at court take him as their standard-bearer.\""
+        },
+        {
+          "zh": "「陛下只需继续往仙人关发诏，命无结立即返京。我以人马埋伏在无结返京途中，定能将其擒获。」",
+          "en": "\"Your Majesty need only keep issuing edicts ordering Wu Jie back to the capital. I will have my men lie in ambush along his route and surely capture him.\""
+        },
+        {
+          "zh": "「好一个一时之安！果然这时候，真想尊称你一声国师。」",
+          "en": "\"A fine 'peace for a time'! Truly, at this moment I am moved to call you National Teacher.\""
+        },
+        {
+          "zh": "「无结也算是有功之人，有朝一日他真落在你手里，不必责罚，就让他衣锦还乡吧。」",
+          "en": "\"Wu Jie has rendered meritorious service. Should he one day fall into your hands, spare him punishment—let him return home in glory.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "04:55–05:33",
+      "title": "北荒密约·誓败秋水",
+      "body": [
+        "密室之中，萧易人与北荒众人谈条件。北荒三人索价：要萧易人帮北荒拿下中原沃土，事成之后，再把忘情天书交给他们哥儿三个——「我们管你谁是天王老子」。",
+        "萧易人满口应承：好事将成，尔等皆是功臣，好处自然少不了你们。转过头，他对准萧秋水的方向落下狠话——「秋水，我会让你跪在我的面前，承认你错。赢的还是我。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「只要你帮我们北荒落下中原沃土，还有你答应的事成之后，给我们哥儿三个的忘情天书，我们管你谁是天王老子。」",
+          "en": "\"So long as you help our Northern Desolation take the Central Plains, and hand over the Book of Forgetfulness you promised us three brothers once it's done—we care not who claims to be the Heavenly King.\""
+        },
+        {
+          "zh": "「好事将成，尔等皆是功臣，好处吗，自然少不了你们。」",
+          "en": "\"When this comes to pass, all of you will be honored men—and I won't stint on rewards.\""
+        },
+        {
+          "zh": "「秋水，我会让你跪在我的面前，承认你错。赢的还是我。」",
+          "en": "\"Qiushui, I will make you kneel before me and admit you were wrong. In the end, I am the one who wins.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "05:47–09:28",
+      "title": "燕狂徒掳人·武当之约",
+      "body": [
+        "萧秋水伤愈，神州结义众人守在门外：「外面来了很多武林门派，就等着跟咱盟主一试呢。」萧雪鱼说大哥伤势已无大碍。话音未落，燕狂徒破门而入，不由分说制住秋水——「忍一忍，很快就到了。」",
+        "秋水挣扎质问，燕狂徒冷冷回他：「我已经把你制住了，还需要跟你好好说吗？当年十六大门派围攻我之时，也没有跟我好好说。」秋水识趣改口：只要前辈不做伤天害理之事，我陪你去就是。燕狂徒赞他「不愧是我的徒儿，有胆色」。",
+        "路上燕狂徒道明去向——前方武当。他此行要劝和少林、武当，将两派功法合而为一：如今北荒虎视眈眈、大西武林各怀鬼胎，还有帮派勾结北荒，致使各大门派死伤惨重。唯有两派放下分歧、功法合流，才能十年之内重振武林，让天下义士皆可习武，共抗北荒。此刻少林新任方丈正在武当拜访，机不可失。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我已经把你制住了，还需要跟你好好说吗？当年十六大门派围攻我之时，也没有跟我好好说。」",
+          "en": "\"I've already subdued you—why should I bother to reason with you? When the sixteen great sects besieged me back then, they didn't reason with me either.\""
+        },
+        {
+          "zh": "「果然我没有看错，不愧是我的徒儿，有胆色。」",
+          "en": "\"I was right about you. Worthy of being my disciple—you have real guts.\""
+        },
+        {
+          "zh": "「唯有劝和武当和少林，放下分歧，将两派功法合而为一，方能修炼大成，再散布武功，让天下义士皆可习之，共抗北荒。」",
+          "en": "\"Only by reconciling Wudang and Shaolin—setting aside their differences and merging both schools' arts into one—can the martial world be rebuilt, so every righteous fighter may learn the arts and stand together against the Northern Desolation.\""
+        },
+        {
+          "zh": "「此刻少林的新方丈，正在武当拜访。机不可失。」",
+          "en": "\"The new abbot of Shaolin is visiting Wudang at this very moment. There's no time to lose.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "09:28–11:26",
+      "title": "少林武当拒融",
+      "body": [
+        "武当大殿，燕狂徒开门见山：当年的天正、太禅何等胆识威风，可自他二人之后，两派再没能成气候的。若再不联合，只怕大祸临头。他今日要带句话——以后武当的武功要向少林公开，少林的武功也要向武当公开，唯有如此才可免此大劫。",
+        "少林方丈委婉回绝：少林武功博大精深，但「少林是少林，武当是武当」，两派可携手御敌，即便再友好，也不可能相互交换武功。燕狂徒驳斥这是闭门造车：武当重内家修为、少林擅外家功夫，正可互相参照、互为奥援。少林方丈仍断然回绝：「不能，绝对不可能。」",
+        "燕狂徒不再相劝：「那就动手吧。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「以后你们武当的武功，要向少林公开；少林的武功，也要向武当公开。只有如此，才可免此大劫。」",
+          "en": "\"From now on, Wudang's arts must be opened to Shaolin, and Shaolin's arts opened to Wudang. Only thus can you avert this great calamity.\""
+        },
+        {
+          "zh": "「少林是少林，武当是武当。两派可携手御敌，但即便再友好，也不可能相互交换武功。」",
+          "en": "\"Shaolin is Shaolin, and Wudang is Wudang. The two sects may fight shoulder to shoulder, but no matter how friendly we are, we will never exchange our martial arts.\""
+        },
+        {
+          "zh": "「武当功夫看重的是内家修为，少林则侧重于外家功夫，你们两派正可互相参照、互为奥援。」",
+          "en": "\"Wudang excels in internal cultivation, Shaolin in external arts. Your two schools could mirror and reinforce each other.\""
+        },
+        {
+          "zh": "「那就动手吧。」",
+          "en": "\"Then let's settle it with our fists.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "11:28–14:43",
+      "title": "以武立威·武当加少林",
+      "body": [
+        "秋水提醒燕狂徒：「前辈，咱们是来劝和的，不是打架的。」燕狂徒让他一旁看着，什么才是真正的武学融合。他先以武当的「三十九桥七点头」应战少林高僧，又借少林棍法点化武当高手——一套「武当加少林」，打得两派哑口无言。",
+        "少林大师双手合十：「阿弥陀佛，人外有人，天外有天，贫僧受教了。」武当高手亦坦然认败：「我败了。纵让我拔出剑来，也绝非前辈之敌。」燕狂徒扶他起身，赞两派人才辈出，假以时日定不输天正、太禅。"
+      ],
+      "quotes": [
+        {
+          "zh": "「燕前辈，咱们是来劝和的，不是打架的。」",
+          "en": "\"Senior Yan, we came to mediate—not to fight.\""
+        },
+        {
+          "zh": "「你在旁边好好看着，什么才是武学融合。」",
+          "en": "\"Stand aside and watch closely—this is what true fusion of martial arts looks like.\""
+        },
+        {
+          "zh": "「武当加少林，是不是比武当或少林，强多了？」",
+          "en": "\"Wudang plus Shaolin—isn't that far stronger than Wudang alone, or Shaolin alone?\""
+        },
+        {
+          "zh": "「我败了。纵让我拔出剑来，也绝非前辈之敌。」",
+          "en": "\"I admit defeat. Even with my sword drawn, I would be no match for you, senior.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "14:43–17:36",
+      "title": "两派宿老·旧战重燃",
+      "body": [
+        "两派弟子议论纷纷：少林武当武功深远广博，普天之下除了燕前辈，还有谁能融会贯通？有人讥他杞人忧天，被一句句顶回去——何止杞人忧天，简直是胡说八道；何止胡说八道，简直就是痴人说梦。",
+        "话音未落，武当三大高手现身：「没想到，我们居然没死，却在这山中浇花淋水饮茶。」少林的风花雪月残五僧亦未绝迹。他们记着当年的一战，要与燕狂徒再分高下——「但若论少林和武当的武功，燕先生却还未必是我三人之敌。」",
+        "刀兵将起，秋水上前一拜：前辈曾言，若武林人人都争强好胜、不能团结一心，那么大西何时有未来？燕狂徒长叹「这件事就依你」而收手，转身留下一句「不枉我跟天正、太禅相识一场」。"
+      ],
+      "quotes": [
+        {
+          "zh": "「何止是杞人忧天，简直就是胡说八道！何止是胡说八道，简直就是痴人说梦！」",
+          "en": "\"More than crying wolf—it's sheer nonsense! More than nonsense—it's a fool's daydream!\""
+        },
+        {
+          "zh": "「没想到，武当派三大高手，居然没死，却在这山中浇花淋水饮茶。」",
+          "en": "\"I never imagined the three great masters of Wudang were still alive—here among the mountain flowers, watering plants and sipping tea.\""
+        },
+        {
+          "zh": "「当年我师兄弟三人，的确是败在先生手下。但若论少林和武当的武功，燕先生却还未必是我三人之敌。」",
+          "en": "\"It's true my brothers and I lost to you back then. But when it comes to Shaolin and Wudang arts specifically, you, Master Yan, may not yet be a match for the three of us.\""
+        },
+        {
+          "zh": "「前辈，您说过，若武林人人都争强好胜、不能团结一心，那么大西何时有未来？大西的武林也不复存在。」",
+          "en": "\"Senior, you once said that if everyone in the martial world only vies for glory and refuses to unite, when will Great Xi have a future? The martial world of Great Xi would cease to exist.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "17:58–23:10",
+      "title": "秋水三招·两派认服",
+      "body": [
+        "武当高手打量着眼前的年轻人：「你就是萧秋水吧？听闻萧少侠武功为人，皆称上品。」秋水不卑不亢：如今北荒安插在大西的奸细制造惨案、挑起各派斗争，连费家的千人面也被人利用，不少门派深受其害——今日燕前辈所说，正是晚辈心中所想，还请武当少林联手抗敌。",
+        "两派提出考验：萧少侠是英雄大会众望所归的盟主，肩负着带领武林营救吴将军的大任，但要证明少林武当非交流不可，除非你能以少林武当的功法接下我们三招。少林方丈合十赞同。燕狂徒激他：「难道你不知道，世上很多真理，都是用拳头打出来的吗？」",
+        "三大高手摆开阵势，三招连环。秋水先以柔克刚接下前两招，最后一招豁然使出——融合少林、武当两派武学的一击，令三老面面相觑：「这不就是少林和武当吗？」",
+        "三老折服：「我败了，这一招，我想不到解法。」秋水谦称三位前辈过誉。三老连叹「英雄出少年」：如今武林当属你们年轻人，我们这把老骨头，的确没必要再占下去了。"
+      ],
+      "quotes": [
+        {
+          "zh": "「如今北荒安插在大西的奸细，制造惨案、挑起各派斗争……还请武当少林联手抗敌。」",
+          "en": "\"The spies the Northern Desolation planted in Great Xi are manufacturing massacres and setting sects against each other... I beseech Wudang and Shaolin to join forces against the enemy.\""
+        },
+        {
+          "zh": "「萧少侠是英雄大会众望所归的盟主，兼负着带领武林营救吴将军的大任。」",
+          "en": "\"Young Master Xiao is the Alliance Chief the heroes have unanimously acclaimed, entrusted with leading the martial world to rescue General Wu.\""
+        },
+        {
+          "zh": "「难道你不知道，世上很多真理，都是用拳头打出来的吗？」",
+          "en": "\"Don't you know that many truths in this world are hammered out with fists?\""
+        },
+        {
+          "zh": "「不仅是少林武功，也是武当的武功。这正是少林武当合创的武功。」",
+          "en": "\"It is not only Shaolin kung fu—it is Wudang's as well. This is precisely the art that Shaolin and Wudang created together.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "23:12–28:43",
+      "title": "武当碑·英雄令·刚柔合一",
+      "body": [
+        "燕狂徒带秋水登上一座石碑：当年天正、太禅就是在此建碑，打造天下英雄令。秋水恍然大悟：前辈当年便是在这里战胜一众豪杰、夺下英雄令。燕狂徒说，武当此行心愿已了，待他办完一件事，便将英雄令还给他。",
+        "燕狂徒指着碑上一只画出的乌龟笑道：当年江湖纷乱，他特意来此画了只乌龟，差点把太禅那老家伙气死——空立此碑，不如让所谓的天下豪杰看看自己的作为，是什么缩头乌龟。他又问起「神州结义」，希望江湖上因为有秋水这个人而有所不同，说不定日后他的名字能刻在此碑上，成为真正的侠客。",
+        "秋水答道：行走江湖，并非鲜衣怒马仗剑天涯，而当仰不愧于天、俯不愧于地、行不愧于义，但求无愧于心。燕狂徒抚掌：「说得好，我这一生，也算没有白活。」",
+        "临别，秋水道出困惑：如今体内有两股内力相助，少林武当武功一刚一柔。燕狂徒点拨：「与其较劲，不如相合，让我助你一臂之力。」以内力为他调和刚柔。"
+      ],
+      "quotes": [
+        {
+          "zh": "「当年天正、太禅，就是在这里建立此碑、打造天下英雄令的。」",
+          "en": "\"It was here that Tianzheng and Taichan raised this stele and forged the Heroic Command.\""
+        },
+        {
+          "zh": "「待我办完一件事，我当把英雄令还给你。」",
+          "en": "\"Once I've settled one last matter, I will return the Heroic Command to you.\""
+        },
+        {
+          "zh": "「当仰不愧于天，俯不愧于地，行不愧于义，但求无愧于心。」",
+          "en": "\"Face heaven without shame, face earth without shame, act without shame against righteousness—and in the end, live without regret in your own heart.\""
+        },
+        {
+          "zh": "「与其较劲，不如相合。让我助你一臂之力吧。」",
+          "en": "\"Rather than clashing, learn to harmonize. Let me give you a hand.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "29:14–35:34",
+      "title": "唐门惊变·芳儿丧父",
+      "body": [
+        "唐门，唐方（芳儿）匆匆赶到父亲榻前。父亲身中剧毒、气息奄奄，唐方自己也毒气攻心。师兄唐宋假意探望：「听说你为父医治十分辛苦，我特来看看。」话音未落，便对家主动了手。",
+        "唐方怒喝「放开他」，唐宋以她毒气攻心、动怒便要走火入魔相胁，放言不怕老祖宗：「她，我自会收拾。咱们一个一个，慢慢来。唐方，没有你爹，你就能自由自在、无拘无束，还能好好练功、功法大成。」",
+        "父亲临终将芳儿托付：「芳儿，爹在这儿呢。从今天开始，你要听你唐哥的话。」唐方含泪答应：「我活下去。」谁知父亲一倒，唐宋立刻变了脸色，逼芳儿「现在给我杀了他」。",
+        "千钧一发，老祖宗骤然现身：「大胆逆徒！老身还在，你这贼子想做什么！」唐宋冷笑，自恃早已给老祖宗下了软骨香，逼她交出唐门令——「唐门被你掌控了几十年，倒不如把唐门令交给我，由我来壮大唐门！」然而事出变故，唐宋的计划落空，老祖宗喝令将其拿下。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你竟敢伤家主！你就不怕老祖宗罚你吗？」",
+          "en": "\"How dare you harm the clan head! Have you no fear of the Old Ancestor's punishment?\""
+        },
+        {
+          "zh": "「你该不会觉得，我还怕那个老祖宗的老太婆吧？你放心，她我自会收拾。咱们一个一个，慢慢来。」",
+          "en": "\"Surely you don't think I'm afraid of that old crone of an ancestor? Rest assured, I'll deal with her myself. One by one—we'll take our time.\""
+        },
+        {
+          "zh": "「芳儿，爹在这儿呢。从今天开始，你要听你唐哥的话。」",
+          "en": "\"Fanger, father is right here. From today on, you must listen to your elder Tang brother.\""
+        },
+        {
+          "zh": "「大胆逆徒！老身还在，你这贼子想做什么！」",
+          "en": "\"Outrageous traitor! This old woman is still alive—what do you think you're doing, you wretch!\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "36:26–40:46",
+      "title": "透魂钉·燕狂徒旧伤",
+      "body": [
+        "燕狂徒在武当山忽然晕倒，秋水将他带回医治。萧雪鱼为其诊脉：燕大侠的经脉被人以深厚内力打入钉状之物——透魂钉。平日只是疼痛，如今已波及多处经脉，寻常药石只能治标，唯有拔出钉子才能根除隐患。",
+        "燕狂徒坦言：老夫纵横江湖天下无敌，不想当年在武行山一战，被人以透魂钉暗算，此人功力非同小可。秋水已为他服下沉香化气丸、调和体内真气，遂替他拔钉。",
+        "然而透魂钉已长入骨髓，越用力越往深处钻。燕狂徒让秋水作罢：此钉跟随老夫多年，拔不出来，只是头晕虚弱，休养一阵便好。秋水执意要再想办法，燕狂徒却郑重叮嘱：「千万不要去唐门，我宁可死，也不要他帮我。」"
+      ],
+      "quotes": [
+        {
+          "zh": "「燕大侠的经脉，被人以深厚的内力打入钉状之物……只有拔出钉子，才能彻底解除隐患。」",
+          "en": "\"Nail-like objects were driven into Senior Yan's meridians with immense inner force... Only by pulling out the nails can the hidden peril be truly removed.\""
+        },
+        {
+          "zh": "「没想到在武行山一战，被人用透魂钉暗算我，此人功力非同小可。」",
+          "en": "\"Who would have thought—in the battle at Wuxing Mountain, I was struck by a soul-piercing nail in ambush. That person's skill is no small matter.\""
+        },
+        {
+          "zh": "「此钉已跟随老夫多年，早已长入骨髓，拔不出来。」",
+          "en": "\"This nail has been with me for years—it has grown into my very marrow and cannot be pulled out.\""
+        },
+        {
+          "zh": "「千万不要去唐门，我宁可死，也不要他帮我。」",
+          "en": "\"Whatever you do, don't go to the Tang Sect. I would rather die than accept their help.\""
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "num": "S11",
+      "time": "41:17–43:00",
+      "title": "唐方受辱·千丝魁垒针",
+      "body": [
+        "唐门风波未平，叛徒再度找上唐方。他掂着唐方自幼珍藏的暗器毒药，漫不经心地把玩：「这千丝魁垒针，可真好用。」",
+        "他讥讽唐方今非昔比：你的宝贝暗器、毒药，还有老祖宗平时送你的那些东西，如今留着也没什么用，不如拿来给我。从小什么好东西都是你的——没想到吧，你还有今天。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这千丝魁垒针，可真好用。」",
+          "en": "\"This Thousand-Silk Kuilei Needle is really something.\""
+        },
+        {
+          "zh": "「从小有什么好东西，都是你的。没想到吧，你还有今天。」",
+          "en": "\"Growing up, every good thing was yours. Never thought you'd see a day like this, did you?\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S1–S2 · 朝堂与北荒",
+      "title": "越是「为你着想」，越要看清利益",
+      "situation": "萧易人一面以「为大熙社稷」为由向皇帝献计构陷功臣无结，一面又私下与北荒交易、许诺忘情天书，把自己的野心包装成忠心。",
+      "advice": [
+        "听其言更要观其行，把「为你着想」拆开来看，背后往往站着利益。",
+        "有人主动帮你「扫清障碍」时，先想清楚他要的到底是什么。",
+        "别把重要的决定，建立在别人的私利之上。"
+      ]
+    },
+    {
+      "tag": "源自 S3–S5 · 武当立威",
+      "title": "先礼后兵，也要留条台阶",
+      "situation": "燕狂徒劝和少林、武当，好话说尽两派也不肯换功，他索性以武立威，一套融合武学打得两派心服口服。",
+      "advice": [
+        "讲道理讲不通时，拿出真本事是最有效的说服。",
+        "但赢不是目的，让对方心服才是；赢了就收手，别把路走绝。",
+        "有实力的人一句话顶十句；没实力的人，先练本事再谈说服。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 门派之见",
+      "title": "守住门户，不如打开格局",
+      "situation": "少林、武当固守「少林是少林，武当是武当」，宁可联手也不肯交换武功，被燕狂徒讥为闭门造车。",
+      "advice": [
+        "真正的壁垒往往是自己画的；对手的长处，恰是你缺的那块拼图。",
+        "合作之前先分清：我坚持的到底是原则，还是面子？",
+        "单打独斗能守住一地，取长补短才能走得更远。"
+      ]
+    },
+    {
+      "tag": "源自 S7 · 三招之约",
+      "title": "观点要有实证支撑",
+      "situation": "秋水主张两派合流，光说无用，必须用少林武当的功法接下三大高手三招，两派才肯认可他的提议。",
+      "advice": [
+        "想让人信服，先拿出让人闭嘴的证据。",
+        "接受挑战之前，先评估自己接得住几招，量力而行。",
+        "赢了不炫耀，认了不狡辩，姿态本身就是说服力。"
+      ]
+    },
+    {
+      "tag": "源自 S8 · 武当碑前",
+      "title": "但求无愧于心",
+      "situation": "秋水在武当碑前立论：行走江湖并非为了扬名，而当仰不愧天、俯不愧地、行不愧义。",
+      "advice": [
+        "目标别放在「别人怎么看我」，而要放在「我怎么看自己」。",
+        "名声是别人给的，心安是自己守的。",
+        "把「我要留下什么名」换成「我想成为什么样的人」。"
+      ]
+    },
+    {
+      "tag": "源自 S9 · 唐门惊变",
+      "title": "越危急，越要稳住心",
+      "situation": "唐方毒气攻心，叛徒正算准她一动怒就会走火入魔，才步步紧逼、胁迫她动手弑父。",
+      "advice": [
+        "越是危急关头，情绪越是你最贵的资源，别让激将法左右你。",
+        "照顾家人之前先保住自己，垮了谁都救不了。",
+        "看清危急时谁真的靠得住，别把信任错付给野心家。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "萧秋水",
+      "role": "神州结义首领 · 浣花剑派三少爷（成毅 饰）",
+      "desc": "本集以武林盟主之身随燕狂徒上武当，以少林武当合创武功接下三大高手三招，令两派认服；又在武当碑前立下「仰不愧天、俯不愧地」的侠义之志，得燕狂徒以内力助其刚柔合一，并约定日后归还英雄令。"
+    },
+    {
+      "name": "燕狂徒",
+      "role": "江湖绝顶高手 · 萧秋水之师（张智霖 饰）",
+      "desc": "强行掳走伤愈的秋水直奔武当，先礼后兵逼两派交换武功，以一身融合武学折服少林武当；旧伤透魂钉发作晕倒，宁可死也不肯求唐门。曾于武当山一战夺下英雄令，许诺办完最后一件事便归还秋水。"
+    },
+    {
+      "name": "萧雪鱼",
+      "role": "萧家养女 · 萧秋水之姐（古力娜扎 饰）",
+      "desc": "随行照料伤愈的秋水；燕狂徒晕倒后为其诊脉，断定经脉中暗藏透魂钉，唯有拔钉方能根除隐患。"
+    },
+    {
+      "name": "萧易人",
+      "role": "萧秋水大哥 · 暗中与北荒勾结（张峻宁 饰）",
+      "desc": "本集暗线反派。向皇帝献计构陷抗北荒的将军无结，图谋国师之位；私下与北荒交易、许诺忘情天书，誓要秋水「跪在面前承认你错」。"
+    },
+    {
+      "name": "唐方（芳儿）",
+      "role": "唐门中人（李凯馨 饰）",
+      "desc": "父亲中毒垂危、自己也毒气攻心，仍强撑守在榻前；面对叛徒逼夺唐门令，含泪答应父亲「我活下去」，却在丧父之后遭叛徒羞辱。"
+    },
+    {
+      "name": "唐宋",
+      "role": "唐门中人 · 唐方师兄（林泽辉 饰）",
+      "desc": "趁唐门主垂危之际发难，以软骨香暗算老祖宗、逼夺唐门令，威胁唐方「没有你爹，你就能自由自在」；事出变故，被老祖宗喝令拿下。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "燕狂徒掳徒上武当",
+      "desc": "伤愈的秋水被燕狂徒不由分说制住带走，一句「当年十六大门派围攻我之时，也没有跟我好好说」，狂傲尽显。"
+    },
+    {
+      "title": "武当加少林",
+      "desc": "少林方丈断然拒绝交换武功，燕狂徒索性动手，以武当招式败少林、借少林棍法点醒武当高手，一套「武当加少林」让两派哑口无言。"
+    },
+    {
+      "title": "秋水三招定盟",
+      "desc": "三大高手立下三招之约，秋水以融合少林武当武学的一击接住最后一招，令三老齐呼「其实你赢了」，「英雄出少年」。"
+    },
+    {
+      "title": "武当碑前英雄令",
+      "desc": "天正太禅当年立碑铸令之地，燕狂徒许诺办完最后一件事便归还英雄令，还盼着秋水日后把名字刻上这块碑。"
+    },
+    {
+      "title": "刚柔合一",
+      "desc": "「与其较劲，不如相合，让我助你一臂之力」，燕狂徒以内力助秋水将体内少林武当两股内力合而为一。"
+    },
+    {
+      "title": "唐门惊变·芳儿丧父",
+      "desc": "唐方之父中毒垂危，叛徒趁乱逼夺唐门令、胁迫唐方，一句「没有你爹，你就能自由自在」，把唐门夺权的暗流推上台面。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "构陷将军的棋局",
+      "desc": "萧易人献计设伏构陷无结，一旦坐实「抗旨」，朝中主战派将群龙无首。这枚棋子落向何处，将决定北荒战局的走向。"
+    },
+    {
+      "title": "忘情天书的许诺",
+      "desc": "萧易人私下答应事成之后把忘情天书交给北荒三盗。天书既是拉拢北荒的筹码，也将是日后江湖争夺的导火索。"
+    },
+    {
+      "title": "透魂钉与唐门旧怨",
+      "desc": "燕狂徒体内透魂钉越拔越深，他却宁死不肯求唐门。这枚钉子背后与唐门的恩怨，显然不止旧伤那么简单。"
+    },
+    {
+      "title": "英雄令易主",
+      "desc": "燕狂徒许诺办完最后一件事便归还英雄令。号令武林的令牌即将易主，随之而来的将是更重的责任与更大的风暴。"
+    },
+    {
+      "title": "唐门夺权暗流",
+      "desc": "叛徒夺令失败，却已撕开唐门内斗的口子；老祖宗护得住一时，护不住暗处的野心家，唐门风波远未平息。"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "slug": "fu-shan-hai-e40",
+  "drama": "赴山海",
+  "episode": "40",
+  "title": "忘情亦有情",
+  "subtitle": "北荒背约兵临仙人关，萧秋水独闯水寨，手刃走火入魔的二哥萧开雁——忘情天书的最高境界不是无情，而是有情。他救出大将军吴喆，一箭钉死北荒赫连王，守住关城，朝堂却传来李沉舟牺牲的噩耗。庆功宴上众人因义而聚、高歌痛饮，萧秋水却在欢宴中耗尽元气安然离世。现代病房里，肖明明醒来，李楠的间谍罪已真相大白。",
+  "meta": [
+    "2025 · 古装武侠",
+    "成毅 / 古力娜扎 / 李凯馨",
+    "45 分钟",
+    "10 个场景",
+    "共 40 集"
+  ],
+  "overviewLead": "手刃黑化二哥、一箭钉死北荒王、耗尽性命守住仙人关——萧秋水的大结局一战。",
+  "overview": "第40集，大结局。\n\n北荒大军兵临仙人关，大将军吴喆与北荒定下的和谈，因他身陷水寨无法到场而当场作废——北荒放话：与我定约的是吴喆，他不在，约定自然不作数。守将蒋跃急命人速报朝廷，随即通报「仙人关危急」。",
+  "overview2": "萧秋水只身闯入水寨救吴喆，早已等候的二哥萧开雁全然不把他放在眼里：从踏入水寨起，就是把吴喆往黄泉路上相送。兄弟相搏，萧秋水以参透的忘情天书将一把横琴化为利刃，重创开雁。临死前，开雁在琴声中看见全家团圆——爹夸他最稳重，娘要给他做面，易人与雪鱼喊他一起闯荡江湖。萧秋水道破真意：忘情天书的最高境界不是无情，而是有情。他喊出「萧家只剩我一个人了」，逼问吴喆下落，开雁却只支吾几声便断了气。",
+  "overview3": "仙人关城破，北荒赫连王志在必得。梁斗率大熙武林赶来镇守国门，与北荒高手血战，神州结义一度败退。北荒正要二次进军，一支利箭破空而来，将赫连王钉在城墙正中。萧秋水带着吴喆现身，吴喆重整旗鼓、率众将士杀出城外，一举击退北荒。朝堂之上，皇帝方知被开雁蒙骗，急传李沉舟救人，捷报却与讣告同至——李沉舟已在救吴喆途中牺牲。",
+  "overview4": "庆功宴上，吴喆敬神州结义，萧秋水举杯敬所有战死的兄弟，再敬自己。篝火旁，左丘要入赘曲家的玩笑四起，柳随风与宋明珠认赌服输——这江湖，终于成了萧秋水所说的「因义而聚」。众人高歌《沧海一声笑》，只有萧秋水知道，忘情天书第十五层要耗尽元气、以性命为代价。酒杯从手中滑落，他在梦中化作白衣萧秋水，消失在落日余晖；现实里，肖明明在病房醒来，李楠的间谍罪已经落网。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "03:08–06:00",
+      "title": "北荒背约，仙人关告急",
+      "body": [
+        "北荒大军兵临仙人关。大将军吴喆与北荒定下的和谈，因他身陷水寨无法到场而当场作废——北荒使者放话：与我定约的是吴喆，他不在，约定自然不作数。守将蒋跃急命人速报朝廷，随即通报「仙人关危急」。",
+        "军中议论纷纷：将军未归，军令未至，这该如何是好？蒋跃环视众人，掷地有声：仙人关后面是大熙的父老，是你我爹娘亲人，誓死也决不能让北荒人入关，务必坚守城门。话音未落，关城下杀声震天，北荒大军发起猛攻。"
+      ],
+      "quotes": [
+        {
+          "zh": "「与我定约定的，是吴喆。如今他不在，约定自然就不作数啦。」",
+          "en": "\"The one who made the pact with me was Wu Zhe. Now that he is gone, the pact naturally means nothing.\""
+        },
+        {
+          "zh": "「仙人关后面，是大熙的父老，是你我爹娘亲人。誓死也决不能让北荒人入关！」",
+          "en": "\"Beyond Xianren Pass stand the elders of Great Xi—our parents, our kin. Even at the cost of death, we will not let the Northern Desolate in!\""
+        },
+        {
+          "zh": "「将军未归，军令未至，这该如何是好啊？」",
+          "en": "\"The general has not returned and no orders have arrived. What are we to do?\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "06:00–08:20",
+      "title": "独闯水寨，赌命救人",
+      "body": [
+        "另一边，萧秋水只身闯入水寨，逼问吴喆的下落。萧开雁早已等候多时，神情傲慢：他现在还好好的，再过一段时间就不知道了。他讥讽秋水——从你踏入这水寨起，便是把他往黄泉路上相送，你不是觉得自己本事大吗？想做能救国救民的英雄，今日我便告诉你，你什么都做不成。",
+        "秋水不为所动：「输赢不重要，告诉我吴将军的下落。」开雁冷笑：「急什么，你别走。留给吴将军的时间不多了，赢了我就告诉你。」与此同时，仙人关再传告急——内城有伏兵突袭，城门也被攻破，守军只得回守内城，两线战场皆生死一线。"
+      ],
+      "quotes": [
+        {
+          "zh": "「秋水，从你踏入这水寨起，便是把他往黄泉路上相送。」",
+          "en": "\"Qiushui, from the moment you stepped into this water stronghold, you have been escorting him down the road to the Yellow Springs.\""
+        },
+        {
+          "zh": "「你不是觉得自己本事大吗？想做能救国救民的英雄，今日我便告诉你，你什么都做不成。」",
+          "en": "\"You think yourself so capable? You want to be the hero who saves the state and its people? Today I will show you—you can accomplish nothing.\""
+        },
+        {
+          "zh": "「留给吴将军的时间不多了。赢了我就告诉你。」",
+          "en": "\"Time is running out for General Wu. Beat me, and I will tell you.\""
+        },
+        {
+          "zh": "「将军，内城有伏兵突袭，城门也被攻破，请回守内城！」",
+          "en": "\"General! There is an ambush in the inner city and the gate has fallen. Fall back to the inner defenses!\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "08:20–12:26",
+      "title": "兄弟决战，以琴为刃",
+      "body": [
+        "萧秋水一声「萧开雁，你该结束了」，与黑化的二哥正面摊牌。开雁却嗤笑：你以为你赢了吗？小秋水，你想救吴将军，我就偏不告诉你，你能奈我何。",
+        "话不投机，兄弟二人刀光剑影。萧开雁这才骇然发现，萧秋水已真正习得忘情天书，招式如行云流水。电光火石间，萧秋水将一把横琴当作利刃，剑音如雷，重重击伤萧开雁。"
+      ],
+      "quotes": [
+        {
+          "zh": "「萧开雁，你该结束了。」",
+          "en": "\"Xiao Kaiyan, it is time for you to be finished.\""
+        },
+        {
+          "zh": "「你以为你赢了吗？」",
+          "en": "\"You think you have already won?\""
+        },
+        {
+          "zh": "「小秋水，你想救吴将军？我就偏不告诉你，你能奈我何。」",
+          "en": "\"Little Qiushui, you want to save General Wu? I simply will not tell you. What can you do to me?\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "12:51–16:22",
+      "title": "临终幻境，萧家独存",
+      "body": [
+        "奄奄一息的萧开雁在琴声中看见幻境：萧西楼含笑夸他是萧家最稳重的儿子，孙慧珊要亲手给他做一碗面，萧易人与萧雪鱼喊他「说好了，咱们兄妹一起闯荡江湖」。幻境温柔而残忍。",
+        "萧秋水含泪道破真意：你贪图捷径、吸人功力，才至走火入魔，杀了这么多无辜的人。忘情天书的最高境界，不是无情，而是有情——你眼里只有自己，又怎能悟道？",
+        "开雁气息渐弱，喃喃「秋水，我看到，下雪了」。萧秋水心如刀绞：「二哥，这是我最后一次叫你。萧家只剩我一个人了。你犯下的错，我现在替你去填补。你告诉我，吴将军到底在哪儿？」开雁气若游丝，只含混吐出几声，便断了气——吴喆的下落，终究没能问出。"
+      ],
+      "quotes": [
+        {
+          "zh": "「开雁哪，三个孩子中，你是最稳重的。只要有你在，爹就放心了。」",
+          "en": "\"Kaiyan, of my three sons, you are the steadiest. As long as you are here, your father can rest easy.\""
+        },
+        {
+          "zh": "「说好了，咱们兄妹一起闯荡江湖，现在就走吧。」",
+          "en": "\"We agreed we would roam the jianghu together. Let us set out now.\""
+        },
+        {
+          "zh": "「忘情天书的最高境界，不是无情，而是有情。」",
+          "en": "\"The highest realm of the Book of Forgetfulness is not heartlessness—it is having a heart.\""
+        },
+        {
+          "zh": "「二哥，这是我最后一次叫你。萧家只剩我一个人了。你犯下的错，我现在替你去填补。」",
+          "en": "\"Second Brother, this is the last time I will call you that. Of the Xiao family, only I remain. The wrongs you have done, I will atone for in your place.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "16:52–20:29",
+      "title": "血战关城，一箭钉王",
+      "body": [
+        "北荒攻入仙人关，赫连王志在必得：大军已定，这仙人关已是北荒的囊中之物，垂死挣扎，只有死路一条。他讥讽大熙皇帝尚且割让城池保一时平安，放话再不让开，便把守军全部杀掉。守关将士齐声立誓：我愿誓死报效大熙！",
+        "危急关头，梁斗率大熙武林赶到：「我梁斗，率大熙武林，先来镇守国门。」两军高手血战，北荒高手更胜一筹，神州结义成员纷纷败下阵来。",
+        "北荒正要二次进军，一支利箭破空而来，将赫连王钉在仙人关城墙正中。萧秋水带着吴喆随后现身，吴喆立刻重整士气：「众将士听令，随老夫杀出城外！」守军士气大振，一举将北荒击退。"
+      ],
+      "quotes": [
+        {
+          "zh": "「大军已定，这仙人关，已是我北荒的囊中之物。垂死挣扎，只有死路一条。」",
+          "en": "\"My army has arrived. This Xianren Pass is already a prize of the Northern Desolate. Flailing to survive only leads to death.\""
+        },
+        {
+          "zh": "「我愿誓死报效大熙！」",
+          "en": "\"I vow to serve Great Xi even unto death!\""
+        },
+        {
+          "zh": "「我梁斗，率大熙武林，先来镇守国门。我倒要看看，是大熙的武林厉害，还是我北荒的高手更胜一筹。」",
+          "en": "\"I, Liang Dou, lead the martial artists of Great Xi to guard the realm's gate. Let us see whether the heroes of Great Xi or the masters of the Northern Desolate prevail.\""
+        },
+        {
+          "zh": "「众将士听令，随老夫杀出城外！」",
+          "en": "\"All soldiers, hear my command—follow me out of the city walls!\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "22:49–24:03",
+      "title": "朝堂惊变，沉舟殒命",
+      "body": [
+        "宫中，皇帝方知自己被萧开雁蒙骗，懊悔之余急传李沉舟：「来人，传李沉舟，让他不惜一切代价，救回吴将军！」",
+        "捷报旋即传来：仙人关一役，吴喆大败北荒军，赫连王首级被斩，北荒俯首称臣，五十年不敢轻犯中原。皇帝大喜，下令重赏吴喆及前线将士，又问起「还有沉舟，他也当赏」——却被告知：李帮主他，已经在寻吴将军的途中，牺牲了。",
+        "捷报与讣告同至，皇帝愕然，懊悔不已。"
+      ],
+      "quotes": [
+        {
+          "zh": "「来人，传李沉舟，让他不惜一切代价，救回吴将军！」",
+          "en": "\"Summon Li Chenzhou at once—have him rescue General Wu at any cost!\""
+        },
+        {
+          "zh": "「陛下，仙人关一役，吴将军大败北荒军。北荒俯首称臣，五十年不敢轻犯我中原。」",
+          "en": "\"Your Majesty, at Xianren Pass, General Wu routed the Northern Desolate army. The North has submitted as vassals, daring not to invade our Central Plains for fifty years.\""
+        },
+        {
+          "zh": "「甚好，甚好啊！传令下去，重赏吴将军及前线将士。还有沉舟，他也当赏。」",
+          "en": "\"Excellent, excellent! Issue the order to richly reward General Wu and the troops at the front. And Chenzhou—he too deserves a reward.\""
+        },
+        {
+          "zh": "「陛下……李帮主他，已经在寻吴将军的途中，牺牲了。」",
+          "en": "\"Your Majesty... the Gang Leader Li has already fallen on the road while searching for General Wu.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "24:34–27:22",
+      "title": "庆功酒，敬亡者敬自己",
+      "body": [
+        "军营庆功。吴喆向萧秋水拱手致谢：少侠重情重义，舍身相救，这份情义，吴某铭记于心。他代表全体将士敬神州结义一杯，众人大声应和：干！",
+        "萧秋水举杯：「兄弟们，这杯酒，我敬所有抗击北荒死去的兄弟们——今日之胜，也有他们的一份。」他再举一杯：「这一杯，敬我们自己。」军中上下举杯痛饮，好酒入喉，有人笑说这一仗打得畅快。"
+      ],
+      "quotes": [
+        {
+          "zh": "「少侠重情重义，舍身相救，这份情义，吴某铭记于心。」",
+          "en": "\"Young hero, your loyalty and selfless rescue—this debt of gratitude, this Wu will always remember.\""
+        },
+        {
+          "zh": "「肖少侠，我代表全体将士，敬你们神州结义！干！」",
+          "en": "\"Young Hero Xiao, on behalf of all officers and soldiers, I toast the Shenzhou Brotherhood! Cheers!\""
+        },
+        {
+          "zh": "「兄弟们，这杯酒，我敬所有抗击北荒死去的兄弟们。今日之胜，也有他们的一份。」",
+          "en": "\"Brothers, this cup I dedicate to all who died fighting the Northern Desolate. This victory today is theirs too.\""
+        },
+        {
+          "zh": "「这一杯，敬我们自己。」",
+          "en": "\"This cup—to ourselves.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "27:22–33:22",
+      "title": "篝火夜话，因义而聚",
+      "body": [
+        "入夜，众人在军营外点起篝火，庆祝来之不易的大胜。有人向萧秋水举杯：「认识你，是我此生最开心的事。」萧秋水与唐方并肩而坐，众人纷纷敬酒：「唐姑娘，我敬你们一杯，祝你们喝得开心。」",
+        "左丘超然与曲暮霜的婚事成了大家的谈资——曲家女儿不外嫁，左丘怕是要入赘曲家，那将来生的孩子，是不是也得姓曲？结义兄弟们笑作一团，打趣说不如彼此相伴。",
+        "柳随风与宋明珠看着这热闹景象，承认自己输掉了赌注：「你赢了。这江湖，终究是如你所说的因义而聚。我也看到了不一样的江湖。」众人兴起，围着篝火高歌起来，歌声穿过夜色。"
+      ],
+      "quotes": [
+        {
+          "zh": "「认识你，是我此生最开心的事。」",
+          "en": "\"Knowing you is the happiest thing in this life of mine.\""
+        },
+        {
+          "zh": "「左丘要入赘曲家了，那生的孩子，是不是也得姓曲啊？」",
+          "en": "\"Zuoqiu is marrying into the Qu family—will their children have to take the Qu name?\""
+        },
+        {
+          "zh": "「唐姑娘，我敬你们一杯，祝你们喝得开心。」",
+          "en": "\"Lady Tang, I toast the two of you—may you drink and be merry.\""
+        },
+        {
+          "zh": "「你赢了。这江湖，终究是如你所说的因义而聚。我也看到了不一样的江湖。」",
+          "en": "\"You win. This jianghu, in the end, is gathered by righteousness, just as you said. I, too, have seen a different jianghu.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "33:46–37:23",
+      "title": "忘情代价，故人归去",
+      "body": [
+        "篝火边，《沧海一声笑》的歌声里众人笑闹正酣。萧秋水独坐片刻，酒杯忽然从手中滑落。画外音道破真相：修习忘情天书第十五层，虽能爆发出超越自身数倍的强大威力，一时锐不可当，却是一时耗尽元气，不久便会经脉受损、元气枯竭——付出的，是他的性命。萧秋水从一开始就知道。",
+        "画面切回现代病房。肖明明躺在病床上，隐约听见床边的人说：明明，经过调查核实，已确定李楠的间谍行为，他窃取了国家机密，可惜还没等到定罪量刑，前两天，他已经死了。"
+      ],
+      "quotes": [
+        {
+          "zh": "「沧海一声笑，滔滔两岸潮……」",
+          "en": "\"One laugh over the sea, waves surging along both shores...\""
+        },
+        {
+          "zh": "「修习忘情天书第十五层，虽能爆发出超越自身数倍的强大威力，一时锐不可当，却是一时耗尽元气。不久便会经脉受损、元气枯竭——付出的，可是他的性命。」",
+          "en": "\"Practicing the fifteenth layer of the Book of Forgetfulness unleashes power several times one's own, briefly unstoppable—yet it drains the vital force at once. Soon the meridians are damaged and the vitality exhausted: the price is his life.\""
+        },
+        {
+          "zh": "「明明，经过调查核实，确定了李楠的间谍行为。他窃取国家机密，可惜还没有等到定罪量刑，前两天，他已经死了。」",
+          "en": "\"Mingming, after investigation and verification, Li Nan's espionage has been confirmed. He stole state secrets—yet before sentencing could be passed, two days ago, he died.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "37:23–40:57",
+      "title": "落日余晖，白衣远去",
+      "body": [
+        "肖明明从梦中醒来，又恍惚回到那个武侠世界。他梦见自己再次变成萧秋水，一袭白衣，一步步走进灿烂的落日余晖之中，身影渐渐消失。",
+        "「不如就笑着红尘去，跨越山海中相遇；只是天涯未曾远离……」歌声里，这趟穿书之旅走到终点。江湖的传说落幕，故人的身影留在山海之间。"
+      ],
+      "quotes": [
+        {
+          "zh": "「不如就笑着红尘去，跨越山海中相遇；只是天涯未曾远离……」",
+          "en": "\"Better to laugh and drift through the mortal world—to meet again across mountains and seas; for the ends of the earth are never truly apart...\""
+        },
+        {
+          "zh": "「豪情还剩了一襟晚照……」",
+          "en": "\"Heroic spirit remains—just a lapel-full of the evening light...\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "源自 S3–S4 · 水寨决战",
+      "title": "忘情的最高境界，是有情",
+      "situation": "萧开雁误解忘情天书，以为无牵无挂、吸纳他人内力便可登顶，偷学一番走火入魔；萧秋水却在生死关头点破真意：忘情天书的最高境界不是无情，而是有情。",
+      "advice": [
+        "真正的强大，不是放下一切，而是看清一切后依然在乎。",
+        "走捷径偷来的功夫根基不稳，迟早反噬自身。",
+        "心中装着人，才能在人世里走得更远。"
+      ]
+    },
+    {
+      "tag": "源自 S4 · 临终幻境",
+      "title": "执迷权势，终将一无所有",
+      "situation": "萧开雁想凌驾天下，害得萧家满门凋零，临终只能在幻境里看见团圆的家人——现实里，萧家只剩萧秋水一人。",
+      "advice": [
+        "为了「赢」而舍弃的人，往往最后才发现那才是全部。",
+        "用至亲的血换来的权势，带不来半点安稳。",
+        "回头要趁早，别等到只剩幻境时才看见家的好。"
+      ]
+    },
+    {
+      "tag": "源自 S1 · 仙人关",
+      "title": "守信之人，自有天助",
+      "situation": "北荒见吴喆不在便撕毁和谈约定，口出狂言；吴喆被救回后重整旗鼓，率众击退北荒，赫连王被钉于城头。",
+      "advice": [
+        "立身之道，信义为先；背信者终会失道寡助。",
+        "越是紧要关头，越要守住自己的原则。",
+        "胜负从来不在口头的嚣张，而在谁站在道义这边。"
+      ]
+    },
+    {
+      "tag": "源自 S6 · 朝堂",
+      "title": "别等失去，才懂珍惜",
+      "situation": "皇帝被萧开雁蒙骗而不信忠臣，得知受骗才急传李沉舟救吴喆；捷报刚至、重赏未落，李沉舟已在途中牺牲。",
+      "advice": [
+        "忠言往往逆耳，别让猜疑寒了忠臣的心。",
+        "用人不疑，疑人不用；关键之时的信任千金难换。",
+        "遗憾多生于「迟来一步」，珍惜眼前人，别等身后事。"
+      ]
+    },
+    {
+      "tag": "源自 S8 · 篝火夜话",
+      "title": "因义而聚，才是江湖",
+      "situation": "柳随风与宋明珠看着篝火旁的热闹景象，承认输掉了赌注：这江湖，终究变成了萧秋水所说的「因义而聚」。",
+      "advice": [
+        "能长久聚拢人心的，从来不是利益，而是共同的信念。",
+        "赌局输赢无所谓，肯承认别人说得对，也是一种格局。",
+        "亲眼看着自己相信的世界变成现实，是最大的圆满。"
+      ]
+    },
+    {
+      "tag": "源自 S9 · 庆功宴",
+      "title": "有些胜利，要用命来换",
+      "situation": "萧秋水明知忘情天书第十五层要耗尽元气、以性命为代价，仍用它击败开雁、守住仙人关，在欢宴中悄然离世。",
+      "advice": [
+        "把最重要的事做成了，有些代价便值得付出。",
+        "决定之前想清代价，决定之后就不要再回头。",
+        "英雄的落幕不必壮烈，成全了想成全的，就是圆满。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "萧秋水",
+      "role": "本剧男主 · 浣花剑派三少爷 · 神州结义首领 · 成毅 饰",
+      "desc": "大结局里独闯水寨，以参透的忘情天书和一把横琴手刃黑化的二哥萧开雁，救出大将军吴喆、一箭钉死赫连王守住仙人关；却因施展忘情天书第十五层耗尽元气，在庆功宴上安然离世。"
+    },
+    {
+      "name": "肖明明",
+      "role": "现代穿书者 · 萧秋水的现实本尊 · 成毅 饰",
+      "desc": "现代咸鱼青年，穿入自己改写的小说，以萧秋水的身份走完一生。结局在病房醒来，得知室友李楠间谍罪落网，仍沉浸在白衣萧秋水消失于落日余晖的梦里。"
+    },
+    {
+      "name": "萧开雁",
+      "role": "萧秋水二哥 · 本集最终反派 · 张晓晨 饰",
+      "desc": "因贪求武功走火入魔，关押大将军吴喆、布下必杀之局，与亲弟萧秋水生死相搏。临终幻境中看见团圆的一家人，气若游丝间只支吾几声，便断了气。"
+    },
+    {
+      "name": "吴喆",
+      "role": "镇守仙人关的大将军 · 卢勇 饰",
+      "desc": "与北荒定下和谈却身陷水寨，被萧秋水救出后重返仙人关，一箭逆转战局，率众将士杀出城外，一举击退北荒大军，取得大捷。"
+    },
+    {
+      "name": "李沉舟",
+      "role": "权力帮帮主 · 大熙皇帝亲弟 · 成毅 饰",
+      "desc": "受皇命「不惜一切代价」救回吴喆，却在途中中萧开雁设计，与赵师容双双牺牲。朝堂之上，皇帝追赏时方才得知他的死讯。"
+    },
+    {
+      "name": "唐方",
+      "role": "唐门中人 · 萧秋水的红颜知己 · 李凯馨 饰",
+      "desc": "庆功宴的篝火边与萧秋水并肩而坐，被众人举杯祝福。江湖儿女在血火之后，共享了片刻安宁与欢喜。"
+    },
+    {
+      "name": "梁斗",
+      "role": "大熙武林侠士 · 杜俊泽 饰",
+      "desc": "仙人关告急时率大熙武林赶来镇守国门，与北荒高手血战，虽一度败退，仍与神州结义并肩守住了最后一道防线。"
+    },
+    {
+      "name": "左丘超然",
+      "role": "神州结义成员 · 程相 饰",
+      "desc": "庆功宴上，他与曲暮霜的婚事被众人打趣——曲家女儿不外嫁，怕是要入赘曲家。现实中，他还是陪在肖明明床边的室友左丘。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "水寨决裂·兄弟相残",
+      "desc": "萧秋水一句「萧开雁，你该结束了」，与黑化的二哥正面摊牌。昔日并肩的兄弟在忘情天书的余韵中生死相搏，是本集最痛的一场对决。"
+    },
+    {
+      "title": "以琴为刃",
+      "desc": "萧秋水将一把横琴当作利刃，剑音如雷，重重击伤萧开雁。琴声既是杀招，也是最后唤醒兄长的挽歌。"
+    },
+    {
+      "title": "忘情天书的最高境界是有情",
+      "desc": "面对执迷不悟的兄长，萧秋水道破真意：忘情天书的至高一境并非无情，而是「有情」。全剧的武学奥义在生死关头完成点题。"
+    },
+    {
+      "title": "一箭钉王",
+      "desc": "北荒正要二次进军，一支利箭破空而来，将不可一世的赫连王钉在仙人关城墙正中，战局瞬间逆转。"
+    },
+    {
+      "title": "朝堂惊变·李沉舟殒命",
+      "desc": "皇帝重赏吴喆与李沉舟，却被一句「李帮主已经牺牲了」击中。捷报与讣告同至，懊悔写满朝堂。"
+    },
+    {
+      "title": "敬亡者，敬自己",
+      "desc": "庆功宴上，萧秋水举杯敬所有战死的兄弟——「今日之胜，也有他们的一份」，再敬自己。歌声未歇，酒杯从手中滑落，英雄在欢宴中安然离世。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "忘情天书的代价",
+      "desc": "画外音早早道破：忘情天书第十五层耗尽元气、以性命为价。这为萧秋水在欢宴上的离世埋下注定的一笔。"
+    },
+    {
+      "title": "白衣消失于落日余晖",
+      "desc": "肖明明在梦中再次化为白衣萧秋水，消失在灿烂的落日余晖里。是梦是醒，分不清界线——或许山海之外，故事还在继续。"
+    },
+    {
+      "title": "李楠的间谍罪",
+      "desc": "现代线收束：室友李楠窃取国家机密、未及定罪便身死，呼应了这场穿书冒险最初的那个系统与那本小说。"
+    },
+    {
+      "title": "因义而聚的新江湖",
+      "desc": "柳随风与宋明珠认赌服输，散落的故人各奔前程，江湖在血火之后走向萧秋水期望的样子。"
+    },
+    {
+      "title": "唐姑娘的那杯酒",
+      "desc": "篝火边，众人祝福萧秋水与唐方。英雄落幕处，这段未竟的情意成了大结局最温柔的留白。"
+    }
+  ]
+}

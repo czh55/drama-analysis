@@ -53,13 +53,17 @@ def scene_midpoint(t):
     return (parse_time(a) + parse_time(b)) // 2
 
 def find_video(video_dir, ep):
-    """按 NN* 通配匹配（支持 "01 4K.mp4" / "01..mp4" / "01.mp4"）"""
+    """按 NN* 通配匹配，优先选不带 "(1)" 的重复副本（支持 "01 4K.mp4" / "01..mp4" / "01-4K.高码率.mkv"）"""
     import glob as _glob
+    hits = []
     for pat in (f'{ep}*.mp4', f'{ep}*.mkv', f'{ep}*.MP4', f'{ep}*.MKV'):
-        hits = _glob.glob(os.path.join(video_dir, pat))
-        for h in hits:
-            if os.path.isfile(h):
-                return h
+        hits.extend(_glob.glob(os.path.join(video_dir, pat)))
+    for h in hits:
+        if os.path.isfile(h) and '(1)' not in os.path.basename(h):
+            return h
+    for h in hits:
+        if os.path.isfile(h):
+            return h
     return None
 
 def auto_find_video_dir(ep):
