@@ -201,6 +201,102 @@
       .stat-num { font-size: 28px; }
       .series-title { font-size: 20px; }
     }
+    .search-bar {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px 20px;
+      position: relative;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 13px 46px 13px 16px;
+      font-size: 15px;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .search-bar input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(96,165,250,0.15);
+    }
+    .search-bar input::placeholder { color: var(--text-muted); }
+    .search-count {
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 13px;
+      color: var(--text-muted);
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    .search-results { padding-bottom: 24px; }
+    .search-group { margin-bottom: 20px; }
+    .search-group-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .search-group-title small { font-weight: 400; color: var(--text-muted); }
+    .search-card {
+      display: block;
+      padding: 12px 14px;
+      margin-bottom: 8px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      transition: background 0.2s ease, border-color 0.2s ease;
+    }
+    .search-card:hover { background: var(--card-hover); border-color: rgba(255,255,255,0.15); }
+    .search-card-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .search-card-title .unit-label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent2);
+      background: var(--tag-purple);
+      border-radius: 6px;
+      padding: 1px 7px;
+      margin-right: 8px;
+      vertical-align: 1px;
+    }
+    .search-card-title .ep-tag {
+      color: var(--text-muted);
+      font-weight: 400;
+      font-size: 13px;
+      margin-left: 8px;
+    }
+    .search-card-ctx {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      word-break: break-all;
+    }
+    mark {
+      background: rgba(251,146,60,0.35);
+      color: #fff;
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+    .search-empty {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 14px;
+      padding: 40px 20px;
+    }
   </style>
 </head>
 <body>
@@ -215,7 +311,13 @@
     <div class="stat-item"><div class="stat-num" id="totalScenes">0</div><div class="stat-label">场景数</div></div>
   </div>
 
+  <div class="search-bar">
+    <input id="searchBox" type="search" placeholder="搜索剧名 / 场景 / 中英文台词，如：萧秋水 / Heroic Command / 忘情天书…" autocomplete="off" spellcheck="false">
+    <span id="searchCount" class="search-count"></span>
+  </div>
+
   <div class="container">
+    <div class="search-results" id="searchResults" style="display:none;"></div>
     <div class="empty-state" id="emptyState" style="display:none;">
       <span class="empty-icon">📺</span>
       <h2>还没有内容</h2>
@@ -234,41 +336,29 @@
         return d.innerHTML;
       }
 
-      async function loadData() {
-        let all = [];
-        try {
-          const resp = await fetch('index.json?_=' + Date.now());
-          if (!resp.ok) throw new Error('Failed');
-          all = await resp.json();
-        } catch (e) { all = []; }
+      // 从「第 N 集」中提取集号，按数字自然排序（第 2 集 < 第 10 集）
+      const epNum = (s) => {
+        const m = String(s || '').match(/\d+/);
+        return m ? parseInt(m[0], 10) : 0;
+      };
 
-        if (!all.length) {
-          document.getElementById('emptyState').style.display = '';
-          return;
-        }
+      const $ = (id) => document.getElementById(id);
 
-        // 按剧集分组
+      // 将全部条目按剧分组
+      function groupByDrama(all) {
         const groups = {};
         all.forEach(item => {
           const key = item.drama || '未命名剧集';
           if (!groups[key]) groups[key] = [];
           groups[key].push(item);
         });
+        return groups;
+      }
 
+      // 渲染首页分组列表
+      function renderAll(groups, listEl) {
         const dramas = Object.keys(groups);
-        document.getElementById('totalCount').textContent = all.length;
-        document.getElementById('totalDramas').textContent = dramas.length;
-        document.getElementById('totalScenes').textContent = all.reduce((s, i) => s + (i.scenes || 0), 0);
-
-        const list = document.getElementById('seriesList');
-        list.innerHTML = '';
-
-        // 从「第 N 集」中提取集号，按数字自然排序（第 2 集 < 第 10 集）
-        const epNum = (s) => {
-          const m = String(s || '').match(/\d+/);
-          return m ? parseInt(m[0], 10) : 0;
-        };
-
+        listEl.innerHTML = '';
         dramas.forEach(drama => {
           const items = groups[drama].slice().sort((a, b) => epNum(a.episode) - epNum(b.episode));
           const series = document.createElement('details');
@@ -314,8 +404,183 @@
 
           series.appendChild(header);
           series.appendChild(episodes);
-          list.appendChild(series);
+          listEl.appendChild(series);
         });
+      }
+
+      // ---------- 搜索 ----------
+      let searchIndex = null;      // 全站全文索引（search-index.json）
+      let metaItems = [];          // 元数据（index.json），用于降级搜索
+
+      // 中英文子串匹配：英文不区分大小写，去首尾空格
+      function matches(text, q) {
+        if (!text) return false;
+        return text.toLowerCase().indexOf(q.toLowerCase()) > -1;
+      }
+
+      // 构造高亮 HTML：把 query 出现处包上 <mark>（不区分大小写）
+      function highlight(text, q) {
+        if (!q) return escapeHtml(text);
+        const lower = text.toLowerCase();
+        const lq = q.toLowerCase();
+        const out = [];
+        let i = 0;
+        while (true) {
+          const idx = lower.indexOf(lq, i);
+          if (idx === -1) {
+            out.push(escapeHtml(text.slice(i)));
+            break;
+          }
+          out.push(escapeHtml(text.slice(i, idx)));
+          out.push('<mark>' + escapeHtml(text.slice(idx, idx + q.length)) + '</mark>');
+          i = idx + q.length;
+        }
+        return out.join('');
+      }
+
+      // 命中上下文：返回 query 前后各约 40 字符
+      function contextAround(text, q, radius) {
+        radius = radius || 40;
+        const lower = text.toLowerCase();
+        const idx = lower.indexOf(q.toLowerCase());
+        if (idx === -1) return text.slice(0, radius * 2);
+        const start = Math.max(0, idx - radius);
+        const end = Math.min(text.length, idx + q.length + radius);
+        const seg = text.slice(start, end);
+        return (start > 0 ? '…' : '') + seg + (end < text.length ? '…' : '');
+      }
+
+      // 渲染搜索结果（按剧分组）
+      function renderSearchResults(hits, q) {
+        const box = $('searchResults');
+        box.style.display = '';
+        box.innerHTML = '';
+        $('seriesList').style.display = 'none';
+
+        if (!hits.length) {
+          box.innerHTML = '<div class="search-empty">未找到与「' + escapeHtml(q) + '」相关的内容，试试剧名、场景标题、中英文台词或角色名</div>';
+          $('searchCount').textContent = '';
+          return;
+        }
+
+        // 按剧分组
+        const groups = {};
+        hits.forEach(h => {
+          if (!groups[h.drama]) groups[h.drama] = [];
+          groups[h.drama].push(h);
+        });
+
+        const groupNames = Object.keys(groups).sort();
+        let html = '';
+        groupNames.forEach(name => {
+          const list = groups[name];
+          html += '<div class="search-group">' +
+                  '<div class="search-group-title">' + escapeHtml(name) + '<small>' + list.length + ' 条命中</small></div>';
+          list.forEach(h => {
+            html += '<a class="search-card" href="' + escapeHtml(h.html + '#' + h.anchor) + '" target="_blank">' +
+                    '<div class="search-card-title">' +
+                    '<span class="unit-label">' + escapeHtml(h.label) + '</span>' +
+                    escapeHtml(h.title) +
+                    '<span class="ep-tag">' + escapeHtml(h.episode) + '</span>' +
+                    '</div>' +
+                    '<div class="search-card-ctx">' + highlight(contextAround(h.text, q), q) + '</div>' +
+                    '</a>';
+          });
+          html += '</div>';
+        });
+        box.innerHTML = html;
+        $('searchCount').textContent = hits.length + ' 条命中';
+      }
+
+      // 基于全文索引的搜索
+      function searchFulltext(q) {
+        const hits = [];
+        searchIndex.forEach(rec => {
+          // 单元文本之外，额外把剧名/集号/标题纳入匹配（供"第 3 集""赴山海"等检索）
+          const recMeta = [rec.drama, rec.episode, rec.title].join(' ||| ');
+          rec.units.forEach(u => {
+            if (matches(u.text, q) || matches(recMeta, q)) {
+              hits.push({
+                drama: rec.drama,
+                episode: rec.episode,
+                title: rec.title,
+                html: rec.html,
+                anchor: u.id,
+                label: u.label,
+                text: u.text
+              });
+            }
+          });
+        });
+        return hits;
+      }
+
+      // 降级：仅基于元数据（剧名/集标题/摘要）的搜索
+      function searchMeta(q) {
+        const hits = [];
+        metaItems.forEach(item => {
+          const haystack = [item.drama, item.episode, item.title, item.summary].join(' ||| ');
+          if (matches(haystack, q)) {
+            hits.push({
+              drama: item.drama,
+              episode: item.episode,
+              title: item.title,
+              html: item.html,
+              anchor: '',
+              label: '剧情总结',
+              text: item.summary || item.title
+            });
+          }
+        });
+        return hits;
+      }
+
+      let searchTimer = null;
+      function onSearchInput() {
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(() => {
+          const q = $('searchBox').value.trim();
+          const list = $('seriesList');
+          const box = $('searchResults');
+          if (!q) {
+            box.style.display = 'none';
+            list.style.display = '';
+            $('searchCount').textContent = '';
+            return;
+          }
+          const hits = (searchIndex && searchIndex.length) ? searchFulltext(q) : searchMeta(q);
+          renderSearchResults(hits, q);
+        }, 200);
+      }
+
+      async function loadData() {
+        let all = [];
+        try {
+          const resp = await fetch('index.json?_=' + Date.now());
+          if (!resp.ok) throw new Error('Failed');
+          all = await resp.json();
+        } catch (e) { all = []; }
+
+        if (!all.length) {
+          $('emptyState').style.display = '';
+          return;
+        }
+
+        metaItems = all;
+        const groups = groupByDrama(all);
+        $('totalCount').textContent = all.length;
+        $('totalDramas').textContent = Object.keys(groups).length;
+        $('totalScenes').textContent = all.reduce((s, i) => s + (i.scenes || 0), 0);
+
+        renderAll(groups, $('seriesList'));
+
+        // 预加载全文搜索索引（失败时降级为元数据搜索）
+        try {
+          const resp = await fetch('search-index.json?_=' + Date.now());
+          if (resp.ok) searchIndex = await resp.json();
+        } catch (e) { searchIndex = null; }
+
+        $('searchBox').addEventListener('input', onSearchInput);
       }
 
       loadData();

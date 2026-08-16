@@ -328,6 +328,18 @@ python3 scripts/gen-index.py --drama {剧名拼音} --drama-name "{剧名}" --da
 
 > `docs/index.html` 首页是**动态读取 `index.json` 渲染**的，新增条目无需改首页代码，只需更新 index.json 后 push。
 
+### 全站搜索索引（首页中英文全文搜索）
+
+首页搜索框的数据源是 `docs/search-index.json`，由脚本扫描 `content/*/content-e*.json` 自动生成。**每部剧处理完成后重新生成一次**：
+
+```bash
+python3 scripts/gen-search-index.py
+```
+
+- 每集一条索引记录：场景单元（锚点 `#sN`）+ 人生启示/关键看点/伏笔悬念/登场人物四个段落单元（锚点 `#lessons`/`#highlights`/`#foreshadowing`/`#cast`），中文与英文台词均可命中。
+- 若 `search-index.json` 加载失败，首页自动降级为基于 `index.json` 元数据（剧名/标题/摘要）的搜索，功能仍可用。
+- 搜索索引文件较大（约 9MB），GitHub Pages 会 gzip 传输，无需处理。
+
 ---
 
 ## Step 10：Git 提交并推送到 main（**必须**）
