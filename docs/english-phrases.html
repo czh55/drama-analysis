@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文话术手册 · 从 14294 句台词提炼</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    padding: 56px 24px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -55%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, rgba(96,165,250,0.10) 0%, rgba(167,139,250,0.06) 40%, transparent 70%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(30px, 5vw, 46px);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 40%, #f472b6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub {
+    font-size: 16px;
+    color: var(--text-secondary);
+    max-width: 640px;
+    margin: 0 auto 20px;
+  }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: 5px 13px;
+    font-size: 13px;
+    background: var(--surface);
+    color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+
+  /* ---------- Layout ---------- */
+  .layout {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 28px 20px 80px;
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+  }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar {
+    position: sticky;
+    top: 20px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--surface);
+    padding: 14px;
+  }
+  .sidebar-title {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block;
+    padding: 7px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+    border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-blue);
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 600;
+  }
+  .sidebar .side-sub { font-size: 12px; color: var(--text-muted); padding: 7px 10px 2px; font-weight: 600; letter-spacing: 0.05em; }
+
+  /* ---------- Search ---------- */
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%;
+    padding: 13px 44px 13px 16px;
+    font-size: 15px;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .search-bar input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(96,165,250,0.15);
+  }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute;
+    right: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: var(--text-muted);
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  /* ---------- Main ---------- */
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--surface);
+    overflow: hidden;
+  }
+  .section-head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 22px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    background: var(--tag-blue);
+    border-radius: 8px;
+    padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; letter-spacing: -0.01em; }
+  .section-tag {
+    font-size: 13px;
+    color: var(--accent2);
+    background: var(--tag-purple);
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 4px; font-size: 14px; color: var(--text-secondary); }
+
+  /* ---------- Frame table ---------- */
+  .frame-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .frame-table th {
+    text-align: left;
+    padding: 10px 22px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    background: var(--surface-2);
+  }
+  .frame-table td {
+    padding: 11px 22px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .frame-table tr:last-child td { border-bottom: none; }
+  .frame-table tr:hover td { background: var(--card-hover); }
+  .frame-table .zh-cell { color: var(--text); font-weight: 600; width: 30%; white-space: nowrap; }
+  .frame-table .en-cell { color: #bfdbfe; font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif; font-size: 14.5px; }
+  .frame-table .en-cell i { color: var(--accent3); font-style: italic; }
+  .frame-table .use-cell { color: var(--text-muted); font-size: 13px; }
+
+  /* ---------- Examples ---------- */
+  .examples { padding: 6px 22px 16px; }
+  .examples-title {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 14px 0 10px;
+  }
+  .example {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 13px 16px;
+    margin-bottom: 10px;
+    background: var(--surface-2);
+  }
+  .example .en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    color: #e0e7ff;
+    line-height: 1.65;
+  }
+  .example .zh {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 5px;
+  }
+  .example .frame-hit {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--green);
+    background: var(--tag-green);
+    border-radius: 6px;
+    padding: 1px 7px;
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+
+  /* ---------- Tips ---------- */
+  .tip {
+    margin: 0 22px 20px;
+    border: 1px solid rgba(251,146,60,0.25);
+    border-radius: 12px;
+    background: rgba(251,146,60,0.07);
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+
+  /* ---------- Formula block (越…越 / 组织法 / 救命框架) ---------- */
+  .formula {
+    margin: 4px 22px 18px;
+    border: 1px solid rgba(96,165,250,0.3);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(96,165,250,0.10), rgba(167,139,250,0.08));
+    padding: 16px 18px;
+  }
+  .formula .formula-label {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .formula .formula-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #dbeafe;
+    letter-spacing: -0.01em;
+  }
+  .formula .formula-zh { font-size: 13px; color: var(--text-secondary); margin-top: 6px; }
+
+  .mini-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    padding: 4px 22px 20px;
+  }
+  .mini-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 13px 14px;
+    background: var(--surface-2);
+  }
+  .mini-card .mini-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #bfdbfe;
+  }
+  .mini-card .mini-zh { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+  .mini-card .mini-note { font-size: 12px; color: var(--text-secondary); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border); }
+
+  /* ---------- Lifesavers ---------- */
+  .lifesavers-list { padding: 4px 22px 22px; counter-reset: life; }
+  .life-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .life-item:last-child { border-bottom: none; }
+  .life-num {
+    counter-increment: life;
+    flex-shrink: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .life-num::before { content: counter(life); }
+  .life-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #dbeafe;
+  }
+  .life-use { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* ---------- Footer ---------- */
+  footer { text-align: center; color: var(--text-muted); font-size: 13px; padding: 30px 20px 56px; border-top: 1px solid var(--border); }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  /* ---------- Back to top ---------- */
+  #backTop {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid var(--border-strong);
+    background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px);
+    color: var(--text-secondary);
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.2s ease;
+    z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+  #backTop:hover { transform: translateY(-2px); color: var(--text); }
+
+  .search-empty {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    padding: 40px 20px;
+    border: 1px dashed var(--border);
+    border-radius: 14px;
+  }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .hero { padding: 40px 16px 32px; }
+    .frame-table .use-cell { display: none; }
+    .frame-table .zh-cell { width: 38%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">English Phrasebook</div>
+    <h1>英文话术手册</h1>
+    <p class="hero-sub">从 12 部剧 · 395 集 · 14294 句中英对照台词里，提炼出 10 大话术组、60+ 个可直接套用的英文句子框架——学会它们，和外教沟通时不用再"临时组织语言"。</p>
+    <div class="hero-meta">
+      <span class="chip">🎬 剧集 <b>12 部</b></span>
+      <span class="chip">📺 总集数 <b>395 集</b></span>
+      <span class="chip">💬 台词对 <b>14,294 句</b></span>
+      <span class="chip">🧩 话术组 <b>10 大组</b></span>
+      <span class="chip">🔤 句子框架 <b>60+</b></span>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索中文话术或英文框架，如：虽然 / 万一 / what if / 宁可 / 越…越…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#discovery">核心发现</a>
+    <div class="side-sub">话术组</div>
+    <a href="#group-1">① 转折让步</a>
+    <a href="#group-2">② 条件假设</a>
+    <a href="#group-3">③ 因果推理</a>
+    <a href="#group-4">④ 无条件</a>
+    <a href="#group-5">⑤ 取舍</a>
+    <a href="#group-6">⑥ 递进加强</a>
+    <a href="#group-7">⑦ 程度变化</a>
+    <a href="#group-8">⑧ 举例澄清</a>
+    <a href="#group-9">⑨ 时间顺序</a>
+    <a href="#group-10">⑩ 态度声明</a>
+    <div class="side-sub">组织方法</div>
+    <a href="#organize">三条组织法</a>
+    <a href="#lifesavers">5 个救命框架</a>
+  </nav>
+
+  <main>
+
+    <!-- ======== 核心发现 ======== -->
+    <section id="discovery" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">核心</span>
+        <h2>核心发现</h2>
+      </div>
+      <div class="section-desc">
+        <p>中文话术对应的英文话术，<b style="color:var(--text)">90% 是"句子框架"，不是难单词</b>。语法不难——难的是不知道"该用哪个框架起头"。这 10 组框架全部来自本项目 14294 句台词里的真实例句，<b style="color:var(--text)">跨领域通用</b>：聊天气、聊工作、聊爱好，任何对话场景都能套用。</p>
+      </div>
+      <div class="mini-grid">
+        <div class="mini-card"><div class="mini-en">X, but Y.</div><div class="mini-zh">先让步再转折——永远不冒犯人的万能开头</div></div>
+        <div class="mini-card"><div class="mini-en">What if...?</div><div class="mini-zh">把话题从眼前转向未来风险</div></div>
+        <div class="mini-card"><div class="mini-en">I'd rather X than Y.</div><div class="mini-zh">一句话讲清取舍逻辑</div></div>
+        <div class="mini-card"><div class="mini-en">As long as...</div><div class="mini-zh">表达底线和承诺条件</div></div>
+      </div>
+    </section>
+
+    <!-- ======== ① 转折让步 ======== -->
+    <section id="group-1" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>转折让步类</h2>
+        <span class="section-tag">「虽然……但是」</span>
+      </div>
+      <div class="section-desc">中文"虽然但是"在英文里有两条路，关键看语气轻重：轻转折用 but，强烈对比用 even though。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">虽然…但是…（轻）</td><td class="en-cell">He can be <i>X</i>, but he's really <i>Y</i>.</td><td class="use-cell">先承认缺点，再夸 / 纠正</td></tr>
+          <tr><td class="zh-cell">虽然…但…（重）</td><td class="en-cell">Even though it's <i>X</i>, ...</td><td class="use-cell">强烈对比</td></tr>
+          <tr><td class="zh-cell">他表面上…其实…</td><td class="en-cell">He looks <i>X</i> on the surface, but deep down he's <i>Y</i>.</td><td class="use-cell">评价一个人</td></tr>
+          <tr><td class="zh-cell">虽然可能…甚至可能…</td><td class="en-cell">Even though <i>X</i> may never... and may even...</td><td class="use-cell">双重让步</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">but</span>"He can be impulsive, but he's really warm-hearted."</div>
+          <div class="zh">「他虽然有点冲动吧，但挺热心肠的。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">on the surface</span>"He looks colder than anyone on the surface, but deep down he's softer than anyone."</div>
+          <div class="zh">「他就是表面上看着比谁都冷，其实内心比谁都软。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">even though</span>"Even though some sacrifices may never be repaid, and may even be misunderstood."</div>
+          <div class="zh">「虽然有些付出未必能得到回报，甚至可能被误解。」</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教场景速用</b>：外教问你看法时，先 <b>He seems X on the surface, but deep down...</b>，一句话就既客观又有深度。</div>
+    </section>
+
+    <!-- ======== ② 条件假设 ======== -->
+    <section id="group-2" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>条件假设类</h2>
+        <span class="section-tag">「如果 / 只要 / 除非 / 万一」</span>
+      </div>
+      <div class="section-desc">最实用的一组——表达条件、给出前提，聊天中天天用。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">如果…就…</td><td class="en-cell">If <i>X</i>, then <i>Y</i>.</td><td class="use-cell">基础条件</td></tr>
+          <tr><td class="zh-cell">只要…就…（足够条件）</td><td class="en-cell">As long as <i>X</i>, ...</td><td class="use-cell">我的底线是…</td></tr>
+          <tr><td class="zh-cell">万一…呢？（担忧）</td><td class="en-cell">What if...?</td><td class="use-cell">提出未来风险</td></tr>
+          <tr><td class="zh-cell">既然…（已知前提）</td><td class="en-cell">Now that <i>X</i>, ... / Since <i>X</i>, ...</td><td class="use-cell">顺着已知事实推进</td></tr>
+          <tr><td class="zh-cell">除非…否则…</td><td class="en-cell">Unless <i>X</i>, ...</td><td class="use-cell">唯一例外</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">as long as</span>"As long as I'm alive, that's enough."</div>
+          <div class="zh">「只要能活着就行。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">what if</span>"A PET-CT scan costs thousands—what if it still finds nothing?"</div>
+          <div class="zh">「做一次 PET-CT 要大几千，万一还是查不出来呢？」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">now that</span>"Don't worry too much—now that you're here, we'll all take good care of you."</div>
+          <div class="zh">「不用太担心，你来了这儿，我们都会帮你看好的。」</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教场景速用</b>：解释选择时用 <b>As long as...</b>（我的底线是…）；表达担忧用 <b>What if...?</b>，把话题从"眼前"转到"未来风险"。</div>
+    </section>
+
+    <!-- ======== ③ 因果推理 ======== -->
+    <section id="group-3" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>因果推理类</h2>
+        <span class="section-tag">「因为…所以 / 毕竟 / 正因为」</span>
+      </div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">…，所以…</td><td class="en-cell"><i>X</i>, so <i>Y</i>.</td><td class="use-cell">结论前置</td></tr>
+          <tr><td class="zh-cell">因为…</td><td class="en-cell">...because...</td><td class="use-cell">补充理由</td></tr>
+          <tr><td class="zh-cell">毕竟…（补充理由）</td><td class="en-cell">...after all.</td><td class="use-cell">口语利器，放句尾</td></tr>
+          <tr><td class="zh-cell">正因为…，才…</td><td class="en-cell">Precisely because <i>X</i>, ...</td><td class="use-cell">强调原因</td></tr>
+          <tr><td class="zh-cell">这就是为什么…</td><td class="en-cell">That's why...</td><td class="use-cell">收束结论</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">after all</span>"We're short-staffed—Zhang Chen's gone, after all."</div>
+          <div class="zh">「人手紧张，毕竟张晨不在。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">so</span>"At midnight there'll be fireworks, so I wanted to bring you to see them."</div>
+          <div class="zh">「在零点的时候会有烟花可以看，所以我就想带你来看看。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">precisely because</span>"Precisely because he's young, he'll wear the artificial heart much longer."</div>
+          <div class="zh">「正因为年轻，他佩戴人工心脏的时间会更久。」</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教场景速用</b>：<b>after all</b> 是口语里补充理由的神器，放在句尾，立刻让表达像母语者。</div>
+    </section>
+
+    <!-- ======== ④ 无条件 ======== -->
+    <section id="group-4" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>无条件类</h2>
+        <span class="section-tag">「不管 / 无论 / 无论如何」</span>
+      </div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">不管怎样</td><td class="en-cell">No matter what, ...</td><td class="use-cell">句首强调</td></tr>
+          <tr><td class="zh-cell">不管多…</td><td class="en-cell">No matter how <i>X</i>, ...</td><td class="use-cell">程度让步</td></tr>
+          <tr><td class="zh-cell">不管是…还是…</td><td class="en-cell">Whether it's <i>X</i> or <i>Y</i>, ...</td><td class="use-cell">并列列举</td></tr>
+          <tr><td class="zh-cell">无论如何</td><td class="en-cell">...no matter what.</td><td class="use-cell">放句尾收束</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">no matter what</span>"No matter what, people matter more than money."</div>
+          <div class="zh">「不管怎么说，人比钱重要。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">no matter how</span>"No matter how thin or crooked the vein, you hit it on the first try."</div>
+          <div class="zh">「无论是多细多歪的血管，你都能一次就扎成功。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">whether</span>"Whether it's treating patients or helping train new doctors locally, I want to do something."</div>
+          <div class="zh">「不管是看病救人也好，或者协助当地培养一批新人也好，我都想去做点什么。」</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== ⑤ 取舍 ======== -->
+    <section id="group-5" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>取舍类</h2>
+        <span class="section-tag">「宁可…也不 / 与其…不如」</span>
+      </div>
+      <div class="section-desc">中文特色很强的一组，英文框架同样固定——这是最值得背的一组。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">宁可…也不…</td><td class="en-cell">I'd rather <i>X</i> than <i>Y</i>.</td><td class="use-cell">两害相权</td></tr>
+          <tr><td class="zh-cell">我宁死也不…</td><td class="en-cell">I would rather die than...</td><td class="use-cell">强烈拒绝</td></tr>
+          <tr><td class="zh-cell">与其…，不如…</td><td class="en-cell">Rather than <i>X</i>, I'd rather <i>Y</i>.</td><td class="use-cell">换种做法更好</td></tr>
+          <tr><td class="zh-cell">还不如…</td><td class="en-cell">Wouldn't it be better to...?</td><td class="use-cell">反问建议</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">would rather... than</span>"I would rather have died outside the city walls than be knocked out by someone."</div>
+          <div class="zh">「我宁可当时就死在城外，也不愿有人把我一把打晕。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">rather than</span>"Rather than be controlled by him forever, I'd rather make him vanish completely from my world."</div>
+          <div class="zh">「与其被他永远操控，不如让他彻底消失在我的世界里。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">rather than</span>"Rather than being burned to ashes and buried, wouldn't it be better to do something for others?"</div>
+          <div class="zh">「与其烧掉变成一把灰埋进土里，那还不如多为别人做点什么。」</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教场景速用</b>：外教问"你为什么不选 A 选 B"，直接 <b>I'd rather B than A.</b>，一句话讲清取舍逻辑。</div>
+    </section>
+
+    <!-- ======== ⑥ 递进加强 ======== -->
+    <section id="group-6" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>递进加强类</h2>
+        <span class="section-tag">「不仅…而且 / 甚至 / 更别说」</span>
+      </div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">不仅…还…</td><td class="en-cell">not just <i>X</i>, but <i>Y</i>.</td><td class="use-cell">递进强调</td></tr>
+          <tr><td class="zh-cell">不仅…还…（正式）</td><td class="en-cell">not only <i>X</i>, but also <i>Y</i>.</td><td class="use-cell">书面 / 演讲</td></tr>
+          <tr><td class="zh-cell">甚至…</td><td class="en-cell">even...</td><td class="use-cell">加一层</td></tr>
+          <tr><td class="zh-cell">更别说 / 何况…</td><td class="en-cell">let alone...</td><td class="use-cell">反衬极强</td></tr>
+          <tr><td class="zh-cell">哪怕…</td><td class="en-cell">even if / even</td><td class="use-cell">最小让步</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">not just</span>"We must see not just the illness, but every individual person."</div>
+          <div class="zh">「我们不仅要看到病人的病，更要看到每一个具体的人。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">let alone</span>"Even a third-rate author wouldn't take them, let alone He Han."</div>
+          <div class="zh">「三流作者都不一定愿意，更别说他是何韩了。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">even if</span>"Even if it's just one more year of life—just one year."</div>
+          <div class="zh">「只要能多活一年，哪怕就一年。」</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== ⑦ 程度变化 ======== -->
+    <section id="group-7" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2>程度变化类</h2>
+        <span class="section-tag">「越…越」</span>
+      </div>
+      <div class="section-desc">这个结构英文超级固定，而且比中文还简单——一个模板通吃所有"越 X 越 Y"。</div>
+      <div class="formula">
+        <div class="formula-label">万能模板</div>
+        <div class="formula-en">The + 比较级 + 主语, the + 比较级 + 主语.</div>
+        <div class="formula-zh">越 X 就越 Y。The longer... the more... / The more... the harder...</div>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">the more</span>"The longer I have this disease, the more I want to live like a normal person."</div>
+          <div class="zh">「这病得得越久，我就越希望自己活得还能像个正常人一样。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">the more</span>"The more you find out, the more you'll hesitate."</div>
+          <div class="zh">「问多了你会犹豫。」</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== ⑧ 举例澄清 ======== -->
+    <section id="group-8" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">08</span>
+        <h2>举例与澄清类</h2>
+        <span class="section-tag">「比如 / 说白了 / 说实话 / 换句话说」</span>
+      </div>
+      <div class="section-desc">外教聊天中最能让你"显得流利"的一组——它们是口头填充与修正用的。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">比如说</td><td class="en-cell">Like... / Say... / For instance...</td><td class="use-cell">举例</td></tr>
+          <tr><td class="zh-cell">说白了 / 坦白说</td><td class="en-cell">Frankly, ... / To be honest, ...</td><td class="use-cell">亮明真实态度</td></tr>
+          <tr><td class="zh-cell">换句话说 / 也就是说</td><td class="en-cell">In other words, ...</td><td class="use-cell">换种说法重讲</td></tr>
+          <tr><td class="zh-cell">我的意思是</td><td class="en-cell">I mean...</td><td class="use-cell">卡壳自救、修正</td></tr>
+          <tr><td class="zh-cell">至少</td><td class="en-cell">At the very least, ...</td><td class="use-cell">最低要求</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">frankly</span>"The Heart Center director position—frankly, it's already in the bag for you."</div>
+          <div class="zh">「说白了那就是您的囊中之物了。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">in other words</span>"In other words, the old man staying behind is waiting for death."</div>
+          <div class="zh">「就是说，老人家留下来，是等死呢。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I mean</span>"I get it. But what I mean is—I'm not going to stop pursuing you."</div>
+          <div class="zh">「我懂。但我的意思是，我就不会放弃追你了。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">to be honest</span>"To be honest, when it comes to cooperation, I'm easier to work with than Lin Zhanqiao."</div>
+          <div class="zh">「合作上有一说一，我比林展翘更容易沟通。」</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教场景速用</b>：卡壳时用 <b>I mean...</b> 重启句子，用 <b>In other words...</b> 换种说法重讲一遍。这两个词一用，立刻从"背单词"变成"在思考"。</div>
+    </section>
+
+    <!-- ======== ⑨ 时间顺序 ======== -->
+    <section id="group-9" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">09</span>
+        <h2>时间顺序类</h2>
+        <span class="section-tag">「先…再…然后 / 一开始…后来…最终」</span>
+      </div>
+      <div class="section-desc">叙事必备，外教让你讲故事 / 复述时的骨架。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">先…再…</td><td class="en-cell">First... then...</td><td class="use-cell">顺序</td></tr>
+          <tr><td class="zh-cell">一开始…后来…</td><td class="en-cell">At first... but later...</td><td class="use-cell">转折叙事</td></tr>
+          <tr><td class="zh-cell">最终</td><td class="en-cell">In the end... / ultimately</td><td class="use-cell">结局</td></tr>
+          <tr><td class="zh-cell">一直…原来…</td><td class="en-cell">...all along</td><td class="use-cell">真相揭晓</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">at first</span>"At first I thought he liked me. I first noticed him on the basketball court—it was raining that day."</div>
+          <div class="zh">「一开始，我也以为他喜欢的人是我。我第一次注意到他是在篮球场上。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">in the end</span>"The family ultimately refused mediation and insisted on legal proceedings."</div>
+          <div class="zh">「家属最终还是拒绝调解，一定要走司法程序。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">all along</span>"Ten years... and it was so close to home all along."</div>
+          <div class="zh">「十年了，原来离家这么近。」</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== ⑩ 态度声明 ======== -->
+    <section id="group-10" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">10</span>
+        <h2>态度声明类</h2>
+        <span class="section-tag">「我告诉你 / 我发誓 / 打死我也不」</span>
+      </div>
+      <div class="section-desc">中文里"强调态度"的话术，英文也有对应的"句首表态词"。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文话术</th><th>英文框架</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我跟你说 / 我告诉你</td><td class="en-cell">I'm telling you, ...</td><td class="use-cell">强调判断</td></tr>
+          <tr><td class="zh-cell">我发誓</td><td class="en-cell">I swear, ...</td><td class="use-cell">郑重承诺</td></tr>
+          <tr><td class="zh-cell">打死我也不相信</td><td class="en-cell">I wouldn't believe it even if you killed me.</td><td class="use-cell">强烈否认</td></tr>
+          <tr><td class="zh-cell">万一呢？</td><td class="en-cell">What if there's a chance?</td><td class="use-cell">不甘心 / 再争取</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I'm telling you</span>"I'm telling you, there's a mole."</div>
+          <div class="zh">「我跟你们说，肯定有内鬼。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I swear</span>"I swear, I'll help you complete every last wish on your list."</div>
+          <div class="zh">「我发誓，我一定能帮你完成你的临终意愿。」</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">even if you killed me</span>"Him owing money? I wouldn't believe it even if you killed me."</div>
+          <div class="zh">「他会欠人钞票？打死我也不相信。」</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 三条组织法 ======== -->
+    <section id="organize" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">组织</span>
+        <h2>三条外教沟通快速组织法</h2>
+      </div>
+      <div class="section-desc">单句框架之外，语料里反复出现的三种"段落组织结构"——让你从"一句一句蹦"变成"一段一段说"。</div>
+      <div class="examples">
+        <div class="example">
+          <div class="en"><span class="frame-hit">让步→转折</span>I know <i>X</i>... but <i>Y</i>. / It may be <i>X</i>, but <i>Y</i>.</div>
+          <div class="zh"><b style="color:var(--text)">① 先让步、再转折（最万能）</b>——承认对方 / 承认缺点，再讲你的观点。用这个开头，永远不会冒犯外教。语料原型："I know I can be annoying—but I believe I love you more than anyone in this world."</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">结论→理由</span><i>X</i>, so <i>Y</i>. / <i>Y</i>, because <i>X</i>. / ...after all.</div>
+          <div class="zh"><b style="color:var(--text)">② 先给结论、再补理由</b>——英文习惯"重点前置"，把结论放前面，理由用 so / because / after all 挂后面，而不是像中文"因为…所以…"铺陈半天。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">条件→承诺</span>As long as <i>X</i>, I'll <i>Y</i>. / No matter what, I'll <i>Y</i>.</div>
+          <div class="zh"><b style="color:var(--text)">③ 先讲条件、再讲承诺</b>——表达底线和决心，一句话说清"我什么情况下怎么做"。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== 5 个救命框架 ======== -->
+    <section id="lifesavers" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">救命</span>
+        <h2>5 个"外教救命框架"</h2>
+        <span class="section-tag">先背这 5 个</span>
+      </div>
+      <div class="section-desc">10 组里最高频的 5 个框架，跨领域通用，建议优先记忆。</div>
+      <div class="lifesavers-list">
+        <div class="life-item">
+          <div class="life-num"></div>
+          <div><div class="life-en">On the surface <i>X</i>, but deep down <i>Y</i>.</div><div class="life-use">评价人 · 「他表面上…其实…」</div></div>
+        </div>
+        <div class="life-item">
+          <div class="life-num"></div>
+          <div><div class="life-en">What if...?</div><div class="life-use">提风险 · 「万一…呢？」</div></div>
+        </div>
+        <div class="life-item">
+          <div class="life-num"></div>
+          <div><div class="life-en">I'd rather <i>X</i> than <i>Y</i>.</div><div class="life-use">讲取舍 · 「宁可…也不…」</div></div>
+        </div>
+        <div class="life-item">
+          <div class="life-num"></div>
+          <div><div class="life-en">not just <i>X</i>, but <i>Y</i>.</div><div class="life-use">递进 · 「不仅…还…」</div></div>
+        </div>
+        <div class="life-item">
+          <div class="life-num"></div>
+          <div><div class="life-en">I mean... / In other words...</div><div class="life-use">卡壳自救 · 换种说法重讲</div></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  基于本项目 12 部剧 395 集 · 14294 句中英对照台词提炼 · 例句均为语料原文（引用转述）<br>
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  // ---------- 搜索过滤 ----------
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q) {
+        sec.style.display = '';
+        visible++;
+      } else if (sec.textContent.toLowerCase().indexOf(q) > -1) {
+        sec.style.display = '';
+        visible++;
+      } else {
+        sec.style.display = 'none';
+      }
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+
+  // ---------- 侧边导航高亮 ----------
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+
+  sections.forEach(function(sec) { observer.observe(sec); });
+
+  // ---------- 回到顶部 ----------
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
