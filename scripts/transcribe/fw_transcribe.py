@@ -27,8 +27,10 @@ model = WhisperModel("small", device="cpu", compute_type="int8", cpu_threads=thr
 print(f"model loaded in {time.time()-t0:.1f}s", flush=True)
 
 t1 = time.time()
+# vad_filter=True：跳过片头片尾音乐，避免 condition_on_previous_text
+# 在无语音片段上陷入「詞曲/重复幻觉」死循环（本剧实测会卡死单集）。
 segments, info = model.transcribe(
-    wav, language="zh", vad_filter=False, beam_size=5, condition_on_previous_text=True
+    wav, language="zh", vad_filter=True, beam_size=5, condition_on_previous_text=False
 )
 segs = []
 for seg in segments:
