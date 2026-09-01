@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="电视剧《我的前半生》第 3 集剧情图文总结" />
+  <title>我的前半生｜第 3 集 · 剧情总结</title>
+  <style>
+:root {
+  --teal-950:#073f42; --teal-800:#0d686c; --teal-700:#0f7c80; --teal-600:#14919b;
+  --mint-100:#dff4ec; --mint-50:#f0faf6; --ink:#183536; --muted:#607879;
+  --line:#d7e8e2; --paper:#fff; --amber:#a85d08; --shadow:0 12px 32px rgba(7,63,66,.08);
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { margin:0; color:var(--ink); background:#edf7f2; font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif; line-height:1.75; }
+a { color:inherit; }
+.hero { color:#fff; background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b); }
+.hero-inner { width:min(1440px,100%); margin:auto; padding:48px clamp(20px,5vw,72px) 42px; }
+.hero-flex { display:flex; gap:clamp(18px,3vw,40px); align-items:flex-start; }
+.hero-cover { width:min(360px,52vw); height:auto; max-height:320px; object-fit:cover; object-position:center; border-radius:16px; border:1px solid rgba(255,255,255,.28); box-shadow:0 18px 44px rgba(0,0,0,.32); flex-shrink:0; }
+.hero-text { min-width:0; flex:1; }
+.eyebrow { margin:0 0 12px; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+h1 { max-width:1020px; margin:0; font-size:clamp(2rem,4.2vw,4rem); line-height:1.13; letter-spacing:-.04em; }
+.hero-ep { margin:8px 0 0; font-size:clamp(1.15rem,2.2vw,1.6rem); font-weight:650; opacity:.95; }
+.hero-en { margin:10px 0 24px; font-size:clamp(.95rem,1.6vw,1.1rem); opacity:.8; }
+.hero-meta { display:flex; flex-wrap:wrap; gap:9px; align-items:center; }
+.chip { border:1px solid rgba(255,255,255,.28); border-radius:99px; padding:5px 11px; font-size:.82rem; background:rgba(255,255,255,.08); }
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+.toolbar label { font-size:.82rem; opacity:.82; }
+.toolbar select { color:#fff; background:#0a5d61; border:1px solid rgba(255,255,255,.3); border-radius:8px; padding:7px 9px; }
+.toolbar select option { color:var(--ink); }
+.stop-btn { display:none; color:#fff; background:#8c3b2a; border:0; border-radius:8px; padding:8px 12px; cursor:pointer; }
+.stop-btn.visible { display:inline-flex; }
+.speech-status { min-height:1.4em; font-size:.82rem; opacity:.88; }
+.page { width:min(1440px,100%); margin:auto; padding:28px clamp(16px,3vw,44px) 64px; display:grid; grid-template-columns:minmax(230px,280px) minmax(0,1fr); gap:30px; align-items:start; }
+.sidebar { position:sticky; top:20px; min-width:0; }
+.sidebar-box { background:rgba(255,255,255,.8); border:1px solid var(--line); border-radius:16px; padding:17px; box-shadow:var(--shadow); backdrop-filter:blur(12px); }
+.sidebar h2 { margin:0 0 13px; font-size:.9rem; letter-spacing:.08em; color:var(--teal-800); }
+.map-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:9px; padding:10px 6px; text-decoration:none; border-top:1px solid var(--line); }
+.map-link:hover b { color:var(--teal-700); }
+.map-id { width:30px; height:30px; display:grid; place-items:center; border-radius:9px; color:#fff; background:var(--teal-700); font-size:.72rem; font-weight:800; }
+.map-link b { display:block; font-size:.78rem; line-height:1.4; }
+.map-link small { display:block; color:var(--muted); font-size:.67rem; line-height:1.4; margin-top:2px; overflow-wrap:anywhere; }
+.content { min-width:0; }
+.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; padding:clamp(20px,3vw,34px); margin-bottom:24px; box-shadow:var(--shadow); overflow:hidden; }
+.scene-frame { display:block; width:100%; max-height:480px; object-fit:cover; object-position:center; border-radius:14px; margin:16px 0 4px; border:1px solid var(--line); box-shadow:0 10px 28px rgba(7,63,66,.1); }
+.scene-topline { display:flex; justify-content:space-between; gap:16px; align-items:center; }
+.scene-id { display:inline-grid; place-items:center; min-width:42px; height:30px; padding:0 10px; color:#fff; background:var(--teal-700); border-radius:8px; font-size:.78rem; font-weight:850; }
+.time { margin-left:10px; color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums; }
+.scene-card h2 { margin:18px 0 2px; font-size:clamp(1.35rem,2.4vw,2rem); line-height:1.25; color:var(--teal-950); }
+.scene-body p { margin:0 0 12px; color:#33504f; }
+.scene-body p:last-child { margin-bottom:0; }
+.quotes { margin-top:16px; padding:14px 16px; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 12px 12px 0; }
+.quotes-title { margin:0 0 8px; font-size:.72rem; font-weight:800; letter-spacing:.12em; color:var(--teal-700); }
+.quotes ul { margin:0; padding-left:18px; }
+.quote-item { margin:8px 0; }
+.quote-zh { color:#3d6d6b; font-size:.92rem; line-height:1.7; }
+.quote-row { display:flex; align-items:flex-start; gap:8px; margin-top:3px; }
+.quote-en { flex:1; color:#0b5c60; font-weight:650; font-size:.88rem; line-height:1.6; overflow-wrap:anywhere; min-width:0; }
+.speak-btn { display:inline-flex; align-items:center; gap:6px; border:1px solid #b8d9d1; border-radius:9px; padding:5px 9px; color:var(--teal-800); background:#f5fbf8; cursor:pointer; white-space:nowrap; font-size:.75rem; font-weight:750; transition:.15s ease; flex-shrink:0; }
+.speak-btn:hover { color:#fff; background:var(--teal-700); border-color:var(--teal-700); transform:translateY(-1px); }
+.speak-btn.playing { color:#fff; background:var(--teal-700); border-color:var(--teal-700); }
+.pronounce-word { display:inline; margin:0; padding:0 2px; color:inherit; background:rgba(20,145,155,.08); border:0; border-bottom:1px dashed var(--teal-600); border-radius:3px; font:inherit; font-weight:inherit; line-height:inherit; cursor:pointer; }
+.pronounce-word:hover, .pronounce-word:focus { color:var(--teal-950); background:#cceee4; border-bottom-style:solid; outline:3px solid rgba(20,145,155,.42); outline-offset:2px; }
+.pronounce-word.playing { color:#fff; background:var(--teal-700); border-bottom-color:var(--teal-700); }
+.section-heading { display:flex; align-items:baseline; gap:10px; margin:0 0 15px; color:var(--teal-950); font-size:1.35rem; }
+.section-heading small { color:var(--teal-600); font-size:.78rem; letter-spacing:.05em; }
+.overview-lead { margin:0 0 10px; padding:12px 15px; color:#496566; background:var(--mint-50); border-left:3px solid var(--teal-600); border-radius:0 10px 10px 0; font-size:.95rem; font-weight:650; }
+.overview p { margin:0; color:#33504f; }
+.study-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.study-grid article { padding:17px; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.study-grid h3 { margin:0 0 7px; font-size:1rem; color:var(--teal-800); }
+.study-grid p { margin:0; font-size:.88rem; color:#496566; }
+.cast-name { display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+.cast-name h3 { margin:0; }
+.cast-name span { font-size:.72rem; color:var(--muted); }
+.study-section { margin:38px 0 0; }
+.lessons-intro { margin:0 0 18px; padding:13px 16px; color:#496566; background:#fdf6ea; border-left:3px solid var(--amber); border-radius:0 10px 10px 0; font-size:.92rem; line-height:1.7; }
+.lesson-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.lesson-card { background:#fff; border:1px solid var(--line); border-top:3px solid var(--amber); border-radius:16px; padding:20px; box-shadow:0 6px 18px rgba(7,63,66,.05); min-width:0; }
+.lesson-tag { display:inline-block; margin-bottom:9px; padding:3px 10px; border-radius:99px; background:#fdf3e3; color:var(--amber); font-size:.7rem; font-weight:750; letter-spacing:.04em; }
+.lesson-card h3 { margin:0 0 11px; font-size:1.05rem; line-height:1.45; color:var(--teal-950); }
+.lesson-situation { margin:0 0 12px; padding:10px 13px; background:#f5f7f6; border-radius:10px; color:#607879; font-size:.85rem; line-height:1.6; }
+.lesson-situation b { color:var(--ink); }
+.lesson-advice b { display:block; margin-bottom:8px; color:var(--amber); font-size:.78rem; letter-spacing:.06em; }
+.lesson-advice ol { margin:0; padding-left:20px; }
+.lesson-advice li { margin:6px 0; color:#33504f; font-size:.88rem; line-height:1.62; }
+.map-link.lesson-map-link { border-top:2px solid var(--amber); }
+.lesson-id { background:var(--amber); }
+footer { margin-top:38px; padding-top:16px; color:var(--muted); font-size:.78rem; text-align:center; border-top:1px solid var(--line); }
+@media (max-width:900px) {
+  .page { grid-template-columns:1fr; }
+  .sidebar { position:static; }
+  .sidebar-box { overflow-x:auto; padding:12px; }
+  .sidebar h2 { padding-left:5px; }
+  .map-nav { display:flex; width:max-content; gap:8px; }
+  .map-link { width:230px; border:1px solid var(--line); border-radius:10px; padding:8px; }
+}
+@media (max-width:620px) {
+  .hero-inner { padding-top:32px; }
+  .hero-flex { flex-direction:column; align-items:center; }
+  .hero-cover { width:100%; max-width:420px; }
+  .hero-text { text-align:center; }
+  .page { padding-inline:10px; gap:18px; }
+  .scene-card { border-radius:14px; padding:17px 13px; }
+  .study-grid { grid-template-columns:1fr; }
+  .lesson-grid { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <img class="hero-cover" src="images/wo-de-qian-ban-sheng-e03/hero.jpg" alt="《我的前半生》第 3 集 封面" loading="lazy">
+        <div class="hero-text">
+          <p class="eyebrow">Drama Recap · 剧情图文总结</p>
+          <h1>我的前半生</h1>
+          <p class="hero-ep">第 3 集 · 新房求婚·黄脸婆不信</p>
+          <p class="hero-en">贺涵带唐晶看精心装修一年的新房，辞去 B&amp;T 合伙人并委婉邀她同住；亚琴撞见端倪被加薪封口；唐晶当面告诉子君——小三是凌玲。子君只信青春美少女的雷达，把黄脸婆挡在门外。</p>
+          <div class="hero-meta">
+            <span class="chip">2017 · 都市情感</span>
+            <span class="chip">马伊琍 / 靳东 / 袁泉 / 雷佳音</span>
+            <span class="chip">44 分钟</span>
+            <span class="chip">10 个场景</span>
+            <span class="chip">共 42 集</span>
+            <span class="chip">台词英文朗读</span>
+          </div>
+          <div class="toolbar">
+            <label for="speech-rate">朗读速度</label>
+            <select id="speech-rate">
+              <option value="0.85">慢速 0.85×</option>
+              <option value="1" selected>正常 1×</option>
+              <option value="1.15">快速 1.15×</option>
+            </select>
+            <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+            <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="剧情地图">
+      <div class="sidebar-box">
+        <h2>剧情地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+        <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>餐厅回家·拐去新房</b><small>01:38–03:08</small></span>
+        </a>
+        <a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>新房·辞职与同住</b><small>03:34–07:47</small></span>
+        </a>
+        <a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>不谈婚姻·两家作业</b><small>08:20–11:51</small></span>
+        </a>
+        <a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>便利店夜谈·责任我来扛</b><small>12:15–13:25</small></span>
+        </a>
+        <a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>亚琴加薪·封口</b><small>14:25–15:27</small></span>
+        </a>
+        <a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>深夜提醒·鱼扔进沙漠</b><small>15:52–21:43</small></span>
+        </a>
+        <a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>唐晶摊牌·黄脸婆不信</b><small>22:53–27:34</small></span>
+        </a>
+        <a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>孔雀男对骂·预期雷达</b><small>28:02–30:25</small></span>
+        </a>
+        <a class="map-link" href="#s9">
+          <span class="map-id">S9</span>
+          <span><b>交易还是感情</b><small>30:51–35:33</small></span>
+        </a>
+        <a class="map-link" href="#s10">
+          <span class="map-id">S10</span>
+          <span><b>辰星闹场·项链乌龙</b><small>35:39–42:43</small></span>
+        </a>
+
+        <a class="map-link lesson-map-link" href="#lessons">
+          <span class="map-id lesson-id">启</span>
+          <span><b>人生启示 · 六条处世智慧</b><small>LIFE LESSONS</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="card" id="overview">
+        <h2 class="section-heading">剧情梗概 <small>OVERVIEW</small></h2>
+        <p class="overview-lead">贺涵辞职换新房，唐晶摊牌说凌玲——子君却只回一句：黄脸婆，俊生才不会喜欢。</p>
+        <p>第3集，两场「告白」并行。
+
+餐厅后，俊生破例不加班陪孩子；贺涵却把唐晶拐去新买的房子——一年前入手、三个月前重装，智能语音迎主人回家。他说：喜欢就会有时间；如果你喜欢，可以搬过来住；今天下午已向公司正式辞职，为的是以后工作时不再争执、他不再是她的上级。</p>
+      </section>
+
+      <section class="study-section" id="lessons">
+        <h2 class="section-heading">人生启示 <small>LIFE LESSONS</small></h2>
+        <p class="lessons-intro">剧里的鸡毛蒜皮，往往是人生的缩影。这些情节不只是故事——当你在现实中遇到同样的处境时，它们能提醒你：先做什么、别做什么、怎么说才有效。</p>
+        <div class="lesson-grid">
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S2 · 新房</span>
+          <h3>牺牲要说清，别用压力绑架</h3>
+          <p class="lesson-situation"><b>情境：</b>贺涵辞职、重装新房邀唐晶同住，却把「为了我们」说得像既定事实，唐晶紧张得像被高考绑架。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>重大决定先对齐对方意愿，再付诸行动；先斩后奏容易变成道德绑架。</li>
+              <li>「我为你放弃了什么」若变成筹码，感情就滑向交易。</li>
+              <li>给对方真正的选择权：可搬、可不搬、可改，而不是只剩「你必须感动」。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S5 · 亚琴</span>
+          <h3>用钱封口，裂痕只会更深</h3>
+          <p class="lesson-situation"><b>情境：</b>俊生给亚琴加薪，换「不该说的不说」——用利益购买沉默。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>家丑靠封口解决不了，只能延后爆炸。</li>
+              <li>对知情者威逼利诱，是把人推到对立面。</li>
+              <li>有勇气出轨，也要有勇气面对知情者，而不是用五百块买平安。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S6–S7 · 摊牌</span>
+          <h3>别用刻板印象否认真相</h3>
+          <p class="lesson-situation"><b>情境：</b>唐晶说出亲眼所见，子君仍用「黄脸婆」逻辑否定凌玲。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>威胁不按你的审美出场；证据比「她长得不像小三」重要。</li>
+              <li>闺蜜难听的话，往往比自我安慰更接近事实。</li>
+              <li>预期雷达只对「青春美少女」报警，等于主动关掉一半感官。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S8 · 闺蜜</span>
+          <h3>损人也要分场合</h3>
+          <p class="lesson-situation"><b>情境：</b>贺涵建议放任子君吃苦「激活细胞」；唐晶虽气，仍护着这份友谊。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>朋友可以清醒，但「等她撞南墙」不是唯一策略。</li>
+              <li>损人损到人格否定，会伤害你想帮的人。</li>
+              <li>问自己：我是在帮她看见事实，还是在宣泄优越感？</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S9 · 交易</span>
+          <h3>把感情说成交易，信任会打折</h3>
+          <p class="lesson-situation"><b>情境：</b>贺涵一边说我们不是交易，一边用分成失败证明「辞职另有算计」。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>职场人可以精于算计，但别把亲密关系也标成价签。</li>
+              <li>动机被拆穿时坦诚比诡辩更有尊严。</li>
+              <li>「为了你」和「为我自己」可以并存，但撒谎只会加倍透支。</li>
+            </ol>
+          </div>
+        </article>
+
+        <article class="lesson-card">
+          <span class="lesson-tag">源自 S10 · 辰星</span>
+          <h3>恐慌出击，容易打错靶</h3>
+          <p class="lesson-situation"><b>情境：</b>子君冲公司闹项链，误伤 Sandra，反被讽没有教养。</p>
+          <div class="lesson-advice">
+            <b>遇到这种情况，可以这样做</b>
+            <ol>
+              <li>情绪顶峰时少做公开对质；先核实对象与事实。</li>
+              <li>当众撕破脸，输的往往是自己的体面与信息优势。</li>
+              <li>不安可以有，但行动要对准真正的问题，而不是最近的替罪羊。</li>
+            </ol>
+          </div>
+        </article>
+
+        </div>
+      </section>
+
+      <section class="study-section" id="scenes">
+        <h2 class="section-heading">关键情节 <small>KEY SCENES</small></h2>
+    <section class="card scene-card" id="s1">
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time">01:38–03:08</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s1.jpg" alt="餐厅回家·拐去新房" loading="lazy">
+      <h2>餐厅回家·拐去新房</h2>
+      <div class="scene-body">
+        <p>三人餐后，子君仍损贺涵「天底下除了唐晶谁都瞧不上」。俊生今天破例不加班，要回家陪孩子。打车人群中，俊生问起贺涵「乱来」——唐晶说那人好像是洛洛。</p>
+<p>贺涵却不送唐晶回她原来的家，改道另一条路。唐晶紧张：「咱们不是要去你家吗？」「还怕我把你卖掉？」前方，新房子的智能系统响起：「有家欢迎主人回家。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「今天我不加班，咱回家吧，正好陪着孩子。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'm not working overtime today. Let's go home and be with the kid."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s1-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你说贺涵乱来——不是谁都能乱来的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You say He Han acts recklessly—not just anyone can get away with that."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s1-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「有家欢迎主人回家。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Welcome home, master of the house."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s1-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s2">
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time">03:34–07:47</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s2.jpg" alt="新房·辞职与同住" loading="lazy">
+      <h2>新房·辞职与同住</h2>
+      <div class="scene-body">
+        <p>贺涵介绍：房子一年前买的，三个月前刚装修完——精装千篇一律像酒店，所以里里外外重做。唐晶笑他盯一把椅子能等几个月；贺涵说「喜欢就会有时间」。</p>
+<p>他正式开口：如果你喜欢，可以搬过来；不喜欢他可以改。为了以后工作不再争执、他不再是她的上级、同公司不必刻意保持距离——今天下午已向公司提出正式辞职。唐晶震惊：辞的是 B&amp;T 合伙人，她能不紧张？贺涵不逼她立刻搬，说房子不会像面包过期；还有最后一件事需要她做决定。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「如果喜欢的话，你可以搬过来住；如果你不喜欢，我可以重新改。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you like it, you can move in. If you don't, I can redo it."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s2-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「今天下午，我已经向公司提出了正式辞职。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"This afternoon I formally resigned from the company."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s2-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你辞掉的是堂堂 B&amp;T 的合伙人，你说我能不紧张吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"You just quit as a full partner at B&amp;T—how am I supposed to stay calm?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s2-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s3">
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time">08:20–11:51</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s3.jpg" alt="不谈婚姻·两家作业" loading="lazy">
+      <h2>不谈婚姻·两家作业</h2>
+      <div class="scene-body">
+        <p>两人举杯：为了新房子，为了还能坐在一起。唐晶忽然想——十年二十年以后还会不会想起「说好的再一起不谈未来、不谈婚姻」。</p>
+<p>切到子君家：平儿做应用题，子君嫌一年级太复杂。凌玲家：佳清被追加错题卷，她说「每个人都有功课，大人也有；今天不做完，明天可能不及格」。俊生给平儿读《小美人鱼》，讲到云霞淡红便收束——「明儿爸爸再给你讲」。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我们说好的：再一起不谈未来，还有不谈婚姻。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We agreed: together again, but no talk of the future—and no talk of marriage."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s3-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「如果你明天想过好日子，你今天就必须努力。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If you want a good life tomorrow, you have to work hard today."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s3-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「一年级小朋友搞这么复杂干嘛？会数一二三就行了嘛。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Why make first grade this complicated? Counting to three should be enough."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s3-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s4">
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time">12:15–13:25</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s4.jpg" alt="便利店夜谈·责任我来扛" loading="lazy">
+      <h2>便利店夜谈·责任我来扛</h2>
+      <div class="scene-body">
+        <p>俊生借口去便利店买杂志。凌玲告诉他：唐晶好像知道了，子君可能也会知道。她说可以把责任全部推在自己身上——「你就说是我死缠烂打，你是完全被动的」。</p>
+<p>俊生拒绝：「不可以，也不能够。我不会把责任推给你。」他承认是自己对她日久生情、想跟她在一起；若唐晶来找，凌玲别见——「交给我来处理好不好，你相信我」。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「你就把责任全部推在我身上，说是我死缠烂打，你是完全被动的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Just dump all the blame on me—say I clung to you and you were completely passive."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s4-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不可以，也不能够。我不会把责任推给你。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"No. Absolutely not. I won't push the blame onto you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s4-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「这几天如果唐晶要去找你，你别见她——交给我来处理好不好？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"If Tang Jing comes looking for you these days, don't see her—leave it to me, okay?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s4-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s5">
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time">14:25–15:27</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s5.jpg" alt="亚琴加薪·封口" loading="lazy">
+      <h2>亚琴加薪·封口</h2>
+      <div class="scene-body">
+        <p>扔垃圾的亚琴撞见俊生下楼。他先夸她照顾平儿辛苦，宣布从本月起每月加五百——「子君还说呢」。随即把话锋一转：这是我们的家，也希望你把它当家；不管发生什么，都要维护这个家庭。</p>
+<p>「传话、捕风捉影这种事情最要不得；如果我知道的话，就只能请你离开了。」亚琴连声答应：「不该说的不说，不该听的不听。」吓得赶忙去扔垃圾。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「我看就从这一月开始吧，每一月加五百。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Let's start this month—an extra five hundred each month."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s5-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「不管发生什么事情，你都能尽可能地维护这个家庭。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"No matter what happens, do your best to protect this family."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s5-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「传话、捕风捉影这种事情最要不得；如果我要知道的话，就只能请你离开了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Gossip and baseless rumors are the last thing we need. If I find out, I'll have to ask you to leave."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s5-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s6">
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time">15:52–21:43</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s6.jpg" alt="深夜提醒·鱼扔进沙漠" loading="lazy">
+      <h2>深夜提醒·鱼扔进沙漠</h2>
+      <div class="scene-body">
+        <p>唐晶深夜来电：凌玲你才见几次面就掏心掏肺？看起来无害的女人才最危险——而且凌玲已经和老公离婚了。子君仍不服；旁白写她以为固若金汤的婚姻竟如此不堪一击。</p>
+<p>洛洛追问卓渐清喜欢什么样的人，卓渐清直言「我不喜欢你这样的」。子君夜里逼俊生比手、追问加凌玲微信；俊生发誓没爱上别人。旁白：怕平儿成为单亲孩子——「好比你把一条鱼扔进沙漠……这个家就是我的角斗场」。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「看起来无害的女人，才是最危险的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"The woman who looks harmless is the most dangerous of all."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s6-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「必须得告诉你：凌玲和她老公离婚了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I have to tell you: Ling Ling has divorced her husband."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s6-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「好比你把一条鱼扔进沙漠——这个家就是我的角斗场。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"It's like throwing a fish into the desert—this home is my arena."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s6-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s7">
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time">22:53–27:34</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s7.jpg" alt="唐晶摊牌·黄脸婆不信" loading="lazy">
+      <h2>唐晶摊牌·黄脸婆不信</h2>
+      <div class="scene-body">
+        <p>子君给唐晶送健康汤，唐晶说出贺涵买了新房、辞职邀同住。子君一边祝福「条件不错」，一边厌恶贺涵。谈及夫妻互相等待，子君说那是一天最幸福的三小时；唐晶泼冷水：俊生未必这么想，发誓也不可信。</p>
+<p>唐晶终于点名：我看到他们俩在一块儿了——一起上班、一起提案。子君炸了：「你说谁我都会相信，唯独这个凌玲我就不信。面孔黄渣渣的一个黄脸婆，俊生干嘛要喜欢？」唐晶劝她去辰星门口等真相，别等家被一锅端才后悔。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「贺涵买了一个新房子，让我搬过去跟他一起住；为了避免落人口舌，他从 B&amp;T 辞职了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"He Han bought a new place and asked me to move in. To avoid gossip, he resigned from B&amp;T."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s7-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「你说谁我都会相信，唯独这个凌玲我就不信——面孔都黄渣渣的一个黄脸婆。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I'd believe you about anyone—except Ling Ling. That sallow-faced old frump?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s7-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我看到他们俩在一块儿了。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I saw the two of them together."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s7-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s8">
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time">28:02–30:25</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s8.jpg" alt="孔雀男对骂·预期雷达" loading="lazy">
+      <h2>孔雀男对骂·预期雷达</h2>
+      <div class="scene-body">
+        <p>贺涵来接唐晶打球，撞见闺蜜互损。子君把贺涵骂成做作环保、土豪金都不如；贺涵回敬「云家妒妇」，讽她全家二十四小时监控。</p>
+<p>车上唐晶气结：告诉子君小三是凌玲，她不信——预期只对青春美少女报警。贺涵更损：对这种不求上进的女人该放任吃苦，「否则她今年明年十年后跟你聊的都不会有区别：老公孩子斗小三」。唐晶问自己为何跟子君要好。</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「他的小雷达可能只有在碰到那种青春美少女的时候才会报警。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Her little radar probably only goes off when it hits a young, pretty girl."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s8-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「只要是跟他不一样的，万般皆有可能。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Anything different from her is possible—every last thing."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s8-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「否则她今年跟你聊的、明年跟你聊的，甚至十年以后跟你聊的，都不会有什么区别。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Otherwise what she chats with you about this year, next year, even ten years on, will never change."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s8-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s9">
+      <div class="scene-topline">
+        <div><span class="scene-id">S9</span><span class="time">30:51–35:33</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s9.jpg" alt="交易还是感情" loading="lazy">
+      <h2>交易还是感情</h2>
+      <div class="scene-body">
+        <p>唐晶想好了答案：跟子君要好，是因为她心地纯良，不像圈子里口蜜腹剑——这边说为她辞职，那边已着手挖客户。贺涵承认约 Adam 喝酒、试探客户带走能力，甚至说可能是烟雾弹让后院起火。</p>
+<p>唐晶问：你和我呢，也是交易吗？贺涵说怎么可能是交易，却又辩称门当户对也是等价交换。辞职交换的是更健康的关系——「不过离职之后跟公司谈更高分成失败了。」唐晶：「这就对了。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「是因为罗子君心地纯良，不像我们圈子里的人各个口蜜腹剑。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"Because Luo Zijun is genuinely kind—unlike people in our circle, all honey-mouthed and dagger-hearted."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s9-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我们是来赚钱的，不是来效忠的。这天底下的一切，不都是交易吗？」</div>
+      <div class="quote-row">
+        <div class="quote-en">"We're here to make money, not swear loyalty. Isn't everything under the sun a transaction?"</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s9-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「离职之后我跟公司谈了更高的分成比例，但是公司不同意——交易失败。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"After leaving I negotiated a higher cut; the firm refused—deal failed."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s9-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card scene-card" id="s10">
+      <div class="scene-topline">
+        <div><span class="scene-id">S10</span><span class="time">35:39–42:43</span></div>
+      </div>
+      <img class="scene-frame" src="images/wo-de-qian-ban-sheng-e03/s10.jpg" alt="辰星闹场·项链乌龙" loading="lazy">
+      <h2>辰星闹场·项链乌龙</h2>
+      <div class="scene-body">
+        <p>周一子君冲到辰星：心里坦忑却嘴硬，专挑俊生开会时来找。她认错人，把项链安在 Sandra 头上，当众要问个明白；唐晶劝她别在这么多人面前难看。</p>
+<p>Sandra 澄清项链是客户的、镶钻更贵；反讥不明白师傅为何娶「您这样没有教养的女人」。子君回击：到了她的年纪就会知道，相比婚姻家庭，教养不值一提。夜里凌玲改口：「我改变主意了，我想把你还给罗子君。」</p>
+      </div>
+      <div class="quotes">
+        <p class="quotes-title">关键台词 · KEY QUOTES</p>
+        <ul>
+          <li class="quote-item">
+      <div class="quote-zh">「虽然我在唐晶面前装得嘴硬，但其实心里还是忐忑不安的。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I put on a tough front with Tang Jing, but inside I was still uneasy."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s10-01.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我不明白他为什么会娶一个您这样没有教养的女人回家。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I don't understand why he would marry an uncultured woman like you."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s10-02.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+<li class="quote-item">
+      <div class="quote-zh">「我改变主意了。我想把你还给罗子君。」</div>
+      <div class="quote-row">
+        <div class="quote-en">"I've changed my mind. I want to give you back to Luo Zijun."</div>
+        <button class="speak-btn compact" type="button" data-audio="audio/wo-de-qian-ban-sheng-e03/s10-03.mp3" aria-label="朗读本句">
+          <span aria-hidden="true">▶</span><span>朗读</span>
+        </button>
+      </div>
+    </li>
+        </ul>
+      </div>
+    </section>
+      </section>
+
+      <section class="study-section" id="cast">
+        <h2 class="section-heading">登场人物 <small>CAST</small></h2>
+        <div class="study-grid">
+        <article>
+          <div class="cast-name"><h3>罗子君</h3><span>全职太太（马伊琍 饰）</span></div>
+          <p>听闻凌玲仍不信「黄脸婆」；冲辰星闹项链乌龙。预期雷达失灵，危机感却在上涨。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>唐晶</h3><span>闺蜜 · B&amp;T（袁泉 饰）</span></div>
+          <p>面对新房与辞职动摇；深夜提醒并当面摊牌。护友与疑贺涵并行。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>贺涵</h3><span>唐晶男友（靳东 饰）</span></div>
+          <p>辞职装修邀同住；与唐晶辩论交易与客户。嘴上为关系，私下也在算分成。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>陈俊生</h3><span>子君丈夫（雷佳音 饰）</span></div>
+          <p>陪孩子、封亚琴口、拒把责任推给凌玲。摇摆在坦白与拖延之间。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>凌玲</h3><span>第三者（吴越 饰）</span></div>
+          <p>严管佳清功课；愿揽责；结尾改口要把俊生还给子君——以退为进的信号。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>亚琴</h3><span>保姆（茹天 饰）</span></div>
+          <p>撞见端倪，被加薪五百换沉默。本集知情链条上的关键一环。</p>
+        </article>
+
+        <article>
+          <div class="cast-name"><h3>平儿 / 冷佳清</h3><span>两个男孩（魏之皓 / 王天泽 饰）</span></div>
+          <p>平儿听美人鱼；佳清刷错题卷。两个家用不同方式「做功课」。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="highlights">
+        <h2 class="section-heading">关键看点 <small>HIGHLIGHTS</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>智能门锁的求婚</h3>
+          <p>「有家欢迎主人回家」——贺涵用一年装修和一纸辞职，把同居邀约摆上桌。</p>
+        </article>
+
+        <article>
+          <h3>不谈婚姻的干杯</h3>
+          <p>说好不谈未来、不谈婚姻，却把房子钥匙交到对方面前。承诺与逃避并存。</p>
+        </article>
+
+        <article>
+          <h3>加薪五百封口</h3>
+          <p>亚琴扔垃圾撞破秘密，俊生用钱与威胁买沉默——家庭危机的黑色一笔。</p>
+        </article>
+
+        <article>
+          <h3>黄脸婆不信</h3>
+          <p>唐晶亲眼所见仍敌不过刻板印象。子君的偏见，成了本集最大戏剧反讽。</p>
+        </article>
+
+        <article>
+          <h3>交易失败</h3>
+          <p>贺涵承认离职分成谈崩。「为了你辞职」的浪漫话术，露出算计的底色。</p>
+        </article>
+
+        <article>
+          <h3>项链乌龙</h3>
+          <p>子君在辰星当众撕错人，被实习生反怼没有教养——恐慌让她失去准星。</p>
+        </article>
+        </div>
+      </section>
+
+      <section class="study-section" id="foreshadows">
+        <h2 class="section-heading">伏笔悬念 <small>FORESHADOWING</small></h2>
+        <div class="study-grid">
+        <article>
+          <h3>凌玲想还人</h3>
+          <p>「我想把你还给罗子君」是真心退场，还是以退为进？下一集离婚戏将揭晓。</p>
+        </article>
+
+        <article>
+          <h3>亚琴知道了</h3>
+          <p>被封口的保姆会否成为泄密点？沉默能买多久？</p>
+        </article>
+
+        <article>
+          <h3>唐晶与贺涵的裂痕</h3>
+          <p>客户、分成、交易论——两人事业与感情的双重博弈刚升温。</p>
+        </article>
+
+        <article>
+          <h3>子君的雷达失灵</h3>
+          <p>只防美少女、不防熟女。偏见不拆掉，真相会以更痛的方式上门。</p>
+        </article>
+
+        <article>
+          <h3>同住邀请未决</h3>
+          <p>唐晶没答应搬进去。辞职已成事实，这段关系要往婚姻走，还是继续悬浮？</p>
+        </article>
+        </div>
+      </section>
+
+      <footer>本页剧情描述基于第 3 集语音转录整理 · ASR 专有名词已按语境校正 · 台词为引用转述，细节以正片为准 · 台词朗读使用 edge-tts 神经网络语音，单词发音使用浏览器 Web Speech API</footer>
+    </div>
+  </main>
+  <script>
+  (() => {
+    let activeAudio = null;
+    let activeBtn = null;
+    const status = document.getElementById('speech-status');
+    const stopBtn = document.getElementById('stop-speech');
+    const rateSel = document.getElementById('speech-rate');
+
+    const reset = () => {
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = null;
+      stopBtn.classList.remove('visible');
+      status.textContent = '';
+    };
+
+    const playAudio = (url, btn) => {
+      reset();
+      const audio = new Audio(url);
+      audio.playbackRate = Number(rateSel.value);
+      activeAudio = audio;
+      activeBtn = btn;
+      btn.classList.add('playing');
+      stopBtn.classList.add('visible');
+      status.textContent = '正在朗读…';
+      audio.onended = () => { if (activeAudio === audio) reset(); };
+      audio.onerror = () => {
+        status.textContent = '音频加载失败，请检查网络。';
+        if (activeAudio === audio) reset();
+      };
+      audio.play().catch(() => {
+        status.textContent = '播放失败，请检查浏览器音频设置。';
+        if (activeAudio === audio) reset();
+      });
+    };
+
+    document.addEventListener('click', e => {
+      const btn = e.target.closest('[data-audio]');
+      if (!btn) return;
+      e.preventDefault();
+      if (btn === activeBtn && activeAudio) { reset(); return; }
+      playAudio(btn.dataset.audio, btn);
+    });
+
+    stopBtn.addEventListener('click', reset);
+
+    const synth = window.speechSynthesis;
+    const getEnglishVoice = () => {
+      const voices = synth.getVoices();
+      return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+          || voices.find(v => /^en/i.test(v.lang)) || null;
+    };
+
+    const shouldPronounce = word => {
+      const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+      return n.replace(/[^a-z]/g, '').length >= 8;
+    };
+
+    const markPronounceableWords = root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(node => {
+        if (node.parentElement?.closest('button, script, style')) return;
+        const text = node.nodeValue;
+        let m, last = 0, changed = false;
+        const frag = document.createDocumentFragment();
+        const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+        while ((m = re.exec(text))) {
+          if (!shouldPronounce(m[0])) continue;
+          changed = true;
+          frag.append(text.slice(last, m.index));
+          const wb = document.createElement('button');
+          wb.type = 'button'; wb.className = 'pronounce-word';
+          wb.dataset.speak = m[0];
+          wb.setAttribute('aria-label', '朗读单词 ' + m[0]);
+          wb.title = '点击听 ' + m[0] + ' 发音';
+          wb.textContent = m[0];
+          frag.append(wb);
+          last = m.index + m[0].length;
+        }
+        if (!changed) return;
+        frag.append(text.slice(last));
+        node.replaceWith(frag);
+      });
+    };
+
+    document.querySelectorAll('.quote-en').forEach(markPronounceableWords);
+
+    document.addEventListener('click', e => {
+      const wb = e.target.closest('.pronounce-word');
+      if (!wb) return;
+      e.preventDefault();
+      if (!synth) return;
+      synth.cancel();
+      if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+      activeBtn?.classList.remove('playing');
+      activeBtn = wb;
+      wb.classList.add('playing');
+      const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+      u.lang = 'en-US';
+      u.rate = 0.88;
+      const v = getEnglishVoice();
+      if (v) u.voice = v;
+      u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+      synth.speak(u);
+    });
+  })();
+  </script>
+</body>
+</html>
