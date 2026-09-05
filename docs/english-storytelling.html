@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文讲故事专题 · 从台词挖生活叙事</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .hero {
+    position: relative;
+    padding: 56px 24px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: 50%;
+    width: 920px; height: 920px;
+    background: radial-gradient(circle, rgba(52,211,153,0.10) 0%, rgba(96,165,250,0.07) 38%, transparent 70%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--green); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+    background: linear-gradient(135deg, #34d399 0%, #60a5fa 45%, #a78bfa 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 700px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(52,211,153,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none;
+    border-left: 2px solid transparent; transition: background 0.2s, color 0.2s;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-green); color: var(--green); border-left-color: var(--green); font-weight: 600;
+  }
+  .sidebar .side-sub {
+    font-size: 12px; color: var(--text-muted); padding: 10px 10px 2px; font-weight: 600; letter-spacing: 0.05em;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--green);
+    background: var(--tag-green); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 21px; font-weight: 800; letter-spacing: -0.01em; }
+  .section-tag {
+    font-size: 13px; color: var(--accent); background: var(--tag-blue);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 10px; font-size: 14px; color: var(--text-secondary); }
+
+  .arc {
+    display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px;
+    padding: 6px 22px 22px;
+  }
+  .arc-step {
+    border: 1px solid var(--border); border-radius: 12px; padding: 12px 10px;
+    background: var(--surface-2); text-align: center; position: relative;
+  }
+  .arc-step::after {
+    content: '→'; position: absolute; right: -10px; top: 50%; transform: translateY(-50%);
+    color: var(--text-muted); font-size: 12px; z-index: 1;
+  }
+  .arc-step:last-child::after { content: ''; }
+  .arc-n { font-size: 11px; font-weight: 800; color: var(--green); letter-spacing: 0.08em; }
+  .arc-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 13px; font-weight: 700; color: #a7f3d0; margin: 6px 0 4px; line-height: 1.35;
+  }
+  .arc-zh { font-size: 12px; color: var(--text-muted); }
+
+  .formula {
+    margin: 4px 22px 16px;
+    border: 1px solid rgba(52,211,153,0.28);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(52,211,153,0.08), rgba(96,165,250,0.08));
+    padding: 16px 18px;
+  }
+  .formula-label {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--green); margin-bottom: 8px;
+  }
+  .formula-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15.5px; font-weight: 700; color: #d1fae5; line-height: 1.55;
+  }
+  .formula-zh { font-size: 13px; color: var(--text-secondary); margin-top: 8px; }
+
+  .frame-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .frame-table th {
+    text-align: left; padding: 10px 22px; font-size: 12px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid var(--border); background: var(--surface-2);
+  }
+  .frame-table td { padding: 11px 22px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .frame-table tr:hover td { background: var(--card-hover); }
+  .zh-cell { color: var(--text); font-weight: 600; width: 28%; }
+  .en-cell {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #bfdbfe; font-size: 14.5px;
+  }
+  .en-cell i { color: var(--accent3); font-style: italic; }
+  .use-cell { color: var(--text-muted); font-size: 13px; width: 28%; }
+
+  .vocab-strip {
+    display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 22px 14px;
+  }
+  .vchip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 12px;
+    font-size: 13px; background: var(--surface-2); color: #c4b5fd;
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+  }
+  .vchip b { color: var(--text-secondary); font-weight: 500; margin-left: 6px; font-family: "PingFang SC", sans-serif; font-size: 12px; }
+
+  .examples { padding: 2px 22px 16px; }
+  .examples-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); margin: 8px 0 10px;
+  }
+  .example {
+    border: 1px solid var(--border); border-radius: 12px; padding: 13px 16px;
+    margin-bottom: 10px; background: var(--surface-2);
+  }
+  .example .en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15px; color: #e0e7ff; line-height: 1.65;
+  }
+  .example .zh { font-size: 13px; color: var(--text-secondary); margin-top: 5px; }
+  .example .ctx { font-size: 12.5px; color: var(--text-muted); margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); }
+  .frame-hit {
+    display: inline-block; font-size: 11px; font-weight: 600; color: var(--green);
+    background: var(--tag-green); border-radius: 6px; padding: 1px 7px; margin-right: 6px; vertical-align: 1px;
+  }
+  .logic-tag {
+    display: inline-block; font-size: 11px; font-weight: 600; color: var(--orange);
+    background: var(--tag-orange); border-radius: 6px; padding: 1px 7px; margin-right: 6px;
+  }
+
+  .tip {
+    margin: 0 22px 20px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+
+  .logic-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 4px 22px 20px;
+  }
+  .logic-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: var(--surface-2);
+  }
+  .logic-card h3 { font-size: 14px; font-weight: 800; color: #a7f3d0; margin-bottom: 6px; }
+  .logic-card p { font-size: 13px; color: var(--text-secondary); }
+  .logic-card code {
+    font-family: "SF Pro", "Segoe UI", monospace; font-size: 12.5px; color: #bfdbfe;
+    background: rgba(96,165,250,0.12); padding: 1px 6px; border-radius: 4px;
+  }
+
+  .practice {
+    margin: 4px 22px 22px; border: 1px dashed rgba(167,139,250,0.4); border-radius: 14px;
+    padding: 18px; background: rgba(167,139,250,0.06);
+  }
+  .practice h3 { font-size: 15px; font-weight: 800; color: #ddd6fe; margin-bottom: 10px; }
+  .practice ol { padding-left: 20px; color: var(--text-secondary); font-size: 14px; }
+  .practice li { margin-bottom: 8px; }
+  .practice .blank {
+    display: inline-block; min-width: 80px; border-bottom: 1px dashed var(--accent2);
+    color: var(--accent2); font-family: "SF Pro", "Segoe UI", sans-serif; font-weight: 600;
+  }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 960px) {
+    .arc { grid-template-columns: repeat(4, 1fr); }
+    .arc-step::after { display: none; }
+  }
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .logic-grid { grid-template-columns: 1fr; }
+    .arc { grid-template-columns: repeat(2, 1fr); }
+    .frame-table .use-cell { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Life Storytelling</div>
+    <h1>英文讲故事专题</h1>
+    <p class="hero-sub">从剧集台词里挖「讲生活故事」的场景：七段叙事逻辑、可套用句型、决定表达力的关键词——外教问 <i>Tell me about a time when…</i> 时，不再东一句西一句。</p>
+    <div class="hero-meta">
+      <span class="chip">🧭 叙事节拍 <b>7 段</b></span>
+      <span class="chip">🧩 句型框架 <b>30+</b></span>
+      <span class="chip">🔑 关键词 <b>按功能分组</b></span>
+      <span class="chip">🎬 语料 <b>同源台词</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-phrases.html">话术手册</a>
+      <a href="english-vocab.html">高频词手册</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索：I remember / 转折 / 回望 / used to / all along…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#discovery">核心发现</a>
+    <a href="#arc">七段逻辑总图</a>
+    <div class="side-sub">叙事节拍</div>
+    <a href="#beat-1">① 定锚</a>
+    <a href="#beat-2">② 常态</a>
+    <a href="#beat-3">③ 触发</a>
+    <a href="#beat-4">④ 经过</a>
+    <a href="#beat-5">⑤ 转折</a>
+    <a href="#beat-6">⑥ 结果</a>
+    <a href="#beat-7">⑦ 回望</a>
+    <div class="side-sub">提升表达</div>
+    <a href="#logic">整体逻辑关系</a>
+    <a href="#keywords">影响表达的关键词</a>
+    <a href="#practice">外教练习模板</a>
+  </nav>
+
+  <main>
+
+    <!-- discovery -->
+    <section id="discovery" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">核心</span>
+        <h2>核心发现</h2>
+      </div>
+      <div class="section-desc">
+        <p>讲生活故事，难点通常不是「单词不够」，而是<strong style="color:var(--text)">没有时间轴</strong>。母语者听一段故事，脑子里在等这 7 个节拍：何时何地 → 以前怎样 → 突然怎样 → 然后怎样 → 没想到怎样 → 最后怎样 → 现在怎么看。</p>
+        <p style="margin-top:8px">语料里精彩的「回忆口述」几乎都踩齐这几拍。你只需按节拍填空，故事自然立住。</p>
+      </div>
+      <div class="formula">
+        <div class="formula-label">一句话总公式</div>
+        <div class="formula-en">Back then… I used to… Until one day… Then… But I never expected… In the end… Looking back…</div>
+        <div class="formula-zh">当年… 我以前总是… 直到有一天… 然后… 但我完全没想到… 到最后… 现在回头看…</div>
+      </div>
+    </section>
+
+    <!-- arc overview -->
+    <section id="arc" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">总图</span>
+        <h2>七段叙事逻辑</h2>
+        <span class="section-tag">先背这个顺序</span>
+      </div>
+      <div class="section-desc">外教聊天讲经历，不必 7 段全说满——但心里要有地图。最短可用版：定锚 → 转折 → 回望（3 句搞定）。</div>
+      <div class="arc">
+        <div class="arc-step"><div class="arc-n">01</div><div class="arc-en">Anchor</div><div class="arc-zh">定锚·何时何地</div></div>
+        <div class="arc-step"><div class="arc-n">02</div><div class="arc-en">Baseline</div><div class="arc-zh">常态·以前怎样</div></div>
+        <div class="arc-step"><div class="arc-n">03</div><div class="arc-en">Trigger</div><div class="arc-zh">触发·出事那刻</div></div>
+        <div class="arc-step"><div class="arc-n">04</div><div class="arc-en">Unfold</div><div class="arc-zh">经过·然后怎样</div></div>
+        <div class="arc-step"><div class="arc-n">05</div><div class="arc-en">Twist</div><div class="arc-zh">转折·没想到</div></div>
+        <div class="arc-step"><div class="arc-n">06</div><div class="arc-en">Outcome</div><div class="arc-zh">结果·到最后</div></div>
+        <div class="arc-step"><div class="arc-n">07</div><div class="arc-en">Reflect</div><div class="arc-zh">回望·意义</div></div>
+      </div>
+      <div class="tip">💡 <b>最短三句版</b>：<i>Back then…</i> → <i>But what I never expected was…</i> → <i>Looking back, …</i>。听起来已经像在「讲故事」，而不是报流水账。</div>
+    </section>
+
+    <!-- beat 1 -->
+    <section id="beat-1" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>定锚 · Anchor</h2>
+        <span class="section-tag">把听众拉进那个时空</span>
+      </div>
+      <div class="section-desc">先钉死「什么时候 / 什么场合」。没有定锚，后面再精彩也会飘。逻辑关系：<b style="color:var(--text)">时空定位 → 后续事件才有落点</b>。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我记得…</td><td class="en-cell">I remember <i>X</i>… / I still remember…</td><td class="use-cell">用记忆开门</td></tr>
+          <tr><td class="zh-cell">那天 / 那天晚上…</td><td class="en-cell">That day… / That night…</td><td class="use-cell">钉死具体时刻</td></tr>
+          <tr><td class="zh-cell">X 年前 / 当年…</td><td class="en-cell"><i>Two</i> years ago… / Back then…</td><td class="use-cell">拉开时间距离</td></tr>
+          <tr><td class="zh-cell">当时我…</td><td class="en-cell">At the time, I… / I was <i>young</i> then…</td><td class="use-cell">交代人物状态</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">remember <b>记得</b></span>
+        <span class="vchip">back then <b>当年</b></span>
+        <span class="vchip">that day <b>那天</b></span>
+        <span class="vchip">years ago <b>多年前</b></span>
+        <span class="vchip">at the time <b>当时</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I remember</span>"I remember the day he left—he was in a bad mood. He crawled under the bed, took something out, tucked it into his coat and walked out."</div>
+          <div class="zh">「我记得他走的那天，情绪不太好。他钻进床底下，拿了个东西，揣在怀里就往外走。」</div>
+          <div class="ctx">🎬 猎罪图鉴 第10集 · 用「I remember + that day」把听众直接拽进现场；后面动作链（crawled / took / walked）是经过段的预演。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">that night</span>"January 26, 1993 — the fourth day of the new year. That night I didn't welcome the god of wealth… never imagining that Zhizhenyuan would become my fate."</div>
+          <div class="zh">「一九九三年一月二十六日，农历大年初四。这个晚上我没有去迎财神……却没想到，从天而降的至真园，会是我的劫数。」</div>
+          <div class="ctx">🎬 繁花 第2集 · 日期定锚 + that night + never imagining（提前埋转折）——成熟叙事常在定锚里就暗示「后面有意外」。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- beat 2 -->
+    <section id="beat-2" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>常态 · Baseline</h2>
+        <span class="section-tag">对比的「以前」</span>
+      </div>
+      <div class="section-desc">先说「原来怎样」，后面的变化才有冲击力。逻辑关系：<b style="color:var(--text)">常态 = 对照基准</b>；没有基准，转折听起来像突然跳戏。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我以前总是…</td><td class="en-cell">I used to <i>think / do</i>…</td><td class="use-cell">习惯态 / 旧认知</td></tr>
+          <tr><td class="zh-cell">那时候我们…</td><td class="en-cell">In those days, we… / We were…</td><td class="use-cell">群体常态</td></tr>
+          <tr><td class="zh-cell">过去…，现在…</td><td class="en-cell">In the past… Now…</td><td class="use-cell">古今对照</td></tr>
+          <tr><td class="zh-cell">我一直以为…</td><td class="en-cell">I always thought… / I used to believe…</td><td class="use-cell">为「打脸」铺垫</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">used to <b>过去常常</b></span>
+        <span class="vchip">always <b>一直</b></span>
+        <span class="vchip">in the past <b>过去</b></span>
+        <span class="vchip">those days <b>那些日子</b></span>
+        <span class="vchip">believe / think <b>以为</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">used to</span>"I used to think becoming somebody was like climbing a mountain, step by step. Then I found that once you catch an opportunity, your income multiplies."</div>
+          <div class="zh">「以前觉得要做个人上人，就像爬山一样，一步一步慢慢地往上跑。后来发现，你一旦有机会之后，你的工资是翻倍成长的。」</div>
+          <div class="ctx">🎬 爱情没有神话 第33集 · <span class="logic-tag">常态→发现</span>used to think → Then I found：经典「旧认知被现实改写」结构。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">used to → now</span>"That bullet left me my life. But my teeth… they used to open beer bottles. Now I can't even chew roast chicken."</div>
+          <div class="zh">「那颗子弹还给我留了一条命。但是我这口牙呀……以前都能咬开酒瓶盖，现在啃个烧鸡都费劲。」</div>
+          <div class="ctx">🎬 猎罪图鉴 第9集 · used to / now 对仗，一句话完成「受伤前后」对比——生活故事里的高性价比句型。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- beat 3 -->
+    <section id="beat-3" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>触发 · Trigger</h2>
+        <span class="section-tag">故事真正开始的那一下</span>
+      </div>
+      <div class="section-desc">常态讲完，要有一个「打破」：某天、直到、突然。逻辑关系：<b style="color:var(--text)">触发 = 因果链的起点</b>。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">有一天…</td><td class="en-cell">One day… / One night…</td><td class="use-cell">通用触发</td></tr>
+          <tr><td class="zh-cell">直到…</td><td class="en-cell">Until… / Until one day…</td><td class="use-cell">常态被打断</td></tr>
+          <tr><td class="zh-cell">突然…</td><td class="en-cell">Suddenly… / All of a sudden…</td><td class="use-cell">意外感</td></tr>
+          <tr><td class="zh-cell">就在那时…</td><td class="en-cell">That's when… / Right then…</td><td class="use-cell">转折瞬间</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">one day <b>有一天</b></span>
+        <span class="vchip">until <b>直到</b></span>
+        <span class="vchip">suddenly <b>突然</b></span>
+        <span class="vchip">that's when <b>就在那时</b></span>
+        <span class="vchip">happen <b>发生</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">one day</span>"I've been waiting for this day my whole life… I hoped that one day I could stand right here and point out his crimes myself."</div>
+          <div class="zh">「我这一辈子，就在等这一天……我就是希望能有一天，站在这儿，亲手指出他犯的罪。」</div>
+          <div class="ctx">🎬 玫瑰的故事 第34集 · one day 也可以指向「终于等到的那天」——触发不一定是坏事，也可以是蓄谋已久的兑现。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">until → suddenly</span>"He went to the registry office with his fiancée, and just as the stamp was about to come down, he suddenly came to his senses and called it off on the spot."</div>
+          <div class="zh">「跟媳妇去民政局登记，眼看就要盖章了，突然清醒过来，当场悔婚。」</div>
+          <div class="ctx">🎬 玫瑰的故事 第28集 · just as… suddenly… 把触发钉在「差一点点」的临界点，戏剧张力立刻上来。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- beat 4 -->
+    <section id="beat-4" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>经过 · Unfold</h2>
+        <span class="section-tag">把过程讲清楚</span>
+      </div>
+      <div class="section-desc">触发之后用动作链推进：先…再…然后…。逻辑关系：<b style="color:var(--text)">顺序连接，让听众能「看见」过程</b>。别堆形容词，用动词。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">然后…</td><td class="en-cell">Then… / And then…</td><td class="use-cell">最常用推进</td></tr>
+          <tr><td class="zh-cell">所以我就…</td><td class="en-cell">So I… / That's why I…</td><td class="use-cell">行动动机</td></tr>
+          <tr><td class="zh-cell">先…再…</td><td class="en-cell">First… then… / After that…</td><td class="use-cell">步骤清晰</td></tr>
+          <tr><td class="zh-cell">我当时…</td><td class="en-cell">I was <i>helpless / scared</i>… It was <i>X</i> who…</td><td class="use-cell">感受 + 关键人物</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">then <b>然后</b></span>
+        <span class="vchip">so <b>所以</b></span>
+        <span class="vchip">after that <b>之后</b></span>
+        <span class="vchip">finally scraped into <b>好不容易混进</b></span>
+        <span class="vchip">helpless <b>无助</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">动作链</span>"I've never been good at anything since I was small. I finally scraped into the provincial archery team on a sliver of talent, then injured my arm before a big match, never made the national team, retired early—and still don't have a job."</div>
+          <div class="zh">「我从小就干啥啥不行。好不容易有点小天赋混入了省射箭队，重要比赛之前胳膊扭伤了，没有进国家队，提前退役……连个工作都没有。」</div>
+          <div class="ctx">🎬 闪耀的她 第3集 · 一长串 then / and 把人生挫折串成时间线——讲失败经历的范本：短动词 + 顺序词，不煽情也有力量。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">感受→他人介入</span>"I was young then, and afraid of being laughed at. I was helpless—I wanted to die. It was Mu Wei who saved me. He asked me to have the baby… I felt I had someone to lean on, so I married him."</div>
+          <div class="zh">「我当时年纪小，怕别人笑我。我当时很无助，想过去死。是沐伟救了我……我觉得有了依靠，就嫁给他了。」</div>
+          <div class="ctx">🎬 猎罪图鉴 第10集 · <span class="logic-tag">感受→行动→决定</span>It was X who… 突出关键人物；so I married him 收束因果。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- beat 5 -->
+    <section id="beat-5" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>转折 · Twist</h2>
+        <span class="section-tag">故事最值钱的一句</span>
+      </div>
+      <div class="section-desc">「没想到」是生活故事的高潮。逻辑关系：<b style="color:var(--text)">预期 vs 现实</b>——先亮预期，再砸现实。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我没想到…</td><td class="en-cell">I never expected… / What I never expected was…</td><td class="use-cell">最强转折</td></tr>
+          <tr><td class="zh-cell">我以为…其实…</td><td class="en-cell">I thought… but… / I used to think… turns out…</td><td class="use-cell">认知翻转</td></tr>
+          <tr><td class="zh-cell">原来一直…</td><td class="en-cell">…all along. / It was <i>X</i> all along.</td><td class="use-cell">真相揭晓</td></tr>
+          <tr><td class="zh-cell">谁能想到…</td><td class="en-cell">Who would have thought…?</td><td class="use-cell">加强意外感</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">never expected <b>没想到</b></span>
+        <span class="vchip">turns out <b>原来是</b></span>
+        <span class="vchip">all along <b>一直（原来）</b></span>
+        <span class="vchip">but <b>但是</b></span>
+        <span class="vchip">instead <b>反而</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">never expected</span>"I never liked you much, but I trusted you to shelter me. What I never expected was that you were the storm itself."</div>
+          <div class="zh">「我一开始就不太喜欢你，但是我看好你可以为我遮风挡雨。但我没想到的是，其实风雨本来就是你带来的。」</div>
+          <div class="ctx">🎬 爱情没有神话 第35集 · 双层结构：先让步（but I trusted）→ 再重锤（What I never expected was）。隐喻 shelter / storm 让转折更锋利。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I never… But what I never…</span>"I never imagined I'd rise to the top so fast. But what I never expected was that I still wouldn't get the recognition I wanted."</div>
+          <div class="zh">「我从来没有想到，我这么快就能升到作者榜首。但我更没想到的是，我还是得不到我想要的重视。」</div>
+          <div class="ctx">🎬 爱情没有神话 第28集 · 「没想到 A，更没想到 B」——生活故事里表达「双重打脸」的标准句型。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教场景</b>：讲完经过后，故意停半拍，再说 <b>But what I never expected was…</b>——听众会自动前倾。这是整段故事的「钩子」。</div>
+    </section>
+
+    <!-- beat 6 -->
+    <section id="beat-6" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>结果 · Outcome</h2>
+        <span class="section-tag">故事落到哪儿</span>
+      </div>
+      <div class="section-desc">给听众一个「收束点」：结束了、变成了、从此以后。逻辑关系：<b style="color:var(--text)">结果闭合因果链</b>，否则故事像悬空。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">到最后…</td><td class="en-cell">In the end… / Eventually…</td><td class="use-cell">结局收束</td></tr>
+          <tr><td class="zh-cell">终于…</td><td class="en-cell">Finally… / We finally…</td><td class="use-cell">久等后的兑现</td></tr>
+          <tr><td class="zh-cell">从此…</td><td class="en-cell">Ever since… / From then on…</td><td class="use-cell">持续影响</td></tr>
+          <tr><td class="zh-cell">结果是…</td><td class="en-cell">It ended up… / So it turned out that…</td><td class="use-cell">客观结果</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">in the end <b>到最后</b></span>
+        <span class="vchip">finally <b>终于</b></span>
+        <span class="vchip">ever since <b>从此</b></span>
+        <span class="vchip">from then on <b>从那以后</b></span>
+        <span class="vchip">end up <b>结果变成</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">ever since</span>"Three months ago I got caught in the rain outside your door. I was perfectly fine, and I've had pneumonia ever since—never quite recovered."</div>
+          <div class="zh">「三个月前在你们门口淋了场雨，那么好端端，得了肺炎，到现在还没好透。」</div>
+          <div class="ctx">🎬 繁花 第18集 · 触发（淋雨）→ 结果（ever since）压缩成两句——短故事也完整。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">from then on</span>"That man took five hundred thousand from us. Six months later that finger was worth millions, and he's been riding high ever since."</div>
+          <div class="zh">「那个叫阿宝的人带着五十万分走了一个小指头。半年后变成了几百万，从此在黄河路一路风生水起。」</div>
+          <div class="ctx">🎬 繁花 第24集 · 数字对比 + ever since，结果段自带「人生走向」感。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- beat 7 -->
+    <section id="beat-7" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2>回望 · Reflect</h2>
+        <span class="section-tag">故事的「所以呢」</span>
+      </div>
+      <div class="section-desc">外教最爱听这一拍：你现在怎么看这件事。逻辑关系：<b style="color:var(--text)">过去事件 → 当下意义</b>。没有回望，故事只是八卦；有了回望，才是「生活故事」。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文意图</th><th>英文句型</th><th class="use-cell">作用</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">现在回头看…</td><td class="en-cell">Looking back… / Looking back now…</td><td class="use-cell">拉开视角</td></tr>
+          <tr><td class="zh-cell">我要是当时…</td><td class="en-cell">If I had known… / I wish I had…</td><td class="use-cell">后悔 / 假设</td></tr>
+          <tr><td class="zh-cell">我早该…</td><td class="en-cell">I should have…</td><td class="use-cell">事后觉悟</td></tr>
+          <tr><td class="zh-cell">这就是为什么…</td><td class="en-cell">That's why… / That's when I realized…</td><td class="use-cell">提炼教训</td></tr>
+        </tbody>
+      </table>
+      <div class="vocab-strip">
+        <span class="vchip">looking back <b>回头看</b></span>
+        <span class="vchip">I wish I had <b>真希望当时</b></span>
+        <span class="vchip">should have <b>早该</b></span>
+        <span class="vchip">realize <b>意识到</b></span>
+        <span class="vchip">that's why <b>所以</b></span>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">looking back</span>"See—like when we were little and couldn't walk. Looking back now, isn't it easy?"</div>
+          <div class="zh">「你看，就跟咱们小的时候不会走路一样，现在回头看，是不是觉得好容易啊？」</div>
+          <div class="ctx">🎬 小夫妻 第19集 · Looking back now 把困难「降维」——鼓励、复盘、安慰场景都能用。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I wish I had</span>"I wish I'd known you back then… I'd pretend to come along and tell her: Auntie, don't worry, I'll protect her forever."</div>
+          <div class="zh">「我真希望当时就认识你……我就假装跟着过来吃，跟她说：阿姨你放心，我会永远保护她。」</div>
+          <div class="ctx">🎬 爱情没有神话 第13集 · I wish I'd… 不是改历史，而是表达「此刻的心意」——回望段的温柔用法。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- logic -->
+    <section id="logic" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">逻辑</span>
+        <h2>整体逻辑关系（怎么串）</h2>
+      </div>
+      <div class="section-desc">七段不是七个孤立句型，而是四种逻辑关系在时间轴上的展开。搞清关系，你就能自由加减节拍。</div>
+      <div class="logic-grid">
+        <div class="logic-card">
+          <h3>① 时间顺序</h3>
+          <p>定锚 → 常态 → 触发 → 经过 → 结果<br>连接词：<code>back then</code> <code>then</code> <code>after that</code> <code>in the end</code></p>
+        </div>
+        <div class="logic-card">
+          <h3>② 对比反差</h3>
+          <p>常态 vs 现在 / 预期 vs 现实<br>连接词：<code>used to… now</code> <code>I thought… but</code> <code>all along</code></p>
+        </div>
+        <div class="logic-card">
+          <h3>③ 因果推进</h3>
+          <p>触发导致行动，行动导致结果<br>连接词：<code>so</code> <code>because</code> <code>that's why</code> <code>ever since</code></p>
+        </div>
+        <div class="logic-card">
+          <h3>④ 评价回望</h3>
+          <p>结果之上再叠一层「意义」<br>连接词：<code>looking back</code> <code>I realize</code> <code>I should have</code></p>
+        </div>
+      </div>
+      <div class="formula">
+        <div class="formula-label">三种常用组装法</div>
+        <div class="formula-en">A. 完整版：7 拍全走（面试 / 长聊天）<br>B. 短版：定锚 → 转折 → 回望（咖啡闲聊）<br>C. 对比版：used to → but now / never expected（30 秒故事）</div>
+        <div class="formula-zh">先选组装法，再填词——比「想到哪说到哪」稳得多。</div>
+      </div>
+    </section>
+
+    <!-- keywords -->
+    <section id="keywords" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">关键词</span>
+        <h2>影响表达的关键词</h2>
+        <span class="section-tag">按叙事功能，不是按词性</span>
+      </div>
+      <div class="section-desc">讲故事时，真正拉开表达层次的不是生僻大词，而是这些「节拍开关」。漏掉它们，句子再长也像流水账。</div>
+      <table class="frame-table">
+        <thead><tr><th>功能</th><th>关键词（优先）</th><th class="use-cell">丢了会怎样</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="zh-cell">时空钉</td>
+            <td class="en-cell">back then / that day / years ago / at the time</td>
+            <td class="use-cell">听众不知道「发生在哪一段人生」</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">习惯态</td>
+            <td class="en-cell">used to / always / in those days</td>
+            <td class="use-cell">没有「以前」，变化没有冲击</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">打断点</td>
+            <td class="en-cell">one day / until / suddenly / that's when</td>
+            <td class="use-cell">故事没有「开场哨」</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">推进链</td>
+            <td class="en-cell">then / so / after that / first…then</td>
+            <td class="use-cell">过程糊成一团</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">意外核</td>
+            <td class="en-cell">never expected / turns out / all along / but</td>
+            <td class="use-cell">最无聊——没有钩子</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">收束点</td>
+            <td class="en-cell">in the end / finally / ever since / end up</td>
+            <td class="use-cell">听众等不到结局</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">意义层</td>
+            <td class="en-cell">looking back / realize / should have / that's why</td>
+            <td class="use-cell">只有情节，没有「你这个人」</td>
+          </tr>
+          <tr>
+            <td class="zh-cell">情绪色</td>
+            <td class="en-cell">helpless / afraid / relieved / proud / regret</td>
+            <td class="use-cell">像新闻播报，不像生活故事</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="tip">💡 <b>记忆法</b>：先背「意外核」三剑客——<b>never expected / turns out / all along</b>。有它们，任何平凡经历都能讲出戏剧感。</div>
+    </section>
+
+    <!-- practice -->
+    <section id="practice" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">练习</span>
+        <h2>外教练习模板</h2>
+        <span class="section-tag">套自己的生活</span>
+      </div>
+      <div class="section-desc">挑一件真实小事（迟到、换工作、一次误会、一次帮忙），按空填。填完朗读两遍，比背单词更有效。</div>
+      <div class="practice">
+        <h3>完整版填空（7 拍）</h3>
+        <ol>
+          <li><span class="blank">Back then / That day / Years ago</span>, I was <span class="blank">____</span>.</li>
+          <li>I used to <span class="blank">think / do ____</span>.</li>
+          <li>Until one day, <span class="blank">____</span> happened.</li>
+          <li>Then I <span class="blank">____</span>, so I <span class="blank">____</span>.</li>
+          <li>But what I never expected was that <span class="blank">____</span>.</li>
+          <li>In the end, <span class="blank">____</span>. Ever since, <span class="blank">____</span>.</li>
+          <li>Looking back, I realize <span class="blank">____</span>. That's why <span class="blank">____</span>.</li>
+        </ol>
+      </div>
+      <div class="practice">
+        <h3>咖啡闲聊短版（3 拍）</h3>
+        <ol>
+          <li><b style="color:#ddd6fe">定锚</b>：Back then, <span class="blank">____</span>.</li>
+          <li><b style="color:#ddd6fe">转折</b>：But what I never expected was <span class="blank">____</span>.</li>
+          <li><b style="color:#ddd6fe">回望</b>：Looking back, <span class="blank">____</span>.</li>
+        </ol>
+      </div>
+      <div class="tip">💡 外教常见开场：<b>Tell me about a time when you…</b> / <b>What's a story from your life?</b> ——直接掏出这套模板，比「呃…就是…然后…」体面一个段位。</div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  与话术手册、高频词手册同源语料 · 专挖「讲生活故事」的句型、逻辑与关键词<br>
+  <a href="english-phrases.html">话术手册</a> · <a href="english-vocab.html">高频词手册</a> · <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q || sec.textContent.toLowerCase().indexOf(q) > -1) {
+        sec.style.display = '';
+        visible++;
+      } else {
+        sec.style.display = 'none';
+      }
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>

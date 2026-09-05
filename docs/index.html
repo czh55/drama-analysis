@@ -72,10 +72,10 @@
       flex-wrap: wrap;
     }
     .phrasebook-row {
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto 32px;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       gap: 12px;
       padding: 0 24px;
     }
@@ -95,12 +95,19 @@
       border-color: rgba(167,139,250,0.28);
       background: linear-gradient(135deg, rgba(167,139,250,0.12), rgba(52,211,153,0.08));
     }
+    .phrasebook-banner.story {
+      border-color: rgba(52,211,153,0.28);
+      background: linear-gradient(135deg, rgba(52,211,153,0.10), rgba(96,165,250,0.08));
+    }
     .phrasebook-banner:hover {
       border-color: rgba(96,165,250,0.5);
       transform: translateY(-2px);
     }
     .phrasebook-banner.vocab:hover {
       border-color: rgba(167,139,250,0.55);
+    }
+    .phrasebook-banner.story:hover {
+      border-color: rgba(52,211,153,0.55);
     }
     .phrasebook-banner .pb-icon {
       flex-shrink: 0;
@@ -115,6 +122,9 @@
     }
     .phrasebook-banner.vocab .pb-icon {
       background: rgba(167,139,250,0.18);
+    }
+    .phrasebook-banner.story .pb-icon {
+      background: rgba(52,211,153,0.16);
     }
     .phrasebook-banner .pb-text { flex: 1; min-width: 0; }
     .phrasebook-banner .pb-text strong {
@@ -136,7 +146,7 @@
       font-size: 20px;
       font-weight: 700;
     }
-    @media (max-width: 720px) {
+    @media (max-width: 900px) {
       .phrasebook-row { grid-template-columns: 1fr; }
     }
     .stat-item { text-align: center; }
@@ -387,6 +397,14 @@
       <span class="pb-text">
         <strong>英文高频词手册</strong>
         <em>9 类词库倒排 · 优先 40 词，最短时间拿下高频词</em>
+      </span>
+      <span class="pb-arrow">→</span>
+    </a>
+    <a class="phrasebook-banner story" href="english-storytelling.html">
+      <span class="pb-icon">📖</span>
+      <span class="pb-text">
+        <strong>英文讲故事专题</strong>
+        <em>7 段叙事逻辑 · 句型 + 关键词，提高讲生活故事的能力</em>
       </span>
       <span class="pb-arrow">→</span>
     </a>
