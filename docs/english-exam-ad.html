@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>外教考题实战 · 描述生活中有趣的广告</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --amber: #fbbf24;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --tag-amber: rgba(251,191,36,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg); min-height: 100vh; color: var(--text); line-height: 1.7;
+  }
+  .hero {
+    position: relative; padding: 56px 24px 40px; text-align: center;
+    overflow: hidden; border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: 50%;
+    width: 920px; height: 920px;
+    background: radial-gradient(circle, rgba(251,191,36,0.12) 0%, rgba(251,146,60,0.08) 40%, transparent 70%);
+    transform: translate(-50%, -50%); pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--amber); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(26px, 5vw, 42px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.25;
+    background: linear-gradient(135deg, #fbbf24 0%, #fb923c 40%, #f472b6 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 720px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--amber); box-shadow: 0 0 0 3px rgba(251,191,36,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none; border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-amber); color: var(--amber); border-left-color: var(--amber); font-weight: 600;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--amber);
+    background: var(--tag-amber); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; }
+  .section-tag {
+    font-size: 13px; color: var(--orange); background: var(--tag-orange);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 16px; font-size: 14px; color: var(--text-secondary); }
+  .section-desc b { color: var(--text); }
+  .section-body { padding: 0 22px 22px; }
+
+  .prompt-box {
+    margin: 0 22px 18px; border: 1px solid rgba(251,191,36,0.35); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(251,191,36,0.12), rgba(251,146,60,0.08));
+    padding: 18px 20px; text-align: center;
+  }
+  .prompt-box .label {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--amber); margin-bottom: 8px;
+  }
+  .prompt-box .q {
+    font-size: clamp(18px, 3vw, 24px); font-weight: 900; color: #fde68a; line-height: 1.4;
+  }
+
+  .compare {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;
+  }
+  .compare-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: var(--surface-2);
+  }
+  .compare-card .label {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 8px;
+  }
+  .compare-card.want .label { color: var(--green); }
+  .compare-card.avoid .label { color: var(--text-muted); }
+  .compare-card p, .compare-card li { font-size: 13.5px; color: var(--text-secondary); }
+  .compare-card ul { padding-left: 18px; }
+  .compare-card li { margin-bottom: 4px; }
+
+  .kit-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+  }
+  .kit-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 13px 14px; background: var(--surface-2);
+  }
+  .kit-card a { color: var(--accent); text-decoration: none; font-weight: 700; font-size: 14px; }
+  .kit-card p { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+
+  .frame-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .frame-table th {
+    text-align: left; padding: 10px 14px; font-size: 12px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid var(--border); background: var(--surface-2);
+  }
+  .frame-table td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .frame-table tr:hover td { background: var(--card-hover); }
+  .beat-n { font-weight: 800; color: var(--amber); white-space: nowrap; }
+  .zh-cell { color: var(--text); font-weight: 600; }
+  .en-cell {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #fde68a; font-size: 14px; font-weight: 600;
+  }
+  .en-cell i { color: #fda4af; font-style: italic; }
+
+  .assembly {
+    border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px;
+    background: var(--surface-2); font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 13.5px; line-height: 1.85; color: #e0e7ff; overflow-x: auto;
+  }
+  .assembly .tag {
+    display: inline-block; font-size: 11px; font-weight: 700; color: var(--orange);
+    background: var(--tag-orange); border-radius: 4px; padding: 1px 6px; margin-right: 6px;
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .sample {
+    border: 1px solid rgba(96,165,250,0.25); border-radius: 14px;
+    background: rgba(96,165,250,0.06); padding: 18px 20px; margin-bottom: 14px;
+  }
+  .sample h3 {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 12px;
+  }
+  .sample p {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15px; color: #e0e7ff; line-height: 1.75; margin-bottom: 12px;
+  }
+  .sample p:last-child { margin-bottom: 0; }
+  .sample .note {
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 12px; color: var(--text-muted); margin-top: -6px; margin-bottom: 12px;
+  }
+  .zh-sample {
+    border: 1px solid var(--border); border-radius: 14px;
+    background: var(--surface-2); padding: 18px 20px;
+  }
+  .zh-sample h3 {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-muted); margin-bottom: 12px;
+  }
+  .zh-sample p { font-size: 14px; color: var(--text-secondary); line-height: 1.75; margin-bottom: 10px; }
+
+  .follow {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px;
+    margin-bottom: 10px; background: var(--surface-2);
+  }
+  .follow .q { font-size: 13px; color: var(--accent); margin-bottom: 6px; }
+  .follow .q b { color: var(--text); }
+  .follow .a {
+    font-family: "SF Pro", "Segoe UI", sans-serif; font-size: 14px; color: #fde68a; font-weight: 600;
+  }
+  .follow .meta { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+  .checklist {
+    list-style: none; padding: 0;
+  }
+  .checklist li {
+    display: flex; gap: 10px; align-items: flex-start;
+    padding: 10px 0; border-bottom: 1px dashed var(--border); font-size: 14px; color: var(--text-secondary);
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .checklist .box {
+    flex-shrink: 0; width: 20px; height: 20px; border-radius: 6px;
+    border: 1.5px solid rgba(251,191,36,0.5); margin-top: 2px;
+  }
+
+  .alt-grid {
+    display: grid; grid-template-columns: 1fr; gap: 10px;
+  }
+  .alt-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: var(--surface-2);
+  }
+  .alt-card h4 { font-size: 14px; font-weight: 800; color: #fde68a; margin-bottom: 4px; }
+  .alt-card p { font-size: 13px; color: var(--text-muted); }
+
+  .tip {
+    margin-top: 14px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+  .tip i { color: #fde68a; font-style: italic; }
+
+  .short {
+    margin-top: 14px; border: 1px dashed rgba(167,139,250,0.4); border-radius: 12px;
+    padding: 14px 16px; background: rgba(167,139,250,0.06);
+  }
+  .short h4 { font-size: 13px; font-weight: 800; color: #ddd6fe; margin-bottom: 8px; }
+  .short p {
+    font-family: "SF Pro", "Segoe UI", sans-serif; font-size: 14.5px; color: #e0e7ff; line-height: 1.7;
+  }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .compare { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Exam Practice · Apply the Toolkit</div>
+    <h1>外教考题实战 · 有趣的广告</h1>
+    <p class="hero-sub">把「开口组织法 + 讲故事 + 时间钉 + 话术框架」压成一道真题的完整答法：审题 → 选意图 → 填七拍 → 成稿样例 → 追问接招。</p>
+    <div class="hero-meta">
+      <span class="chip">📝 题型 <b>经历描述</b></span>
+      <span class="chip">🧭 主结构 <b>7 拍叙事</b></span>
+      <span class="chip">⏱️ 目标时长 <b>1.5–2 分钟</b></span>
+      <span class="chip">🛠️ 手册 <b>全套调用</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-speak-flow.html">开口组织法</a>
+      <a href="english-storytelling.html">讲故事专题</a>
+      <a href="english-time.html">时间表达</a>
+      <a href="english-phrases.html">话术手册</a>
+      <a href="english-daily.html">日常 10 场景</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索：定锚 / used to / looking back / 样例 / 追问…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#prompt">考题原文</a>
+    <a href="#analyze">审题</a>
+    <a href="#kit">调用哪些手册</a>
+    <a href="#decide">5 秒决策</a>
+    <a href="#beats">七拍填空</a>
+    <a href="#assembly">框架拼装</a>
+    <a href="#sample">完整样例</a>
+    <a href="#followup">追问接招</a>
+    <a href="#checklist">上场清单</a>
+    <a href="#alts">可替换素材</a>
+  </nav>
+
+  <main>
+
+    <section id="prompt" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">题目</span>
+        <h2>考题原文</h2>
+      </div>
+      <div class="prompt-box">
+        <div class="label">Today's Topic</div>
+        <div class="q">Describe an interesting advertisement<br>you’ve encountered in life.</div>
+      </div>
+      <div class="section-desc">
+        本质不是「背广告词」，而是<strong>讲一段经历 + 说明为什么有趣</strong>。外教听的是叙事能力与态度表达，不是营销知识。
+      </div>
+    </section>
+
+    <section id="analyze" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">审题</span>
+        <h2>他想听到什么 / 你容易答偏什么</h2>
+      </div>
+      <div class="section-body">
+        <div class="compare">
+          <div class="compare-card want">
+            <div class="label">想听到的</div>
+            <ul>
+              <li>具体一场广告（何时何地）</li>
+              <li>过程：看到 → 反应 → 恍然</li>
+              <li>态度：为什么 interesting</li>
+              <li>收尾：一点回望 / 改变</li>
+            </ul>
+          </div>
+          <div class="compare-card avoid">
+            <div class="label">容易答偏</div>
+            <ul>
+              <li>空泛说「广告很多很有趣」</li>
+              <li>只罗列产品功能</li>
+              <li>只翻译广告文案</li>
+              <li>说完就停，没有回望</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kit" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">工具</span>
+        <h2>这道题调用哪些手册</h2>
+      </div>
+      <div class="section-desc">不要临时发明语法——按分工取用现成流水线。</div>
+      <div class="section-body">
+        <div class="kit-grid">
+          <div class="kit-card">
+            <a href="english-speak-flow.html">开口组织法</a>
+            <p>主意图：解释为什么有趣；穿插表态</p>
+          </div>
+          <div class="kit-card">
+            <a href="english-storytelling.html">讲故事专题</a>
+            <p>七拍叙事骨架（可压成五拍）</p>
+          </div>
+          <div class="kit-card">
+            <a href="english-time.html">时间表达</a>
+            <p>定锚 / used to / at first / in the end</p>
+          </div>
+          <div class="kit-card">
+            <a href="english-phrases.html">话术手册</a>
+            <p>I know…but / not just…but / What if</p>
+          </div>
+          <div class="kit-card">
+            <a href="english-daily.html">日常 10 场景</a>
+            <p>卡壳时用 I mean 澄清</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="decide" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">决策</span>
+        <h2>开口前 5 秒</h2>
+        <span class="section-tag">开口组织法</span>
+      </div>
+      <div class="section-desc">
+        <p>自问：<b>这一轮我要干什么？</b> → 先讲故事，再用「解释」说清楚为什么有趣。</p>
+      </div>
+      <div class="section-body">
+        <table class="frame-table">
+          <thead><tr><th>步骤</th><th>动作</th><th>默认骨架</th></tr></thead>
+          <tbody>
+            <tr>
+              <td class="beat-n">1</td>
+              <td class="zh-cell">定意图</td>
+              <td class="en-cell">叙事 + 解释（为什么有趣）</td>
+            </tr>
+            <tr>
+              <td class="beat-n">2</td>
+              <td class="zh-cell">表态开门</td>
+              <td class="en-cell">I know <i>ads are boring</i>, but <i>this one…</i></td>
+            </tr>
+            <tr>
+              <td class="beat-n">3</td>
+              <td class="zh-cell">叙事推进</td>
+              <td class="en-cell">At first… Then… But I never expected… In the end…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">4</td>
+              <td class="zh-cell">解释收束</td>
+              <td class="en-cell">That's why… / Looking back…</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="tip">💡 <b>选题原则</b>：选「你有记忆点的一场」，不要选「最伟大的广告」。样例用短视频伪装干货的带货广告——结构可直接套到地铁立体广告、电梯门广告等。</div>
+      </div>
+    </section>
+
+    <section id="beats" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">填空</span>
+        <h2>七拍怎么填</h2>
+        <span class="section-tag">讲故事 + 时间钉</span>
+      </div>
+      <div class="section-desc">心里有地图；开口可说满 7 拍，紧张时压成「定锚 → 转折 → 回望」三句。</div>
+      <div class="section-body" style="overflow-x:auto;">
+        <table class="frame-table">
+          <thead><tr><th>节拍</th><th>中文意思（本样例）</th><th>套用框架</th></tr></thead>
+          <tbody>
+            <tr>
+              <td class="beat-n">① 定锚</td>
+              <td class="zh-cell">大概一年前，地铁上刷手机</td>
+              <td class="en-cell">I remember… / About a year ago…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">② 常态</td>
+              <td class="zh-cell">以前一看到广告就划走</td>
+              <td class="en-cell">I used to… / The moment…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">③ 触发</td>
+              <td class="zh-cell">点开「如何叠衣服」短视频</td>
+              <td class="en-cell">Then I saw… / Until one day…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">④ 经过</td>
+              <td class="zh-cell">认真看了半分钟，觉得像干货</td>
+              <td class="en-cell">At first…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">⑤ 转折</td>
+              <td class="zh-cell">结尾突然变成卖收纳盒</td>
+              <td class="en-cell">But what I never expected was…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">⑥ 结果</td>
+              <td class="zh-cell">愣住 → 笑了 → 记得牌子</td>
+              <td class="en-cell">In the end…</td>
+            </tr>
+            <tr>
+              <td class="beat-n">⑦ 回望</td>
+              <td class="zh-cell">有趣不在产品，而在骗过防备</td>
+              <td class="en-cell">Looking back… / not just X, but Y</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="assembly" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">拼装</span>
+        <h2>框架拼装图</h2>
+      </div>
+      <div class="section-desc">说的时候心里只带这张卡——左栏是手册标签，右栏是要说出口的骨架。</div>
+      <div class="section-body">
+        <div class="assembly">
+          <div><span class="tag">表态</span>I know most ads are annoying, but this one was different.</div>
+          <div><span class="tag">定锚</span>About a year ago, I was scrolling on my phone…</div>
+          <div><span class="tag">常态</span>I used to skip ads immediately.</div>
+          <div><span class="tag">触发</span>Then I saw a short video about folding clothes…</div>
+          <div><span class="tag">经过</span>At first, it looked like a normal life tip…</div>
+          <div><span class="tag">转折</span>But I never expected the ending to be a product pitch.</div>
+          <div><span class="tag">结果</span>In the end, I laughed — and I even remembered the brand.</div>
+          <div><span class="tag">回望</span>Looking back, it was interesting not just because it was funny, but because it changed how I watch videos.</div>
+          <div><span class="tag">澄清</span>I mean, now I always wait for the last three seconds.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sample" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">样例</span>
+        <h2>完整口述稿 · 约 1.5–2 分钟</h2>
+        <span class="section-tag">可直接练</span>
+      </div>
+      <div class="section-desc">先练英文成稿；下方附中文对照，方便「先想中文 → 再套骨架」。</div>
+      <div class="section-body">
+        <div class="sample">
+          <h3>English · Full Sample</h3>
+          <p>I know most advertisements are annoying, but this one was actually interesting.</p>
+          <p class="note">↑ 表态：I know X, but Y</p>
+          <p>About a year ago, I was scrolling on my phone on the subway. I used to skip ads right away — the moment I saw anything that looked like selling, I swiped past it.</p>
+          <p class="note">↑ 定锚 + 常态：About a year ago / I used to / the moment</p>
+          <p>Then I saw a short video titled something like “How to fold your clothes like a hotel.” At first, it felt completely useful. The person spoke calmly, showed every step, and I even paused to follow along.</p>
+          <p class="note">↑ 触发 + 经过：Then / At first</p>
+          <p>But what I never expected was the ending. In the last few seconds, the screen suddenly showed a storage box for sale, with a bright “Buy now” button. I froze for a second — and then I couldn’t help laughing.</p>
+          <p class="note">↑ 转折：But what I never expected —「有趣」主要靠这一拍</p>
+          <p>In the end, I didn’t buy the box. But I still remember the brand, which is kind of crazy, because I usually forget ads within one second.</p>
+          <p class="note">↑ 结果：In the end / because</p>
+          <p>Looking back, it was interesting not just because it was funny, but because it quietly broke my defense. I mean, it didn’t shout “Buy this!” from the beginning. It first gave me value, and only then asked for money.</p>
+          <p class="note">↑ 回望 + 递进 not just…but… + I mean</p>
+          <p>So now, whenever I watch short videos, I wait for the last three seconds. What if it’s another clever ad pretending to be a life tip?</p>
+          <p>That’s why this ad stayed in my mind — not just as an ad, but as a tiny lesson about attention.</p>
+          <p class="note">↑ What if 收束玩笑 + That’s why 因果收束</p>
+        </div>
+
+        <div class="zh-sample">
+          <h3>中文对照 · 先想这版再开口</h3>
+          <p>我知道大多数广告都很烦，但这一条其实挺有趣。</p>
+          <p>大概一年前，我在地铁上刷手机。我以前一看到像卖货的就划走——一看出是广告就跳过。</p>
+          <p>然后我看到一条「怎么像酒店一样叠衣服」的短视频。一开始完全像干货，讲解很稳，我还跟着停下来学。</p>
+          <p>但我完全没想到结尾：最后几秒突然跳出收纳盒和「立即购买」。我愣了一下，然后忍不住笑了。</p>
+          <p>到最后我没买，但我还记得那个牌子——这很离谱，因为我平时一秒就忘广告。</p>
+          <p>现在回头看，有趣的不仅是好笑，更是它悄悄破了我的防备。我是说，它开头不吼「买买买」，先给你价值，再要钱。</p>
+          <p>所以我现在看短视频，会等到最后三秒：万一又是一条假装干货的聪明广告呢？</p>
+          <p>这就是它留在我脑子里的原因——不仅是广告，更是关于注意力的一小课。</p>
+        </div>
+
+        <div class="short">
+          <h4>30 秒保底版（卡壳时用）</h4>
+          <p>I remember a short video about folding clothes. At first it looked like a life tip, but in the end it was selling a storage box. I laughed because it tricked me in a clever way. That’s why I still remember it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="followup" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">追问</span>
+        <h2>外教追问 · 3 个短接招</h2>
+      </div>
+      <div class="section-body">
+        <div class="follow">
+          <div class="q"><b>Q:</b> Why didn’t you buy it?</div>
+          <div class="a">I'd rather keep my money than buy something I don’t need.</div>
+          <div class="meta">意图：选择 → I'd rather X than Y</div>
+        </div>
+        <div class="follow">
+          <div class="q"><b>Q:</b> Do you think this kind of ad is honest?</div>
+          <div class="a">I know it’s a bit tricky, but it’s still smarter than shouting ads.</div>
+          <div class="meta">意图：表态 → I know X, but Y</div>
+        </div>
+        <div class="follow">
+          <div class="q"><b>Q:</b> Can you give another example?</div>
+          <div class="a">At first… But I never expected… Looking back…（30 秒缩短版）</div>
+          <div class="meta">意图：叙事缩短 → 定锚 / 转折 / 回望</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="checklist" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">清单</span>
+        <h2>上场前 30 秒检查</h2>
+      </div>
+      <div class="section-body">
+        <ul class="checklist">
+          <li><span class="box"></span><span>有没有<strong style="color:var(--text)">定锚</strong>（何时何地）？</span></li>
+          <li><span class="box"></span><span>有没有<strong style="color:var(--text)">以前 vs 现在</strong>（I used to skip… Now I wait…）？</span></li>
+          <li><span class="box"></span><span>有没有<strong style="color:var(--text)">转折</strong>（But I never expected…）？——「有趣」主要靠这一拍</span></li>
+          <li><span class="box"></span><span>有没有<strong style="color:var(--text)">回望</strong>（Looking back / That’s why）？</span></li>
+          <li><span class="box"></span><span>词不会就用简单词：funny / clever / surprise / remember / buy —— <strong style="color:var(--text)">骨架比难词重要</strong></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="alts" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">替换</span>
+        <h2>可替换广告素材</h2>
+      </div>
+      <div class="section-desc">只换「触发 / 经过 / 转折」内容，七拍骨架不用改。</div>
+      <div class="section-body">
+        <div class="alt-grid">
+          <div class="alt-card">
+            <h4>地铁地面 3D 广告</h4>
+            <p>看起来像地上有个洞 → 有趣点：差点不敢踩</p>
+          </div>
+          <div class="alt-card">
+            <h4>电梯门开合广告</h4>
+            <p>门一开画面拼上 → 有趣点：和动作同步</p>
+          </div>
+          <div class="alt-card">
+            <h4>春运公益广告</h4>
+            <p>爸妈在村口等 → 有趣点：感动，不像硬广</p>
+          </div>
+        </div>
+        <div class="tip">💡 <b>复用口令</b>：换广告不换结构。任何「Tell me about an interesting…」题，都先走：表态开门 → 七拍叙事 → That’s why 收束。</div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  外教考题实战专栏 · 演示如何把已有手册压成一道真题的完整答法<br>
+  <a href="english-speak-flow.html">开口组织法</a> ·
+  <a href="english-storytelling.html">讲故事</a> ·
+  <a href="english-time.html">时间表达</a> ·
+  <a href="english-phrases.html">话术手册</a> ·
+  <a href="english-daily.html">日常 10 场景</a> ·
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q || sec.textContent.toLowerCase().indexOf(q) > -1) {
+        sec.style.display = ''; visible++;
+      } else sec.style.display = 'none';
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
