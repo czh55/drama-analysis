@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文开口组织法 · 从话术目录到可说的一句</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .hero {
+    position: relative;
+    padding: 56px 24px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -55%; left: 50%;
+    width: 900px; height: 900px;
+    background: radial-gradient(circle, rgba(251,146,60,0.12) 0%, rgba(167,139,250,0.08) 40%, transparent 70%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 860px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--orange); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+    background: linear-gradient(135deg, #fb923c 0%, #f472b6 40%, #a78bfa 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 680px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none; border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-orange); color: var(--orange); border-left-color: var(--orange); font-weight: 600;
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--orange); box-shadow: 0 0 0 3px rgba(251,146,60,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--orange);
+    background: var(--tag-orange); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; }
+  .section-tag {
+    font-size: 13px; color: var(--accent2); background: var(--tag-purple);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 16px; font-size: 14px; color: var(--text-secondary); }
+  .section-desc b { color: var(--text); }
+  .section-body { padding: 0 22px 22px; }
+
+  .shift {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;
+  }
+  .shift-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: var(--surface-2);
+  }
+  .shift-card .label {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .shift-card.before .label { color: var(--text-muted); }
+  .shift-card.after .label { color: var(--green); }
+  .shift-card p { font-size: 13.5px; color: var(--text-secondary); line-height: 1.65; }
+  .shift-essence {
+    border: 1px dashed rgba(251,146,60,0.35); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .shift-essence b { color: var(--orange); }
+
+  .one-q {
+    border: 1px solid rgba(167,139,250,0.35); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(167,139,250,0.12), rgba(251,146,60,0.08));
+    padding: 22px 20px; text-align: center; margin-bottom: 14px;
+  }
+  .one-q .q-label {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent2); margin-bottom: 10px;
+  }
+  .one-q .q-text {
+    font-size: clamp(20px, 3.5vw, 28px); font-weight: 900; color: #fde68a; letter-spacing: -0.01em;
+  }
+  .one-q .q-sub { font-size: 13px; color: var(--text-secondary); margin-top: 10px; }
+
+  .intent-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .intent-table th {
+    text-align: left; padding: 10px 14px; font-size: 12px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid var(--border); background: var(--surface-2);
+  }
+  .intent-table td {
+    padding: 13px 14px; border-bottom: 1px solid var(--border); vertical-align: top;
+  }
+  .intent-table tr:hover td { background: var(--card-hover); }
+  .intent-name {
+    font-weight: 800; color: var(--text); white-space: nowrap;
+  }
+  .intent-name span {
+    display: block; font-size: 12px; font-weight: 500; color: var(--text-muted); margin-top: 2px;
+  }
+  .skeleton {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 14.5px; font-weight: 700; color: #bfdbfe;
+  }
+  .skeleton i { color: var(--accent3); font-style: italic; }
+  .backup { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+  .when { color: var(--text-secondary); font-size: 13px; }
+
+  .steps { display: grid; gap: 10px; }
+  .step {
+    display: grid; grid-template-columns: 48px 1fr; gap: 12px; align-items: start;
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: var(--surface-2);
+  }
+  .step-num {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--orange), var(--accent3));
+    color: #fff; font-weight: 900; display: flex; align-items: center; justify-content: center;
+  }
+  .step h3 { font-size: 15px; font-weight: 800; margin-bottom: 4px; }
+  .step p { font-size: 13.5px; color: var(--text-secondary); }
+  .step code {
+    font-family: "SF Pro", "Segoe UI", monospace; color: #fda4af;
+    background: rgba(244,114,182,0.12); padding: 1px 6px; border-radius: 4px; font-size: 12.5px;
+  }
+
+  .drill {
+    border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-bottom: 12px;
+    background: var(--surface-2);
+  }
+  .drill-q {
+    font-size: 13px; color: var(--text-muted); margin-bottom: 8px;
+  }
+  .drill-q b { color: var(--accent); }
+  .drill-flow {
+    display: grid; gap: 6px; font-size: 13.5px;
+  }
+  .drill-flow .row {
+    display: grid; grid-template-columns: 72px 1fr; gap: 10px; align-items: start;
+  }
+  .drill-flow .tag {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--orange); background: var(--tag-orange); border-radius: 6px;
+    padding: 3px 7px; text-align: center; height: fit-content;
+  }
+  .drill-flow .val { color: var(--text-secondary); }
+  .drill-flow .val.en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #e0e7ff; font-weight: 600;
+  }
+  .drill-flow .val.en i { color: var(--accent3); font-style: italic; }
+
+  .pocket {
+    border: 1px solid rgba(52,211,153,0.3); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(52,211,153,0.10), rgba(96,165,250,0.08));
+    padding: 18px 20px;
+  }
+  .pocket h3 { font-size: 15px; font-weight: 800; color: var(--green); margin-bottom: 12px; }
+  .pocket ol { padding-left: 18px; color: var(--text-secondary); font-size: 14px; }
+  .pocket li { margin-bottom: 8px; }
+  .pocket li b {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #bfdbfe; font-weight: 700;
+  }
+
+  .tip {
+    margin-top: 14px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+
+  .mini-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px; margin-top: 4px;
+  }
+  .mini-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 13px 14px; background: var(--surface-2);
+  }
+  .mini-card .mini-en { font-size: 14px; font-weight: 700; color: #fde68a; }
+  .mini-card .mini-zh { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s ease; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .shift { grid-template-columns: 1fr; }
+    .intent-table .when { display: none; }
+    .drill-flow .row { grid-template-columns: 64px 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Speak Flow · Not Catalog</div>
+    <h1>英文开口组织法</h1>
+    <p class="hero-sub">话术手册是「词典」——开口时你需要的是「流水线」。外教问完后，不要翻 10 组目录；只问自己一句，套默认骨架，5 秒内说出一句完整话。</p>
+    <div class="hero-meta">
+      <span class="chip">🎯 核心动作 <b>1 句自问</b></span>
+      <span class="chip">🧩 意图槽位 <b>6 个</b></span>
+      <span class="chip">⏱️ 组装时限 <b>≈5 秒</b></span>
+      <span class="chip">🔗 对接 <b>话术手册</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-phrases.html">话术手册（词典）</a>
+      <a href="english-vocab.html">高频词手册</a>
+      <a href="english-storytelling.html">讲故事专题</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索：表态 / 取舍 / What if / 卡壳 / 外教问…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#problem">卡在哪</a>
+    <a href="#one-question">只问一句</a>
+    <a href="#intents">6 意图 → 骨架</a>
+    <a href="#assemble">5 秒组装</a>
+    <a href="#drills">外教实操</a>
+    <a href="#pocket">口袋卡</a>
+    <a href="#relation">和手册怎么配合</a>
+  </nav>
+
+  <main>
+
+    <section id="problem" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">诊断</span>
+        <h2>你卡的不是框架，是「翻目录」</h2>
+      </div>
+      <div class="section-desc">
+        <p>话术手册把表达拆成 10 组，复习时很清晰；但真实对话里，外教问完你只有 1–2 秒。这时如果还在想「这是转折还是条件？宁可还是万一？」，大脑在做<strong>检索</strong>，不是在做<strong>表达</strong>。</p>
+      </div>
+      <div class="section-body">
+        <div class="shift">
+          <div class="shift-card before">
+            <div class="label">以前 · 开口瞬间</div>
+            <p>外教问完 → 脑子打开话术手册目录 → ①转折 ②条件 ③因果…挨个比对 → 还没选中，对方已经在等 → 只好蹦单词或沉默。</p>
+          </div>
+          <div class="shift-card after">
+            <div class="label">现在 · 开口瞬间</div>
+            <p>外教问完 → 只问「这一轮我要干什么」→ 落进 6 个意图之一 → 取出该意图的<strong>默认骨架</strong> → 把中文意思塞进 X/Y → 开口。</p>
+          </div>
+        </div>
+        <div class="shift-essence">
+          <b>转变的本质：</b>从「在 60 个框架里找答案」变成「在 6 个意图里选配方」。手册仍要，但是<strong>课后查</strong>的；开口时只带口袋里的 6 条默认骨架。
+        </div>
+      </div>
+    </section>
+
+    <section id="one-question" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">核心</span>
+        <h2>开口前只问自己一句</h2>
+        <span class="section-tag">1 秒决策</span>
+      </div>
+      <div class="section-body">
+        <div class="one-q">
+          <div class="q-label">Decision Question</div>
+          <div class="q-text">这一轮，我要干什么？</div>
+          <div class="q-sub">不是「英文怎么说」，而是「我这一句的任务是什么」——表态、选择、解释、担心、立底线，还是卡壳重说？</div>
+        </div>
+        <div class="mini-grid">
+          <div class="mini-card"><div class="mini-en">表态</div><div class="mini-zh">我同意 / 我不完全同意 / 我觉得…</div></div>
+          <div class="mini-card"><div class="mini-en">选择</div><div class="mini-zh">两害相权 / 我宁可…</div></div>
+          <div class="mini-card"><div class="mini-en">解释</div><div class="mini-zh">为什么这么做 / 给理由</div></div>
+          <div class="mini-card"><div class="mini-en">担心</div><div class="mini-zh">万一…呢？提出风险</div></div>
+          <div class="mini-card"><div class="mini-en">底线</div><div class="mini-zh">只要…我就… / 无论如何</div></div>
+          <div class="mini-card"><div class="mini-en">卡壳</div><div class="mini-zh">句子说砸了，换说法重来</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intents" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">地图</span>
+        <h2>6 意图 → 默认骨架</h2>
+        <span class="section-tag">开口只记左栏 + 中间列</span>
+      </div>
+      <div class="section-desc">
+        每个意图只绑<strong>一条默认骨架</strong>。其余框架（even though / unless / let alone…）是词典里的升级选项——课后查、熟练后再换，开口时不要临时升级。
+      </div>
+      <div class="section-body" style="padding-top:0; overflow-x:auto;">
+        <table class="intent-table">
+          <thead>
+            <tr><th>意图</th><th>默认骨架（先死背）</th><th class="when">什么时候用</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="intent-name">① 表态<span>给看法 / 软反驳</span></td>
+              <td>
+                <div class="skeleton">I know <i>X</i>, but <i>Y</i>.</div>
+                <div class="backup">升级：On the surface X, but deep down Y.</div>
+              </td>
+              <td class="when">对方已有观点，你要补充或温和不同意</td>
+            </tr>
+            <tr>
+              <td class="intent-name">② 选择<span>取舍 / 偏好</span></td>
+              <td>
+                <div class="skeleton">I'd rather <i>X</i> than <i>Y</i>.</div>
+                <div class="backup">升级：Rather than X, I'd rather Y.</div>
+              </td>
+              <td class="when">外教问 why this / why not that</td>
+            </tr>
+            <tr>
+              <td class="intent-name">③ 解释<span>给理由</span></td>
+              <td>
+                <div class="skeleton"><i>Y</i>, because <i>X</i>. / <i>X</i>, so <i>Y</i>.</div>
+                <div class="backup">口语神器：…after all.（句尾补理由）</div>
+              </td>
+              <td class="when">对方问 why；或你要先抛结论再补因</td>
+            </tr>
+            <tr>
+              <td class="intent-name">④ 担心<span>提风险</span></td>
+              <td>
+                <div class="skeleton">What if <i>X</i>?</div>
+                <div class="backup">升级：Even if X, … / What if there's a chance?</div>
+              </td>
+              <td class="when">你想把话题从「眼前」拉到「万一」</td>
+            </tr>
+            <tr>
+              <td class="intent-name">⑤ 底线<span>条件 / 承诺</span></td>
+              <td>
+                <div class="skeleton">As long as <i>X</i>, I'll <i>Y</i>.</div>
+                <div class="backup">升级：No matter what, I'll Y.</div>
+              </td>
+              <td class="when">谈原则、谈「什么情况下我做什么」</td>
+            </tr>
+            <tr>
+              <td class="intent-name">⑥ 卡壳<span>自救重说</span></td>
+              <td>
+                <div class="skeleton">I mean… / In other words, …</div>
+                <div class="backup">也可：Actually… / To be honest…</div>
+              </td>
+              <td class="when">说了一半卡住，或刚说的不够清楚</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="tip">💡 <b>硬规则</b>：开口瞬间只允许用「默认骨架」。想用升级版？课后在 <a href="english-phrases.html" style="color:var(--accent)">话术手册</a> 里查对应组，下次再换——不要当场开卷考试。</div>
+      </div>
+    </section>
+
+    <section id="assemble" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">流程</span>
+        <h2>5 秒组装法</h2>
+        <span class="section-tag">定意图 → 套骨架 → 填槽</span>
+      </div>
+      <div class="section-body">
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div>
+              <h3>定意图（≈1 秒）</h3>
+              <p>用中文在心里点一下：表态 / 选择 / 解释 / 担心 / 底线 / 卡壳。点不中就默认用 <code>I know X, but Y</code>（万能表态）。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div>
+              <h3>套骨架（≈1 秒）</h3>
+              <p>把对应骨架整句调出来——此时还不要纠结单词，先让句型站稳。骨架比词汇更重要。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div>
+              <h3>填 X / Y（≈3 秒）</h3>
+              <p>把你的中文意思塞进空位。词不会就用简单词（good / bad / hard / important）。说完再用 <code>I mean…</code> 补一层细节。</p>
+            </div>
+          </div>
+        </div>
+        <div class="tip" style="margin-top:14px">💡 <b>防拖延口令</b>：骨架先出声，单词后补齐。宁可说 <i>"I'd rather be safe than sorry."</i> 这种糙句，也不要为了找「精准词」沉默 5 秒。</div>
+      </div>
+    </section>
+
+    <section id="drills" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">实操</span>
+        <h2>外教场景 · 完整组装演示</h2>
+        <span class="section-tag">看一遍流程，再自己复述</span>
+      </div>
+      <div class="section-desc">下面每条都按「外教问 → 意图 → 骨架 → 成句」走一遍。练的时候盖住最后一行英文，自己先说。</div>
+      <div class="section-body">
+
+        <div class="drill">
+          <div class="drill-q"><b>外教：</b>“Do you like living in a big city?”</div>
+          <div class="drill-flow">
+            <div class="row"><span class="tag">中文想法</span><span class="val">热闹是热闹，但有时候太吵、太累</span></div>
+            <div class="row"><span class="tag">意图</span><span class="val">① 表态（先承认优点，再讲真实感受）</span></div>
+            <div class="row"><span class="tag">骨架</span><span class="val en">I know <i>X</i>, but <i>Y</i>.</span></div>
+            <div class="row"><span class="tag">成句</span><span class="val en">I know big cities are convenient, but sometimes they're just too noisy and tiring.</span></div>
+          </div>
+        </div>
+
+        <div class="drill">
+          <div class="drill-q"><b>外教：</b>“Why don’t you just quit and find another job?”</div>
+          <div class="drill-flow">
+            <div class="row"><span class="tag">中文想法</span><span class="val">与其现在裸辞瞎找，不如先攒经验再走</span></div>
+            <div class="row"><span class="tag">意图</span><span class="val">② 选择</span></div>
+            <div class="row"><span class="tag">骨架</span><span class="val en">I'd rather <i>X</i> than <i>Y</i>.</span></div>
+            <div class="row"><span class="tag">成句</span><span class="val en">I'd rather build more experience first than quit with nothing lined up.</span></div>
+          </div>
+        </div>
+
+        <div class="drill">
+          <div class="drill-q"><b>外教：</b>“Why are you studying English so hard these days?”</div>
+          <div class="drill-flow">
+            <div class="row"><span class="tag">中文想法</span><span class="val">我想跟外国人正常聊，所以最近在补框架和词汇</span></div>
+            <div class="row"><span class="tag">意图</span><span class="val">③ 解释（结论前置）</span></div>
+            <div class="row"><span class="tag">骨架</span><span class="val en"><i>X</i>, so <i>Y</i>.</span></div>
+            <div class="row"><span class="tag">成句</span><span class="val en">I want to talk with foreigners more naturally, so I've been practicing sentence frames lately.</span></div>
+          </div>
+        </div>
+
+        <div class="drill">
+          <div class="drill-q"><b>外教：</b>“Just book the expensive course—it'll be fine.”</div>
+          <div class="drill-flow">
+            <div class="row"><span class="tag">中文想法</span><span class="val">万一上完还是没提升呢？钱就白花了</span></div>
+            <div class="row"><span class="tag">意图</span><span class="val">④ 担心</span></div>
+            <div class="row"><span class="tag">骨架</span><span class="val en">What if <i>X</i>?</span></div>
+            <div class="row"><span class="tag">成句</span><span class="val en">What if I finish the course and still don't improve?</span></div>
+          </div>
+        </div>
+
+        <div class="drill">
+          <div class="drill-q"><b>外教：</b>“Would you move abroad for work?”</div>
+          <div class="drill-flow">
+            <div class="row"><span class="tag">中文想法</span><span class="val">只要家人没事、我还能常回来，我可以考虑</span></div>
+            <div class="row"><span class="tag">意图</span><span class="val">⑤ 底线</span></div>
+            <div class="row"><span class="tag">骨架</span><span class="val en">As long as <i>X</i>, I'll <i>Y</i>.</span></div>
+            <div class="row"><span class="tag">成句</span><span class="val en">As long as my family is okay and I can come back often, I'll consider it.</span></div>
+          </div>
+        </div>
+
+        <div class="drill">
+          <div class="drill-q"><b>场景：</b>你刚说了一半卡住——“I think the… uh… the thing is…”</div>
+          <div class="drill-flow">
+            <div class="row"><span class="tag">中文想法</span><span class="val">重说：重点不是钱，是时间不够</span></div>
+            <div class="row"><span class="tag">意图</span><span class="val">⑥ 卡壳自救</span></div>
+            <div class="row"><span class="tag">骨架</span><span class="val en">I mean… / In other words, …</span></div>
+            <div class="row"><span class="tag">成句</span><span class="val en">I mean—it's not about the money. In other words, I just don't have enough time.</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="pocket" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">口袋</span>
+        <h2>口袋卡 · 只带这 6 句上场</h2>
+      </div>
+      <div class="section-desc">上课前花 2 分钟过一遍；课中卡住就扫这张卡。其余 50+ 框架全部留在手册里。</div>
+      <div class="section-body">
+        <div class="pocket">
+          <h3>上场只带这 6 条</h3>
+          <ol>
+            <li>表态 → <b>I know X, but Y.</b></li>
+            <li>选择 → <b>I'd rather X than Y.</b></li>
+            <li>解释 → <b>X, so Y.</b> / <b>…after all.</b></li>
+            <li>担心 → <b>What if X?</b></li>
+            <li>底线 → <b>As long as X, I'll Y.</b></li>
+            <li>卡壳 → <b>I mean…</b> / <b>In other words…</b></li>
+          </ol>
+        </div>
+        <div class="tip">💡 <b>练习法</b>：让外教 / 朋友用中文甩你一个日常问题，你强制 5 秒内只许用上表某一条回应。练的是「定意图」，不是背更多句型。</div>
+      </div>
+    </section>
+
+    <section id="relation" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">分工</span>
+        <h2>三份资料怎么配合</h2>
+      </div>
+      <div class="section-body">
+        <table class="intent-table">
+          <thead><tr><th>资料</th><th>角色</th><th class="when">什么时候打开</th></tr></thead>
+          <tbody>
+            <tr>
+              <td class="intent-name"><a href="english-speak-flow.html" style="color:var(--orange);text-decoration:none">开口组织法</a><span>本页</span></td>
+              <td class="skeleton">生产流水线</td>
+              <td class="when">上课前过口袋卡；开口瞬间按意图选骨架</td>
+            </tr>
+            <tr>
+              <td class="intent-name"><a href="english-phrases.html" style="color:var(--accent);text-decoration:none">话术手册</a><span>10 组框架</span></td>
+              <td class="skeleton">词典 / 升级包</td>
+              <td class="when">课后复习；默认骨架用熟了再换升级版</td>
+            </tr>
+            <tr>
+              <td class="intent-name"><a href="english-vocab.html" style="color:var(--accent2);text-decoration:none">高频词手册</a><span>9 类倒排</span></td>
+              <td class="skeleton">填槽原料</td>
+              <td class="when">骨架会了但 X/Y 填不出词时补</td>
+            </tr>
+            <tr>
+              <td class="intent-name"><a href="english-storytelling.html" style="color:var(--green);text-decoration:none">讲故事专题</a><span>叙事段</span></td>
+              <td class="skeleton">长回答模板</td>
+              <td class="when">外教让你讲经历 / 复盘故事时用</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="tip">💡 <b>一句话</b>：开口用组织法，复习用手册，填词用词表，讲长故事用叙事专题——别把词典当流水线用。</div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  解决「有手册却不会组织表达」· 与话术手册同源思路<br>
+  <a href="english-phrases.html">话术手册</a> ·
+  <a href="english-vocab.html">高频词</a> ·
+  <a href="english-storytelling.html">讲故事</a> ·
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q || sec.textContent.toLowerCase().indexOf(q) > -1) {
+        sec.style.display = '';
+        visible++;
+      } else {
+        sec.style.display = 'none';
+      }
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
