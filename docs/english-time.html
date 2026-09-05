@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文时间表达专栏 · 从台词挖时间轴</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --cyan: #22d3ee;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --tag-cyan: rgba(34,211,238,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg); min-height: 100vh; color: var(--text); line-height: 1.7;
+  }
+  .hero {
+    position: relative; padding: 56px 24px 40px; text-align: center;
+    overflow: hidden; border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: 50%;
+    width: 920px; height: 920px;
+    background: radial-gradient(circle, rgba(34,211,238,0.12) 0%, rgba(96,165,250,0.07) 40%, transparent 70%);
+    transform: translate(-50%, -50%); pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--cyan); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+    background: linear-gradient(135deg, #22d3ee 0%, #60a5fa 45%, #a78bfa 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 700px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(34,211,238,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none; border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-cyan); color: var(--cyan); border-left-color: var(--cyan); font-weight: 600;
+  }
+  .sidebar .side-sub {
+    font-size: 12px; color: var(--text-muted); padding: 10px 10px 2px;
+    font-weight: 600; letter-spacing: 0.05em;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--cyan);
+    background: var(--tag-cyan); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; }
+  .section-tag {
+    font-size: 13px; color: var(--accent2); background: var(--tag-purple);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-freq {
+    margin-left: auto; font-size: 12px; color: var(--text-muted);
+    border: 1px solid var(--border); border-radius: 99px; padding: 3px 10px;
+  }
+  .section-desc { padding: 14px 22px 8px; font-size: 14px; color: var(--text-secondary); }
+  .section-desc b { color: var(--text); }
+
+  .frame-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .frame-table th {
+    text-align: left; padding: 10px 18px; font-size: 12px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid var(--border); background: var(--surface-2);
+  }
+  .frame-table td { padding: 11px 18px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .frame-table tr:hover td { background: var(--card-hover); }
+  .zh-cell { color: var(--text); font-weight: 600; width: 26%; white-space: nowrap; }
+  .en-cell {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #a5f3fc; font-size: 14.5px; font-weight: 600;
+  }
+  .en-cell i { color: var(--accent3); font-style: italic; }
+  .freq-cell { width: 72px; color: var(--green); font-weight: 800; font-variant-numeric: tabular-nums; }
+  .use-cell { color: var(--text-muted); font-size: 13px; }
+
+  .examples { padding: 6px 22px 16px; }
+  .examples-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); margin: 8px 0 10px;
+  }
+  .example {
+    border: 1px solid var(--border); border-radius: 12px; padding: 13px 16px;
+    margin-bottom: 10px; background: var(--surface-2);
+  }
+  .example .en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15px; color: #e0e7ff; line-height: 1.65;
+  }
+  .example .zh { font-size: 13px; color: var(--text-secondary); margin-top: 5px; }
+  .example .ctx {
+    font-size: 12.5px; color: var(--text-muted); margin-top: 8px;
+    padding-top: 8px; border-top: 1px dashed var(--border);
+  }
+  .frame-hit {
+    display: inline-block; font-size: 11px; font-weight: 600; color: var(--cyan);
+    background: var(--tag-cyan); border-radius: 6px; padding: 1px 7px; margin-right: 6px; vertical-align: 1px;
+  }
+
+  .tip {
+    margin: 0 22px 20px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+  .tip i { color: #a5f3fc; font-style: italic; }
+
+  .mini-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 10px; padding: 4px 22px 20px;
+  }
+  .mini-card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 13px 14px; background: var(--surface-2);
+  }
+  .mini-card .mini-en { font-size: 14px; font-weight: 700; color: #a5f3fc; }
+  .mini-card .mini-zh { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+
+  .axis {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    padding: 4px 22px 18px; font-size: 13px;
+  }
+  .axis .node {
+    font-family: "SF Pro", "Segoe UI", sans-serif; font-weight: 700;
+    color: #cffafe; background: rgba(34,211,238,0.12); border: 1px solid rgba(34,211,238,0.25);
+    border-radius: 8px; padding: 6px 10px;
+  }
+  .axis .arrow { color: var(--text-muted); }
+
+  .pocket {
+    margin: 4px 22px 22px; border: 1px solid rgba(34,211,238,0.3); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(34,211,238,0.10), rgba(96,165,250,0.08));
+    padding: 18px 20px;
+  }
+  .pocket h3 { font-size: 15px; font-weight: 800; color: var(--cyan); margin-bottom: 12px; }
+  .pocket ol { padding-left: 18px; color: var(--text-secondary); font-size: 14px; }
+  .pocket li { margin-bottom: 8px; }
+  .pocket b {
+    font-family: "SF Pro", "Segoe UI", sans-serif; color: #a5f3fc; font-weight: 700;
+  }
+
+  .formula {
+    margin: 4px 22px 16px; border: 1px solid rgba(34,211,238,0.3); border-radius: 12px;
+    background: linear-gradient(135deg, rgba(34,211,238,0.10), rgba(167,139,250,0.08));
+    padding: 16px 18px;
+  }
+  .formula .formula-label {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--cyan); margin-bottom: 8px;
+  }
+  .formula .formula-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 17px; font-weight: 700; color: #cffafe;
+  }
+  .formula .formula-zh { font-size: 13px; color: var(--text-secondary); margin-top: 6px; }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .frame-table .use-cell { display: none; }
+    .zh-cell { white-space: normal; width: 34%; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Time Expressions</div>
+    <h1>英文时间表达专栏</h1>
+    <p class="hero-sub">从剧集台词里挖「时间轴」表达：现在 / 以前对照 / 叙事顺序 / 一…就 / 迟早与来不及——外教问经历时，先把时间钉子钉住，故事才站得住。</p>
+    <div class="hero-meta">
+      <span class="chip">⏱️ 时间组 <b>8 类</b></span>
+      <span class="chip">📊 按语料频次 <b>倒排</b></span>
+      <span class="chip">🎬 同源台词 <b>15,000+</b></span>
+      <span class="chip">🔗 对接 <b>讲故事专题</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-speak-flow.html">开口组织法</a>
+      <a href="english-storytelling.html">讲故事专题</a>
+      <a href="english-phrases.html">话术手册</a>
+      <a href="english-vocab.html">高频词</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索：以前现在 / from now on / sooner or later / 一…就 / used to…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#discovery">核心发现</a>
+    <a href="#pocket">上场口袋卡</a>
+    <div class="side-sub">时间组</div>
+    <a href="#g1">① 现在锚定</a>
+    <a href="#g2">② 从此以后</a>
+    <a href="#g3">③ 以前 vs 现在</a>
+    <a href="#g4">④ 回指过去</a>
+    <a href="#g5">⑤ 叙事顺序轴</a>
+    <a href="#g6">⑥ 一…就 / 立刻</a>
+    <a href="#g7">⑦ 持续与以来</a>
+    <a href="#g8">⑧ 迟早与来不及</a>
+  </nav>
+
+  <main>
+
+    <section id="discovery" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">核心</span>
+        <h2>核心发现</h2>
+      </div>
+      <div class="section-desc">
+        <p>中文爱说「以前…现在…」「一开始…后来…最终…」「迟早 / 来不及」——英文对应的不是难语法，而是<strong>一小撮高频时间钉子</strong>。语料里最高频的不是 fancy 词，而是 <b>from now on / right now / used to / back then / in the end / one day</b> 这类可直接套用的标记。</p>
+        <p style="margin-top:8px">和外教讲经历时：先钉时间点，再讲内容。时间钉不住，故事就会散。</p>
+      </div>
+      <div class="mini-grid">
+        <div class="mini-card"><div class="mini-en">Right now / For now</div><div class="mini-zh">钉住「眼下」vs「暂时」</div></div>
+        <div class="mini-card"><div class="mini-en">Used to… now…</div><div class="mini-zh">以前 vs 现在——对比神器</div></div>
+        <div class="mini-card"><div class="mini-en">At first → in the end</div><div class="mini-zh">叙事整条时间轴</div></div>
+        <div class="mini-card"><div class="mini-en">Sooner or later / too late</div><div class="mini-zh">迟早 / 来不及——态度时间</div></div>
+      </div>
+    </section>
+
+    <section id="pocket" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">口袋</span>
+        <h2>上场口袋卡 · 8 条时间钉</h2>
+        <span class="section-tag">先背这 8 个</span>
+      </div>
+      <div class="section-desc">开口讲经历时，只带这些上场；其余当词典查。</div>
+      <div class="pocket">
+        <h3>时间轴最小装备</h3>
+        <ol>
+          <li>眼下 → <b>Right now…</b> / 暂时 → <b>For now…</b></li>
+          <li>从此以后 → <b>From now on…</b></li>
+          <li>以前…现在… → <b>I used to X. Now I Y.</b></li>
+          <li>当时 / 当年 → <b>Back then…</b></li>
+          <li>一开始…最终… → <b>At first… In the end…</b></li>
+          <li>一…就… → <b>The moment… / As soon as…</b></li>
+          <li>自从… → <b>Ever since…</b></li>
+          <li>迟早 / 来不及 → <b>Sooner or later… / It's too late.</b></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ① 现在锚定 -->
+    <section id="g1" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>现在锚定</h2>
+        <span class="section-tag">「现在 / 眼下 / 暂时 / 这几天」</span>
+        <span class="section-freq">语料高频</span>
+      </div>
+      <div class="section-desc">同一句「现在」，英文要分清：正在此刻、这段日子、还是「先这样」。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">现在（此刻）</td><td class="en-cell">Right now…</td><td class="freq-cell">116</td><td class="use-cell">强调眼前这一刻</td></tr>
+          <tr><td class="zh-cell">暂时 / 先…</td><td class="en-cell">For now…</td><td class="freq-cell">34</td><td class="use-cell">临时方案，暗示以后可能变</td></tr>
+          <tr><td class="zh-cell">这几天 / 近来</td><td class="en-cell">These days…</td><td class="freq-cell">28</td><td class="use-cell">一段时间，非单点</td></tr>
+          <tr><td class="zh-cell">目前为止</td><td class="en-cell">So far… / To this day…</td><td class="freq-cell">5–6</td><td class="use-cell">从过去连到现在</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">right now</span>"Right now we've lost the wife and lost the army too."</div>
+          <div class="zh">「现在我们是赔了夫人又折兵。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 钉住「眼下局面」——right now = 此刻的糟糕现状。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">for now</span>"Uncle, I can pass along your message — but as for meeting him in person, Gu Yan isn't available for now."</div>
+          <div class="zh">「大叔，话我可以帮你们带到，但是想要见面，孤烟暂时还不方便。」</div>
+          <div class="ctx">🎬 爱情没有神话 · for now = 暂时不行，没说永远不行。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">these days</span>"You've been brooding at home these days—are you thinking about Xiao Qiushui?"</div>
+          <div class="zh">「这段时间你在家里一直心事重重，是不是在想萧秋水啊？」</div>
+          <div class="ctx">🎬 赴山海 · these days ≈ 这段时间 / 这几天。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：想说「暂时先这样」用 <i>For now…</i>；想说「这段日子」用 <i>These days…</i>——别一律 Right now。</div>
+    </section>
+
+    <!-- ② 从此以后 -->
+    <section id="g2" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>从此以后</h2>
+        <span class="section-tag">「从今以后 / 以后就…」</span>
+        <span class="section-freq">from now on ×129</span>
+      </div>
+      <div class="section-desc">划清「旧规则结束、新规则开始」——分手、立规矩、换合作对象时最常用。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">从此以后 / 从今往后</td><td class="en-cell">From now on…</td><td class="freq-cell">129</td><td class="use-cell">宣告新起点</td></tr>
+          <tr><td class="zh-cell">以后（工作上）…</td><td class="en-cell">From now on, when…, …</td><td class="freq-cell">—</td><td class="use-cell">立新规矩</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">from now on</span>"From now on, well water and river water never mix. … From now on, we speak through our work."</div>
+          <div class="zh">「从此以后我们井水不犯河水。……我们以后用作品说话。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 决裂宣言——from now on 把过去一刀切断。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">from now on</span>"From now on, when you hit any problem at work, come to me — not to him."</div>
+          <div class="zh">「以后在工作上遇到任何问题和困难，都来问我，而不是问他。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 立规矩：以后找谁。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：谈改变习惯 / 立 flag：<i>From now on, I'll…</i></div>
+    </section>
+
+    <!-- ③ 以前 vs 现在 -->
+    <section id="g3" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>以前 vs 现在</h2>
+        <span class="section-tag">「以前…现在…」对比框架</span>
+        <span class="section-freq">used to ×83</span>
+      </div>
+      <div class="section-desc">语料里最高频、最像母语者的对比骨架——讲成长、讲后悔、讲世道变了，都靠它。</div>
+      <div class="formula">
+        <div class="formula-label">万能对比模板</div>
+        <div class="formula-en">I used to <i>X</i>. Now I <i>Y</i>. / We used to <i>X</i>. Now we <i>Y</i>.</div>
+        <div class="formula-zh">以前 X，现在 Y。X = 旧状态；Y = 新状态（常带转折）。</div>
+      </div>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">used to… now</span>"We used to be struggling together. Now we can't seem to succeed together."</div>
+          <div class="zh">「以前我们是一起差，现在我们不能一起好。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 对照极强：同一对关系，时间一切，结论翻转。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">used to… now</span>"I used to think the dream mattered most. Now I think the person who chases it beside you matters most."</div>
+          <div class="zh">「以前我觉得梦想最重要，但现在我觉得，能陪你一起追梦的人，才是最重要的。」</div>
+          <div class="ctx">🎬 冬去春来 · 价值观对照——外教最爱听的「我变了」叙事。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">used to… now</span>"I used to think living alone was worse than death. Now it feels fine—free."</div>
+          <div class="zh">「以前觉得一个人过还不如去死；现在觉得一个人过挺好的，很自由。」</div>
+          <div class="ctx">🎬 我的前半生 · 态度 180°——骨架不变，只换 X/Y。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">used to… now</span>"What I used to disdain has now come back like a boomerang."</div>
+          <div class="zh">「以前嫌弃的，现在都成了回旋镖了。」</div>
+          <div class="ctx">🎬 问心2 · 短句对比，口语感拉满。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：被问 "How have you changed?" 直接 <i>I used to… Now…</i>，一句话完成时间对照。</div>
+    </section>
+
+    <!-- ④ 回指过去 -->
+    <section id="g4" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>回指过去</h2>
+        <span class="section-tag">「当时 / 当年 / N年前 / 原来一直」</span>
+      </div>
+      <div class="section-desc">把听众拽回某个过去时间点；「原来一直」用 all along 最传神。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">当时 / 当年</td><td class="en-cell">Back then…</td><td class="freq-cell">66</td><td class="use-cell">回指某个过去阶段</td></tr>
+          <tr><td class="zh-cell">N 年前</td><td class="en-cell"><i>N</i> years ago…</td><td class="freq-cell">66</td><td class="use-cell">具体年份锚点</td></tr>
+          <tr><td class="zh-cell">曾经 / 一度</td><td class="en-cell">Once… / I once…</td><td class="freq-cell">407*</td><td class="use-cell">*含 once=一旦，挑「曾经」义</td></tr>
+          <tr><td class="zh-cell">原来一直 / 早就是</td><td class="en-cell">…all along</td><td class="freq-cell">32</td><td class="use-cell">真相揭晓：原来一直如此</td></tr>
+          <tr><td class="zh-cell">很久以前</td><td class="en-cell">Long ago…</td><td class="freq-cell">43</td><td class="use-cell">故事开场 / 传说感</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">back then</span>"Do you know why I dumped you back then? Because you're way too graceless in how you play the game."</div>
+          <div class="zh">「你知道当年我为什么把你甩了吗？就是因为你做事情吃相太难看。」</div>
+          <div class="ctx">🎬 爱情没有神话 · back then = 当年那件事。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">years ago</span>"Two years ago you didn't know me, and two years from now I don't know who I'll meet — so I can't lie to you."</div>
+          <div class="zh">「两年之前你不认识我，两年以后我也不知道会认识谁——所以我不能骗你。」</div>
+          <div class="ctx">🎬 爱情没有神话 · ago / from now 对称，时间感极强。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">all along</span>"Those twenty thousand pieces were prepared for our Russian friends. We knew all along this was Chen Guangfa's setup."</div>
+          <div class="zh">「那两万件是给我们俄罗斯的朋友准备的，我们早就知道是陈广发设的局。」</div>
+          <div class="ctx">🎬 冬去春来 · all along = 原来/一直都知道。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ 叙事顺序轴 -->
+    <section id="g5" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>叙事顺序轴</h2>
+        <span class="section-tag">「一开始 → 后来 → 最终」</span>
+      </div>
+      <div class="section-desc">讲故事的骨架时间线——和「讲故事专题」直接对接。</div>
+      <div class="axis">
+        <span class="node">At first</span><span class="arrow">→</span>
+        <span class="node">Then / Later</span><span class="arrow">→</span>
+        <span class="node">Finally</span><span class="arrow">→</span>
+        <span class="node">In the end</span>
+      </div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">一开始</td><td class="en-cell">At first…</td><td class="freq-cell">11</td><td class="use-cell">故事起点（常接 but later）</td></tr>
+          <tr><td class="zh-cell">然后 / 后来</td><td class="en-cell">Then… / Later…</td><td class="freq-cell">547 / 69</td><td class="use-cell">推进下一拍</td></tr>
+          <tr><td class="zh-cell">最终 / 到最后</td><td class="en-cell">In the end… / Finally…</td><td class="freq-cell">45 / 88</td><td class="use-cell">收束结局</td></tr>
+          <tr><td class="zh-cell">与此同时</td><td class="en-cell">Meanwhile… / At the same time…</td><td class="freq-cell">2–6</td><td class="use-cell">双线并行（书面感略强）</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">at first</span>"At first I thought he liked me. I first noticed him on the basketball court—it was raining that day."</div>
+          <div class="zh">「一开始，我也以为他喜欢的人是我。我第一次注意到他是在篮球场上……」</div>
+          <div class="ctx">🎬 猎罪图鉴 · 标准叙事开场：At first + 具体那天。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">in the end</span>"He knows he can't afford to lose, so in the end he handed in the manuscript."</div>
+          <div class="zh">「他知道自己输不起，所以到最后还是把稿交了。」</div>
+          <div class="ctx">🎬 爱情没有神话 · in the end = 折腾完，落点。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：Tell me about a time… → <i>At first… Then… In the end…</i> 三拍讲完一段经历。</div>
+    </section>
+
+    <!-- ⑥ 一…就 -->
+    <section id="g6" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>一…就 / 立刻</h2>
+        <span class="section-tag">「一…就… / 马上 / 赶紧」</span>
+      </div>
+      <div class="section-desc">强调两个动作紧挨着——中文「一闭上眼就…」「一旦…就…」。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">一…就…</td><td class="en-cell">The moment <i>X</i>, …</td><td class="freq-cell">78*</td><td class="use-cell">*含 the moment 其他义；挑「一…就」</td></tr>
+          <tr><td class="zh-cell">一…就 / 尽快</td><td class="en-cell">As soon as <i>X</i>, …</td><td class="freq-cell">15</td><td class="use-cell">条件触发后立刻</td></tr>
+          <tr><td class="zh-cell">马上 / 赶紧</td><td class="en-cell">Right away… / Immediately…</td><td class="freq-cell">19 / 10</td><td class="use-cell">催促、立刻行动</td></tr>
+          <tr><td class="zh-cell">很快就…</td><td class="en-cell">…in no time</td><td class="freq-cell">18*</td><td class="use-cell">很快完成</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">the moment</span>"The moment I close my eyes, I see my mother in hysterics."</div>
+          <div class="zh">「我一闭上眼，就看到我妈那要死要活的样子。」</div>
+          <div class="ctx">🎬 爱情没有神话 · The moment = 中文「一…就」。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">right away</span>"If you're really all right, go see your dad right away."</div>
+          <div class="zh">「你要真可以的话，赶紧去看看你爸。」</div>
+          <div class="ctx">🎬 爱情没有神话 · right away = 赶紧 / 马上。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">in no time</span>"Don't fall asleep. I'll have the update out in no time — just give me twenty minutes."</div>
+          <div class="zh">「你别睡着了，我很快就更了，等我二十分钟，马上就更了。」</div>
+          <div class="ctx">🎬 爱情没有神话 · in no time = 很快就好。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑦ 持续与以来 -->
+    <section id="g7" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2>持续与以来</h2>
+        <span class="section-tag">「自从 / 一直 / 一段时间」</span>
+      </div>
+      <div class="section-desc">从某点开始拉一条线到现在——讲因果延续、旧伤、习惯。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">自从…</td><td class="en-cell">Ever since… / Since…</td><td class="freq-cell">15 / 191</td><td class="use-cell">从某事件起一直…</td></tr>
+          <tr><td class="zh-cell">一段时间</td><td class="en-cell">For a while…</td><td class="freq-cell">20</td><td class="use-cell">持续一小段</td></tr>
+          <tr><td class="zh-cell">每次都…</td><td class="en-cell">Every time…</td><td class="freq-cell">33</td><td class="use-cell">重复触发</td></tr>
+          <tr><td class="zh-cell">一直（总是）</td><td class="en-cell">All the time…</td><td class="freq-cell">12</td><td class="use-cell">高频持续</td></tr>
+          <tr><td class="zh-cell">直到…</td><td class="en-cell">Until… / Till…</td><td class="freq-cell">101 / 16</td><td class="use-cell">截止点</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">ever since</span>"Three months ago I got caught in the rain outside your door. … I've had pneumonia ever since—never quite recovered."</div>
+          <div class="zh">「三个月前在你们门口淋了场雨……得了肺炎，到现在还没好透。」</div>
+          <div class="ctx">🎬 繁花 · ever since = 从那以后一直。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">ever since</span>"Ever since Yan Kuangtu entrusted the Realm's Heroic Command to me, the jianghu has seen no end of blood and storm."</div>
+          <div class="zh">「自从燕狂徒将天下英雄令托付于我，江湖中便多了不少腥风血雨。」</div>
+          <div class="ctx">🎬 赴山海 · Ever since + 事件 → 持续后果。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">by the time</span>"Ranran, by the time you read this letter, I'll already be gone."</div>
+          <div class="zh">「冉冉，当你看到这封信的时候，我已经走了。」</div>
+          <div class="ctx">🎬 冬去春来 · by the time = 等你…的时候，已经…</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑧ 迟早与来不及 -->
+    <section id="g8" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">08</span>
+        <h2>迟早与来不及</h2>
+        <span class="section-tag">「迟早 / 及时 / 来不及 / 有一天」</span>
+      </div>
+      <div class="section-desc">不是钟表时间，是「态度时间」——预感、催促、后悔、展望。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文框架</th><th>频次</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">迟早 / 早晚</td><td class="en-cell">Sooner or later…</td><td class="freq-cell">14</td><td class="use-cell">必然会发生</td></tr>
+          <tr><td class="zh-cell">来不及 / 太晚了</td><td class="en-cell">It's too late. / …too late</td><td class="freq-cell">26</td><td class="use-cell">错过窗口</td></tr>
+          <tr><td class="zh-cell">及时</td><td class="en-cell">…in time</td><td class="freq-cell">18</td><td class="use-cell">赶在截止前</td></tr>
+          <tr><td class="zh-cell">有一天（展望/担心）</td><td class="en-cell">One day… / Someday…</td><td class="freq-cell">65 / 12</td><td class="use-cell">未来假设</td></tr>
+          <tr><td class="zh-cell">迷途知返</td><td class="en-cell">…before it's too late</td><td class="freq-cell">1</td><td class="use-cell">劝回头</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">sooner or later</span>"No idea. But sooner or later, she will."</div>
+          <div class="zh">「不知道，但是他早晚会知道。」</div>
+          <div class="ctx">🎬 爱情没有神话 · sooner or later = 迟早 / 早晚。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">too late</span>"You know you wrote it wrong—but it's too late now."</div>
+          <div class="zh">「你知道你写错了，但已经来不及了。」</div>
+          <div class="ctx">🎬 爱情没有神话 · too late = 来不及 / 悔之晚矣。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">in time</span>"Because I saw you pull back in time."</div>
+          <div class="zh">「因为我发现你及时收手了。」</div>
+          <div class="ctx">🎬 爱情没有神话 · in time = 及时（赶在酿成大错前）。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">one day</span>"If one day you found he had no talent left at all, would you still like him?"</div>
+          <div class="zh">「如果有一天你发现，他连才华也没有了，那你还会喜欢他吗？」</div>
+          <div class="ctx">🎬 爱情没有神话 · one day = 有一天（假设未来）。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">before it's too late</span>"Father, I hope you can turn back before it's too late."</div>
+          <div class="zh">「爹，孩儿希望你可以迷途知返，不要一直让我失望。」</div>
+          <div class="ctx">🎬 赴山海 · before it's too late = 趁还来得及。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：预感坏事 → <i>Sooner or later…</i>；后悔 → <i>It's too late.</i>；愿望 → <i>One day I hope…</i></div>
+    </section>
+
+    <section id="howto" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">用法</span>
+        <h2>怎么和别的手册配合</h2>
+      </div>
+      <div class="section-desc">
+        <p><b>开口组织法</b>定意图 → <b>本页</b>钉时间 → <b>讲故事专题</b>铺情节 → <b>话术手册</b>加转折/条件。时间钉是叙事的钉子，不是另一套 10 组目录。</p>
+      </div>
+      <div class="tip">💡 <b>练习</b>：用中文想一段「以前…现在…」的真实变化，强制用 <i>I used to… Now…</i> 说 30 秒；再补一条时间轴 <i>At first… In the end…</i>。</div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  从剧集双语台词提炼的时间表达专栏 · 频次 = 出现句数<br>
+  <a href="english-speak-flow.html">开口组织法</a> ·
+  <a href="english-storytelling.html">讲故事</a> ·
+  <a href="english-phrases.html">话术手册</a> ·
+  <a href="english-vocab.html">高频词</a> ·
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q || sec.textContent.toLowerCase().indexOf(q) > -1) {
+        sec.style.display = ''; visible++;
+      } else sec.style.display = 'none';
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
