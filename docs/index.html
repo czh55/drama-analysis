@@ -71,13 +71,59 @@
       padding: 0 24px 32px;
       flex-wrap: wrap;
     }
-    .phrasebook-row {
+    .phrasebook-hub {
       max-width: 1100px;
-      margin: 0 auto 32px;
+      margin: 0 auto 36px;
+      padding: 0 24px;
+    }
+    .hub-section {
+      margin-bottom: 28px;
+    }
+    .hub-section:last-child { margin-bottom: 0; }
+    .hub-heading {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+    .hub-heading h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+    .hub-heading p {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .hub-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      padding: 4px 10px;
+      margin-bottom: 6px;
+    }
+    .hub-badge.teach {
+      color: #60a5fa;
+      background: rgba(96,165,250,0.14);
+    }
+    .hub-badge.case {
+      color: #fbbf24;
+      background: rgba(251,191,36,0.14);
+    }
+    .phrasebook-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 12px;
-      padding: 0 24px;
+    }
+    .phrasebook-row.case-row {
+      grid-template-columns: 1fr;
     }
     .phrasebook-banner {
       padding: 16px 18px;
@@ -420,66 +466,89 @@
 <body>
   <div class="hero">
     <h1>剧集剧情总结墙</h1>
-    <p>追剧不只看热闹 · 每集关键情节、关键台词、人生启示，一页看懂</p>
+    <p>先选意图再找内容 · 教学专栏 / 实例专栏 / 剧集总结</p>
   </div>
 
-  <div class="phrasebook-row">
-    <a class="phrasebook-banner flow" href="english-speak-flow.html">
-      <span class="pb-icon">⚡</span>
-      <span class="pb-text">
-        <strong>英文开口组织法</strong>
-        <em>有手册不会用？6 意图 → 默认骨架，5 秒组织一句完整话</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <a class="phrasebook-banner" href="english-phrases.html">
-      <span class="pb-icon">🗣️</span>
-      <span class="pb-text">
-        <strong>英文话术手册</strong>
-        <em>10 大话术组 · 60+ 句子框架——课后查的「词典」</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <a class="phrasebook-banner vocab" href="english-vocab.html">
-      <span class="pb-icon">📚</span>
-      <span class="pb-text">
-        <strong>英文高频词手册</strong>
-        <em>9 类词库倒排 · 优先 40 词，最短时间拿下高频词</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <a class="phrasebook-banner story" href="english-storytelling.html">
-      <span class="pb-icon">📖</span>
-      <span class="pb-text">
-        <strong>英文讲故事专题</strong>
-        <em>7 段叙事逻辑 · 句型 + 关键词，提高讲生活故事的能力</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <a class="phrasebook-banner time" href="english-time.html">
-      <span class="pb-icon">⏱️</span>
-      <span class="pb-text">
-        <strong>英文时间表达专栏</strong>
-        <em>8 类时间钉 · 以前现在 / 迟早来不及，把经历钉在时间轴上</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <a class="phrasebook-banner daily" href="english-daily.html">
-      <span class="pb-icon">💬</span>
-      <span class="pb-text">
-        <strong>日常对话 10 场景</strong>
-        <em>道歉感谢请求拒绝安慰…生活最高频句式，认场景就能开口</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
-    <a class="phrasebook-banner exam" href="english-exam-ad.html">
-      <span class="pb-icon">📝</span>
-      <span class="pb-text">
-        <strong>外教考题实战 · 有趣的广告</strong>
-        <em>真题完整答法：审题→七拍→样例→追问，演示如何调用全套手册</em>
-      </span>
-      <span class="pb-arrow">→</span>
-    </a>
+  <div class="phrasebook-hub">
+    <div class="hub-section">
+      <div class="hub-heading">
+        <div>
+          <span class="hub-badge teach">Teaching</span>
+          <h2>教学专栏</h2>
+          <p>方法论手册与表达工具箱，适合按问题进入、课后查用</p>
+        </div>
+      </div>
+      <div class="phrasebook-row">
+        <a class="phrasebook-banner flow" href="english-speak-flow.html">
+          <span class="pb-icon">⚡</span>
+          <span class="pb-text">
+            <strong>英文开口组织法</strong>
+            <em>6 意图 → 默认骨架，5 秒组织一句完整话</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+        <a class="phrasebook-banner" href="english-phrases.html">
+          <span class="pb-icon">🗣️</span>
+          <span class="pb-text">
+            <strong>英文话术手册</strong>
+            <em>10 大话术组 · 60+ 句子框架——课后查的「词典」</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+        <a class="phrasebook-banner vocab" href="english-vocab.html">
+          <span class="pb-icon">📚</span>
+          <span class="pb-text">
+            <strong>英文高频词手册</strong>
+            <em>9 类词库倒排 · 优先 40 词，最短时间拿下高频词</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+        <a class="phrasebook-banner story" href="english-storytelling.html">
+          <span class="pb-icon">📖</span>
+          <span class="pb-text">
+            <strong>英文讲故事专题</strong>
+            <em>7 段叙事逻辑 · 句型 + 关键词，提高讲生活故事的能力</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+        <a class="phrasebook-banner time" href="english-time.html">
+          <span class="pb-icon">⏱️</span>
+          <span class="pb-text">
+            <strong>英文时间表达专栏</strong>
+            <em>8 类时间钉 · 以前现在 / 迟早来不及，把经历钉在时间轴上</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+        <a class="phrasebook-banner daily" href="english-daily.html">
+          <span class="pb-icon">💬</span>
+          <span class="pb-text">
+            <strong>日常对话 10 场景</strong>
+            <em>道歉感谢请求拒绝安慰…生活最高频句式，认场景就能开口</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hub-section">
+      <div class="hub-heading">
+        <div>
+          <span class="hub-badge case">Case Study</span>
+          <h2>实例专栏</h2>
+          <p>真题完整答法，演示如何调用上方教学手册——学完工具后来这里练</p>
+        </div>
+      </div>
+      <div class="phrasebook-row case-row">
+        <a class="phrasebook-banner exam" href="english-exam-ad.html">
+          <span class="pb-icon">📝</span>
+          <span class="pb-text">
+            <strong>外教考题实战 · 有趣的广告</strong>
+            <em>真题完整答法：审题→七拍→样例→追问，演示如何调用全套手册</em>
+          </span>
+          <span class="pb-arrow">→</span>
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="stats-bar" id="statsBar">
