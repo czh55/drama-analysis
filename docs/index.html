@@ -71,9 +71,15 @@
       padding: 0 24px 32px;
       flex-wrap: wrap;
     }
-    .phrasebook-banner {
+    .phrasebook-row {
       max-width: 900px;
       margin: 0 auto 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      padding: 0 24px;
+    }
+    .phrasebook-banner {
       padding: 16px 18px;
       display: flex;
       align-items: center;
@@ -85,9 +91,16 @@
       color: inherit;
       transition: border-color 0.25s ease, transform 0.25s ease;
     }
+    .phrasebook-banner.vocab {
+      border-color: rgba(167,139,250,0.28);
+      background: linear-gradient(135deg, rgba(167,139,250,0.12), rgba(52,211,153,0.08));
+    }
     .phrasebook-banner:hover {
       border-color: rgba(96,165,250,0.5);
       transform: translateY(-2px);
+    }
+    .phrasebook-banner.vocab:hover {
+      border-color: rgba(167,139,250,0.55);
     }
     .phrasebook-banner .pb-icon {
       flex-shrink: 0;
@@ -100,17 +113,20 @@
       font-size: 24px;
       background: rgba(96,165,250,0.15);
     }
+    .phrasebook-banner.vocab .pb-icon {
+      background: rgba(167,139,250,0.18);
+    }
     .phrasebook-banner .pb-text { flex: 1; min-width: 0; }
     .phrasebook-banner .pb-text strong {
       display: block;
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 800;
       margin-bottom: 2px;
     }
     .phrasebook-banner .pb-text em {
       display: block;
       font-style: normal;
-      font-size: 13px;
+      font-size: 12.5px;
       color: var(--text-secondary);
       line-height: 1.5;
     }
@@ -119,6 +135,9 @@
       color: var(--accent);
       font-size: 20px;
       font-weight: 700;
+    }
+    @media (max-width: 720px) {
+      .phrasebook-row { grid-template-columns: 1fr; }
     }
     .stat-item { text-align: center; }
     .stat-num {
@@ -354,14 +373,24 @@
     <p>追剧不只看热闹 · 每集关键情节、关键台词、人生启示，一页看懂</p>
   </div>
 
-  <a class="phrasebook-banner" href="english-phrases.html">
-    <span class="pb-icon">🗣️</span>
-    <span class="pb-text">
-      <strong>英文话术手册</strong>
-      <em>从 14,294 句台词提炼 · 10 大话术组 · 60+ 英文句子框架，学完和外教沟通不再卡壳</em>
-    </span>
-    <span class="pb-arrow">→</span>
-  </a>
+  <div class="phrasebook-row">
+    <a class="phrasebook-banner" href="english-phrases.html">
+      <span class="pb-icon">🗣️</span>
+      <span class="pb-text">
+        <strong>英文话术手册</strong>
+        <em>10 大话术组 · 60+ 句子框架，先解决「怎么起头」</em>
+      </span>
+      <span class="pb-arrow">→</span>
+    </a>
+    <a class="phrasebook-banner vocab" href="english-vocab.html">
+      <span class="pb-icon">📚</span>
+      <span class="pb-text">
+        <strong>英文高频词手册</strong>
+        <em>9 类词库倒排 · 优先 40 词，最短时间拿下高频词</em>
+      </span>
+      <span class="pb-arrow">→</span>
+    </a>
+  </div>
 
   <div class="stats-bar" id="statsBar">
     <div class="stat-item"><div class="stat-num" id="totalCount">0</div><div class="stat-label">已总结集数</div></div>
