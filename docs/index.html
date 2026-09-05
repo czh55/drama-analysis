@@ -107,6 +107,10 @@
       border-color: rgba(34,211,238,0.30);
       background: linear-gradient(135deg, rgba(34,211,238,0.12), rgba(96,165,250,0.08));
     }
+    .phrasebook-banner.daily {
+      border-color: rgba(251,113,133,0.30);
+      background: linear-gradient(135deg, rgba(251,113,133,0.12), rgba(167,139,250,0.08));
+    }
     .phrasebook-banner:hover {
       border-color: rgba(96,165,250,0.5);
       transform: translateY(-2px);
@@ -122,6 +126,9 @@
     }
     .phrasebook-banner.time:hover {
       border-color: rgba(34,211,238,0.55);
+    }
+    .phrasebook-banner.daily:hover {
+      border-color: rgba(251,113,133,0.55);
     }
     .phrasebook-banner .pb-icon {
       flex-shrink: 0;
@@ -145,6 +152,9 @@
     }
     .phrasebook-banner.time .pb-icon {
       background: rgba(34,211,238,0.18);
+    }
+    .phrasebook-banner.daily .pb-icon {
+      background: rgba(251,113,133,0.18);
     }
     .phrasebook-banner .pb-text { flex: 1; min-width: 0; }
     .phrasebook-banner .pb-text strong {
@@ -441,6 +451,14 @@
       <span class="pb-text">
         <strong>英文时间表达专栏</strong>
         <em>8 类时间钉 · 以前现在 / 迟早来不及，把经历钉在时间轴上</em>
+      </span>
+      <span class="pb-arrow">→</span>
+    </a>
+    <a class="phrasebook-banner daily" href="english-daily.html">
+      <span class="pb-icon">💬</span>
+      <span class="pb-text">
+        <strong>日常对话 10 场景</strong>
+        <em>道歉感谢请求拒绝安慰…生活最高频句式，认场景就能开口</em>
       </span>
       <span class="pb-arrow">→</span>
     </a>

@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文日常对话 10 场景 · 从剧集台词提炼</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --rose: #fb7185;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --tag-rose: rgba(251,113,133,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg); min-height: 100vh; color: var(--text); line-height: 1.7;
+  }
+  .hero {
+    position: relative; padding: 56px 24px 40px; text-align: center;
+    overflow: hidden; border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: 50%;
+    width: 920px; height: 920px;
+    background: radial-gradient(circle, rgba(251,113,133,0.12) 0%, rgba(167,139,250,0.08) 40%, transparent 70%);
+    transform: translate(-50%, -50%); pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--rose); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+    background: linear-gradient(135deg, #fb7185 0%, #a78bfa 45%, #60a5fa 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 720px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--rose); box-shadow: 0 0 0 3px rgba(251,113,133,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none; border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-rose); color: var(--rose); border-left-color: var(--rose); font-weight: 600;
+  }
+  .sidebar .side-sub {
+    font-size: 12px; color: var(--text-muted); padding: 10px 10px 2px;
+    font-weight: 600; letter-spacing: 0.05em;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--rose);
+    background: var(--tag-rose); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; }
+  .section-tag {
+    font-size: 13px; color: var(--accent2); background: var(--tag-purple);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 8px; font-size: 14px; color: var(--text-secondary); }
+  .section-desc b { color: var(--text); }
+
+  .scene-map {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 8px; padding: 4px 22px 20px;
+  }
+  .scene-map a {
+    display: block; text-decoration: none; border: 1px solid var(--border);
+    border-radius: 10px; padding: 10px 12px; background: var(--surface-2);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .scene-map a:hover { border-color: rgba(251,113,133,0.45); background: var(--tag-rose); }
+  .scene-map .n { font-size: 11px; font-weight: 800; color: var(--rose); letter-spacing: 0.06em; }
+  .scene-map .t { font-size: 14px; font-weight: 700; color: var(--text); margin-top: 2px; }
+  .scene-map .e { font-size: 12px; color: var(--text-muted); margin-top: 2px; font-family: "SF Pro", "Segoe UI", sans-serif; }
+
+  .frame-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .frame-table th {
+    text-align: left; padding: 10px 18px; font-size: 12px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted);
+    border-bottom: 1px solid var(--border); background: var(--surface-2);
+  }
+  .frame-table td { padding: 11px 18px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .frame-table tr:hover td { background: var(--card-hover); }
+  .zh-cell { color: var(--text); font-weight: 600; width: 28%; }
+  .en-cell {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    color: #fecdd3; font-size: 14.5px; font-weight: 600;
+  }
+  .en-cell i { color: #a5b4fc; font-style: italic; }
+  .use-cell { color: var(--text-muted); font-size: 13px; }
+
+  .examples { padding: 6px 22px 16px; }
+  .examples-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); margin: 8px 0 10px;
+  }
+  .example {
+    border: 1px solid var(--border); border-radius: 12px; padding: 13px 16px;
+    margin-bottom: 10px; background: var(--surface-2);
+  }
+  .example .en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 15px; color: #e0e7ff; line-height: 1.65;
+  }
+  .example .zh { font-size: 13px; color: var(--text-secondary); margin-top: 5px; }
+  .example .ctx {
+    font-size: 12.5px; color: var(--text-muted); margin-top: 8px;
+    padding-top: 8px; border-top: 1px dashed var(--border);
+  }
+  .frame-hit {
+    display: inline-block; font-size: 11px; font-weight: 600; color: var(--rose);
+    background: var(--tag-rose); border-radius: 6px; padding: 1px 7px; margin-right: 6px; vertical-align: 1px;
+  }
+
+  .tip {
+    margin: 0 22px 20px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+  .tip i { color: #fecdd3; font-style: italic; }
+
+  .pocket {
+    margin: 4px 22px 22px; border: 1px solid rgba(251,113,133,0.3); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(251,113,133,0.10), rgba(167,139,250,0.08));
+    padding: 18px 20px;
+  }
+  .pocket h3 { font-size: 15px; font-weight: 800; color: var(--rose); margin-bottom: 12px; }
+  .pocket ol { padding-left: 18px; color: var(--text-secondary); font-size: 14px; columns: 2; column-gap: 28px; }
+  .pocket li { margin-bottom: 8px; break-inside: avoid; }
+  .pocket b {
+    font-family: "SF Pro", "Segoe UI", sans-serif; color: #fecdd3; font-weight: 700;
+  }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .frame-table .use-cell { display: none; }
+    .pocket ol { columns: 1; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Daily Dialogue · Top 10</div>
+    <h1>日常对话 10 场景</h1>
+    <p class="hero-sub">从全部剧集双语台词里，汇总生活中最高频的 10 个对话场景与可直接套用的句式——道歉、感谢、请求、拒绝、安慰……和外教聊天时，先认场景，再套默认句。</p>
+    <div class="hero-meta">
+      <span class="chip">🎬 语料 <b>全剧汇总</b></span>
+      <span class="chip">🗣️ 场景 <b>10 个</b></span>
+      <span class="chip">🧩 默认句式 <b>每场景 3–5 条</b></span>
+      <span class="chip">🔗 对接 <b>开口组织法</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-speak-flow.html">开口组织法</a>
+      <a href="english-phrases.html">话术手册</a>
+      <a href="english-time.html">时间表达</a>
+      <a href="english-storytelling.html">讲故事</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索场景或句式：道歉 / don't worry / can you / I mean / 拒绝…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#map">10 场景速览</a>
+    <a href="#pocket">上场口袋卡</a>
+    <div class="side-sub">场景</div>
+    <a href="#s1">① 道歉</a>
+    <a href="#s2">② 感谢</a>
+    <a href="#s3">③ 请求帮忙</a>
+    <a href="#s4">④ 拒绝</a>
+    <a href="#s5">⑤ 安慰鼓励</a>
+    <a href="#s6">⑥ 建议劝说</a>
+    <a href="#s7">⑦ 同意理解</a>
+    <a href="#s8">⑧ 确认追问</a>
+    <a href="#s9">⑨ 承诺保证</a>
+    <a href="#s10">⑩ 解释澄清</a>
+  </nav>
+
+  <main>
+
+    <section id="map" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">地图</span>
+        <h2>10 场景速览</h2>
+      </div>
+      <div class="section-desc">
+        <p>这 10 个场景覆盖外教日常对话的绝大多数回合：先认「这一轮是哪类社交动作」，再套默认句——不必临时发明语法。</p>
+      </div>
+      <div class="scene-map">
+        <a href="#s1"><div class="n">01</div><div class="t">道歉</div><div class="e">I'm sorry</div></a>
+        <a href="#s2"><div class="n">02</div><div class="t">感谢</div><div class="e">Thank you for…</div></a>
+        <a href="#s3"><div class="n">03</div><div class="t">请求帮忙</div><div class="e">Can / Could you…</div></a>
+        <a href="#s4"><div class="n">04</div><div class="t">拒绝</div><div class="e">I'd rather not</div></a>
+        <a href="#s5"><div class="n">05</div><div class="t">安慰鼓励</div><div class="e">Don't worry</div></a>
+        <a href="#s6"><div class="n">06</div><div class="t">建议劝说</div><div class="e">How about…</div></a>
+        <a href="#s7"><div class="n">07</div><div class="t">同意理解</div><div class="e">I get it</div></a>
+        <a href="#s8"><div class="n">08</div><div class="t">确认追问</div><div class="e">Are you sure?</div></a>
+        <a href="#s9"><div class="n">09</div><div class="t">承诺保证</div><div class="e">I promise</div></a>
+        <a href="#s10"><div class="n">10</div><div class="t">解释澄清</div><div class="e">I mean…</div></a>
+      </div>
+    </section>
+
+    <section id="pocket" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">口袋</span>
+        <h2>上场口袋卡 · 每场景 1 句</h2>
+      </div>
+      <div class="section-desc">课前 2 分钟过一遍；开口时认场景 → 甩默认句 → 再用中文意思填空。</div>
+      <div class="pocket">
+        <h3>10 句最小装备</h3>
+        <ol>
+          <li>道歉 → <b>I'm sorry — I was wrong.</b></li>
+          <li>感谢 → <b>Thank you for…</b></li>
+          <li>请求 → <b>Could you…?</b></li>
+          <li>拒绝 → <b>I'd rather not. / I'm afraid I can't.</b></li>
+          <li>安慰 → <b>Don't worry — it'll be okay.</b></li>
+          <li>建议 → <b>How about…? / You should…</b></li>
+          <li>同意 → <b>You're right. / I get it.</b></li>
+          <li>确认 → <b>Are you sure? / What do you mean?</b></li>
+          <li>承诺 → <b>I promise. / Trust me.</b></li>
+          <li>澄清 → <b>I mean… / It's not that…</b></li>
+        </ol>
+      </div>
+      <div class="tip">💡 <b>和开口组织法配合</b>：组织法管「这一轮意图」（表态/选择/解释…）；本页管「社交动作」（道歉/请求/安慰…）。两套叠用：先认社交动作，再套组织法骨架加深度。</div>
+    </section>
+
+    <!-- ① 道歉 -->
+    <section id="s1" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>道歉</h2>
+        <span class="section-tag">「对不起 / 我错了 / 不好意思」</span>
+      </div>
+      <div class="section-desc">最短路径：先认错，再补一句原因或补救。别只说 Sorry 就停。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">对不起</td><td class="en-cell">I'm sorry.</td><td class="use-cell">基础道歉</td></tr>
+          <tr><td class="zh-cell">对不起，我错了</td><td class="en-cell">I'm sorry — I was wrong.</td><td class="use-cell">认错加码</td></tr>
+          <tr><td class="zh-cell">不好意思，是我误会了</td><td class="en-cell">I'm sorry — I misunderstood you.</td><td class="use-cell">澄清误会</td></tr>
+          <tr><td class="zh-cell">没帮上忙，对不起</td><td class="en-cell">I'm sorry. I couldn't help you at all.</td><td class="use-cell">无力感道歉</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I'm sorry</span>"I'm sorry. I'm sorry—I was wrong."</div>
+          <div class="zh">「对不起，对不起，我错了。」</div>
+          <div class="ctx">🎬 闪曜的她 · 连说两遍 + I was wrong，态度最干净。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I'm sorry</span>"I'm sorry — I misunderstood you." "It's fine. I'm generous that way."</div>
+          <div class="zh">「不好意思啊，是我误会你了。」「没关系，我大人有大量。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 道歉 + 对方给台阶 It's fine。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I'm sorry</span>"I'm sorry. I couldn't help you at all."</div>
+          <div class="zh">「对不起，我什么都没能帮到你。」</div>
+          <div class="ctx">🎬 赴山海 · 没帮上忙的歉意。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：迟到 / 说错话 → <i>I'm sorry I'm late.</i> / <i>I'm sorry — I didn't mean it that way.</i></div>
+    </section>
+
+    <!-- ② 感谢 -->
+    <section id="s2" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>感谢</h2>
+        <span class="section-tag">「谢谢 / 多亏你…」</span>
+      </div>
+      <div class="section-desc">Thank you 后面加 <b>for + 具体事</b>，立刻比光说 thanks 更像母语者。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">谢谢</td><td class="en-cell">Thank you. / Thanks.</td><td class="use-cell">基础</td></tr>
+          <tr><td class="zh-cell">谢谢你帮我…</td><td class="en-cell">Thank you for <i>helping me / coming / …</i>.</td><td class="use-cell">点名事由</td></tr>
+          <tr><td class="zh-cell">谢谢你的好意（但不用）</td><td class="en-cell">Thanks, but no thanks.</td><td class="use-cell">谢绝好意</td></tr>
+          <tr><td class="zh-cell">多谢照顾</td><td class="en-cell">Thank you for looking after <i>X</i>.</td><td class="use-cell">感谢照料</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Thank you for</span>"Thank you for playing along with the act tonight."</div>
+          <div class="zh">「谢谢你啊，今天陪我演戏。」</div>
+          <div class="ctx">🎬 爱情没有神话 · for + 具体事。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Thanks, but</span>"My assistant is mine to take care of. Thanks, but no thanks."</div>
+          <div class="zh">「我的助理我来照顾，谢谢你的好意。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 礼貌拒绝帮忙。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Thank you for</span>"Thank you for looking after Yan Zheng."</div>
+          <div class="zh">「多谢你们照顾言正。」</div>
+          <div class="ctx">🎬 珠玉 · 感谢照料某人。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ③ 请求 -->
+    <section id="s3" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>请求帮忙</h2>
+        <span class="section-tag">「能不能 / 帮我 / 拜托」</span>
+      </div>
+      <div class="section-desc">Could you 比 Can you 更软；Would you 更正式。外教场景优先 Could you。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">能不能…？</td><td class="en-cell">Can you…? / Could you…?</td><td class="use-cell">Could 更礼貌</td></tr>
+          <tr><td class="zh-cell">帮我想想办法</td><td class="en-cell">Can you please think of something for me?</td><td class="use-cell">求助</td></tr>
+          <tr><td class="zh-cell">能不能带着我做…</td><td class="en-cell">Could you take me on—show me the ropes?</td><td class="use-cell">求带教</td></tr>
+          <tr><td class="zh-cell">你会全力帮我吗？</td><td class="en-cell">Will you go all out to help me?</td><td class="use-cell">确认力度</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Can you</span>"Can you please think of something for me?"</div>
+          <div class="zh">「能不能再帮我想想办法呢？」</div>
+          <div class="ctx">🎬 冬去春来 · please 加软。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Could you</span>"Could you take me on—show me the ropes?"</div>
+          <div class="zh">「能不能带着我做点事情？」</div>
+          <div class="ctx">🎬 冬去春来 · 求带路 / 带教。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Can you come</span>"I've got an appointment…—can you come pick me up?"</div>
+          <div class="zh">「……你能不能来接我？」</div>
+          <div class="ctx">🎬 爱情没有神话 · 具体请求：来接我。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：<i>Could you say that again?</i> / <i>Could you speak a bit slower?</i>——课堂救命两句。</div>
+    </section>
+
+    <!-- ④ 拒绝 -->
+    <section id="s4" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>拒绝</h2>
+        <span class="section-tag">「不行 / 算了 / 我才不要」</span>
+      </div>
+      <div class="section-desc">对外教优先「软拒绝」：先给台阶，再否。硬拒绝留给熟人玩笑。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">恐怕不行</td><td class="en-cell">I'm afraid I can't.</td><td class="use-cell">软拒绝首选</td></tr>
+          <tr><td class="zh-cell">我还是不要了</td><td class="en-cell">I'd rather not.</td><td class="use-cell">委婉拒绝</td></tr>
+          <tr><td class="zh-cell">算了</td><td class="en-cell">Forget it. / Never mind.</td><td class="use-cell">收回话题</td></tr>
+          <tr><td class="zh-cell">我才不要</td><td class="en-cell">No way. I'd rather just stay who I am.</td><td class="use-cell">硬拒绝 + 理由</td></tr>
+          <tr><td class="zh-cell">谢谢好意（但不用）</td><td class="en-cell">Thanks, but no thanks.</td><td class="use-cell">谢绝帮忙</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">No way</span>"No way. I'd rather just stay exactly who I am."</div>
+          <div class="zh">「我才不要呢，我就还是我自己这个样子。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 硬拒绝 + I'd rather 给理由。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">forget it</span>"Stop the car—forget it."</div>
+          <div class="zh">「别开了，算了。」</div>
+          <div class="ctx">🎬 小夫妻 · Forget it = 算了。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：不想加班 / 不想喝酒 → <i>I'd rather not tonight — I'm pretty tired.</i></div>
+    </section>
+
+    <!-- ⑤ 安慰 -->
+    <section id="s5" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>安慰鼓励</h2>
+        <span class="section-tag">「别担心 / 没事 / 放心」</span>
+      </div>
+      <div class="section-desc">对方焦虑时：先 Don't worry，再给一句具体安抚（交给我 / 会好的 / 不是你的错）。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">别担心 / 放心</td><td class="en-cell">Don't worry.</td><td class="use-cell">万能开头</td></tr>
+          <tr><td class="zh-cell">放心，交给我</td><td class="en-cell">Don't worry — leave it to me.</td><td class="use-cell">揽责安抚</td></tr>
+          <tr><td class="zh-cell">我挺好的，你放心</td><td class="en-cell">I'm doing fine — don't worry.</td><td class="use-cell">反向安慰对方</td></tr>
+          <tr><td class="zh-cell">不是你的错</td><td class="en-cell">It's not your fault.</td><td class="use-cell">卸责</td></tr>
+          <tr><td class="zh-cell">没事</td><td class="en-cell">It's fine. / It's okay.</td><td class="use-cell">大事化小</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Don't worry</span>"Don't worry—leave it to me."</div>
+          <div class="zh">「放心，交给我吧。」</div>
+          <div class="ctx">🎬 问心2 · 最短安慰组合。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">don't worry</span>"I'm doing fine—don't worry."</div>
+          <div class="zh">「我挺好的，你放心。」</div>
+          <div class="ctx">🎬 小夫妻 · 自己报平安。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">not your fault</span>"I fell by myself—it's not your fault."</div>
+          <div class="zh">「我自己摔的，不关你。」</div>
+          <div class="ctx">🎬 小夫妻 · 替对方卸责。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑥ 建议 -->
+    <section id="s6" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>建议劝说</h2>
+        <span class="section-tag">「你应该 / 不如 / 要不」</span>
+      </div>
+      <div class="section-desc">How about 最软；You should 直接；Why don't you 像商量。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">要不…？</td><td class="en-cell">How about <i>we / you</i>…?</td><td class="use-cell">提议首选</td></tr>
+          <tr><td class="zh-cell">你应该…</td><td class="en-cell">You should…</td><td class="use-cell">明确建议</td></tr>
+          <tr><td class="zh-cell">你得…</td><td class="en-cell">You need to…</td><td class="use-cell">更强一点</td></tr>
+          <tr><td class="zh-cell">为什么不…？</td><td class="en-cell">Why don't you…?</td><td class="use-cell">反问式建议</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">How about</span>"How about we go see a movie — reset a little?"</div>
+          <div class="zh">「要不咱俩去看一下电影，重置一下？」</div>
+          <div class="ctx">🎬 爱情没有神话 · How about we = 中文「要不咱俩」。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">you should</span>"I think you should still let Lawyer Bei walk you through it."</div>
+          <div class="zh">「我觉得你还是听贝律师简单地说一下……」</div>
+          <div class="ctx">🎬 爱情没有神话 · I think you should = 软一点的应该。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">you need to</span>"No matter what, you need to hold the line."</div>
+          <div class="zh">「不管怎么样，你得要守住边界。」</div>
+          <div class="ctx">🎬 问心2 · need to = 你得。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑦ 同意 -->
+    <section id="s7" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2>同意理解</h2>
+        <span class="section-tag">「说得对 / 我懂 / 当然」</span>
+      </div>
+      <div class="section-desc">听懂对方时先接住：I get it / You're right，再补自己的观点——对应开口组织法「先让步再转折」。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我懂 / 明白</td><td class="en-cell">I get it. / I understand.</td><td class="use-cell">接住对方</td></tr>
+          <tr><td class="zh-cell">你说得对</td><td class="en-cell">You're right.</td><td class="use-cell">明确同意</td></tr>
+          <tr><td class="zh-cell">当然</td><td class="en-cell">Of course.</td><td class="use-cell">爽快附和</td></tr>
+          <tr><td class="zh-cell">正是如此</td><td class="en-cell">Exactly.</td><td class="use-cell">强调共鸣</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I understand</span>"I understand — you have spine. … We'll talk again later."</div>
+          <div class="zh">「我明白，你是有骨气的。……我们找时间再聊。」</div>
+          <div class="ctx">🎬 爱情没有神话 · 先理解，再推进。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Of course</span>"Willing? Of course I'm willing!"</div>
+          <div class="zh">「愿意啊，我当然愿意了！」</div>
+          <div class="ctx">🎬 玫瑰的故事 · Of course 加强语气。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I get it</span>"I get it. But what I mean is—I'm not going to stop pursuing you."</div>
+          <div class="zh">「我懂。但我的意思是，我就不会放弃追你了。」</div>
+          <div class="ctx">🎬 爱情没有神话 · I get it + But = 让步再转折。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑧ 确认 -->
+    <section id="s8" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">08</span>
+        <h2>确认追问</h2>
+        <span class="section-tag">「真的吗 / 你确定 / 什么意思」</span>
+      </div>
+      <div class="section-desc">没听清或觉得夸张时用——比沉默点头安全得多。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">你确定吗？</td><td class="en-cell">Are you sure?</td><td class="use-cell">确认决定</td></tr>
+          <tr><td class="zh-cell">真的吗？</td><td class="en-cell">Really?</td><td class="use-cell">惊讶 / 求证</td></tr>
+          <tr><td class="zh-cell">什么意思？</td><td class="en-cell">What do you mean?</td><td class="use-cell">没听懂 / 质疑</td></tr>
+          <tr><td class="zh-cell">你是认真的吗？</td><td class="en-cell">Are you serious?</td><td class="use-cell">确认认真程度</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Are you sure</span>"Director Lin, are you sure?" "I'm sure."</div>
+          <div class="zh">「林主任，你确定吗？」「我确定。」</div>
+          <div class="ctx">🎬 问心2 · 最短确认对答。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Are you sure</span>"Are you serious about getting married? Are you sure you won't regret it?"</div>
+          <div class="zh">「你要结婚是认真的吗？你真的不后悔？」</div>
+          <div class="ctx">🎬 玫瑰的故事 · Are you serious + Are you sure 双确认。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Really?</span>"I can cook you some Chinese food." "Really? I love spicy food."</div>
+          <div class="zh">「我可以给你煮一些中国菜。」「真的吗？我喜欢吃辣椒。」</div>
+          <div class="ctx">🎬 玫瑰的故事 · Really? 接住惊喜。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：没听清别装懂 → <i>What do you mean by that?</i> / <i>Sorry, are you saying…?</i></div>
+    </section>
+
+    <!-- ⑨ 承诺 -->
+    <section id="s9" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">09</span>
+        <h2>承诺保证</h2>
+        <span class="section-tag">「我保证 / 相信我 / 我发誓」</span>
+      </div>
+      <div class="section-desc">I promise 日常够用；I swear 语气更重。Trust me 常跟在承诺后面。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我保证…</td><td class="en-cell">I promise…</td><td class="use-cell">日常承诺</td></tr>
+          <tr><td class="zh-cell">相信我</td><td class="en-cell">Trust me.</td><td class="use-cell">求信任</td></tr>
+          <tr><td class="zh-cell">我发誓…</td><td class="en-cell">I swear…</td><td class="use-cell">加重语气</td></tr>
+          <tr><td class="zh-cell">我答应你…，你放心</td><td class="en-cell">I promise you… Rest easy. / Don't worry.</td><td class="use-cell">承诺 + 安慰</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I promise</span>"I promise you, we'll save them. Rest easy."</div>
+          <div class="zh">「我答应你，救下爹娘。你放心。」</div>
+          <div class="ctx">🎬 赴山海 · 承诺 + 让对方放心。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I promise</span>"I promise—if I'm lying to you, I'm a puppy."</div>
+          <div class="zh">「我保证，如果我骗你我是小狗。」</div>
+          <div class="ctx">🎬 小夫妻 · 口语发誓（中式幽默）。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Trust me</span>"I'm a lawyer — trust me, I've seen every kind of impossible client."</div>
+          <div class="zh">「我是个律师，你要相信我……」</div>
+          <div class="ctx">🎬 爱情没有神话 · Trust me + 资历背书。</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑩ 解释 -->
+    <section id="s10" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">10</span>
+        <h2>解释澄清</h2>
+        <span class="section-tag">「我是说 / 不是那个意思 / 听我解释」</span>
+      </div>
+      <div class="section-desc">说砸了或被误解时的自救组——和话术手册「I mean / In other words」同一家族。</div>
+      <table class="frame-table">
+        <thead><tr><th>中文</th><th>英文句式</th><th class="use-cell">用法</th></tr></thead>
+        <tbody>
+          <tr><td class="zh-cell">我是说…</td><td class="en-cell">I mean…</td><td class="use-cell">修正 / 重说</td></tr>
+          <tr><td class="zh-cell">不是…，是…</td><td class="en-cell">It's not that <i>X</i> — it's <i>Y</i>.</td><td class="use-cell">纠正误解</td></tr>
+          <tr><td class="zh-cell">听我解释</td><td class="en-cell">Let me explain.</td><td class="use-cell">求发言权</td></tr>
+          <tr><td class="zh-cell">换句话说</td><td class="en-cell">In other words…</td><td class="use-cell">换说法</td></tr>
+        </tbody>
+      </table>
+      <div class="examples">
+        <div class="examples-title">语料实例</div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">It's not that</span>"It's not that I don't want a divorce—I can't get one."</div>
+          <div class="zh">「我不是不想离婚，我是不能离婚。」</div>
+          <div class="ctx">🎬 我的前半生 · It's not that X — (it's that) Y 经典纠偏。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">It's not that</span>"It's not that I didn't try to win you back—I didn't dare."</div>
+          <div class="zh">「不是没有挽回，是不敢。」</div>
+          <div class="ctx">🎬 问心2 · 同一骨架，极短有力。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">Let me explain</span>"Huang Yimei, let me explain. This may not be what you think."</div>
+          <div class="zh">「……我想跟你解释一下，这事可能不是你想象的那样。」</div>
+          <div class="ctx">🎬 玫瑰的故事 · 被误解时先要发言权。</div>
+        </div>
+        <div class="example">
+          <div class="en"><span class="frame-hit">I mean</span>"I don't mean the cafe. I mean Sanmei."</div>
+          <div class="zh">「我说的不是网吧，我说的是三妹。」</div>
+          <div class="ctx">🎬 爱情没有神话 · I mean 纠正指代。</div>
+        </div>
+      </div>
+      <div class="tip">💡 <b>外教速用</b>：词卡壳 → <i>I mean…</i>；对方理解偏了 → <i>It's not that… It's just that…</i></div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  从全部剧集双语台词汇总的日常对话 10 场景 · 例句均为语料原文<br>
+  <a href="english-speak-flow.html">开口组织法</a> ·
+  <a href="english-phrases.html">话术手册</a> ·
+  <a href="english-time.html">时间表达</a> ·
+  <a href="english-storytelling.html">讲故事</a> ·
+  <a href="english-vocab.html">高频词</a> ·
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q || sec.textContent.toLowerCase().indexOf(q) > -1) {
+        sec.style.display = ''; visible++;
+      } else sec.style.display = 'none';
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
