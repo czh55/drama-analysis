@@ -71,7 +71,7 @@
       padding: 0 24px 32px;
       flex-wrap: wrap;
     }
-    .phrasebook-hub {
+    .english-hub {
       max-width: 1100px;
       margin: 0 auto 36px;
       padding: 0 24px;
@@ -79,51 +79,47 @@
     .hub-section {
       margin-bottom: 28px;
     }
-    .hub-section:last-child { margin-bottom: 0; }
     .hub-heading {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 12px;
       margin-bottom: 14px;
-      flex-wrap: wrap;
-    }
-    .hub-heading h2 {
-      font-size: 20px;
-      font-weight: 800;
-      color: var(--text);
-      letter-spacing: -0.01em;
-    }
-    .hub-heading p {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-top: 4px;
     }
     .hub-badge {
       display: inline-block;
       font-size: 11px;
       font-weight: 800;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
       border-radius: 999px;
       padding: 4px 10px;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
     }
     .hub-badge.teach {
-      color: #60a5fa;
+      color: #93c5fd;
       background: rgba(96,165,250,0.14);
     }
     .hub-badge.case {
       color: #fbbf24;
       background: rgba(251,191,36,0.14);
     }
+    .hub-heading h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+    .hub-heading p {
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      margin-top: 4px;
+      line-height: 1.55;
+    }
     .phrasebook-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 12px;
     }
-    .phrasebook-row.case-row {
+    .phrasebook-row.cases {
       grid-template-columns: 1fr;
+      max-width: 560px;
     }
     .phrasebook-banner {
       padding: 16px 18px;
@@ -233,7 +229,8 @@
       font-weight: 700;
     }
     @media (max-width: 900px) {
-      .phrasebook-row { grid-template-columns: 1fr; }
+      .phrasebook-row,
+      .phrasebook-row.cases { grid-template-columns: 1fr; max-width: none; }
     }
     .stat-item { text-align: center; }
     .stat-num {
@@ -466,24 +463,22 @@
 <body>
   <div class="hero">
     <h1>剧集剧情总结墙</h1>
-    <p>先选意图再找内容 · 教学专栏 / 实例专栏 / 剧集总结</p>
+    <p>追剧不只看热闹 · 每集关键情节、关键台词、人生启示，一页看懂</p>
   </div>
 
-  <div class="phrasebook-hub">
+  <div class="english-hub">
     <div class="hub-section">
       <div class="hub-heading">
-        <div>
-          <span class="hub-badge teach">Teaching</span>
-          <h2>教学专栏</h2>
-          <p>方法论手册与表达工具箱，适合按问题进入、课后查用</p>
-        </div>
+        <span class="hub-badge teach">教学专栏</span>
+        <h2>英文表达 · 方法论</h2>
+        <p>先学怎么组织、用什么框架和词——适合按问题进入，对应 audio-workshop 的「知识专题」位。</p>
       </div>
       <div class="phrasebook-row">
         <a class="phrasebook-banner flow" href="english-speak-flow.html">
           <span class="pb-icon">⚡</span>
           <span class="pb-text">
             <strong>英文开口组织法</strong>
-            <em>6 意图 → 默认骨架，5 秒组织一句完整话</em>
+            <em>有手册不会用？6 意图 → 默认骨架，5 秒组织一句完整话</em>
           </span>
           <span class="pb-arrow">→</span>
         </a>
@@ -532,18 +527,16 @@
 
     <div class="hub-section">
       <div class="hub-heading">
-        <div>
-          <span class="hub-badge case">Case Study</span>
-          <h2>实例专栏</h2>
-          <p>真题完整答法，演示如何调用上方教学手册——学完工具后来这里练</p>
-        </div>
+        <span class="hub-badge case">实例专栏</span>
+        <h2>外教考题 · 实战样例</h2>
+        <p>把教学专栏压进一道真题：审题 → 调手册 → 成稿 → 追问。对应「播客总结」那种一篇一题的实例位。</p>
       </div>
-      <div class="phrasebook-row case-row">
+      <div class="phrasebook-row cases">
         <a class="phrasebook-banner exam" href="english-exam-ad.html">
           <span class="pb-icon">📝</span>
           <span class="pb-text">
-            <strong>外教考题实战 · 有趣的广告</strong>
-            <em>真题完整答法：审题→七拍→样例→追问，演示如何调用全套手册</em>
+            <strong>有趣的广告</strong>
+            <em>Describe an interesting advertisement · 完整答法与样例口述稿</em>
           </span>
           <span class="pb-arrow">→</span>
         </a>
