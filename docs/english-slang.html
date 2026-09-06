@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文俚语口语专题 · 从剧集台词提炼</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --accent3: #f472b6;
+    --green: #34d399;
+    --orange: #fb923c;
+    --lime: #a3e635;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --tag-lime: rgba(163,230,53,0.14);
+    --tag-red: rgba(248,113,113,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg); min-height: 100vh; color: var(--text); line-height: 1.7;
+  }
+  .hero {
+    position: relative; padding: 56px 24px 40px; text-align: center;
+    overflow: hidden; border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: 50%;
+    width: 920px; height: 920px;
+    background: radial-gradient(circle, rgba(163,230,53,0.10) 0%, rgba(96,165,250,0.07) 40%, transparent 70%);
+    transform: translate(-50%, -50%); pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--lime); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+    background: linear-gradient(135deg, #a3e635 0%, #34d399 40%, #60a5fa 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 720px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--lime); box-shadow: 0 0 0 3px rgba(163,230,53,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none; border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-lime); color: var(--lime); border-left-color: var(--lime); font-weight: 600;
+  }
+  .sidebar .side-sub {
+    font-size: 12px; color: var(--text-muted); padding: 10px 10px 2px;
+    font-weight: 600; letter-spacing: 0.05em;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--lime);
+    background: var(--tag-lime); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; }
+  .section-tag {
+    font-size: 13px; color: var(--accent2); background: var(--tag-purple);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 12px; font-size: 14px; color: var(--text-secondary); }
+  .section-desc b { color: var(--text); }
+
+  .slang-card {
+    margin: 0 22px 14px; border: 1px solid var(--border); border-radius: 14px;
+    background: var(--surface-2); overflow: hidden;
+  }
+  .slang-head {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+    padding: 14px 16px 10px; border-bottom: 1px dashed var(--border);
+  }
+  .slang-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 18px; font-weight: 800; color: #d9f99d;
+  }
+  .slang-zh { font-size: 14px; font-weight: 600; color: var(--text); }
+  .slang-freq {
+    margin-left: auto; font-size: 12px; color: var(--green);
+    border: 1px solid rgba(52,211,153,0.25); border-radius: 99px; padding: 2px 9px;
+  }
+  .tone {
+    display: inline-block; font-size: 11px; font-weight: 700; border-radius: 6px;
+    padding: 2px 7px; letter-spacing: 0.04em;
+  }
+  .tone.safe { color: #86efac; background: var(--tag-green); }
+  .tone.careful { color: #fdba74; background: var(--tag-orange); }
+  .tone.harsh { color: #fca5a5; background: var(--tag-red); }
+  .slang-body { padding: 12px 16px 14px; }
+  .use-row {
+    display: grid; grid-template-columns: 64px 1fr; gap: 8px;
+    font-size: 13.5px; margin-bottom: 8px;
+  }
+  .use-row .k {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--lime); background: var(--tag-lime); border-radius: 6px;
+    padding: 3px 6px; text-align: center; height: fit-content;
+  }
+  .use-row .v { color: var(--text-secondary); }
+  .use-row .v.en-line {
+    font-family: "SF Pro", "Segoe UI", sans-serif; color: #e0e7ff; font-weight: 600;
+  }
+  .example {
+    margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border);
+  }
+  .example .en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 14.5px; color: #e0e7ff; line-height: 1.6;
+  }
+  .example .zh { font-size: 13px; color: var(--text-secondary); margin-top: 4px; }
+  .example .src {
+    font-size: 12px; color: var(--text-muted); margin-top: 6px;
+  }
+  .frame-hit {
+    display: inline-block; font-size: 11px; font-weight: 600; color: var(--lime);
+    background: var(--tag-lime); border-radius: 6px; padding: 1px 7px; margin-right: 6px;
+  }
+
+  .tip {
+    margin: 0 22px 20px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+  .tip i { color: #d9f99d; font-style: italic; }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 10px; padding: 0 22px 18px;
+  }
+  .legend span {
+    font-size: 12.5px; color: var(--text-secondary);
+    display: flex; align-items: center; gap: 6px;
+  }
+
+  .pocket {
+    margin: 4px 22px 22px; border: 1px solid rgba(163,230,53,0.3); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(163,230,53,0.08), rgba(96,165,250,0.08));
+    padding: 18px 20px;
+  }
+  .pocket h3 { font-size: 15px; font-weight: 800; color: var(--lime); margin-bottom: 12px; }
+  .pocket ol { padding-left: 18px; color: var(--text-secondary); font-size: 14px; columns: 2; column-gap: 28px; }
+  .pocket li { margin-bottom: 8px; break-inside: avoid; }
+  .pocket b {
+    font-family: "SF Pro", "Segoe UI", sans-serif; color: #d9f99d; font-weight: 700;
+  }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .pocket ol { columns: 1; }
+    .slang-freq { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">教学专栏 · Colloquial English</div>
+    <h1>英文俚语口语专题</h1>
+    <p class="hero-sub">从剧集双语台词里挖高频口语/俚语短句：注明中文意思、使用场景、语气等级与语料出处——外教聊天里真正「听得懂、用得出」的那一层。</p>
+    <div class="hero-meta">
+      <span class="chip">📂 类型 <b>教学专栏</b></span>
+      <span class="chip">🗣️ 词条 <b>35+</b></span>
+      <span class="chip">🎬 出处 <b>剧集台词</b></span>
+      <span class="chip">⚠️ 标注 <b>语气等级</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-daily.html">日常 10 场景</a>
+      <a href="english-phrases.html">话术手册</a>
+      <a href="english-speak-flow.html">开口组织法</a>
+      <a href="english-vocab.html">高频词</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索俚语：no way / 那又怎样 / turns out / 分手 / pull strings…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#guide">怎么用这页</a>
+    <a href="#pocket">优先 12 条</a>
+    <div class="side-sub">分类</div>
+    <a href="#g1">① 回怼与态度</a>
+    <a href="#g2">② 催促与确认</a>
+    <a href="#g3">③ 意外与结果</a>
+    <a href="#g4">④ 感情口语</a>
+    <a href="#g5">⑤ 面子与关系</a>
+    <a href="#g6">⑥ 坚持与放弃</a>
+    <a href="#g7">⑦ 场面与请客</a>
+    <a href="#g8">⑧ 其他高频口语</a>
+  </nav>
+
+  <main>
+
+    <section id="guide" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">指南</span>
+        <h2>怎么用这页</h2>
+      </div>
+      <div class="section-desc">
+        <p>俚语不是「越土越好」，而是<strong>在对的场景用对语气</strong>。本页每条都标：意思、怎么用、语气等级、剧集出处例句。</p>
+      </div>
+      <div class="legend">
+        <span><span class="tone safe">外教可用</span> 课堂 / 日常聊天安全</span>
+        <span><span class="tone careful">注意语气</span> 熟人可用，别对老师硬刚</span>
+        <span><span class="tone harsh">语气冲</span> 知道意思即可，慎用</span>
+      </div>
+      <div class="tip">💡 <b>和外教</b>：优先用「外教可用」条目。回怼类知道听得懂就行；开口组织仍靠教学专栏里的框架，俚语是调味，不是主食。</div>
+    </section>
+
+    <section id="pocket" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">优先</span>
+        <h2>优先记忆 12 条</h2>
+        <span class="section-tag">外教场景性价比最高</span>
+      </div>
+      <div class="pocket">
+        <h3>上场口袋卡</h3>
+        <ol>
+          <li><b>No way.</b> — 才不要 / 不可能</li>
+          <li><b>So what?</b> — 那又怎样</li>
+          <li><b>Forget it.</b> — 算了</li>
+          <li><b>Come on.</b> — 走吧 / 得了</li>
+          <li><b>Got it?</b> — 明白了吗</li>
+          <li><b>Turns out…</b> — 原来 / 没想到</li>
+          <li><b>End up…</b> — 最后变成…</li>
+          <li><b>Break up / dump</b> — 分手 / 甩了</li>
+          <li><b>Move on.</b> — 走出来、往前走</li>
+          <li><b>Hang in there.</b> — 坚持住 / 加油</li>
+          <li><b>My treat.</b> — 我请客</li>
+          <li><b>From scratch.</b> — 从头来 / 从零开始</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ① 回怼 -->
+    <section id="g1" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>回怼与态度</h2>
+        <span class="section-tag">拒绝 / 不屑 / 算了</span>
+      </div>
+      <div class="section-desc">日常冲突戏里最高频。外教场景：用软一点的；硬回怼先听懂。</div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">No way</span>
+          <span class="slang-zh">才不要 / 不可能</span>
+          <span class="tone careful">注意语气</span>
+          <span class="slang-freq">×21</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">强烈拒绝或表示难以置信。比 “I don't want to” 冲。</span></div>
+          <div class="use-row"><span class="k">怎么说</span><span class="v en-line">No way. I'd rather… / No way—that can't be right.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">No way</span>"No way. I'd rather just stay exactly who I am."</div>
+            <div class="zh">「我才不要呢，我就还是我自己这个样子。」</div>
+            <div class="src">🎬 爱情没有神话 第6集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">So what?</span>
+          <span class="slang-zh">那又怎样？</span>
+          <span class="tone careful">注意语气</span>
+          <span class="slang-freq">×32</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">对方甩出理由时，表示「这不构成问题 / 我不在乎」。</span></div>
+          <div class="use-row"><span class="k">怎么说</span><span class="v en-line">“She's an employee.” — “So what?”</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">So what?</span>"She's an employee of Dad's company." "So what?"</div>
+            <div class="zh">「她是爸爸公司的员工。」「那又怎么样？」</div>
+            <div class="src">🎬 玫瑰的故事 第38集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">So what?</span>"…people said I lived off Lin Zhanqiao… So what? I'm still the most valuable web-fiction author around."</div>
+            <div class="zh">「……别人都说我是靠林展翘……那又怎样？我不还是现在最有价值的网文作者吗？」</div>
+            <div class="src">🎬 爱情没有神话 第35集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Give me a break</span>
+          <span class="slang-zh">饶了我吧 / 得了吧</span>
+          <span class="tone careful">注意语气</span>
+          <span class="slang-freq">×2</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">嫌对方要求过分，或求对方别为难自己。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Give me a break</span>"Give me a break—I write novels, not TV scripts."</div>
+            <div class="zh">「你饶了我吧，我写小说，不是写电视剧的。」</div>
+            <div class="src">🎬 爱情没有神话 第33集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">In your dreams</span>
+          <span class="slang-zh">做梦 / 想得美</span>
+          <span class="tone careful">注意语气</span>
+          <span class="slang-freq">×2</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">嘲讽式拒绝：你想得美。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">In your dreams</span>"You want me to sink to your level? In your dreams."</div>
+            <div class="zh">「要我与你同流合污？做梦。」</div>
+            <div class="src">🎬 与凤行 第36集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Forget it</span>
+          <span class="slang-zh">算了</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×8</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">收回提议、结束话题。比 “Never mind” 稍冲一点，但仍常用。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Forget it</span>"Sorry, not today." "Then forget it."</div>
+            <div class="zh">「不好意思啊，今天不行。」「那算了。」</div>
+            <div class="src">🎬 玫瑰的故事 第17集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ② 催促确认 -->
+    <section id="g2" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>催促与确认</h2>
+        <span class="section-tag">走吧 / 明白吗 / 赶紧</span>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Come on</span>
+          <span class="slang-zh">走吧 / 得了 / 拜托</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×21</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">①催人走 ②劝人别说了 ③表不耐烦。看语气，别只记一个意思。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Come on</span>"Come on, enough talking—let's eat."</div>
+            <div class="zh">「走吧，别说了，吃饭吧。」</div>
+            <div class="src">🎬 问心2 第6集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Got it?</span>
+          <span class="slang-zh">明白了吗 / 记住了吗</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×14</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">交代完规则后确认对方听懂。回答可用 “Got it.”</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Got it?</span>"From now on… come to me — not to him. Got it?"</div>
+            <div class="zh">「以后……都来问我，而不是问他。能记住吗？」</div>
+            <div class="src">🎬 爱情没有神话 第14集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Right away</span>
+          <span class="slang-zh">马上 / 赶紧</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×19</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">立刻行动。比 immediately 更口语。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">right away</span>"If you're really all right, go see your dad right away."</div>
+            <div class="zh">「你要真可以的话，赶紧去看看你爸。」</div>
+            <div class="src">🎬 爱情没有神话 第19集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ③ 意外结果 -->
+    <section id="g3" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>意外与结果</h2>
+        <span class="section-tag">原来 / 最后变成 / 搞定</span>
+      </div>
+      <div class="section-desc">叙事里「转折拍」最爱用的口语动词短语——对接讲故事专题。</div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Turns out…</span>
+          <span class="slang-zh">原来 / 没想到</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×23</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">揭示真相或打脸旧认知。常接在 “I used to think…” 后面。</span></div>
+          <div class="use-row"><span class="k">怎么说</span><span class="v en-line">I used to think X — turns out Y.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">turns out</span>"I used to think our boss was a naive sweetheart — turns out she's a schemer too."</div>
+            <div class="zh">「我还以为我们老板是个傻白甜，没想到也是个心机女。」</div>
+            <div class="src">🎬 爱情没有神话 第6集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">End up + V-ing</span>
+          <span class="slang-zh">最后（变成）…</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×38</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">强调「绕了一圈的最终结果」，常带无奈或意外。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">end up</span>"I bet they'll end up together in the end."</div>
+            <div class="zh">「我赌，他们两个最后还是会在一起。」</div>
+            <div class="src">🎬 闪曜的她 第22集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">(doesn't) work out</span>
+          <span class="slang-zh">成了 / 没成 / 搞定</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×13</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">事情/恋爱/计划「有没有成」。失败时常用 “If it doesn't work out…”</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">work out</span>"If it really doesn't work out, just treat Beijing as a place to clear your head."</div>
+            <div class="zh">「要是实在不行，你就当到北京去散散心。」</div>
+            <div class="src">🎬 冬去春来 第1集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Figure out</span>
+          <span class="slang-zh">弄明白 / 搞清楚</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×11</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">想通、算出、摸清关系。口语里比 “understand” 更主动。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">figured out</span>"I've already figured out the trick."</div>
+            <div class="zh">「我已经掌握这个诀窍了。」</div>
+            <div class="src">🎬 爱情没有神话 第33集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ④ 感情 -->
+    <section id="g4" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>感情口语</h2>
+        <span class="section-tag">分手 / 甩了 / 走出来</span>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Break up (with)</span>
+          <span class="slang-zh">分手</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×28</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">双方分手。提出时：Let's break up. / We should break up.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">break up</span>"I think... we should break up."</div>
+            <div class="zh">「我想，我们分手吧。」</div>
+            <div class="src">🎬 玫瑰的故事 第12集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Dump (someone)</span>
+          <span class="slang-zh">甩了（对方）</span>
+          <span class="tone careful">注意语气</span>
+          <span class="slang-freq">×6</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">单方面甩掉。比 break up 更「被踹」感。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">dumped</span>"Do you know why I dumped you back then?"</div>
+            <div class="zh">「你知道当年我为什么把你甩了吗？」</div>
+            <div class="src">🎬 爱情没有神话 第4集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Move on</span>
+          <span class="slang-zh">走出来 / 往前走</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×5</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">走出失恋或阴影。安慰人时常说 You have to move on.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">move on</span>"The important thing is that you can move on."</div>
+            <div class="zh">「你能走出来就好。」</div>
+            <div class="src">🎬 问心2 第30集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Hang out</span>
+          <span class="slang-zh">一起玩 / 待着</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">非正式相处，不一定约会。Want to hang out? 很常用。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">hang out</span>"We can still eat, drink, and hang out. But only good friends."</div>
+            <div class="zh">「还可以一起吃喝玩乐，但也只是好朋友。」</div>
+            <div class="src">🎬 我的前半生 第15集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Don't wait up</span>
+          <span class="slang-zh">别等我了（先睡）</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">晚归时让对方别熬夜等。很生活化的一句。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">don't wait up</span>"Sleep early, don't wait up."</div>
+            <div class="zh">「你早点睡，别等我。」</div>
+            <div class="src">🎬 闪曜的她 第10集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ 面子关系 -->
+    <section id="g5" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>面子与关系</h2>
+        <span class="section-tag">看不起 / 找关系 / 背后 / 出头</span>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Look down on</span>
+          <span class="slang-zh">看不起 / 嫌弃</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×26</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">轻视身份、职业、出身。Don't look down on nurses. 很经典。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">look down on</span>"He's afraid you'll look down on his background and family."</div>
+            <div class="zh">「他怕你看不起他的出身和家庭。」</div>
+            <div class="src">🎬 爱情没有神话 第12集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Pull strings</span>
+          <span class="slang-zh">找关系 / 托人走后门</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×7</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">利用人脉办事。中性偏贬，谈「走关系」时很贴切。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">pulling strings</span>"Boss Bao spends all day pulling strings…"</div>
+            <div class="zh">「宝总整天托人找关系……」</div>
+            <div class="src">🎬 繁花 第13集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Behind someone's back</span>
+          <span class="slang-zh">背着某人 / 背后议论</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×10</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">瞒着做，或背后说闲话。Don't gossip behind people's backs.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">behind her back</span>"…you shouldn't have done this behind her back."</div>
+            <div class="zh">「……就不该瞒着她做这种事。」</div>
+            <div class="src">🎬 冬去春来 第7集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Stand up for</span>
+          <span class="slang-zh">替…出头 / 维护</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×5</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">为某人/自己挺身而出。I'll stand up for you.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">stand up for</span>"If anyone dares bully her, the three of us will stand up for her together."</div>
+            <div class="zh">「有谁敢欺负她，我们三个一起给她出头。」</div>
+            <div class="src">🎬 问心2 第38集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Keep an eye on</span>
+          <span class="slang-zh">留意看着 / 照应着</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×10</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">照看人或事。Keep an eye on the kids. 很常用。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">keep an eye on</span>"…don't just collect their money, keep an eye on them."</div>
+            <div class="zh">「……别光顾着收人钱，该照应照应着点。」</div>
+            <div class="src">🎬 冬去春来 第3集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑥ 坚持放弃 -->
+    <section id="g6" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>坚持与放弃</h2>
+        <span class="section-tag">加油 / 别放弃 / 退让 / 放过</span>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Hang in there</span>
+          <span class="slang-zh">坚持住 / 加油撑住</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">鼓励人熬过难关。安慰场景首选俚语之一。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Hang in there</span>"Hang in there, Old Guo!"</div>
+            <div class="zh">「老郭坚持住啊！」</div>
+            <div class="src">🎬 冬去春来 第17集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Don't give up</span>
+          <span class="slang-zh">别放弃</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×31</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">直接鼓励。也可：I won't give up on you.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Don't give up</span>"Don't give up. The dead may still bring us new leads."</div>
+            <div class="zh">「别放弃。一个死去的人，也许能够带来一些新的线索。」</div>
+            <div class="src">🎬 猎罪图鉴 第17集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Back down</span>
+          <span class="slang-zh">退让 / 服软</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×4</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">从立场上后退。I never back down. / Why tell me to back down?</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">back down</span>"…why keep telling me to back down this time?"</div>
+            <div class="zh">「……为什么这次老劝我退啊？」</div>
+            <div class="src">🎬 我的前半生 第36集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Let it go</span>
+          <span class="slang-zh">算了 / 放过 / 善罢甘休（否定）</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×6</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">①这次放过你 ②别计较了 ③他们不会善罢甘休 They never let it go.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">let it go</span>"I'll let it go this time, but there won't be a next time."</div>
+            <div class="zh">「这趟就算了，没下趟。」</div>
+            <div class="src">🎬 繁花 第5集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑦ 场面请客 -->
+    <section id="g7" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2>场面与请客</h2>
+        <span class="section-tag">我请客 / 别拘束</span>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">My treat</span>
+          <span class="slang-zh">我请客</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">请客买单。It's my treat. / Dinner's on me. 同类。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">My treat</span>"I know a nice bistro—want to go? My treat."</div>
+            <div class="zh">「我知道一个餐吧不错，要一起去吗？我请客。」</div>
+            <div class="src">🎬 问心2 第30集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Make yourself at home</span>
+          <span class="slang-zh">别拘束，当自己家</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">客人进门时的客套。很礼貌、很地道。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Make yourself at home</span>"Please, sit down. Make yourself at home."</div>
+            <div class="zh">「赶紧坐呀，别客气。」</div>
+            <div class="src">🎬 玫瑰的故事 第17集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑧ 其他 -->
+    <section id="g8" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">08</span>
+        <h2>其他高频口语</h2>
+        <span class="section-tag">从头来 / 很快 / 看着办…</span>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">From scratch</span>
+          <span class="slang-zh">从头来 / 从零开始</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">从无到有重建。Start from scratch. / Build it from scratch.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">from scratch</span>"Building a GICU from scratch and pulling it off…"</div>
+            <div class="zh">「从无到有新建一个 GICU，能做成啊……」</div>
+            <div class="src">🎬 问心2 第24集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">In no time</span>
+          <span class="slang-zh">很快就…</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×3</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">强调速度快。I'll finish it in no time.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">in no time</span>"I'll have the update out in no time — just give me twenty minutes."</div>
+            <div class="zh">「我很快就更了，等我二十分钟，马上就更了。」</div>
+            <div class="src">🎬 爱情没有神话 第5集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Pretty much</span>
+          <span class="slang-zh">差不多 / 基本上可以说</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×2</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">口语里弱化的「几乎就是」。Yes — pretty much.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Pretty much</span>"Am I a total failure?" "Pretty much—you can't do anything right."</div>
+            <div class="zh">「我是不是特别失败？」「是挺失败的，干啥啥不行。」</div>
+            <div class="src">🎬 闪曜的她 第8集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Deal with it (yourself)</span>
+          <span class="slang-zh">你自己看着办 / 自己解决</span>
+          <span class="tone careful">注意语气</span>
+          <span class="slang-freq">×2</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">把责任甩回对方。语气可硬可软，看语调。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Deal with it</span>"I'm sending you my home address. Deal with it yourself."</div>
+            <div class="zh">「我把我家里的地址发给你，你自己看着办。」</div>
+            <div class="src">🎬 玫瑰的故事 第9集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Rip off</span>
+          <span class="slang-zh">宰客 / 坑人</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×1</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">被坑钱：You've been ripped off. / What a rip-off!</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">ripped off</span>"Don't you see you've been ripped off?"</div>
+            <div class="zh">「你被人宰了你知道吗？」</div>
+            <div class="src">🎬 爱情没有神话 第10集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Think twice</span>
+          <span class="slang-zh">三思 / 有所忌惮</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×2</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">劝人谨慎：You should think twice. / They'll think twice before…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">think twice</span>"General Wu, you must think twice."</div>
+            <div class="zh">「吴将军，你要三思。」</div>
+            <div class="src">🎬 赴山海 第37集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slang-card">
+        <div class="slang-head">
+          <span class="slang-en">Out of line / Step out of line</span>
+          <span class="slang-zh">越界 / 做得过分</span>
+          <span class="tone safe">外教可用</span>
+          <span class="slang-freq">×2</span>
+        </div>
+        <div class="slang-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">指责行为越界。That was out of line.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">out of line</span>"…if she steps out of line, I'll sort her out for you."</div>
+            <div class="zh">「……她要是做得不对，我帮你搞定她。」</div>
+            <div class="src">🎬 闪曜的她 第29集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tip">💡 <b>语气冲的条目</b>（如 <i>Shut up</i> / <i>Get out of here</i>）语料里也有，外教课上建议只「听得懂」，开口优先用上面「外教可用」的条目。</div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  教学专栏 · 俚语/口语短句均来自剧集双语台词 · 频次 = 出现句数<br>
+  <a href="english-daily.html">日常 10 场景</a> ·
+  <a href="english-phrases.html">话术手册</a> ·
+  <a href="english-speak-flow.html">开口组织法</a> ·
+  <a href="english-vocab.html">高频词</a> ·
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q) {
+        sec.style.display = '';
+        sec.querySelectorAll('.slang-card').forEach(function(c) { c.style.display = ''; });
+        visible++;
+        return;
+      }
+      var cards = sec.querySelectorAll('.slang-card');
+      if (!cards.length) {
+        if (sec.textContent.toLowerCase().indexOf(q) > -1) { sec.style.display = ''; visible++; }
+        else sec.style.display = 'none';
+        return;
+      }
+      var any = false;
+      cards.forEach(function(card) {
+        var hit = card.textContent.toLowerCase().indexOf(q) > -1;
+        card.style.display = hit ? '' : 'none';
+        if (hit) any = true;
+      });
+      // also match section title
+      if (!any && sec.querySelector('h2') && sec.querySelector('h2').textContent.toLowerCase().indexOf(q) > -1) {
+        cards.forEach(function(c) { c.style.display = ''; });
+        any = true;
+      }
+      sec.style.display = any ? '' : 'none';
+      if (any) visible++;
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
