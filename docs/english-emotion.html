@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英文情绪表达话术 · 从剧集台词提炼</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0b1120;
+    --surface: rgba(255,255,255,0.04);
+    --surface-2: rgba(255,255,255,0.02);
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent: #60a5fa;
+    --accent2: #a78bfa;
+    --rose: #fb7185;
+    --green: #34d399;
+    --orange: #fb923c;
+    --tag-blue: rgba(96,165,250,0.14);
+    --tag-purple: rgba(167,139,250,0.14);
+    --tag-green: rgba(52,211,153,0.14);
+    --tag-orange: rgba(251,146,60,0.14);
+    --tag-rose: rgba(251,113,133,0.14);
+    --tag-red: rgba(248,113,113,0.14);
+    --card-hover: rgba(255,255,255,0.07);
+  }
+  html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    background: var(--bg); min-height: 100vh; color: var(--text); line-height: 1.7;
+  }
+  .hero {
+    position: relative; padding: 56px 24px 40px; text-align: center;
+    overflow: hidden; border-bottom: 1px solid var(--border);
+  }
+  .hero::before {
+    content: ''; position: absolute; top: -50%; left: 50%;
+    width: 920px; height: 920px;
+    background: radial-gradient(circle, rgba(251,113,133,0.14) 0%, rgba(167,139,250,0.08) 40%, transparent 70%);
+    transform: translate(-50%, -50%); pointer-events: none;
+  }
+  .hero-inner { position: relative; max-width: 880px; margin: 0 auto; }
+  .eyebrow {
+    font-size: 13px; font-weight: 800; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--rose); margin-bottom: 14px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px); font-weight: 900; letter-spacing: -0.02em; line-height: 1.2;
+    background: linear-gradient(135deg, #fb7185 0%, #f472b6 40%, #a78bfa 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    margin-bottom: 14px;
+  }
+  .hero-sub { font-size: 16px; color: var(--text-secondary); max-width: 720px; margin: 0 auto 20px; }
+  .hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 9px; }
+  .chip {
+    border: 1px solid var(--border); border-radius: 99px; padding: 5px 13px;
+    font-size: 13px; background: var(--surface); color: var(--text-secondary);
+  }
+  .chip b { color: var(--text); }
+  .hero-links { margin-top: 18px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .hero-links a {
+    color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    border: 1px solid rgba(96,165,250,0.3); border-radius: 99px; padding: 6px 14px; background: var(--tag-blue);
+  }
+
+  .search-bar { max-width: 680px; margin: 24px auto 0; padding: 0 24px; position: relative; }
+  .search-bar input {
+    width: 100%; padding: 13px 44px 13px 16px; font-size: 15px; color: var(--text);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px; outline: none;
+  }
+  .search-bar input:focus { border-color: var(--rose); box-shadow: 0 0 0 3px rgba(251,113,133,0.15); }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-count {
+    position: absolute; right: 38px; top: 50%; transform: translateY(-50%);
+    font-size: 12px; color: var(--text-muted); pointer-events: none;
+  }
+
+  .layout {
+    max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px;
+    display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; align-items: start;
+  }
+  .sidebar {
+    position: sticky; top: 20px; border: 1px solid var(--border);
+    border-radius: 14px; background: var(--surface); padding: 14px;
+    max-height: calc(100vh - 40px); overflow: auto;
+  }
+  .sidebar-title {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--text-muted); padding: 4px 10px 10px;
+  }
+  .sidebar a {
+    display: block; padding: 7px 10px; border-radius: 8px; font-size: 13px;
+    color: var(--text-secondary); text-decoration: none; border-left: 2px solid transparent;
+  }
+  .sidebar a:hover { background: var(--card-hover); color: var(--text); }
+  .sidebar a.active {
+    background: var(--tag-rose); color: var(--rose); border-left-color: var(--rose); font-weight: 600;
+  }
+  .sidebar .side-sub {
+    font-size: 12px; color: var(--text-muted); padding: 10px 10px 2px;
+    font-weight: 600; letter-spacing: 0.05em;
+  }
+
+  main { min-width: 0; }
+  section { margin-bottom: 26px; }
+  .section-card { border: 1px solid var(--border); border-radius: 16px; background: var(--surface); overflow: hidden; }
+  .section-head {
+    display: flex; align-items: center; gap: 12px; padding: 18px 22px;
+    border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .section-num {
+    font-size: 13px; font-weight: 900; letter-spacing: 0.1em; color: var(--rose);
+    background: var(--tag-rose); border-radius: 8px; padding: 4px 9px;
+  }
+  .section-head h2 { font-size: 22px; font-weight: 800; }
+  .section-tag {
+    font-size: 13px; color: var(--accent2); background: var(--tag-purple);
+    border-radius: 8px; padding: 4px 10px; font-weight: 600;
+  }
+  .section-desc { padding: 14px 22px 12px; font-size: 14px; color: var(--text-secondary); }
+  .section-desc b { color: var(--text); }
+
+  .emo-card {
+    margin: 0 22px 14px; border: 1px solid var(--border); border-radius: 14px;
+    background: var(--surface-2); overflow: hidden;
+  }
+  .emo-head {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+    padding: 14px 16px 10px; border-bottom: 1px dashed var(--border);
+  }
+  .emo-en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 18px; font-weight: 800; color: #fda4af;
+  }
+  .emo-zh { font-size: 14px; font-weight: 600; color: var(--text); }
+  .emo-freq {
+    margin-left: auto; font-size: 12px; color: var(--green);
+    border: 1px solid rgba(52,211,153,0.25); border-radius: 99px; padding: 2px 9px;
+  }
+  .tone {
+    display: inline-block; font-size: 11px; font-weight: 700; border-radius: 6px;
+    padding: 2px 7px; letter-spacing: 0.04em;
+  }
+  .tone.safe { color: #86efac; background: var(--tag-green); }
+  .tone.careful { color: #fdba74; background: var(--tag-orange); }
+  .tone.harsh { color: #fca5a5; background: var(--tag-red); }
+  .emo-body { padding: 12px 16px 14px; }
+  .use-row {
+    display: grid; grid-template-columns: 64px 1fr; gap: 8px;
+    font-size: 13.5px; margin-bottom: 8px;
+  }
+  .use-row .k {
+    font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--rose); background: var(--tag-rose); border-radius: 6px;
+    padding: 3px 6px; text-align: center; height: fit-content;
+  }
+  .use-row .v { color: var(--text-secondary); }
+  .use-row .v.en-line {
+    font-family: "SF Pro", "Segoe UI", sans-serif; color: #e0e7ff; font-weight: 600;
+  }
+  .example {
+    margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border);
+  }
+  .example .en {
+    font-family: "SF Pro", "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 14.5px; color: #e0e7ff; line-height: 1.6;
+  }
+  .example .zh { font-size: 13px; color: var(--text-secondary); margin-top: 4px; }
+  .example .src { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
+  .frame-hit {
+    display: inline-block; font-size: 11px; font-weight: 600; color: var(--rose);
+    background: var(--tag-rose); border-radius: 6px; padding: 1px 7px; margin-right: 6px;
+  }
+
+  .tip {
+    margin: 0 22px 20px; border: 1px solid rgba(251,146,60,0.25); border-radius: 12px;
+    background: rgba(251,146,60,0.07); padding: 12px 16px; font-size: 14px; color: #fed7aa;
+  }
+  .tip b { color: var(--orange); }
+  .tip i { color: #fda4af; font-style: italic; }
+
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 10px; padding: 0 22px 18px;
+  }
+  .legend span {
+    font-size: 12.5px; color: var(--text-secondary);
+    display: flex; align-items: center; gap: 6px;
+  }
+
+  .pocket {
+    margin: 4px 22px 22px; border: 1px solid rgba(251,113,133,0.3); border-radius: 14px;
+    background: linear-gradient(135deg, rgba(251,113,133,0.08), rgba(167,139,250,0.08));
+    padding: 18px 20px;
+  }
+  .pocket h3 { font-size: 15px; font-weight: 800; color: var(--rose); margin-bottom: 12px; }
+  .pocket ol { padding-left: 18px; color: var(--text-secondary); font-size: 14px; columns: 2; column-gap: 28px; }
+  .pocket li { margin-bottom: 8px; break-inside: avoid; }
+  .pocket b {
+    font-family: "SF Pro", "Segoe UI", sans-serif; color: #fda4af; font-weight: 700;
+  }
+
+  footer {
+    text-align: center; color: var(--text-muted); font-size: 13px;
+    padding: 30px 20px 56px; border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  #backTop {
+    position: fixed; right: 22px; bottom: 22px; width: 44px; height: 44px; border-radius: 12px;
+    border: 1px solid var(--border-strong); background: rgba(11,17,32,0.85);
+    backdrop-filter: blur(8px); color: var(--text-secondary); font-size: 18px; cursor: pointer;
+    opacity: 0; pointer-events: none; transition: opacity 0.25s; z-index: 50;
+  }
+  #backTop.show { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .pocket ol { columns: 1; }
+    .emo-freq { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">教学专栏 · Emotion Talk</div>
+    <h1>英文情绪表达话术</h1>
+    <p class="hero-sub">从剧集双语台词挖「开心 / 担心 / 生气 / 难过 / 爱与想念 / 后悔」等高频情绪句：注明意思、使用场景、语气等级与出处——外教聊天里把感觉说清楚的那一层。</p>
+    <div class="hero-meta">
+      <span class="chip">📂 类型 <b>教学专栏</b></span>
+      <span class="chip">💗 词条 <b>35+</b></span>
+      <span class="chip">🎬 出处 <b>剧集台词</b></span>
+      <span class="chip">🧩 对接 <b>日常安慰场景</b></span>
+    </div>
+    <div class="hero-links">
+      <a href="english-daily.html">日常 10 场景</a>
+      <a href="english-slang.html">俚语口语</a>
+      <a href="english-phrases.html">话术手册</a>
+      <a href="english-speak-flow.html">开口组织法</a>
+      <a href="index.html">剧集总结墙</a>
+    </div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <input id="searchBox" type="search" placeholder="搜索情绪话术：worried / 后悔 / I miss you / don't worry / 失望…" autocomplete="off" spellcheck="false">
+  <span id="searchCount" class="search-count"></span>
+</div>
+
+<div class="layout">
+  <nav class="sidebar">
+    <div class="sidebar-title">目录</div>
+    <a href="#guide">怎么用这页</a>
+    <a href="#pocket">优先 12 条</a>
+    <div class="side-sub">分类</div>
+    <a href="#g1">① 开心与期待</a>
+    <a href="#g2">② 放心与宽慰</a>
+    <a href="#g3">③ 担心与害怕</a>
+    <a href="#g4">④ 生气与受够了</a>
+    <a href="#g5">⑤ 难过与失望</a>
+    <a href="#g6">⑥ 爱与想念</a>
+    <a href="#g7">⑦ 后悔与愧疚</a>
+    <a href="#g8">⑧ 惊讶与其他</a>
+  </nav>
+
+  <main>
+
+    <section id="guide" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">指南</span>
+        <h2>怎么用这页</h2>
+      </div>
+      <div class="section-desc">
+        <p>情绪话术的核心不是堆形容词，而是<strong>先点名情绪，再补一句原因或请求</strong>。模板：<i style="color:#fda4af;font-style:italic">I'm + emotion (+ about/of/that…) + reason.</i></p>
+      </div>
+      <div class="legend">
+        <span><span class="tone safe">外教可用</span> 课堂 / 日常聊天安全</span>
+        <span><span class="tone careful">注意语气</span> 熟人可用，看关系深浅</span>
+        <span><span class="tone harsh">语气冲</span> 听懂为主，慎开口</span>
+      </div>
+      <div class="tip">💡 <b>和外教</b>：先说情绪再讲故事——<i>I'm worried because…</i> / <i>I was so glad that…</i>。安慰别人时优先用「放心与宽慰」组，别急着给建议。</div>
+    </section>
+
+    <section id="pocket" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">优先</span>
+        <h2>优先记忆 12 条</h2>
+        <span class="section-tag">外教场景性价比最高</span>
+      </div>
+      <div class="pocket">
+        <h3>上场口袋卡</h3>
+        <ol>
+          <li><b>I'm so happy / glad…</b> — 我很开心</li>
+          <li><b>I'm looking forward to…</b> — 我很期待</li>
+          <li><b>Don't worry.</b> — 放心吧</li>
+          <li><b>I'm worried about…</b> — 我担心…</li>
+          <li><b>I'm afraid…</b> — 我怕… / 恐怕…</li>
+          <li><b>I'm angry / furious…</b> — 我生气了</li>
+          <li><b>I've had enough.</b> — 我受够了</li>
+          <li><b>I'm disappointed.</b> — 我失望</li>
+          <li><b>I miss you.</b> — 我想你</li>
+          <li><b>I care about you.</b> — 我在乎你</li>
+          <li><b>I regret… / I shouldn't have…</b> — 我后悔 / 不该…</li>
+          <li><b>I can't believe…</b> — 难以置信</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ① 开心 -->
+    <section id="g1" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>开心与期待</h2>
+        <span class="section-tag">happy / glad / excited / look forward</span>
+      </div>
+      <div class="section-desc">外教聊「好事」时的默认开场：先报喜，再补细节。</div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm (so) happy / glad</span>
+          <span class="emo-zh">我很开心 / 我很高兴</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×13</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">glad 偏「听到某事后高兴」；happy 偏「当下状态开心」。常接 to / that / about。</span></div>
+          <div class="use-row"><span class="k">怎么说</span><span class="v en-line">I'm so happy that… / I'm glad to hear…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm happy</span>"As long as I'm with you all, I'm happy."</div>
+            <div class="zh">「跟你们在一起，我就开心。」</div>
+            <div class="src">🎬 冬去春来 第22集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm glad</span>"I'm glad to hear you say you need me…"</div>
+            <div class="zh">「我很高兴听到你说你需要我……」</div>
+            <div class="src">🎬 爱情没有神话 第22集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm (a little / so) excited</span>
+          <span class="emo-zh">我好激动 / 有点兴奋</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×3</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">期待即将发生的事。可对比 nervous：紧张 vs 激动。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">excited</span>"I'm not nervous — I'm just a little excited. That we get to take photos like this."</div>
+            <div class="zh">「我不是紧张，我就是有点激动。我们能这样拍照。」</div>
+            <div class="src">🎬 爱情没有神话 第14集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Looking forward to…</span>
+          <span class="emo-zh">很期待…</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×2</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">对未来事件表示期待。后接名词或 V-ing：looking forward to the trip / meeting you.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">looking forward to</span>"I've never been to Guangxi, and I'm actually looking forward to it."</div>
+            <div class="zh">「广西我还没去过，我还挺期待的。」</div>
+            <div class="src">🎬 玫瑰的故事 第7集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Cheer up</span>
+          <span class="emo-zh">开心点 / 振作一点</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×1</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">劝别人别沉下去。语气轻，适合朋友安慰。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Cheer up</span>"It won't always be fair, and it won't always go your way. Cheer up."</div>
+            <div class="zh">「不会总是公平，也不会总是如愿。开心点。」</div>
+            <div class="src">🎬 爱情没有神话 第10集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">(make someone) happy for…</span>
+          <span class="emo-zh">为某人高兴</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×1</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">替别人的成就开心：I'm happy for you. / That makes us happy for you.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">happy for you</span>"You won, and that's all it takes to make us happy for you."</div>
+            <div class="zh">「你赢了，我们就是为你高兴。」</div>
+            <div class="src">🎬 爱情没有神话 第10集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ② 放心 -->
+    <section id="g2" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>放心与宽慰</h2>
+        <span class="section-tag">don't worry / rest assured / relieved</span>
+      </div>
+      <div class="section-desc">安慰场景最高频组。对接日常专栏「安慰鼓励」。</div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Don't worry</span>
+          <span class="emo-zh">放心吧 / 别担心</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×59</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">安慰对方，常接承诺：Don't worry—leave it to me. / Don't worry about me.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Don't worry</span>"Don't worry—leave it to me."</div>
+            <div class="zh">「放心，交给我吧。」</div>
+            <div class="src">🎬 问心2 第7集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">don't worry</span>"I'm doing fine—don't worry."</div>
+            <div class="zh">「我挺好的，你放心。」</div>
+            <div class="src">🎬 小夫妻 第34集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Rest assured</span>
+          <span class="emo-zh">你放心 / 尽可放心</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×9</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">比 Don't worry 稍正式，适合承诺办事结果。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Rest assured</span>"Rest assured—I will do my utmost, and hold no regrets."</div>
+            <div class="zh">「放心，我尽力而为，也是无愧。」</div>
+            <div class="src">🎬 赴山海 第37集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Thank goodness / I'm relieved</span>
+          <span class="emo-zh">幸好 / 我放心了</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×6</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">虚惊之后松一口气。Thank goodness… 也可说 Thank God（更口语）。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">thank goodness</span>"You're still the same Ouyang—thank goodness for you."</div>
+            <div class="zh">「你还是原来那个欧阳，多亏有你。」</div>
+            <div class="src">🎬 问心2 第35集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm relieved</span>"…Is that right? Then I'm relieved."</div>
+            <div class="zh">「……是吗？是你就好。」</div>
+            <div class="src">🎬 问心2 第2集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ③ 担心 -->
+    <section id="g3" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>担心与害怕</h2>
+        <span class="section-tag">worried / afraid / scared</span>
+      </div>
+      <div class="section-desc"><b>I'm afraid</b> 有两义：真怕，或礼貌软化（恐怕…）。外教场景务必分清。</div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm worried (about…)</span>
+          <span class="emo-zh">我担心…</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×6</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">担心某人或某事。I'm worried about you. / I was worried that…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">worried about</span>"You're still up. I was worried about you."</div>
+            <div class="zh">「你还在啊。我担心你心情不好。」</div>
+            <div class="src">🎬 爱情没有神话 第12集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm worried</span>"I'm worried your body can't take it."</div>
+            <div class="zh">「我是担心你身体扛不住。」</div>
+            <div class="src">🎬 问心2 第24集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm afraid…</span>
+          <span class="emo-zh">我怕… / 恐怕…</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×33</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">①真害怕：I'm afraid of heights. ②礼貌软拒/坏消息：I'm afraid I can't. ——听语调和后接内容。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm afraid</span>"I'm afraid I won't live to see a next time."</div>
+            <div class="zh">「我怕我等不到下次了。」</div>
+            <div class="src">🎬 问心2 第14集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm scared</span>
+          <span class="emo-zh">我害怕</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×4</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">比 afraid 更口语、更「当下恐惧」。孩子/突发惊吓常用。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm scared</span>"Mommy, don't turn off the light. I'm scared."</div>
+            <div class="zh">「妈妈，别关灯，我害怕。」</div>
+            <div class="src">🎬 玫瑰的故事 第31集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ④ 生气 -->
+    <section id="g4" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>生气与受够了</h2>
+        <span class="section-tag">angry / furious / had enough / calm down</span>
+      </div>
+      <div class="section-desc">外教谈冲突经历时可用「我生气了 + 原因」；冲人回怼先听懂。</div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm angry / furious</span>
+          <span class="emo-zh">我生气了 / 气炸了</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×3</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">angry 通用；furious 程度更高。I'm angry that… / I'm furious about…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I'm angry</span>"I don't even know why I'm angry."</div>
+            <div class="zh">「我都不知道我为什么要生着气。」</div>
+            <div class="src">🎬 我的前半生 第7集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">furious</span>"…I'm so furious I could wipe out his whole family."</div>
+            <div class="zh">「……让我都快气炸了，我恨不得灭他满门。」</div>
+            <div class="src">🎬 闪耀的她 第20集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I've had enough</span>
+          <span class="emo-zh">我受够了</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×2</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">忍到极限。I've had enough of + 名词/V-ing。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I've had enough</span>"I've had enough of your fake performances every day—stop acting!"</div>
+            <div class="zh">「我受够了，你每天虚伪的表演，你别演了！」</div>
+            <div class="src">🎬 小夫妻 第26集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I can't stand…</span>
+          <span class="emo-zh">我受不了 / 忍不了</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×3</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">强烈厌恶或无法容忍。I can't stand it when… / I can't stand him bullying you.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I can't stand</span>"He can treat me however he wants—but bullying you, I can't stand."</div>
+            <div class="zh">「他怎么对我都无所谓，但他欺负你，我忍不了。」</div>
+            <div class="src">🎬 问心2 第30集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">How dare you…</span>
+          <span class="emo-zh">你怎么敢…</span>
+          <span class="tone harsh">语气冲</span>
+          <span class="emo-freq">×18</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">质问对方越界。戏剧冲突高频；外教课上慎用，知道听得懂即可。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">How dare you</span>"…How dare you suspect him now?"</div>
+            <div class="zh">「……你怎么好意思，现在去怀疑他？」</div>
+            <div class="src">🎬 繁花 第6集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Calm down / Leave me alone</span>
+          <span class="emo-zh">冷静点 / 别管我</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×2</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">Calm down 劝对方冷静；Leave me alone 要空间，语气偏硬。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">calm down</span>"Qiushui, calm down—look at who they are!"</div>
+            <div class="zh">「秋水，你冷静一点，你看看他们是谁！」</div>
+            <div class="src">🎬 赴山海 第18集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">leave me alone</span>"…Just leave me alone—you go on home."</div>
+            <div class="zh">「……你别管我了，快回家吧。」</div>
+            <div class="src">🎬 闪耀的她 第14集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Lose one's temper</span>
+          <span class="emo-zh">发脾气 / 动气</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×2</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">描述「发脾气」这个动作：Don't lose your temper. / He lost his temper.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">lose your temper</span>"…there's no rush to lose your temper."</div>
+            <div class="zh">「……再发脾气，也不迟。」</div>
+            <div class="src">🎬 闪耀的她 第29集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ 难过 -->
+    <section id="g5" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>难过与失望</h2>
+        <span class="section-tag">sad / disappointed / heartbroken</span>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm disappointed</span>
+          <span class="emo-zh">我失望</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×1</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">对期望落空。比 sad 更偏「本该更好」。I'm disappointed in/with…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">disappointed</span>"I'm not heartbroken over her. I'm disappointed."</div>
+            <div class="zh">「我对她不是伤心，是失望。」</div>
+            <div class="src">🎬 玫瑰的故事 第17集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">(Don't) let me down</span>
+          <span class="emo-zh">别让我失望</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×3</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">期待对方做到。You didn't let me down. / Don't let me down.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Don't let me down</span>"I already see you as my future son-in-law. Don't let me down."</div>
+            <div class="zh">「我现在已经把你当成未来的女婿了，希望你不要让我失望。」</div>
+            <div class="src">🎬 我的前半生 第37集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Heartbroken / breaks my heart</span>
+          <span class="emo-zh">很难过 / 心碎 / 不舍</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×4</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">强烈伤感。It breaks my heart that… / I'll be heartbroken.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">heartbroken</span>"…Whoever it is, I'll be heartbroken."</div>
+            <div class="zh">「……发现是谁，我都会很难过的。」</div>
+            <div class="src">🎬 爱情没有神话 第13集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">breaks my heart</span>"…even though it breaks my heart, I respect his decision."</div>
+            <div class="zh">「……即便再不舍，我也尊重他的决定。」</div>
+            <div class="src">🎬 问心2 第27集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'd be (genuinely) sad / my heart will ache</span>
+          <span class="emo-zh">我会很难过 / 心里会疼</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×2</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">假设未来会难过。比直接哭诉更含蓄，适合外教叙事。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">genuinely sad</span>"If one of them really is the mole, I'd be genuinely sad."</div>
+            <div class="zh">「要是他们里面真有一个是内鬼的话，我真的觉得还蛮难过的。」</div>
+            <div class="src">🎬 爱情没有神话 第14集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑥ 爱与想念 -->
+    <section id="g6" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>爱与想念</h2>
+        <span class="section-tag">love / miss / care about</span>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I love you</span>
+          <span class="emo-zh">我爱你 / 我喜欢你</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×14</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">感情戏直球。外教聊「家人/宠物/作品」时可说 I love…；对人要看关系。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I love you</span>"Rose, don't push me away. I love you."</div>
+            <div class="zh">「玫瑰，别不要我了。我爱你。」</div>
+            <div class="src">🎬 玫瑰的故事 第9集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I miss you</span>
+          <span class="emo-zh">我想你</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×12</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">思念。可加强：I miss you so much. / I've been missing you.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I miss you</span>"I miss you so much I can't sleep."</div>
+            <div class="zh">「我想你了，睡不着。」</div>
+            <div class="src">🎬 与凤行 第4集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I miss you</span>"I hate the rain, but every time it rains, I miss you even more."</div>
+            <div class="zh">「我讨厌下雨，可是一下雨，我就更想你了。」</div>
+            <div class="src">🎬 玫瑰的故事 第10集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I care about you</span>
+          <span class="emo-zh">我在乎你 / 我在意你</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×5</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">比 I love you 更稳妥：关心、在意，未必表白。外教聊朋友/家人很合适。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I care about you</span>"Why else? I care about you."</div>
+            <div class="zh">「不然呢，我在意你。」</div>
+            <div class="src">🎬 爱情没有神话 第3集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑦ 后悔 -->
+    <section id="g7" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">07</span>
+        <h2>后悔与愧疚</h2>
+        <span class="section-tag">regret / shouldn't have / if only / ashamed</span>
+      </div>
+      <div class="section-desc">讲「做错事后的心情」时，这组比单纯 sorry 更有层次。</div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I regret… / I won't regret</span>
+          <span class="emo-zh">我后悔 / 我不后悔</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×6</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">I regret + V-ing / that…。表决心：I won't regret it.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I regret</span>"I regret it—I've regretted it from the moment I boarded that plane."</div>
+            <div class="zh">「我后悔了，从我上飞机那一刻，我就后悔了。」</div>
+            <div class="src">🎬 玫瑰的故事 第10集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">won't regret</span>"…I won't regret it."</div>
+            <div class="zh">「……我不会后悔的。」</div>
+            <div class="src">🎬 爱情没有神话 第18集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I shouldn't have…</span>
+          <span class="emo-zh">我不该…</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×9</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">对过去行为后悔：I shouldn't have said that. 结构固定、超好用。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">shouldn't have</span>"Last time, I overstepped and said things I shouldn't have."</div>
+            <div class="zh">「上次是我没把握好分寸，说了不该说的话。」</div>
+            <div class="src">🎬 玫瑰的故事 第18集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">If only I had / hadn't…</span>
+          <span class="emo-zh">要是我当时…就好了</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×2</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">虚拟语气表悔恨。If only I hadn't… = 要是我没做…就好了。</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">If only</span>"If only I hadn't invited him out that night."</div>
+            <div class="zh">「要是我那天没约他，该有多好。」</div>
+            <div class="src">🎬 猎罪图鉴 第9集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm ashamed / I blame myself</span>
+          <span class="emo-zh">我很内疚 / 我怪自己</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×3</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">愧疚指向自己。I'm ashamed of… / I blame myself for…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">ashamed</span>"…Every time I remember it, my heart aches—I'm so ashamed."</div>
+            <div class="zh">「……我每次想起来，就很难受，很内疚。」</div>
+            <div class="src">🎬 逐玉 第25集</div>
+          </div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">blame myself</span>"…that's why I blame myself."</div>
+            <div class="zh">「……所以我才责怪我自己。」</div>
+            <div class="src">🎬 与凤行 第8集</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑧ 惊讶其他 -->
+    <section id="g8" class="section-card searchable">
+      <div class="section-head">
+        <span class="section-num">08</span>
+        <h2>惊讶与其他情绪</h2>
+        <span class="section-tag">believe / awkward / jealous / mood</span>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I can't believe…</span>
+          <span class="emo-zh">难以置信 / 太意外了</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×4</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">惊讶或惊喜。I can't believe it! / I can't believe that…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I can't believe</span>"…this is such a surprise. I can't believe it."</div>
+            <div class="zh">「……这太惊喜，太意外了。」</div>
+            <div class="src">🎬 爱情没有神话 第30集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Are you serious?</span>
+          <span class="emo-zh">你是认真的吗？</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×1</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">确认对方是否当真，常带惊讶。可接 about…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">serious</span>"Are you serious about getting married? Are you sure you won't regret it?"</div>
+            <div class="zh">「你要结婚是认真的吗？你真的不后悔？」</div>
+            <div class="src">🎬 玫瑰的故事 第20集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">(feel) awkward</span>
+          <span class="emo-zh">尴尬</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×10</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">场面别扭。It might be awkward. / ease the awkwardness.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">awkward</span>"If Jiaqing and I showed up, it might be awkward."</div>
+            <div class="zh">「我想我跟佳清如果过去的话，可能会有点尴尬。」</div>
+            <div class="src">🎬 我的前半生 第16集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">Jealous</span>
+          <span class="emo-zh">嫉妒 / 吃醋</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×12</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">吃醋或羡慕。Are you jealous? / He's jealous of…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">Jealous?</span>"You look pretty happy after seeing your ex." "Jealous?"</div>
+            <div class="zh">「见完前任挺开心啊。」「吃醋了？」</div>
+            <div class="src">🎬 玫瑰的故事 第36集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I'm not in the mood</span>
+          <span class="emo-zh">没心情…</span>
+          <span class="tone careful">注意语气</span>
+          <span class="emo-freq">×1</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">婉拒社交/活动：I'm not in the mood to… / for…</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">not in the mood</span>"I've hit some trouble at work lately. I'm not in the mood to meet anyone."</div>
+            <div class="zh">「我最近工作上遇到点麻烦，没有心情见。」</div>
+            <div class="src">🎬 闪耀的她 第4集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="emo-card">
+        <div class="emo-head">
+          <span class="emo-en">I feel like…</span>
+          <span class="emo-zh">我感觉… / 我觉得像…</span>
+          <span class="tone safe">外教可用</span>
+          <span class="emo-freq">×11</span>
+        </div>
+        <div class="emo-body">
+          <div class="use-row"><span class="k">用法</span><span class="v">模糊情绪入口，后接从句或名词：I feel like a fraud. / I feel like crying.</span></div>
+          <div class="example">
+            <div class="en"><span class="frame-hit">I feel like</span>"What they like isn't me—I feel like a fraud."</div>
+            <div class="zh">「他们喜欢的不是我，我觉得我自己像个骗子。」</div>
+            <div class="src">🎬 小夫妻 第31集</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tip">💡 <b>和日常专栏的分工</b>：日常页管「道歉 / 安慰 / 拒绝」等社交动作；本页管「我当下是什么情绪」。两页可叠用：先 <i>I'm worried about…</i>，再 <i>Don't worry—leave it to me.</i></div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  教学专栏 · 情绪话术均来自剧集双语台词 · 频次 = 出现句数<br>
+  <a href="english-daily.html">日常 10 场景</a> ·
+  <a href="english-slang.html">俚语口语</a> ·
+  <a href="english-phrases.html">话术手册</a> ·
+  <a href="english-speak-flow.html">开口组织法</a> ·
+  <a href="index.html">← 返回剧集剧情总结墙</a>
+</footer>
+
+<button id="backTop" title="回到顶部">↑</button>
+
+<script>
+(function() {
+  var box = document.getElementById('searchBox');
+  var count = document.getElementById('searchCount');
+  var sections = document.querySelectorAll('.searchable');
+  box.addEventListener('input', function() {
+    var q = box.value.trim().toLowerCase();
+    var visible = 0;
+    sections.forEach(function(sec) {
+      if (!q) {
+        sec.style.display = '';
+        sec.querySelectorAll('.emo-card').forEach(function(c) { c.style.display = ''; });
+        visible++;
+        return;
+      }
+      var cards = sec.querySelectorAll('.emo-card');
+      if (!cards.length) {
+        if (sec.textContent.toLowerCase().indexOf(q) > -1) { sec.style.display = ''; visible++; }
+        else sec.style.display = 'none';
+        return;
+      }
+      var any = false;
+      cards.forEach(function(card) {
+        var hit = card.textContent.toLowerCase().indexOf(q) > -1;
+        card.style.display = hit ? '' : 'none';
+        if (hit) any = true;
+      });
+      if (!any && sec.querySelector('h2') && sec.querySelector('h2').textContent.toLowerCase().indexOf(q) > -1) {
+        cards.forEach(function(c) { c.style.display = ''; });
+        any = true;
+      }
+      sec.style.display = any ? '' : 'none';
+      if (any) visible++;
+    });
+    count.textContent = q ? visible + ' 组命中' : '';
+  });
+  var links = document.querySelectorAll('.sidebar a[href^="#"]');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        links.forEach(function(l) {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + entry.target.id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -75% 0px' });
+  sections.forEach(function(sec) { observer.observe(sec); });
+  var backTop = document.getElementById('backTop');
+  window.addEventListener('scroll', function() {
+    backTop.classList.toggle('show', window.scrollY > 400);
+  });
+  backTop.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>
