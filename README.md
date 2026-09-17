@@ -38,3 +38,23 @@ drama-analysis/
 Settings → Pages → Source：`main` 分支，`/docs` 目录。
 
 详细自动化执行规范见 `docs/WORKFLOW.md`。
+
+## 英语系统消费方式
+
+本仓仍是**追剧回顾 + 语料工厂**。结构化英语学习由独立项目 [`english-system`](../english-system) 消费：
+
+| 本仓产出 | english-system 模块 |
+|----------|---------------------|
+| `content/*/cast.md` + `content-e*.json` quotes | 实体词 |
+| `docs/english-vocab.html` | 非实体词 |
+| `docs/english-phrases.html` | 话术结构 |
+
+在 `english-system` 中执行：
+
+```bash
+python3 scripts/import-from-drama.py
+python3 scripts/validate-content.py
+node scripts/render-site.mjs
+```
+
+本仓流水线不变；不要把学习站逻辑回写进本仓。
