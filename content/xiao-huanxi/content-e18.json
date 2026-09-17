@@ -1,0 +1,425 @@
+{
+  "slug": "xiao-huanxi-e18",
+  "drama": "小欢喜",
+  "episode": "18",
+  "title": "叶酸疑云·法拉利表情包",
+  "subtitle": "雷蒙德空降夸报表，小金叶酸穿帮逼离婚；李萌考场低血糖，陈书记拿表情包敲季区长——两家约校内道歉留档。",
+  "meta": [
+    "2019 · 都市家庭",
+    "黄磊 / 海清 / 陶虹 / 沙溢",
+    "45 分钟",
+    "10 个场景",
+    "共 49 集"
+  ],
+  "overviewLead": "一瓶叶酸让职场谣言起火；一张法拉利表情包从班级群烧到区委办公室——期中考还没完，两家大人先被逼着写检查。",
+  "overview": "第 18 集把「传播」做成主轴：谣言在公司走廊走，表情包在校园群里走，仕途敏感在区委走。并购方联盟空降新老大雷蒙德，第一次开会定调高效简洁、第二轮融资、创收优先；财务报表良莠不齐，偏偏点名童文洁那份写得好，要大家以之为标准。珍妮借机夸自家助理能力强；雷蒙德追问助理做了多久——十几年。降职后的文洁在台上被当样板，台下意味更酸。",
+  "overview2": "平行线，潘帅午饭不吃，李萌从食堂打饭改成点外卖，意面海鲜面绕一圈才哄他开口；随手亮出开学季杨杨开法拉利的恶搞表情包，学校群里当乐子传。两人约定期中考后再找家长谈，先保住监考与卷面。公司前台保洁泼水浸湿快递，小金包裹破口掉出叶酸钙片；同事起哄孕妇，她谎称给怀孕闺蜜买、默认地址改不了。楼梯间雷蒙德质问：升职加薪给钱，你到底要什么——小金冷冷一句：我想你离婚。他哄、吓、许补偿，先把火按住。",
+  "overview3": "期中考场，李萌低血糖晕倒，潘帅送急诊；刘静在医务室谎称感冒开药，其实钼靶检查线仍悬着。孙大夫把杨杨法拉利表情包递给来拿降压药的陈书记：春风中学群里传疯了，身后是豪车，影响恶劣。陈书记专程找季胜利谈话：车是不是你家的、党员干部也是父亲，家里家外都得操心。季胜利声明法拉利非自家所购，答应查清回报；挂断后连拨刘静——她在医院排队，谎称开会，把恶搞图当成小事挂断。",
+  "overview4": "考完，杨杨与陶子遇潘帅，得知舅舅在医院撞见「感冒」的刘静。英子回家想热乎，宋倩冷处理：汤在锅里，自己有事出门。季家晚饭炸锅：书记转发的表情包、舅舅的车、凡凡的报复动机——砸磊儿手机的旧账。杨杨吼出「影响你的廉洁形象」；刘静拦架，催季胜利上楼找方圆说理。方家热脸迎发小，孩子出门拿卷后摊牌：明天考完请校长老师当面道歉、书面检查留校存证，校内消化不得外传。方圆代写检查，骂儿子闲的害人；童文洁担心入档毁高考，被他嘲幼稚。尾声季胜利按住杨杨复习：你不是孩子了，要有敏感性——表情包不是闹着玩的。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "02:35–05:47",
+      "title": "新老大空降·报表样板",
+      "body": [
+        "同事八卦：Roger 不当老大了，联盟空降的新领导职位更高、管事更多。第一次全员会，雷蒙德自我介绍：罗姐工作交到他手里，原则高效简洁，长话短说；第二轮融资是眼下主业，第一轮财务完成度获表扬。",
+        "他点名调整风格：少卡支出、多创收，市场广告该花就花；财务报表良莠不齐，唯独童文洁那份方向对、写得好，要全员以此为标准。珍妮夸助理能力强；他追问助理做了多久——十几年。降职后的文洁被钉成样板，掌声里带着刺。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我的原则是——高效、简洁；以后开会的时候，尽量地长话短说。」",
+          "en": "\"My principles are—efficient and concise; keep meetings short.\""
+        },
+        {
+          "zh": "「我们现在公司最主要的工作——是进行第二轮的融资。」",
+          "en": "\"The company's top priority now—is the second round of financing.\""
+        },
+        {
+          "zh": "「这份报告写得非常好——和我刚才说的方向是一致的；我希望大家以这个报表为标准。」",
+          "en": "\"This report is excellent—it matches the direction I just set; make it the standard.\""
+        },
+        {
+          "zh": "「你做助理多久了——他做助理十几年了。」",
+          "en": "\"How long have you been an assistant?—She's been one for over a decade.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "06:14–08:29",
+      "title": "监考不吃饭·法拉利表情包",
+      "body": [
+        "食堂催饭，潘帅推说刚开完会要捋下午数学卷；李萌数落他早餐中饭都不吃、低血糖巡场会出事，从打饭改成点外卖——意面、海鲜面绕一圈，他才认栽「你点什么我吃什么」。",
+        "她又掏出开学那张图：季杨杨身后法拉利被做成表情包，同学当乐子到处传，影响极差。两人约定期中考完再找家长谈；潘帅先把图收下，托她别把数学卷弄错。"
+      ],
+      "quotes": [
+        {
+          "zh": "「你这一日三餐不规律——你身体迟早要出大问题的呀；而且你下午要巡场，你万一有低血糖怎么办啊。」",
+          "en": "\"Eating this irregularly—you'll wreck your body; you're on rounds this afternoon, what if you get hypoglycemia?\""
+        },
+        {
+          "zh": "「你点什么我吃什么——行吗。」",
+          "en": "\"Whatever you order, I'll eat—okay?\""
+        },
+        {
+          "zh": "「还记得刚开学那会儿——季杨杨开了辆法拉利过来吧；谁把这个做成表情包了。」",
+          "en": "\"Remember at the start of term—Yangyang drove a Ferrari over; who turned that into a meme?\""
+        },
+        {
+          "zh": "「这些啊都得等这次期中考完试再说——因为这次考试太重要了。」",
+          "en": "\"All of this has to wait until midterms are over—this exam is too important.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "08:36–12:15",
+      "title": "叶酸穿帮·逼离婚",
+      "body": [
+        "前台新保洁泼翻水桶，快递箱泡水；整理现场掉出叶酸钙片，同事起哄「孕妇吃的」「公司还有孕妇」。包裹署名落在小金头上，她谎称闺蜜怀孕、双十一默认地址改不了，回头寄回去——走廊眼神却黏着不散。",
+        "楼梯间雷蒙德压着火：给你升职加薪那么多钱，到底要干什么。小金一句「我想你离婚」；他改哄改吓——别冲动搞臭、没人撑着你会掉下去，职位越高越能补偿，好好想想咱俩前程。"
+      ],
+      "quotes": [
+        {
+          "zh": "「叶酸钙片——孕妇吃的；咱公司还有孕妇呢。」",
+          "en": "\"Folic acid and calcium—for pregnant women; so we have a pregnant colleague?\""
+        },
+        {
+          "zh": "「我闺蜜怀孕了——我给她买点营养品。」",
+          "en": "\"My best friend is pregnant—I bought her some supplements.\""
+        },
+        {
+          "zh": "「给你那么多钱——你告诉我你想要干什么；我想你离婚。」",
+          "en": "\"I've given you so much money—what do you want?; I want you to get a divorce.\""
+        },
+        {
+          "zh": "「你要是听我的——我现在公司的职位越来越高，我肯定给你补偿，让你满意的。」",
+          "en": "\"If you listen to me—my position keeps rising; I'll compensate you until you're satisfied.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "13:11–15:10",
+      "title": "考场晕倒·书记看见图",
+      "body": [
+        "医务室门口，潘帅撞见刘静；他自称季杨杨班主任，问她身体。刘静说自己感冒开药；又解释李萌老师监考忙到没吃饭、低血糖晕倒，刚送过来输液。双方互嘱保重。",
+        "孙大夫给陈书记配降压药，欲言又止：表情包上的孩子是季区长儿子，与自家孩子同在春风中学高三，群里传疯了；图后赫然一辆法拉利——传出去影响不好。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我感冒了——我来开点药。」",
+          "en": "\"I've got a cold—just here for some medicine.\""
+        },
+        {
+          "zh": "「李萌老师一起忙的还没吃饭——有点低血糖，监考的时候晕过去了。」",
+          "en": "\"Teacher Li Meng was so busy she skipped meals—hypoglycemia; she fainted while invigilating.\""
+        },
+        {
+          "zh": "「这个表情包上的这个孩子——是季区长的儿子；跟我的儿子都在春风中学念高三。」",
+          "en": "\"The kid in this meme—is District Chief Ji's son; he's in the same senior year at Chunfeng as my boy.\""
+        },
+        {
+          "zh": "「这个孩子的后面——好像是一辆法拉利；这个要是传出去的话，您说是不是影响不太好。」",
+          "en": "\"Behind the kid—looks like a Ferrari; if this spreads, wouldn't the optics be terrible?\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "16:19–19:15",
+      "title": "陈书记谈话·家外也要操心",
+      "body": [
+        "陈书记「闯上门」找季胜利寒暄适应，话锋一转：你是不是有个上高中的儿子。掏出那张图——今日医务室遇孙大夫，同班同学间已传疯。季胜利先声明：法拉利不是我们家的，也没给儿子买过车，查清再汇报。",
+        "书记嘱他别太紧张，又年长几岁提醒：工作认真好，也不能忽略家庭；党员干部同时也是父亲，家里家外都得操一份心。季胜利连称妥善处理，送书记离开。"
+      ],
+      "quotes": [
+        {
+          "zh": "「首先这个法拉利不是我们家的——而且我也没给我儿子买过什么车。」",
+          "en": "\"First, that Ferrari isn't ours—and I've never bought my son any car.\""
+        },
+        {
+          "zh": "「这个图的事啊——我会了解一下，然后给您做个汇报。」",
+          "en": "\"About this image—I'll look into it and report back to you.\""
+        },
+        {
+          "zh": "「这工作认真负责固然是好——但是也不能忽略了家庭啊。」",
+          "en": "\"Being diligent at work is fine—but you can't neglect the family.\""
+        },
+        {
+          "zh": "「我们既是党员干部——同时也是做父亲的呀；所以这家里家外的，你得操操心啊。」",
+          "en": "\"We're Party cadres—and fathers too; you have to look after both home and work.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "21:35–27:03",
+      "title": "医院假开会·冷处理出门",
+      "body": [
+        "季胜利连拨刘静：杨杨被做成恶搞图、身后法拉利、学校已传开。刘静在医院等检查，谎称开会、大家都在等，把事推到回家再说。考完的杨杨与陶子路上遇潘帅：李萌低血糖打了葡萄糖无大碍；舅舅随口——在医院碰见你妈，她说感冒。杨杨神色一紧。",
+        "乔家，英子想跟妈说话；宋倩把汤留在锅里，称有事出门，冷处理按剧本执行——管温饱，不多问。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这个杨杨被做成恶搞图片的事——他后边还有一辆法拉利；听说这个事在他们学校已经传开了。」",
+          "en": "\"Yangyang's been turned into a meme—with a Ferrari behind him; it's already spreading at school.\""
+        },
+        {
+          "zh": "「我在开会呢——等回家再说；我现在正在开会，大家都在等着我呢。」",
+          "en": "\"I'm in a meeting—talk at home; everyone's waiting on me.\""
+        },
+        {
+          "zh": "「你回头多关心关心你妈妈——我刚才在医院碰见你妈了；反正她说她感冒了。」",
+          "en": "\"Look after your mom more—I ran into her at the hospital; she said it was just a cold.\""
+        },
+        {
+          "zh": "「汤在锅里啊——你吃你的吧，不用管我了。」",
+          "en": "\"Soup's on the stove—eat yours; don't worry about me.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "27:43–32:41",
+      "title": "季家对质·廉洁形象",
+      "body": [
+        "刘静晚归，季胜利急吼：陈书记发来的图你知不知道。她嫌当妈不是贴身保姆；杨杨进门被按住——同学开玩笑的表情包。车是刘铮借的，她早知情却没告诉丈夫；作者是方一凡，报复砸磊儿手机的旧账。",
+        "季胜利拔高到官员之子、上网即反面典型；杨杨吼「影响到您的廉洁形象了是吗」。刘静拉开两人，催孩子复习，又觉丈夫拎不清——图不是自家做的，却先一顿训；约定上楼找方圆说清楚。"
+      ],
+      "quotes": [
+        {
+          "zh": "「就是个表情包呗——这同学开玩笑做的。」",
+          "en": "\"It's just a meme—classmates made it as a joke.\""
+        },
+        {
+          "zh": "「这车刘铮的——借给杨杨开的。」",
+          "en": "\"The car is Liu Zheng's—he lent it to Yangyang.\""
+        },
+        {
+          "zh": "「你要知道你是个官员的儿子——这事要是传出去传到网上，我就是反面典型。」",
+          "en": "\"You're an official's son—if this hits the internet, I become the negative example.\""
+        },
+        {
+          "zh": "「我开车——是影响到您的光荣廉洁形象了是吗。」",
+          "en": "\"So me driving—tarnished your glorious clean image, is that it?\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "33:05–38:31",
+      "title": "上楼谈事·检查留证",
+      "body": [
+        "方圆当儿子回家，开门却是发小季胜利；热脸让座倒茶。凡凡吹嘘考出学霸感，要拉磊儿找英子借卷，磊儿陪去——大人终于能摊牌。季胜利亮出表情包：法拉利、开学打架那天、方一凡做的；陈书记已谈话，怕传到微博毁廉洁形象。",
+        "方案落地：明天考完请校长老师做人证，两孩当面道歉并写书面道歉信交学校留档，只在校内处理。方圆童文洁全面配合；季胜利承诺不给处分——高三经不起处分，就怕社会放大。"
+      ],
+      "quotes": [
+        {
+          "zh": "「关键是我这个身份特殊——你说这个要是传出去，比如说传到这个微博上，对我们家影响太大了。」",
+          "en": "\"The point is my position is sensitive—if this hits Weibo, the damage to our family is huge.\""
+        },
+        {
+          "zh": "「这车他舅舅的——他不是玩车的吗，做生意也有点钱。」",
+          "en": "\"The car is his uncle's—he's into cars and has some money from business.\""
+        },
+        {
+          "zh": "「我们把校长和老师请过来做个人证——让两个孩子面对面的道个歉，澄清一下；要让他们写个书面的道歉信交给学校留个档。」",
+          "en": "\"We'll bring the principal and teachers as witnesses—have the kids apologize face to face and write a formal letter for the school file.\""
+        },
+        {
+          "zh": "「这件事呢只能在校内处理——不能再发酵了；这个就不能到社会上了。」",
+          "en": "\"This stays inside the school—no more spreading; it must not go public.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "38:39–41:30",
+      "title": "代写检查·档案焦虑",
+      "body": [
+        "送走季胜利，方圆炸锅：儿子闲的没事做表情包给人添麻烦；发小真急了才上楼求人。童文洁先护犊：怪凡凡不如怪杨杨开法拉利招摇；又怕检查入档毁高考。方圆嘲她幼稚——中学生检查哪会进人事档案，档案得写多厚。",
+        "他钉死逻辑：校内双方承认、当面道歉、车不属季家，传播链才能掐断；检查他来写——这是强项，不占用凡凡明天考前时间。骂完仍催：赶紧写检查去。"
+      ],
+      "quotes": [
+        {
+          "zh": "「季胜利忙了一辈子就忙了这事——人家是仕途；你弄这么个事，你说他怎么跟人家解释。」",
+          "en": "\"Ji Shengli spent a lifetime building that career—and you pull this; how is he supposed to explain it?\""
+        },
+        {
+          "zh": "「关键是怎么传——人家传出去是什么就是什么；谁管辟谣的，都看传谣的。」",
+          "en": "\"What matters is how it spreads—whatever people pass on becomes the truth; nobody watches the clarification.\""
+        },
+        {
+          "zh": "「你听说过一中学生写个检查搁档案里的呀——那档案得写多厚啊。」",
+          "en": "\"Ever heard of a middle-schooler's self-criticism going into a personnel file?—How thick would that file be?\""
+        },
+        {
+          "zh": "「我写呀——怎么会让他写呢；这不我强项吗。」",
+          "en": "\"I'll write it—why would he?; that's my specialty.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "41:43–43:15",
+      "title": "不是闹着玩·明天校内了断",
+      "body": [
+        "季胜利按住还在复习英语的杨杨：表情包的事明天必须解决，复习先放一放。他强调：你不是孩子了，遇到这种事要严肃、要有敏感性；明天爸妈与方一凡父母当着老师的面正式处理。",
+        "杨杨刺一句：怎么说着说着就跑老师那儿去了，您不会还要请校长吧——父子刚缓的温度，又被「形象」与「程序」压回冰点。"
+      ],
+      "quotes": [
+        {
+          "zh": "「杨杨，你不是孩子了——遇到这种事情，你一定要严肃对待。」",
+          "en": "\"Yangyang, you're not a kid anymore—you have to take this seriously.\""
+        },
+        {
+          "zh": "「表情包的事情不是闹着玩的——你要有敏感性。」",
+          "en": "\"Meme stuff isn't a joke—you need political sensitivity.\""
+        },
+        {
+          "zh": "「明天我和你妈去学校——方一凡的爸爸妈妈也会去学校的；我们当着老师的面，把这个事情正式处理了。」",
+          "en": "\"Tomorrow your mom and I go to school—Fang Yifan's parents too; we'll settle this formally in front of the teachers.\""
+        },
+        {
+          "zh": "「怎么说着说着就跑老师那儿去了——您不会还要请校长吧。」",
+          "en": "\"How did this escalate to the teachers—you're not dragging the principal in too, are you?\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "传播",
+      "title": "玩笑一旦带身份符号，传播链会自动政治化",
+      "situation": "源自 S2·S4·S5·S7·S8 · 法拉利表情包从班级群烧到区委谈话。",
+      "advice": [
+        "涉及公职人员子女的图像，先问「脱离语境会被读成什么」，再决定是否二次传播。",
+        "校内澄清要快、要留书面闭环（道歉+存档），比事后辟谣更可控。",
+        "家长沟通优先一对一面谈，避免先在孩子面前升维到「反面典型」话术。"
+      ]
+    },
+    {
+      "tag": "职场",
+      "title": "暧昧交易没有安全出口，叶酸与升职都会变成把柄",
+      "situation": "源自 S1·S3 · 新老大点名样板；小金叶酸穿帮并逼雷蒙德离婚。",
+      "advice": [
+        "职场亲密关系与职级交换绑定时，任何快递、报销、默认地址都可能成为公开证据。",
+        "被降职后仍被当「报表样板」，要同步记录贡献归属，避免只剩助理人设。",
+        "面对「补偿换沉默」，先保全证据与离职路径，再谈情绪对峙。"
+      ]
+    },
+    {
+      "tag": "健康",
+      "title": "备考季的身体警报，不能用「假开会」长期顶替",
+      "situation": "源自 S2·S4·S6 · 李萌低血糖晕倒；刘静医院钼靶线谎称开会与感冒。",
+      "advice": [
+        "监考/冲刺日把进食写成硬任务，低血糖是流程事故不是小脾气。",
+        "重大检查结果未出前，至少向配偶同步「我在医院/在等报告」，减少电话误伤。",
+        "孩子已从第三方得知「医院偶遇」时，拖延解释会放大恐惧，短句真相优于完美故事。"
+      ]
+    },
+    {
+      "tag": "亲子",
+      "title": "问责要对准作者与传播，而不是先砸亲子信任",
+      "situation": "源自 S7·S9·S10 · 杨杨被训；方圆代写检查；明天校内了断。",
+      "advice": [
+        "先核实「谁做的、为何做、车归属」，再谈形象与处分，避免青红皂白一顿骂。",
+        "高考窗口期的书面材料，由家长承担文书、孩子承担当面道歉，减少无效消耗。",
+        "冷处理可以少问，但温饱与「我还在」的信号要留——汤在锅里也是一句话的温度。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "季胜利",
+      "role": "副区长 / 杨杨父亲",
+      "desc": "被陈书记敲法拉利表情包；上楼逼方家校内道歉留档，再按儿子谈敏感性。"
+    },
+    {
+      "name": "刘静",
+      "role": "天文馆副馆长",
+      "desc": "医院等查谎称开会与感冒；回家挡父子冲突，知情舅舅借车却未提前告知。"
+    },
+    {
+      "name": "季杨杨",
+      "role": "春风中学高三",
+      "desc": "表情包主角；怒怼廉洁形象话术，得知妈妈医院偶遇后神色一紧。"
+    },
+    {
+      "name": "方圆",
+      "role": "方一凡父亲",
+      "desc": "接待发小摊牌；承诺检查留证，骂儿子闲的害人并亲自代写检查。"
+    },
+    {
+      "name": "童文洁",
+      "role": "方一凡母亲",
+      "desc": "新老大会上被点名报表样板；担心检查入档，与方圆争「谁幼稚」。"
+    },
+    {
+      "name": "方一凡",
+      "role": "春风中学高三",
+      "desc": "表情包作者；吹嘘考场手感后出门借卷，成两家校内了断的当事人。"
+    },
+    {
+      "name": "小金",
+      "role": "财务副总监",
+      "desc": "叶酸快递穿帮；楼梯间向雷蒙德摊牌要离婚，被哄吓按住。"
+    },
+    {
+      "name": "潘帅",
+      "role": "基础班班主任",
+      "desc": "被李萌逼吃饭并收下表情包；送低血糖的她就医，告知杨杨见其母在医院。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "报表样板",
+      "desc": "雷蒙德空降点名童文洁报表为标准，又追问「助理十几年」——降职人设被当众钉死。"
+    },
+    {
+      "title": "叶酸与离婚",
+      "desc": "小金营养品穿帮后，向新老大摊牌「我想你离婚」；升职加薪瞬间变成把柄谈判。"
+    },
+    {
+      "title": "表情包上访",
+      "desc": "孙大夫→陈书记→季区长：法拉利图从班级群走完体制内提醒链。"
+    },
+    {
+      "title": "校内留档方案",
+      "desc": "考完请校长老师做人证，两孩道歉+书面检查，只许校内消化。"
+    },
+    {
+      "title": "代写检查",
+      "desc": "方圆认定中学生检查不会进人事档案，文书自己扛，孩子只出面。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "钼靶结果",
+      "desc": "刘静仍在医院线撒谎；杨杨已听到「医院偶遇」，真相拖延会在下一集引爆。"
+    },
+    {
+      "title": "小金与雷蒙德",
+      "desc": "离婚要价只被暂时按住；叶酸谣言与职级交易若再曝光，财务线将地震。"
+    },
+    {
+      "title": "校内了断日",
+      "desc": "书面检查与当面道歉能否掐断外传，取决于双方孩子是否配合、校方如何存档。"
+    },
+    {
+      "title": "父子再裂",
+      "desc": "杨杨把冲突读成「廉洁形象」羞辱；程序化处理若压过理解，缓和期易退回冷战。"
+    }
+  ]
+}
