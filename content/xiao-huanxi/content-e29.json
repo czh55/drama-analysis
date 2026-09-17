@@ -1,0 +1,425 @@
+{
+  "slug": "xiao-huanxi-e29",
+  "drama": "小欢喜",
+  "episode": "29",
+  "title": "二次穿刺·拥抱疗法",
+  "subtitle": "胜利夜闯病房得知钼靶4C；刘静坚持瞒杨杨、家长会优先；家长会否掉艺考、催冬令营；周一穿刺成功等病理；学生「认识自己」与拥抱疗法戳中原生家庭伤——英子阳台吐露故意答错与父亲远去。",
+  "meta": [
+    "2019 · 都市家庭",
+    "黄磊 / 海清 / 陶虹 / 沙溢",
+    "45 分钟",
+    "10 个场景",
+    "共 49 集"
+  ],
+  "overviewLead": "病房里隐瞒换成二次穿刺；教室里拥抱疗法把原生家庭的伤摊开——两边都是「为了孩子」，孩子却快喘不过气。",
+  "overview": "第 29 集接上夜闯医院。过了探视时间，胜利求护士放行：她生病一直瞒着我，我刚知道。刘静道歉不该瞒——钼靶结果 4C，恶性概率高，要住院做活检；第一次穿刺没中，周一还得再做。她说没出结果怕虚惊一场，又顾忌他工作特殊、结果出来前得考虑大局。胜利想陪床，她坚决反对：杨杨还在家，得先瞒着；周一是杨杨家长会，这次只是小手术，高考是大事，总分轻重缓急——你回去晚了杨杨就该怀疑。",
+  "overview2": "家长会。学校请社科院心理学教授讲精神压力与早恋：高考重要，但只占人生几十分之一，为这一年破坏亲子关系不值得。台下家长闲聊早恋、抑郁症个案；方圆童文洁已决定凡凡不上艺考——时间来不及、觉得他不是这块料，继续普通高考，老师尊重但提醒这是上一本的捷径。宋倩问英子有没有早恋，李萌让放心、多关注心理别太大压力；又问冬令营为何没报名——宋倩称支持、想在北京范围内选校，报名将截止，老师催她回去商量赶紧交表。胜利讲座中途借口出差溜走。",
+  "overview3": "胜利向陈书记请假：家里出事、爱人生病正在做穿刺。院长顺路探视，说第一次因肿块位置偏不好下针，已安排最好医生会诊微调。周一穿刺成功，病理约七天；刘静麻药未过，仍问杨杨家长会怎么办——胜利从讲座赶来，没单独找老师聊，下次再去。下午学校给学生开系列心理活动，主题「认识自己、减轻压力」，全年级一个不能缺席。",
+  "overview4": "活动一：大声报出自己与父母的名字。凡凡、杨杨、陶子、英子、磊儿、王一笛等围圈自我介绍，不少同学来自单亲或重组家庭，有人情绪异常甚至哭了。活动二「拥抱疗法」：抱左右队友超过三秒。心理老师点评：家庭安全感足的孩子介绍自豪、拥抱却一触即分；有创伤的孩子对外界善意反应强烈。凡凡察觉磊儿抱陶子不一样，疑他喜欢桃子；英子因爸妈离婚难受，凡凡用「两份零花钱」笨拙安慰，又吐槽自家爸妈不般配。宋倩买炸串辣椒酱「站在孩子角度」松绑，还拉文洁练习拥抱。英子对凡凡坦白：计划表把她勒到喘不过气，期中会的题故意写错；高三家里学校都没意思——她记得离婚后爸爸一件件搬家、楼下拖着行李箱越走越远，从那时起就知道他再也不会回来。",
+  "scenes": [
+    {
+      "id": "s1",
+      "num": "S1",
+      "time": "01:50–03:28",
+      "title": "夜闯二号病房",
+      "body": [
+        "过了探视时间，护士劝明天再来。胜利连声求情：他生病了一直瞒着我，我刚知道，今天就是来看看到底什么情况——承认自己是爱人。护士这才明白：刘女士一直说您在外地出差，让他抓紧时间、病房病人已休息。",
+        "病房里，刘静先道歉：这事不应该瞒着你。她说明已做钼靶检查，结果是 4C，恶性概率高，所以要住院做活检。"
+      ],
+      "quotes": [
+        {
+          "zh": "「他生病了一直瞒着我——我刚知道；我今天来了，就是来看看他到底什么情况。」",
+          "en": "\"She's been sick and hiding it from me—I just found out; I came today only to see how she really is.\""
+        },
+        {
+          "zh": "「刘女士一直跟我们说——您在外地出差。」",
+          "en": "\"Ms. Liu kept telling us—that you were away on a business trip.\""
+        },
+        {
+          "zh": "「我得跟你说对不起——这事我不应该瞒着你。」",
+          "en": "\"I have to say I'm sorry—I shouldn't have kept this from you.\""
+        },
+        {
+          "zh": "「已经做了钼靶的检查——结果是 4C；就是说，恶性的概率高。」",
+          "en": "\"I've already had the mammogram—result is 4C; meaning the chance of malignancy is high.\""
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "num": "S2",
+      "time": "03:28–07:00",
+      "title": "瞒杨杨·家长会优先",
+      "body": [
+        "胜利问为什么不告诉他。刘静说还没出结果，万一虚惊一场也让你们跟着难受；你工作那么特殊，结果出来前得考虑大局。她告知前两天第一次穿刺没中，周一还得做一次，劝他别那么大心理负担——还没做活检、还没结果。",
+        "护士要锁门，问是否陪床。胜利想留，刘静立刻拦住：杨杨还在家，咱们得先瞒着；你陪床他不就知道了。周一做手术你过来陪——她却说他糊涂了：周一是杨杨家长会，这次是小手术，杨杨高考是大事，总分轻重缓急；你回去晚了杨杨就该怀疑。胜利终于不陪床离开。走廊里护士感慨：可算来了，这都是为了孩子，她今年高考，就怕影响学习。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这不是还没出结果呢吗——万一是虚惊一场呢；也让你们跟着难受啊。」",
+          "en": "\"We don't have results yet—what if it's a false alarm? Why make you all suffer with me?\""
+        },
+        {
+          "zh": "「杨杨还在家呢——咱们得先瞒着杨杨；你要是在这儿陪床，他不就知道了吗。」",
+          "en": "\"Yangyang's still at home—we have to keep this from him first; if you stay overnight here, he'll know.\""
+        },
+        {
+          "zh": "「你糊涂了——周一是杨杨家长会；这次就是个小手术，杨杨高考是大事，总分个轻重缓急吧。」",
+          "en": "\"You're confused—Monday is Yangyang's parent meeting; this is a small procedure, his gaokao is the big thing—we have to prioritize.\""
+        },
+        {
+          "zh": "「这都是为了孩子——她今年高考，就怕影响了她学习。」",
+          "en": "\"It's all for the kid—she's taking the gaokao this year; she's afraid of affecting the studies.\""
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "num": "S3",
+      "time": "11:02–15:15",
+      "title": "家长会·减压与早恋",
+      "body": [
+        "学校从家校两边同步为孩子减压。老师说高三是六年中学生活压力最大的一年，不少孩子会用恋爱、抽烟喝酒甚至暴力等错误方式减压；恋爱不但耽误时间，到最后也几乎没有一段感情能善终。高考重要，但也只占人生几十分之一，为这一年破坏亲子关系很不值得。",
+        "社科院孙老师分享精神压力与早恋：社会快速发展、离婚率与单亲家庭等因素交织，青少年自杀率上升；恋爱本身美好，只是在特殊时段与高三任务冲突——家长怀着敌意去查，往往伤害亲子、加大彼此压力。"
+      ],
+      "quotes": [
+        {
+          "zh": "「高考这一年非常重要——但也才占了人生的几十分之一；为了这一年破坏亲子关系，也是很不值得的。」",
+          "en": "\"Senior-year exams matter a lot—but they're only a fraction of a life; wrecking the parent-child bond for one year isn't worth it.\""
+        },
+        {
+          "zh": "「有很多孩子会有一些过激的行为——会用一些错误的方式去减压；比如谈恋爱，比如抽烟、喝酒。」",
+          "en": "\"Many kids act out—they decompress the wrong way: dating, smoking, drinking.\""
+        },
+        {
+          "zh": "「恋爱本身是一件多么美好的事情——只不过是在特殊的时间段，与我们高三的学习任务发生了冲突。」",
+          "en": "\"Love itself is a beautiful thing—only that in this special stretch it collides with senior-year schoolwork.\""
+        },
+        {
+          "zh": "「往往这样的行为——会损伤你们之间的亲子关系，加大你们之间相互的压力。」",
+          "en": "\"That kind of policing—often damages the parent-child bond and piles pressure on both sides.\""
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "num": "S4",
+      "time": "15:15–19:09",
+      "title": "艺考作罢·冬令营催报",
+      "body": [
+        "家长席上闲聊讲座干货、抑郁症个案与早恋。方圆提起凡凡跟陶子那档子——不了了之；又夸陶子文静、学习好、长得漂亮。胜利说要出差，有急事得赶紧走，教师咨询也不去了。",
+        "文洁方圆找到老师：艺考的事考虑过了，还是算了——时间来不及，也觉得凡凡不太是这块料，继续普通高考。老师尊重家长意思，仍提醒这是能上一本院校的捷径，已十一月，最终去不去还是你们决定——两人连声不上了。宋倩问英子有没有早恋，李萌让放心；提醒多关注心理状况别太大压力。李萌又问冬令营为何没报名——宋倩称当然支持，只是还没选好北京范围内的学校；老师说报名马上截止，表现好还能冲自招，催她回去商量赶紧交表。"
+      ],
+      "quotes": [
+        {
+          "zh": "「就是觉得还是算了吧——因为凡凡吧，现在要准备，一个是时间上来不及；第二个我们就觉得，他真的不太是这块料。」",
+          "en": "\"We decided to drop it—for Fanfan, first there's no time; second we feel he's really not cut out for that track.\""
+        },
+        {
+          "zh": "「我们反正尊重家长的意思——这毕竟呢，确实是一个能上一本院校的捷径。」",
+          "en": "\"We respect the parents' choice—but it is, after all, a shortcut that can get a kid into a top-tier university.\""
+        },
+        {
+          "zh": "「英子呢表现得很好——您还是多关注一下他心理状况，别给他太大压力。」",
+          "en": "\"Yingzi's been doing well—please watch her mental state more, and don't pile on too much pressure.\""
+        },
+        {
+          "zh": "「这报名也马上截止了——您回去跟英子商量一下，如果要是参加的话，就赶紧把这报名表交上。」",
+          "en": "\"Registration closes soon—talk it over with Yingzi; if she's in, get the form in right away.\""
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "num": "S5",
+      "time": "19:55–21:46",
+      "title": "请假·院长过问",
+      "body": [
+        "胜利向陈书记汇报工作后请几天假：家里出事了，爱人生病，正在做穿刺。书记安慰，他道谢离开。",
+        "医院里院长顺路查房过来看：您也真是太低调了，怎么着也应该跟我打个招呼。他说第一次穿刺因位置有点偏不好下针，这次安排了最好的医生、做好术前会诊，位置稍微调整一下就可以，让胜利放心。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我想跟您说个事——我想请几天假；家里出事了，爱人生病了，正在做穿刺。」",
+          "en": "\"I need to tell you something—I'd like a few days off; there's a family emergency, my wife is ill and having a biopsy.\""
+        },
+        {
+          "zh": "「您也真是——有点太低调了；怎么着也应该跟我打个招呼。」",
+          "en": "\"You're really—a bit too low-key; you should've at least given me a heads-up.\""
+        },
+        {
+          "zh": "「她主要是这个肿块啊——这个位置有一点偏不好下针；所以这次呢，我们安排了最好的医生。」",
+          "en": "\"The mass—its position is a bit off, hard to needle; so this time we've assigned the best doctors.\""
+        },
+        {
+          "zh": "「也做好了术前的会诊——只要把这个位置稍微的调整一下就可以了。」",
+          "en": "\"We've done the pre-op consult—just a slight adjustment of the angle and we'll be fine.\""
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "num": "S6",
+      "time": "22:16–24:04",
+      "title": "穿刺成功·等病理",
+      "body": [
+        "穿刺很成功，病理标本已送检，结果一般需要七天左右。医生嘱咐穿刺部位二十四小时内保持清洁不要沾水，夫人体质不太好要注意增强营养。",
+        "刘静回病房，麻药劲还没过，没什么感觉。她仍惦记杨杨家长会怎么办——胜利说就从那边赶过来的；今天没碰到老师单独聊，下次再抽时间。讲座他听完了：高三压力大，家长教育要讲究方式方法，有些孩子压力太大出现精神问题。"
+      ],
+      "quotes": [
+        {
+          "zh": "「今天穿刺很成功——病理标本呢，我们已经送去做活检了；病理结果一般需要七天左右吧。」",
+          "en": "\"Today's biopsy went well—we've sent the pathology sample; results usually take about seven days.\""
+        },
+        {
+          "zh": "「都跟你说了嘛——就是个小手术；别过来吧。」",
+          "en": "\"I told you—it's just a small procedure; you didn't have to come.\""
+        },
+        {
+          "zh": "「杨杨家长会怎么办呢——我就从那边赶过来的；别操心了。」",
+          "en": "\"What about Yangyang's parent meeting—I rushed over from there; don't worry about it.\""
+        },
+        {
+          "zh": "「就说现在高三了——孩子这个压力一大，家长呢，教育要讲究方式方法。」",
+          "en": "\"They said now it's senior year—when kids are under heavy pressure, parents need better methods.\""
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "num": "S7",
+      "time": "24:04–26:24",
+      "title": "认识自己·必须参加",
+      "body": [
+        "下午放学，学校占用时间安排系列心理讲座，家长会已沟通过，要求每个同学必须参加，主题是认识自己、减轻压力。老师强调不能每天二十四小时闷着学习会出问题，得适当放松，不用写心得体会——写心得还叫放松吗。",
+        "有学生开玩笑提议改主题：如何在不影响学习的情况下促进和异性的关系——被呵斥严肃点。老师说自己也经历过高三，把父母当豺狼虎豹、家当万恶旧社会，但还得天天面对；认识家庭、互相交流也是解压。有人想把机会让给冲刺班——老师宣布全年级统一安排，一个都不能缺席。"
+      ],
+      "quotes": [
+        {
+          "zh": "「主题呢就是认识自己——减轻压力；希望你们都好好听，好好参与。」",
+          "en": "\"The theme is know yourself—ease the pressure; listen well and take part.\""
+        },
+        {
+          "zh": "「你们不能每天都二十四小时闷着学习——这样会出问题的啊；还是得适当地放松放松。」",
+          "en": "\"You can't bury yourselves in study twenty-four hours a day—you'll break; you need some real downtime.\""
+        },
+        {
+          "zh": "「如何在不影响学习的情况下——促进和异性的关系。」",
+          "en": "\"How to build better relationships with the opposite sex—without hurting your studies.\""
+        },
+        {
+          "zh": "「这次的活动——是全年级统一安排的，一个都不能缺席。」",
+          "en": "\"This activity—is for the whole grade; not one of you may skip.\""
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "num": "S8",
+      "time": "26:26–32:24",
+      "title": "自我介绍·拥抱疗法",
+      "body": [
+        "心理游戏：打乱班级，十人一组围圈，大声向同组介绍自己——例如报出父母的名字。老师提醒若发现队友异常反应，不要打扰、不要安慰，给他时间释放情绪。凡凡报方圆和童文洁，杨杨报刘静和季胜利，陶子、英子、磊儿、王一笛等依次开口；有人父母离婚、有人两对爸妈名字都记不住，现场情绪起伏。",
+        "第二项「拥抱疗法」：拥抱左右队友超过三秒，可减缓心率、降低血压、促进多巴胺。老师让排空杂念、坦然拥抱同性或异性队友。事后他点评：像方一凡家庭幸福、介绍自豪，拥抱却很短就弹开——缺啥补啥，家庭安全感已充足，对外界善意不那么饥渴；反过来，自我介绍时情绪异常甚至哭泣的同学，往往来自单亲、重组或由老人带大的家庭，原生伤害需长期修复，对外界善意会做出强烈呼应。"
+      ],
+      "quotes": [
+        {
+          "zh": "「我叫方一凡——是方圆和童文洁的儿子。」",
+          "en": "\"I'm Fang Yifan—son of Fang Yuan and Tong Wenjie.\""
+        },
+        {
+          "zh": "「我叫乔英子——我的妈妈是宋倩，我的爸爸是乔卫东。」",
+          "en": "\"I'm Qiao Yingzi—my mom is Song Qian, my dad is Qiao Weidong.\""
+        },
+        {
+          "zh": "「这个活动我们称之为拥抱疗法——它可以减缓心率，降低血压，释放有关快乐成分的多巴胺分泌。」",
+          "en": "\"We call this hug therapy—it can slow the heart rate, lower blood pressure, and release dopamine tied to feeling good.\""
+        },
+        {
+          "zh": "「缺啥补啥——他平常在生活中来自家庭的这种安全感已经很充足了，所以对外界释放出来的善意，他接得不是很积极。」",
+          "en": "\"You seek what you lack—his family already gives him plenty of security, so he doesn't reach hard for kindness from outside.\""
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "num": "S9",
+      "time": "32:39–35:33",
+      "title": "磊儿抱陶·原生之痛",
+      "body": [
+        "凡凡跟英子咬耳朵：磊儿今天抱桃子明显不一样，一夜一夜感觉到他可能喜欢桃子；又说自己还以为是桃子先……随即改口瞎说了。英子听完老师讲原生家庭，想到爸妈心里难受。凡凡问是不是因为离婚——说挺羡慕她有两份零花钱，爸一份妈一份，自己只有一份还挺适量。",
+        "英子不懂父母在一起有什么好，只会一起训、一起管。凡凡记得初中时曾跟爸妈说「要不你俩离婚吧」结果被打一顿；又吐槽爸在家没存在感、妈太强势，俩人不般配，离婚后爸也许会像乔叔叔那样对自己好——随即声明没人希望自己爸妈离婚，他决定不了，也不想这事；以后找女朋友不会找妈那样强势的人。"
+      ],
+      "quotes": [
+        {
+          "zh": "「这磊儿今天抱桃子的时候——明显感觉都不一样；我能隐隐约约地感觉到，他可能喜欢桃子。」",
+          "en": "\"When Lei'er hugged Taozi today—it clearly felt different; I can vaguely tell he might like her.\""
+        },
+        {
+          "zh": "「老师不是讲到原生家庭的影响吗——我也想到我爸妈，心里觉得有点难受。」",
+          "en": "\"Didn't the teacher talk about birth-family wounds—I thought of my parents and felt awful.\""
+        },
+        {
+          "zh": "「我挺羡慕你——因为你有两份零花钱；你爸给你，你妈给你，我呢就是我爸妈一起就给我一份。」",
+          "en": "\"I kind of envy you—you get two allowances; dad gives you one, mom gives you one, I only get one from both together.\""
+        },
+        {
+          "zh": "「没人希望自己爸妈离婚——我决定不了他们离不离婚，所以我也不想这事。」",
+          "en": "\"Nobody wants their parents to divorce—I can't decide for them, so I try not to think about it.\""
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "num": "S10",
+      "time": "35:40–40:35",
+      "title": "松绑炸串·阳台远去",
+      "body": [
+        "宋倩拎着辣椒酱、炸串、馅饼回家——英子爱吃，她闻着油味忍着也买了，说要站在孩子角度理解喜好。文洁仍嫌垃圾食品致胖高血压，宋倩说只要孩子高兴、英子够优秀吃点没事；又承认当妈知道孩子好与不好，听了讲座要给自己「松绑」，还拉文洁抱一下练表情。",
+        "英子对凡凡说：爸妈离婚后就没怎么再开心过；妈像变了个人，一门心思对她好，什么事都没她重要——可越对她好越有压力。家里有张计划表，从早到晚该干什么不能干什么都得严格执行，真的快喘不过气。期中那些题其实都会，知道答案是 A 却写下 B，妈辅导过的也不想写。凡凡插话别总想没意思，得想什么让你开心——英子说爸回来就挺开心，可见一面还要顾及妈的感受；她记得那套房子里的小床，记得离婚后爸一件件往外搬，从阳台看见他在楼下拉着行李箱越走越远、身体越来越小——从那时候就知道，他再也不会回来。"
+      ],
+      "quotes": [
+        {
+          "zh": "「让我站在孩子的角度去——理解他们的喜好啊；现在只要孩子高兴，让他吃点吧。」",
+          "en": "\"Let me stand in the kid's shoes—get what they like; as long as she's happy now, let her eat some.\""
+        },
+        {
+          "zh": "「可她越对我好——就越有压力你知道吗；我家里有张计划表，里边写了从早到晚我该干什么、我不能干什么。」",
+          "en": "\"But the nicer she is—the more pressure I feel; there's a schedule at home listing what I must and mustn't do from morning to night.\""
+        },
+        {
+          "zh": "「我这次期中考试吧——那些题其实我都会；我知道答案是 A，但我写下就是 B。」",
+          "en": "\"This midterm—I actually knew every question; I knew the answer was A, but I wrote B.\""
+        },
+        {
+          "zh": "「从阳台上看——看见他在楼底下拉着他的行李箱，越走越远，身体越来越小；从那时候，我就知道了——他再也不会回来。」",
+          "en": "\"From the balcony—I watched him downstairs pulling his suitcase, farther and farther, smaller and smaller; from then on I knew—he would never come back.\""
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "tag": "边界",
+      "title": "用「高考更大」压住病情告知，风险会转到孩子身上",
+      "situation": "源自 S1·S2 · 刘静坚持瞒杨杨、放弃陪床，把周一家长会排在二次穿刺之前。",
+      "advice": [
+        "医疗关键节点至少让一位能到场的成人知情，不要把「怕影响学习」当成唯一决策轴。",
+        "隐瞒若依赖「出差」叙事，家校活动与住院时间一旦重叠，穿帮与信任崩塌同步到来。",
+        "与孩子沟通可分阶段：先说住院检查，结果未出前不必渲染最坏，但不要彻底消失。"
+      ]
+    },
+    {
+      "tag": "亲子",
+      "title": "家长会听完减压，回家仍可能当场关掉孩子的路",
+      "situation": "源自 S3·S4 · 讲座强调亲子与早恋边界，文洁方圆随即否掉艺考；宋倩表面支持冬令营却仍锁在北京。",
+      "advice": [
+        "否决重要选项时，把「时间不够」和「不是这块料」分开说，后者最伤动机。",
+        "老师提醒的「捷径/截止」是信息，不是命令；回家先问孩子意愿，再谈地域边界。",
+        "听完减压课，先兑现一件可感知的松绑，再谈成绩与路径，否则讲座变成背景音。"
+      ]
+    },
+    {
+      "tag": "心理",
+      "title": "拥抱与自我介绍，会把藏着的家庭创伤公开化",
+      "situation": "源自 S7·S8·S9 · 强制心理活动中，单亲/重组家庭学生情绪外露；老师用「缺啥补啥」解读拥抱时长。",
+      "advice": [
+        "活动前向敏感学生做预告与退出选项，避免「一个都不能缺席」变成二次伤害。",
+        "同学间若出现哭泣，先保证不被围观解读，再私下一对一，而不是当场分析原生家庭。",
+        "家长听到「拥抱疗法」后，用稳定陪伴替代表演式拥抱练习，减少尴尬与压力。"
+      ]
+    },
+    {
+      "tag": "沟通",
+      "title": "故意答错与「没意思」，是窒息后的无声抗议",
+      "situation": "源自 S10 · 英子坦白计划表勒到喘不过气，期中会做却故意写错；阳台记忆定格父亲远去。",
+      "advice": [
+        "成绩骤降时先问「是不会还是不想」，再查知识漏洞；故意写错往往指向关系而非智商。",
+        "松绑从删减计划表条目开始，比买炸串更能证明「我听到了你的喘不过气」。",
+        "孩子提起离婚创伤时，少辩「我对你好你该开心」，多承认好与压力可以同时存在。"
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "name": "季胜利",
+      "role": "副区长 / 杨杨父亲",
+      "desc": "夜闯病房得知 4C 与二次穿刺；被劝回瞒杨杨并先开家长会；请假陪穿刺，讲座后赶回病房。"
+    },
+    {
+      "name": "刘静",
+      "role": "天文馆副馆长",
+      "desc": "道歉隐瞒，说明钼靶 4C、首次穿刺未中；坚持不陪床、家长会优先；周一穿刺成功仍惦记杨杨。"
+    },
+    {
+      "name": "童文洁",
+      "role": "方一凡母亲",
+      "desc": "家长会与方圆否掉艺考；听讲座后续与宋倩讨论松绑，对炸串仍嫌不健康。"
+    },
+    {
+      "name": "方圆",
+      "role": "方一凡父亲",
+      "desc": "家长会闲聊陶子与早恋旧事；与文洁向老师明确凡凡不上艺考、走普通高考。"
+    },
+    {
+      "name": "宋倩",
+      "role": "物理老师 / 英子母亲",
+      "desc": "问英子早恋与心理；冬令营未选定北京学校被催报名；买炸串自我松绑，拉文洁练拥抱。"
+    },
+    {
+      "name": "乔英子",
+      "role": "春风中学高三",
+      "desc": "心理活动报出离异父母；因原生家庭难受；向凡凡坦白计划表压力、故意答错与父亲远去记忆。"
+    },
+    {
+      "name": "方一凡",
+      "role": "春风中学高三",
+      "desc": "自我介绍自豪、拥抱偏短；察觉磊儿抱陶子异样；用零花钱玩笑安慰英子，听她说「什么都没意思」。"
+    },
+    {
+      "name": "季杨杨",
+      "role": "春风中学高三",
+      "desc": "仍被父母瞒着病情；家长会日父亲请假陪床；心理活动中报出刘静与季胜利的名字。"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "钼靶 4C",
+      "desc": "刘静坦白检查结果恶性概率高、首次穿刺未中；周一二次穿刺，坚持瞒杨杨并以家长会为先。"
+    },
+    {
+      "title": "艺考正式关掉",
+      "desc": "家长会后文洁方圆向老师明确：时间来不及、不是这块料，凡凡不上艺考，改走普通高考。"
+    },
+    {
+      "title": "冬令营催截止",
+      "desc": "李萌提醒报名将截止且利好自招；宋倩称支持却仍想锁在北京范围，答应回去商量交表。"
+    },
+    {
+      "title": "拥抱疗法",
+      "desc": "全年级强制「认识自己」：报父母名与三秒拥抱；老师用安全感解读拥抱长短，戳中单亲创伤。"
+    },
+    {
+      "title": "阳台行李箱",
+      "desc": "英子承认故意答错与计划表窒息；忆起离婚后父亲拖箱远去——从那时起知道他再也不会回来。"
+    }
+  ],
+  "foreshadows": [
+    {
+      "title": "病理七天",
+      "desc": "二次穿刺标本已送检，约一周出结果；是否告知杨杨、家庭如何撑过等待期成为下一爆点。"
+    },
+    {
+      "title": "冬令营未交表",
+      "desc": "截止将近，宋倩仍以北京框死选择；英子要南大的心与「松绑」承诺会否再次对撞。"
+    },
+    {
+      "title": "磊儿与陶子",
+      "desc": "凡凡察觉拥抱异样，怀疑磊儿喜欢桃子；高三心理活动会否把暗恋推到台前。"
+    },
+    {
+      "title": "故意答错",
+      "desc": "英子会做却写错，指向压抑而非能力；若只加压补习，抑郁风险会沿「什么都没意思」加深。"
+    }
+  ]
+}
